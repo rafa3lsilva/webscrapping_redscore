@@ -64,7 +64,8 @@ def raspar_links_dos_times_da_liga(liga_url):
     edge_options.add_argument("--log-level=3")
 
     try:
-        servico = EdgeService(EdgeChromiumDriverManager().install())
+        caminho_driver = "./msedgedriver.exe"
+        servico = EdgeService(executable_path=caminho_driver)
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
         print(f"Erro ao iniciar o WebDriver: {e}")
@@ -107,7 +108,8 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
     edge_options.add_argument("--log-level=3")
 
     try:
-        servico = EdgeService(EdgeChromiumDriverManager().install())
+        caminho_driver = "./msedgedriver.exe"
+        servico = EdgeService(executable_path=caminho_driver)
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
         print(f"Erro ao iniciar o WebDriver: {e}")

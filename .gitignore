@@ -1,10 +1,14 @@
 # Ignorar arquivos Python compilados
 *.pyc
-__pycache__/
+*__pycache__/
+*.pyc
 
 # Ignorar arquivos de ambiente
 .env
 .env.*
 
-.log
-.db
+# Ignorar ficheiros de log, banco de dados e executáveis
+# A mudança está aqui, com o asterisco no início
+*.log
+*.db
+*.exe
