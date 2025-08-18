@@ -43,3 +43,9 @@
 2025-08-18 11:07:25,109 [INFO] Exportado para CSV: dados_redscore.csv (3246 linhas).
 2025-08-18 11:07:25,110 [INFO] --- Fim da coleta ---
 2025-08-18 11:07:25,161 [INFO] Exportado para CSV: dados_redscore.csv (3246 linhas).
+2025-08-18 13:19:19,915 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 13:21:21,119 [INFO] Encontradas 375 equipes únicas.
+2025-08-18 13:49:33,971 [INFO] Foram encontrados 18155 jogos novos.
+2025-08-18 13:49:38,950 [INFO] Dados salvos no banco dados.db (5657 linhas).
+2025-08-18 13:49:39,050 [INFO] Exportado para CSV: dados_redscore.csv (5682 linhas).
+2025-08-18 13:49:39,051 [INFO] --- Fim da coleta ---

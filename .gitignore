@@ -5,3 +5,6 @@ __pycache__/
 # Ignorar arquivos de ambiente
 .env
 .env.*
+
+.log
+.db
