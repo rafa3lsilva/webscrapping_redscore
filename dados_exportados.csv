@@ -1,0 +1,607 @@
+Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Chute_Gol,A_Chute_Gol,H_Ataques,A_Ataques,H_Escanteios,A_Escanteios,Odd_H,Odd_D,Odd_A
+01-06-2025,Ceará,Atlético Mineiro,Brazil - Serie A,0,1,0,0,14,8,3,4,46,37,8,8,2.75,2.9,2.9
+01-06-2025,Corinthians,Vitória,Brazil - Serie A,0,0,0,0,12,6,3,2,55,22,8,3,1.7,3.25,5.75
+01-06-2025,Crb,Remo,Brazil - Serie B,2,0,1,0,15,21,4,11,45,40,5,5,2.05,3.1,4.0
+01-06-2025,Cruzeiro,Palmeiras,Brazil - Serie A,2,1,2,0,14,18,3,5,27,44,5,13,3.0,2.87,2.7
+01-06-2025,Flamengo,Fortaleza,Brazil - Serie A,5,0,1,0,16,11,13,3,30,40,2,4,1.38,4.75,8.5
+01-06-2025,Internacional,Fluminense,Brazil - Serie A,0,2,0,1,15,8,4,3,7,5,9,1,2.15,3.2,3.6
+01-06-2025,Juventude,Grêmio,Brazil - Serie A,0,2,0,2,14,18,5,9,51,37,5,7,3.2,3.25,2.3
+01-06-2025,Mirassol,Sport Recife,Brazil - Serie A,1,0,1,0,12,10,4,4,39,50,2,7,1.85,3.4,4.5
+01-06-2025,Operário Pr,Athletico Pr,Brazil - Serie B,2,2,2,1,13,9,4,4,31,36,1,1,2.37,2.9,3.3
+01-06-2025,Santos,Botafogo,Brazil - Serie A,0,1,0,0,17,12,4,3,44,60,5,4,2.0,3.1,3.9
+01-06-2025,Volta Redonda,América Mineiro,Brazil - Serie B,1,0,0,0,12,9,3,2,10,5,6,4,2.75,3.0,2.75
+01-08-2025,Operário Pr,Criciúma,Brazil - Serie B,1,0,0,0,14,6,3,0,57,24,8,3,2.0,3.2,4.0
+01-08-2025,Remo,Ferroviária,Brazil - Serie B,0,2,0,1,16,16,6,7,62,36,7,5,1.75,3.5,4.5
+01-09-2024,Juventude,Internacional,Brazil - Serie A,1,3,0,2,14,18,5,8,38,56,6,4,3.5,3.3,2.15
+01-11-2024,Fluminense,Grêmio,Brazil - Serie A,2,2,1,1,18,7,7,4,58,22,8,2,2.1,3.2,3.7
+01-12-2024,Athletico Pr,Fluminense,Brazil - Serie A,1,1,1,0,16,15,4,4,37,40,3,8,2.3,2.87,3.7
+01-12-2024,Bragantino,Cruzeiro,Brazil - Serie A,1,1,1,0,7,22,2,2,32,74,6,10,1.95,3.3,4.2
+01-12-2024,Flamengo,Internacional,Brazil - Serie A,3,2,3,0,17,12,10,6,44,38,6,4,1.9,3.4,4.33
+01-12-2024,Grêmio,São Paulo,Brazil - Serie A,2,1,2,0,16,7,8,2,46,40,10,6,2.3,3.1,3.3
+01-12-2024,Vitória,Fortaleza,Brazil - Serie A,2,0,2,0,19,11,8,2,20,46,7,8,2.2,3.2,3.4
+02-05-2025,Ferroviária,Coritiba,Brazil - Serie B,2,1,0,1,14,9,5,2,37,31,2,6,3.4,2.62,2.45
+02-05-2025,São Paulo,Fortaleza,Brazil - Serie A,0,0,0,0,14,17,4,1,38,43,5,13,1.83,3.2,5.25
+02-06-2025,Chapecoense,Amazonas,Brazil - Serie B,4,0,2,0,18,11,5,2,29,34,9,1,1.95,3.1,4.5
+02-06-2025,Paysandu,Criciúma,Brazil - Serie B,0,1,0,0,21,6,6,4,43,17,11,3,2.25,3.0,3.5
+02-08-2025,Amazonas,Goiás,Brazil - Serie B,2,2,1,2,10,10,3,5,49,20,1,4,3.5,3.0,2.25
+02-08-2025,Botafogo Sp,América Mineiro,Brazil - Serie B,2,1,1,1,11,13,3,6,21,34,1,6,3.1,3.2,2.37
+02-08-2025,Fluminense,Grêmio,Brazil - Serie A,1,0,1,0,9,9,1,0,49,45,6,4,1.85,3.3,4.5
+02-08-2025,Mirassol,Vasco Da Gama,Brazil - Serie A,3,2,0,0,13,11,4,6,44,49,4,4,1.8,3.3,5.0
+02-08-2025,Sport Recife,Bahia,Brazil - Serie A,0,0,0,0,5,14,1,2,35,49,3,6,3.2,3.1,2.3
+02-11-2024,Athletico Pr,Vitória,Brazil - Serie A,1,2,1,1,24,11,6,5,69,32,9,3,1.83,3.3,5.0
+02-11-2024,Bragantino,Cuiabá,Brazil - Serie A,0,0,0,0,18,7,4,1,89,22,11,5,1.7,3.4,6.0
+02-11-2024,Chapecoense,Novorizontino,Brazil - Serie B,0,2,0,1,11,11,4,2,56,28,8,7,3.1,2.8,2.62
+02-11-2024,Juventude,Fortaleza,Brazil - Serie A,0,3,0,2,17,11,6,4,49,23,5,3,2.45,3.2,3.0
+02-11-2024,Santos,Vila Nova,Brazil - Serie B,3,0,0,0,16,11,8,1,44,22,9,2,1.38,4.2,9.5
+03-05-2025,Bahia,Botafogo,Brazil - Serie A,1,0,1,0,9,16,2,4,40,45,3,3,1.95,3.4,4.0
+03-05-2025,Ceará,Vitória,Brazil - Serie A,1,0,0,0,18,12,8,3,40,24,3,3,2.3,2.8,3.75
+03-05-2025,Corinthians,Internacional,Brazil - Serie A,4,2,1,2,22,8,9,4,48,26,3,7,2.6,2.9,3.0
+03-05-2025,Fluminense,Sport Recife,Brazil - Serie A,2,1,0,1,20,11,8,5,88,32,10,6,1.72,3.5,5.25
+03-05-2025,Remo,Amazonas,Brazil - Serie B,1,0,1,0,14,17,3,3,30,32,3,7,1.9,3.25,4.1
+03-05-2025,Volta Redonda,Paysandu,Brazil - Serie B,1,0,0,0,25,12,7,0,10,2,8,3,1.95,3.2,3.9
+03-07-2025,Atlético Go,Crb,Brazil - Serie B,2,1,1,1,15,20,4,4,79,66,2,5,1.8,3.4,4.75
+03-08-2025,Athletico Pr,Paysandu,Brazil - Serie B,1,1,0,0,22,9,5,3,51,19,6,2,1.45,4.1,7.5
+03-08-2025,Atlético Mineiro,Bragantino,Brazil - Serie A,2,1,1,0,29,4,9,3,54,30,9,0,1.9,3.5,4.2
+03-08-2025,Botafogo,Cruzeiro,Brazil - Serie A,0,2,0,2,11,11,2,4,49,37,6,5,2.25,3.2,3.4
+03-08-2025,Ceará,Flamengo,Brazil - Serie A,1,1,0,1,9,14,4,4,23,46,3,7,5.25,3.6,1.7
+03-08-2025,Chapecoense,Crb,Brazil - Serie B,3,2,3,0,12,17,6,4,30,49,4,6,2.0,3.25,3.8
+03-08-2025,Corinthians,Fortaleza,Brazil - Serie A,1,1,0,1,18,8,5,3,77,20,5,3,2.0,3.1,4.2
+03-08-2025,Internacional,São Paulo,Brazil - Serie A,1,2,0,1,11,9,4,4,32,39,4,5,2.45,3.1,3.1
+03-08-2025,Novorizontino,Avaí,Brazil - Serie B,1,1,1,1,19,8,7,6,65,46,7,7,2.15,3.0,3.8
+03-08-2025,Vitória,Palmeiras,Brazil - Serie A,2,2,1,0,15,14,6,4,49,55,6,2,3.0,2.8,2.62
+03-09-2024,Guarani,Coritiba,Brazil - Serie B,2,1,1,0,16,7,3,2,38,48,9,7,2.6,2.7,3.1
+03-09-2024,Mirassol,América Mineiro,Brazil - Serie B,1,0,1,0,10,18,6,5,24,71,3,7,2.15,3.1,3.6
+03-10-2024,Criciúma,Atlético Go,Brazil - Serie A,2,0,1,0,17,14,5,3,47,57,7,6,1.83,3.5,4.2
+03-10-2024,Operário Pr,Chapecoense,Brazil - Serie B,3,2,1,1,23,4,9,3,86,17,9,2,1.8,3.1,5.25
+03-11-2024,Ceará,Avaí,Brazil - Serie B,2,0,0,0,11,5,5,2,46,22,7,2,1.4,4.2,9.0
+04-04-2025,Criciúma,Operário Pr,Brazil - Serie B,1,2,1,1,14,11,4,5,49,28,6,6,1.9,3.2,4.33
+04-04-2025,Goiás,Amazonas,Brazil - Serie B,1,0,1,0,14,7,2,2,47,21,8,2,1.66,3.7,5.0
+04-04-2025,Paysandu,Athletico Pr,Brazil - Serie B,1,2,1,1,12,9,2,3,46,53,5,0,2.5,3.2,2.8
+04-05-2025,Athletico Pr,Botafogo Sp,Brazil - Serie B,1,4,1,2,11,11,5,6,24,27,4,2,1.4,4.5,7.0
+04-05-2025,Atlético Go,Novorizontino,Brazil - Serie B,1,0,1,0,11,15,5,5,21,49,6,6,2.8,2.87,2.62
+04-05-2025,Chapecoense,Criciúma,Brazil - Serie B,2,1,1,1,16,12,5,3,28,43,2,6,2.55,3.0,2.8
+04-05-2025,Cruzeiro,Flamengo,Brazil - Serie A,2,1,1,1,17,6,11,4,65,63,6,5,4.75,3.2,1.85
+04-05-2025,Grêmio,Santos,Brazil - Serie A,1,0,0,0,8,13,3,1,31,56,3,6,2.25,3.1,3.4
+04-05-2025,Operário Pr,América Mineiro,Brazil - Serie B,1,0,1,0,16,10,4,3,16,6,5,4,2.4,2.9,3.1
+04-05-2025,Vasco Da Gama,Palmeiras,Brazil - Serie A,0,1,0,0,13,16,5,2,42,58,7,11,7.0,3.5,1.57
+04-06-2025,Botafogo,Ceará,Brazil - Serie A,3,2,1,0,16,9,10,3,25,4,6,0,1.53,3.75,7.0
+04-07-2025,Coritiba,Volta Redonda,Brazil - Serie B,2,0,2,0,11,17,5,7,17,38,3,5,1.61,3.25,6.0
+04-08-2025,Athletic Club,Atlético Go,Brazil - Serie B,1,1,1,1,16,12,6,4,36,41,4,5,2.0,3.0,4.1
+04-08-2025,Cuiabá,Volta Redonda,Brazil - Serie B,2,0,1,0,19,7,6,2,43,28,5,3,1.85,3.3,4.5
+04-08-2025,Santos,Juventude,Brazil - Serie A,3,1,2,1,19,20,8,10,41,38,3,8,1.38,4.75,7.5
+04-09-2024,Vila Nova,Crb,Brazil - Serie B,1,0,0,0,14,12,3,0,30,26,5,7,1.95,3.0,4.75
+04-10-2024,Amazonas,Novorizontino,Brazil - Serie B,1,0,0,0,7,13,2,2,27,39,4,6,2.75,2.87,2.8
+04-10-2024,América Mineiro,Coritiba,Brazil - Serie B,2,1,0,1,18,6,6,1,56,19,8,4,1.8,3.4,4.75
+04-10-2024,Crb,Paysandu,Brazil - Serie B,3,2,1,1,15,8,7,6,42,27,1,3,1.85,3.4,4.33
+04-11-2024,Ituano,Crb,Brazil - Serie B,1,2,1,1,16,17,6,9,39,34,7,7,2.25,3.1,3.4
+04-11-2024,Operário Pr,Sport Recife,Brazil - Serie B,2,1,0,1,26,11,9,4,48,21,10,2,3.6,3.0,2.15
+04-11-2024,Ponte Preta,Paysandu,Brazil - Serie B,1,2,1,1,8,18,2,4,34,42,6,6,2.35,3.2,3.1
+04-12-2024,Atlético Go,Fortaleza,Brazil - Serie A,3,1,1,1,27,12,10,4,50,34,5,3,2.6,3.2,2.9
+04-12-2024,Criciúma,Flamengo,Brazil - Serie A,0,3,0,1,16,12,4,7,54,45,7,3,3.1,3.6,2.2
+04-12-2024,Cruzeiro,Palmeiras,Brazil - Serie A,1,2,0,0,9,31,3,12,38,68,7,6,4.0,3.4,1.95
+04-12-2024,Internacional,Botafogo,Brazil - Serie A,0,1,0,1,14,2,6,1,81,14,10,1,2.7,3.25,2.62
+04-12-2024,São Paulo,Juventude,Brazil - Serie A,1,2,0,0,10,13,2,7,66,17,12,2,1.66,3.75,5.25
+04-12-2024,Vasco Da Gama,Atlético Mineiro,Brazil - Serie A,2,0,0,0,11,11,4,3,55,37,3,6,3.0,2.87,2.7
+04-12-2024,Vitória,Grêmio,Brazil - Serie A,1,1,0,1,25,7,5,2,57,20,7,1,2.55,3.1,2.9
+05-04-2025,América Mineiro,Botafogo Sp,Brazil - Serie B,1,0,0,0,16,10,4,1,62,37,2,8,1.66,3.6,5.25
+05-04-2025,Botafogo,Juventude,Brazil - Serie A,2,0,1,0,16,14,6,3,46,34,3,3,1.38,4.5,8.5
+05-04-2025,Ceará,Grêmio,Brazil - Serie A,2,0,1,0,12,12,6,3,27,52,3,10,2.1,3.25,3.75
+05-04-2025,Corinthians,Vasco Da Gama,Brazil - Serie A,3,0,2,0,6,10,3,3,35,34,1,4,1.57,4.1,5.75
+05-04-2025,Coritiba,Vila Nova,Brazil - Serie B,1,0,0,0,13,6,2,0,51,15,11,1,1.83,3.5,4.33
+05-04-2025,Crb,Chapecoense,Brazil - Serie B,1,0,1,0,13,23,8,12,27,61,3,6,1.85,3.4,4.33
+05-05-2025,Bragantino,Mirassol,Brazil - Serie A,1,0,0,0,15,12,4,3,56,56,4,4,1.8,3.3,5.0
+05-05-2025,Juventude,Atlético Mineiro,Brazil - Serie A,0,1,0,1,13,26,6,7,27,17,3,5,3.4,3.2,2.25
+05-06-2025,Botafogo Sp,Coritiba,Brazil - Serie B,0,0,0,0,7,9,3,4,8,15,3,8,3.3,2.87,2.4
+05-07-2025,Amazonas,Athletico Pr,Brazil - Serie B,0,1,0,1,9,15,1,4,27,35,3,5,3.6,3.0,2.2
+05-07-2025,Avaí,Paysandu,Brazil - Serie B,0,0,0,0,18,3,5,1,75,18,2,1,1.7,3.5,4.5
+05-07-2025,Remo,Cuiabá,Brazil - Serie B,0,0,0,0,10,8,4,3,28,24,7,5,2.25,3.1,3.3
+05-09-2024,Cuiabá,Juventude,Brazil - Serie A,0,0,0,0,12,9,3,3,39,33,3,3,2.1,3.3,3.6
+05-10-2024,Bragantino,Palmeiras,Brazil - Serie A,0,0,0,0,17,14,5,5,42,38,1,3,4.33,3.6,1.83
+05-10-2024,Cuiabá,São Paulo,Brazil - Serie A,2,0,2,0,7,12,3,3,18,79,3,7,3.7,2.87,2.3
+05-10-2024,Vasco Da Gama,Juventude,Brazil - Serie A,1,1,1,1,16,17,3,5,46,43,3,6,1.75,3.6,5.0
+05-11-2024,Amazonas,América Mineiro,Brazil - Serie B,1,0,0,0,12,14,2,5,27,41,4,6,3.25,3.1,2.3
+05-11-2024,Brusque,Botafogo Sp,Brazil - Serie B,0,1,0,0,15,18,4,5,53,33,4,5,2.05,3.1,4.0
+05-11-2024,Internacional,Criciúma,Brazil - Serie A,2,0,1,0,20,5,9,4,92,15,7,3,1.36,5.0,8.0
+05-11-2024,Mirassol,Coritiba,Brazil - Serie B,4,1,2,1,16,9,8,5,19,26,5,7,1.8,3.4,4.75
+05-12-2024,Athletico Pr,Bragantino,Brazil - Serie A,1,2,0,1,22,13,7,4,61,24,6,5,2.1,3.2,3.75
+05-12-2024,Fluminense,Cuiabá,Brazil - Serie A,1,0,0,0,24,3,6,3,63,20,10,3,1.38,4.5,9.0
+06-04-2025,Atlético Mineiro,São Paulo,Brazil - Serie A,0,0,0,0,25,6,6,4,58,29,12,4,2.0,3.1,4.33
+06-04-2025,Avaí,Novorizontino,Brazil - Serie B,1,1,1,1,13,15,4,3,37,49,4,6,2.5,3.0,3.0
+06-04-2025,Ferroviária,Remo,Brazil - Serie B,1,1,0,1,28,9,8,3,37,27,11,7,2.0,3.3,3.9
+06-04-2025,Fluminense,Bragantino,Brazil - Serie A,2,1,1,0,15,17,5,5,42,46,6,6,1.8,3.4,5.0
+06-04-2025,Internacional,Cruzeiro,Brazil - Serie A,3,0,2,0,24,6,11,1,84,21,9,2,1.6,3.6,6.5
+06-04-2025,Mirassol,Fortaleza,Brazil - Serie A,1,1,0,1,20,7,5,3,78,24,8,1,2.3,3.0,3.5
+06-04-2025,Santos,Bahia,Brazil - Serie A,2,2,0,1,22,10,6,3,72,44,9,3,2.1,3.1,3.9
+06-04-2025,Sport Recife,Palmeiras,Brazil - Serie A,1,2,1,1,9,7,2,4,42,25,6,3,3.1,2.9,2.55
+06-04-2025,Vitória,Flamengo,Brazil - Serie A,1,2,0,0,5,14,3,7,16,64,2,6,5.25,3.3,1.8
+06-04-2025,Volta Redonda,Cuiabá,Brazil - Serie B,0,1,0,1,17,16,2,6,63,39,4,6,2.35,3.0,3.25
+06-05-2025,Athletic Club,Vila Nova,Brazil - Serie B,0,1,0,0,15,10,1,6,72,32,5,2,2.62,3.0,2.9
+06-05-2025,Crb,Cuiabá,Brazil - Serie B,1,1,1,1,13,16,6,8,30,27,6,8,2.4,2.8,3.5
+06-06-2025,Cuiabá,Paysandu,Brazil - Serie B,1,0,0,0,21,8,6,3,51,15,9,3,1.65,3.5,5.5
+06-06-2025,Novorizontino,Chapecoense,Brazil - Serie B,1,0,0,0,11,11,4,3,33,24,5,0,1.66,3.6,5.25
+06-07-2025,Botafogo Sp,Novorizontino,Brazil - Serie B,0,0,0,0,18,4,6,2,32,29,8,2,3.2,2.62,2.75
+06-07-2025,Ferroviária,Vila Nova,Brazil - Serie B,1,3,1,1,16,15,3,9,62,32,7,8,2.25,2.8,3.4
+06-11-2024,Atlético Go,Atlético Mineiro,Brazil - Serie A,1,0,0,0,13,12,3,5,43,48,4,7,2.3,3.1,3.3
+06-11-2024,Cruzeiro,Flamengo,Brazil - Serie A,0,1,0,0,15,10,5,3,52,43,7,4,2.55,3.0,2.9
+07-04-2025,Atlético Go,Athletic Club,Brazil - Serie B,4,2,1,1,14,8,8,2,53,37,7,4,1.85,3.25,4.5
+07-06-2025,América Mineiro,Ferroviária,Brazil - Serie B,1,2,1,0,14,14,4,6,59,40,9,3,1.66,3.4,5.75
+07-06-2025,Avaí,Crb,Brazil - Serie B,1,0,0,0,14,13,6,2,20,13,6,8,1.75,3.6,4.5
+07-07-2025,América Mineiro,Athletic Club,Brazil - Serie B,0,1,0,1,19,12,1,6,43,49,8,9,1.95,3.25,4.0
+07-07-2025,Operário Pr,Chapecoense,Brazil - Serie B,1,2,1,0,19,12,7,6,33,43,1,2,1.75,3.2,5.5
+07-09-2024,Brusque,Santos,Brazil - Serie B,0,1,0,1,8,10,2,3,29,53,1,3,5.25,3.5,1.7
+07-10-2024,Goiás,Santos,Brazil - Serie B,3,1,2,1,14,14,9,6,26,44,2,11,2.9,3.0,2.6
+07-10-2024,Sport Recife,Ceará,Brazil - Serie B,2,1,0,0,14,15,3,3,31,47,4,6,1.83,3.25,4.5
+08-05-2025,Athletico Pr,Chapecoense,Brazil - Serie B,1,1,0,0,23,9,8,5,46,17,10,1,1.53,3.9,6.5
+08-06-2025,Athletico Pr,Atlético Go,Brazil - Serie B,0,1,0,1,18,9,1,4,43,33,5,2,1.8,3.4,4.75
+08-06-2025,Goiás,Volta Redonda,Brazil - Serie B,2,0,1,0,13,23,6,4,13,11,2,6,1.85,3.2,4.75
+08-06-2025,Remo,Operário Pr,Brazil - Serie B,2,1,0,0,16,16,3,5,31,34,6,0,2.2,3.0,3.6
+08-07-2025,Goiás,Criciúma,Brazil - Serie B,1,1,0,1,12,14,3,2,51,21,8,6,1.72,3.4,5.0
+08-08-2025,Coritiba,Chapecoense,Brazil - Serie B,0,0,0,0,16,8,5,0,35,13,4,3,1.8,3.2,5.25
+08-08-2025,Ferroviária,Amazonas,Brazil - Serie B,2,1,1,0,12,9,4,3,44,21,9,1,2.1,3.0,3.7
+08-09-2024,América Mineiro,Guarani,Brazil - Serie B,3,0,2,0,10,10,6,1,28,33,1,11,1.9,3.25,4.75
+08-09-2024,Coritiba,Novorizontino,Brazil - Serie B,2,2,1,1,18,9,11,6,30,43,8,5,2.1,2.8,4.33
+08-11-2024,Internacional,Fluminense,Brazil - Serie A,2,0,0,0,16,9,7,2,63,51,4,4,1.48,4.2,7.0
+08-11-2024,Palmeiras,Grêmio,Brazil - Serie A,1,0,0,0,33,6,14,1,94,34,14,1,1.38,5.25,7.0
+08-12-2024,Atlético Mineiro,Athletico Pr,Brazil - Serie A,1,0,0,0,14,7,7,4,46,31,5,4,2.05,3.1,4.0
+08-12-2024,Bahia,Atlético Go,Brazil - Serie A,2,0,1,0,17,13,5,2,42,40,4,5,1.42,4.75,7.0
+08-12-2024,Botafogo,São Paulo,Brazil - Serie A,2,1,1,0,17,5,8,1,53,9,3,0,1.27,5.0,13.0
+08-12-2024,Bragantino,Criciúma,Brazil - Serie A,5,1,2,1,18,7,8,4,47,31,6,8,1.4,4.75,7.5
+08-12-2024,Cuiabá,Vasco Da Gama,Brazil - Serie A,1,2,1,2,11,11,4,4,27,38,2,5,3.6,3.2,2.2
+08-12-2024,Flamengo,Vitória,Brazil - Serie A,2,2,0,1,23,12,4,5,79,23,6,4,1.36,5.0,8.0
+08-12-2024,Fortaleza,Internacional,Brazil - Serie A,3,0,2,0,10,11,5,1,31,37,4,3,2.6,3.2,2.87
+08-12-2024,Grêmio,Corinthians,Brazil - Serie A,0,3,0,1,18,19,5,6,45,43,6,7,2.62,3.4,2.62
+08-12-2024,Juventude,Cruzeiro,Brazil - Serie A,0,1,0,1,21,8,7,1,65,22,8,1,2.1,3.4,3.5
+08-12-2024,Palmeiras,Fluminense,Brazil - Serie A,0,1,0,1,11,7,3,5,48,32,11,2,1.48,4.33,7.0
+09-06-2025,Amazonas,Athletic Club,Brazil - Serie B,1,0,0,0,9,12,5,2,22,32,2,8,2.15,3.1,3.6
+09-06-2025,Criciúma,Vila Nova,Brazil - Serie B,1,0,0,0,20,12,7,0,36,27,16,3,2.4,2.87,3.3
+09-08-2025,América Mineiro,Remo,Brazil - Serie B,0,1,0,1,17,7,7,2,58,31,9,3,1.66,3.6,5.25
+09-08-2025,Bahia,Fluminense,Brazil - Serie A,3,3,2,1,17,8,6,5,68,17,8,2,1.65,3.6,5.75
+09-08-2025,Bragantino,Internacional,Brazil - Serie A,1,3,0,2,17,14,8,6,45,48,8,6,2.8,3.1,2.62
+09-08-2025,Flamengo,Mirassol,Brazil - Serie A,2,1,1,0,24,13,8,5,83,70,11,10,1.36,4.75,8.0
+09-08-2025,Fortaleza,Botafogo,Brazil - Serie A,0,5,0,2,9,21,1,12,26,46,2,8,2.6,3.0,3.0
+09-08-2025,Goiás,Operário Pr,Brazil - Serie B,2,1,1,1,12,15,3,1,21,41,4,3,1.83,3.2,4.75
+09-08-2025,São Paulo,Vitória,Brazil - Serie A,2,0,1,0,23,5,3,1,34,32,4,3,1.7,3.5,5.75
+09-08-2025,Volta Redonda,Novorizontino,Brazil - Serie B,0,0,0,0,15,5,6,3,34,33,11,4,2.5,2.9,3.1
+09-10-2024,Paysandu,Chapecoense,Brazil - Serie B,2,0,1,0,11,20,5,8,34,55,4,6,1.57,3.8,6.5
+09-11-2024,Atlético Go,Bragantino,Brazil - Serie A,0,0,0,0,10,17,4,7,44,69,7,6,2.6,3.4,2.62
+09-11-2024,Botafogo,Cuiabá,Brazil - Serie A,0,0,0,0,28,4,5,2,102,14,8,1,1.22,5.75,15.0
+09-11-2024,Crb,Goiás,Brazil - Serie B,0,1,0,0,15,10,1,4,52,35,8,3,2.25,2.87,3.5
+09-11-2024,Cruzeiro,Criciúma,Brazil - Serie A,2,1,1,0,26,12,9,7,31,36,6,5,1.61,3.75,6.0
+09-11-2024,Juventude,Bahia,Brazil - Serie A,2,1,0,1,20,8,8,3,44,48,7,2,2.45,3.5,2.8
+09-11-2024,Novorizontino,Operário Pr,Brazil - Serie B,0,1,0,0,21,8,5,4,71,33,4,4,1.66,3.3,6.25
+09-11-2024,São Paulo,Athletico Pr,Brazil - Serie A,2,1,0,0,10,9,3,3,35,34,5,6,1.55,3.9,6.5
+10-04-2025,Athletico Pr,Criciúma,Brazil - Serie B,2,1,1,0,15,7,7,2,22,40,7,2,1.72,3.4,5.0
+10-04-2025,Cuiabá,Avaí,Brazil - Serie B,2,2,1,0,16,9,3,2,29,54,7,5,2.1,2.8,4.2
+10-05-2025,Avaí,Atlético Go,Brazil - Serie B,0,0,0,0,19,11,5,3,55,31,6,4,1.95,3.6,3.6
+10-05-2025,Flamengo,Bahia,Brazil - Serie A,1,0,1,0,14,6,5,2,36,13,8,2,1.4,4.5,8.5
+10-05-2025,Fortaleza,Juventude,Brazil - Serie A,5,0,1,0,20,4,13,1,17,32,5,4,1.57,3.9,6.25
+10-05-2025,Goiás,Coritiba,Brazil - Serie B,1,0,0,0,18,7,4,1,58,29,5,7,2.3,2.8,3.75
+10-05-2025,Grêmio,Bragantino,Brazil - Serie A,1,1,0,0,16,11,3,3,25,57,6,4,2.7,3.1,2.75
+10-05-2025,Mirassol,Corinthians,Brazil - Serie A,2,1,0,1,14,10,5,3,24,37,4,5,2.87,2.9,2.75
+10-05-2025,Vitória,Vasco Da Gama,Brazil - Serie A,2,1,0,1,12,16,4,5,39,75,6,3,1.95,3.4,4.1
+10-07-2025,Crb,Coritiba,Brazil - Serie B,0,1,0,0,30,6,10,3,87,27,10,2,2.3,3.0,3.4
+10-08-2025,Atlético Go,Botafogo Sp,Brazil - Serie B,2,0,0,0,25,6,7,2,70,26,5,5,1.65,3.5,5.75
+10-08-2025,Avaí,Cuiabá,Brazil - Serie B,2,0,2,0,9,21,5,5,23,55,1,10,2.05,3.1,3.8
+10-08-2025,Cruzeiro,Santos,Brazil - Serie A,1,2,1,0,19,9,4,2,76,21,15,3,1.53,4.2,6.0
+10-08-2025,Grêmio,Sport Recife,Brazil - Serie A,0,1,0,0,14,11,6,3,33,52,3,2,1.75,3.4,4.33
+10-08-2025,Palmeiras,Ceará,Brazil - Serie A,2,1,0,0,8,7,5,4,44,28,3,3,1.38,4.5,9.0
+10-08-2025,Vasco Da Gama,Atlético Mineiro,Brazil - Serie A,1,1,1,1,15,17,4,4,32,50,6,10,2.8,2.9,2.8
+10-11-2024,Sport Recife,Chapecoense,Brazil - Serie B,1,1,0,0,23,4,3,2,72,22,8,0,1.36,4.5,9.0
+11-05-2025,Atlético Mineiro,Fluminense,Brazil - Serie A,3,2,0,0,14,5,5,2,48,28,10,0,1.9,3.2,4.5
+11-05-2025,Botafogo,Internacional,Brazil - Serie A,4,0,2,0,12,19,6,5,12,23,2,7,1.66,3.5,5.75
+11-05-2025,Criciúma,Volta Redonda,Brazil - Serie B,0,0,0,0,20,16,5,6,41,43,10,5,2.05,3.1,3.9
+11-05-2025,Cuiabá,Operário Pr,Brazil - Serie B,2,3,0,2,15,8,7,4,44,25,6,3,1.9,3.1,4.33
+11-05-2025,Novorizontino,Ferroviária,Brazil - Serie B,2,2,1,1,16,14,4,4,53,29,8,2,1.61,3.4,6.5
+11-05-2025,Palmeiras,São Paulo,Brazil - Serie A,1,0,0,0,17,6,4,2,64,27,10,1,1.72,3.4,5.5
+11-05-2025,Sport Recife,Cruzeiro,Brazil - Serie A,0,4,0,3,11,17,4,6,55,29,7,4,2.45,3.0,3.1
+11-07-2025,Vila Nova,Operário Pr,Brazil - Serie B,0,0,0,0,10,6,5,3,51,27,5,0,1.9,3.1,4.5
+11-08-2025,Criciúma,Athletico Pr,Brazil - Serie B,4,2,1,2,19,7,9,3,34,22,4,5,2.62,3.0,2.8
+11-08-2025,Juventude,Corinthians,Brazil - Serie A,2,1,1,0,12,11,4,3,32,39,3,2,4.1,3.2,1.95
+11-08-2025,Paysandu,Vila Nova,Brazil - Serie B,0,1,0,0,10,6,1,2,48,27,9,5,2.15,3.0,3.8
+11-09-2024,Crb,Sport Recife,Brazil - Serie B,1,1,1,0,7,16,5,5,18,38,1,5,3.0,2.9,2.5
+11-10-2024,Avaí,América Mineiro,Brazil - Serie B,2,2,1,2,18,9,3,6,70,35,7,5,2.87,2.8,2.8
+11-10-2024,Novorizontino,Sport Recife,Brazil - Serie B,1,3,0,2,20,8,6,7,45,35,6,5,2.4,2.75,3.4
+11-11-2024,Coritiba,Santos,Brazil - Serie B,0,2,0,2,16,10,4,4,51,26,9,4,3.75,3.0,2.2
+11-11-2024,Paysandu,Brusque,Brazil - Serie B,1,0,0,0,19,15,10,2,62,30,11,4,1.53,4.0,6.5
+11-11-2024,Vila Nova,Ponte Preta,Brazil - Serie B,2,1,1,1,16,15,5,3,31,68,5,6,1.95,3.2,4.2
+12-04-2025,Amazonas,Ferroviária,Brazil - Serie B,0,0,0,0,16,9,7,1,52,26,6,2,2.1,2.9,3.9
+12-04-2025,Bragantino,Botafogo,Brazil - Serie A,1,0,1,0,11,12,4,2,43,48,3,8,3.1,3.1,2.45
+12-04-2025,Chapecoense,Coritiba,Brazil - Serie B,1,2,0,0,24,14,6,4,44,25,7,4,2.6,2.87,3.0
+12-04-2025,Juventude,Ceará,Brazil - Serie A,2,1,1,1,17,8,3,2,42,25,4,3,2.25,3.2,3.5
+12-04-2025,Novorizontino,Volta Redonda,Brazil - Serie B,1,0,0,0,20,4,6,0,47,16,6,1,1.57,3.7,6.0
+12-04-2025,Operário Pr,Goiás,Brazil - Serie B,1,2,0,0,12,6,1,3,37,36,7,7,2.75,2.62,3.1
+12-04-2025,Palmeiras,Corinthians,Brazil - Serie A,2,0,2,0,13,8,5,1,37,46,1,3,1.75,3.5,5.0
+12-04-2025,Vasco Da Gama,Sport Recife,Brazil - Serie A,3,1,2,0,10,18,6,2,28,62,1,10,1.9,3.4,4.2
+12-04-2025,Vila Nova,Paysandu,Brazil - Serie B,1,0,1,0,13,13,4,3,40,37,4,5,2.1,2.9,4.0
+12-05-2025,Amazonas,Crb,Brazil - Serie B,1,1,1,0,16,15,4,6,28,73,7,17,2.2,3.2,3.4
+12-05-2025,Botafogo Sp,Athletic Club,Brazil - Serie B,0,3,0,2,10,11,2,4,55,23,7,6,2.15,3.2,3.5
+12-05-2025,Santos,Ceará,Brazil - Serie A,0,0,0,0,14,13,1,6,25,12,9,6,2.35,3.0,3.4
+12-06-2025,Atlético Mineiro,Internacional,Brazil - Serie A,2,0,1,0,13,10,4,2,39,36,6,5,1.85,3.3,4.5
+12-06-2025,Bragantino,Bahia,Brazil - Serie A,0,3,0,2,9,14,2,5,37,76,4,1,2.25,3.1,3.5
+12-06-2025,Fortaleza,Santos,Brazil - Serie A,2,3,0,2,32,8,10,3,58,11,15,0,2.25,3.2,3.3
+12-06-2025,Grêmio,Corinthians,Brazil - Serie A,1,1,1,1,16,12,6,3,12,16,4,6,2.3,2.87,3.6
+12-06-2025,São Paulo,Vasco Da Gama,Brazil - Serie A,1,3,0,2,11,14,3,9,37,28,4,3,1.9,3.1,4.75
+12-06-2025,Vitória,Cruzeiro,Brazil - Serie A,0,0,0,0,9,18,2,2,52,46,9,4,3.4,3.1,2.3
+12-07-2025,Athletico Pr,Goiás,Brazil - Serie B,0,1,0,0,21,7,2,4,36,29,8,2,1.8,3.1,5.25
+12-07-2025,Bahia,Atlético Mineiro,Brazil - Serie A,2,1,0,0,18,10,5,2,66,43,4,7,2.1,3.0,3.9
+12-07-2025,Flamengo,São Paulo,Brazil - Serie A,2,0,0,0,22,6,10,0,78,30,7,1,1.45,4.0,8.0
+12-07-2025,Internacional,Vitória,Brazil - Serie A,1,0,0,0,20,11,3,4,69,26,2,5,1.53,3.7,7.5
+12-07-2025,Novorizontino,América Mineiro,Brazil - Serie B,3,1,1,1,19,17,5,7,42,31,2,3,2.15,2.9,3.9
+12-07-2025,Paysandu,Atlético Go,Brazil - Serie B,2,2,1,2,12,18,5,8,40,40,11,6,2.75,2.8,2.9
+12-07-2025,Vasco Da Gama,Botafogo,Brazil - Serie A,0,2,0,0,11,21,5,6,45,34,5,3,3.6,3.2,2.1
+12-08-2025,Crb,Athletic Club,Brazil - Serie B,1,0,0,0,20,6,6,3,64,48,8,4,1.95,3.4,3.8
+12-10-2024,Ceará,Ponte Preta,Brazil - Serie B,1,0,1,0,15,8,7,3,52,36,9,8,1.4,4.33,8.5
+12-10-2024,Santos,Mirassol,Brazil - Serie B,3,2,2,1,19,18,8,5,37,53,5,6,1.66,3.4,6.0
+12-11-2024,América Mineiro,Ituano,Brazil - Serie B,3,2,1,1,16,15,10,8,46,34,7,8,1.5,4.33,6.0
+12-11-2024,Botafogo Sp,Ceará,Brazil - Serie B,1,4,0,1,10,16,1,8,17,27,3,7,4.5,3.1,2.0
+12-11-2024,Guarani,Amazonas,Brazil - Serie B,0,0,0,0,15,12,9,2,39,23,8,3,1.9,3.2,4.33
+13-04-2025,Athletic Club,Crb,Brazil - Serie B,1,2,1,0,17,17,6,3,66,50,8,8,2.0,3.3,3.8
+13-04-2025,Atlético Mineiro,Vitória,Brazil - Serie A,2,2,0,0,34,9,10,4,67,22,16,3,1.55,3.7,6.5
+13-04-2025,Bahia,Mirassol,Brazil - Serie A,1,1,1,1,17,5,2,3,72,22,10,2,1.5,3.9,7.0
+13-04-2025,Botafogo Sp,Atlético Go,Brazil - Serie B,1,1,1,0,12,18,6,3,38,61,6,6,2.55,3.0,3.0
+13-04-2025,Fluminense,Santos,Brazil - Serie A,1,0,0,0,13,4,4,1,49,21,3,3,1.8,3.2,5.5
+13-04-2025,Fortaleza,Internacional,Brazil - Serie A,0,0,0,0,10,9,1,1,28,40,5,5,3.0,3.1,2.55
+13-04-2025,Grêmio,Flamengo,Brazil - Serie A,0,2,0,1,10,8,2,4,42,46,3,4,4.33,3.4,1.83
+13-04-2025,Remo,América Mineiro,Brazil - Serie B,2,0,1,0,12,15,3,7,22,64,2,6,2.62,3.0,2.9
+13-04-2025,São Paulo,Cruzeiro,Brazil - Serie A,1,1,0,0,11,15,2,2,35,32,4,6,1.85,3.0,5.25
+13-06-2025,Paysandu,Botafogo Sp,Brazil - Serie B,1,0,0,0,16,11,3,6,45,23,8,5,2.1,3.1,3.75
+13-06-2025,Vila Nova,América Mineiro,Brazil - Serie B,0,3,0,0,8,9,1,5,22,39,4,2,1.9,3.0,4.75
+13-07-2025,Chapecoense,Remo,Brazil - Serie B,1,1,0,0,14,10,8,3,18,36,6,4,1.95,3.2,4.0
+13-07-2025,Corinthians,Bragantino,Brazil - Serie A,1,2,0,1,13,9,8,5,67,34,10,2,1.9,3.2,4.5
+13-07-2025,Criciúma,Ferroviária,Brazil - Serie B,2,1,1,1,16,11,8,3,65,37,12,2,1.85,3.2,4.75
+13-07-2025,Cruzeiro,Grêmio,Brazil - Serie A,4,1,2,0,17,11,9,2,46,19,6,3,1.61,3.7,6.25
+13-07-2025,Fortaleza,Ceará,Brazil - Serie A,0,1,0,0,13,14,0,3,47,27,3,5,2.25,3.0,3.7
+13-10-2024,Coritiba,Amazonas,Brazil - Serie B,3,1,1,0,20,12,11,4,40,26,6,3,1.65,3.5,6.0
+14-05-2025,América Mineiro,Paysandu,Brazil - Serie B,2,2,0,0,15,10,4,4,36,21,7,5,1.5,4.1,6.5
+14-05-2025,Remo,Vila Nova,Brazil - Serie B,2,0,1,0,10,20,4,5,16,51,5,9,2.3,3.0,3.4
+14-06-2025,Athletic Club,Operário Pr,Brazil - Serie B,2,1,1,1,11,12,5,3,12,3,5,3,2.4,2.9,3.3
+14-06-2025,Athletico Pr,Remo,Brazil - Serie B,2,1,0,1,27,8,11,3,69,13,13,3,1.65,3.7,5.25
+14-06-2025,Crb,Goiás,Brazil - Serie B,2,0,1,0,17,18,4,6,30,61,1,8,2.15,3.1,3.6
+14-07-2025,Athletic Club,Avaí,Brazil - Serie B,4,0,2,0,9,9,7,0,47,38,5,7,2.15,3.0,3.8
+14-07-2025,Botafogo Sp,Volta Redonda,Brazil - Serie B,0,0,0,0,12,15,2,3,35,32,6,6,2.15,3.1,3.7
+14-07-2025,Juventude,Sport Recife,Brazil - Serie A,2,0,1,0,5,21,3,5,16,56,1,8,2.8,3.0,2.75
+14-08-2024,Internacional,Juventude,Brazil - Serie A,2,1,0,1,21,8,10,3,54,16,8,1,1.53,3.8,6.5
+14-08-2025,Novorizontino,Coritiba,Brazil - Serie B,1,2,0,1,18,9,3,4,50,30,4,6,2.4,2.55,3.9
+14-09-2024,Mirassol,Amazonas,Brazil - Serie B,0,0,0,0,10,15,3,3,47,46,4,5,1.72,3.2,6.0
+14-10-2024,Guarani,Crb,Brazil - Serie B,2,1,1,1,9,8,3,4,38,28,3,7,2.0,2.9,4.5
+15-04-2025,Ceará,Vasco Da Gama,Brazil - Serie A,2,1,1,0,11,11,2,3,29,41,1,2,2.25,3.1,3.5
+15-04-2025,Cuiabá,Athletico Pr,Brazil - Serie B,2,1,0,1,13,7,3,4,42,45,9,8,2.6,3.1,2.8
+15-05-2025,Ferroviária,Avaí,Brazil - Serie B,1,1,1,1,16,12,6,2,41,37,3,10,2.5,2.87,3.2
+15-06-2025,Atlético Go,Coritiba,Brazil - Serie B,0,0,0,0,18,11,4,2,46,22,4,7,2.25,2.9,3.6
+15-06-2025,Criciúma,Amazonas,Brazil - Serie B,3,2,1,1,20,10,11,3,6,12,5,3,1.57,3.7,6.25
+15-06-2025,Novorizontino,Cuiabá,Brazil - Serie B,3,0,1,0,14,18,6,9,21,45,2,4,2.3,2.75,3.7
+15-07-2025,Cuiabá,Amazonas,Brazil - Serie B,3,1,2,1,8,14,4,5,50,34,1,7,1.57,3.5,6.0
+15-08-2025,Amazonas,América Mineiro,Brazil - Serie B,2,2,1,0,12,16,5,5,38,34,5,4,2.55,2.9,3.0
+15-09-2024,Chapecoense,Ceará,Brazil - Serie B,2,1,1,1,8,12,4,5,26,51,4,9,3.4,2.8,2.4
+15-09-2024,Juventude,Fluminense,Brazil - Serie A,2,1,0,1,12,8,5,1,70,31,8,5,2.87,3.5,2.4
+15-09-2024,Operário Pr,Coritiba,Brazil - Serie B,2,1,0,1,16,8,4,4,55,27,9,3,2.9,2.8,2.87
+15-09-2024,Palmeiras,Criciúma,Brazil - Serie A,5,0,3,0,14,14,8,5,40,49,4,6,1.28,5.25,10.0
+15-09-2024,Santos,América Mineiro,Brazil - Serie B,2,1,0,0,16,13,8,4,61,30,8,3,1.66,3.5,5.75
+15-09-2024,Sport Recife,Crb,Brazil - Serie B,2,0,1,0,7,10,2,3,34,39,4,5,1.57,3.8,6.25
+15-11-2024,Operário Pr,Mirassol,Brazil - Serie B,1,1,1,0,15,7,4,2,34,28,4,9,2.7,2.7,3.0
+16-04-2025,Avaí,Operário Pr,Brazil - Serie B,1,0,1,0,11,12,3,4,22,12,4,6,2.15,3.0,3.8
+16-04-2025,Botafogo,São Paulo,Brazil - Serie A,2,2,1,2,23,14,8,4,78,39,9,4,1.83,3.4,4.75
+16-04-2025,Corinthians,Fluminense,Brazil - Serie A,0,2,0,0,10,8,2,4,37,20,7,4,2.15,3.1,3.8
+16-04-2025,Coritiba,Novorizontino,Brazil - Serie B,0,0,0,0,11,5,4,2,46,14,6,3,2.7,2.75,3.1
+16-04-2025,Flamengo,Juventude,Brazil - Serie A,6,0,3,0,18,4,8,1,65,11,6,0,1.22,6.25,15.0
+16-04-2025,Internacional,Palmeiras,Brazil - Serie A,0,1,0,0,11,12,2,4,35,24,1,6,2.8,2.9,2.75
+16-04-2025,Mirassol,Grêmio,Brazil - Serie A,4,1,2,0,11,16,6,6,21,57,2,7,3.0,2.9,2.55
+16-04-2025,Paysandu,Chapecoense,Brazil - Serie B,0,2,0,2,14,9,3,5,22,13,6,5,1.72,3.7,4.75
+16-04-2025,Santos,Atlético Mineiro,Brazil - Serie A,2,0,2,0,11,16,5,4,24,60,3,6,2.45,3.2,3.1
+16-04-2025,Sport Recife,Bragantino,Brazil - Serie A,0,1,0,1,21,16,6,7,75,27,9,3,2.55,3.1,3.0
+16-04-2025,Vitória,Fortaleza,Brazil - Serie A,2,1,1,0,15,9,8,4,40,50,5,5,2.3,3.0,3.4
+16-05-2025,Chapecoense,Cuiabá,Brazil - Serie B,2,1,1,0,8,16,4,1,33,45,4,5,2.8,2.8,2.7
+16-06-2025,Chapecoense,Ferroviária,Brazil - Serie B,2,1,1,0,7,17,3,7,27,31,1,6,2.25,2.8,3.75
+16-07-2025,Botafogo,Vitória,Brazil - Serie A,0,0,0,0,23,8,8,1,88,26,6,5,1.4,4.75,8.5
+16-07-2025,Bragantino,São Paulo,Brazil - Serie A,2,2,1,1,17,14,3,5,52,52,6,4,2.45,2.75,3.4
+16-07-2025,Ceará,Corinthians,Brazil - Serie A,0,1,0,0,16,5,2,2,46,27,7,3,2.45,2.87,3.5
+16-07-2025,Palmeiras,Mirassol,Brazil - Serie A,1,1,0,0,16,4,3,1,51,33,7,3,1.38,4.5,8.0
+16-07-2025,Santos,Flamengo,Brazil - Serie A,1,0,0,0,8,10,4,5,20,86,3,8,4.5,3.4,1.85
+16-08-2025,Athletico Pr,Cuiabá,Brazil - Serie B,1,1,0,0,16,9,4,2,79,18,8,3,1.72,3.4,5.25
+16-08-2025,Ceará,Bragantino,Brazil - Serie A,1,0,1,0,10,9,4,2,22,44,3,4,2.2,3.0,3.75
+16-08-2025,Corinthians,Bahia,Brazil - Serie A,1,2,1,2,25,8,7,5,95,11,9,1,2.62,3.1,2.9
+16-08-2025,Fluminense,Fortaleza,Brazil - Serie A,2,1,1,0,10,12,3,5,33,37,2,6,1.75,3.5,5.0
+16-08-2025,Remo,Botafogo Sp,Brazil - Serie B,1,1,1,0,17,9,5,2,44,38,3,6,1.72,3.5,5.0
+16-08-2025,Sport Recife,São Paulo,Brazil - Serie A,2,2,1,0,8,18,5,8,42,48,4,10,2.0,3.25,4.1
+16-08-2025,Vila Nova,Goiás,Brazil - Serie B,2,0,1,0,9,10,3,3,19,45,1,2,2.8,2.75,2.9
+16-08-2025,Vitória,Juventude,Brazil - Serie A,2,2,1,0,18,13,4,4,45,41,4,6,1.7,3.6,5.25
+16-09-2024,Internacional,Cuiabá,Brazil - Serie A,3,0,2,0,15,2,7,0,81,19,2,3,1.45,3.9,8.0
+16-10-2024,Chapecoense,Santos,Brazil - Serie B,3,2,1,1,17,15,5,5,44,31,8,5,3.8,3.1,2.1
+16-10-2024,Sport Recife,Operário Pr,Brazil - Serie B,1,2,1,1,11,5,4,3,59,34,11,1,1.55,3.8,6.5
+16-11-2024,Amazonas,Goiás,Brazil - Serie B,0,4,0,3,23,15,4,10,49,25,4,3,3.3,3.25,2.2
+16-11-2024,Athletico Pr,Atlético Mineiro,Brazil - Serie A,1,0,1,0,17,13,5,3,37,54,5,3,2.25,3.2,3.25
+16-11-2024,Novorizontino,Paysandu,Brazil - Serie B,1,1,0,0,29,4,12,1,67,25,10,1,1.55,3.7,6.5
+16-11-2024,Ponte Preta,Sport Recife,Brazil - Serie B,0,4,0,2,8,23,2,7,25,47,4,7,4.5,3.2,1.9
+16-11-2024,Vila Nova,Ituano,Brazil - Serie B,3,4,2,2,9,17,7,8,35,47,1,7,1.75,3.5,4.75
+17-04-2025,América Mineiro,Amazonas,Brazil - Serie B,3,1,1,1,15,9,8,4,34,34,4,7,1.66,3.4,5.75
+17-04-2025,Botafogo Sp,Remo,Brazil - Serie B,2,2,1,1,7,18,3,3,14,9,3,13,2.25,3.0,3.5
+17-04-2025,Crb,Volta Redonda,Brazil - Serie B,1,0,1,0,17,15,4,2,13,25,4,6,1.85,3.2,4.75
+17-04-2025,Criciúma,Athletic Club,Brazil - Serie B,4,0,3,0,25,1,9,1,27,10,5,0,1.65,3.75,5.25
+17-04-2025,Cruzeiro,Bahia,Brazil - Serie A,3,0,1,0,14,7,7,1,50,37,4,5,2.25,3.1,3.5
+17-04-2025,Ferroviária,Atlético Go,Brazil - Serie B,2,0,1,0,13,10,7,2,31,44,6,6,2.7,2.9,2.8
+17-04-2025,Goiás,Vila Nova,Brazil - Serie B,2,2,1,1,18,10,3,4,47,33,11,1,1.8,3.25,5.0
+17-05-2025,Athletic Club,Novorizontino,Brazil - Serie B,0,2,0,0,14,10,4,4,14,9,10,1,3.5,2.87,2.2
+17-05-2025,Ceará,Sport Recife,Brazil - Serie A,2,0,1,0,7,9,3,4,26,53,5,8,1.9,3.3,4.33
+17-05-2025,Operário Pr,Botafogo Sp,Brazil - Serie B,3,0,0,0,20,5,7,1,45,19,6,0,1.8,3.5,4.75
+17-05-2025,São Paulo,Grêmio,Brazil - Serie A,2,1,0,1,20,3,5,3,43,17,8,3,1.65,3.8,5.5
+17-05-2025,Vasco Da Gama,Fortaleza,Brazil - Serie A,3,0,1,0,14,10,7,3,37,52,4,7,2.4,3.0,3.25
+17-05-2025,Vila Nova,Athletico Pr,Brazil - Serie B,2,1,2,0,14,8,7,2,17,46,5,6,2.55,2.9,3.0
+17-06-2025,Volta Redonda,Avaí,Brazil - Serie B,1,1,0,1,19,8,10,3,42,12,12,1,2.25,3.0,3.6
+17-07-2025,Fluminense,Cruzeiro,Brazil - Serie A,0,2,0,2,28,8,6,5,99,18,7,2,2.25,3.0,3.6
+17-07-2025,Operário Pr,Crb,Brazil - Serie B,1,1,1,1,18,9,3,2,69,28,5,5,2.05,3.0,4.2
+17-07-2025,Remo,Novorizontino,Brazil - Serie B,1,1,1,1,10,18,2,4,30,38,5,7,2.45,2.75,3.5
+17-08-2025,Atlético Mineiro,Grêmio,Brazil - Serie A,1,3,1,1,10,8,3,4,67,22,4,4,1.66,3.7,5.25
+17-08-2025,Chapecoense,Paysandu,Brazil - Serie B,2,0,1,0,20,21,7,3,38,37,7,10,1.95,3.0,4.5
+17-08-2025,Santos,Vasco Da Gama,Brazil - Serie A,0,6,0,1,7,14,2,9,27,26,3,3,1.8,3.6,4.5
+17-09-2024,Novorizontino,Brusque,Brazil - Serie B,1,0,1,0,11,4,3,1,46,19,7,2,1.6,3.5,7.0
+17-10-2024,América Mineiro,Goiás,Brazil - Serie B,2,2,1,2,15,10,5,4,57,31,1,2,1.8,3.3,5.0
+17-11-2024,Chapecoense,Coritiba,Brazil - Serie B,2,1,0,1,15,12,6,7,44,16,4,1,2.1,3.1,3.8
+17-11-2024,Santos,Crb,Brazil - Serie B,0,2,0,1,17,5,5,3,34,25,7,2,1.57,3.6,6.5
+18-05-2025,Atlético Go,Remo,Brazil - Serie B,1,1,0,0,23,7,9,2,75,19,8,5,1.8,3.5,4.5
+18-05-2025,Bahia,Vitória,Brazil - Serie A,2,1,1,0,8,23,2,8,22,58,1,10,1.7,3.4,5.5
+18-05-2025,Bragantino,Palmeiras,Brazil - Serie A,1,2,1,0,9,15,2,5,42,47,8,12,4.1,3.2,2.05
+18-05-2025,Corinthians,Santos,Brazil - Serie A,1,0,0,0,11,6,2,1,39,29,5,3,2.1,3.0,4.0
+18-05-2025,Crb,Criciúma,Brazil - Serie B,1,0,0,0,17,19,2,7,36,52,1,5,2.2,3.1,3.5
+18-05-2025,Cruzeiro,Atlético Mineiro,Brazil - Serie A,0,0,0,0,21,7,4,3,14,7,15,1,2.6,3.1,2.9
+18-05-2025,Flamengo,Botafogo,Brazil - Serie A,0,0,0,0,15,8,3,2,59,29,7,3,1.75,3.5,5.0
+18-05-2025,Internacional,Mirassol,Brazil - Serie A,1,1,0,1,25,8,12,2,23,23,6,2,1.66,3.75,5.5
+18-05-2025,Juventude,Fluminense,Brazil - Serie A,1,1,0,0,9,17,1,7,33,38,5,5,3.8,3.4,1.95
+18-05-2025,Paysandu,Goiás,Brazil - Serie B,0,0,0,0,19,13,6,3,46,48,5,4,2.75,2.9,2.8
+18-07-2025,Atlético Go,Criciúma,Brazil - Serie B,0,1,0,0,8,8,2,2,52,35,4,2,1.9,3.2,4.5
+18-07-2025,Ferroviária,Athletic Club,Brazil - Serie B,1,2,1,1,9,7,5,2,28,53,2,2,2.62,3.0,2.8
+18-08-2024,Athletico Pr,Juventude,Brazil - Serie A,1,2,1,1,23,8,7,5,50,26,10,4,1.7,3.9,4.75
+18-09-2024,Amazonas,Operário Pr,Brazil - Serie B,2,1,1,1,11,8,6,2,60,21,6,1,1.95,3.0,4.5
+18-09-2024,América Mineiro,Paysandu,Brazil - Serie B,2,0,1,0,15,9,5,3,48,40,6,6,1.7,3.4,5.25
+18-09-2024,Coritiba,Ceará,Brazil - Serie B,3,1,0,0,13,8,6,3,27,37,3,0,2.15,3.3,3.4
+18-09-2024,Vila Nova,Chapecoense,Brazil - Serie B,3,2,2,0,17,12,7,5,40,32,8,2,1.6,3.75,6.0
+18-10-2024,Amazonas,Avaí,Brazil - Serie B,2,1,0,1,0,0,0,0,0,0,12,1,1.95,2.87,4.75
+18-10-2024,Atlético Go,Cuiabá,Brazil - Serie A,0,0,0,0,16,6,4,0,83,23,8,4,2.2,3.1,3.7
+18-10-2024,Botafogo,Criciúma,Brazil - Serie A,1,1,0,0,25,6,7,3,66,14,9,1,1.33,5.5,8.5
+18-10-2024,Brusque,Crb,Brazil - Serie B,1,2,1,0,12,16,3,5,32,66,5,7,2.3,2.87,3.5
+18-11-2024,Botafogo Sp,Avaí,Brazil - Serie B,1,3,1,0,7,14,5,6,26,38,3,9,2.55,2.87,3.0
+18-11-2024,Ceará,América Mineiro,Brazil - Serie B,1,0,1,0,15,8,6,0,40,37,8,3,1.44,4.5,6.5
+19-04-2025,Corinthians,Sport Recife,Brazil - Serie A,2,1,0,1,17,10,4,2,42,43,5,4,1.75,3.4,5.25
+19-04-2025,Grêmio,Internacional,Brazil - Serie A,1,1,1,0,8,14,2,5,34,47,3,7,3.4,2.9,2.35
+19-04-2025,Operário Pr,Paysandu,Brazil - Serie B,0,0,0,0,15,7,3,1,59,29,6,3,1.83,3.1,5.0
+19-04-2025,Vasco Da Gama,Flamengo,Brazil - Serie A,0,0,0,0,6,17,1,7,20,83,2,11,8.5,4.33,1.4
+19-05-2025,Coritiba,América Mineiro,Brazil - Serie B,1,0,1,0,10,18,6,10,29,42,9,6,1.95,3.0,4.75
+19-05-2025,Volta Redonda,Amazonas,Brazil - Serie B,1,1,0,1,38,4,8,1,58,13,7,1,1.9,3.1,4.5
+19-07-2025,Avaí,Vila Nova,Brazil - Serie B,1,1,0,0,20,13,6,5,53,34,10,6,2.15,2.87,3.9
+19-07-2025,Coritiba,Paysandu,Brazil - Serie B,2,5,1,3,20,12,3,6,64,19,10,2,1.5,3.8,7.0
+19-07-2025,Fortaleza,Bahia,Brazil - Serie A,1,1,1,0,15,17,2,4,37,47,9,3,2.87,3.1,2.6
+19-07-2025,Goiás,Cuiabá,Brazil - Serie B,3,1,1,0,14,7,4,3,58,19,2,5,1.85,3.0,5.0
+19-07-2025,Mirassol,Santos,Brazil - Serie A,3,0,0,0,19,8,11,0,30,47,9,2,2.7,3.0,2.75
+19-07-2025,São Paulo,Corinthians,Brazil - Serie A,2,0,2,0,16,9,3,3,34,31,6,5,2.15,2.8,3.75
+19-07-2025,Vasco Da Gama,Grêmio,Brazil - Serie A,1,1,0,0,31,9,7,4,70,9,12,2,2.1,3.0,3.6
+19-07-2025,Volta Redonda,Athletico Pr,Brazil - Serie B,3,2,0,2,14,14,6,4,26,43,3,4,2.87,2.87,2.8
+19-09-2024,Botafogo Sp,Santos,Brazil - Serie B,0,1,0,1,16,11,1,3,28,27,4,3,4.33,3.2,1.9
+19-09-2024,Crb,Ponte Preta,Brazil - Serie B,0,1,0,0,19,8,4,4,53,22,2,3,1.75,3.25,5.0
+19-10-2024,Ituano,Ceará,Brazil - Serie B,1,2,1,0,9,23,6,7,24,56,7,5,3.5,3.1,2.2
+19-10-2024,Mirassol,Novorizontino,Brazil - Serie B,1,0,0,0,6,15,4,1,42,44,9,4,2.1,3.0,3.9
+19-10-2024,Vila Nova,Coritiba,Brazil - Serie B,0,3,0,2,18,16,5,4,66,36,8,3,2.25,3.0,3.5
+19-10-2024,Vitória,Bragantino,Brazil - Serie A,1,0,0,0,11,9,3,1,42,35,5,5,2.2,3.1,3.5
+20-04-2025,América Mineiro,Goiás,Brazil - Serie B,1,0,1,0,16,11,8,2,14,13,10,9,1.85,3.2,4.75
+20-04-2025,Athletico Pr,Crb,Brazil - Serie B,2,0,1,0,12,8,4,2,28,26,4,4,1.44,4.1,7.5
+20-04-2025,Atlético Mineiro,Botafogo,Brazil - Serie A,1,0,0,0,13,7,6,2,43,29,8,4,2.2,3.3,3.4
+20-04-2025,Bragantino,Cruzeiro,Brazil - Serie A,1,0,1,0,20,12,6,4,16,22,4,9,2.15,3.2,3.6
+20-04-2025,Chapecoense,Athletic Club,Brazil - Serie B,1,0,0,0,8,20,4,4,48,55,3,8,1.9,3.4,4.2
+20-04-2025,Fluminense,Vitória,Brazil - Serie A,1,1,1,0,11,7,5,3,56,28,6,4,1.66,3.4,6.0
+20-04-2025,Fortaleza,Palmeiras,Brazil - Serie A,1,2,0,1,13,6,5,4,68,26,8,2,4.1,3.25,1.95
+20-04-2025,Juventude,Mirassol,Brazil - Serie A,2,2,2,1,19,25,6,6,47,47,5,3,2.37,3.0,3.3
+20-04-2025,São Paulo,Santos,Brazil - Serie A,2,1,2,1,6,15,3,3,41,55,5,5,2.3,3.0,3.5
+20-04-2025,Vila Nova,Botafogo Sp,Brazil - Serie B,2,0,2,0,17,5,4,1,54,34,5,6,1.95,2.9,4.75
+20-06-2025,América Mineiro,Criciúma,Brazil - Serie B,1,1,1,1,15,10,2,3,41,30,7,5,1.72,3.4,5.25
+20-06-2025,Botafogo Sp,Chapecoense,Brazil - Serie B,1,0,0,0,21,9,5,1,56,25,13,4,2.45,3.0,3.2
+20-07-2025,Amazonas,Botafogo Sp,Brazil - Serie B,3,0,1,0,12,9,3,3,26,53,1,7,2.15,2.87,3.9
+20-07-2025,América Mineiro,Chapecoense,Brazil - Serie B,0,1,0,1,25,11,7,4,73,15,7,3,1.72,3.4,5.25
+20-07-2025,Cruzeiro,Juventude,Brazil - Serie A,4,0,1,0,16,6,7,1,40,23,8,3,1.33,4.75,11.0
+20-07-2025,Flamengo,Fluminense,Brazil - Serie A,1,0,0,0,9,6,3,2,49,11,8,3,1.75,3.25,5.5
+20-07-2025,Internacional,Ceará,Brazil - Serie A,1,0,1,0,10,9,4,2,50,40,7,5,1.6,3.8,5.75
+20-07-2025,Palmeiras,Atlético Mineiro,Brazil - Serie A,3,2,1,1,18,6,7,3,44,8,9,0,1.66,3.4,5.75
+20-07-2025,Sport Recife,Botafogo,Brazil - Serie A,0,1,0,0,12,13,5,5,32,38,6,4,3.75,3.1,2.15
+20-07-2025,Vitória,Bragantino,Brazil - Serie A,1,0,1,0,9,15,2,3,23,71,2,5,2.45,2.9,3.2
+20-10-2024,Juventude,Palmeiras,Brazil - Serie A,3,5,1,2,25,14,6,7,49,24,7,5,5.25,3.7,1.65
+20-10-2024,Operário Pr,Paysandu,Brazil - Serie B,1,1,0,1,17,14,6,3,58,29,9,4,1.9,3.2,4.5
+20-10-2024,Sport Recife,Botafogo Sp,Brazil - Serie B,3,1,2,0,8,9,3,3,45,36,5,1,1.36,4.33,9.5
+20-11-2024,Athletico Pr,Atlético Go,Brazil - Serie A,2,0,1,0,11,20,8,6,38,46,6,9,1.65,3.7,5.5
+20-11-2024,Bragantino,São Paulo,Brazil - Serie A,1,1,1,1,18,10,5,2,64,41,1,1,2.45,3.1,3.1
+20-11-2024,Corinthians,Cruzeiro,Brazil - Serie A,2,1,2,1,13,8,9,2,30,25,3,4,1.48,4.2,7.0
+20-11-2024,Criciúma,Vitória,Brazil - Serie A,0,1,0,0,13,14,1,3,58,57,6,5,2.15,3.3,3.5
+20-11-2024,Cuiabá,Flamengo,Brazil - Serie A,1,2,0,0,5,19,4,7,28,76,4,10,4.2,3.3,1.9
+20-11-2024,Grêmio,Juventude,Brazil - Serie A,2,2,1,1,11,11,4,5,46,27,5,4,1.8,3.6,4.5
+21-04-2025,Amazonas,Avaí,Brazil - Serie B,0,2,0,2,17,14,6,6,46,35,4,1,2.7,2.87,2.87
+21-04-2025,Bahia,Ceará,Brazil - Serie A,1,0,0,0,13,10,4,2,26,16,3,4,1.8,3.7,4.5
+21-04-2025,Novorizontino,Criciúma,Brazil - Serie B,1,1,0,1,24,4,6,3,111,28,8,4,1.95,3.2,4.1
+21-04-2025,Remo,Coritiba,Brazil - Serie B,1,0,1,0,7,22,4,5,18,56,1,12,2.45,2.8,3.4
+21-06-2025,Avaí,Athletico Pr,Brazil - Serie B,1,2,0,1,15,8,4,4,44,32,4,2,2.55,3.0,3.0
+21-06-2025,Ferroviária,Crb,Brazil - Serie B,1,0,1,0,10,21,2,5,6,7,2,9,1.95,3.3,3.9
+21-06-2025,Remo,Paysandu,Brazil - Serie B,0,1,0,0,16,20,2,8,29,35,7,9,2.2,3.25,3.25
+21-09-2024,Corinthians,Atlético Go,Brazil - Serie A,3,0,1,0,17,14,6,3,60,46,7,1,1.6,3.75,6.25
+21-09-2024,Ituano,Coritiba,Brazil - Serie B,0,1,0,0,18,12,2,2,57,43,9,5,2.6,3.0,2.9
+21-09-2024,Vitória,Juventude,Brazil - Serie A,1,0,1,0,13,11,2,2,35,48,4,5,2.05,3.25,3.9
+21-10-2024,Chapecoense,Goiás,Brazil - Serie B,0,4,0,2,19,15,3,5,40,30,5,6,2.62,3.0,2.9
+21-11-2024,Vasco Da Gama,Internacional,Brazil - Serie A,0,1,0,0,12,16,2,7,36,56,8,3,3.75,3.25,2.1
+22-04-2025,Atlético Go,Cuiabá,Brazil - Serie B,1,1,1,0,13,13,4,2,20,40,2,8,2.2,2.9,3.75
+22-04-2025,Volta Redonda,Ferroviária,Brazil - Serie B,0,0,0,0,13,4,2,1,29,8,6,2,2.3,2.75,3.75
+22-06-2025,Amazonas,Vila Nova,Brazil - Serie B,2,1,1,1,12,14,2,3,43,38,8,6,3.0,2.8,2.62
+22-06-2025,Atlético Go,Volta Redonda,Brazil - Serie B,2,0,0,0,21,6,6,0,91,22,8,1,1.95,3.2,4.2
+22-06-2025,Coritiba,Cuiabá,Brazil - Serie B,2,0,0,0,11,8,2,2,41,37,5,7,1.75,3.2,5.5
+22-07-2025,Athletic Club,Coritiba,Brazil - Serie B,1,1,1,1,6,5,3,5,42,27,5,3,2.7,2.8,2.9
+22-07-2025,Athletico Pr,Ferroviária,Brazil - Serie B,1,1,0,0,27,7,8,2,58,17,11,1,1.57,3.6,6.5
+22-07-2025,Operário Pr,Atlético Go,Brazil - Serie B,3,0,0,0,11,3,5,3,26,16,3,2,2.25,2.87,3.7
+22-07-2025,Vila Nova,Crb,Brazil - Serie B,2,0,1,0,13,23,6,6,31,90,5,7,2.35,2.87,3.5
+22-09-2024,Ceará,Vila Nova,Brazil - Serie B,4,0,3,0,13,13,6,4,46,53,6,3,1.61,3.75,5.75
+22-09-2024,Chapecoense,Avaí,Brazil - Serie B,1,0,1,0,8,14,3,5,18,64,3,7,2.62,2.8,3.1
+22-09-2024,Criciúma,Athletico Pr,Brazil - Serie A,0,0,0,0,25,10,6,3,67,40,12,1,2.2,3.5,3.4
+22-09-2024,Cuiabá,Cruzeiro,Brazil - Serie A,0,0,0,0,9,13,4,2,43,34,4,5,2.8,2.87,2.8
+22-10-2024,Crb,Mirassol,Brazil - Serie B,0,1,0,0,13,9,4,5,58,30,7,6,2.25,2.8,3.75
+22-10-2024,Novorizontino,Avaí,Brazil - Serie B,2,0,2,0,18,11,9,4,36,50,4,5,1.8,3.1,5.25
+22-10-2024,Santos,Ceará,Brazil - Serie B,1,0,1,0,7,13,4,4,29,35,5,6,1.75,3.5,4.75
+22-10-2024,Vila Nova,Amazonas,Brazil - Serie B,1,0,0,0,22,17,5,3,45,38,10,3,1.95,3.2,4.0
+22-11-2024,Coritiba,Botafogo Sp,Brazil - Serie B,1,3,0,2,16,15,7,5,60,20,11,5,1.61,3.6,6.0
+22-11-2024,Ituano,Amazonas,Brazil - Serie B,0,1,0,1,15,10,3,2,45,43,3,2,2.55,3.3,2.7
+23-05-2025,Goiás,Ferroviária,Brazil - Serie B,2,0,1,0,10,19,5,5,49,36,4,8,1.8,3.1,5.25
+23-06-2025,Goiás,Athletic Club,Brazil - Serie B,1,2,0,1,15,15,4,4,49,26,4,4,1.65,3.8,5.25
+23-06-2025,Operário Pr,Novorizontino,Brazil - Serie B,2,0,1,0,18,12,5,1,30,29,2,1,2.8,2.7,2.9
+23-07-2025,Amazonas,Paysandu,Brazil - Serie B,1,1,0,1,22,11,4,2,72,27,13,3,2.25,2.87,3.6
+23-07-2025,Bragantino,Flamengo,Brazil - Serie A,1,2,0,0,10,14,2,6,24,72,2,3,4.2,3.4,1.9
+23-07-2025,Ceará,Mirassol,Brazil - Serie A,0,2,0,2,22,4,8,3,84,22,14,6,2.15,3.1,3.8
+23-07-2025,Chapecoense,Volta Redonda,Brazil - Serie B,4,2,3,1,23,18,8,4,41,34,7,5,2.15,3.25,3.3
+23-07-2025,Corinthians,Cruzeiro,Brazil - Serie A,0,0,0,0,7,14,4,4,43,37,4,2,2.7,2.87,3.0
+23-07-2025,Cuiabá,América Mineiro,Brazil - Serie B,3,1,1,1,8,14,5,6,16,53,2,10,2.3,3.0,3.4
+23-07-2025,Fluminense,Palmeiras,Brazil - Serie A,1,2,1,1,17,9,1,5,50,31,5,3,2.87,2.87,2.8
+23-07-2025,Novorizontino,Goiás,Brazil - Serie B,1,0,1,0,13,15,3,6,26,54,3,8,2.25,2.62,4.1
+23-07-2025,Santos,Internacional,Brazil - Serie A,1,2,0,1,21,11,7,4,65,39,8,2,2.3,3.1,3.3
+23-07-2025,Vitória,Sport Recife,Brazil - Serie A,2,2,0,0,26,20,11,9,49,33,6,10,2.37,2.87,3.5
+23-09-2024,Brusque,Amazonas,Brazil - Serie B,1,0,0,0,21,8,7,0,36,51,6,7,2.87,2.62,2.9
+23-09-2024,Santos,Novorizontino,Brazil - Serie B,1,1,1,1,12,15,4,6,44,31,2,1,1.61,3.6,6.0
+23-10-2024,Botafogo Sp,Ituano,Brazil - Serie B,0,1,0,0,16,16,2,8,42,26,11,11,2.0,3.1,4.1
+23-10-2024,Operário Pr,América Mineiro,Brazil - Serie B,1,0,0,0,10,15,2,7,29,37,2,3,3.1,3.0,2.45
+23-10-2024,Paysandu,Coritiba,Brazil - Serie B,2,1,0,1,22,6,7,2,58,26,8,3,2.62,3.0,2.8
+23-11-2024,Atlético Go,Palmeiras,Brazil - Serie A,0,1,0,1,9,10,2,3,57,31,4,2,8.0,5.25,1.33
+23-11-2024,Juventude,Cuiabá,Brazil - Serie A,1,1,0,0,19,7,4,1,53,35,6,5,1.6,3.75,6.25
+23-11-2024,São Paulo,Atlético Mineiro,Brazil - Serie A,2,2,2,2,13,3,4,3,57,12,7,1,2.0,3.0,4.33
+24-04-2025,Novorizontino,Athletico Pr,Brazil - Serie B,2,1,1,0,19,13,4,6,38,44,7,6,2.3,2.87,3.6
+24-05-2025,Athletico Pr,Athletic Club,Brazil - Serie B,1,0,0,0,13,8,4,2,30,23,5,1,1.5,3.7,7.5
+24-05-2025,Atlético Mineiro,Corinthians,Brazil - Serie A,0,0,0,0,13,6,2,0,33,29,1,1,1.7,3.5,5.5
+24-05-2025,Avaí,Chapecoense,Brazil - Serie B,2,1,0,0,21,16,6,2,34,38,5,9,1.66,3.5,5.75
+24-05-2025,Fluminense,Vasco Da Gama,Brazil - Serie A,2,1,1,1,17,7,5,2,52,20,6,2,1.9,3.25,4.5
+24-05-2025,Remo,Volta Redonda,Brazil - Serie B,1,1,1,1,14,16,4,6,40,38,3,6,2.15,2.9,3.8
+24-05-2025,São Paulo,Mirassol,Brazil - Serie A,0,2,0,0,13,6,3,2,31,23,5,4,1.7,3.7,5.5
+24-07-2025,Botafogo Sp,Criciúma,Brazil - Serie B,0,2,0,1,20,13,4,5,38,20,6,5,2.7,2.8,2.9
+24-07-2025,Juventude,São Paulo,Brazil - Serie A,0,1,0,0,8,16,0,3,24,53,4,8,4.75,3.25,1.8
+24-07-2025,Remo,Avaí,Brazil - Serie B,2,1,2,1,13,17,7,6,43,58,7,2,2.55,3.0,2.9
+24-08-2024,Atlético Go,Juventude,Brazil - Serie A,2,1,0,0,18,13,7,3,32,37,4,5,1.75,3.5,5.0
+24-09-2024,Botafogo Sp,Crb,Brazil - Serie B,0,0,0,0,8,6,3,3,22,41,6,4,2.2,3.0,3.7
+24-09-2024,Ponte Preta,América Mineiro,Brazil - Serie B,0,2,0,1,12,9,6,3,31,34,8,3,3.6,3.1,2.15
+24-10-2024,Sport Recife,Guarani,Brazil - Serie B,4,0,3,0,14,12,7,5,39,25,6,4,1.6,3.6,6.25
+24-10-2024,Vasco Da Gama,Cuiabá,Brazil - Serie A,1,0,0,0,13,13,2,2,29,48,3,2,1.8,3.3,5.0
+24-11-2024,América Mineiro,Brusque,Brazil - Serie B,3,0,2,0,26,7,11,1,59,34,13,1,1.45,4.33,7.0
+24-11-2024,Bahia,Athletico Pr,Brazil - Serie A,1,1,0,0,25,6,8,3,83,12,11,1,1.7,3.9,4.75
+24-11-2024,Corinthians,Vasco Da Gama,Brazil - Serie A,3,1,3,0,23,8,8,2,48,26,7,6,1.6,4.0,5.5
+24-11-2024,Crb,Operário Pr,Brazil - Serie B,1,1,0,0,8,21,4,7,29,51,2,6,2.05,3.2,3.8
+24-11-2024,Goiás,Novorizontino,Brazil - Serie B,1,0,0,0,12,18,4,3,33,55,5,12,2.7,3.1,2.7
+24-11-2024,Guarani,Ceará,Brazil - Serie B,0,0,0,0,4,11,1,3,23,60,2,7,6.25,4.2,1.5
+24-11-2024,Internacional,Bragantino,Brazil - Serie A,4,1,2,1,16,5,7,1,45,41,8,4,1.57,4.2,5.5
+24-11-2024,Mirassol,Chapecoense,Brazil - Serie B,1,0,1,0,12,11,4,1,40,23,3,4,1.18,6.0,19.0
+24-11-2024,Paysandu,Vila Nova,Brazil - Serie B,2,1,0,1,28,11,8,5,80,17,8,2,1.28,5.25,11.0
+24-11-2024,Sport Recife,Santos,Brazil - Serie B,2,1,1,0,19,9,4,3,49,25,7,1,1.4,4.1,9.0
+25-04-2025,Criciúma,Remo,Brazil - Serie B,1,1,0,0,16,11,6,4,55,27,8,3,1.65,3.75,5.25
+25-04-2025,Vila Nova,Chapecoense,Brazil - Serie B,1,0,0,0,22,14,10,2,57,29,7,5,1.8,3.2,5.25
+25-05-2025,Amazonas,Operário Pr,Brazil - Serie B,2,0,0,0,12,13,5,1,36,30,4,10,3.2,3.0,2.4
+25-05-2025,Fortaleza,Cruzeiro,Brazil - Serie A,0,2,0,2,10,17,1,8,4,25,6,8,2.3,3.1,3.4
+25-05-2025,Grêmio,Bahia,Brazil - Serie A,1,0,0,0,9,16,2,3,26,75,4,17,2.45,3.2,3.0
+25-05-2025,Novorizontino,Paysandu,Brazil - Serie B,3,1,1,1,22,10,6,4,65,20,8,3,1.65,3.6,5.5
+25-05-2025,Palmeiras,Flamengo,Brazil - Serie A,0,2,0,0,13,7,3,3,50,30,3,3,2.2,3.0,3.6
+25-05-2025,Sport Recife,Internacional,Brazil - Serie A,1,1,1,0,14,17,4,4,46,51,6,4,2.5,3.1,3.0
+25-05-2025,Vitória,Santos,Brazil - Serie A,0,1,0,1,19,8,7,2,63,20,5,5,2.2,3.1,3.6
+25-08-2024,Vila Nova,América Mineiro,Brazil - Serie B,1,0,0,0,9,15,5,4,30,42,1,10,2.4,3.0,3.2
+25-09-2024,Bragantino,Internacional,Brazil - Serie A,2,2,1,1,10,24,4,11,40,57,1,9,3.2,3.3,2.25
+25-09-2024,Grêmio,Criciúma,Brazil - Serie A,1,2,0,1,15,11,3,4,72,29,6,3,1.7,4.0,4.75
+25-10-2024,Avaí,Vila Nova,Brazil - Serie B,3,0,2,0,16,12,5,2,52,43,5,4,2.2,2.9,3.6
+25-10-2024,Goiás,Amazonas,Brazil - Serie B,1,0,1,0,26,11,10,6,61,67,7,5,1.8,3.4,4.75
+26-04-2025,Avaí,América Mineiro,Brazil - Serie B,3,0,1,0,14,17,7,6,6,21,5,12,2.2,3.1,3.5
+26-04-2025,Botafogo,Fluminense,Brazil - Serie A,2,0,1,0,15,8,7,1,38,36,6,3,2.1,3.0,4.0
+26-04-2025,Ceará,São Paulo,Brazil - Serie A,1,1,1,1,7,14,2,4,23,61,3,2,2.3,2.8,3.6
+26-04-2025,Coritiba,Operário Pr,Brazil - Serie B,2,0,2,0,7,13,3,7,35,49,5,4,1.95,3.0,4.5
+26-04-2025,Internacional,Juventude,Brazil - Serie A,3,1,2,1,13,4,7,1,35,17,9,2,1.42,4.33,9.0
+26-04-2025,Mirassol,Atlético Mineiro,Brazil - Serie A,2,2,1,0,20,16,6,6,39,38,9,7,3.1,3.3,2.3
+26-04-2025,Sport Recife,Fortaleza,Brazil - Serie A,0,0,0,0,16,11,8,1,13,4,6,6,2.0,3.4,3.7
+26-05-2025,Botafogo Sp,Crb,Brazil - Serie B,2,1,1,0,15,20,6,6,15,21,1,8,2.3,3.0,3.4
+26-05-2025,Bragantino,Juventude,Brazil - Serie A,1,0,1,0,12,7,5,2,19,3,6,2,1.45,4.1,8.5
+26-05-2025,Criciúma,Coritiba,Brazil - Serie B,0,1,0,0,18,11,6,4,47,36,9,2,2.35,3.0,3.4
+26-05-2025,Cuiabá,Vila Nova,Brazil - Serie B,1,0,1,0,13,8,6,2,46,24,4,1,2.15,2.7,4.1
+26-06-2025,Crb,América Mineiro,Brazil - Serie B,1,2,1,1,27,14,7,5,61,39,14,1,2.15,3.1,3.5
+26-07-2025,Botafogo,Corinthians,Brazil - Serie A,1,1,1,0,11,12,3,5,47,29,6,2,1.57,3.6,7.0
+26-07-2025,Crb,Novorizontino,Brazil - Serie B,4,0,1,0,17,19,6,5,24,41,3,10,2.2,3.0,3.6
+26-07-2025,Ferroviária,Operário Pr,Brazil - Serie B,0,0,0,0,7,27,3,6,13,108,4,16,2.4,2.9,3.25
+26-07-2025,Fortaleza,Bragantino,Brazil - Serie A,3,1,2,1,21,10,9,4,32,29,9,5,1.75,3.8,4.5
+26-07-2025,Mirassol,Vitória,Brazil - Serie A,1,1,1,1,15,15,7,7,49,32,8,5,1.7,3.5,5.75
+26-07-2025,Palmeiras,Grêmio,Brazil - Serie A,1,0,1,0,10,5,3,3,34,19,2,3,1.45,4.33,7.0
+26-07-2025,Sport Recife,Santos,Brazil - Serie A,2,2,1,0,16,9,4,5,55,35,4,3,2.7,3.2,2.75
+26-09-2024,Chapecoense,Amazonas,Brazil - Serie B,2,0,0,0,10,24,6,5,27,49,2,5,2.35,2.8,3.5
+26-10-2024,Bragantino,Botafogo,Brazil - Serie A,0,1,0,0,6,19,1,5,25,52,3,6,3.5,3.4,2.05
+26-10-2024,Ceará,Paysandu,Brazil - Serie B,2,1,1,0,14,5,7,1,70,17,6,3,1.48,4.1,7.0
+26-10-2024,Criciúma,São Paulo,Brazil - Serie A,1,1,1,0,10,16,3,3,42,65,6,7,3.2,3.1,2.37
+26-10-2024,Flamengo,Juventude,Brazil - Serie A,4,2,1,1,20,5,10,3,77,13,8,1,1.33,4.75,10.0
+26-10-2024,Grêmio,Atlético Go,Brazil - Serie A,3,1,1,1,11,13,5,5,43,39,4,3,1.57,4.0,5.75
+26-11-2024,Atlético Mineiro,Juventude,Brazil - Serie A,2,3,0,1,21,13,6,7,68,24,9,5,2.55,3.1,3.0
+26-11-2024,Fluminense,Criciúma,Brazil - Serie A,0,0,0,0,19,10,3,3,66,28,9,4,1.61,3.6,6.25
+26-11-2024,Fortaleza,Flamengo,Brazil - Serie A,0,0,0,0,7,16,1,4,28,53,5,5,3.1,3.2,2.4
+26-11-2024,Palmeiras,Botafogo,Brazil - Serie A,1,3,0,1,19,13,5,7,42,34,5,7,2.0,3.2,4.1
+27-04-2025,Amazonas,Atlético Go,Brazil - Serie B,1,1,0,1,14,16,4,6,25,47,7,5,2.37,3.1,3.1
+27-04-2025,Athletic Club,Volta Redonda,Brazil - Serie B,2,1,1,0,8,15,5,4,42,42,6,6,1.85,3.4,4.1
+27-04-2025,Cruzeiro,Vasco Da Gama,Brazil - Serie A,1,0,0,0,11,15,4,6,50,51,4,8,2.2,2.9,3.75
+27-04-2025,Cuiabá,Ferroviária,Brazil - Serie B,1,0,0,0,15,18,4,7,47,42,8,7,1.85,3.2,4.75
+27-04-2025,Flamengo,Corinthians,Brazil - Serie A,4,0,3,0,17,8,6,2,40,25,10,3,1.48,4.0,7.5
+27-04-2025,Palmeiras,Bahia,Brazil - Serie A,0,1,0,0,21,11,2,5,58,40,6,4,1.55,4.1,6.25
+27-04-2025,Paysandu,Crb,Brazil - Serie B,1,1,1,1,22,22,6,6,47,49,8,6,1.95,3.1,4.2
+27-04-2025,Santos,Bragantino,Brazil - Serie A,1,2,0,0,19,16,3,6,13,11,6,10,2.15,3.2,3.6
+27-04-2025,Vitória,Grêmio,Brazil - Serie A,1,1,0,1,14,11,3,8,63,27,6,2,2.3,3.1,3.25
+27-05-2025,América Mineiro,Atlético Go,Brazil - Serie B,2,1,2,1,11,11,5,3,28,23,6,4,1.83,3.4,4.5
+27-06-2025,Criciúma,Avaí,Brazil - Serie B,1,2,1,1,19,10,6,5,40,14,6,3,2.2,2.87,3.5
+27-07-2025,América Mineiro,Athletico Pr,Brazil - Serie B,2,2,0,1,12,9,3,5,49,29,4,2,2.5,3.2,2.9
+27-07-2025,Atlético Go,Chapecoense,Brazil - Serie B,0,0,0,0,13,6,3,1,56,34,3,3,1.8,3.3,4.75
+27-07-2025,Bahia,Juventude,Brazil - Serie A,3,0,1,0,17,3,8,0,53,18,2,1,1.28,5.5,12.0
+27-07-2025,Coritiba,Amazonas,Brazil - Serie B,1,1,1,0,11,5,4,2,37,20,8,2,1.5,3.8,7.0
+27-07-2025,Cruzeiro,Ceará,Brazil - Serie A,1,2,1,1,16,9,4,3,65,17,10,3,1.48,4.0,7.5
+27-07-2025,Flamengo,Atlético Mineiro,Brazil - Serie A,1,0,0,0,16,13,6,5,34,33,5,7,1.4,4.2,9.0
+27-07-2025,Internacional,Vasco Da Gama,Brazil - Serie A,1,1,0,1,27,15,8,5,58,34,10,5,1.53,4.1,6.25
+27-07-2025,São Paulo,Fluminense,Brazil - Serie A,3,1,1,0,15,7,9,1,22,41,7,3,2.05,3.2,4.0
+27-07-2025,Volta Redonda,Vila Nova,Brazil - Serie B,2,1,1,0,17,12,5,3,30,41,4,6,2.05,3.1,3.9
+27-09-2024,Ceará,Brusque,Brazil - Serie B,1,0,0,0,16,10,2,3,39,21,9,5,1.38,4.5,8.5
+27-09-2024,Coritiba,Goiás,Brazil - Serie B,0,0,0,0,23,13,5,6,49,39,10,9,1.9,3.1,4.5
+27-11-2024,Cruzeiro,Grêmio,Brazil - Serie A,1,1,1,1,19,9,3,4,78,28,5,1,2.0,3.3,3.9
+28-04-2025,Botafogo Sp,Goiás,Brazil - Serie B,0,1,0,1,12,7,2,2,32,26,5,8,3.8,3.0,2.15
+28-06-2025,Athletico Pr,Coritiba,Brazil - Serie B,0,1,0,0,19,11,3,4,46,19,7,4,2.2,2.87,3.8
+28-06-2025,Vila Nova,Atlético Go,Brazil - Serie B,1,0,0,0,7,9,1,3,45,33,5,6,2.55,2.87,3.1
+28-07-2025,Avaí,Botafogo Sp,Brazil - Serie B,5,0,4,0,12,14,7,2,52,38,3,4,1.7,3.4,5.75
+28-07-2025,Paysandu,Athletic Club,Brazil - Serie B,1,1,1,1,16,15,6,6,32,52,6,6,2.37,3.0,3.1
+28-09-2024,Santos,Operário Pr,Brazil - Serie B,1,0,1,0,17,8,7,1,51,35,10,4,1.4,4.1,9.5
+28-10-2024,América Mineiro,Sport Recife,Brazil - Serie B,2,1,1,0,10,10,4,1,31,49,3,7,2.3,3.25,3.2
+28-10-2024,Coritiba,Crb,Brazil - Serie B,2,1,1,1,16,9,5,3,42,40,5,8,1.75,3.3,5.0
+28-10-2024,Cuiabá,Corinthians,Brazil - Serie A,0,1,0,1,13,9,5,3,41,33,5,2,3.3,3.1,2.35
+28-10-2024,Ituano,Santos,Brazil - Serie B,0,2,0,1,13,13,2,4,27,57,3,6,4.1,3.4,1.9
+29-03-2025,Cruzeiro,Mirassol,Brazil - Serie A,2,1,2,1,8,16,2,6,25,38,2,6,1.57,3.7,6.5
+29-03-2025,Flamengo,Internacional,Brazil - Serie A,1,1,0,1,19,5,5,1,58,18,4,2,1.75,3.5,5.0
+29-03-2025,Fortaleza,Fluminense,Brazil - Serie A,2,0,2,0,5,15,3,1,19,57,4,5,2.5,3.0,3.2
+29-03-2025,Grêmio,Atlético Mineiro,Brazil - Serie A,2,1,2,0,12,22,5,7,31,59,1,11,2.75,3.0,2.87
+29-03-2025,Juventude,Vitória,Brazil - Serie A,2,0,1,0,9,14,4,5,27,44,3,5,2.15,3.1,3.8
+29-03-2025,São Paulo,Sport Recife,Brazil - Serie A,0,0,0,0,16,8,3,1,38,14,6,2,1.7,3.3,5.5
+29-05-2025,Ferroviária,Botafogo Sp,Brazil - Serie B,1,1,1,0,18,13,2,4,28,55,2,5,2.05,3.25,3.75
+29-06-2025,Athletic Club,Remo,Brazil - Serie B,1,2,0,0,20,6,9,3,51,17,10,2,1.95,3.3,4.0
+29-06-2025,Chapecoense,Goiás,Brazil - Serie B,1,2,1,0,10,19,3,5,21,66,5,4,2.8,2.75,2.9
+29-06-2025,Novorizontino,Amazonas,Brazil - Serie B,1,1,1,1,15,10,3,3,70,25,6,4,1.48,3.9,7.5
+29-06-2025,Volta Redonda,Operário Pr,Brazil - Serie B,1,0,0,0,16,10,2,1,41,29,5,4,2.05,3.0,4.2
+29-07-2025,Criciúma,Cuiabá,Brazil - Serie B,1,0,1,0,12,6,2,0,22,36,1,4,1.7,3.4,5.5
+29-07-2025,Goiás,Remo,Brazil - Serie B,1,1,0,1,29,7,9,2,83,23,11,3,1.55,3.8,6.25
+29-07-2025,Grêmio,Fortaleza,Brazil - Serie A,2,1,2,1,10,12,4,3,30,44,2,5,2.15,3.25,3.4
+29-09-2024,Atlético Go,Fluminense,Brazil - Serie A,1,0,0,0,16,13,7,2,30,61,4,3,2.45,3.2,3.0
+29-09-2024,Bahia,Criciúma,Brazil - Serie A,1,0,1,0,21,2,7,1,52,57,9,1,1.61,4.0,5.25
+29-09-2024,Crb,América Mineiro,Brazil - Serie B,2,1,1,1,16,5,7,3,52,24,6,1,2.7,3.0,2.8
+29-09-2024,Fortaleza,Cuiabá,Brazil - Serie A,1,0,1,0,15,2,6,1,50,23,7,3,1.72,3.7,4.75
+29-09-2024,Juventude,Bragantino,Brazil - Serie A,1,1,0,0,12,15,6,6,37,41,4,5,2.62,3.1,2.87
+29-10-2024,Amazonas,Botafogo Sp,Brazil - Serie B,0,1,0,0,15,8,8,2,73,10,11,1,1.95,3.1,4.2
+29-10-2024,Brusque,Chapecoense,Brazil - Serie B,0,1,0,0,19,10,4,4,46,27,6,3,2.25,2.87,3.75
+29-10-2024,Goiás,Operário Pr,Brazil - Serie B,3,0,1,0,23,14,10,3,45,34,3,3,1.75,3.2,5.75
+29-10-2024,Guarani,Novorizontino,Brazil - Serie B,0,2,0,2,9,7,4,3,46,26,6,7,3.0,2.7,2.8
+30-03-2025,Bahia,Corinthians,Brazil - Serie A,1,1,1,0,14,9,5,4,49,47,3,5,1.8,3.4,5.0
+30-03-2025,Palmeiras,Botafogo,Brazil - Serie A,0,0,0,0,13,13,3,5,48,33,2,2,1.66,3.6,6.0
+30-03-2025,Vasco Da Gama,Santos,Brazil - Serie A,2,1,0,1,12,11,5,2,64,45,2,3,2.25,3.1,3.4
+30-05-2025,Vila Nova,Novorizontino,Brazil - Serie B,0,1,0,1,17,8,7,1,77,25,13,2,2.25,2.8,3.7
+30-06-2025,Cuiabá,Botafogo Sp,Brazil - Serie B,0,1,0,0,16,12,3,3,64,34,5,3,1.7,3.25,6.0
+30-06-2025,Paysandu,Ferroviária,Brazil - Serie B,2,1,0,1,13,10,5,2,67,35,5,5,1.9,3.1,4.5
+30-08-2024,Santos,Ponte Preta,Brazil - Serie B,2,2,2,0,19,9,7,3,59,15,6,3,1.42,4.5,7.5
+30-09-2024,Novorizontino,Ponte Preta,Brazil - Serie B,2,1,2,0,17,11,8,6,27,34,5,4,1.6,3.6,6.0
+30-10-2024,Internacional,Flamengo,Brazil - Serie A,1,1,0,1,18,12,5,3,73,39,5,5,1.83,3.4,4.5
+30-11-2024,Criciúma,Corinthians,Brazil - Serie A,2,4,2,0,12,19,4,11,35,55,3,7,3.4,3.3,2.15
+30-11-2024,Cuiabá,Bahia,Brazil - Serie A,1,2,1,1,11,12,2,3,50,45,3,4,4.33,3.4,1.9
+30-11-2024,Vasco Da Gama,Atlético Go,Brazil - Serie A,2,2,0,1,16,12,7,6,60,25,5,3,1.9,3.25,4.33
+31-03-2025,Bragantino,Ceará,Brazil - Serie A,2,2,1,2,18,13,7,6,73,25,9,2,1.95,3.3,4.1
+31-05-2025,Athletic Club,Cuiabá,Brazil - Serie B,0,2,0,1,9,15,1,4,19,1,3,5,2.5,3.0,3.0
+31-05-2025,Atlético Go,Goiás,Brazil - Serie B,1,2,1,2,16,9,5,5,47,34,7,3,2.25,3.0,3.5
+31-05-2025,Bahia,São Paulo,Brazil - Serie A,2,1,0,0,13,14,7,4,46,24,5,3,1.85,3.1,5.0
+31-05-2025,Coritiba,Avaí,Brazil - Serie B,2,1,1,0,13,8,6,5,38,50,4,2,2.0,3.1,4.1
+31-05-2025,Vasco Da Gama,Bragantino,Brazil - Serie A,0,2,0,2,20,4,4,3,79,23,7,3,2.4,3.2,3.1
+31-07-2025,Vila Nova,Coritiba,Brazil - Serie B,1,2,1,2,22,13,4,3,72,34,3,3,2.62,2.75,3.1
+31-08-2024,Cuiabá,Criciúma,Brazil - Serie A,2,1,0,1,22,12,3,3,54,45,5,5,2.0,3.3,4.1

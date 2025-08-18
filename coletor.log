@@ -1,0 +1,38 @@
+2025-08-17 18:45:30,971 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 18:45:30,989 [INFO] Nenhum histórico encontrado. Será criado um novo.
+2025-08-17 18:45:43,941 [INFO] Encontradas 20 equipes únicas.
+2025-08-17 18:46:39,814 [INFO] Foram encontrados 60 jogos novos.
+2025-08-17 18:46:39,925 [INFO] Dados salvos no banco dados.db (60 linhas).
+2025-08-17 18:46:39,926 [INFO] --- Fim da coleta ---
+2025-08-17 18:59:00,061 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 18:59:00,064 [INFO] Histórico encontrado com 60 jogos.
+2025-08-17 18:59:06,763 [INFO] Encontradas 20 equipes únicas.
+2025-08-17 19:00:25,269 [INFO] Foram encontrados 668 jogos novos.
+2025-08-17 19:00:25,496 [INFO] Dados salvos no banco dados.db (661 linhas).
+2025-08-17 19:00:25,496 [INFO] --- Fim da coleta ---
+2025-08-17 19:15:39,159 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:15:45,808 [INFO] Encontradas 20 equipes únicas.
+2025-08-17 19:17:24,365 [INFO] Foram encontrados 979 jogos novos.
+2025-08-17 19:17:24,793 [INFO] Dados salvos no banco dados.db (712 linhas).
+2025-08-17 19:17:24,793 [INFO] --- Fim da coleta ---
+2025-08-17 19:17:24,823 [INFO] Exportado para CSV: dados_exportados.csv (925 linhas).
+2025-08-17 19:21:12,229 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:21:24,668 [INFO] Encontradas 40 equipes únicas.
+2025-08-17 19:24:34,198 [INFO] Foram encontrados 2040 jogos novos.
+2025-08-17 19:24:34,864 [INFO] Dados salvos no banco dados.db (1367 linhas).
+2025-08-17 19:24:34,865 [INFO] --- Fim da coleta ---
+2025-08-17 19:24:34,900 [INFO] Exportado para CSV: dados_exportados.csv (1367 linhas).
+2025-08-17 19:52:10,627 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:52:25,358 [INFO] Encontradas 40 equipes únicas.
+2025-08-17 19:55:24,130 [INFO] Foram encontrados 1917 jogos novos.
+2025-08-17 19:55:24,711 [INFO] Dados salvos no banco dados.db (271 linhas).
+2025-08-17 19:55:24,730 [INFO] Exportado para CSV: dados_exportados.csv (271 linhas).
+2025-08-17 19:55:24,731 [INFO] --- Fim da coleta ---
+2025-08-17 19:55:24,740 [INFO] Exportado para CSV: dados_exportados.csv (271 linhas).
+2025-08-17 19:59:25,905 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:59:41,223 [INFO] Encontradas 40 equipes únicas.
+2025-08-17 20:02:55,633 [INFO] Foram encontrados 1917 jogos novos.
+2025-08-17 20:02:56,429 [INFO] Dados salvos no banco dados.db (606 linhas).
+2025-08-17 20:02:56,467 [INFO] Exportado para CSV: dados_exportados.csv (606 linhas).
+2025-08-17 20:02:56,468 [INFO] --- Fim da coleta ---
+2025-08-17 20:02:56,488 [INFO] Exportado para CSV: dados_exportados.csv (606 linhas).
