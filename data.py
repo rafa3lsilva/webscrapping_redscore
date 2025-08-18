@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service as EdgeService
+from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -60,12 +61,10 @@ def raspar_links_dos_times_da_liga(liga_url):
     edge_options.add_argument("--window-size=1920,1080")
     # Esta opção oculta os erros internos do Edge (linhas vermelhas)
     edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    edge_options.add_argument("--log-level=3")
 
     try:
-        caminho_driver = "./msedgedriver.exe"
-        # Este parâmetro oculta as mensagens "DevTools listening"
-        # Ele envia o log do serviço para um "buraco negro" (os.devnull)
-        servico = EdgeService(executable_path=caminho_driver, log_output=os.devnull)
+        servico = EdgeService(EdgeChromiumDriverManager().install())
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
         print(f"Erro ao iniciar o WebDriver: {e}")
@@ -105,12 +104,10 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
     edge_options.add_argument("--window-size=1920,1080")
     # Esta opção oculta os erros internos do Edge (linhas vermelhas)
     edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
+    edge_options.add_argument("--log-level=3")
 
     try:
-        caminho_driver = "./msedgedriver.exe"
-        # Este parâmetro oculta as mensagens "DevTools listening"
-        # Ele envia o log do serviço para um "buraco negro" (os.devnull)
-        servico = EdgeService(executable_path=caminho_driver, log_output=os.devnull)
+        servico = EdgeService(EdgeChromiumDriverManager().install())
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
         print(f"Erro ao iniciar o WebDriver: {e}")
