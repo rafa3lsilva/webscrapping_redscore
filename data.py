@@ -65,9 +65,7 @@ def raspar_links_dos_times_da_liga(liga_url):
         caminho_driver = "./msedgedriver.exe"
         # Este parâmetro oculta as mensagens "DevTools listening"
         # Ele envia o log do serviço para um "buraco negro" (os.devnull)
-        servico = EdgeService(
-            executable_path=caminho_driver, log_output=os.devnull)
-        servico = EdgeService(executable_path=caminho_driver)
+        servico = EdgeService(executable_path=caminho_driver, log_output=os.devnull)
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
         print(f"Erro ao iniciar o WebDriver: {e}")
@@ -112,9 +110,7 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
         caminho_driver = "./msedgedriver.exe"
         # Este parâmetro oculta as mensagens "DevTools listening"
         # Ele envia o log do serviço para um "buraco negro" (os.devnull)
-        servico = EdgeService(
-            executable_path=caminho_driver, log_output=os.devnull)
-        servico = EdgeService(executable_path=caminho_driver)
+        servico = EdgeService(executable_path=caminho_driver, log_output=os.devnull)
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
         print(f"Erro ao iniciar o WebDriver: {e}")
