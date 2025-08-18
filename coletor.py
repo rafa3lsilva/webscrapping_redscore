@@ -87,7 +87,7 @@ def salvar_no_banco(df, nome_db=NOME_DB):
 # ===============================
 # Exportar banco para CSV
 # ===============================
-def exportar_para_csv(nome_db=NOME_DB, nome_csv="dados_exportados.csv"):
+def exportar_para_csv(nome_db=NOME_DB, nome_csv="dados_redscore.csv"):
     conn = sqlite3.connect(nome_db)
     query = "SELECT DISTINCT * FROM jogos"
     df = pd.read_sql(query, conn)

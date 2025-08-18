@@ -45,7 +45,6 @@ def links_ligas():
         # "https://redscores.com/pt-br/league/scotland/championship/504",
         # "https://redscores.com/pt-br/league/scotland/league-one/516",
         # "https://redscores.com/pt-br/league/scotland/league-two/519",
-        
     ]
 
     return urls_das_ligas
