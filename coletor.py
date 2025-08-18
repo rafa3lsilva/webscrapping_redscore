@@ -158,4 +158,3 @@ def coletar_novos_dados():
 
 if __name__ == "__main__":
     coletar_novos_dados()
-    exportar_para_csv()
