@@ -7,6 +7,7 @@ from selenium.webdriver.edge.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from datetime import datetime
+import os
 import ligas_config as cfg
 
 
@@ -57,9 +58,15 @@ def raspar_links_dos_times_da_liga(liga_url):
     edge_options = Options()
     edge_options.add_argument("--headless")
     edge_options.add_argument("--window-size=1920,1080")
+    # Esta opção oculta os erros internos do Edge (linhas vermelhas)
+    edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
     try:
         caminho_driver = "./msedgedriver.exe"
+        # Este parâmetro oculta as mensagens "DevTools listening"
+        # Ele envia o log do serviço para um "buraco negro" (os.devnull)
+        servico = EdgeService(
+            executable_path=caminho_driver, log_output=os.devnull)
         servico = EdgeService(executable_path=caminho_driver)
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
@@ -98,9 +105,15 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
     edge_options = Options()
     edge_options.add_argument("--headless")
     edge_options.add_argument("--window-size=1920,1080")
+    # Esta opção oculta os erros internos do Edge (linhas vermelhas)
+    edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
 
     try:
         caminho_driver = "./msedgedriver.exe"
+        # Este parâmetro oculta as mensagens "DevTools listening"
+        # Ele envia o log do serviço para um "buraco negro" (os.devnull)
+        servico = EdgeService(
+            executable_path=caminho_driver, log_output=os.devnull)
         servico = EdgeService(executable_path=caminho_driver)
         driver = webdriver.Edge(service=servico, options=edge_options)
     except Exception as e:
@@ -194,8 +207,20 @@ def processar_dados_raspados(lista_de_jogos):
             if data_padronizada is None:
                 continue
 
+
+            # 1. Normaliza o nome da liga raspada
             liga = " ".join(jogo['Liga'].split()).title()
-            if liga not in cfg.LIGAS_PERMITIDAS:  # 🔑 filtro aplicado aqui
+
+            # 2. Prepara a sua lista de ligas permitidas para uma comparação sem erros de maiúsculas/minúsculas
+            ligas_permitidas_lower = {l.lower() for l in cfg.LIGAS_PERMITIDAS}
+
+            # 3. Linha de depuração para ver o que está a ser comparado
+            print(f"A verificar se '{liga.lower()}' está em {ligas_permitidas_lower}...")
+
+            # 4. Verificando os nomes das ligas permitidas
+            if liga.lower() not in ligas_permitidas_lower:
+                # Linha de depuração para ver o que é rejeitado
+                print(f" -> REJEITADA: '{liga}'")
                 continue
 
             placar_ft = [int(p.strip()) for p in jogo['Placar_FT'].split('-')]
