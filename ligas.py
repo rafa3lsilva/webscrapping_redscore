@@ -1,7 +1,4 @@
 def links_ligas():
-    """
-    Retorna uma lista simples de URLs das páginas das ligas a serem raspadas.
-    """
     urls_das_ligas = [
         "https://redscores.com/pt-br/league/brazil/serie-a/648",
         "https://redscores.com/pt-br/league/brazil/serie-b/651",
@@ -22,6 +19,15 @@ def links_ligas():
         "https://redscores.com/pt-br/league/korea-republic/k-league-1/1034",
         "https://redscores.com/pt-br/league/korea-republic/k-league-2/1362",
         "https://redscores.com/pt-br/league/china-pr/super-league/989",
+        "https://redscores.com/pt-br/league/estonia/meistriliiga/286",
+        "https://redscores.com/pt-br/league/finland/veikkausliiga/292",
+        "https://redscores.com/pt-br/league/republic-of-ireland/premier-division/360",
+        "https://redscores.com/pt-br/league/iceland/pepsideild/345",
+        "https://redscores.com/pt-br/league/lithuania/a-lyga/405",
+        "https://redscores.com/pt-br/league/norway/eliteserien/444",
+        "https://redscores.com/pt-br/league/norway/obos-ligaen/447",
+        "https://redscores.com/pt-br/league/sweden/allsvenskan/573",
+        "https://redscores.com/pt-br/league/sweden/superettan/579",
         # "https://redscores.com/pt-br/league/algeria/ligue-1/809",
         # "https://redscores.com/pt-br/league/south-africa/premier-league/806",
         # "https://redscores.com/pt-br/league/egypt/premier-league/830",
@@ -45,6 +51,32 @@ def links_ligas():
         # "https://redscores.com/pt-br/league/scotland/championship/504",
         # "https://redscores.com/pt-br/league/scotland/league-one/516",
         # "https://redscores.com/pt-br/league/scotland/league-two/519",
+        # "https://redscores.com/pt-br/league/slovakia/fortuna-liga/540",
+        # "https://redscores.com/pt-br/league/slovenia/1-snl/555",
+        # "https://redscores.com/pt-br/league/spain/la-liga/564",
+        # "https://redscores.com/pt-br/league/spain/la-liga-2/567",
+        # "https://redscores.com/pt-br/league/estonia/meistriliiga/286",
+        # "https://redscores.com/pt-br/league/france/ligue-1/301",
+        # "https://redscores.com/pt-br/league/france/ligue-2/304",
+        # "https://redscores.com/pt-br/league/greece/super-league/325",
+        # "https://redscores.com/pt-br/league/hungary/otp-bank-liga/334",
+        # "https://redscores.com/pt-br/league/england/premier-league/8",
+        # "https://redscores.com/pt-br/league/england/championship/9",
+        # "https://redscores.com/pt-br/league/england/league-one/12",
+        # "https://redscores.com/pt-br/league/england/league-two/14",
+        # "https://redscores.com/pt-br/league/northern-ireland/premiership/438",
+        # "https://redscores.com/pt-br/league/israel/ligat-ha-al/372",
+        # "https://redscores.com/pt-br/league/italy/serie-a/384",
+        # "https://redscores.com/pt-br/league/italy/serie-b/387",
+        # "https://redscores.com/pt-br/league/wales/premier-league/624",
+        # "https://redscores.com/pt-br/league/netherlands/eredivisie/72",
+        # "https://redscores.com/pt-br/league/netherlands/eerste-divisie/74",
+        # "https://redscores.com/pt-br/league/poland/ekstraklasa/453",
+        # "https://redscores.com/pt-br/league/portugal/primeira-liga/462",
+        # "https://redscores.com/pt-br/league/portugal/segunda-liga/465",
+        # "https://redscores.com/pt-br/league/romania/liga-1/474",
+        # "https://redscores.com/pt-br/league/serbia/super-liga/531",
+        # "https://redscores.com/pt-br/league/switzerland/super-league/591",
+        # "https://redscores.com/pt-br/league/turkey/super-lig/600",
     ]
-
     return urls_das_ligas
