@@ -210,12 +210,12 @@ def processar_dados_raspados(lista_de_jogos):
             ligas_permitidas_lower = {l.lower() for l in cfg.LIGAS_PERMITIDAS}
 
             # 3. Linha de depuração para ver o que está a ser comparado
-            print(f"A verificar se '{liga.lower()}' está em {ligas_permitidas_lower}...")
+            #print(f"A verificar se '{liga.lower()}' está em {ligas_permitidas_lower}...")
 
             # 4. Verificando os nomes das ligas permitidas
             if liga.lower() not in ligas_permitidas_lower:
                 # Linha de depuração para ver o que é rejeitado
-                print(f" -> REJEITADA: '{liga}'")
+                #print(f" -> REJEITADA: '{liga}'")
                 continue
 
             placar_ft = [int(p.strip()) for p in jogo['Placar_FT'].split('-')]
