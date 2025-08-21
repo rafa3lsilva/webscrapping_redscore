@@ -1,0 +1,340 @@
+2025-08-17 18:45:30,971 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 18:45:30,989 [INFO] Nenhum histórico encontrado. Será criado um novo.
+2025-08-17 18:45:43,941 [INFO] Encontradas 20 equipes únicas.
+2025-08-17 18:46:39,814 [INFO] Foram encontrados 60 jogos novos.
+2025-08-17 18:46:39,925 [INFO] Dados salvos no banco dados.db (60 linhas).
+2025-08-17 18:46:39,926 [INFO] --- Fim da coleta ---
+2025-08-17 18:59:00,061 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 18:59:00,064 [INFO] Histórico encontrado com 60 jogos.
+2025-08-17 18:59:06,763 [INFO] Encontradas 20 equipes únicas.
+2025-08-17 19:00:25,269 [INFO] Foram encontrados 668 jogos novos.
+2025-08-17 19:00:25,496 [INFO] Dados salvos no banco dados.db (661 linhas).
+2025-08-17 19:00:25,496 [INFO] --- Fim da coleta ---
+2025-08-17 19:15:39,159 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:15:45,808 [INFO] Encontradas 20 equipes únicas.
+2025-08-17 19:17:24,365 [INFO] Foram encontrados 979 jogos novos.
+2025-08-17 19:17:24,793 [INFO] Dados salvos no banco dados.db (712 linhas).
+2025-08-17 19:17:24,793 [INFO] --- Fim da coleta ---
+2025-08-17 19:17:24,823 [INFO] Exportado para CSV: dados_exportados.csv (925 linhas).
+2025-08-17 19:21:12,229 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:21:24,668 [INFO] Encontradas 40 equipes únicas.
+2025-08-17 19:24:34,198 [INFO] Foram encontrados 2040 jogos novos.
+2025-08-17 19:24:34,864 [INFO] Dados salvos no banco dados.db (1367 linhas).
+2025-08-17 19:24:34,865 [INFO] --- Fim da coleta ---
+2025-08-17 19:24:34,900 [INFO] Exportado para CSV: dados_exportados.csv (1367 linhas).
+2025-08-17 19:52:10,627 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:52:25,358 [INFO] Encontradas 40 equipes únicas.
+2025-08-17 19:55:24,130 [INFO] Foram encontrados 1917 jogos novos.
+2025-08-17 19:55:24,711 [INFO] Dados salvos no banco dados.db (271 linhas).
+2025-08-17 19:55:24,730 [INFO] Exportado para CSV: dados_exportados.csv (271 linhas).
+2025-08-17 19:55:24,731 [INFO] --- Fim da coleta ---
+2025-08-17 19:55:24,740 [INFO] Exportado para CSV: dados_exportados.csv (271 linhas).
+2025-08-17 19:59:25,905 [INFO] --- Iniciando coleta de dados ---
+2025-08-17 19:59:41,223 [INFO] Encontradas 40 equipes únicas.
+2025-08-17 20:02:55,633 [INFO] Foram encontrados 1917 jogos novos.
+2025-08-17 20:02:56,429 [INFO] Dados salvos no banco dados.db (606 linhas).
+2025-08-17 20:02:56,467 [INFO] Exportado para CSV: dados_exportados.csv (606 linhas).
+2025-08-17 20:02:56,468 [INFO] --- Fim da coleta ---
+2025-08-17 20:02:56,488 [INFO] Exportado para CSV: dados_exportados.csv (606 linhas).
+2025-08-18 10:39:29,240 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 10:41:29,552 [INFO] Encontradas 375 equipes únicas.
+2025-08-18 11:07:20,737 [INFO] Foram encontrados 18334 jogos novos.
+2025-08-18 11:07:25,056 [INFO] Dados salvos no banco dados.db (3243 linhas).
+2025-08-18 11:07:25,109 [INFO] Exportado para CSV: dados_redscore.csv (3246 linhas).
+2025-08-18 11:07:25,110 [INFO] --- Fim da coleta ---
+2025-08-18 11:07:25,161 [INFO] Exportado para CSV: dados_redscore.csv (3246 linhas).
+2025-08-18 13:19:19,915 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 13:21:21,119 [INFO] Encontradas 375 equipes únicas.
+2025-08-18 13:49:33,971 [INFO] Foram encontrados 18155 jogos novos.
+2025-08-18 13:49:38,950 [INFO] Dados salvos no banco dados.db (5657 linhas).
+2025-08-18 13:49:39,050 [INFO] Exportado para CSV: dados_redscore.csv (5682 linhas).
+2025-08-18 13:49:39,051 [INFO] --- Fim da coleta ---
+2025-08-18 14:38:36,370 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 14:39:09,182 [INFO] Encontradas 92 equipes únicas.
+2025-08-18 14:45:50,767 [INFO] Foram encontrados 4510 jogos novos.
+2025-08-18 14:45:52,098 [INFO] Dados salvos no banco dados.db (0 linhas).
+2025-08-18 14:45:52,227 [INFO] Exportado para CSV: dados_redscore.csv (5682 linhas).
+2025-08-18 14:45:52,228 [INFO] --- Fim da coleta ---
+2025-08-18 15:27:39,397 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 15:28:11,532 [INFO] Encontradas 92 equipes únicas.
+2025-08-18 15:28:40,673 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2140>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd/element
+2025-08-18 15:28:44,763 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3130>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd/element
+2025-08-18 15:28:48,846 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3240>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd/element
+2025-08-18 15:28:56,990 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3F00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd/source
+2025-08-18 15:29:01,045 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE05A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd/source
+2025-08-18 15:29:05,119 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3240>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd/source
+2025-08-18 15:29:13,262 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3AC0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd
+2025-08-18 15:29:17,340 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2250>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd
+2025-08-18 15:29:21,396 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE27A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9fa1e8b4f5cf2070f5c82f77195668fd
+2025-08-18 15:35:11,710 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2360>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9eff6d418175169964b09433d275f9f1/source
+2025-08-18 15:35:11,713 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE1F20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/78236a99c8da731a92a0d4cae8736222/source
+2025-08-18 15:35:12,026 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE1260>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801/element
+2025-08-18 15:35:12,041 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2580>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04/element
+2025-08-18 15:35:15,772 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2250>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/78236a99c8da731a92a0d4cae8736222/source
+2025-08-18 15:35:15,789 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3460>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9eff6d418175169964b09433d275f9f1/source
+2025-08-18 15:35:16,102 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2F10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04/element
+2025-08-18 15:35:16,106 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3AC0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801/element
+2025-08-18 15:35:19,838 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3240>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/78236a99c8da731a92a0d4cae8736222/source
+2025-08-18 15:35:19,840 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE05A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9eff6d418175169964b09433d275f9f1/source
+2025-08-18 15:35:20,168 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3F00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04/element
+2025-08-18 15:35:20,170 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE18C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801/element
+2025-08-18 15:35:27,978 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C528380>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9eff6d418175169964b09433d275f9f1
+2025-08-18 15:35:27,995 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C5287C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/78236a99c8da731a92a0d4cae8736222
+2025-08-18 15:35:28,267 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C528C00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04/source
+2025-08-18 15:35:28,269 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C529040>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801/source
+2025-08-18 15:35:32,064 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C529370>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9eff6d418175169964b09433d275f9f1
+2025-08-18 15:35:32,065 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C5296A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/78236a99c8da731a92a0d4cae8736222
+2025-08-18 15:35:32,322 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE38A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04/source
+2025-08-18 15:35:32,339 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE1040>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801/source
+2025-08-18 15:35:36,119 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE1E10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/9eff6d418175169964b09433d275f9f1
+2025-08-18 15:35:36,136 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2BE0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/78236a99c8da731a92a0d4cae8736222
+2025-08-18 15:35:36,400 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2CF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04/source
+2025-08-18 15:35:36,401 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE1BF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801/source
+2025-08-18 15:35:44,541 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE2360>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04
+2025-08-18 15:35:44,542 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE0D10>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801
+2025-08-18 15:35:48,609 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3350>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04
+2025-08-18 15:35:48,625 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE3CE0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801
+2025-08-18 15:35:52,693 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E189AE0C00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/d4e61111468177e85eefcf1f51d21b04
+2025-08-18 15:35:52,695 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E18C528F30>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b5d60084088597733fb46bc62018801
+2025-08-18 15:37:05,353 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 15:42:34,153 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 15:43:06,640 [INFO] Encontradas 92 equipes únicas.
+2025-08-18 15:50:26,974 [INFO] Foram encontrados 4510 jogos novos.
+2025-08-18 15:50:35,364 [INFO] Dados salvos no banco dados.db (1980 linhas).
+2025-08-18 15:50:35,599 [INFO] Exportado para CSV: dados_redscore.csv (7662 linhas).
+2025-08-18 15:50:35,602 [INFO] --- Fim da coleta ---
+2025-08-18 18:30:29,133 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 18:33:34,255 [INFO] Encontradas 493 equipes únicas.
+2025-08-18 18:35:32,707 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75DAE0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/8e8fa69ade938cce9958967cccf7fd03/source
+2025-08-18 18:35:32,721 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75DF20>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/fc82d4671675681190cc0c505f95669a/source
+2025-08-18 18:35:36,765 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75E140>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/8e8fa69ade938cce9958967cccf7fd03/source
+2025-08-18 18:35:36,766 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75D7B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/fc82d4671675681190cc0c505f95669a/source
+2025-08-18 18:35:39,908 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75EE00>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/572c9868f055bbc4c0f1fdbe56e3cedc
+2025-08-18 18:35:40,860 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75F570>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/fc82d4671675681190cc0c505f95669a/source
+2025-08-18 18:35:40,861 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75F240>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/8e8fa69ade938cce9958967cccf7fd03/source
+2025-08-18 18:35:43,975 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75F8A0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/572c9868f055bbc4c0f1fdbe56e3cedc
+2025-08-18 18:35:48,030 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229CE786B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/572c9868f055bbc4c0f1fdbe56e3cedc
+2025-08-18 18:35:49,005 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229CE78AF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/fc82d4671675681190cc0c505f95669a
+2025-08-18 18:35:49,034 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229CE78F30>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/8e8fa69ade938cce9958967cccf7fd03
+2025-08-18 18:35:49,519 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75F9B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/0f847ed0e7c23420da4608bae159cf49/elements
+2025-08-18 18:35:49,521 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002229C75FBD0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/fa97649f649c6f5304c7348c81874a36/elements
+2025-08-18 18:41:40,075 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 18:41:40,093 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:41,414 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:41,436 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:42,774 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:42,777 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:44,165 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:44,166 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:45,548 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:45,550 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:46,867 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:46,884 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:48,246 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:48,251 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:49,558 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:49,560 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:50,941 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:50,945 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:52,294 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:52,317 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:53,775 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:53,799 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:55,239 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:55,255 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:56,585 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:56,602 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:57,931 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:57,934 [INFO] ====== WebDriver manager ======
+2025-08-18 18:41:59,326 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:41:59,328 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:00,724 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:00,726 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:02,105 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:02,128 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:03,527 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:03,535 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:04,926 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:04,927 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:06,319 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:06,321 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:07,724 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:07,748 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:09,355 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:09,379 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:11,037 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:11,061 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:12,646 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:12,671 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:14,045 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:14,046 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:15,408 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:15,410 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:16,843 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:16,845 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:18,376 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:18,400 [INFO] ====== WebDriver manager ======
+2025-08-18 18:42:19,785 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:42:19,787 [INFO] Encontradas 0 equipes únicas.
+2025-08-18 18:42:19,788 [INFO] Nenhum jogo novo encontrado.
+2025-08-18 18:42:19,960 [INFO] Exportado para CSV: dados_redscore.csv (7662 linhas).
+2025-08-18 18:42:19,961 [INFO] --- Fim da coleta ---
+2025-08-18 18:45:33,232 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 18:45:33,239 [INFO] ====== WebDriver manager ======
+2025-08-18 18:45:34,615 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:45:34,637 [INFO] ====== WebDriver manager ======
+2025-08-18 18:45:36,012 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:45:36,014 [INFO] ====== WebDriver manager ======
+2025-08-18 18:45:37,447 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:45:37,450 [INFO] ====== WebDriver manager ======
+2025-08-18 18:45:38,835 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:45:38,837 [INFO] ====== WebDriver manager ======
+2025-08-18 18:45:40,184 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:45:40,201 [INFO] ====== WebDriver manager ======
+2025-08-18 18:47:14,030 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 18:47:14,035 [INFO] ====== WebDriver manager ======
+2025-08-18 18:47:15,376 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:47:15,412 [INFO] ====== WebDriver manager ======
+2025-08-18 18:47:16,728 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:47:16,751 [INFO] ====== WebDriver manager ======
+2025-08-18 18:47:18,162 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:47:18,187 [INFO] ====== WebDriver manager ======
+2025-08-18 18:47:19,569 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-18 18:47:19,599 [INFO] ====== WebDriver manager ======
+2025-08-18 18:50:36,364 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 18:53:47,144 [INFO] Encontradas 493 equipes únicas.
+2025-08-18 19:29:19,567 [INFO] Foram encontrados 24285 jogos novos.
+2025-08-18 19:29:40,035 [INFO] Dados salvos no banco dados.db (9893 linhas).
+2025-08-18 19:29:40,154 [INFO] Exportado para CSV: dados_redscore.csv (9920 linhas).
+2025-08-18 19:29:40,155 [INFO] --- Fim da coleta ---
+2025-08-18 20:20:16,305 [INFO] --- Iniciando coleta de dados ---
+2025-08-18 20:25:33,253 [INFO] Encontradas 493 equipes únicas.
+2025-08-18 20:26:03,053 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC5150>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b5d2cc648fcaf7c4697321f4e48e0922/source
+2025-08-18 20:26:03,163 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC49E0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ddf9c34f8a8558d0166736c1543ee958/source
+2025-08-18 20:26:03,340 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC47C0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b0b1920bb2255febe29d3bf18305e3c/elements
+2025-08-18 20:26:03,403 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC5590>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/79c3b5a45ebed91af577e271ce6d38a9/elements
+2025-08-18 20:26:03,420 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC57B0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/c2ffce5e48225d1ef411a6e26917bea5/elements
+2025-08-18 20:26:07,172 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC4AF0>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/b5d2cc648fcaf7c4697321f4e48e0922/source
+2025-08-18 20:26:07,285 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC4270>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/ddf9c34f8a8558d0166736c1543ee958/source
+2025-08-18 20:26:07,445 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC6030>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/2b0b1920bb2255febe29d3bf18305e3c/elements
+2025-08-18 20:26:07,525 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC6360>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/79c3b5a45ebed91af577e271ce6d38a9/elements
+2025-08-18 20:26:07,526 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F6EEEC6690>: Failed to establish a new connection: [WinError 10061] Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente')': /session/c2ffce5e48225d1ef411a6e26917bea5/elements
+2025-08-19 21:49:03,487 [INFO] --- Iniciando coleta de dados ---
+2025-08-19 21:52:08,644 [INFO] Encontradas 493 equipes únicas.
+2025-08-19 22:45:09,497 [INFO] Foram encontrados 24598 jogos novos.
+2025-08-19 22:45:58,127 [INFO] Dados salvos no banco dados.db (9901 linhas).
+2025-08-19 22:45:58,539 [INFO] Exportado para CSV: dados_redscore.csv (9936 linhas).
+2025-08-19 22:45:58,544 [INFO] --- Fim da coleta ---
+2025-08-20 09:50:35,365 [INFO] --- Iniciando coleta de dados ---
+2025-08-20 09:50:35,416 [INFO] Encontrados 9936 jogos já existentes no banco de dados.
+2025-08-20 09:53:27,873 [INFO] Encontradas 493 equipes únicas.
+2025-08-20 10:30:22,661 [INFO] Foram encontrados 69 jogos novos.
+2025-08-20 10:30:22,922 [INFO] Dados salvos no banco dados.db (3 linhas).
+2025-08-20 10:30:23,447 [INFO] Exportado para CSV: dados_redscore.csv (9939 linhas).
+2025-08-20 10:30:23,450 [INFO] --- Fim da coleta ---
+2025-08-20 18:43:36,012 [INFO] --- FASE 1: Coletando jogos de amanhã ---
+2025-08-20 18:43:58,667 [INFO] --- FASE 2: Atualizando resultados ---
+2025-08-20 18:43:58,669 [INFO] Nenhum jogo de hoje/ontem para atualizar.
+2025-08-20 18:43:58,670 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:01:05,816 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:01:05,816 [INFO] ====== WebDriver manager ======
+2025-08-20 19:01:07,002 [INFO] Get LATEST edgedriver version for Edge 139.0.3405
+2025-08-20 19:01:07,032 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:01:07,202 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:04:16,707 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:04:38,009 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:04:38,357 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:08:19,713 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:08:40,750 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:08:40,852 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:10:09,527 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:10:30,423 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:10:30,531 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:14:48,248 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:15:09,464 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:15:09,747 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:25:07,630 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:25:23,988 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:25:24,100 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:31:29,853 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:31:46,202 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:31:46,320 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:33:19,953 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:33:36,806 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:33:37,007 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:35:46,987 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:36:01,400 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:36:01,612 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:38:51,532 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:39:37,931 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:39:38,175 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:41:33,041 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:41:51,633 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:41:51,755 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:43:55,719 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:44:14,618 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:44:14,740 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:52:24,172 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:52:42,563 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:52:42,672 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:52:51,581 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:53:10,089 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:53:10,206 [INFO] --- Rotina diária concluída ---
+2025-08-20 19:59:12,655 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 19:59:31,196 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 19:59:31,360 [INFO] --- Rotina diária concluída ---
+2025-08-20 20:10:42,721 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 20:11:00,775 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 20:11:00,905 [INFO] --- Rotina diária concluída ---
+2025-08-20 20:12:15,825 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 20:12:33,551 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 20:12:33,676 [INFO] --- Rotina diária concluída ---
+2025-08-20 20:13:59,442 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 20:14:16,243 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 20:14:16,426 [INFO] --- Rotina diária concluída ---
+2025-08-20 20:18:44,088 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 20:19:00,909 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 20:19:01,074 [INFO] --- Rotina diária concluída ---
+2025-08-20 21:21:18,585 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 21:22:08,912 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 21:22:09,119 [INFO] --- Rotina diária concluída ---
+2025-08-20 21:32:28,742 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 21:32:48,942 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 21:32:49,116 [INFO] --- Rotina diária concluída ---
+2025-08-20 21:36:19,695 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 21:36:57,022 [INFO] 7 jogos de amanhã salvos/ignorados na agenda.
+2025-08-20 21:36:57,035 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-20 21:36:57,148 [INFO] --- Rotina diária concluída ---
+2025-08-20 22:02:46,039 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-20 22:05:40,232 [WARNING] Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Foi forçado o cancelamento de uma conexão existente pelo host remoto', None, 10054, None)': /session/d7aa663dc06cb99cdebe6e78d87e57e0
+2025-08-21 07:43:23,522 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-21 07:43:44,376 [INFO] 11 jogos de amanhã salvos/ignorados na agenda.
+2025-08-21 07:43:44,396 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-21 07:52:18,858 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-21 07:53:50,729 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-21 08:22:12,227 [INFO] FASE 1: Coletando jogos de amanhã
+2025-08-21 08:22:31,140 [INFO] 11 jogos de amanhã salvos/ignorados na agenda.
+2025-08-21 08:22:31,187 [INFO] FASE 2: Atualizando resultados de hoje
+2025-08-21 08:24:27,624 [INFO] --- Rotina diária concluída ---
+2025-08-21 08:51:04,407 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 08:54:08,584 [WARNING] Não foi possível extrair links de equipas das páginas de confronto.
+2025-08-21 08:59:19,197 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 09:03:31,662 [INFO] Dados salvos/atualizados na tabela 'jogos' (101 linhas).
+2025-08-21 09:03:31,852 [INFO] --- Rotina diária concluída ---
+2025-08-21 09:20:49,164 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 09:21:07,621 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (11 linhas).
+2025-08-21 09:34:22,897 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 09:34:42,439 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (11 linhas).
+2025-08-21 09:38:37,624 [WARNING] Nenhum jogo foi processado com sucesso após a raspagem.
+2025-08-21 09:57:33,881 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 09:57:54,453 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (11 linhas).
+2025-08-21 10:02:01,204 [WARNING] Nenhum jogo foi processado com sucesso após a raspagem.
+2025-08-21 10:02:01,463 [INFO] --- Rotina diária concluída ---
+2025-08-21 11:49:27,889 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 11:49:46,564 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (24 linhas).
+2025-08-21 11:57:46,760 [INFO] Dados salvos/atualizados na tabela 'jogos' (40 linhas).
+2025-08-21 11:57:47,024 [INFO] --- Rotina diária concluída ---
+2025-08-21 14:46:13,306 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 14:46:33,393 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (24 linhas).
+2025-08-21 14:55:24,467 [INFO] Dados salvos/atualizados na tabela 'jogos' (836 linhas).
+2025-08-21 14:55:24,484 [INFO] --- Rotina diária concluída ---
