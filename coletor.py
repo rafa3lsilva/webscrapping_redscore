@@ -112,9 +112,11 @@ def rotina_diaria_noturna():
         link_confronto = jogo['link_confronto']
         link_home, link_away = dt.obter_links_de_equipa_do_confronto(
             link_confronto)
+        liga_correta = jogo['liga']
+
         if link_home and link_away:
-            equipas_a_visitar[link_home] = extrair_pais(link_home)
-            equipas_a_visitar[link_away] = extrair_pais(link_away)
+            equipas_a_visitar[link_home] = liga_correta
+            equipas_a_visitar[link_away] = liga_correta
 
     if not equipas_a_visitar:
         print("Não foi possível extrair links de equipas. Rotina concluída.")
@@ -130,8 +132,8 @@ def rotina_diaria_noturna():
     todos_os_jogos_novos = []
 
     with ThreadPoolExecutor(max_workers=5) as executor:
-        futures = {executor.submit(dt.raspar_dados_time, url, pais, jogos_existentes, 20): (
-            url, pais) for url, pais in equipas_a_visitar.items()}
+        futures = {executor.submit(dt.raspar_dados_time, url, liga_correta, jogos_existentes, 20): (
+            url, liga_correta) for url, liga_correta in equipas_a_visitar.items()}
         for future in tqdm(as_completed(futures), total=len(futures), desc="Atualizando Histórico das Equipas"):
             try:
                 todos_os_jogos_novos.extend(future.result())

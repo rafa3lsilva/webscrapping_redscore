@@ -229,7 +229,7 @@ def obter_links_de_equipa_do_confronto(url_confronto):
             driver.quit()
 
 
-def raspar_dados_time(time_url, pais, jogos_existentes, limite_jogos=50):
+def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50):
     jogos_raspados = []
     driver = _iniciar_driver()
     if not driver:
@@ -274,8 +274,7 @@ def raspar_dados_time(time_url, pais, jogos_existentes, limite_jogos=50):
                         if identificador_jogo_atual in jogos_existentes:
                             break
 
-                        liga = celulas[1].find(
-                            'img')['alt'] if celulas[1].find('img') else 'N/A'
+                        # liga = celulas[1].find('img')['alt'] if celulas[1].find('img') else 'N/A'
                         placar_texto = celulas[3].text.strip()
                         placar_ht = celulas[5].text.strip()
                         chutes = celulas[6].text.strip()
@@ -287,7 +286,7 @@ def raspar_dados_time(time_url, pais, jogos_existentes, limite_jogos=50):
                         odd_a = celulas[13].text.strip()
 
                         jogos_raspados.append({
-                            "Liga": f"{pais} - {liga}", "Data": data, "Home": time_casa, "Away": time_fora,
+                            "Liga": liga_correta, "Data": data, "Home": time_casa, "Away": time_fora,
                             "Placar_FT": placar_texto, "Placar_HT": placar_ht, "Chutes": chutes,
                             "Chutes_Gol": chutes_gol, "Ataques": ataques, "Escanteios": escanteios,
                             "Odd_H_str": odd_h, "Odd_D_str": odd_d, "Odd_A_str": odd_a
