@@ -41,19 +41,21 @@ def _iniciar_driver():
 # ==========================
 # Função para formatar datas
 # ==========================
+
+
 def _formatar_data(texto_data):
-    """Formata uma string de data para o formato DD-MM-YYYY."""
+    """
+    Formata uma string de data para o formato DD-MM-YYYY, lidando
+    corretamente com o formato americano (MM-DD-YYYY) do site.
+    """
     if not texto_data or not isinstance(texto_data, str):
         return None
     try:
-        data_obj = datetime.strptime(texto_data, '%d/%m')
-        data_obj = data_obj.replace(year=datetime.now().year)
+        data_obj = pd.to_datetime(texto_data)
+
         return data_obj.strftime('%d-%m-%Y')
-    except ValueError:
-        try:
-            return pd.to_datetime(texto_data, dayfirst=True).strftime('%d-%m-%Y')
-        except Exception:
-            return None
+    except Exception:
+        return None
 
 # ==========================
 # Função para converter strings de estatísticas
