@@ -303,6 +303,19 @@ def raspar_dados_time(time_url, pais, jogos_existentes, limite_jogos=50):
     return jogos_raspados
 
 
+def _converter_stat_para_int(stat_string):
+    """Converte uma string 'A - B' para uma lista [A, B] de inteiros. Retorna [0, 0] em caso de falha."""
+    if not isinstance(stat_string, str) or '-' not in stat_string:
+        return [0, 0]
+    try:
+        # Tenta converter as duas partes para inteiro
+        partes = [int(p.strip()) for p in stat_string.split('-')]
+        # Garante que temos exatamente duas partes
+        return partes if len(partes) == 2 else [0, 0]
+    except (ValueError, IndexError):
+        # Se a conversão para int() falhar (ex: int('')), retorna [0, 0]
+        return [0, 0]
+    
 # ==========================
 # Processamento dos dados
 # ==========================
@@ -316,14 +329,14 @@ def processar_dados_raspados(lista_de_jogos):
 
             liga = " ".join(jogo['Liga'].split()).title()
 
-            placar_ft = [int(p.strip()) for p in jogo['Placar_FT'].split('-')]
-            placar_ht = [int(p.strip()) for p in jogo['Placar_HT'].split('-')]
-            chutes = [int(p.strip()) for p in jogo['Chutes'].split('-')]
-            chutes_gol = [int(p.strip())
-                          for p in jogo['Chutes_Gol'].split('-')]
-            ataques = [int(p.strip()) for p in jogo['Ataques'].split('-')]
-            escanteios = [int(p.strip())
-                          for p in jogo['Escanteios'].split('-')]
+            # --- LÓGICA DE CONVERSÃO MAIS ROBUSTA ---
+            placar_ft = _converter_stat_para_int(jogo['Placar_FT'])
+            placar_ht = _converter_stat_para_int(jogo['Placar_HT'])
+            chutes = _converter_stat_para_int(jogo['Chutes'])
+            chutes_gol = _converter_stat_para_int(jogo['Chutes_Gol'])
+            ataques = _converter_stat_para_int(jogo['Ataques'])
+            escanteios = _converter_stat_para_int(jogo['Escanteios'])
+            # ----------------------------------------
 
             odd_h = float(
                 jogo['Odd_H_str']) if jogo['Odd_H_str'] and jogo['Odd_H_str'] != '-' else 0.0
