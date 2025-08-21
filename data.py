@@ -6,36 +6,23 @@ import os
 import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service as EdgeService
-from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import ligas_config as cfg
 
 # ==========================
-# Função Auxiliar para Iniciar o Driver
+# Funções Auxiliares
 # ==========================
-
-
 def _iniciar_driver():
-    """Inicializa e retorna uma instância do WebDriver de forma mais 'furtiva' e silenciosa."""
+    """Inicializa e retorna uma instância do WebDriver de forma 'furtiva' e silenciosa."""
     edge_options = Options()
-
-    # --- OPÇÕES PARA PARECER MAIS HUMANO E AUMENTAR ESTABILIDADE ---
     user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
     edge_options.add_argument(f'user-agent={user_agent}')
+    edge_options.add_experimental_option('excludeSwitches', ['enable-automation', 'enable-logging'])
     edge_options.add_experimental_option('useAutomationExtension', False)
     edge_options.add_argument("--disable-blink-features=AutomationControlled")
     edge_options.add_argument("--start-maximized")
-
-    # --- OPÇÕES PARA REDUZIR O RUÍDO NO TERMINAL ---
-    edge_options.add_experimental_option(
-        'excludeSwitches', ['enable-automation', 'enable-logging'])
-
-    # ADICIONANDO DE VOLTA A LINHA ESSENCIAL:
     edge_options.add_argument("--log-level=3")
-
-    # Comente a linha abaixo para ver a janela do navegador durante o teste
     edge_options.add_argument("--headless")
 
     try:
@@ -44,7 +31,6 @@ def _iniciar_driver():
             print(
                 f"ERRO: O ficheiro '{caminho_driver_local}' não foi encontrado.")
             return None
-
         servico = EdgeService(executable_path=caminho_driver_local)
         driver = webdriver.Edge(service=servico, options=edge_options)
         return driver
@@ -55,36 +41,42 @@ def _iniciar_driver():
 # ==========================
 # Função para formatar datas
 # ==========================
-
-
 def _formatar_data(texto_data):
+    """Formata uma string de data para o formato DD-MM-YYYY."""
     if not texto_data or not isinstance(texto_data, str):
         return None
     try:
-        # Tenta formatar a data que vem como "DD/MM" para o ano atual
         data_obj = datetime.strptime(texto_data, '%d/%m')
         data_obj = data_obj.replace(year=datetime.now().year)
         return data_obj.strftime('%d-%m-%Y')
     except ValueError:
         try:
-            # Tenta outros formatos comuns se o primeiro falhar
             return pd.to_datetime(texto_data, dayfirst=True).strftime('%d-%m-%Y')
         except Exception:
             return None
 
 # ==========================
-# Nova Função de Raspagem da Página "Amanhã"
+# Função para converter strings de estatísticas
 # ==========================
-
+def _converter_stat_para_int(stat_string):
+    """Converte uma string 'A - B' para uma lista [A, B]. Retorna [0, 0] em caso de falha."""
+    if not isinstance(stat_string, str) or '-' not in stat_string:
+        return [0, 0]
+    try:
+        partes = [int(p.strip()) for p in stat_string.split('-')]
+        return partes if len(partes) == 2 else [0, 0]
+    except (ValueError, IndexError):
+        return [0, 0]
+    
+# ==========================
+# Função de Raspagem
+# ==========================
 def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
-    """
-    Versão FINAL com seletores de jogo corrigidos.
-    """
+    """Versão FINAL com seletores de jogo corrigidos."""
     lista_de_jogos = []
     driver = _iniciar_driver()
     if not driver:
         return lista_de_jogos
-
     try:
         driver.get(url_amanha)
         print("Página aberta. A procurar por banner de cookies...")
@@ -99,7 +91,6 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
             time.sleep(2)
         except Exception:
             print("Nenhum banner de cookies encontrado. A continuar...")
-
         print("A aguardar para a página estabilizar...")
         time.sleep(8)
 
@@ -136,23 +127,17 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
                         continue
 
                     try:
-                        # --- SELETORES CORRIGIDOS E MAIS ROBUSTOS ---
+                        # Extração de informações do jogo(Id, data/hora, equipes, link do confronto)
                         id_jogo = corpo_jogo['id'].replace('xmatch_', '')
-
-                        # A hora está no segundo <td> da linha
                         hora = linha.select('td')[1].text.strip()
-
-                        # O nome da equipa está dentro de um <td> com a classe .text-md-right e depois um <span> com a classe .team
                         time_casa = linha.select_one(
                             "td.text-md-right span.team").text.strip()
-
-                        # O nome da equipa de fora está no quinto <td>, e depois num <span> com a classe .team
                         time_fora = linha.select('td')[4].select_one(
                             "span.team").text.strip()
-
                         link_confronto = "https://redscores.com" + \
                             linha.select_one("td.text-md-right a")['href']
 
+                        # Extração das odds
                         odds_cells = linha.select("td")
                         odd_h = odds_cells[12].text.strip() if len(
                             odds_cells) > 12 and odds_cells[12].text.strip() != '-' else '0'
@@ -168,25 +153,20 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
                             "odd_h": odd_h, "odd_d": odd_d, "odd_a": odd_a,
                         })
                     except (AttributeError, IndexError, TypeError):
-                        # Se uma linha específica falhar na extração, ignora e continua
                         continue
             except Exception:
                 continue
-
     finally:
         if driver:
             driver.quit()
-
     return lista_de_jogos
 
 # ==========================
-# Raspagem de jogos de um time
+# Obter links de equipes do confronto
 # ==========================
-
-
-def obter_links_de_equipa_do_confronto(url_confronto):
+def obter_links_equipes_confronto(url_confronto):
     """
-    Visita a página de um confronto e extrai os links das páginas das duas equipas.
+    Visita a página de um confronto e extrai os links das páginas das duas equipes.
     Usa uma espera passiva (time.sleep) para evitar crashes.
     """
     driver = _iniciar_driver()
@@ -195,40 +175,38 @@ def obter_links_de_equipa_do_confronto(url_confronto):
 
     try:
         driver.get(url_confronto)
-
-        # Substituímos o WebDriverWait por time.sleep
-        print(f"  -> A aguardar a página do confronto: {url_confronto}")
+        print(f"-> A aguardar a página do confronto: {url_confronto}")
         time.sleep(8)
 
         html_content = driver.page_source
         if not html_content or "<body" not in html_content.lower():
-            print(f"  -> ERRO: Conteúdo vazio para {url_confronto}")
+            print(f"-> ERRO: Conteúdo vazio para {url_confronto}")
             return None, None
 
         soup = BeautifulSoup(html_content, 'html.parser')
-        # --- LÓGICA CORRIGIDA AQUI ---
-        # Procuramos diretamente pelos links dentro dos divs com a classe que você encontrou.
-        # Este seletor encontra todos os <a> que estão dentro de um <div class="match-detail__name">
-        seletor_correto = "div.match-detail__name a"
-        links_equipa = soup.select(seletor_correto)
 
-        if len(links_equipa) >= 2:
-            link_home = "https://redscores.com" + links_equipa[0]['href']
-            link_away = "https://redscores.com" + links_equipa[1]['href']
+        seletor_equipes = "div.match-detail__name a"
+        links_equipes = soup.select(seletor_equipes)
+
+        if len(links_equipes) >= 2:
+            link_home = "https://redscores.com" + links_equipes[0]['href']
+            link_away = "https://redscores.com" + links_equipes[1]['href']
             return link_home, link_away
         else:
             print(
-                f"-> AVISO: Encontrados {len(links_equipa)} links de equipa em {url_confronto}. Esperava 2.")
+                f"-> AVISO: Encontrados {len(links_equipes)} links de equipes em {url_confronto}. Esperava 2.")
             return None, None
 
     except Exception as e:
-        print(f"  -> ERRO ao obter links de equipa de {url_confronto}: {e}")
+        print(f"-> ERRO ao obter links de equipes de {url_confronto}: {e}")
         return None, None
     finally:
         if driver:
             driver.quit()
 
-
+# ==========================
+# Obter dados dos times
+# ==========================
 def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50):
     jogos_raspados = []
     driver = _iniciar_driver()
@@ -237,7 +215,6 @@ def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50)
 
     try:
         driver.get(time_url)
-
         while True:
             try:
                 jogos_atuais = driver.find_elements(
@@ -274,7 +251,6 @@ def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50)
                         if identificador_jogo_atual in jogos_existentes:
                             break
 
-                        # liga = celulas[1].find('img')['alt'] if celulas[1].find('img') else 'N/A'
                         placar_texto = celulas[3].text.strip()
                         placar_ht = celulas[5].text.strip()
                         chutes = celulas[6].text.strip()
@@ -300,21 +276,7 @@ def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50)
             driver.quit()
 
     return jogos_raspados
-
-
-def _converter_stat_para_int(stat_string):
-    """Converte uma string 'A - B' para uma lista [A, B] de inteiros. Retorna [0, 0] em caso de falha."""
-    if not isinstance(stat_string, str) or '-' not in stat_string:
-        return [0, 0]
-    try:
-        # Tenta converter as duas partes para inteiro
-        partes = [int(p.strip()) for p in stat_string.split('-')]
-        # Garante que temos exatamente duas partes
-        return partes if len(partes) == 2 else [0, 0]
-    except (ValueError, IndexError):
-        # Se a conversão para int() falhar (ex: int('')), retorna [0, 0]
-        return [0, 0]
-    
+ 
 # ==========================
 # Processamento dos dados
 # ==========================
@@ -327,15 +289,12 @@ def processar_dados_raspados(lista_de_jogos):
                 continue
 
             liga = " ".join(jogo['Liga'].split()).title()
-
-            # --- LÓGICA DE CONVERSÃO MAIS ROBUSTA ---
             placar_ft = _converter_stat_para_int(jogo['Placar_FT'])
             placar_ht = _converter_stat_para_int(jogo['Placar_HT'])
             chutes = _converter_stat_para_int(jogo['Chutes'])
             chutes_gol = _converter_stat_para_int(jogo['Chutes_Gol'])
             ataques = _converter_stat_para_int(jogo['Ataques'])
             escanteios = _converter_stat_para_int(jogo['Escanteios'])
-            # ----------------------------------------
 
             odd_h = float(
                 jogo['Odd_H_str']) if jogo['Odd_H_str'] and jogo['Odd_H_str'] != '-' else 0.0
@@ -358,8 +317,6 @@ def processar_dados_raspados(lista_de_jogos):
                 "Odd_H": odd_h, "Odd_D": odd_d, "Odd_A": odd_a
             })
         except Exception as e:
-            # DIAGNÓSTICO: Imprime o erro exato que ocorreu
             print(f"[DIAGNÓSTICO] ERRO ao processar o jogo acima: {e}")
             continue
-
     return pd.DataFrame(jogos_processados)
