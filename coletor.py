@@ -102,7 +102,7 @@ def rotina_diaria_noturna():
     equipas_a_visitar = {}
     for jogo in tqdm(jogos_amanha, desc="Verificando Confrontos"):
         link_confronto = jogo['link_confronto']
-        link_home, link_away = dt.obter_links_de_equipa_do_confronto(
+        link_home, link_away = dt.obter_links_equipes_confronto(
             link_confronto)
         liga_correta = jogo['liga']
 

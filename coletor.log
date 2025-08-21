@@ -338,3 +338,9 @@
 2025-08-21 14:46:33,393 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (24 linhas).
 2025-08-21 14:55:24,467 [INFO] Dados salvos/atualizados na tabela 'jogos' (836 linhas).
 2025-08-21 14:55:24,484 [INFO] --- Rotina diária concluída ---
+2025-08-21 19:26:17,655 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 19:26:37,941 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (24 linhas).
+2025-08-21 19:28:50,208 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-21 19:29:08,875 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (24 linhas).
+2025-08-21 19:37:30,498 [INFO] Dados salvos/atualizados na tabela 'jogos' (828 linhas).
+2025-08-21 19:37:30,541 [INFO] --- Rotina diária concluída ---

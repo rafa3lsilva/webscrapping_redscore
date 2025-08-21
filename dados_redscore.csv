@@ -1,83 +1,4 @@
 Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Chute_Gol,A_Chute_Gol,H_Ataques,A_Ataques,H_Escanteios,A_Escanteios,Odd_H,Odd_D,Odd_A
-17-08-2025,Kfum,Molde,Noruega - Eliteserien,0,0,0,0,17,3,5,0,51,34,7,2,3.0,3.1,2.4
-08-10-2025,Bryne,Kfum,Noruega - Eliteserien,0,0,0,0,5,5,2,2,39,45,2,2,3.1,3.1,2.37
-08-03-2025,Kfum,Rosenborg,Noruega - Eliteserien,4,1,1,0,12,4,5,2,50,44,3,3,2.45,3.3,2.8
-26-07-2025,Kristiansund,Kfum,Noruega - Eliteserien,0,5,0,2,6,14,1,7,42,29,3,3,4.1,3.6,1.83
-19-07-2025,Kfum,Brann,Noruega - Eliteserien,2,0,2,0,10,14,3,0,48,66,4,11,2.62,3.25,2.6
-13-07-2025,Haugesund,Kfum,Noruega - Eliteserien,0,2,0,1,9,16,4,4,41,52,3,11,4.5,3.5,1.8
-07-06-2025,Kfum,Bryne,Noruega - Eliteserien,1,1,0,0,14,7,3,3,104,18,7,2,1.72,3.7,4.75
-29-06-2025,Molde,Kfum,Noruega - Eliteserien,2,3,0,2,11,6,3,4,45,20,4,0,1.95,3.5,3.75
-25-06-2025,Lillestrøm,Kfum,Noruega - Eliteserien,2,0,0,0,13,2,5,0,82,55,11,3,2.1,3.5,3.3
-22-06-2025,Kfum,Strømsgodset,Noruega - Eliteserien,5,0,0,0,15,10,7,2,63,28,6,2,1.72,4.0,4.2
-06-01-2025,Rosenborg,Kfum,Noruega - Eliteserien,1,1,0,0,5,14,1,8,42,18,6,4,1.6,4.1,5.25
-26-05-2025,Kfum,Vålerenga,Noruega - Eliteserien,0,1,0,0,14,12,1,2,46,42,5,10,2.35,3.2,3.1
-20-05-2025,Bryne,Kfum,Noruega - Eliteserien,0,2,0,1,3,13,1,7,29,42,1,4,2.45,2.87,3.1
-16-05-2025,Fredrikstad,Kfum,Noruega - Eliteserien,1,0,1,0,6,8,1,2,40,51,4,6,1.95,3.2,4.33
-05-11-2025,Kfum,Tromsø,Noruega - Eliteserien,1,3,1,1,5,11,2,5,38,42,2,5,2.35,2.9,3.4
-05-08-2025,Tromsø,Kfum,Noruega - Eliteserien,0,1,0,1,0,0,0,0,0,0,0,0,2.0,3.2,3.8
-27-04-2025,Bodø / Glimt,Kfum,Noruega - Eliteserien,3,0,0,0,11,5,5,2,92,14,11,6,1.3,5.5,8.0
-24-04-2025,If Ready,Kfum,Noruega - Eliteserien,0,3,0,1,3,18,1,5,41,128,4,8,34.0,17.0,1.03
-21-04-2025,Kfum,Sarpsborg 08,Noruega - Eliteserien,1,3,0,2,5,14,1,6,36,60,2,4,2.4,3.4,2.75
-16-08-2025,Mariehamn,Ktp,Finlândia - Veikkausliiga,3,0,0,0,13,18,9,1,44,90,4,7,2.4,3.6,2.62
-08-09-2025,Ktp,Kups,Finlândia - Veikkausliiga,0,2,0,1,16,12,6,5,57,49,7,5,3.7,3.8,1.85
-08-03-2025,Sjk,Ktp,Finlândia - Veikkausliiga,3,0,2,0,14,12,6,2,20,40,6,2,1.57,4.1,4.75
-26-07-2025,Haka,Ktp,Finlândia - Veikkausliiga,2,3,1,1,12,9,3,6,56,28,10,2,2.05,3.4,3.25
-18-07-2025,Ktp,Inter Turku,Finlândia - Veikkausliiga,2,2,2,2,9,18,2,6,41,50,4,11,12.0,6.25,1.22
-13-07-2025,Oulu,Ktp,Finlândia - Veikkausliiga,3,2,0,1,13,9,6,5,43,35,6,2,1.7,3.75,3.9
-07-07-2025,Ktp,Gnistan,Finlândia - Veikkausliiga,0,0,0,0,13,8,3,4,59,34,9,2,3.7,3.9,1.7
-07-02-2025,Ilves,Ktp,Finlândia - Veikkausliiga,2,1,1,0,24,8,6,4,73,36,4,2,1.16,8.0,10.0
-28-06-2025,Ktp,Jaro,Finlândia - Veikkausliiga,3,2,2,1,11,21,5,10,43,77,5,9,2.87,3.6,2.3
-19-06-2025,Inter Turku,Ktp,Finlândia - Veikkausliiga,5,0,2,0,22,8,10,5,51,26,5,1,1.27,6.0,9.0
-14-06-2025,Gnistan,Ktp,Finlândia - Veikkausliiga,2,1,0,1,15,12,6,6,33,36,8,2,1.72,3.9,3.9
-31-05-2025,Ktp,Mariehamn,Finlândia - Veikkausliiga,2,2,0,1,21,11,7,6,70,52,8,4,2.15,3.3,3.25
-28-05-2025,Kpv,Ktp,Finlândia - Veikkausliiga,2,0,2,0,5,12,3,6,26,92,2,6,3.2,4.0,1.9
-23-05-2025,Ktp,Haka,Finlândia - Veikkausliiga,0,0,0,0,12,9,1,4,62,42,5,7,2.9,4.1,2.15
-17-05-2025,Hjk,Ktp,Finlândia - Veikkausliiga,4,1,1,1,28,9,13,3,87,28,12,1,1.22,5.75,11.0
-05-10-2025,Kups,Ktp,Finlândia - Veikkausliiga,3,0,2,0,26,6,12,2,88,25,10,2,1.48,4.75,5.75
-05-07-2025,Jippo,Ktp,Finlândia - Veikkausliiga,1,1,1,0,11,11,3,4,32,41,3,3,1.8,3.5,3.7
-05-02-2025,Ktp,Oulu,Finlândia - Veikkausliiga,1,3,0,1,6,14,3,6,50,45,4,3,2.3,3.4,2.8
-26-04-2025,Jaro,Ktp,Finlândia - Veikkausliiga,2,3,1,1,9,14,2,5,60,75,3,8,1.95,3.3,3.9
-19-04-2025,Ktp,Ilves,Finlândia - Veikkausliiga,0,5,0,1,8,22,2,8,60,69,4,5,4.33,3.7,1.66
-17-08-2025,Hamkam,Bryne,Noruega - Eliteserien,1,0,0,0,11,5,5,3,51,30,5,2,2.7,3.2,2.7
-08-09-2025,Molde,Hamkam,Noruega - Eliteserien,1,0,1,0,23,8,7,3,44,36,10,2,1.33,5.25,7.5
-08-03-2025,Hamkam,Bodø / Glimt,Noruega - Eliteserien,1,3,0,2,9,14,4,5,21,66,5,9,8.0,6.25,1.27
-26-07-2025,Haugesund,Hamkam,Noruega - Eliteserien,0,3,0,2,11,10,4,4,45,47,5,8,3.4,3.4,2.1
-20-07-2025,Hamkam,Fredrikstad,Noruega - Eliteserien,1,1,1,0,12,12,2,6,40,54,9,4,2.8,3.4,2.37
-13-07-2025,Rosenborg,Hamkam,Noruega - Eliteserien,2,0,2,0,10,11,5,0,0,0,9,6,0.0,0.0,0.0
-07-05-2025,Hamkam,Brann,Noruega - Eliteserien,1,1,1,0,9,14,4,5,41,74,1,8,3.6,3.7,1.9
-29-06-2025,Bryne,Hamkam,Noruega - Eliteserien,1,1,0,1,15,14,7,4,49,40,10,5,1.85,3.7,3.9
-22-06-2025,Hamkam,Tromsø,Noruega - Eliteserien,1,3,0,2,11,6,4,4,53,24,6,2,3.2,3.5,2.15
-31-05-2025,Strømsgodset,Hamkam,Noruega - Eliteserien,0,3,0,1,17,16,6,7,75,46,5,4,1.8,3.9,3.9
-25-05-2025,Hamkam,Molde,Noruega - Eliteserien,2,1,1,1,14,18,5,4,43,115,6,6,4.5,3.6,1.75
-20-05-2025,Aalesund,Hamkam,Noruega - Eliteserien,2,2,1,1,15,8,4,6,100,61,12,5,2.1,3.1,3.6
-16-05-2025,Vålerenga,Hamkam,Noruega - Eliteserien,1,1,1,1,23,8,7,3,46,26,3,0,1.57,4.0,5.75
-05-11-2025,Sarpsborg 08,Hamkam,Noruega - Eliteserien,4,0,1,0,17,7,7,4,62,48,3,3,1.5,4.5,5.75
-05-07-2025,Lyn,Hamkam,Noruega - Eliteserien,0,2,0,1,11,10,2,3,61,47,7,7,2.55,3.4,2.62
-05-02-2025,Hamkam,Kfum,Noruega - Eliteserien,0,0,0,0,11,14,4,2,38,59,0,7,3.0,3.2,2.35
-27-04-2025,Sandefjord,Hamkam,Noruega - Eliteserien,2,0,1,0,16,13,6,3,37,39,5,5,1.6,4.1,5.25
-24-04-2025,Lørenskog,Hamkam,Noruega - Eliteserien,0,1,0,1,4,12,0,7,33,55,1,2,0.0,0.0,0.0
-21-04-2025,Hamkam,Viking,Noruega - Eliteserien,2,5,0,4,7,24,2,12,30,54,4,12,3.4,3.8,1.95
-04-12-2025,Lillehammer,Hamkam,Noruega - Eliteserien,0,2,0,0,6,29,3,13,16,70,4,12,41.0,17.0,1.03
-15-08-2025,Gnistan,Vps,Finlândia - Veikkausliiga,0,0,0,0,11,9,3,1,67,58,9,7,1.95,3.7,3.6
-08-10-2025,Vps,Sjk,Finlândia - Veikkausliiga,1,2,1,0,11,16,2,5,40,41,8,10,2.7,3.5,2.45
-08-01-2025,Vps,Mariehamn,Finlândia - Veikkausliiga,1,1,0,0,15,10,8,2,52,58,9,4,1.57,4.1,4.75
-25-07-2025,Jaro,Vps,Finlândia - Veikkausliiga,2,2,0,0,15,18,6,6,60,50,8,4,3.6,3.3,1.95
-19-07-2025,Vps,Kups,Finlândia - Veikkausliiga,1,1,0,0,11,6,2,2,78,58,4,1,3.1,3.4,2.0
-14-07-2025,Ilves,Vps,Finlândia - Veikkausliiga,3,2,1,0,10,11,6,3,40,41,5,4,0.0,0.0,0.0
-07-05-2025,Vps,Hjk,Finlândia - Veikkausliiga,0,2,0,0,11,9,1,3,44,20,9,3,3.4,3.5,1.85
-07-02-2025,Vps,Haka,Finlândia - Veikkausliiga,1,2,1,2,12,16,4,5,65,74,8,9,1.85,3.9,3.7
-28-06-2025,Oulu,Vps,Finlândia - Veikkausliiga,2,1,1,1,12,7,7,5,39,33,5,5,2.9,3.2,2.5
-18-06-2025,Vps,Gnistan,Finlândia - Veikkausliiga,0,0,0,0,9,10,5,3,62,42,10,4,2.1,3.5,3.2
-14-06-2025,Mariehamn,Vps,Finlândia - Veikkausliiga,1,5,0,1,14,9,3,6,54,39,9,2,3.4,3.3,2.0
-06-11-2025,Jaro,Vps,Finlândia - Veikkausliiga,2,2,1,2,13,9,4,4,28,30,3,3,3.0,3.0,2.25
-31-05-2025,Haka,Vps,Finlândia - Veikkausliiga,2,1,1,0,11,6,5,3,38,34,4,5,2.4,3.5,2.7
-28-05-2025,P-Iirot,Vps,Finlândia - Veikkausliiga,1,5,1,1,10,9,3,7,27,47,5,5,8.0,5.25,1.28
-25-05-2025,Kups,Vps,Finlândia - Veikkausliiga,0,2,0,1,20,6,4,4,101,20,7,0,1.75,3.6,4.1
-17-05-2025,Vps,Jaro,Finlândia - Veikkausliiga,0,0,0,0,10,9,3,2,71,36,6,3,1.7,3.75,5.0
-05-12-2025,Sjk,Vps,Finlândia - Veikkausliiga,2,3,1,1,17,7,8,3,55,38,11,1,2.15,3.7,3.1
-05-07-2025,Tampere United Ii,Vps,Finlândia - Veikkausliiga,1,2,0,1,1,11,1,4,17,71,0,9,0.0,0.0,0.0
-05-02-2025,Vps,Ilves,Finlândia - Veikkausliiga,1,0,0,0,7,10,3,4,43,58,3,11,3.1,3.7,2.05
-26-04-2025,Hjk,Vps,Finlândia - Veikkausliiga,3,1,2,0,16,2,6,1,74,25,4,2,1.66,4.0,4.5
 17-08-2025,Central Cordoba,Barracas Central,Argentina - Superliga,1,1,0,1,17,10,6,2,51,36,10,1,2.05,3.2,3.9
 08-10-2025,Barracas Central,Aldosivi,Argentina - Superliga,3,1,1,0,11,11,7,2,49,34,5,5,2.25,2.75,3.75
 28-07-2025,Banfield,Barracas Central,Argentina - Superliga,1,3,1,3,22,11,8,6,60,23,7,1,2.45,2.75,3.6
@@ -86,34 +7,86 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 05-03-2025,Huracán,Barracas Central,Argentina - Superliga,0,1,0,0,11,12,3,3,73,40,7,2,2.05,3.0,4.1
 28-04-2025,Barracas Central,Unión Santa Fe,Argentina - Superliga,2,1,1,1,19,7,4,4,68,47,5,1,3.0,3.0,2.55
 22-04-2025,Argentinos Juniors,Barracas Central,Argentina - Superliga,3,0,2,0,9,6,4,0,64,38,2,2,1.55,3.6,7.0
-17-04-2025,Barracas Central,Defensores De Belgrano,Argentina - Superliga,0,2,0,0,8,3,4,1,97,53,3,2,1.95,2.87,5.25
-04-06-2025,Boca Juniors,Barracas Central,Argentina - Superliga,1,0,1,0,6,8,1,0,73,47,6,2,1.45,4.0,8.0
-27-03-2025,Barracas Central,Estudiantes,Argentina - Superliga,2,1,1,0,12,13,4,3,55,78,4,2,4.75,3.3,1.85
-16-03-2025,Belgrano,Barracas Central,Argentina - Superliga,1,1,1,1,17,5,4,2,84,79,8,6,1.75,3.4,5.5
-03-08-2025,Sarmiento,Barracas Central,Argentina - Superliga,1,1,0,0,17,23,2,11,66,80,4,5,2.3,2.8,3.7
-03-03-2025,Barracas Central,Godoy Cruz,Argentina - Superliga,1,2,0,1,11,16,3,6,44,74,2,4,2.35,2.9,3.4
-24-02-2025,Barracas Central,Newell'S Old Boys,Argentina - Superliga,2,0,1,0,11,13,4,4,55,72,3,3,2.9,2.75,2.87
-15-02-2025,Defensa Y Justicia,Barracas Central,Argentina - Superliga,1,1,1,0,12,9,7,3,77,66,6,2,1.85,3.3,4.5
-02-11-2025,Barracas Central,Central Cordoba,Argentina - Superliga,3,3,0,0,9,12,5,4,52,77,2,4,3.8,2.7,2.35
-02-06-2025,Aldosivi,Barracas Central,Argentina - Superliga,1,3,0,2,18,7,7,4,94,40,4,4,2.3,2.9,3.7
-17-08-2025,Independiente Rivadavia,Boca Juniors,Argentina - Superliga,0,3,0,1,11,11,1,4,64,31,6,5,3.0,3.0,2.55
-08-07-2025,Estudiantes,Independiente Rivadavia,Argentina - Superliga,2,1,2,0,11,7,4,4,55,61,4,3,2.4,2.9,3.25
-30-07-2025,Independiente Rivadavia,Central Córdoba,Argentina - Superliga,2,1,1,1,18,5,3,2,60,17,8,2,1.44,4.0,8.0
-25-07-2025,Independiente Rivadavia,Belgrano,Argentina - Superliga,0,0,0,0,9,13,2,2,42,20,3,4,2.2,3.0,3.6
-20-07-2025,Barracas Central,Independiente Rivadavia,Argentina - Superliga,0,3,0,0,6,9,3,4,44,31,1,2,2.62,2.75,3.2
-13-07-2025,Independiente Rivadavia,Newell'S Old Boys,Argentina - Superliga,1,2,1,0,15,14,6,8,62,25,5,4,1.95,3.1,4.75
-07-02-2025,Platense,Independiente Rivadavia,Argentina - Superliga,2,2,1,1,8,12,3,6,42,37,4,3,2.25,2.75,3.6
-05-11-2025,Independiente,Independiente Rivadavia,Argentina - Superliga,1,0,0,0,16,8,7,1,83,49,7,5,1.66,3.5,5.75
-28-04-2025,Central Cordoba,Independiente Rivadavia,Argentina - Superliga,1,2,0,0,14,7,4,4,72,34,3,2,1.9,3.25,4.5
-22-04-2025,Independiente Rivadavia,Aldosivi,Argentina - Superliga,1,0,1,0,8,23,2,4,64,78,3,3,1.95,3.3,4.33
-16-04-2025,Independiente Rivadavia,Estudiantes Caseros,Argentina - Superliga,1,0,1,0,13,8,4,7,44,58,4,7,1.7,3.5,5.5
-04-11-2025,Banfield,Independiente Rivadavia,Argentina - Superliga,1,1,1,0,10,7,3,4,51,47,5,2,2.62,2.87,3.1
-04-05-2025,Godoy Cruz,Independiente Rivadavia,Argentina - Superliga,1,1,1,0,8,9,1,4,33,61,1,5,3.5,2.7,2.5
-27-03-2025,Independiente Rivadavia,Racing Club,Argentina - Superliga,2,1,0,1,16,17,3,4,46,69,2,8,3.0,3.3,2.4
-15-03-2025,Huracán,Independiente Rivadavia,Argentina - Superliga,2,0,0,0,8,8,4,2,53,47,2,4,1.85,3.1,5.25
-03-10-2025,Independiente Rivadavia,Unión Santa Fe,Argentina - Superliga,2,0,1,0,7,19,6,3,47,69,5,5,2.7,2.87,3.0
-03-02-2025,Independiente Rivadavia,Lanús,Argentina - Superliga,1,1,0,0,6,17,2,4,37,62,4,7,2.87,3.0,2.62
-24-02-2025,Argentinos Juniors,Independiente Rivadavia,Argentina - Superliga,0,0,0,0,26,6,8,1,108,33,10,2,1.61,3.7,6.0
+17-04-2025,Barracas Central,Defensores de Belgrano,Argentina - Superliga,0,2,0,0,8,3,4,1,97,53,3,2,1.95,2.87,5.25
+17-08-2025,HamKam,Bryne,Noruega - Eliteserien,1,0,0,0,11,5,5,3,51,30,5,2,2.7,3.2,2.7
+08-09-2025,Molde,HamKam,Noruega - Eliteserien,1,0,1,0,23,8,7,3,44,36,10,2,1.33,5.25,7.5
+08-03-2025,HamKam,Bodø / Glimt,Noruega - Eliteserien,1,3,0,2,9,14,4,5,21,66,5,9,8.0,6.25,1.27
+26-07-2025,Haugesund,HamKam,Noruega - Eliteserien,0,3,0,2,11,10,4,4,45,47,5,8,3.4,3.4,2.1
+20-07-2025,HamKam,Fredrikstad,Noruega - Eliteserien,1,1,1,0,12,12,2,6,40,54,9,4,2.8,3.4,2.37
+13-07-2025,Rosenborg,HamKam,Noruega - Eliteserien,2,0,2,0,10,11,5,0,0,0,9,6,0.0,0.0,0.0
+07-05-2025,HamKam,Brann,Noruega - Eliteserien,1,1,1,0,9,14,4,5,41,74,1,8,3.6,3.7,1.9
+29-06-2025,Bryne,HamKam,Noruega - Eliteserien,1,1,0,1,15,14,7,4,49,40,10,5,1.85,3.7,3.9
+22-06-2025,HamKam,Tromsø,Noruega - Eliteserien,1,3,0,2,11,6,4,4,53,24,6,2,3.2,3.5,2.15
+31-05-2025,Strømsgodset,HamKam,Noruega - Eliteserien,0,3,0,1,17,16,6,7,75,46,5,4,1.8,3.9,3.9
+25-05-2025,HamKam,Molde,Noruega - Eliteserien,2,1,1,1,14,18,5,4,43,115,6,6,4.5,3.6,1.75
+20-05-2025,Aalesund,HamKam,Noruega - Eliteserien,2,2,1,1,15,8,4,6,100,61,12,5,2.1,3.1,3.6
+16-05-2025,Vålerenga,HamKam,Noruega - Eliteserien,1,1,1,1,23,8,7,3,46,26,3,0,1.57,4.0,5.75
+05-11-2025,Sarpsborg 08,HamKam,Noruega - Eliteserien,4,0,1,0,17,7,7,4,62,48,3,3,1.5,4.5,5.75
+05-07-2025,Lyn,HamKam,Noruega - Eliteserien,0,2,0,1,11,10,2,3,61,47,7,7,2.55,3.4,2.62
+27-04-2025,Sandefjord,HamKam,Noruega - Eliteserien,2,0,1,0,16,13,6,3,37,39,5,5,1.6,4.1,5.25
+24-04-2025,Lørenskog,HamKam,Noruega - Eliteserien,0,1,0,1,4,12,0,7,33,55,1,2,0.0,0.0,0.0
+21-04-2025,HamKam,Viking,Noruega - Eliteserien,2,5,0,4,7,24,2,12,30,54,4,12,3.4,3.8,1.95
+04-12-2025,Lillehammer,HamKam,Noruega - Eliteserien,0,2,0,0,6,29,3,13,16,70,4,12,41.0,17.0,1.03
+17-08-2025,KFUM,Molde,Noruega - Eliteserien,0,0,0,0,17,3,5,0,51,34,7,2,3.0,3.1,2.4
+08-10-2025,Bryne,KFUM,Noruega - Eliteserien,0,0,0,0,5,5,2,2,39,45,2,2,3.1,3.1,2.37
+08-03-2025,KFUM,Rosenborg,Noruega - Eliteserien,4,1,1,0,12,4,5,2,50,44,3,3,2.45,3.3,2.8
+26-07-2025,Kristiansund,KFUM,Noruega - Eliteserien,0,5,0,2,6,14,1,7,42,29,3,3,4.1,3.6,1.83
+19-07-2025,KFUM,Brann,Noruega - Eliteserien,2,0,2,0,10,14,3,0,48,66,4,11,2.62,3.25,2.6
+13-07-2025,Haugesund,KFUM,Noruega - Eliteserien,0,2,0,1,9,16,4,4,41,52,3,11,4.5,3.5,1.8
+07-06-2025,KFUM,Bryne,Noruega - Eliteserien,1,1,0,0,14,7,3,3,104,18,7,2,1.72,3.7,4.75
+29-06-2025,Molde,KFUM,Noruega - Eliteserien,2,3,0,2,11,6,3,4,45,20,4,0,1.95,3.5,3.75
+25-06-2025,Lillestrøm,KFUM,Noruega - Eliteserien,2,0,0,0,13,2,5,0,82,55,11,3,2.1,3.5,3.3
+22-06-2025,KFUM,Strømsgodset,Noruega - Eliteserien,5,0,0,0,15,10,7,2,63,28,6,2,1.72,4.0,4.2
+06-01-2025,Rosenborg,KFUM,Noruega - Eliteserien,1,1,0,0,5,14,1,8,42,18,6,4,1.6,4.1,5.25
+26-05-2025,KFUM,Vålerenga,Noruega - Eliteserien,0,1,0,0,14,12,1,2,46,42,5,10,2.35,3.2,3.1
+20-05-2025,Bryne,KFUM,Noruega - Eliteserien,0,2,0,1,3,13,1,7,29,42,1,4,2.45,2.87,3.1
+16-05-2025,Fredrikstad,KFUM,Noruega - Eliteserien,1,0,1,0,6,8,1,2,40,51,4,6,1.95,3.2,4.33
+05-11-2025,KFUM,Tromsø,Noruega - Eliteserien,1,3,1,1,5,11,2,5,38,42,2,5,2.35,2.9,3.4
+05-08-2025,Tromsø,KFUM,Noruega - Eliteserien,0,1,0,1,0,0,0,0,0,0,0,0,2.0,3.2,3.8
+05-02-2025,HamKam,KFUM,Noruega - Eliteserien,0,0,0,0,11,14,4,2,38,59,0,7,3.0,3.2,2.35
+27-04-2025,Bodø / Glimt,KFUM,Noruega - Eliteserien,3,0,0,0,11,5,5,2,92,14,11,6,1.3,5.5,8.0
+24-04-2025,IF Ready,KFUM,Noruega - Eliteserien,0,3,0,1,3,18,1,5,41,128,4,8,34.0,17.0,1.03
+21-04-2025,KFUM,Sarpsborg 08,Noruega - Eliteserien,1,3,0,2,5,14,1,6,36,60,2,4,2.4,3.4,2.75
+16-08-2025,Mariehamn,KTP,Finlândia - Veikkausliiga,3,0,0,0,13,18,9,1,44,90,4,7,2.4,3.6,2.62
+08-09-2025,KTP,KuPS,Finlândia - Veikkausliiga,0,2,0,1,16,12,6,5,57,49,7,5,3.7,3.8,1.85
+08-03-2025,SJK,KTP,Finlândia - Veikkausliiga,3,0,2,0,14,12,6,2,20,40,6,2,1.57,4.1,4.75
+26-07-2025,Haka,KTP,Finlândia - Veikkausliiga,2,3,1,1,12,9,3,6,56,28,10,2,2.05,3.4,3.25
+18-07-2025,KTP,Inter Turku,Finlândia - Veikkausliiga,2,2,2,2,9,18,2,6,41,50,4,11,12.0,6.25,1.22
+13-07-2025,Oulu,KTP,Finlândia - Veikkausliiga,3,2,0,1,13,9,6,5,43,35,6,2,1.7,3.75,3.9
+07-07-2025,KTP,Gnistan,Finlândia - Veikkausliiga,0,0,0,0,13,8,3,4,59,34,9,2,3.7,3.9,1.7
+07-02-2025,Ilves,KTP,Finlândia - Veikkausliiga,2,1,1,0,24,8,6,4,73,36,4,2,1.16,8.0,10.0
+28-06-2025,KTP,Jaro,Finlândia - Veikkausliiga,3,2,2,1,11,21,5,10,43,77,5,9,2.87,3.6,2.3
+19-06-2025,Inter Turku,KTP,Finlândia - Veikkausliiga,5,0,2,0,22,8,10,5,51,26,5,1,1.27,6.0,9.0
+14-06-2025,Gnistan,KTP,Finlândia - Veikkausliiga,2,1,0,1,15,12,6,6,33,36,8,2,1.72,3.9,3.9
+31-05-2025,KTP,Mariehamn,Finlândia - Veikkausliiga,2,2,0,1,21,11,7,6,70,52,8,4,2.15,3.3,3.25
+28-05-2025,KPV,KTP,Finlândia - Veikkausliiga,2,0,2,0,5,12,3,6,26,92,2,6,3.2,4.0,1.9
+23-05-2025,KTP,Haka,Finlândia - Veikkausliiga,0,0,0,0,12,9,1,4,62,42,5,7,2.9,4.1,2.15
+17-05-2025,HJK,KTP,Finlândia - Veikkausliiga,4,1,1,1,28,9,13,3,87,28,12,1,1.22,5.75,11.0
+05-10-2025,KuPS,KTP,Finlândia - Veikkausliiga,3,0,2,0,26,6,12,2,88,25,10,2,1.48,4.75,5.75
+05-07-2025,JIPPO,KTP,Finlândia - Veikkausliiga,1,1,1,0,11,11,3,4,32,41,3,3,1.8,3.5,3.7
+05-02-2025,KTP,Oulu,Finlândia - Veikkausliiga,1,3,0,1,6,14,3,6,50,45,4,3,2.3,3.4,2.8
+26-04-2025,Jaro,KTP,Finlândia - Veikkausliiga,2,3,1,1,9,14,2,5,60,75,3,8,1.95,3.3,3.9
+19-04-2025,KTP,Ilves,Finlândia - Veikkausliiga,0,5,0,1,8,22,2,8,60,69,4,5,4.33,3.7,1.66
+15-08-2025,Gnistan,VPS,Finlândia - Veikkausliiga,0,0,0,0,11,9,3,1,67,58,9,7,1.95,3.7,3.6
+08-10-2025,VPS,SJK,Finlândia - Veikkausliiga,1,2,1,0,11,16,2,5,40,41,8,10,2.7,3.5,2.45
+08-01-2025,VPS,Mariehamn,Finlândia - Veikkausliiga,1,1,0,0,15,10,8,2,52,58,9,4,1.57,4.1,4.75
+25-07-2025,Jaro,VPS,Finlândia - Veikkausliiga,2,2,0,0,15,18,6,6,60,50,8,4,3.6,3.3,1.95
+19-07-2025,VPS,KuPS,Finlândia - Veikkausliiga,1,1,0,0,11,6,2,2,78,58,4,1,3.1,3.4,2.0
+14-07-2025,Ilves,VPS,Finlândia - Veikkausliiga,3,2,1,0,10,11,6,3,40,41,5,4,0.0,0.0,0.0
+07-05-2025,VPS,HJK,Finlândia - Veikkausliiga,0,2,0,0,11,9,1,3,44,20,9,3,3.4,3.5,1.85
+07-02-2025,VPS,Haka,Finlândia - Veikkausliiga,1,2,1,2,12,16,4,5,65,74,8,9,1.85,3.9,3.7
+28-06-2025,Oulu,VPS,Finlândia - Veikkausliiga,2,1,1,1,12,7,7,5,39,33,5,5,2.9,3.2,2.5
+18-06-2025,VPS,Gnistan,Finlândia - Veikkausliiga,0,0,0,0,9,10,5,3,62,42,10,4,2.1,3.5,3.2
+14-06-2025,Mariehamn,VPS,Finlândia - Veikkausliiga,1,5,0,1,14,9,3,6,54,39,9,2,3.4,3.3,2.0
+06-11-2025,Jaro,VPS,Finlândia - Veikkausliiga,2,2,1,2,13,9,4,4,28,30,3,3,3.0,3.0,2.25
+31-05-2025,Haka,VPS,Finlândia - Veikkausliiga,2,1,1,0,11,6,5,3,38,34,4,5,2.4,3.5,2.7
+28-05-2025,P-Iirot,VPS,Finlândia - Veikkausliiga,1,5,1,1,10,9,3,7,27,47,5,5,8.0,5.25,1.28
+25-05-2025,KuPS,VPS,Finlândia - Veikkausliiga,0,2,0,1,20,6,4,4,101,20,7,0,1.75,3.6,4.1
+17-05-2025,VPS,Jaro,Finlândia - Veikkausliiga,0,0,0,0,10,9,3,2,71,36,6,3,1.7,3.75,5.0
+05-12-2025,SJK,VPS,Finlândia - Veikkausliiga,2,3,1,1,17,7,8,3,55,38,11,1,2.15,3.7,3.1
+05-07-2025,Tampere United II,VPS,Finlândia - Veikkausliiga,1,2,0,1,1,11,1,4,17,71,0,9,0.0,0.0,0.0
+05-02-2025,VPS,Ilves,Finlândia - Veikkausliiga,1,0,0,0,7,10,3,4,43,58,3,11,3.1,3.7,2.05
+26-04-2025,HJK,VPS,Finlândia - Veikkausliiga,3,1,2,0,16,2,6,1,74,25,4,2,1.66,4.0,4.5
 15-08-2025,Racing Club,Tigre,Argentina - Superliga,1,2,1,0,9,14,1,4,58,66,3,6,2.2,3.0,3.7
 08-08-2025,Tigre,Huracán,Argentina - Superliga,0,1,0,0,10,6,2,2,55,52,4,6,2.62,2.62,3.3
 08-02-2025,San Lorenzo,Tigre,Argentina - Superliga,0,1,0,1,11,8,5,3,45,31,3,6,2.8,2.35,3.6
@@ -126,33 +99,31 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 28-04-2025,Estudiantes,Tigre,Argentina - Superliga,0,0,0,0,17,7,2,1,65,33,6,5,2.15,3.0,3.75
 22-04-2025,Tigre,Belgrano,Argentina - Superliga,0,0,0,0,10,7,4,4,57,47,2,3,2.0,3.25,3.7
 04-12-2025,Barracas Central,Tigre,Argentina - Superliga,1,0,1,0,5,13,2,2,31,102,2,9,3.6,2.9,2.3
-04-07-2025,Tigre,Newell'S Old Boys,Argentina - Superliga,0,2,0,1,29,6,11,2,78,40,7,3,1.95,3.2,4.5
+04-07-2025,Tigre,Newell's Old Boys,Argentina - Superliga,0,2,0,1,29,6,11,2,78,40,7,3,1.95,3.2,4.5
 22-03-2025,Tigre,Berazategui,Argentina - Superliga,3,0,0,0,7,3,6,0,50,29,4,1,1.25,5.5,13.0
 17-03-2025,Tigre,Central Cordoba,Argentina - Superliga,1,2,0,0,15,8,2,4,64,61,5,2,2.15,3.1,3.8
 03-09-2025,Aldosivi,Tigre,Argentina - Superliga,0,2,0,1,14,13,3,4,62,59,4,4,3.1,2.9,2.6
 03-01-2025,Talleres Córdoba,Tigre,Argentina - Superliga,1,2,1,1,26,6,6,4,93,44,8,1,1.8,3.5,4.75
 24-02-2025,Tigre,Banfield,Argentina - Superliga,1,0,0,0,10,4,6,1,61,57,3,1,2.3,2.9,3.5
-15-02-2025,Independiente Rivadavia,Tigre,Argentina - Superliga,1,4,0,2,14,20,7,6,73,67,4,7,2.35,2.8,3.75
-17-08-2025,Defensa Y Justicia,Newell'S Old Boys,Argentina - Superliga,1,1,1,1,16,5,4,2,103,27,5,4,1.7,3.3,5.75
-08-11-2025,Defensa Y Justicia,Deportivo Riestra,Argentina - Superliga,1,0,0,0,12,10,7,5,112,49,6,3,2.05,3.1,4.0
-28-07-2025,Central Cordoba,Defensa Y Justicia,Argentina - Superliga,2,1,1,0,21,12,9,4,36,38,5,3,2.25,3.1,3.5
-21-07-2025,Defensa Y Justicia,Aldosivi,Argentina - Superliga,2,0,0,0,15,6,7,1,63,19,2,2,1.9,3.2,4.5
-14-07-2025,Banfield,Defensa Y Justicia,Argentina - Superliga,0,0,0,0,10,10,2,4,42,26,6,3,3.4,3.1,2.25
-28-05-2025,Defensa Y Justicia,Cerro Largo,Argentina - Superliga,1,2,0,1,21,11,7,6,56,36,4,7,1.42,4.5,7.5
-22-05-2025,Defensa Y Justicia,Newell'S Old Boys,Argentina - Superliga,0,2,0,1,21,20,9,8,88,61,5,7,2.8,2.9,2.7
-14-05-2025,Defensa Y Justicia,Universidad Católica,Argentina - Superliga,1,1,1,0,22,8,5,2,79,27,10,2,1.66,3.6,5.5
-05-06-2025,Vitória,Defensa Y Justicia,Argentina - Superliga,1,1,1,0,20,19,8,8,43,41,5,2,2.4,3.1,3.0
-05-02-2025,Independiente Rivadavia,Defensa Y Justicia,Argentina - Superliga,3,2,1,2,12,18,5,6,58,72,5,5,2.25,3.1,3.4
-28-04-2025,Defensa Y Justicia,Racing Club,Argentina - Superliga,1,2,0,0,17,10,6,3,46,45,5,3,3.5,3.5,2.05
-24-04-2025,Universidad Católica,Defensa Y Justicia,Argentina - Superliga,3,1,1,1,14,7,5,4,42,22,5,1,1.8,3.5,4.75
-19-04-2025,Huracán,Defensa Y Justicia,Argentina - Superliga,1,1,0,1,26,11,9,3,90,55,3,4,2.05,3.1,4.2
-14-04-2025,Defensa Y Justicia,Unión Santa Fe,Argentina - Superliga,0,0,0,0,12,16,4,2,56,67,2,6,2.6,3.0,2.9
-04-10-2025,Defensa Y Justicia,Vitória,Argentina - Superliga,0,0,0,0,12,12,4,3,41,28,2,2,1.9,3.2,4.75
-04-06-2025,Argentinos Juniors,Defensa Y Justicia,Argentina - Superliga,4,1,4,0,13,8,8,3,40,37,2,3,1.55,3.9,6.5
-04-03-2025,Cerro Largo,Defensa Y Justicia,Argentina - Superliga,0,0,0,0,10,17,2,1,33,39,5,5,3.3,3.1,2.35
-28-03-2025,Defensa Y Justicia,Tigre,Argentina - Superliga,1,2,0,0,7,17,3,5,56,68,0,7,2.2,3.1,3.5
-16-03-2025,Boca Juniors,Defensa Y Justicia,Argentina - Superliga,4,0,2,0,10,9,5,2,60,58,3,3,1.85,3.5,4.33
-03-09-2025,Defensa Y Justicia,Estudiantes,Argentina - Superliga,1,0,0,0,20,11,6,4,119,71,6,4,3.0,2.9,2.62
+17-08-2025,Defensa y Justicia,Newell's Old Boys,Argentina - Superliga,1,1,1,1,16,5,4,2,103,27,5,4,1.7,3.3,5.75
+08-11-2025,Defensa y Justicia,Deportivo Riestra,Argentina - Superliga,1,0,0,0,12,10,7,5,112,49,6,3,2.05,3.1,4.0
+28-07-2025,Central Cordoba,Defensa y Justicia,Argentina - Superliga,2,1,1,0,21,12,9,4,36,38,5,3,2.25,3.1,3.5
+21-07-2025,Defensa y Justicia,Aldosivi,Argentina - Superliga,2,0,0,0,15,6,7,1,63,19,2,2,1.9,3.2,4.5
+14-07-2025,Banfield,Defensa y Justicia,Argentina - Superliga,0,0,0,0,10,10,2,4,42,26,6,3,3.4,3.1,2.25
+28-05-2025,Defensa y Justicia,Cerro Largo,Argentina - Superliga,1,2,0,1,21,11,7,6,56,36,4,7,1.42,4.5,7.5
+22-05-2025,Defensa y Justicia,Newell's Old Boys,Argentina - Superliga,0,2,0,1,21,20,9,8,88,61,5,7,2.8,2.9,2.7
+14-05-2025,Defensa y Justicia,Universidad Católica,Argentina - Superliga,1,1,1,0,22,8,5,2,79,27,10,2,1.66,3.6,5.5
+05-06-2025,Vitória,Defensa y Justicia,Argentina - Superliga,1,1,1,0,20,19,8,8,43,41,5,2,2.4,3.1,3.0
+28-04-2025,Defensa y Justicia,Racing Club,Argentina - Superliga,1,2,0,0,17,10,6,3,46,45,5,3,3.5,3.5,2.05
+24-04-2025,Universidad Católica,Defensa y Justicia,Argentina - Superliga,3,1,1,1,14,7,5,4,42,22,5,1,1.8,3.5,4.75
+19-04-2025,Huracán,Defensa y Justicia,Argentina - Superliga,1,1,0,1,26,11,9,3,90,55,3,4,2.05,3.1,4.2
+14-04-2025,Defensa y Justicia,Unión Santa Fe,Argentina - Superliga,0,0,0,0,12,16,4,2,56,67,2,6,2.6,3.0,2.9
+04-10-2025,Defensa y Justicia,Vitória,Argentina - Superliga,0,0,0,0,12,12,4,3,41,28,2,2,1.9,3.2,4.75
+04-06-2025,Argentinos Juniors,Defensa y Justicia,Argentina - Superliga,4,1,4,0,13,8,8,3,40,37,2,3,1.55,3.9,6.5
+04-03-2025,Cerro Largo,Defensa y Justicia,Argentina - Superliga,0,0,0,0,10,17,2,1,33,39,5,5,3.3,3.1,2.35
+28-03-2025,Defensa y Justicia,Tigre,Argentina - Superliga,1,2,0,0,7,17,3,5,56,68,0,7,2.2,3.1,3.5
+16-03-2025,Boca Juniors,Defensa y Justicia,Argentina - Superliga,4,0,2,0,10,9,5,2,60,58,3,3,1.85,3.5,4.33
+03-09-2025,Defensa y Justicia,Estudiantes,Argentina - Superliga,1,0,0,0,20,11,6,4,119,71,6,4,3.0,2.9,2.62
 13-08-2025,Always Ready,Real Tomayapo,Bolívia - Liga De Futbol Prof,6,0,3,0,27,5,13,3,56,11,9,0,1.25,5.5,10.0
 08-10-2025,Blooming,Always Ready,Bolívia - Liga De Futbol Prof,1,0,1,0,8,6,4,1,41,39,5,3,1.9,3.7,3.3
 08-04-2025,Always Ready,Nacional Potosí,Bolívia - Liga De Futbol Prof,1,0,1,0,26,13,9,1,55,24,7,3,1.42,4.75,5.25
@@ -163,7 +134,7 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 07-06-2025,Always Ready,The Strongest,Bolívia - Liga De Futbol Prof,7,2,2,1,14,9,11,4,17,30,3,2,1.7,4.2,3.9
 29-06-2025,Aurora,Always Ready,Bolívia - Liga De Futbol Prof,1,1,1,1,10,10,5,5,0,0,5,8,0.0,0.0,0.0
 26-06-2025,Always Ready,The Strongest,Bolívia - Liga De Futbol Prof,2,1,1,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0
-21-06-2025,Always Ready,Abb,Bolívia - Liga De Futbol Prof,5,1,2,0,14,15,9,6,31,14,7,2,1.45,4.1,5.75
+21-06-2025,Always Ready,ABB,Bolívia - Liga De Futbol Prof,5,1,2,0,14,15,9,6,31,14,7,2,1.45,4.1,5.75
 15-06-2025,Bolívar,Always Ready,Bolívia - Liga De Futbol Prof,2,2,1,0,12,10,8,3,22,35,3,5,1.8,4.1,3.6
 25-05-2025,Always Ready,San Antonio Bulo Bulo,Bolívia - Liga De Futbol Prof,5,2,1,1,14,9,9,6,48,13,6,1,1.14,7.5,17.0
 21-05-2025,Real Tomayapo,Always Ready,Bolívia - Liga De Futbol Prof,3,2,1,1,10,11,4,3,37,55,3,3,3.25,3.7,1.9
@@ -171,48 +142,49 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 05-11-2025,Always Ready,Real Tomayapo,Bolívia - Liga De Futbol Prof,1,1,0,1,30,5,9,2,92,9,10,0,1.14,7.0,17.0
 05-04-2025,Wilstermann,Always Ready,Bolívia - Liga De Futbol Prof,2,7,1,4,15,19,7,11,35,34,4,1,3.5,3.7,1.85
 05-01-2025,Always Ready,Real Oruro,Bolívia - Liga De Futbol Prof,1,1,1,1,22,7,7,4,72,14,10,1,1.25,5.25,9.0
-27-04-2025,Universitario De Vinto,Always Ready,Bolívia - Liga De Futbol Prof,0,7,0,4,4,25,2,12,17,45,3,4,2.7,3.3,2.55
-08-08-2025,Universitario De Vinto,Oriente Petrolero,Bolívia - Liga De Futbol Prof,2,1,0,1,11,7,2,2,50,19,11,3,1.83,3.4,3.8
+27-04-2025,Universitario de Vinto,Always Ready,Bolívia - Liga De Futbol Prof,0,7,0,4,4,25,2,12,17,45,3,4,2.7,3.3,2.55
+17-08-2025,Independiente Rivadavia,Boca Juniors,Argentina - Superliga,0,3,0,1,11,11,1,4,64,31,6,5,3.0,3.0,2.55
+08-07-2025,Estudiantes,Independiente Rivadavia,Argentina - Superliga,2,1,2,0,11,7,4,4,55,61,4,3,2.4,2.9,3.25
+30-07-2025,Independiente Rivadavia,Central Córdoba,Argentina - Superliga,2,1,1,1,18,5,3,2,60,17,8,2,1.44,4.0,8.0
+25-07-2025,Independiente Rivadavia,Belgrano,Argentina - Superliga,0,0,0,0,9,13,2,2,42,20,3,4,2.2,3.0,3.6
+20-07-2025,Barracas Central,Independiente Rivadavia,Argentina - Superliga,0,3,0,0,6,9,3,4,44,31,1,2,2.62,2.75,3.2
+13-07-2025,Independiente Rivadavia,Newell's Old Boys,Argentina - Superliga,1,2,1,0,15,14,6,8,62,25,5,4,1.95,3.1,4.75
+07-02-2025,Platense,Independiente Rivadavia,Argentina - Superliga,2,2,1,1,8,12,3,6,42,37,4,3,2.25,2.75,3.6
+05-11-2025,Independiente,Independiente Rivadavia,Argentina - Superliga,1,0,0,0,16,8,7,1,83,49,7,5,1.66,3.5,5.75
+05-02-2025,Independiente Rivadavia,Defensa y Justicia,Argentina - Superliga,3,2,1,2,12,18,5,6,58,72,5,5,2.25,3.1,3.4
+28-04-2025,Central Cordoba,Independiente Rivadavia,Argentina - Superliga,1,2,0,0,14,7,4,4,72,34,3,2,1.9,3.25,4.5
+22-04-2025,Independiente Rivadavia,Aldosivi,Argentina - Superliga,1,0,1,0,8,23,2,4,64,78,3,3,1.95,3.3,4.33
+16-04-2025,Independiente Rivadavia,Estudiantes Caseros,Argentina - Superliga,1,0,1,0,13,8,4,7,44,58,4,7,1.7,3.5,5.5
+04-11-2025,Banfield,Independiente Rivadavia,Argentina - Superliga,1,1,1,0,10,7,3,4,51,47,5,2,2.62,2.87,3.1
+04-05-2025,Godoy Cruz,Independiente Rivadavia,Argentina - Superliga,1,1,1,0,8,9,1,4,33,61,1,5,3.5,2.7,2.5
+27-03-2025,Independiente Rivadavia,Racing Club,Argentina - Superliga,2,1,0,1,16,17,3,4,46,69,2,8,3.0,3.3,2.4
+15-03-2025,Huracán,Independiente Rivadavia,Argentina - Superliga,2,0,0,0,8,8,4,2,53,47,2,4,1.85,3.1,5.25
+03-10-2025,Independiente Rivadavia,Unión Santa Fe,Argentina - Superliga,2,0,1,0,7,19,6,3,47,69,5,5,2.7,2.87,3.0
+03-02-2025,Independiente Rivadavia,Lanús,Argentina - Superliga,1,1,0,0,6,17,2,4,37,62,4,7,2.87,3.0,2.62
+24-02-2025,Argentinos Juniors,Independiente Rivadavia,Argentina - Superliga,0,0,0,0,26,6,8,1,108,33,10,2,1.61,3.7,6.0
+15-02-2025,Independiente Rivadavia,Tigre,Argentina - Superliga,1,4,0,2,14,20,7,6,73,67,4,7,2.35,2.8,3.75
+08-08-2025,Universitario de Vinto,Oriente Petrolero,Bolívia - Liga De Futbol Prof,2,1,0,1,11,7,2,2,50,19,11,3,1.83,3.4,3.8
 08-04-2025,Oriente Petrolero,Aurora,Bolívia - Liga De Futbol Prof,3,0,0,0,12,7,4,3,28,34,2,2,1.9,3.6,3.5
 29-07-2025,Nacional Potosí,Oriente Petrolero,Bolívia - Liga De Futbol Prof,4,1,2,0,9,14,6,2,25,43,3,3,1.25,5.25,8.5
 26-07-2025,Independiente Petrolero,Oriente Petrolero,Bolívia - Liga De Futbol Prof,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 19-07-2025,Bolívar,Oriente Petrolero,Bolívia - Liga De Futbol Prof,1,0,0,0,17,12,5,3,65,34,8,5,1.14,7.5,13.0
 16-07-2025,Oriente Petrolero,Guabirá,Bolívia - Liga De Futbol Prof,2,1,1,0,7,1,3,0,26,15,4,2,2.45,4.0,2.2
-13-07-2025,Oriente Petrolero,Abb,Bolívia - Liga De Futbol Prof,3,3,2,0,22,14,9,3,45,38,8,8,1.38,4.33,7.5
-07-06-2025,Gualberto Villarroel Sj,Oriente Petrolero,Bolívia - Liga De Futbol Prof,5,1,3,0,17,5,9,1,42,18,7,6,0.0,0.0,0.0
-07-02-2025,Oriente Petrolero,Universitario De Vinto,Bolívia - Liga De Futbol Prof,3,2,3,0,22,12,12,6,48,32,9,3,1.57,4.1,5.0
+13-07-2025,Oriente Petrolero,ABB,Bolívia - Liga De Futbol Prof,3,3,2,0,22,14,9,3,45,38,8,8,1.38,4.33,7.5
+07-06-2025,Gualberto Villarroel SJ,Oriente Petrolero,Bolívia - Liga De Futbol Prof,5,1,3,0,17,5,9,1,42,18,7,6,0.0,0.0,0.0
+07-02-2025,Oriente Petrolero,Universitario de Vinto,Bolívia - Liga De Futbol Prof,3,2,3,0,22,12,12,6,48,32,9,3,1.57,4.1,5.0
 28-06-2025,Oriente Petrolero,Real Tomayapo,Bolívia - Liga De Futbol Prof,2,1,1,0,15,16,7,7,0,0,2,6,0.0,0.0,0.0
 25-06-2025,Guabirá,Oriente Petrolero,Bolívia - Liga De Futbol Prof,3,3,2,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 22-06-2025,Blooming,Oriente Petrolero,Bolívia - Liga De Futbol Prof,2,1,1,1,16,11,7,6,63,33,10,5,2.1,3.4,3.4
 15-06-2025,Oriente Petrolero,Wilstermann,Bolívia - Liga De Futbol Prof,2,0,1,0,13,14,5,5,28,10,7,7,1.44,4.33,6.5
 25-05-2025,Guabirá,Oriente Petrolero,Bolívia - Liga De Futbol Prof,1,3,1,1,11,17,5,6,5,6,3,7,2.45,3.4,2.8
-21-05-2025,Universitario De Vinto,Oriente Petrolero,Bolívia - Liga De Futbol Prof,1,1,1,1,15,19,5,7,41,43,6,7,2.3,3.3,2.8
+21-05-2025,Universitario de Vinto,Oriente Petrolero,Bolívia - Liga De Futbol Prof,1,1,1,1,15,19,5,7,41,43,6,7,2.3,3.3,2.8
 18-05-2025,Oriente Petrolero,The Strongest,Bolívia - Liga De Futbol Prof,3,2,2,1,16,16,7,5,21,5,5,6,2.6,3.5,2.5
 05-10-2025,Independiente Petrolero,Oriente Petrolero,Bolívia - Liga De Futbol Prof,5,2,3,0,19,24,9,15,28,48,4,10,1.8,3.4,3.9
 29-04-2025,Oriente Petrolero,Independiente Petrolero,Bolívia - Liga De Futbol Prof,2,0,2,0,13,16,6,7,40,31,9,2,1.61,4.0,4.5
 26-04-2025,Oriente Petrolero,San Antonio Bulo Bulo,Bolívia - Liga De Futbol Prof,1,1,1,0,14,16,6,5,42,19,5,3,1.66,4.0,4.1
 20-04-2025,Real Oruro,Oriente Petrolero,Bolívia - Liga De Futbol Prof,1,1,1,0,17,9,10,2,46,18,7,4,1.57,3.8,5.75
-08-11-2025,Criciúma,Athletico Pr,Brasil - Serie B,4,2,1,2,19,7,9,3,34,22,4,5,2.62,3.0,2.8
-08-01-2025,Operário Pr,Criciúma,Brasil - Serie B,1,0,0,0,14,6,3,0,57,24,8,3,2.0,3.2,4.0
-29-07-2025,Criciúma,Cuiabá,Brasil - Serie B,1,0,1,0,12,6,2,0,22,36,1,4,1.7,3.4,5.5
-24-07-2025,Botafogo Sp,Criciúma,Brasil - Serie B,0,2,0,1,20,13,4,5,38,20,6,5,2.7,2.8,2.9
-18-07-2025,Atlético Go,Criciúma,Brasil - Serie B,0,1,0,0,8,8,2,2,52,35,4,2,1.9,3.2,4.5
-13-07-2025,Criciúma,Ferroviária,Brasil - Serie B,2,1,1,1,16,11,8,3,65,37,12,2,1.85,3.2,4.75
-07-08-2025,Goiás,Criciúma,Brasil - Serie B,1,1,0,1,12,14,3,2,51,21,8,6,1.72,3.4,5.0
-27-06-2025,Criciúma,Avaí,Brasil - Serie B,1,2,1,1,19,10,6,5,40,14,6,3,2.2,2.87,3.5
-20-06-2025,América Mineiro,Criciúma,Brasil - Serie B,1,1,1,1,15,10,2,3,41,30,7,5,1.72,3.4,5.25
-15-06-2025,Criciúma,Amazonas,Brasil - Serie B,3,2,1,1,20,10,11,3,6,12,5,3,1.57,3.7,6.25
-06-09-2025,Criciúma,Vila Nova,Brasil - Serie B,1,0,0,0,20,12,7,0,36,27,16,3,2.4,2.87,3.3
-06-02-2025,Paysandu,Criciúma,Brasil - Serie B,0,1,0,0,21,6,6,4,43,17,11,3,2.25,3.0,3.5
-26-05-2025,Criciúma,Coritiba,Brasil - Serie B,0,1,0,0,18,11,6,4,47,36,9,2,2.35,3.0,3.4
-22-05-2025,Bragantino,Criciúma,Brasil - Serie B,6,0,2,0,19,12,8,1,46,51,6,6,1.42,4.33,8.5
-18-05-2025,Crb,Criciúma,Brasil - Serie B,1,0,0,0,17,19,2,7,36,52,1,5,2.2,3.1,3.5
-05-11-2025,Criciúma,Volta Redonda,Brasil - Serie B,0,0,0,0,20,16,5,6,41,43,10,5,2.05,3.1,3.9
-05-01-2025,Criciúma,Bragantino,Brasil - Serie B,1,0,0,0,10,13,2,0,25,74,6,8,3.3,3.1,2.3
-25-04-2025,Criciúma,Remo,Brasil - Serie B,1,1,0,0,16,11,6,4,55,27,8,3,1.65,3.75,5.25
-18-08-2025,Athletic Club,Criciúma,Brasil - Serie B,1,1,0,1,21,9,5,3,108,18,8,3,2.25,3.0,3.5
-08-12-2025,Crb,Athletic Club,Brasil - Serie B,1,0,0,0,20,6,6,3,64,48,8,4,1.95,3.4,3.8
-08-04-2025,Athletic Club,Atlético Go,Brasil - Serie B,1,1,1,1,16,12,6,4,36,41,4,5,2.0,3.0,4.1
+08-12-2025,CRB,Athletic Club,Brasil - Serie B,1,0,0,0,20,6,6,3,64,48,8,4,1.95,3.4,3.8
+08-04-2025,Athletic Club,Atlético GO,Brasil - Serie B,1,1,1,1,16,12,6,4,36,41,4,5,2.0,3.0,4.1
 28-07-2025,Paysandu,Athletic Club,Brasil - Serie B,1,1,1,1,16,15,6,6,32,52,6,6,2.37,3.0,3.1
 22-07-2025,Athletic Club,Coritiba,Brasil - Serie B,1,1,1,1,6,5,3,5,42,27,5,3,2.7,2.8,2.9
 18-07-2025,Ferroviária,Athletic Club,Brasil - Serie B,1,2,1,1,9,7,5,2,28,53,2,2,2.62,3.0,2.8
@@ -220,33 +192,63 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 07-07-2025,América Mineiro,Athletic Club,Brasil - Serie B,0,1,0,1,19,12,1,6,43,49,8,9,1.95,3.25,4.0
 29-06-2025,Athletic Club,Remo,Brasil - Serie B,1,2,0,0,20,6,9,3,51,17,10,2,1.95,3.3,4.0
 23-06-2025,Goiás,Athletic Club,Brasil - Serie B,1,2,0,1,15,15,4,4,49,26,4,4,1.65,3.8,5.25
-14-06-2025,Athletic Club,Operário Pr,Brasil - Serie B,2,1,1,1,11,12,5,3,12,3,5,3,2.4,2.9,3.3
+14-06-2025,Athletic Club,Operário PR,Brasil - Serie B,2,1,1,1,11,12,5,3,12,3,5,3,2.4,2.9,3.3
 06-09-2025,Amazonas,Athletic Club,Brasil - Serie B,1,0,0,0,9,12,5,2,22,32,2,8,2.15,3.1,3.6
 31-05-2025,Athletic Club,Cuiabá,Brasil - Serie B,0,2,0,1,9,15,1,4,19,1,3,5,2.5,3.0,3.0
-24-05-2025,Athletico Pr,Athletic Club,Brasil - Serie B,1,0,0,0,13,8,4,2,30,23,5,1,1.5,3.7,7.5
-05-12-2025,Botafogo Sp,Athletic Club,Brasil - Serie B,0,3,0,2,10,11,2,4,55,23,7,6,2.15,3.2,3.5
+24-05-2025,Athletico PR,Athletic Club,Brasil - Serie B,1,0,0,0,13,8,4,2,30,23,5,1,1.5,3.7,7.5
+05-12-2025,Botafogo SP,Athletic Club,Brasil - Serie B,0,3,0,2,10,11,2,4,55,23,7,6,2.15,3.2,3.5
 05-06-2025,Athletic Club,Vila Nova,Brasil - Serie B,0,1,0,0,15,10,1,6,72,32,5,2,2.62,3.0,2.9
 27-04-2025,Athletic Club,Volta Redonda,Brasil - Serie B,2,1,1,0,8,15,5,4,42,42,6,6,1.85,3.4,4.1
 17-04-2025,Criciúma,Athletic Club,Brasil - Serie B,4,0,3,0,25,1,9,1,27,10,5,0,1.65,3.75,5.25
+18-08-2025,Athletic Club,Criciúma,Brasil - Serie B,1,1,0,1,21,9,5,3,108,18,8,3,2.25,3.0,3.5
+08-11-2025,Criciúma,Athletico PR,Brasil - Serie B,4,2,1,2,19,7,9,3,34,22,4,5,2.62,3.0,2.8
+08-01-2025,Operário PR,Criciúma,Brasil - Serie B,1,0,0,0,14,6,3,0,57,24,8,3,2.0,3.2,4.0
+29-07-2025,Criciúma,Cuiabá,Brasil - Serie B,1,0,1,0,12,6,2,0,22,36,1,4,1.7,3.4,5.5
+24-07-2025,Botafogo SP,Criciúma,Brasil - Serie B,0,2,0,1,20,13,4,5,38,20,6,5,2.7,2.8,2.9
+18-07-2025,Atlético GO,Criciúma,Brasil - Serie B,0,1,0,0,8,8,2,2,52,35,4,2,1.9,3.2,4.5
+13-07-2025,Criciúma,Ferroviária,Brasil - Serie B,2,1,1,1,16,11,8,3,65,37,12,2,1.85,3.2,4.75
+07-08-2025,Goiás,Criciúma,Brasil - Serie B,1,1,0,1,12,14,3,2,51,21,8,6,1.72,3.4,5.0
+27-06-2025,Criciúma,Avaí,Brasil - Serie B,1,2,1,1,19,10,6,5,40,14,6,3,2.2,2.87,3.5
+20-06-2025,América Mineiro,Criciúma,Brasil - Serie B,1,1,1,1,15,10,2,3,41,30,7,5,1.72,3.4,5.25
 17-08-2025,Chapecoense,Paysandu,Brasil - Serie B,2,0,1,0,20,21,7,3,38,37,7,10,1.95,3.0,4.5
 08-08-2025,Coritiba,Chapecoense,Brasil - Serie B,0,0,0,0,16,8,5,0,35,13,4,3,1.8,3.2,5.25
-08-03-2025,Chapecoense,Crb,Brasil - Serie B,3,2,3,0,12,17,6,4,30,49,4,6,2.0,3.25,3.8
-27-07-2025,Atlético Go,Chapecoense,Brasil - Serie B,0,0,0,0,13,6,3,1,56,34,3,3,1.8,3.3,4.75
+08-03-2025,Chapecoense,CRB,Brasil - Serie B,3,2,3,0,12,17,6,4,30,49,4,6,2.0,3.25,3.8
+27-07-2025,Atlético GO,Chapecoense,Brasil - Serie B,0,0,0,0,13,6,3,1,56,34,3,3,1.8,3.3,4.75
 23-07-2025,Chapecoense,Volta Redonda,Brasil - Serie B,4,2,3,1,23,18,8,4,41,34,7,5,2.15,3.25,3.3
 20-07-2025,América Mineiro,Chapecoense,Brasil - Serie B,0,1,0,1,25,11,7,4,73,15,7,3,1.72,3.4,5.25
 13-07-2025,Chapecoense,Remo,Brasil - Serie B,1,1,0,0,14,10,8,3,18,36,6,4,1.95,3.2,4.0
-07-07-2025,Operário Pr,Chapecoense,Brasil - Serie B,1,2,1,0,19,12,7,6,33,43,1,2,1.75,3.2,5.5
+07-07-2025,Operário PR,Chapecoense,Brasil - Serie B,1,2,1,0,19,12,7,6,33,43,1,2,1.75,3.2,5.5
 29-06-2025,Chapecoense,Goiás,Brasil - Serie B,1,2,1,0,10,19,3,5,21,66,5,4,2.8,2.75,2.9
-20-06-2025,Botafogo Sp,Chapecoense,Brasil - Serie B,1,0,0,0,21,9,5,1,56,25,13,4,2.45,3.0,3.2
+20-06-2025,Botafogo SP,Chapecoense,Brasil - Serie B,1,0,0,0,21,9,5,1,56,25,13,4,2.45,3.0,3.2
 16-06-2025,Chapecoense,Ferroviária,Brasil - Serie B,2,1,1,0,7,17,3,7,27,31,1,6,2.25,2.8,3.75
 06-02-2025,Chapecoense,Amazonas,Brasil - Serie B,4,0,2,0,18,11,5,2,29,34,9,1,1.95,3.1,4.5
 24-05-2025,Avaí,Chapecoense,Brasil - Serie B,2,1,0,0,21,16,6,2,34,38,5,9,1.66,3.5,5.75
 16-05-2025,Chapecoense,Cuiabá,Brasil - Serie B,2,1,1,0,8,16,4,1,33,45,4,5,2.8,2.8,2.7
-05-08-2025,Athletico Pr,Chapecoense,Brasil - Serie B,1,1,0,0,23,9,8,5,46,17,10,1,1.53,3.9,6.5
+05-08-2025,Athletico PR,Chapecoense,Brasil - Serie B,1,1,0,0,23,9,8,5,46,17,10,1,1.53,3.9,6.5
 05-04-2025,Chapecoense,Criciúma,Brasil - Serie B,2,1,1,1,16,12,5,3,28,43,2,6,2.55,3.0,2.8
 25-04-2025,Vila Nova,Chapecoense,Brasil - Serie B,1,0,0,0,22,14,10,2,57,29,7,5,1.8,3.2,5.25
 20-04-2025,Chapecoense,Athletic Club,Brasil - Serie B,1,0,0,0,8,20,4,4,48,55,3,8,1.9,3.4,4.2
 16-04-2025,Paysandu,Chapecoense,Brasil - Serie B,0,2,0,2,14,9,3,5,22,13,6,5,1.72,3.7,4.75
+14-08-2025,Novorizontino,Coritiba,Brasil - Serie B,1,2,0,1,18,9,3,4,50,30,4,6,2.4,2.55,3.9
+08-09-2025,Volta Redonda,Novorizontino,Brasil - Serie B,0,0,0,0,15,5,6,3,34,33,11,4,2.5,2.9,3.1
+08-03-2025,Novorizontino,Avaí,Brasil - Serie B,1,1,1,1,19,8,7,6,65,46,7,7,2.15,3.0,3.8
+26-07-2025,CRB,Novorizontino,Brasil - Serie B,4,0,1,0,17,19,6,5,24,41,3,10,2.2,3.0,3.6
+23-07-2025,Novorizontino,Goiás,Brasil - Serie B,1,0,1,0,13,15,3,6,26,54,3,8,2.25,2.62,4.1
+17-07-2025,Remo,Novorizontino,Brasil - Serie B,1,1,1,1,10,18,2,4,30,38,5,7,2.45,2.75,3.5
+07-12-2025,Novorizontino,América Mineiro,Brasil - Serie B,3,1,1,1,19,17,5,7,42,31,2,3,2.15,2.9,3.9
+07-06-2025,Botafogo SP,Novorizontino,Brasil - Serie B,0,0,0,0,18,4,6,2,32,29,8,2,3.2,2.62,2.75
+29-06-2025,Novorizontino,Amazonas,Brasil - Serie B,1,1,1,1,15,10,3,3,70,25,6,4,1.48,3.9,7.5
+23-06-2025,Operário PR,Novorizontino,Brasil - Serie B,2,0,1,0,18,12,5,1,30,29,2,1,2.8,2.7,2.9
+15-06-2025,Novorizontino,Cuiabá,Brasil - Serie B,3,0,1,0,14,18,6,9,21,45,2,4,2.3,2.75,3.7
+06-06-2025,Novorizontino,Chapecoense,Brasil - Serie B,1,0,0,0,11,11,4,3,33,24,5,0,1.66,3.6,5.25
+30-05-2025,Vila Nova,Novorizontino,Brasil - Serie B,0,1,0,1,17,8,7,1,77,25,13,2,2.25,2.8,3.7
+25-05-2025,Novorizontino,Paysandu,Brasil - Serie B,3,1,1,1,22,10,6,4,65,20,8,3,1.65,3.6,5.5
+21-05-2025,Corinthians,Novorizontino,Brasil - Serie B,1,0,0,0,11,7,2,1,62,37,7,2,1.75,3.2,5.25
+17-05-2025,Athletic Club,Novorizontino,Brasil - Serie B,0,2,0,0,14,10,4,4,14,9,10,1,3.5,2.87,2.2
+05-11-2025,Novorizontino,Ferroviária,Brasil - Serie B,2,2,1,1,16,14,4,4,53,29,8,2,1.61,3.4,6.5
+05-04-2025,Atlético GO,Novorizontino,Brasil - Serie B,1,0,1,0,11,15,5,5,21,49,6,6,2.8,2.87,2.62
+30-04-2025,Novorizontino,Corinthians,Brasil - Serie B,0,1,0,1,12,6,2,2,55,14,7,3,0.0,0.0,0.0
+24-04-2025,Novorizontino,Athletico PR,Brasil - Serie B,2,1,1,0,19,13,4,6,38,44,7,6,2.3,2.87,3.6
 16-08-2025,Ñublense,Palestino,Chile - Primera Division,1,0,1,0,9,13,6,4,40,59,2,5,2.4,3.25,2.9
 08-08-2025,Palestino,Deportes Iquique,Chile - Primera Division,2,0,0,0,18,9,7,4,64,38,7,3,1.57,4.0,5.75
 08-01-2025,Audax Italiano,Palestino,Chile - Primera Division,1,1,0,0,13,19,3,5,28,51,5,7,2.25,3.2,3.2
@@ -265,26 +267,24 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 30-04-2025,Palestino,Concepcion,Chile - Primera Division,4,4,1,1,19,11,7,7,74,56,7,2,1.42,4.5,6.25
 27-04-2025,Palestino,Universidad Chile,Chile - Primera Division,2,3,0,1,16,17,7,6,62,26,4,5,4.2,3.5,1.83
 24-04-2025,Palestino,Cruzeiro,Chile - Primera Division,2,1,1,0,12,15,6,5,38,72,5,8,2.62,3.2,2.8
-14-08-2025,Novorizontino,Coritiba,Brasil - Serie B,1,2,0,1,18,9,3,4,50,30,4,6,2.4,2.55,3.9
-08-09-2025,Volta Redonda,Novorizontino,Brasil - Serie B,0,0,0,0,15,5,6,3,34,33,11,4,2.5,2.9,3.1
-08-03-2025,Novorizontino,Avaí,Brasil - Serie B,1,1,1,1,19,8,7,6,65,46,7,7,2.15,3.0,3.8
-26-07-2025,Crb,Novorizontino,Brasil - Serie B,4,0,1,0,17,19,6,5,24,41,3,10,2.2,3.0,3.6
-23-07-2025,Novorizontino,Goiás,Brasil - Serie B,1,0,1,0,13,15,3,6,26,54,3,8,2.25,2.62,4.1
-17-07-2025,Remo,Novorizontino,Brasil - Serie B,1,1,1,1,10,18,2,4,30,38,5,7,2.45,2.75,3.5
-07-12-2025,Novorizontino,América Mineiro,Brasil - Serie B,3,1,1,1,19,17,5,7,42,31,2,3,2.15,2.9,3.9
-07-06-2025,Botafogo Sp,Novorizontino,Brasil - Serie B,0,0,0,0,18,4,6,2,32,29,8,2,3.2,2.62,2.75
-29-06-2025,Novorizontino,Amazonas,Brasil - Serie B,1,1,1,1,15,10,3,3,70,25,6,4,1.48,3.9,7.5
-23-06-2025,Operário Pr,Novorizontino,Brasil - Serie B,2,0,1,0,18,12,5,1,30,29,2,1,2.8,2.7,2.9
-15-06-2025,Novorizontino,Cuiabá,Brasil - Serie B,3,0,1,0,14,18,6,9,21,45,2,4,2.3,2.75,3.7
-06-06-2025,Novorizontino,Chapecoense,Brasil - Serie B,1,0,0,0,11,11,4,3,33,24,5,0,1.66,3.6,5.25
-30-05-2025,Vila Nova,Novorizontino,Brasil - Serie B,0,1,0,1,17,8,7,1,77,25,13,2,2.25,2.8,3.7
-25-05-2025,Novorizontino,Paysandu,Brasil - Serie B,3,1,1,1,22,10,6,4,65,20,8,3,1.65,3.6,5.5
-21-05-2025,Corinthians,Novorizontino,Brasil - Serie B,1,0,0,0,11,7,2,1,62,37,7,2,1.75,3.2,5.25
-17-05-2025,Athletic Club,Novorizontino,Brasil - Serie B,0,2,0,0,14,10,4,4,14,9,10,1,3.5,2.87,2.2
-05-11-2025,Novorizontino,Ferroviária,Brasil - Serie B,2,2,1,1,16,14,4,4,53,29,8,2,1.61,3.4,6.5
-05-04-2025,Atlético Go,Novorizontino,Brasil - Serie B,1,0,1,0,11,15,5,5,21,49,6,6,2.8,2.87,2.62
-30-04-2025,Novorizontino,Corinthians,Brasil - Serie B,0,1,0,1,12,6,2,2,55,14,7,3,0.0,0.0,0.0
-24-04-2025,Novorizontino,Athletico Pr,Brasil - Serie B,2,1,1,0,19,13,4,6,38,44,7,6,2.3,2.87,3.6
+17-08-2025,Huachipato,Deportes Limache,Chile - Primera Division,4,0,1,0,14,15,6,5,37,43,5,7,2.25,3.2,3.1
+08-11-2025,Deportes Limache,Audax Italiano,Chile - Primera Division,4,0,1,0,15,13,6,2,35,60,3,8,2.45,3.4,2.75
+08-02-2025,Coquimbo Unido,Deportes Limache,Chile - Primera Division,2,1,0,1,13,4,3,1,54,24,7,1,1.61,3.8,5.25
+25-07-2025,Deportes Limache,Ñublense,Chile - Primera Division,0,1,0,0,15,19,2,5,38,50,4,6,2.35,3.4,2.75
+18-07-2025,Everton,Deportes Limache,Chile - Primera Division,0,0,0,0,18,7,4,0,33,17,6,5,2.4,3.25,2.8
+13-07-2025,Coquimbo Unido,Deportes Limache,Chile - Primera Division,2,3,0,1,14,13,5,5,70,36,10,2,1.48,4.0,6.0
+07-10-2025,Deportes Limache,Coquimbo Unido,Chile - Primera Division,2,1,2,1,9,17,3,3,37,83,4,3,3.3,3.2,2.1
+07-01-2025,Deportes Limache,Cobreloa,Chile - Primera Division,3,0,1,0,12,8,4,3,0,0,2,3,1.7,4.0,4.33
+22-06-2025,La Serena,Deportes Limache,Chile - Primera Division,1,1,0,1,18,17,5,5,47,26,2,5,2.62,3.5,2.5
+13-06-2025,Deportes Limache,Unión La Calera,Chile - Primera Division,0,1,0,0,14,10,4,2,35,27,5,2,2.3,3.2,3.1
+06-08-2025,Cobreloa,Deportes Limache,Chile - Primera Division,1,3,0,2,14,13,5,8,10,6,4,2,1.83,3.5,3.75
+06-03-2025,Unión Española,Deportes Limache,Chile - Primera Division,2,2,0,1,20,9,6,2,63,40,10,3,2.25,3.5,2.9
+23-05-2025,Deportes Limache,Universidad Chile,Chile - Primera Division,2,0,1,0,11,21,2,8,27,69,3,5,2.3,3.5,2.87
+18-05-2025,Deportes Limache,Palestino,Chile - Primera Division,0,1,0,0,10,15,2,2,90,72,2,7,2.3,3.25,3.0
+26-04-2025,Cobresal,Deportes Limache,Chile - Primera Division,3,1,2,0,13,14,9,6,32,56,7,10,1.72,3.6,4.75
+19-04-2025,Universidad Católica,Deportes Limache,Chile - Primera Division,2,1,0,1,18,8,5,3,50,31,7,5,1.8,3.9,4.0
+14-04-2025,Deportes Limache,Deportes Iquique,Chile - Primera Division,2,0,0,0,20,11,10,3,54,39,6,3,2.5,3.2,2.75
+04-06-2025,Unión San Felipe,Deportes Limache,Chile - Primera Division,1,2,0,1,16,15,10,9,51,66,4,5,2.5,3.25,2.75
 16-08-2025,Colo-Colo,Universidad Católica,Chile - Primera Division,1,4,1,3,21,11,5,6,71,18,15,3,2.0,3.1,4.0
 08-10-2025,Everton,Colo-Colo,Chile - Primera Division,1,1,0,1,18,6,3,2,43,36,3,7,2.8,3.1,2.55
 08-03-2025,Colo-Colo,Huachipato,Chile - Primera Division,2,2,0,1,26,8,9,5,60,20,8,4,1.66,3.9,4.75
@@ -299,7 +299,9 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 24-05-2025,Colo-Colo,Unión Española,Chile - Primera Division,4,1,3,1,22,13,9,6,69,26,5,5,1.55,4.0,5.75
 19-05-2025,Colo-Colo,Ñublense,Chile - Primera Division,2,2,1,2,22,11,9,5,47,30,9,3,1.53,3.8,6.5
 14-05-2025,Racing Club,Colo-Colo,Chile - Primera Division,4,0,2,0,16,12,8,1,36,26,4,1,1.44,4.5,7.0
+05-10-2025,Deportes Limache,Colo-Colo,Chile - Primera Division,4,1,1,1,18,17,12,4,54,94,6,2,4.1,3.3,1.9
 05-06-2025,Fortaleza,Colo-Colo,Chile - Primera Division,4,0,3,0,17,15,12,7,40,32,9,4,1.95,3.2,4.33
+05-02-2025,Deportes Limache,Colo-Colo,Chile - Primera Division,1,0,1,0,11,16,5,2,35,45,5,6,4.5,4.0,1.65
 26-04-2025,Colo-Colo,Coquimbo Unido,Chile - Primera Division,2,0,2,0,9,8,3,0,45,27,1,4,1.6,3.8,5.5
 22-04-2025,Colo-Colo,Racing Club,Chile - Primera Division,1,1,1,0,8,10,1,4,26,49,3,2,2.8,3.2,2.6
 16-08-2025,O'Higgins,Cobresal,Chile - Primera Division,1,0,1,0,18,11,7,3,57,33,9,4,1.6,4.1,5.0
@@ -322,6 +324,25 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 21-03-2025,Huachipato,O'Higgins,Chile - Primera Division,2,1,1,0,9,18,5,3,47,88,2,6,3.7,3.4,1.95
 16-03-2025,Cobresal,O'Higgins,Chile - Primera Division,0,0,0,0,9,21,0,5,62,119,2,9,2.1,3.5,3.2
 03-09-2025,O'Higgins,La Serena,Chile - Primera Division,1,1,0,1,22,11,3,4,83,28,9,4,1.8,3.6,4.33
+16-08-2025,La Equidad,Llaneros,Colômbia - Liga Betplay,2,1,1,1,11,8,4,1,27,30,3,2,2.2,3.1,3.5
+08-10-2025,Llaneros,Independiente Medellín,Colômbia - Liga Betplay,0,1,0,0,13,5,2,2,33,25,8,0,3.0,3.2,2.4
+08-02-2025,Deportivo Cali,Llaneros,Colômbia - Liga Betplay,0,3,0,1,14,6,2,3,53,16,9,1,1.9,2.9,5.0
+28-07-2025,Millonarios,Llaneros,Colômbia - Liga Betplay,0,1,0,0,18,5,0,3,58,16,10,4,1.42,4.1,8.0
+23-07-2025,Llaneros,Boyacá Chicó,Colômbia - Liga Betplay,2,1,1,0,13,11,4,3,32,53,2,4,1.66,3.4,5.75
+18-07-2025,Unión Magdalena,Llaneros,Colômbia - Liga Betplay,0,0,0,0,10,9,2,3,26,20,3,4,2.1,3.0,3.9
+07-11-2025,Llaneros,América de Cali,Colômbia - Liga Betplay,0,0,0,0,5,14,0,3,54,79,6,7,3.4,2.9,2.3
+15-06-2025,Unión Magdalena,Llaneros,Colômbia - Liga Betplay,0,0,0,0,5,1,0,0,59,23,3,3,1.95,3.2,4.2
+06-09-2025,Llaneros,Real San Andres,Colômbia - Liga Betplay,2,1,2,1,11,11,4,7,36,40,5,7,3.0,3.6,2.0
+28-05-2025,Llaneros,Atlético,Colômbia - Liga Betplay,1,1,1,0,5,6,2,3,30,37,1,1,4.0,3.2,1.95
+24-05-2025,Envigado,Llaneros,Colômbia - Liga Betplay,1,2,0,0,11,9,5,3,84,80,5,4,1.9,3.2,4.5
+19-05-2025,Llaneros,Deportes Tolima,Colômbia - Liga Betplay,1,3,0,3,13,7,4,5,14,13,6,1,3.0,3.0,2.45
+05-11-2025,Atlético Nacional,Llaneros,Colômbia - Liga Betplay,2,1,2,0,15,20,5,2,15,14,7,8,1.48,4.2,6.5
+05-03-2025,Llaneros,Atlético Bucaramanga,Colômbia - Liga Betplay,2,1,1,0,7,12,2,4,39,43,4,6,2.45,3.0,3.1
+30-04-2025,Llaneros,Santa Fe,Colômbia - Liga Betplay,0,1,0,0,20,7,4,5,51,14,11,3,2.6,3.1,2.8
+17-04-2025,Fortaleza CEIF,Llaneros,Colômbia - Liga Betplay,1,0,0,0,13,11,5,1,39,30,10,11,2.05,3.2,3.8
+04-11-2025,Llaneros,Alianza Petrolera,Colômbia - Liga Betplay,0,1,0,0,15,5,2,1,44,19,3,3,2.8,2.8,2.8
+04-06-2025,Rionegro Águilas,Llaneros,Colômbia - Liga Betplay,1,2,0,1,16,11,7,2,49,31,6,5,1.66,3.6,5.25
+04-01-2025,Llaneros,Deportivo Pereira,Colômbia - Liga Betplay,2,1,1,0,16,13,5,4,31,23,5,7,2.75,2.87,2.8
 18-08-2025,Deportivo Pasto,Independiente Medellín,Colômbia - Liga Betplay,1,2,1,0,9,24,2,6,24,42,0,4,3.6,2.8,2.25
 14-08-2025,Deportivo Pasto,Envigado,Colômbia - Liga Betplay,0,1,0,1,15,11,2,3,49,18,5,1,1.85,2.9,5.25
 08-07-2025,Unión Magdalena,Deportivo Pasto,Colômbia - Liga Betplay,1,1,1,0,12,8,7,2,29,30,5,2,1.9,2.87,5.0
@@ -330,82 +351,24 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 14-06-2025,Atlético,Deportivo Pasto,Colômbia - Liga Betplay,1,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 06-11-2025,Deportivo Pasto,Unión Magdalena,Colômbia - Liga Betplay,3,1,2,1,9,12,5,7,49,36,6,2,1.18,7.5,12.0
 06-05-2025,Real San Andres,Deportivo Pasto,Colômbia - Liga Betplay,1,1,1,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0
+06-02-2025,Deportivo Pasto,Llaneros,Colômbia - Liga Betplay,3,0,2,0,8,0,2,0,43,31,2,0,1.14,6.5,19.0
 25-05-2025,Atlético Bucaramanga,Deportivo Pasto,Colômbia - Liga Betplay,2,1,1,1,14,10,4,3,49,18,8,2,2.6,3.0,2.9
 18-05-2025,Deportivo Pasto,Once Caldas,Colômbia - Liga Betplay,2,1,1,1,16,14,5,5,8,23,4,8,2.7,3.0,2.8
 13-05-2025,Deportivo Pereira,Deportivo Pasto,Colômbia - Liga Betplay,1,0,1,0,6,10,2,2,24,30,5,2,1.83,3.1,5.25
-05-04-2025,Deportivo Pasto,Fortaleza Ceif,Colômbia - Liga Betplay,1,0,0,0,13,13,3,1,36,32,8,3,1.8,3.3,4.75
+05-04-2025,Deportivo Pasto,Fortaleza CEIF,Colômbia - Liga Betplay,1,0,0,0,13,13,3,1,36,32,8,3,1.8,3.3,4.75
 29-04-2025,Atlético Nacional,Deportivo Pasto,Colômbia - Liga Betplay,3,0,1,0,21,1,8,0,56,18,7,0,1.28,5.0,11.0
 21-04-2025,Deportivo Pasto,Rionegro Águilas,Colômbia - Liga Betplay,1,0,1,0,13,12,3,1,30,48,3,5,2.1,2.75,4.33
 15-04-2025,Alianza Petrolera,Deportivo Pasto,Colômbia - Liga Betplay,1,0,1,0,14,15,4,5,40,48,6,6,2.0,3.0,4.33
-04-12-2025,Deportivo Pasto,Junior Fc,Colômbia - Liga Betplay,3,3,3,1,13,10,4,5,28,25,5,4,2.35,2.87,3.5
+04-12-2025,Deportivo Pasto,Junior FC,Colômbia - Liga Betplay,3,3,3,1,13,10,4,5,28,25,5,4,2.35,2.87,3.5
 04-04-2025,Santa Fe,Deportivo Pasto,Colômbia - Liga Betplay,1,1,1,0,14,18,3,8,39,26,5,8,1.6,3.5,6.5
 29-03-2025,Deportivo Pasto,Deportivo Cali,Colômbia - Liga Betplay,1,1,1,0,12,9,2,4,20,35,5,2,2.4,2.87,3.3
 22-03-2025,Boyacá Chicó,Deportivo Pasto,Colômbia - Liga Betplay,0,0,0,0,9,10,3,4,45,21,12,3,3.3,2.45,2.9
-16-08-2025,La Equidad,Llaneros,Colômbia - Liga Betplay,2,1,1,1,11,8,4,1,27,30,3,2,2.2,3.1,3.5
-08-10-2025,Llaneros,Independiente Medellín,Colômbia - Liga Betplay,0,1,0,0,13,5,2,2,33,25,8,0,3.0,3.2,2.4
-08-02-2025,Deportivo Cali,Llaneros,Colômbia - Liga Betplay,0,3,0,1,14,6,2,3,53,16,9,1,1.9,2.9,5.0
-28-07-2025,Millonarios,Llaneros,Colômbia - Liga Betplay,0,1,0,0,18,5,0,3,58,16,10,4,1.42,4.1,8.0
-23-07-2025,Llaneros,Boyacá Chicó,Colômbia - Liga Betplay,2,1,1,0,13,11,4,3,32,53,2,4,1.66,3.4,5.75
-18-07-2025,Unión Magdalena,Llaneros,Colômbia - Liga Betplay,0,0,0,0,10,9,2,3,26,20,3,4,2.1,3.0,3.9
-07-11-2025,Llaneros,América De Cali,Colômbia - Liga Betplay,0,0,0,0,5,14,0,3,54,79,6,7,3.4,2.9,2.3
-15-06-2025,Unión Magdalena,Llaneros,Colômbia - Liga Betplay,0,0,0,0,5,1,0,0,59,23,3,3,1.95,3.2,4.2
-06-09-2025,Llaneros,Real San Andres,Colômbia - Liga Betplay,2,1,2,1,11,11,4,7,36,40,5,7,3.0,3.6,2.0
-06-02-2025,Deportivo Pasto,Llaneros,Colômbia - Liga Betplay,3,0,2,0,8,0,2,0,43,31,2,0,1.14,6.5,19.0
-28-05-2025,Llaneros,Atlético,Colômbia - Liga Betplay,1,1,1,0,5,6,2,3,30,37,1,1,4.0,3.2,1.95
-24-05-2025,Envigado,Llaneros,Colômbia - Liga Betplay,1,2,0,0,11,9,5,3,84,80,5,4,1.9,3.2,4.5
-19-05-2025,Llaneros,Deportes Tolima,Colômbia - Liga Betplay,1,3,0,3,13,7,4,5,14,13,6,1,3.0,3.0,2.45
-05-11-2025,Atlético Nacional,Llaneros,Colômbia - Liga Betplay,2,1,2,0,15,20,5,2,15,14,7,8,1.48,4.2,6.5
-05-03-2025,Llaneros,Atlético Bucaramanga,Colômbia - Liga Betplay,2,1,1,0,7,12,2,4,39,43,4,6,2.45,3.0,3.1
-30-04-2025,Llaneros,Santa Fe,Colômbia - Liga Betplay,0,1,0,0,20,7,4,5,51,14,11,3,2.6,3.1,2.8
-17-04-2025,Fortaleza Ceif,Llaneros,Colômbia - Liga Betplay,1,0,0,0,13,11,5,1,39,30,10,11,2.05,3.2,3.8
-04-11-2025,Llaneros,Alianza Petrolera,Colômbia - Liga Betplay,0,1,0,0,15,5,2,1,44,19,3,3,2.8,2.8,2.8
-04-06-2025,Rionegro Águilas,Llaneros,Colômbia - Liga Betplay,1,2,0,1,16,11,7,2,49,31,6,5,1.66,3.6,5.25
-04-01-2025,Llaneros,Deportivo Pereira,Colômbia - Liga Betplay,2,1,1,0,16,13,5,4,31,23,5,7,2.75,2.87,2.8
-17-08-2025,Huachipato,Deportes Limache,Chile - Primera Division,4,0,1,0,14,15,6,5,37,43,5,7,2.25,3.2,3.1
-08-11-2025,Deportes Limache,Audax Italiano,Chile - Primera Division,4,0,1,0,15,13,6,2,35,60,3,8,2.45,3.4,2.75
-08-02-2025,Coquimbo Unido,Deportes Limache,Chile - Primera Division,2,1,0,1,13,4,3,1,54,24,7,1,1.61,3.8,5.25
-25-07-2025,Deportes Limache,Ñublense,Chile - Primera Division,0,1,0,0,15,19,2,5,38,50,4,6,2.35,3.4,2.75
-18-07-2025,Everton,Deportes Limache,Chile - Primera Division,0,0,0,0,18,7,4,0,33,17,6,5,2.4,3.25,2.8
-13-07-2025,Coquimbo Unido,Deportes Limache,Chile - Primera Division,2,3,0,1,14,13,5,5,70,36,10,2,1.48,4.0,6.0
-07-10-2025,Deportes Limache,Coquimbo Unido,Chile - Primera Division,2,1,2,1,9,17,3,3,37,83,4,3,3.3,3.2,2.1
-07-01-2025,Deportes Limache,Cobreloa,Chile - Primera Division,3,0,1,0,12,8,4,3,0,0,2,3,1.7,4.0,4.33
-22-06-2025,La Serena,Deportes Limache,Chile - Primera Division,1,1,0,1,18,17,5,5,47,26,2,5,2.62,3.5,2.5
-13-06-2025,Deportes Limache,Unión La Calera,Chile - Primera Division,0,1,0,0,14,10,4,2,35,27,5,2,2.3,3.2,3.1
-06-08-2025,Cobreloa,Deportes Limache,Chile - Primera Division,1,3,0,2,14,13,5,8,10,6,4,2,1.83,3.5,3.75
-06-03-2025,Unión Española,Deportes Limache,Chile - Primera Division,2,2,0,1,20,9,6,2,63,40,10,3,2.25,3.5,2.9
-23-05-2025,Deportes Limache,Universidad Chile,Chile - Primera Division,2,0,1,0,11,21,2,8,27,69,3,5,2.3,3.5,2.87
-18-05-2025,Deportes Limache,Palestino,Chile - Primera Division,0,1,0,0,10,15,2,2,90,72,2,7,2.3,3.25,3.0
-05-10-2025,Deportes Limache,Colo-Colo,Chile - Primera Division,4,1,1,1,18,17,12,4,54,94,6,2,4.1,3.3,1.9
-05-02-2025,Deportes Limache,Colo-Colo,Chile - Primera Division,1,0,1,0,11,16,5,2,35,45,5,6,4.5,4.0,1.65
-26-04-2025,Cobresal,Deportes Limache,Chile - Primera Division,3,1,2,0,13,14,9,6,32,56,7,10,1.72,3.6,4.75
-19-04-2025,Universidad Católica,Deportes Limache,Chile - Primera Division,2,1,0,1,18,8,5,3,50,31,7,5,1.8,3.9,4.0
-14-04-2025,Deportes Limache,Deportes Iquique,Chile - Primera Division,2,0,0,0,20,11,10,3,54,39,6,3,2.5,3.2,2.75
-04-06-2025,Unión San Felipe,Deportes Limache,Chile - Primera Division,1,2,0,1,16,15,10,9,51,66,4,5,2.5,3.25,2.75
-16-08-2025,Universidad Católica,Libertad,Equador - Liga Pro,1,1,1,1,16,15,3,4,33,29,8,3,1.61,4.33,4.5
-08-09-2025,Mushuc Runa,Libertad,Equador - Liga Pro,1,2,1,1,21,6,7,2,50,21,7,1,2.3,3.2,3.0
-08-03-2025,Libertad,Emelec,Equador - Liga Pro,1,2,0,1,14,12,5,3,63,38,9,2,1.9,3.5,4.0
-25-07-2025,El Nacional,Libertad,Equador - Liga Pro,2,2,1,1,19,19,7,3,25,45,7,5,3.1,3.2,2.25
-21-07-2025,Libertad,Manta,Equador - Liga Pro,1,0,0,0,13,5,3,1,54,39,6,3,1.72,4.0,4.2
-16-07-2025,La Cantera De Pastaza,Libertad,Equador - Liga Pro,0,0,0,0,15,13,5,5,76,100,3,9,3.0,3.6,2.1
-13-07-2025,Orense,Libertad,Equador - Liga Pro,0,1,0,1,16,7,8,5,92,28,9,1,1.55,3.9,6.25
-07-04-2025,Libertad,Deportivo Cuenca,Equador - Liga Pro,2,1,0,1,19,13,7,4,40,40,7,4,2.8,3.1,2.55
-28-06-2025,Barcelona Guayaquil,Libertad,Equador - Liga Pro,3,3,2,0,15,10,8,8,38,26,10,3,1.48,4.75,6.0
-20-06-2025,Libertad,Técnico Universitario,Equador - Liga Pro,4,1,3,0,21,15,8,3,34,27,8,4,2.15,3.3,3.2
-14-06-2025,Independiente Del Valle,Libertad,Equador - Liga Pro,1,1,1,0,14,11,6,1,49,41,5,3,1.38,4.5,7.5
-06-02-2025,Cuniburo,Libertad,Equador - Liga Pro,1,0,0,0,14,13,1,3,23,46,0,5,1.9,3.7,3.5
-25-05-2025,Libertad,Macará,Equador - Liga Pro,0,1,0,0,12,14,2,5,54,37,8,4,2.15,3.3,3.2
-19-05-2025,Ldu Quito,Libertad,Equador - Liga Pro,1,1,0,0,15,9,5,1,41,53,4,14,1.4,4.2,7.5
-05-10-2025,Libertad,Delfin,Equador - Liga Pro,0,1,0,1,11,4,2,1,61,39,6,2,1.55,4.0,5.0
-28-04-2025,Libertad,Universidad Católica,Equador - Liga Pro,3,1,1,0,9,15,5,7,39,54,3,7,3.1,3.2,2.25
-19-04-2025,Libertad,Mushuc Runa,Equador - Liga Pro,2,1,1,0,11,15,5,5,32,36,2,6,1.95,3.3,3.9
-04-11-2025,Emelec,Libertad,Equador - Liga Pro,1,1,1,0,9,16,2,5,39,32,7,6,1.7,3.7,4.75
-04-04-2025,Libertad,El Nacional,Equador - Liga Pro,1,3,0,1,18,13,4,7,48,28,4,1,2.25,3.2,3.3
 16-08-2025,Mushuc Runa,Aucas,Equador - Liga Pro,1,0,0,0,10,16,4,4,27,38,1,9,3.0,3.4,2.2
-08-09-2025,Aucas,Ldu Quito,Equador - Liga Pro,1,0,1,0,10,17,5,5,18,62,4,6,3.2,3.2,2.3
+08-09-2025,Aucas,LDU Quito,Equador - Liga Pro,1,0,1,0,10,17,5,5,18,62,4,6,3.2,3.2,2.3
 08-03-2025,Universidad Católica,Aucas,Equador - Liga Pro,6,2,4,1,19,13,8,6,35,33,3,7,2.1,3.25,3.5
 30-07-2025,Ecuagenera,Aucas,Equador - Liga Pro,0,0,0,0,6,6,2,3,45,63,3,3,4.5,2.8,1.9
 26-07-2025,Aucas,Delfin,Equador - Liga Pro,2,1,2,0,15,6,6,3,36,26,4,3,1.66,3.8,5.0
-18-07-2025,Independiente Del Valle,Aucas,Equador - Liga Pro,2,1,2,0,13,11,5,2,2,4,2,4,1.85,3.25,4.33
+18-07-2025,Independiente del Valle,Aucas,Equador - Liga Pro,2,1,2,0,13,11,5,2,2,4,2,4,1.85,3.25,4.33
 14-07-2025,Aucas,El Nacional,Equador - Liga Pro,1,0,0,0,20,16,7,4,33,35,5,2,1.95,3.4,3.8
 07-06-2025,Aucas,Macará,Equador - Liga Pro,1,4,0,1,11,12,4,5,35,20,10,3,1.65,3.6,5.5
 30-06-2025,Cuniburo,Aucas,Equador - Liga Pro,0,1,0,1,6,10,1,3,37,37,1,5,3.4,3.2,2.1
@@ -415,9 +378,8 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 24-05-2025,Orense,Aucas,Equador - Liga Pro,2,1,2,0,11,13,7,5,35,37,4,5,2.1,3.25,3.6
 17-05-2025,Aucas,Manta,Equador - Liga Pro,1,1,0,0,19,11,9,3,56,19,5,2,1.25,5.25,13.0
 05-11-2025,Emelec,Aucas,Equador - Liga Pro,0,1,0,0,8,14,4,6,15,15,2,2,2.7,3.1,2.7
-05-05-2025,Aucas,Libertad,Equador - Liga Pro,2,0,1,0,15,14,5,4,38,38,3,6,1.48,4.2,6.5
 27-04-2025,Aucas,Mushuc Runa,Equador - Liga Pro,2,0,1,0,24,18,10,5,40,51,6,6,2.1,3.2,3.5
-18-04-2025,Ldu Quito,Aucas,Equador - Liga Pro,3,1,2,0,8,17,4,3,34,50,5,4,1.95,3.4,3.7
+18-04-2025,LDU Quito,Aucas,Equador - Liga Pro,3,1,2,0,8,17,4,3,34,50,5,4,1.95,3.4,3.7
 15-04-2025,Aucas,Universidad Católica,Equador - Liga Pro,2,1,0,0,21,12,5,2,45,35,10,2,2.25,3.3,3.0
 04-05-2025,Delfin,Aucas,Equador - Liga Pro,1,1,1,0,14,10,3,6,41,49,6,6,3.0,3.3,2.25
 17-08-2025,Tallinna Kalev,Levadia,Estônia - Meistriliiga,1,6,1,2,9,32,4,13,28,57,1,4,19.0,7.5,1.14
@@ -427,8 +389,8 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 29-07-2025,Saburtalo,Levadia,Estônia - Meistriliiga,2,2,1,0,19,9,13,6,156,86,5,4,1.61,3.5,5.0
 23-07-2025,Levadia,Saburtalo,Estônia - Meistriliiga,1,0,0,0,16,15,3,5,92,65,4,4,2.0,3.4,3.25
 19-07-2025,Levadia,Harju Jalgpallikool,Estônia - Meistriliiga,3,0,2,0,29,4,8,1,61,29,6,2,1.25,5.5,9.0
-15-07-2025,Rīgas Fs,Levadia,Estônia - Meistriliiga,1,0,0,0,7,9,6,3,58,63,4,2,1.5,4.5,4.75
-07-08-2025,Levadia,Rīgas Fs,Estônia - Meistriliiga,0,1,0,0,7,10,4,5,100,77,1,3,4.1,3.6,1.8
+15-07-2025,Rīgas FS,Levadia,Estônia - Meistriliiga,1,0,0,0,7,9,6,3,58,63,4,2,1.5,4.5,4.75
+07-08-2025,Levadia,Rīgas FS,Estônia - Meistriliiga,0,1,0,0,7,10,4,5,100,77,1,3,4.1,3.6,1.8
 07-04-2025,Paide,Levadia,Estônia - Meistriliiga,0,3,0,2,7,14,0,5,56,63,8,4,3.6,3.4,1.8
 27-06-2025,Levadia,Trans,Estônia - Meistriliiga,2,1,1,0,13,9,4,1,67,31,2,3,1.36,4.75,6.0
 21-06-2025,Levadia,Nõmme Kalju,Estônia - Meistriliiga,3,1,2,0,24,6,10,2,80,41,9,2,1.61,3.9,4.5
@@ -439,6 +401,30 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 18-05-2025,Flora,Levadia,Estônia - Meistriliiga,1,0,1,0,5,24,2,7,31,84,2,9,3.0,3.6,2.1
 14-05-2025,Levadia,Trans,Estônia - Meistriliiga,1,0,1,0,12,2,4,1,41,37,5,1,1.5,4.2,4.5
 05-11-2025,Levadia,Paide,Estônia - Meistriliiga,2,1,2,0,7,16,4,4,24,67,4,9,1.57,3.7,4.75
+16-08-2025,Universidad Católica,Libertad,Equador - Liga Pro,1,1,1,1,16,15,3,4,33,29,8,3,1.61,4.33,4.5
+08-09-2025,Mushuc Runa,Libertad,Equador - Liga Pro,1,2,1,1,21,6,7,2,50,21,7,1,2.3,3.2,3.0
+08-03-2025,Libertad,Emelec,Equador - Liga Pro,1,2,0,1,14,12,5,3,63,38,9,2,1.9,3.5,4.0
+25-07-2025,El Nacional,Libertad,Equador - Liga Pro,2,2,1,1,19,19,7,3,25,45,7,5,3.1,3.2,2.25
+21-07-2025,Libertad,Manta,Equador - Liga Pro,1,0,0,0,13,5,3,1,54,39,6,3,1.72,4.0,4.2
+16-07-2025,La Cantera de Pastaza,Libertad,Equador - Liga Pro,0,0,0,0,15,13,5,5,76,100,3,9,3.0,3.6,2.1
+13-07-2025,Orense,Libertad,Equador - Liga Pro,0,1,0,1,16,7,8,5,92,28,9,1,1.55,3.9,6.25
+07-04-2025,Libertad,Deportivo Cuenca,Equador - Liga Pro,2,1,0,1,19,13,7,4,40,40,7,4,2.8,3.1,2.55
+28-06-2025,Barcelona Guayaquil,Libertad,Equador - Liga Pro,3,3,2,0,15,10,8,8,38,26,10,3,1.48,4.75,6.0
+20-06-2025,Libertad,Técnico Universitario,Equador - Liga Pro,4,1,3,0,21,15,8,3,34,27,8,4,2.15,3.3,3.2
+14-06-2025,Independiente del Valle,Libertad,Equador - Liga Pro,1,1,1,0,14,11,6,1,49,41,5,3,1.38,4.5,7.5
+06-02-2025,Cuniburo,Libertad,Equador - Liga Pro,1,0,0,0,14,13,1,3,23,46,0,5,1.9,3.7,3.5
+25-05-2025,Libertad,Macará,Equador - Liga Pro,0,1,0,0,12,14,2,5,54,37,8,4,2.15,3.3,3.2
+19-05-2025,LDU Quito,Libertad,Equador - Liga Pro,1,1,0,0,15,9,5,1,41,53,4,14,1.4,4.2,7.5
+05-10-2025,Libertad,Delfin,Equador - Liga Pro,0,1,0,1,11,4,2,1,61,39,6,2,1.55,4.0,5.0
+05-05-2025,Aucas,Libertad,Equador - Liga Pro,2,0,1,0,15,14,5,4,38,38,3,6,1.48,4.2,6.5
+28-04-2025,Libertad,Universidad Católica,Equador - Liga Pro,3,1,1,0,9,15,5,7,39,54,3,7,3.1,3.2,2.25
+19-04-2025,Libertad,Mushuc Runa,Equador - Liga Pro,2,1,1,0,11,15,5,5,32,36,2,6,1.95,3.3,3.9
+04-11-2025,Emelec,Libertad,Equador - Liga Pro,1,1,1,0,9,16,2,5,39,32,7,6,1.7,3.7,4.75
+04-04-2025,Libertad,El Nacional,Equador - Liga Pro,1,3,0,1,18,13,4,7,48,28,4,1,2.25,3.2,3.3
+18-07-2025,Drogheda United,Crumlin United,Irlanda - Premier Division,5,0,1,0,32,5,14,3,57,32,10,2,1.04,13.0,41.0
+13-06-2025,St Patrick's,Drogheda United,Irlanda - Premier Division,0,0,0,0,19,8,3,2,53,48,4,4,1.75,3.8,4.5
+21-04-2025,Drogheda United,St Patrick's,Irlanda - Premier Division,0,0,0,0,14,8,3,1,55,26,5,3,3.1,3.0,2.15
+18-04-2025,Drogheda United,Shelbourne,Irlanda - Premier Division,2,2,2,1,5,27,3,7,23,71,1,10,2.6,3.0,2.5
 19-08-2025,Vaprus,Keila,Estônia - Meistriliiga,9,0,5,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 15-08-2025,Vaprus,Tammeka,Estônia - Meistriliiga,8,1,4,0,26,11,12,2,66,42,8,4,1.8,3.8,3.4
 08-10-2025,Nõmme Kalju,Vaprus,Estônia - Meistriliiga,1,2,0,1,18,19,3,5,43,26,6,2,1.66,3.8,3.9
@@ -459,51 +445,49 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 23-04-2025,Vaprus,Trans,Estônia - Meistriliiga,1,2,0,2,11,7,3,3,69,30,8,1,5.0,3.2,1.66
 18-04-2025,Kuressaare,Vaprus,Estônia - Meistriliiga,1,0,1,0,19,5,7,2,65,67,9,8,3.1,3.5,2.0
 13-04-2025,Vaprus,Tallinna Kalev,Estônia - Meistriliiga,2,2,1,1,13,16,6,4,44,57,7,3,2.1,3.4,3.2
-18-07-2025,Drogheda United,Crumlin United,Irlanda - Premier Division,5,0,1,0,32,5,14,3,57,32,10,2,1.04,13.0,41.0
-21-04-2025,Drogheda United,St Patrick'S,Irlanda - Premier Division,0,0,0,0,14,8,3,1,55,26,5,3,3.1,3.0,2.15
-18-04-2025,Drogheda United,Shelbourne,Irlanda - Premier Division,2,2,2,1,5,27,3,7,23,71,1,10,2.6,3.0,2.5
-14-08-2025,Beşiktaş,St Patrick'S,Irlanda - Premier Division,3,2,1,2,17,5,7,2,68,19,1,1,1.1,8.5,19.0
-08-07-2025,St Patrick'S,Beşiktaş,Irlanda - Premier Division,1,4,0,4,4,16,3,8,35,49,2,3,11.0,5.5,1.22
-31-07-2025,Nõmme Kalju,St Patrick'S,Irlanda - Premier Division,2,2,1,0,11,20,4,8,82,112,5,12,4.33,3.75,1.7
-24-07-2025,St Patrick'S,Nõmme Kalju,Irlanda - Premier Division,1,0,0,0,10,0,1,0,6,0,12,3,1.3,4.75,7.5
-20-07-2025,St Patrick'S,Ucc,Irlanda - Premier Division,8,0,4,0,34,3,12,1,105,17,11,3,1.01,21.0,81.0
-17-07-2025,Hegelmann Litauen,St Patrick'S,Irlanda - Premier Division,0,2,0,1,8,8,2,5,60,73,1,4,2.5,3.3,2.5
-07-10-2025,St Patrick'S,Hegelmann Litauen,Irlanda - Premier Division,1,0,0,0,20,5,4,1,36,11,6,0,1.66,3.7,4.1
-13-06-2025,St Patrick'S,Drogheda United,Irlanda - Premier Division,0,0,0,0,19,8,3,2,53,48,4,4,1.75,3.8,4.5
-08-01-2025,Bohemians,Drogheda United,Irlanda - Premier Division,0,1,0,0,18,7,5,2,103,35,7,2,1.53,3.9,6.5
-18-07-2025,Killester Donnycarney,Bohemians,Irlanda - Premier Division,0,7,0,4,5,28,1,12,30,84,1,10,41.0,17.0,1.03
-07-04-2025,St Patrick'S,Bohemians,Irlanda - Premier Division,0,0,0,0,13,9,5,2,60,45,2,5,2.4,3.3,2.8
-23-05-2025,Drogheda United,Bohemians,Irlanda - Premier Division,1,0,0,0,9,14,4,5,38,80,5,9,3.0,3.25,2.2
-25-04-2025,Bohemians,St Patrick'S,Irlanda - Premier Division,2,1,0,1,16,8,7,2,50,39,4,2,2.9,3.1,2.3
-21-04-2025,Shamrock Rovers,Bohemians,Irlanda - Premier Division,2,3,2,0,10,11,3,5,36,46,4,2,1.6,3.4,5.25
-19-04-2025,Bohemians,Usher Celtic,Irlanda - Premier Division,2,0,0,0,0,0,0,0,0,0,0,0,3.0,4.75,1.72
+14-08-2025,Beşiktaş,St Patrick's,Irlanda - Premier Division,3,2,1,2,17,5,7,2,68,19,1,1,1.1,8.5,19.0
+08-07-2025,St Patrick's,Beşiktaş,Irlanda - Premier Division,1,4,0,4,4,16,3,8,35,49,2,3,11.0,5.5,1.22
+31-07-2025,Nõmme Kalju,St Patrick's,Irlanda - Premier Division,2,2,1,0,11,20,4,8,82,112,5,12,4.33,3.75,1.7
+24-07-2025,St Patrick's,Nõmme Kalju,Irlanda - Premier Division,1,0,0,0,10,0,1,0,6,0,12,3,1.3,4.75,7.5
+20-07-2025,St Patrick's,UCC,Irlanda - Premier Division,8,0,4,0,34,3,12,1,105,17,11,3,1.01,21.0,81.0
+17-07-2025,Hegelmann Litauen,St Patrick's,Irlanda - Premier Division,0,2,0,1,8,8,2,5,60,73,1,4,2.5,3.3,2.5
+07-10-2025,St Patrick's,Hegelmann Litauen,Irlanda - Premier Division,1,0,0,0,20,5,4,1,36,11,6,0,1.66,3.7,4.1
 08-08-2025,Drogheda United,Waterford United,Irlanda - Premier Division,0,0,0,0,16,7,2,3,65,52,7,5,1.85,3.7,3.9
-08-03-2025,Waterford United,St Patrick'S,Irlanda - Premier Division,0,2,0,1,6,12,0,5,41,49,3,8,3.7,3.3,2.0
+08-03-2025,Waterford United,St Patrick's,Irlanda - Premier Division,0,2,0,1,6,12,0,5,41,49,3,8,3.7,3.3,2.0
 18-07-2025,Waterford United,St Mochtas,Irlanda - Premier Division,5,1,2,1,11,4,9,2,59,29,6,1,1.28,5.75,7.5
-20-06-2025,Waterford United,Bohemians,Irlanda - Premier Division,2,1,2,0,17,17,7,5,59,30,9,7,3.5,3.6,2.05
 30-05-2025,Waterford United,Drogheda United,Irlanda - Premier Division,2,2,1,1,20,15,6,5,66,29,5,4,2.62,3.3,2.7
-23-05-2025,St Patrick'S,Waterford United,Irlanda - Premier Division,2,2,2,1,9,17,2,5,26,61,1,11,1.44,4.33,6.25
+23-05-2025,St Patrick's,Waterford United,Irlanda - Premier Division,2,2,2,1,9,17,2,5,26,61,1,11,1.44,4.33,6.25
 05-05-2025,Shelbourne,Waterford United,Irlanda - Premier Division,0,1,0,1,27,11,3,2,85,27,10,3,1.48,4.0,7.5
-05-02-2025,Bohemians,Waterford United,Irlanda - Premier Division,1,2,0,1,22,5,3,2,80,29,10,2,1.5,3.9,6.5
-15-08-2025,Bohemians,Sligo Rovers,Irlanda - Premier Division,0,1,0,0,16,7,5,1,61,44,10,5,1.5,4.0,5.5
-08-10-2025,St Patrick'S,Sligo Rovers,Irlanda - Premier Division,3,0,0,0,29,6,13,2,69,38,11,5,1.33,5.0,8.0
+08-10-2025,St Patrick's,Sligo Rovers,Irlanda - Premier Division,3,0,0,0,29,6,13,2,69,38,11,5,1.33,5.0,8.0
 18-07-2025,Dundalk,Sligo Rovers,Irlanda - Premier Division,0,2,0,0,12,6,3,3,79,39,8,3,2.55,3.6,2.3
-27-06-2025,Bohemians,Sligo Rovers,Irlanda - Premier Division,1,1,0,1,29,8,10,4,76,31,10,2,1.3,5.5,8.5
 20-06-2025,Drogheda United,Sligo Rovers,Irlanda - Premier Division,1,0,1,0,16,15,3,4,64,71,9,6,1.85,3.3,4.33
 14-06-2025,Sligo Rovers,Waterford United,Irlanda - Premier Division,1,0,1,0,7,15,3,4,51,76,1,6,2.25,3.5,3.0
-30-05-2025,Sligo Rovers,St Patrick'S,Irlanda - Premier Division,0,1,0,1,9,20,2,5,49,52,6,9,3.5,3.7,1.95
-05-10-2025,Sligo Rovers,Bohemians,Irlanda - Premier Division,0,1,0,0,9,20,2,8,36,42,2,8,4.1,3.4,1.8
+30-05-2025,Sligo Rovers,St Patrick's,Irlanda - Premier Division,0,1,0,1,9,20,2,5,49,52,6,9,3.5,3.7,1.95
+05-05-2025,Shamrock Rovers,Sligo Rovers,Irlanda - Premier Division,2,0,2,0,18,10,7,3,100,36,8,5,1.3,5.0,10.0
 05-02-2025,Sligo Rovers,Drogheda United,Irlanda - Premier Division,2,2,0,1,8,14,3,6,84,82,3,6,2.55,3.2,2.75
 18-04-2025,Waterford United,Sligo Rovers,Irlanda - Premier Division,0,4,0,2,11,13,2,11,44,24,10,6,1.85,3.6,3.6
+15-08-2025,Bohemians,Sligo Rovers,Irlanda - Premier Division,0,1,0,0,16,7,5,1,61,44,10,5,1.5,4.0,5.5
+08-01-2025,Bohemians,Drogheda United,Irlanda - Premier Division,0,1,0,0,18,7,5,2,103,35,7,2,1.53,3.9,6.5
+18-07-2025,Killester Donnycarney,Bohemians,Irlanda - Premier Division,0,7,0,4,5,28,1,12,30,84,1,10,41.0,17.0,1.03
+07-04-2025,St Patrick's,Bohemians,Irlanda - Premier Division,0,0,0,0,13,9,5,2,60,45,2,5,2.4,3.3,2.8
+27-06-2025,Bohemians,Sligo Rovers,Irlanda - Premier Division,1,1,0,1,29,8,10,4,76,31,10,2,1.3,5.5,8.5
+20-06-2025,Waterford United,Bohemians,Irlanda - Premier Division,2,1,2,0,17,17,7,5,59,30,9,7,3.5,3.6,2.05
+23-05-2025,Drogheda United,Bohemians,Irlanda - Premier Division,1,0,0,0,9,14,4,5,38,80,5,9,3.0,3.25,2.2
+16-05-2025,Bohemians,Shelbourne,Irlanda - Premier Division,1,0,1,0,16,11,7,2,34,35,4,2,2.25,2.9,3.1
+05-10-2025,Sligo Rovers,Bohemians,Irlanda - Premier Division,0,1,0,0,9,20,2,8,36,42,2,8,4.1,3.4,1.8
+05-02-2025,Bohemians,Waterford United,Irlanda - Premier Division,1,2,0,1,22,5,3,2,80,29,10,2,1.5,3.9,6.5
+25-04-2025,Bohemians,St Patrick's,Irlanda - Premier Division,2,1,0,1,16,8,7,2,50,39,4,2,2.9,3.1,2.3
+21-04-2025,Shamrock Rovers,Bohemians,Irlanda - Premier Division,2,3,2,0,10,11,3,5,36,46,4,2,1.6,3.4,5.25
+19-04-2025,Bohemians,Usher Celtic,Irlanda - Premier Division,2,0,0,0,0,0,0,0,0,0,0,0,3.0,4.75,1.72
 15-08-2025,Cork City,Waterford United,Irlanda - Premier Division,2,1,1,1,9,12,5,3,47,57,5,6,2.5,3.2,2.45
 25-07-2025,Cork City,Sligo Rovers,Irlanda - Premier Division,2,3,1,0,16,17,8,8,50,60,6,10,2.45,3.1,2.7
 19-07-2025,Cork City,Leicester Celtic,Irlanda - Premier Division,3,0,0,0,25,1,11,1,50,9,11,3,1.02,21.0,51.0
 07-11-2025,Waterford United,Cork City,Irlanda - Premier Division,2,0,2,0,15,20,2,4,37,54,6,6,2.1,3.4,3.2
 07-08-2025,Cork City,Celtic,Irlanda - Premier Division,1,2,0,1,7,15,4,7,17,33,1,8,11.0,6.0,1.2
-27-06-2025,Cork City,St Patrick'S,Irlanda - Premier Division,0,0,0,0,10,10,4,2,39,50,5,9,4.1,3.7,1.8
+27-06-2025,Cork City,St Patrick's,Irlanda - Premier Division,0,0,0,0,10,10,4,2,39,50,5,9,4.1,3.7,1.8
 23-06-2025,Cork City,Drogheda United,Irlanda - Premier Division,1,1,0,1,22,3,6,2,57,23,9,2,2.7,3.2,2.35
 13-06-2025,Cork City,Bohemians,Irlanda - Premier Division,0,2,0,2,7,17,1,8,38,57,1,7,4.2,3.3,1.9
-16-05-2025,St Patrick'S,Cork City,Irlanda - Premier Division,3,2,1,0,15,10,6,3,34,39,8,3,1.36,4.2,7.0
+16-05-2025,St Patrick's,Cork City,Irlanda - Premier Division,3,2,1,0,15,10,6,3,34,39,8,3,1.36,4.2,7.0
 05-05-2025,Drogheda United,Cork City,Irlanda - Premier Division,3,2,1,1,17,5,4,2,44,28,4,2,1.85,3.5,4.2
 05-02-2025,Cork City,Shamrock Rovers,Irlanda - Premier Division,1,1,0,1,11,15,3,8,28,37,3,4,4.5,3.5,1.8
 26-04-2025,Sligo Rovers,Cork City,Irlanda - Premier Division,1,1,0,0,9,2,3,1,48,49,7,5,2.1,3.3,3.0
@@ -515,12 +499,12 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 07-11-2025,Bohemians,Galway United,Irlanda - Premier Division,3,0,0,0,14,18,5,5,40,44,6,0,1.5,4.0,6.0
 07-04-2025,Drogheda United,Galway United,Irlanda - Premier Division,1,0,0,0,8,13,1,1,51,53,1,7,2.5,3.1,2.9
 23-06-2025,Sligo Rovers,Galway United,Irlanda - Premier Division,2,1,1,0,14,20,6,8,31,62,3,5,3.0,3.5,2.0
-20-06-2025,Galway United,St Patrick'S,Irlanda - Premier Division,3,1,3,1,15,23,6,11,56,68,8,9,2.9,3.25,2.4
+20-06-2025,Galway United,St Patrick's,Irlanda - Premier Division,3,1,3,1,15,23,6,11,56,68,8,9,2.9,3.25,2.4
 23-05-2025,Galway United,Cork City,Irlanda - Premier Division,2,1,0,0,14,9,3,1,26,34,3,2,1.7,3.6,5.0
 16-05-2025,Galway United,Sligo Rovers,Irlanda - Premier Division,0,1,0,0,16,11,4,4,61,44,7,4,1.57,3.75,5.0
 05-09-2025,Waterford United,Galway United,Irlanda - Premier Division,1,0,1,0,15,11,5,3,61,55,6,7,3.3,3.1,2.2
 05-05-2025,Galway United,Bohemians,Irlanda - Premier Division,1,2,1,0,18,18,10,8,46,60,2,14,2.75,3.2,2.55
-05-02-2025,St Patrick'S,Galway United,Irlanda - Premier Division,2,0,2,0,12,26,3,7,50,53,3,5,1.9,3.4,4.1
+05-02-2025,St Patrick's,Galway United,Irlanda - Premier Division,2,0,2,0,12,26,3,7,50,53,3,5,1.9,3.4,4.1
 25-04-2025,Galway United,Drogheda United,Irlanda - Premier Division,2,1,0,1,13,19,4,5,54,33,5,5,2.1,3.0,3.3
 21-04-2025,Shelbourne,Galway United,Irlanda - Premier Division,2,2,1,1,32,16,9,4,56,41,8,3,2.2,3.0,3.1
 18-04-2025,Galway United,Derry City,Irlanda - Premier Division,2,3,1,1,15,15,5,7,51,35,4,4,2.6,2.8,2.75
@@ -532,22 +516,23 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 07-06-2025,Cliftonville,Derry City,Irlanda - Premier Division,2,2,1,0,9,8,6,4,37,28,4,1,3.1,3.9,1.83
 07-04-2025,Derry City,Waterford United,Irlanda - Premier Division,7,2,4,0,14,6,11,3,35,15,6,2,1.5,4.1,6.5
 27-06-2025,Derry City,Drogheda United,Irlanda - Premier Division,3,0,2,0,20,7,7,1,71,37,5,1,1.57,3.7,6.5
-23-06-2025,St Patrick'S,Derry City,Irlanda - Premier Division,0,1,0,1,14,5,6,1,48,13,7,2,2.15,3.0,3.1
+23-06-2025,St Patrick's,Derry City,Irlanda - Premier Division,0,1,0,1,14,5,6,1,48,13,7,2,2.15,3.0,3.1
 13-06-2025,Derry City,Galway United,Irlanda - Premier Division,1,1,1,1,19,5,3,1,67,33,5,1,1.83,3.4,4.33
 30-05-2025,Bohemians,Derry City,Irlanda - Premier Division,1,0,1,0,19,7,2,1,47,47,4,2,2.25,3.2,3.4
 16-05-2025,Drogheda United,Derry City,Irlanda - Premier Division,1,1,1,0,7,7,2,3,36,44,5,3,3.5,2.9,2.05
 05-09-2025,Cork City,Derry City,Irlanda - Premier Division,1,2,0,1,11,10,4,4,38,52,5,12,5.25,3.25,1.72
-05-05-2025,Derry City,St Patrick'S,Irlanda - Premier Division,1,0,0,0,10,9,3,5,50,51,3,4,1.95,3.1,4.2
+05-05-2025,Derry City,St Patrick's,Irlanda - Premier Division,1,0,0,0,10,9,3,5,50,51,3,4,1.95,3.1,4.2
 05-02-2025,Derry City,Shelbourne,Irlanda - Premier Division,2,0,2,0,9,6,5,2,46,30,4,1,2.25,3.0,3.5
 25-04-2025,Waterford United,Derry City,Irlanda - Premier Division,2,1,1,0,10,15,5,5,25,37,1,7,4.2,3.2,1.8
 22-04-2025,Derry City,Sligo Rovers,Irlanda - Premier Division,3,0,2,0,16,10,7,2,47,37,5,1,1.44,3.5,7.5
+21-08-2025,Santa Clara,Shamrock Rovers,Irlanda - Premier Division,1,2,1,1,10,3,4,2,71,56,2,2,1.5,3.5,7.5
 17-08-2025,Shamrock Rovers,Longford Town,Irlanda - Premier Division,2,1,1,1,16,8,8,2,124,36,9,4,1.08,10.0,19.0
-14-08-2025,Shamrock Rovers,Kf Ballkani,Irlanda - Premier Division,4,0,1,0,15,10,7,1,64,35,4,3,1.6,3.7,5.25
+14-08-2025,Shamrock Rovers,KF Ballkani,Irlanda - Premier Division,4,0,1,0,15,10,7,1,64,35,4,3,1.6,3.7,5.25
 08-10-2025,Galway United,Shamrock Rovers,Irlanda - Premier Division,0,0,0,0,13,4,4,0,49,48,6,4,2.7,3.25,2.6
-08-07-2025,Kf Ballkani,Shamrock Rovers,Irlanda - Premier Division,1,0,0,0,13,6,5,3,55,33,4,4,2.3,2.8,3.2
+08-07-2025,KF Ballkani,Shamrock Rovers,Irlanda - Premier Division,1,0,0,0,13,6,5,3,55,33,4,4,2.3,2.8,3.2
 08-03-2025,Shamrock Rovers,Derry City,Irlanda - Premier Division,2,0,0,0,11,7,3,3,25,47,1,3,2.0,3.1,4.2
-31-07-2025,Shamrock Rovers,St Josephs Fc,Irlanda - Premier Division,0,0,0,0,11,5,5,2,60,25,3,0,1.25,6.0,10.0
-24-07-2025,St Josephs Fc,Shamrock Rovers,Irlanda - Premier Division,0,4,0,1,5,8,1,5,38,65,8,5,6.5,4.1,1.45
+31-07-2025,Shamrock Rovers,St Josephs FC,Irlanda - Premier Division,0,0,0,0,11,5,5,2,60,25,3,0,1.25,6.0,10.0
+24-07-2025,St Josephs FC,Shamrock Rovers,Irlanda - Premier Division,0,4,0,1,5,8,1,5,38,65,8,5,6.5,4.1,1.45
 18-07-2025,Shamrock Rovers,Wexford Youths,Irlanda - Premier Division,4,0,1,0,13,7,9,3,73,80,1,2,1.14,8.5,13.0
 07-05-2025,Sligo Rovers,Shamrock Rovers,Irlanda - Premier Division,2,2,2,1,8,22,2,8,25,67,2,7,7.0,4.33,1.44
 27-06-2025,Shamrock Rovers,Waterford United,Irlanda - Premier Division,1,0,0,0,23,6,7,4,60,29,4,0,1.28,5.0,10.0
@@ -556,10 +541,29 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 16-06-2025,Drogheda United,Shamrock Rovers,Irlanda - Premier Division,1,2,1,1,11,11,3,7,32,52,4,6,4.75,3.4,1.8
 30-05-2025,Shamrock Rovers,Galway United,Irlanda - Premier Division,0,0,0,0,23,8,4,1,78,22,12,2,1.55,4.2,5.75
 23-05-2025,Derry City,Shamrock Rovers,Irlanda - Premier Division,1,2,0,0,10,12,4,6,33,36,7,2,2.7,2.9,2.87
-19-05-2025,Shamrock Rovers,St Patrick'S,Irlanda - Premier Division,4,0,2,0,18,19,10,7,39,56,7,11,1.75,3.6,4.33
+19-05-2025,Shamrock Rovers,St Patrick's,Irlanda - Premier Division,4,0,2,0,18,19,10,7,39,56,7,11,1.75,3.6,4.33
 16-05-2025,Waterford United,Shamrock Rovers,Irlanda - Premier Division,1,3,1,1,9,13,1,5,60,32,3,2,4.33,3.6,1.65
 05-09-2025,Shamrock Rovers,Drogheda United,Irlanda - Premier Division,3,0,0,0,13,5,7,0,55,23,4,5,1.45,3.8,8.0
-05-05-2025,Shamrock Rovers,Sligo Rovers,Irlanda - Premier Division,2,0,2,0,18,10,7,3,100,36,8,5,1.3,5.0,10.0
+21-08-2025,Shelbourne,Linfield,Irlanda - Premier Division,3,1,1,0,12,4,7,1,77,43,6,4,1.85,3.0,4.33
+17-08-2025,St Patrick's,Shelbourne,Irlanda - Premier Division,2,0,1,0,15,10,6,3,50,41,3,4,1.9,3.4,3.4
+14-08-2025,Shelbourne,Rijeka,Irlanda - Premier Division,1,3,0,1,7,13,6,6,21,55,2,6,5.75,3.6,1.61
+08-09-2025,Shelbourne,Bohemians,Irlanda - Premier Division,2,2,1,1,15,14,8,5,46,40,7,6,3.3,3.1,2.25
+08-06-2025,Rijeka,Shelbourne,Irlanda - Premier Division,1,2,0,0,17,4,7,2,113,39,6,1,1.27,4.75,12.0
+08-02-2025,Sligo Rovers,Shelbourne,Irlanda - Premier Division,0,2,0,0,6,9,0,3,41,38,4,3,3.3,3.1,2.2
+30-07-2025,Qarabağ,Shelbourne,Irlanda - Premier Division,1,0,1,0,12,3,4,1,99,54,4,2,1.16,6.0,15.0
+23-07-2025,Shelbourne,Qarabağ,Irlanda - Premier Division,0,3,0,1,10,18,1,10,70,61,2,5,5.75,3.8,1.5
+19-07-2025,Fairview Rangers,Shelbourne,Irlanda - Premier Division,0,4,0,2,8,20,5,14,36,85,4,7,34.0,17.0,1.03
+16-07-2025,Linfield,Shelbourne,Irlanda - Premier Division,1,1,1,1,6,8,2,4,48,50,1,3,2.9,3.25,2.25
+07-09-2025,Shelbourne,Linfield,Irlanda - Premier Division,1,0,0,0,16,5,5,1,101,60,11,2,1.83,3.1,4.5
+07-04-2025,Shelbourne,Cork City,Irlanda - Premier Division,3,1,2,1,16,6,5,2,52,24,7,2,1.44,4.33,7.0
+27-06-2025,Galway United,Shelbourne,Irlanda - Premier Division,1,1,0,1,14,17,4,5,33,24,6,8,3.1,3.0,2.4
+23-06-2025,Waterford United,Shelbourne,Irlanda - Premier Division,2,2,1,1,6,21,3,6,26,59,2,7,2.62,3.2,2.4
+20-06-2025,Shelbourne,Derry City,Irlanda - Premier Division,0,1,0,0,10,7,2,2,50,25,3,2,2.5,2.8,3.2
+16-06-2025,St Patrick's,Shelbourne,Irlanda - Premier Division,0,1,0,1,13,3,6,1,64,16,9,0,2.2,3.1,3.5
+13-06-2025,Shelbourne,Shamrock Rovers,Irlanda - Premier Division,1,2,1,1,8,16,0,7,31,41,2,4,3.75,3.1,2.15
+30-05-2025,Cork City,Shelbourne,Irlanda - Premier Division,1,1,0,0,16,10,4,1,45,44,6,5,3.5,3.25,2.15
+23-05-2025,Shelbourne,Sligo Rovers,Irlanda - Premier Division,3,2,2,1,29,12,6,4,52,45,8,9,1.57,3.8,5.25
+19-05-2025,Shelbourne,Drogheda United,Irlanda - Premier Division,0,0,0,0,15,11,2,3,57,49,4,5,1.85,3.4,4.33
 17-08-2025,Fagiano Okayama,Kashiwa Reysol,Japão - J-League,2,1,1,0,15,7,4,3,71,59,4,3,4.2,3.4,1.85
 08-10-2025,Kashiwa Reysol,Shonan Bellmare,Japão - J-League,2,0,1,0,12,6,3,1,46,37,7,1,1.55,4.5,5.0
 20-07-2025,Kashima Antlers,Kashiwa Reysol,Japão - J-League,3,2,2,1,6,17,3,4,29,70,0,2,2.75,3.25,2.62
@@ -580,26 +584,6 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 29-04-2025,Nagoya Grampus,Kashiwa Reysol,Japão - J-League,1,2,1,1,14,11,2,3,50,26,8,2,2.55,3.0,3.0
 26-04-2025,Kashiwa Reysol,Albirex Niigata,Japão - J-League,1,1,1,1,12,12,6,2,68,31,2,5,2.3,3.2,3.3
 20-04-2025,Shonan Bellmare,Kashiwa Reysol,Japão - J-League,0,1,0,0,15,13,3,4,67,47,13,5,3.0,3.2,2.4
-17-08-2025,St Patrick'S,Shelbourne,Irlanda - Premier Division,2,0,1,0,15,10,6,3,50,41,3,4,1.9,3.4,3.4
-14-08-2025,Shelbourne,Rijeka,Irlanda - Premier Division,1,3,0,1,7,13,6,6,21,55,2,6,5.75,3.6,1.61
-08-09-2025,Shelbourne,Bohemians,Irlanda - Premier Division,2,2,1,1,15,14,8,5,46,40,7,6,3.3,3.1,2.25
-08-06-2025,Rijeka,Shelbourne,Irlanda - Premier Division,1,2,0,0,17,4,7,2,113,39,6,1,1.27,4.75,12.0
-08-02-2025,Sligo Rovers,Shelbourne,Irlanda - Premier Division,0,2,0,0,6,9,0,3,41,38,4,3,3.3,3.1,2.2
-30-07-2025,Qarabağ,Shelbourne,Irlanda - Premier Division,1,0,1,0,12,3,4,1,99,54,4,2,1.16,6.0,15.0
-23-07-2025,Shelbourne,Qarabağ,Irlanda - Premier Division,0,3,0,1,10,18,1,10,70,61,2,5,5.75,3.8,1.5
-19-07-2025,Fairview Rangers,Shelbourne,Irlanda - Premier Division,0,4,0,2,8,20,5,14,36,85,4,7,34.0,17.0,1.03
-16-07-2025,Linfield,Shelbourne,Irlanda - Premier Division,1,1,1,1,6,8,2,4,48,50,1,3,2.9,3.25,2.25
-07-09-2025,Shelbourne,Linfield,Irlanda - Premier Division,1,0,0,0,16,5,5,1,101,60,11,2,1.83,3.1,4.5
-07-04-2025,Shelbourne,Cork City,Irlanda - Premier Division,3,1,2,1,16,6,5,2,52,24,7,2,1.44,4.33,7.0
-27-06-2025,Galway United,Shelbourne,Irlanda - Premier Division,1,1,0,1,14,17,4,5,33,24,6,8,3.1,3.0,2.4
-23-06-2025,Waterford United,Shelbourne,Irlanda - Premier Division,2,2,1,1,6,21,3,6,26,59,2,7,2.62,3.2,2.4
-20-06-2025,Shelbourne,Derry City,Irlanda - Premier Division,0,1,0,0,10,7,2,2,50,25,3,2,2.5,2.8,3.2
-16-06-2025,St Patrick'S,Shelbourne,Irlanda - Premier Division,0,1,0,1,13,3,6,1,64,16,9,0,2.2,3.1,3.5
-13-06-2025,Shelbourne,Shamrock Rovers,Irlanda - Premier Division,1,2,1,1,8,16,0,7,31,41,2,4,3.75,3.1,2.15
-30-05-2025,Cork City,Shelbourne,Irlanda - Premier Division,1,1,0,0,16,10,4,1,45,44,6,5,3.5,3.25,2.15
-23-05-2025,Shelbourne,Sligo Rovers,Irlanda - Premier Division,3,2,2,1,29,12,6,4,52,45,8,9,1.57,3.8,5.25
-19-05-2025,Shelbourne,Drogheda United,Irlanda - Premier Division,0,0,0,0,15,11,2,3,57,49,4,5,1.85,3.4,4.33
-16-05-2025,Bohemians,Shelbourne,Irlanda - Premier Division,1,0,1,0,16,11,7,2,34,35,4,2,2.25,2.9,3.1
 16-08-2025,Urawa Reds,Nagoya Grampus,Japão - J-League,2,1,2,0,13,15,4,4,22,51,4,7,2.0,3.3,3.9
 08-09-2025,Yokohama,Urawa Reds,Japão - J-League,1,2,0,1,9,20,2,7,48,42,0,7,3.2,3.2,2.3
 08-06-2025,Montedio Yamagata,Urawa Reds,Japão - J-League,1,2,1,0,11,15,4,4,39,54,2,6,0.0,0.0,0.0
@@ -625,39 +609,20 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 08-01-2025,Trakai,Panevėžys,Lituânia - A Lyga,1,3,0,2,8,13,2,4,40,45,6,5,4.0,3.9,1.7
 28-07-2025,Hegelmann Litauen,Trakai,Lituânia - A Lyga,3,0,1,0,13,11,7,2,58,47,8,5,1.25,5.25,9.0
 20-07-2025,Sūduva,Trakai,Lituânia - A Lyga,0,0,0,0,15,5,3,0,84,45,9,0,1.33,4.75,7.0
-07-11-2025,Trakai,Fa Šiauliai,Lituânia - A Lyga,0,2,0,1,8,13,2,9,52,36,2,4,3.25,3.5,1.9
+07-11-2025,Trakai,FA Šiauliai,Lituânia - A Lyga,0,2,0,1,8,13,2,9,52,36,2,4,3.25,3.5,1.9
 07-05-2025,Trakai,Kauno Žalgiris,Lituânia - A Lyga,1,5,0,3,11,17,4,11,38,46,3,5,9.5,6.0,1.2
 29-06-2025,Trakai,Dainava,Lituânia - A Lyga,0,2,0,2,12,10,3,2,41,37,4,6,2.45,3.6,2.35
-19-06-2025,Trakai,Fa Šiauliai,Lituânia - A Lyga,1,0,0,0,9,12,6,4,53,90,5,6,5.75,3.9,1.48
+19-06-2025,Trakai,FA Šiauliai,Lituânia - A Lyga,1,0,0,0,9,12,6,4,53,90,5,6,5.75,3.9,1.48
 14-06-2025,Trakai,Banga,Lituânia - A Lyga,1,2,0,0,8,9,3,5,75,51,7,4,3.1,3.2,2.1
 06-01-2025,Sūduva,Trakai,Lituânia - A Lyga,4,1,3,0,14,5,7,1,35,35,5,1,1.75,3.4,4.1
 24-05-2025,Trakai,Hegelmann Litauen,Lituânia - A Lyga,2,4,2,2,12,20,6,9,30,49,3,8,5.0,3.75,1.53
 17-05-2025,Panevėžys,Trakai,Lituânia - A Lyga,3,0,2,0,14,19,6,3,41,54,4,3,1.66,3.5,4.33
 05-09-2025,Žalgiris,Trakai,Lituânia - A Lyga,2,0,1,0,18,16,9,4,58,76,3,9,1.48,4.33,5.75
 05-04-2025,Kauno Žalgiris,Trakai,Lituânia - A Lyga,3,1,1,0,15,11,5,3,86,44,12,5,1.45,3.9,6.0
-29-04-2025,Trakai,Fa Šiauliai,Lituânia - A Lyga,1,2,1,1,8,9,5,5,41,32,4,8,3.25,3.4,1.95
+29-04-2025,Trakai,FA Šiauliai,Lituânia - A Lyga,1,2,1,1,8,9,5,5,41,32,4,8,3.25,3.4,1.95
 26-04-2025,Dainava,Trakai,Lituânia - A Lyga,1,1,1,0,12,7,2,1,30,27,2,0,3.3,2.87,2.25
 19-04-2025,Trakai,Džiugas Telšiai,Lituânia - A Lyga,0,1,0,0,12,11,4,4,78,58,11,5,1.83,3.25,3.9
-16-04-2025,Fa Šiauliai,Trakai,Lituânia - A Lyga,2,2,1,0,7,11,2,5,34,46,3,3,2.0,3.25,3.25
-15-08-2025,Atlético Tembetary,2 De Mayo,Paraguai - Division 1,1,1,0,0,2,20,1,6,20,66,2,7,3.3,2.9,2.35
-08-09-2025,Sportivo Luqueño,Atlético Tembetary,Paraguai - Division 1,5,1,1,0,17,18,8,10,24,37,4,8,1.75,3.6,4.5
-08-05-2025,Atlético Tembetary,General Caballero Jlm,Paraguai - Division 1,0,1,0,0,10,12,2,3,44,39,5,8,3.2,3.0,2.4
-31-07-2025,Libertad,Atlético Tembetary,Paraguai - Division 1,3,1,0,1,14,10,5,4,48,23,8,4,1.44,4.5,6.5
-27-07-2025,Atlético Tembetary,Guaraní,Paraguai - Division 1,0,1,0,1,7,16,4,7,41,58,4,7,4.33,3.2,1.95
-19-07-2025,Olimpia,Atlético Tembetary,Paraguai - Division 1,3,1,2,1,16,8,9,4,48,21,8,1,1.45,4.33,6.25
-14-07-2025,Atlético Tembetary,Deportivo Recoleta,Paraguai - Division 1,2,3,1,0,11,17,4,6,0,0,2,6,0.0,0.0,0.0
-07-07-2025,Sportivo Ameliano,Atlético Tembetary,Paraguai - Division 1,1,0,1,0,20,5,5,2,42,39,6,6,1.65,3.4,5.75
-31-05-2025,Atlético Tembetary,Cerro Porteño,Paraguai - Division 1,1,6,1,3,14,18,4,9,40,28,4,0,6.0,3.7,1.57
-26-05-2025,Sportivo Ameliano,Atlético Tembetary,Paraguai - Division 1,2,0,0,0,11,3,4,0,52,30,3,3,1.95,3.1,4.0
-21-05-2025,Atlético Tembetary,Guaraní,Paraguai - Division 1,1,2,0,1,14,10,3,3,27,23,7,3,2.25,3.4,3.1
-16-05-2025,Deportivo Recoleta,Atlético Tembetary,Paraguai - Division 1,1,1,0,0,11,12,4,4,46,53,7,2,2.3,3.1,2.9
-05-04-2025,Libertad,Atlético Tembetary,Paraguai - Division 1,0,0,0,0,19,6,6,1,21,7,6,1,1.57,3.9,5.25
-25-04-2025,Atlético Tembetary,2 De Mayo,Paraguai - Division 1,1,1,0,0,15,13,2,7,48,38,7,4,2.45,3.25,2.62
-20-04-2025,General Caballero Jlm,Atlético Tembetary,Paraguai - Division 1,0,1,0,0,3,10,0,2,42,46,1,3,2.8,2.8,2.8
-16-04-2025,Atlético Tembetary,Olimpia,Paraguai - Division 1,0,1,0,0,13,14,3,2,11,13,2,2,4.2,3.25,1.9
-04-10-2025,Sportivo Trinidense,Atlético Tembetary,Paraguai - Division 1,1,1,1,1,10,8,4,5,40,59,5,4,2.2,3.0,3.3
-04-05-2025,Atlético Tembetary,Sportivo Luqueño,Paraguai - Division 1,1,1,1,0,20,8,4,2,62,50,4,3,1.8,3.6,4.2
-28-03-2025,Cerro Porteño,Atlético Tembetary,Paraguai - Division 1,1,0,0,0,12,7,4,0,67,48,4,5,1.66,3.7,5.0
+16-04-2025,FA Šiauliai,Trakai,Lituânia - A Lyga,2,2,1,0,7,11,2,5,34,46,3,3,2.0,3.25,3.25
 17-08-2025,Džiugas Telšiai,Kauno Žalgiris,Lituânia - A Lyga,1,2,0,1,7,7,2,3,64,52,7,6,5.25,3.6,1.53
 08-12-2025,Babrungas,Džiugas Telšiai,Lituânia - A Lyga,1,2,0,1,11,11,5,5,29,42,1,3,5.25,3.9,1.5
 08-08-2025,Panevėžys,Džiugas Telšiai,Lituânia - A Lyga,0,1,0,1,16,15,3,4,37,35,7,5,2.0,3.25,3.4
@@ -666,7 +631,7 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 19-07-2025,Žalgiris,Džiugas Telšiai,Lituânia - A Lyga,2,0,0,0,14,6,4,4,70,34,8,4,1.55,3.8,5.0
 13-07-2025,Džiugas Telšiai,Banga,Lituânia - A Lyga,0,0,0,0,8,7,3,0,38,23,4,2,2.4,2.9,2.8
 07-06-2025,Dainava,Džiugas Telšiai,Lituânia - A Lyga,0,2,0,1,9,12,5,8,37,27,7,5,2.8,3.3,2.2
-29-06-2025,Fa Šiauliai,Džiugas Telšiai,Lituânia - A Lyga,5,0,2,0,11,15,7,4,40,40,2,4,2.45,3.0,2.7
+29-06-2025,FA Šiauliai,Džiugas Telšiai,Lituânia - A Lyga,5,0,2,0,11,15,7,4,40,40,2,4,2.45,3.0,2.7
 25-06-2025,Džiugas Telšiai,Trakai,Lituânia - A Lyga,2,1,0,1,13,10,4,2,50,35,13,5,1.57,4.2,4.75
 19-06-2025,Džiugas Telšiai,Banga,Lituânia - A Lyga,0,1,0,1,22,3,3,2,58,18,12,2,2.1,2.87,3.4
 13-06-2025,Džiugas Telšiai,Panevėžys,Lituânia - A Lyga,1,1,0,1,16,6,5,2,43,33,5,3,3.1,3.25,2.05
@@ -677,44 +642,46 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 05-09-2025,Džiugas Telšiai,Kauno Žalgiris,Lituânia - A Lyga,0,1,0,0,8,8,3,4,31,40,3,6,4.5,3.5,1.8
 05-03-2025,Džiugas Telšiai,Dainava,Lituânia - A Lyga,2,0,2,0,10,15,5,2,43,58,3,5,2.15,3.1,3.1
 29-04-2025,Akmenė,Džiugas Telšiai,Lituânia - A Lyga,2,3,0,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0
-26-04-2025,Džiugas Telšiai,Fa Šiauliai,Lituânia - A Lyga,0,1,0,1,12,10,5,4,40,26,6,1,3.1,3.1,2.3
-16-08-2025,Deportivo Binacional,Sporting Cristal,Peru - Primera Division,1,3,0,3,19,14,2,9,44,20,4,5,3.1,3.4,2.25
-08-06-2025,Deportivo Binacional,Alianza Atlético,Peru - Primera Division,2,0,2,0,16,10,7,1,35,35,5,4,2.3,3.2,3.1
-25-07-2025,Deportivo Binacional,Utc Cajamarca,Peru - Primera Division,0,0,0,0,23,9,4,4,64,22,10,3,1.85,3.5,4.1
-07-12-2025,Deportivo Binacional,Melgar,Peru - Primera Division,1,1,0,0,13,17,6,6,29,43,3,3,5.25,3.9,1.5
-07-05-2025,Alianza Lima,Deportivo Binacional,Peru - Primera Division,5,1,4,1,19,6,8,1,49,17,5,0,1.1,10.0,15.0
-27-06-2025,Deportivo Binacional,Sport Huancayo,Peru - Primera Division,1,0,1,0,13,16,3,4,33,58,3,6,3.1,3.5,2.15
-22-06-2025,Sport Boys,Deportivo Binacional,Peru - Primera Division,3,1,2,1,12,9,7,3,37,21,6,3,1.33,5.0,8.5
-15-06-2025,Deportivo Binacional,Alianza Universidad,Peru - Primera Division,1,1,1,1,16,12,7,6,35,14,1,2,2.25,3.6,2.87
-24-05-2025,Atlético Grau,Deportivo Binacional,Peru - Primera Division,3,0,2,0,23,3,11,0,52,15,5,2,1.28,5.5,9.0
-19-05-2025,Deportivo Binacional,Cienciano,Peru - Primera Division,1,1,0,0,8,27,3,7,16,53,4,16,3.5,3.4,2.05
-05-09-2025,Comerciantes Unidos,Deportivo Binacional,Peru - Primera Division,1,1,0,0,15,14,4,2,54,36,5,3,1.7,3.5,5.0
-05-04-2025,Deportivo Binacional,Los Chankas,Peru - Primera Division,1,2,0,2,16,15,4,5,17,7,3,1,2.15,3.3,3.2
-26-04-2025,Deportivo Garcilaso,Deportivo Binacional,Peru - Primera Division,0,1,0,0,9,17,4,6,30,39,5,5,1.3,5.0,8.0
-18-04-2025,Deportivo Binacional,Universitario,Peru - Primera Division,1,3,0,2,14,13,3,6,27,22,5,2,2.8,3.2,2.45
-13-04-2025,Adt,Deportivo Binacional,Peru - Primera Division,1,1,0,1,25,8,5,5,79,25,10,1,1.27,5.25,11.0
-29-03-2025,Sporting Cristal,Deportivo Binacional,Peru - Primera Division,5,0,1,0,28,6,7,2,53,33,12,3,1.11,7.5,17.0
-03-10-2025,Deportivo Binacional,Juan Pablo Ii College,Peru - Primera Division,2,0,1,0,16,9,5,2,28,34,8,6,1.3,5.0,10.0
+26-04-2025,Džiugas Telšiai,FA Šiauliai,Lituânia - A Lyga,0,1,0,1,12,10,5,4,40,26,6,1,3.1,3.1,2.3
 17-08-2025,Sportivo Trinidense,Nacional Asunción,Paraguai - Division 1,0,2,0,1,9,15,3,6,35,38,5,6,3.1,3.1,2.35
-08-12-2025,1 De Enero,Nacional Asunción,Paraguai - Division 1,0,5,0,2,0,8,0,7,9,40,2,7,23.0,11.0,1.07
+08-12-2025,1 de Enero,Nacional Asunción,Paraguai - Division 1,0,5,0,2,0,8,0,7,9,40,2,7,23.0,11.0,1.07
 08-08-2025,Cerro Porteño,Nacional Asunción,Paraguai - Division 1,0,0,0,0,9,14,3,3,28,33,1,3,1.85,3.4,4.1
-08-02-2025,Nacional Asunción,2 De Mayo,Paraguai - Division 1,1,1,1,0,14,10,4,2,36,34,4,4,2.0,3.0,4.0
+08-02-2025,Nacional Asunción,2 de Mayo,Paraguai - Division 1,1,1,1,0,14,10,4,2,36,34,4,4,2.0,3.0,4.0
 29-07-2025,Sportivo Luqueño,Nacional Asunción,Paraguai - Division 1,2,1,0,0,9,16,4,1,26,38,3,2,3.7,2.87,2.0
-25-07-2025,Nacional Asunción,General Caballero Jlm,Paraguai - Division 1,3,0,1,0,10,10,6,0,27,64,2,8,1.61,3.6,5.25
+25-07-2025,Nacional Asunción,General Caballero JLM,Paraguai - Division 1,3,0,1,0,10,10,6,0,27,64,2,8,1.61,3.6,5.25
 19-07-2025,Libertad,Nacional Asunción,Paraguai - Division 1,0,1,0,1,10,11,2,2,43,31,7,5,2.1,3.0,3.9
 07-12-2025,Nacional Asunción,Guaraní,Paraguai - Division 1,1,0,0,0,10,9,3,2,0,0,5,2,0.0,0.0,0.0
 07-06-2025,Olimpia,Nacional Asunción,Paraguai - Division 1,1,1,1,1,13,6,4,3,34,32,3,2,2.0,3.1,3.8
-30-05-2025,General Caballero Jlm,Nacional Asunción,Paraguai - Division 1,2,4,1,2,12,21,4,7,38,41,3,7,3.2,3.0,2.37
+30-05-2025,General Caballero JLM,Nacional Asunción,Paraguai - Division 1,2,4,1,2,12,21,4,7,38,41,3,7,3.2,3.0,2.37
 25-05-2025,Nacional Asunción,Olimpia,Paraguai - Division 1,1,1,1,0,13,14,5,5,22,53,2,4,3.0,2.9,2.55
 20-05-2025,Sportivo Trinidense,Nacional Asunción,Paraguai - Division 1,2,0,0,0,11,14,7,6,49,41,6,3,3.1,3.1,2.45
 17-05-2025,Nacional Asunción,Sportivo Luqueño,Paraguai - Division 1,4,0,4,0,13,6,5,1,42,29,2,4,1.61,3.8,4.75
-05-09-2025,Atlético Tembetary,Nacional Asunción,Paraguai - Division 1,1,2,1,2,8,14,2,5,14,31,5,6,3.1,3.3,2.15
 05-04-2025,Nacional Asunción,Sportivo Ameliano,Paraguai - Division 1,0,1,0,1,28,7,10,4,55,28,6,0,2.25,2.9,3.5
 26-04-2025,Guaraní,Nacional Asunción,Paraguai - Division 1,2,1,1,0,8,24,2,5,18,54,1,8,2.8,2.9,2.55
 21-04-2025,Nacional Asunción,Deportivo Recoleta,Paraguai - Division 1,1,1,0,0,21,11,7,3,23,5,6,2,2.0,3.25,3.75
 15-04-2025,Nacional Asunción,Cerro Porteño,Paraguai - Division 1,1,3,1,2,8,12,4,6,17,10,1,2,3.4,3.0,2.3
 04-11-2025,Libertad,Nacional Asunción,Paraguai - Division 1,1,0,0,0,14,12,7,1,37,38,2,2,1.83,3.0,4.33
-04-06-2025,Nacional Asunción,2 De Mayo,Paraguai - Division 1,1,0,0,0,14,9,3,0,56,27,4,0,2.15,3.2,3.4
+04-06-2025,Nacional Asunción,2 de Mayo,Paraguai - Division 1,1,0,0,0,14,9,3,0,56,27,4,0,2.15,3.2,3.4
+15-08-2025,Atlético Tembetary,2 de Mayo,Paraguai - Division 1,1,1,0,0,2,20,1,6,20,66,2,7,3.3,2.9,2.35
+08-09-2025,Sportivo Luqueño,Atlético Tembetary,Paraguai - Division 1,5,1,1,0,17,18,8,10,24,37,4,8,1.75,3.6,4.5
+08-05-2025,Atlético Tembetary,General Caballero JLM,Paraguai - Division 1,0,1,0,0,10,12,2,3,44,39,5,8,3.2,3.0,2.4
+31-07-2025,Libertad,Atlético Tembetary,Paraguai - Division 1,3,1,0,1,14,10,5,4,48,23,8,4,1.44,4.5,6.5
+27-07-2025,Atlético Tembetary,Guaraní,Paraguai - Division 1,0,1,0,1,7,16,4,7,41,58,4,7,4.33,3.2,1.95
+19-07-2025,Olimpia,Atlético Tembetary,Paraguai - Division 1,3,1,2,1,16,8,9,4,48,21,8,1,1.45,4.33,6.25
+14-07-2025,Atlético Tembetary,Deportivo Recoleta,Paraguai - Division 1,2,3,1,0,11,17,4,6,0,0,2,6,0.0,0.0,0.0
+07-07-2025,Sportivo Ameliano,Atlético Tembetary,Paraguai - Division 1,1,0,1,0,20,5,5,2,42,39,6,6,1.65,3.4,5.75
+31-05-2025,Atlético Tembetary,Cerro Porteño,Paraguai - Division 1,1,6,1,3,14,18,4,9,40,28,4,0,6.0,3.7,1.57
+26-05-2025,Sportivo Ameliano,Atlético Tembetary,Paraguai - Division 1,2,0,0,0,11,3,4,0,52,30,3,3,1.95,3.1,4.0
+21-05-2025,Atlético Tembetary,Guaraní,Paraguai - Division 1,1,2,0,1,14,10,3,3,27,23,7,3,2.25,3.4,3.1
+16-05-2025,Deportivo Recoleta,Atlético Tembetary,Paraguai - Division 1,1,1,0,0,11,12,4,4,46,53,7,2,2.3,3.1,2.9
+05-09-2025,Atlético Tembetary,Nacional Asunción,Paraguai - Division 1,1,2,1,2,8,14,2,5,14,31,5,6,3.1,3.3,2.15
+05-04-2025,Libertad,Atlético Tembetary,Paraguai - Division 1,0,0,0,0,19,6,6,1,21,7,6,1,1.57,3.9,5.25
+25-04-2025,Atlético Tembetary,2 de Mayo,Paraguai - Division 1,1,1,0,0,15,13,2,7,48,38,7,4,2.45,3.25,2.62
+20-04-2025,General Caballero JLM,Atlético Tembetary,Paraguai - Division 1,0,1,0,0,3,10,0,2,42,46,1,3,2.8,2.8,2.8
+16-04-2025,Atlético Tembetary,Olimpia,Paraguai - Division 1,0,1,0,0,13,14,3,2,11,13,2,2,4.2,3.25,1.9
+04-10-2025,Sportivo Trinidense,Atlético Tembetary,Paraguai - Division 1,1,1,1,1,10,8,4,5,40,59,5,4,2.2,3.0,3.3
+04-05-2025,Atlético Tembetary,Sportivo Luqueño,Paraguai - Division 1,1,1,1,0,20,8,4,2,62,50,4,3,1.8,3.6,4.2
+28-03-2025,Cerro Porteño,Atlético Tembetary,Paraguai - Division 1,1,0,0,0,12,7,4,0,67,48,4,5,1.66,3.7,5.0
 17-08-2025,Melgar,Ayacucho,Peru - Primera Division,2,1,1,0,19,5,4,2,68,21,9,1,1.22,6.0,9.5
 08-09-2025,Ayacucho,Alianza Lima,Peru - Primera Division,0,1,0,0,9,7,1,3,4,11,6,2,3.75,3.5,1.9
 08-03-2025,Sport Huancayo,Ayacucho,Peru - Primera Division,3,1,2,1,17,8,8,1,34,29,5,4,1.48,4.5,6.0
@@ -726,14 +693,70 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 27-06-2025,Ayacucho,Los Chankas,Peru - Primera Division,1,2,1,2,16,6,2,3,47,13,4,2,1.9,3.5,3.9
 21-06-2025,Deportivo Garcilaso,Ayacucho,Peru - Primera Division,2,1,1,1,13,14,3,6,24,27,4,1,1.45,4.5,7.0
 15-06-2025,Ayacucho,Universitario,Peru - Primera Division,0,1,0,0,8,17,1,4,19,44,0,9,5.25,3.9,1.61
-25-05-2025,Adt,Ayacucho,Peru - Primera Division,0,1,0,1,18,10,6,3,61,23,9,4,1.36,4.75,8.0
+25-05-2025,ADT,Ayacucho,Peru - Primera Division,0,1,0,1,18,10,6,3,61,23,9,4,1.36,4.75,8.0
 05-10-2025,Ayacucho,Sporting Cristal,Peru - Primera Division,1,4,1,4,6,10,4,7,30,23,5,4,1.9,3.4,3.6
-05-03-2025,Adc Juan Pablo Ii,Ayacucho,Peru - Primera Division,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
+05-03-2025,ADC Juan Pablo II,Ayacucho,Peru - Primera Division,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 26-04-2025,Ayacucho,Alianza Atlético,Peru - Primera Division,0,2,0,1,15,9,5,4,29,34,4,2,2.1,3.0,3.75
-04-11-2025,Ayacucho,Utc Cajamarca,Peru - Primera Division,0,1,0,1,9,10,3,3,33,33,3,0,1.9,3.5,4.0
-04-04-2025,Deportivo Binacional,Ayacucho,Peru - Primera Division,1,1,1,1,10,16,5,2,28,48,5,7,1.7,4.0,4.33
+04-11-2025,Ayacucho,UTC Cajamarca,Peru - Primera Division,0,1,0,1,9,10,3,3,33,33,3,0,1.9,3.5,4.0
 27-03-2025,Ayacucho,Melgar,Peru - Primera Division,2,3,2,1,9,13,4,5,23,31,2,4,5.0,3.7,1.57
-15-08-2025,Ucv,Yaracuyanos,Venezuela - Primera Division,1,0,1,0,7,11,3,4,25,18,6,3,1.27,5.0,9.0
+16-08-2025,Deportivo Binacional,Sporting Cristal,Peru - Primera Division,1,3,0,3,19,14,2,9,44,20,4,5,3.1,3.4,2.25
+08-06-2025,Deportivo Binacional,Alianza Atlético,Peru - Primera Division,2,0,2,0,16,10,7,1,35,35,5,4,2.3,3.2,3.1
+25-07-2025,Deportivo Binacional,UTC Cajamarca,Peru - Primera Division,0,0,0,0,23,9,4,4,64,22,10,3,1.85,3.5,4.1
+07-12-2025,Deportivo Binacional,Melgar,Peru - Primera Division,1,1,0,0,13,17,6,6,29,43,3,3,5.25,3.9,1.5
+07-05-2025,Alianza Lima,Deportivo Binacional,Peru - Primera Division,5,1,4,1,19,6,8,1,49,17,5,0,1.1,10.0,15.0
+27-06-2025,Deportivo Binacional,Sport Huancayo,Peru - Primera Division,1,0,1,0,13,16,3,4,33,58,3,6,3.1,3.5,2.15
+22-06-2025,Sport Boys,Deportivo Binacional,Peru - Primera Division,3,1,2,1,12,9,7,3,37,21,6,3,1.33,5.0,8.5
+15-06-2025,Deportivo Binacional,Alianza Universidad,Peru - Primera Division,1,1,1,1,16,12,7,6,35,14,1,2,2.25,3.6,2.87
+24-05-2025,Atlético Grau,Deportivo Binacional,Peru - Primera Division,3,0,2,0,23,3,11,0,52,15,5,2,1.28,5.5,9.0
+19-05-2025,Deportivo Binacional,Cienciano,Peru - Primera Division,1,1,0,0,8,27,3,7,16,53,4,16,3.5,3.4,2.05
+05-09-2025,Comerciantes Unidos,Deportivo Binacional,Peru - Primera Division,1,1,0,0,15,14,4,2,54,36,5,3,1.7,3.5,5.0
+05-04-2025,Deportivo Binacional,Los Chankas,Peru - Primera Division,1,2,0,2,16,15,4,5,17,7,3,1,2.15,3.3,3.2
+26-04-2025,Deportivo Garcilaso,Deportivo Binacional,Peru - Primera Division,0,1,0,0,9,17,4,6,30,39,5,5,1.3,5.0,8.0
+18-04-2025,Deportivo Binacional,Universitario,Peru - Primera Division,1,3,0,2,14,13,3,6,27,22,5,2,2.8,3.2,2.45
+13-04-2025,ADT,Deportivo Binacional,Peru - Primera Division,1,1,0,1,25,8,5,5,79,25,10,1,1.27,5.25,11.0
+04-04-2025,Deportivo Binacional,Ayacucho,Peru - Primera Division,1,1,1,1,10,16,5,2,28,48,5,7,1.7,4.0,4.33
+29-03-2025,Sporting Cristal,Deportivo Binacional,Peru - Primera Division,5,0,1,0,28,6,7,2,53,33,12,3,1.11,7.5,17.0
+03-10-2025,Deportivo Binacional,Juan Pablo II College,Peru - Primera Division,2,0,1,0,16,9,5,2,28,34,8,6,1.3,5.0,10.0
+17-08-2025,Cusco FC,Alianza Atlético,Peru - Primera Division,1,0,1,0,11,12,7,4,28,25,4,3,1.4,4.33,8.0
+08-04-2025,UTC Cajamarca,Cusco FC,Peru - Primera Division,1,2,1,1,12,15,3,5,38,36,7,8,3.8,3.4,1.9
+31-07-2025,Cusco FC,Deportivo Binacional,Peru - Primera Division,2,0,1,0,11,7,3,1,30,32,2,5,1.25,5.5,13.0
+27-07-2025,Melgar,Cusco FC,Peru - Primera Division,0,2,0,1,18,13,3,8,52,36,7,5,1.55,3.8,5.75
+19-07-2025,Cusco FC,Alianza Lima,Peru - Primera Division,2,0,0,0,16,12,6,3,30,29,7,3,1.9,3.2,4.33
+13-07-2025,Cusco FC,Sport Huancayo,Peru - Primera Division,3,0,2,0,14,3,4,1,34,28,3,7,1.7,3.6,4.75
+07-06-2025,Sport Boys,Cusco FC,Peru - Primera Division,1,2,1,0,7,4,1,2,19,31,3,4,2.1,3.4,3.25
+29-06-2025,Cusco FC,Alianza Universidad,Peru - Primera Division,4,1,1,0,10,15,7,4,36,22,5,3,1.5,4.33,6.0
+19-06-2025,Atlético Grau,Cusco FC,Peru - Primera Division,0,0,0,0,15,10,3,4,56,31,5,2,1.7,3.5,5.0
+13-06-2025,Cusco FC,Cienciano,Peru - Primera Division,0,0,0,0,15,25,4,9,30,45,4,6,2.5,3.4,2.75
+24-05-2025,Comerciantes Unidos,Cusco FC,Peru - Primera Division,1,2,0,1,8,9,1,3,30,47,4,4,3.0,3.6,2.2
+17-05-2025,Cusco FC,Los Chankas,Peru - Primera Division,3,3,2,2,24,12,7,5,23,11,8,0,1.55,4.1,5.25
+05-11-2025,Deportivo Garcilaso,Cusco FC,Peru - Primera Division,1,3,0,1,19,10,4,5,23,22,5,3,2.62,2.87,2.9
+05-03-2025,Cusco FC,Universitario,Peru - Primera Division,2,0,1,0,9,19,5,5,5,5,1,6,2.62,3.1,2.75
+28-04-2025,ADT,Cusco FC,Peru - Primera Division,2,1,0,1,25,4,12,3,75,29,5,2,2.1,3.3,3.4
+19-04-2025,Cusco FC,Ayacucho,Peru - Primera Division,3,0,1,0,10,9,4,5,28,21,3,0,1.45,4.0,7.5
+13-04-2025,Sporting Cristal,Cusco FC,Peru - Primera Division,1,0,0,0,25,5,9,3,78,17,13,2,1.4,4.33,8.0
+28-03-2025,Alianza Atlético,Cusco FC,Peru - Primera Division,2,4,2,3,17,16,9,8,46,37,5,7,1.66,3.3,5.0
+03-06-2025,Atlético Grau,Cusco FC,Peru - Primera Division,0,0,0,0,10,8,3,3,54,21,7,3,1.9,3.3,4.2
+16-08-2025,UTC Cajamarca,Juan Pablo II College,Peru - Primera Division,0,0,0,0,19,11,6,3,80,24,7,4,2.0,3.3,3.7
+08-10-2025,Juan Pablo II College,Deportivo Binacional,Peru - Primera Division,0,0,0,0,12,4,6,0,33,28,0,5,1.57,3.6,6.5
+08-05-2025,Melgar,Juan Pablo II College,Peru - Primera Division,1,1,1,0,21,5,5,2,80,20,11,0,1.2,5.75,15.0
+31-07-2025,Juan Pablo II College,Alianza Lima,Peru - Primera Division,1,2,1,1,13,17,5,7,31,71,2,10,7.5,4.75,1.38
+25-07-2025,Sport Huancayo,Juan Pablo II College,Peru - Primera Division,5,1,3,0,25,10,10,3,53,24,8,7,1.38,4.33,7.5
+20-07-2025,Juan Pablo II College,Sport Boys,Peru - Primera Division,3,0,2,0,10,13,5,3,31,43,1,6,1.95,3.25,4.2
+13-07-2025,Juan Pablo II College,Alianza Universidad,Peru - Primera Division,1,0,0,0,8,13,3,5,45,47,1,6,1.9,3.3,3.75
+07-06-2025,Atlético Grau,Juan Pablo II College,Peru - Primera Division,2,0,0,0,19,8,7,4,33,28,2,4,1.5,3.8,6.5
+07-02-2025,Juan Pablo II College,Melgar,Peru - Primera Division,1,1,0,1,11,10,2,4,43,43,4,6,4.33,2.87,2.0
+27-06-2025,Juan Pablo II College,Cienciano,Peru - Primera Division,2,2,1,2,14,12,6,6,48,34,5,4,2.15,3.1,3.2
+22-06-2025,Comerciantes Unidos,Juan Pablo II College,Peru - Primera Division,3,0,3,0,9,14,4,6,25,46,4,2,2.2,3.1,3.3
+14-06-2025,Juan Pablo II College,Los Chankas,Peru - Primera Division,3,0,2,0,19,12,9,3,50,25,5,5,1.8,3.25,5.0
+25-05-2025,Deportivo Garcilaso,Juan Pablo II College,Peru - Primera Division,4,0,1,0,12,14,7,6,15,16,3,3,1.36,4.75,7.0
+18-05-2025,Juan Pablo II College,Universitario,Peru - Primera Division,2,0,1,0,5,17,4,3,10,67,1,5,12.0,6.0,1.2
+05-11-2025,ADT,Juan Pablo II College,Peru - Primera Division,2,2,1,0,8,5,4,2,50,21,10,0,1.36,5.0,7.0
+05-03-2025,Juan Pablo II College,Ayacucho,Peru - Primera Division,0,0,0,0,7,8,2,2,44,44,7,2,1.75,3.7,4.33
+28-04-2025,Sporting Cristal,Juan Pablo II College,Peru - Primera Division,3,2,3,1,11,13,4,7,36,48,6,7,1.22,6.5,10.0
+04-12-2025,Juan Pablo II College,Alianza Atlético,Peru - Primera Division,1,0,1,0,10,9,3,2,28,53,1,2,2.75,3.3,2.45
+04-06-2025,Cusco FC,Juan Pablo II College,Peru - Primera Division,4,2,2,0,14,9,5,4,37,21,2,4,1.25,6.0,11.0
+30-03-2025,Juan Pablo II College,UTC Cajamarca,Peru - Primera Division,4,2,2,0,19,18,6,5,34,46,5,5,2.1,3.2,3.5
+15-08-2025,UCV,Yaracuyanos,Venezuela - Primera Division,1,0,1,0,7,11,3,4,25,18,6,3,1.27,5.0,9.0
 08-11-2025,Yaracuyanos,Monagas,Venezuela - Primera Division,1,1,1,1,18,13,5,3,42,34,6,5,4.2,3.8,1.66
 08-01-2025,Zamora Fútbol Club,Yaracuyanos,Venezuela - Primera Division,1,0,0,0,12,17,4,5,36,64,3,8,1.6,3.7,4.75
 24-07-2025,Yaracuyanos,Carabobo,Venezuela - Primera Division,1,2,0,1,9,12,2,6,23,44,3,5,6.25,3.7,1.48
@@ -742,59 +765,28 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 07-09-2025,Yaracuyanos,Marítimo,Venezuela - Primera Division,1,4,1,4,6,14,1,9,66,65,4,9,4.5,3.6,1.61
 07-02-2025,Yaracuyanos,Zamora Fútbol Club,Venezuela - Primera Division,0,2,0,1,0,0,0,0,0,0,0,0,7.5,5.75,1.27
 25-06-2025,Titanes,Yaracuyanos,Venezuela - Primera Division,1,0,1,0,15,13,4,7,75,78,2,3,1.25,5.5,7.5
-16-08-2025,Utc Cajamarca,Juan Pablo Ii College,Peru - Primera Division,0,0,0,0,19,11,6,3,80,24,7,4,2.0,3.3,3.7
-08-10-2025,Juan Pablo Ii College,Deportivo Binacional,Peru - Primera Division,0,0,0,0,12,4,6,0,33,28,0,5,1.57,3.6,6.5
-08-05-2025,Melgar,Juan Pablo Ii College,Peru - Primera Division,1,1,1,0,21,5,5,2,80,20,11,0,1.2,5.75,15.0
-31-07-2025,Juan Pablo Ii College,Alianza Lima,Peru - Primera Division,1,2,1,1,13,17,5,7,31,71,2,10,7.5,4.75,1.38
-25-07-2025,Sport Huancayo,Juan Pablo Ii College,Peru - Primera Division,5,1,3,0,25,10,10,3,53,24,8,7,1.38,4.33,7.5
-20-07-2025,Juan Pablo Ii College,Sport Boys,Peru - Primera Division,3,0,2,0,10,13,5,3,31,43,1,6,1.95,3.25,4.2
-13-07-2025,Juan Pablo Ii College,Alianza Universidad,Peru - Primera Division,1,0,0,0,8,13,3,5,45,47,1,6,1.9,3.3,3.75
-07-06-2025,Atlético Grau,Juan Pablo Ii College,Peru - Primera Division,2,0,0,0,19,8,7,4,33,28,2,4,1.5,3.8,6.5
-07-02-2025,Juan Pablo Ii College,Melgar,Peru - Primera Division,1,1,0,1,11,10,2,4,43,43,4,6,4.33,2.87,2.0
-27-06-2025,Juan Pablo Ii College,Cienciano,Peru - Primera Division,2,2,1,2,14,12,6,6,48,34,5,4,2.15,3.1,3.2
-22-06-2025,Comerciantes Unidos,Juan Pablo Ii College,Peru - Primera Division,3,0,3,0,9,14,4,6,25,46,4,2,2.2,3.1,3.3
-14-06-2025,Juan Pablo Ii College,Los Chankas,Peru - Primera Division,3,0,2,0,19,12,9,3,50,25,5,5,1.8,3.25,5.0
-25-05-2025,Deportivo Garcilaso,Juan Pablo Ii College,Peru - Primera Division,4,0,1,0,12,14,7,6,15,16,3,3,1.36,4.75,7.0
-18-05-2025,Juan Pablo Ii College,Universitario,Peru - Primera Division,2,0,1,0,5,17,4,3,10,67,1,5,12.0,6.0,1.2
-05-11-2025,Adt,Juan Pablo Ii College,Peru - Primera Division,2,2,1,0,8,5,4,2,50,21,10,0,1.36,5.0,7.0
-05-03-2025,Juan Pablo Ii College,Ayacucho,Peru - Primera Division,0,0,0,0,7,8,2,2,44,44,7,2,1.75,3.7,4.33
-28-04-2025,Sporting Cristal,Juan Pablo Ii College,Peru - Primera Division,3,2,3,1,11,13,4,7,36,48,6,7,1.22,6.5,10.0
-04-12-2025,Juan Pablo Ii College,Alianza Atlético,Peru - Primera Division,1,0,1,0,10,9,3,2,28,53,1,2,2.75,3.3,2.45
-30-03-2025,Juan Pablo Ii College,Utc Cajamarca,Peru - Primera Division,4,2,2,0,19,18,6,5,34,46,5,5,2.1,3.2,3.5
-17-08-2025,Cusco Fc,Alianza Atlético,Peru - Primera Division,1,0,1,0,11,12,7,4,28,25,4,3,1.4,4.33,8.0
-08-04-2025,Utc Cajamarca,Cusco Fc,Peru - Primera Division,1,2,1,1,12,15,3,5,38,36,7,8,3.8,3.4,1.9
-31-07-2025,Cusco Fc,Deportivo Binacional,Peru - Primera Division,2,0,1,0,11,7,3,1,30,32,2,5,1.25,5.5,13.0
-27-07-2025,Melgar,Cusco Fc,Peru - Primera Division,0,2,0,1,18,13,3,8,52,36,7,5,1.55,3.8,5.75
-19-07-2025,Cusco Fc,Alianza Lima,Peru - Primera Division,2,0,0,0,16,12,6,3,30,29,7,3,1.9,3.2,4.33
-13-07-2025,Cusco Fc,Sport Huancayo,Peru - Primera Division,3,0,2,0,14,3,4,1,34,28,3,7,1.7,3.6,4.75
-07-06-2025,Sport Boys,Cusco Fc,Peru - Primera Division,1,2,1,0,7,4,1,2,19,31,3,4,2.1,3.4,3.25
-29-06-2025,Cusco Fc,Alianza Universidad,Peru - Primera Division,4,1,1,0,10,15,7,4,36,22,5,3,1.5,4.33,6.0
-19-06-2025,Atlético Grau,Cusco Fc,Peru - Primera Division,0,0,0,0,15,10,3,4,56,31,5,2,1.7,3.5,5.0
-13-06-2025,Cusco Fc,Cienciano,Peru - Primera Division,0,0,0,0,15,25,4,9,30,45,4,6,2.5,3.4,2.75
-24-05-2025,Comerciantes Unidos,Cusco Fc,Peru - Primera Division,1,2,0,1,8,9,1,3,30,47,4,4,3.0,3.6,2.2
-17-05-2025,Cusco Fc,Los Chankas,Peru - Primera Division,3,3,2,2,24,12,7,5,23,11,8,0,1.55,4.1,5.25
-05-11-2025,Deportivo Garcilaso,Cusco Fc,Peru - Primera Division,1,3,0,1,19,10,4,5,23,22,5,3,2.62,2.87,2.9
-05-03-2025,Cusco Fc,Universitario,Peru - Primera Division,2,0,1,0,9,19,5,5,5,5,1,6,2.62,3.1,2.75
-28-04-2025,Adt,Cusco Fc,Peru - Primera Division,2,1,0,1,25,4,12,3,75,29,5,2,2.1,3.3,3.4
-19-04-2025,Cusco Fc,Ayacucho,Peru - Primera Division,3,0,1,0,10,9,4,5,28,21,3,0,1.45,4.0,7.5
-13-04-2025,Sporting Cristal,Cusco Fc,Peru - Primera Division,1,0,0,0,25,5,9,3,78,17,13,2,1.4,4.33,8.0
-04-06-2025,Cusco Fc,Juan Pablo Ii College,Peru - Primera Division,4,2,2,0,14,9,5,4,37,21,2,4,1.25,6.0,11.0
-28-03-2025,Alianza Atlético,Cusco Fc,Peru - Primera Division,2,4,2,3,17,16,9,8,46,37,5,7,1.66,3.3,5.0
-03-06-2025,Atlético Grau,Cusco Fc,Peru - Primera Division,0,0,0,0,10,8,3,3,54,21,7,3,1.9,3.3,4.2
+18-06-2025,Yaracuyanos,Titanes,Venezuela - Primera Division,2,0,2,0,10,14,5,5,44,62,4,3,2.25,3.3,2.9
+06-11-2025,Zamora Fútbol Club,Yaracuyanos,Venezuela - Primera Division,3,2,1,2,12,10,7,4,47,26,7,2,2.05,3.0,3.3
+06-04-2025,Marítimo,Yaracuyanos,Venezuela - Primera Division,1,0,0,0,12,10,6,5,53,40,6,3,0.0,0.0,0.0
+26-04-2025,Yaracuyanos,Estudiantes Mérida,Venezuela - Primera Division,2,0,1,0,17,9,9,0,76,67,2,1,3.1,3.4,2.15
+19-04-2025,Deportivo Táchira,Yaracuyanos,Venezuela - Primera Division,4,0,3,0,22,8,10,1,85,54,9,2,1.28,4.5,8.5
+04-12-2025,Yaracuyanos,Deportivo La Guaira,Venezuela - Primera Division,1,2,1,2,15,4,2,3,83,63,4,2,4.33,3.8,1.65
+27-03-2025,Yaracuyanos,Caracas,Venezuela - Primera Division,3,3,1,1,23,11,7,6,83,55,10,4,3.4,3.4,2.0
+03-08-2025,Yaracuyanos,UCV,Venezuela - Primera Division,0,2,0,2,22,10,4,4,97,64,5,3,5.0,3.5,1.66
 17-08-2025,Rayo Zuliano,Academia Puerto Cabello,Venezuela - Primera Division,0,0,0,0,15,16,3,3,40,61,6,6,3.1,2.9,2.3
 08-02-2025,Rayo Zuliano,Estudiantes Mérida,Venezuela - Primera Division,2,1,0,1,14,11,7,3,28,23,5,6,3.0,3.0,2.2
 29-07-2025,Rayo Zuliano,Deportivo Táchira,Venezuela - Primera Division,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 23-07-2025,Deportivo Táchira,Rayo Zuliano,Venezuela - Primera Division,2,0,1,0,10,6,5,3,60,22,3,2,0.0,0.0,0.0
 18-07-2025,Deportivo La Guaira,Rayo Zuliano,Venezuela - Primera Division,4,0,2,0,20,2,8,0,45,25,4,0,1.5,3.9,6.0
-07-09-2025,Rayo Zuliano,Héroes De Falcón,Venezuela - Primera Division,5,0,2,0,0,0,0,0,0,0,0,0,1.25,6.0,6.5
+07-09-2025,Rayo Zuliano,Héroes de Falcón,Venezuela - Primera Division,5,0,2,0,0,0,0,0,0,0,0,0,1.25,6.0,6.5
 07-06-2025,Caracas,Rayo Zuliano,Venezuela - Primera Division,2,1,1,1,16,11,5,5,45,28,9,4,1.7,3.25,4.75
 07-02-2025,Fundación Lara Deportiva,Rayo Zuliano,Venezuela - Primera Division,2,0,1,0,11,4,7,1,32,43,0,10,0.0,0.0,0.0
 25-06-2025,Rayo Zuliano,Trujillanos,Venezuela - Primera Division,1,1,0,0,13,9,5,3,36,32,9,1,1.53,3.7,5.0
 18-06-2025,Trujillanos,Rayo Zuliano,Venezuela - Primera Division,1,3,1,2,12,6,6,5,34,32,2,3,6.5,4.5,1.36
 06-11-2025,Rayo Zuliano,Fundación Lara Deportiva,Venezuela - Primera Division,4,0,2,0,17,12,12,3,30,31,6,5,0.0,0.0,0.0
-06-04-2025,Héroes De Falcón,Rayo Zuliano,Venezuela - Primera Division,0,1,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
+06-04-2025,Héroes de Falcón,Rayo Zuliano,Venezuela - Primera Division,0,1,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 26-04-2025,Metropolitanos,Rayo Zuliano,Venezuela - Primera Division,4,2,2,0,19,18,8,8,33,45,6,9,1.9,3.7,3.5
-20-04-2025,Rayo Zuliano,Ucv,Venezuela - Primera Division,0,2,0,1,19,10,5,3,50,25,7,1,2.6,2.9,2.6
+20-04-2025,Rayo Zuliano,UCV,Venezuela - Primera Division,0,2,0,1,19,10,5,3,50,25,7,1,2.6,2.9,2.6
 04-10-2025,Monagas,Rayo Zuliano,Venezuela - Primera Division,3,2,1,1,23,7,9,5,50,24,5,3,1.6,3.6,5.0
 04-05-2025,Rayo Zuliano,Zamora Fútbol Club,Venezuela - Primera Division,2,0,2,0,3,21,2,4,10,37,3,9,1.83,3.25,4.1
 28-03-2025,Carabobo,Rayo Zuliano,Venezuela - Primera Division,1,0,1,0,6,14,1,2,26,26,2,4,1.57,3.2,6.0
@@ -802,21 +794,21 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 19-08-2025,Portuguesa,Carabobo,Venezuela - Primera Division,1,1,1,1,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 16-08-2025,Caracas,Portuguesa,Venezuela - Primera Division,2,0,1,0,7,25,2,9,23,55,1,8,1.72,3.1,4.75
 08-11-2025,Portuguesa,Rayo Zuliano,Venezuela - Primera Division,1,2,1,1,13,10,2,3,38,37,7,4,2.15,3.1,3.1
-08-03-2025,Ucv,Portuguesa,Venezuela - Primera Division,2,0,0,0,12,15,6,5,27,41,5,7,1.53,4.0,5.0
+08-03-2025,UCV,Portuguesa,Venezuela - Primera Division,2,0,0,0,12,15,6,5,27,41,5,7,1.53,4.0,5.0
 29-07-2025,Estudiantes Mérida,Portuguesa,Venezuela - Primera Division,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 24-07-2025,Portuguesa,Monagas,Venezuela - Primera Division,0,1,0,1,17,11,6,3,43,35,7,3,2.9,3.25,2.25
 20-07-2025,Zamora Fútbol Club,Portuguesa,Venezuela - Primera Division,1,0,0,0,22,5,6,1,52,30,4,4,2.7,3.4,2.45
 07-11-2025,Portuguesa,Carabobo,Venezuela - Primera Division,0,0,0,0,12,6,6,1,44,59,5,8,3.2,3.4,2.15
 07-05-2025,Yaracuyanos,Portuguesa,Venezuela - Primera Division,1,2,1,1,10,12,3,6,26,41,0,1,2.55,3.5,2.45
 06-08-2025,Deportivo La Guaira,Portuguesa,Venezuela - Primera Division,1,1,1,0,12,6,3,3,72,33,5,5,1.36,5.25,7.0
-31-05-2025,Portuguesa,Ucv,Venezuela - Primera Division,1,3,1,2,10,12,3,5,15,12,8,1,2.55,3.4,2.55
-05-11-2025,Ucv,Portuguesa,Venezuela - Primera Division,2,2,1,1,9,8,3,4,70,45,5,1,1.83,3.4,3.9
+31-05-2025,Portuguesa,UCV,Venezuela - Primera Division,1,3,1,2,10,12,3,5,15,12,8,1,2.55,3.4,2.55
+05-11-2025,UCV,Portuguesa,Venezuela - Primera Division,2,2,1,1,9,8,3,4,70,45,5,1,1.83,3.4,3.9
 05-03-2025,Portuguesa,Deportivo La Guaira,Venezuela - Primera Division,1,2,0,1,22,8,5,4,85,40,8,0,3.5,3.0,2.15
 27-04-2025,Academia Puerto Cabello,Portuguesa,Venezuela - Primera Division,2,1,0,0,20,12,6,7,83,31,14,1,2.35,2.9,3.25
 20-04-2025,Portuguesa,Metropolitanos,Venezuela - Primera Division,2,1,1,1,7,12,3,4,42,42,5,7,2.3,2.9,3.0
 04-11-2025,Portuguesa,Estudiantes Mérida,Venezuela - Primera Division,4,2,1,0,13,18,7,6,48,90,2,4,1.65,3.75,4.75
 04-06-2025,Deportivo Táchira,Portuguesa,Venezuela - Primera Division,1,1,1,1,14,8,5,3,76,51,5,3,0.0,0.0,0.0
-19-08-2025,Academia Anzoátegui,Ucv,Venezuela - Primera Division,2,4,1,2,0,0,0,0,0,0,0,0,0.0,0.0,0.0
+19-08-2025,Academia Anzoátegui,UCV,Venezuela - Primera Division,2,4,1,2,0,0,0,0,0,0,0,0,0.0,0.0,0.0
 15-08-2025,Academia Anzoátegui,Estudiantes Mérida,Venezuela - Primera Division,0,1,0,1,19,13,3,3,60,17,3,2,2.1,3.25,3.1
 08-09-2025,Deportivo Táchira,Academia Anzoátegui,Venezuela - Primera Division,1,0,1,0,13,12,5,7,46,28,4,4,1.44,3.9,6.5
 08-01-2025,Deportivo La Guaira,Academia Anzoátegui,Venezuela - Primera Division,1,2,0,1,19,7,7,4,56,15,6,4,1.42,4.0,7.0
@@ -824,13 +816,13 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 24-07-2025,Metropolitanos,Academia Anzoátegui,Venezuela - Primera Division,1,2,0,2,10,11,2,4,103,55,10,5,1.9,3.5,3.5
 18-07-2025,Academia Anzoátegui,Caracas,Venezuela - Primera Division,0,1,0,1,17,10,2,4,74,45,7,4,3.2,3.25,2.15
 07-12-2025,Rayo Zuliano,Academia Anzoátegui,Venezuela - Primera Division,2,0,1,0,12,9,7,2,47,71,5,7,1.9,3.25,4.2
-07-06-2025,Academia Anzoátegui,Ucv,Venezuela - Primera Division,0,2,0,0,9,24,2,8,59,92,6,7,3.0,3.0,2.3
-06-08-2025,Ucv,Academia Anzoátegui,Venezuela - Primera Division,2,2,1,1,21,5,5,3,98,23,7,0,1.36,4.2,8.5
+07-06-2025,Academia Anzoátegui,UCV,Venezuela - Primera Division,0,2,0,0,9,24,2,8,59,92,6,7,3.0,3.0,2.3
+06-08-2025,UCV,Academia Anzoátegui,Venezuela - Primera Division,2,2,1,1,21,5,5,3,98,23,7,0,1.36,4.2,8.5
 31-05-2025,Academia Anzoátegui,Deportivo La Guaira,Venezuela - Primera Division,0,2,0,2,15,8,5,4,25,22,7,3,2.6,3.4,2.35
 21-05-2025,Academia Anzoátegui,Portuguesa,Venezuela - Primera Division,1,1,0,0,11,11,2,2,63,47,6,2,1.85,3.0,4.33
 16-05-2025,Portuguesa,Academia Anzoátegui,Venezuela - Primera Division,0,0,0,0,11,12,5,3,61,92,2,6,2.15,3.2,3.1
 05-11-2025,Deportivo La Guaira,Academia Anzoátegui,Venezuela - Primera Division,3,1,0,0,17,10,5,2,69,53,5,2,1.7,3.4,4.75
-05-03-2025,Academia Anzoátegui,Ucv,Venezuela - Primera Division,4,4,3,0,16,13,5,7,40,39,2,7,2.1,3.1,3.6
+05-03-2025,Academia Anzoátegui,UCV,Venezuela - Primera Division,4,4,3,0,16,13,5,7,40,39,2,7,2.1,3.1,3.6
 26-04-2025,Monagas,Academia Anzoátegui,Venezuela - Primera Division,2,3,1,1,14,14,6,4,62,68,4,3,1.72,3.6,4.5
 19-04-2025,Academia Anzoátegui,Zamora Fútbol Club,Venezuela - Primera Division,2,0,1,0,10,8,3,2,40,64,1,6,1.66,3.2,5.0
 13-04-2025,Carabobo,Academia Anzoátegui,Venezuela - Primera Division,1,0,0,0,13,10,3,1,53,34,4,1,1.66,3.25,5.0
