@@ -303,8 +303,8 @@ def processar_dados_raspados(lista_de_jogos):
             odd_a = float(
                 jogo['Odd_A_str']) if jogo['Odd_A_str'] and jogo['Odd_A_str'] != '-' else 0.0
 
-            home = " ".join(jogo['Home'].split()).title()
-            away = " ".join(jogo['Away'].split()).title()
+            home = " ".join(jogo['Home'].split())
+            away = " ".join(jogo['Away'].split())
 
             jogos_processados.append({
                 "Liga": liga, "Data": data_padronizada, "Home": home, "Away": away,
