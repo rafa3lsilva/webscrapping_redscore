@@ -1,124 +1,243 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
+from datetime import datetime
+import os
+import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.edge.service import Service as EdgeService
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from datetime import datetime
-import os
 import ligas_config as cfg
 
+# ==========================
+# Função Auxiliar para Iniciar o Driver
+# ==========================
+
+
+def _iniciar_driver():
+    """Inicializa e retorna uma instância do WebDriver de forma mais 'furtiva' e silenciosa."""
+    edge_options = Options()
+
+    # --- OPÇÕES PARA PARECER MAIS HUMANO E AUMENTAR ESTABILIDADE ---
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0"
+    edge_options.add_argument(f'user-agent={user_agent}')
+    edge_options.add_experimental_option('useAutomationExtension', False)
+    edge_options.add_argument("--disable-blink-features=AutomationControlled")
+    edge_options.add_argument("--start-maximized")
+
+    # --- OPÇÕES PARA REDUZIR O RUÍDO NO TERMINAL ---
+    edge_options.add_experimental_option(
+        'excludeSwitches', ['enable-automation', 'enable-logging'])
+
+    # ADICIONANDO DE VOLTA A LINHA ESSENCIAL:
+    edge_options.add_argument("--log-level=3")
+
+    # Comente a linha abaixo para ver a janela do navegador durante o teste
+    edge_options.add_argument("--headless")
+
+    try:
+        caminho_driver_local = "./msedgedriver.exe"
+        if not os.path.exists(caminho_driver_local):
+            print(
+                f"ERRO: O ficheiro '{caminho_driver_local}' não foi encontrado.")
+            return None
+
+        servico = EdgeService(executable_path=caminho_driver_local)
+        driver = webdriver.Edge(service=servico, options=edge_options)
+        return driver
+    except Exception as e:
+        print(f"Erro ao iniciar o WebDriver local: {e}")
+        return None
 
 # ==========================
 # Função para formatar datas
 # ==========================
+
+
 def _formatar_data(texto_data):
     if not texto_data or not isinstance(texto_data, str):
         return None
-
-    texto_data = texto_data.strip()
-    sep = "-" if "-" in texto_data else "/"
-    partes = texto_data.split(sep)
-
-    if len(partes) != 3:
-        return None
-
-    p1, p2, p3 = partes
-
-    # Corrigir ano de 2 dígitos → decidir século
-    if len(p3) == 2:
-        ano = int(p3)
-        if ano >= 80:
-            p3 = "19" + p3
-        else:
-            p3 = "20" + p3
-
-    nova_data = f"{p1}{sep}{p2}{sep}{p3}"
-
     try:
-        if int(p1) > 12:
-            data_formatada = pd.to_datetime(
-                nova_data, dayfirst=True, errors="raise")
-        else:
-            data_formatada = pd.to_datetime(
-                nova_data, dayfirst=False, errors="raise")
-
-        return data_formatada.strftime('%d-%m-%Y')
-    except Exception:
-        return None
-
+        # Tenta formatar a data que vem como "DD/MM" para o ano atual
+        data_obj = datetime.strptime(texto_data, '%d/%m')
+        data_obj = data_obj.replace(year=datetime.now().year)
+        return data_obj.strftime('%d-%m-%Y')
+    except ValueError:
+        try:
+            # Tenta outros formatos comuns se o primeiro falhar
+            return pd.to_datetime(texto_data, dayfirst=True).strftime('%d-%m-%Y')
+        except Exception:
+            return None
 
 # ==========================
-# Raspagem dos links dos times
+# Nova Função de Raspagem da Página "Amanhã"
 # ==========================
-def raspar_links_dos_times_da_liga(liga_url):
-    links_dos_times = []
-    edge_options = Options()
-    edge_options.add_argument("--headless")
-    edge_options.add_argument("--window-size=1920,1080")
-    # Esta opção oculta os erros internos do Edge (linhas vermelhas)
-    edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    edge_options.add_argument("--log-level=3")
+
+def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
+    """
+    Versão FINAL com seletores de jogo corrigidos.
+    """
+    lista_de_jogos = []
+    driver = _iniciar_driver()
+    if not driver:
+        return lista_de_jogos
 
     try:
-        caminho_driver = "./msedgedriver.exe"
-        servico = EdgeService(executable_path=caminho_driver)
-        driver = webdriver.Edge(service=servico, options=edge_options)
-    except Exception as e:
-        print(f"Erro ao iniciar o WebDriver: {e}")
-        return []
+        driver.get(url_amanha)
+        print("Página aberta. A procurar por banner de cookies...")
+        try:
+            seletor_botao_aceitar = "div.cookieinfo-close"
+            botao_aceitar = WebDriverWait(driver, 5).until(
+                EC.element_to_be_clickable(
+                    (By.CSS_SELECTOR, seletor_botao_aceitar))
+            )
+            botao_aceitar.click()
+            print("Banner de cookies aceite com sucesso.")
+            time.sleep(2)
+        except Exception:
+            print("Nenhum banner de cookies encontrado. A continuar...")
 
-    try:
-        driver.get(liga_url)
-        WebDriverWait(driver, 10).until(
-            EC.presence_of_all_elements_located(
-                (By.CSS_SELECTOR, "#snippet--standings table tbody td.text-nowrap a"))
-        )
+        print("A aguardar para a página estabilizar...")
+        time.sleep(8)
 
-        elementos_link = driver.find_elements(
-            By.CSS_SELECTOR, "#snippet--standings table tbody td.text-nowrap a")
-        for elemento in elementos_link:
-            url_time = elemento.get_attribute('href')
-            if url_time and url_time not in links_dos_times:
-                links_dos_times.append(url_time)
+        html_content = driver.page_source
+        if not html_content or "<body" not in html_content.lower():
+            print("ERRO: O conteúdo da página está vazio ou é inválido.")
+            return lista_de_jogos
 
-        print(
-            f"  -> Encontrados {len(links_dos_times)} links de equipas únicos.")
-    except Exception as e:
-        print(f"  -> Ocorreu um erro ao raspar os links das equipas: {e}")
+        soup = BeautifulSoup(html_content, 'html.parser')
+
+        blocos_de_liga = soup.find_all(
+            'div', id=lambda x: x and x.startswith('league_'))
+
+        for bloco in blocos_de_liga:
+            try:
+                pais_el = bloco.select_one("span.d-block.d-md-inline")
+                pais = pais_el.text.strip() if pais_el else ''
+                liga_el = bloco.select_one("span.font-bold")
+                liga = liga_el.text.strip() if liga_el else ''
+                nome_liga_completo = f"{pais} - {liga}" if pais else liga
+
+                if nome_liga_completo.lower() not in {l.lower() for l in ligas_permitidas_set}:
+                    continue
+
+                print(
+                    f"✅ Liga Válida Encontrada: {nome_liga_completo}. A processar jogos...")
+
+                corpos_de_jogo = bloco.find_all(
+                    'tbody', id=lambda x: x and x.startswith('xmatch_'))
+
+                for corpo_jogo in corpos_de_jogo:
+                    linha = corpo_jogo.find('tr')
+                    if not linha:
+                        continue
+
+                    try:
+                        # --- SELETORES CORRIGIDOS E MAIS ROBUSTOS ---
+                        id_jogo = corpo_jogo['id'].replace('xmatch_', '')
+
+                        # A hora está no segundo <td> da linha
+                        hora = linha.select('td')[1].text.strip()
+
+                        # O nome da equipa está dentro de um <td> com a classe .text-md-right e depois um <span> com a classe .team
+                        time_casa = linha.select_one(
+                            "td.text-md-right span.team").text.strip()
+
+                        # O nome da equipa de fora está no quinto <td>, e depois num <span> com a classe .team
+                        time_fora = linha.select('td')[4].select_one(
+                            "span.team").text.strip()
+
+                        link_confronto = "https://redscores.com" + \
+                            linha.select_one("td.text-md-right a")['href']
+
+                        odds_cells = linha.select("td")
+                        odd_h = odds_cells[12].text.strip() if len(
+                            odds_cells) > 12 and odds_cells[12].text.strip() != '-' else '0'
+                        odd_d = odds_cells[13].text.strip() if len(
+                            odds_cells) > 13 and odds_cells[13].text.strip() != '-' else '0'
+                        odd_a = odds_cells[14].text.strip() if len(
+                            odds_cells) > 14 and odds_cells[14].text.strip() != '-' else '0'
+
+                        lista_de_jogos.append({
+                            "id_jogo": id_jogo, "liga": nome_liga_completo, "hora": hora,
+                            "home": time_casa, "away": time_fora,
+                            "link_confronto": link_confronto,
+                            "odd_h": odd_h, "odd_d": odd_d, "odd_a": odd_a,
+                        })
+                    except (AttributeError, IndexError, TypeError):
+                        # Se uma linha específica falhar na extração, ignora e continua
+                        continue
+            except Exception:
+                continue
+
     finally:
-        driver.quit()
+        if driver:
+            driver.quit()
 
-    return links_dos_times
-
+    return lista_de_jogos
 
 # ==========================
 # Raspagem de jogos de um time
 # ==========================
-def raspar_dados_time(time_url, pais, limite_jogos=50):
-    jogos_raspados = []
-    edge_options = Options()
-    edge_options.add_argument("--headless")
-    edge_options.add_argument("--window-size=1920,1080")
-    # Esta opção oculta os erros internos do Edge (linhas vermelhas)
-    edge_options.add_experimental_option('excludeSwitches', ['enable-logging'])
-    edge_options.add_argument("--log-level=3")
+
+
+def obter_links_de_equipa_do_confronto(url_confronto):
+    """
+    Visita a página de um confronto e extrai os links das páginas das duas equipas.
+    Usa uma espera passiva (time.sleep) para evitar crashes.
+    """
+    driver = _iniciar_driver()
+    if not driver:
+        return None, None
 
     try:
-        caminho_driver = "./msedgedriver.exe"
-        servico = EdgeService(executable_path=caminho_driver)
-        driver = webdriver.Edge(service=servico, options=edge_options)
+        driver.get(url_confronto)
+
+        # Substituímos o WebDriverWait por time.sleep
+        print(f"  -> A aguardar a página do confronto: {url_confronto}")
+        time.sleep(8)
+
+        html_content = driver.page_source
+        if not html_content or "<body" not in html_content.lower():
+            print(f"  -> ERRO: Conteúdo vazio para {url_confronto}")
+            return None, None
+
+        soup = BeautifulSoup(html_content, 'html.parser')
+        # --- LÓGICA CORRIGIDA AQUI ---
+        # Procuramos diretamente pelos links dentro dos divs com a classe que você encontrou.
+        # Este seletor encontra todos os <a> que estão dentro de um <div class="match-detail__name">
+        seletor_correto = "div.match-detail__name a"
+        links_equipa = soup.select(seletor_correto)
+
+        if len(links_equipa) >= 2:
+            link_home = "https://redscores.com" + links_equipa[0]['href']
+            link_away = "https://redscores.com" + links_equipa[1]['href']
+            return link_home, link_away
+        else:
+            print(
+                f"-> AVISO: Encontrados {len(links_equipa)} links de equipa em {url_confronto}. Esperava 2.")
+            return None, None
+
     except Exception as e:
-        print(f"Erro ao iniciar o WebDriver: {e}")
-        return []
+        print(f"  -> ERRO ao obter links de equipa de {url_confronto}: {e}")
+        return None, None
+    finally:
+        if driver:
+            driver.quit()
+
+
+def raspar_dados_time(time_url, pais, jogos_existentes, limite_jogos=50):
+    jogos_raspados = []
+    driver = _iniciar_driver()
+    if not driver:
+        return jogos_raspados
 
     try:
         driver.get(time_url)
 
-        # Loop para clicar em "see more"
         while True:
             try:
                 jogos_atuais = driver.find_elements(
@@ -127,33 +246,37 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
                     break
 
                 see_more_button = WebDriverWait(driver, 5).until(
-                    EC.element_to_be_clickable(
-                        (By.CLASS_NAME, "link-see-more"))
-                )
+                    EC.element_to_be_clickable((By.CLASS_NAME, "link-see-more")))
                 driver.execute_script("arguments[0].click();", see_more_button)
-                WebDriverWait(driver, 5).until(
-                    lambda d: len(d.find_elements(
-                        By.CSS_SELECTOR, "div.match-grid__bottom tbody tr")) > len(jogos_atuais)
-                )
+                WebDriverWait(driver, 5).until(lambda d: len(d.find_elements(
+                    By.CSS_SELECTOR, "div.match-grid__bottom tbody tr")) > len(jogos_atuais))
             except Exception:
                 break
 
-        html_completo = driver.page_source
-        soup = BeautifulSoup(html_completo, 'html.parser')
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
         match_grid = soup.find('div', class_='match-grid__bottom')
 
         if match_grid:
-            linhas_de_jogo = match_grid.select('tbody tr')
-            for linha in linhas_de_jogo[:limite_jogos]:
+            for linha in match_grid.select('tbody tr'):
                 try:
                     celulas = linha.find_all('td')
                     if len(celulas) > 10:
                         data = celulas[0].text.strip()
-                        liga_img = celulas[1].find('img')
-                        liga = liga_img['alt'] if liga_img else 'N/A'
                         time_casa = celulas[2].text.strip()
-                        placar_texto = celulas[3].text.strip()
                         time_fora = celulas[4].text.strip()
+
+                        data_padronizada = _formatar_data(data)
+                        home_normalizado = " ".join(time_casa.split()).title()
+                        away_normalizado = " ".join(time_fora.split()).title()
+                        identificador_jogo_atual = (
+                            data_padronizada, home_normalizado, away_normalizado)
+
+                        if identificador_jogo_atual in jogos_existentes:
+                            break
+
+                        liga = celulas[1].find(
+                            'img')['alt'] if celulas[1].find('img') else 'N/A'
+                        placar_texto = celulas[3].text.strip()
                         placar_ht = celulas[5].text.strip()
                         chutes = celulas[6].text.strip()
                         chutes_gol = celulas[7].text.strip()
@@ -164,27 +287,18 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
                         odd_a = celulas[13].text.strip()
 
                         jogos_raspados.append({
-                            "Liga": f"{pais} - {liga}",
-                            "Data": data,
-                            "Home": time_casa,
-                            "Away": time_fora,
-                            "Placar_FT": placar_texto,
-                            "Placar_HT": placar_ht,
-                            "Chutes": chutes,
-                            "Chutes_Gol": chutes_gol,
-                            "Ataques": ataques,
-                            "Escanteios": escanteios,
-                            "Odd_H_str": odd_h,
-                            "Odd_D_str": odd_d,
-                            "Odd_A_str": odd_a
+                            "Liga": f"{pais} - {liga}", "Data": data, "Home": time_casa, "Away": time_fora,
+                            "Placar_FT": placar_texto, "Placar_HT": placar_ht, "Chutes": chutes,
+                            "Chutes_Gol": chutes_gol, "Ataques": ataques, "Escanteios": escanteios,
+                            "Odd_H_str": odd_h, "Odd_D_str": odd_d, "Odd_A_str": odd_a
                         })
                 except Exception:
                     continue
-
     except Exception as e:
-        print(f"Ocorreu um erro geral com o Selenium: {e}")
+        print(f"Ocorreu um erro geral com o Selenium em {time_url}: {e}")
     finally:
-        driver.quit()
+        if driver:
+            driver.quit()
 
     return jogos_raspados
 
@@ -195,28 +309,12 @@ def raspar_dados_time(time_url, pais, limite_jogos=50):
 def processar_dados_raspados(lista_de_jogos):
     jogos_processados = []
     for jogo in lista_de_jogos:
-        if jogo is None:
-            continue
         try:
             data_padronizada = _formatar_data(jogo['Data'])
             if data_padronizada is None:
                 continue
 
-
-            # 1. Normaliza o nome da liga raspada
             liga = " ".join(jogo['Liga'].split()).title()
-
-            # 2. Prepara a sua lista de ligas permitidas para uma comparação sem erros de maiúsculas/minúsculas
-            ligas_permitidas_lower = {l.lower() for l in cfg.LIGAS_PERMITIDAS}
-
-            # 3. Linha de depuração para ver o que está a ser comparado
-            #print(f"A verificar se '{liga.lower()}' está em {ligas_permitidas_lower}...")
-
-            # 4. Verificando os nomes das ligas permitidas
-            if liga.lower() not in ligas_permitidas_lower:
-                # Linha de depuração para ver o que é rejeitado
-                #print(f" -> REJEITADA: '{liga}'")
-                continue
 
             placar_ft = [int(p.strip()) for p in jogo['Placar_FT'].split('-')]
             placar_ht = [int(p.strip()) for p in jogo['Placar_HT'].split('-')]
@@ -227,38 +325,29 @@ def processar_dados_raspados(lista_de_jogos):
             escanteios = [int(p.strip())
                           for p in jogo['Escanteios'].split('-')]
 
-            odd_h = float(jogo['Odd_H_str'].replace(",", ".")) if jogo['Odd_H_str'].replace(
-                ".", "", 1).isdigit() else 0.0
-            odd_d = float(jogo['Odd_D_str'].replace(",", ".")) if jogo['Odd_D_str'].replace(
-                ".", "", 1).isdigit() else 0.0
-            odd_a = float(jogo['Odd_A_str'].replace(",", ".")) if jogo['Odd_A_str'].replace(
-                ".", "", 1).isdigit() else 0.0
+            odd_h = float(
+                jogo['Odd_H_str']) if jogo['Odd_H_str'] and jogo['Odd_H_str'] != '-' else 0.0
+            odd_d = float(
+                jogo['Odd_D_str']) if jogo['Odd_D_str'] and jogo['Odd_D_str'] != '-' else 0.0
+            odd_a = float(
+                jogo['Odd_A_str']) if jogo['Odd_A_str'] and jogo['Odd_A_str'] != '-' else 0.0
 
             home = " ".join(jogo['Home'].split()).title()
             away = " ".join(jogo['Away'].split()).title()
 
             jogos_processados.append({
-                "Liga": liga,
-                "Data": data_padronizada,
-                "Home": home,
-                "Away": away,
-                "H_Gols_FT": placar_ft[0],
-                "A_Gols_FT": placar_ft[1],
-                "H_Gols_HT": placar_ht[0],
-                "A_Gols_HT": placar_ht[1],
-                "H_Chute": chutes[0],
-                "A_Chute": chutes[1],
-                "H_Chute_Gol": chutes_gol[0],
-                "A_Chute_Gol": chutes_gol[1],
-                "H_Ataques": ataques[0],
-                "A_Ataques": ataques[1],
-                "H_Escanteios": escanteios[0],
-                "A_Escanteios": escanteios[1],
-                "Odd_H": odd_h,
-                "Odd_D": odd_d,
-                "Odd_A": odd_a
+                "Liga": liga, "Data": data_padronizada, "Home": home, "Away": away,
+                "H_Gols_FT": placar_ft[0], "A_Gols_FT": placar_ft[1],
+                "H_Gols_HT": placar_ht[0], "A_Gols_HT": placar_ht[1],
+                "H_Chute": chutes[0], "A_Chute": chutes[1],
+                "H_Chute_Gol": chutes_gol[0], "A_Chute_Gol": chutes_gol[1],
+                "H_Ataques": ataques[0], "A_Ataques": ataques[1],
+                "H_Escanteios": escanteios[0], "A_Escanteios": escanteios[1],
+                "Odd_H": odd_h, "Odd_D": odd_d, "Odd_A": odd_a
             })
-        except (ValueError, IndexError):
+        except Exception as e:
+            # DIAGNÓSTICO: Imprime o erro exato que ocorreu
+            print(f"[DIAGNÓSTICO] ERRO ao processar o jogo acima: {e}")
             continue
 
     return pd.DataFrame(jogos_processados)
