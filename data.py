@@ -209,7 +209,9 @@ def obter_links_equipes_confronto(url_confronto):
 # ==========================
 # Obter dados dos times
 # ==========================
-def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50):
+
+
+def raspar_dados_time(time_url, liga_principal, jogos_existentes, ligas_permitidas_set, limite_jogos=50):
     jogos_raspados = []
     driver = _iniciar_driver()
     if not driver:
@@ -240,6 +242,28 @@ def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50)
                 try:
                     celulas = linha.find_all('td')
                     if len(celulas) > 10:
+                        liga_img = celulas[1].find('img')
+                        liga_local = liga_img['alt'].strip(
+                        ) if liga_img else ''
+                        if not liga_local:
+                            continue
+
+                        liga_final_para_salvar = None
+
+                        # 1. Verifica se a liga local pertence à liga principal da equipa
+                        if liga_local.lower() in liga_principal.lower():
+                            liga_final_para_salvar = liga_principal
+                        else:
+                            # 2. Se não, verifica se a liga local (ex: Copa Libertadores) está na lista de permitidas
+                            for liga_permitida in ligas_permitidas_set:
+                                if liga_local.lower() in liga_permitida.lower():
+                                    liga_final_para_salvar = liga_permitida
+                                    break
+
+                        # 3. Se a liga do jogo não for encontrada nas nossas regras, pula para a próxima linha
+                        if not liga_final_para_salvar:
+                            continue
+
                         data = celulas[0].text.strip()
                         time_casa = celulas[2].text.strip()
                         time_fora = celulas[4].text.strip()
@@ -264,7 +288,7 @@ def raspar_dados_time(time_url, liga_correta, jogos_existentes, limite_jogos=50)
                         odd_a = celulas[13].text.strip()
 
                         jogos_raspados.append({
-                            "Liga": liga_correta, "Data": data, "Home": time_casa, "Away": time_fora,
+                            "Liga": liga_final_para_salvar, "Data": data, "Home": time_casa, "Away": time_fora,
                             "Placar_FT": placar_texto, "Placar_HT": placar_ht, "Chutes": chutes,
                             "Chutes_Gol": chutes_gol, "Ataques": ataques, "Escanteios": escanteios,
                             "Odd_H_str": odd_h, "Odd_D_str": odd_d, "Odd_A_str": odd_a

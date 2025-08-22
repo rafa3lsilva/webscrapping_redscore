@@ -122,8 +122,10 @@ def rotina_diaria_noturna():
     jogos_existentes = carregar_jogos_existentes()
     todos_os_jogos_novos = []
 
+    ligas_permitidas = cfg.LIGAS_PERMITIDAS
+
     with ThreadPoolExecutor(max_workers=5) as executor:
-        futures = {executor.submit(dt.raspar_dados_time, url, liga_correta, jogos_existentes, 20): (
+        futures = {executor.submit(dt.raspar_dados_time, url, liga_correta, jogos_existentes, ligas_permitidas, 20): (
             url, liga_correta) for url, liga_correta in equipas_a_visitar.items()}
         for future in tqdm(as_completed(futures), total=len(futures), desc="Atualizando Histórico das Equipas"):
             try:
