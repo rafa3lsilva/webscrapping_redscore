@@ -79,3 +79,5 @@ LIGAS_PERMITIDAS = {
     # "Suíça - Super League",
     # "Turquia - Super Lig",
 }
+
+LIMITE_JOGOS_POR_TIME = 50

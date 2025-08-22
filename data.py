@@ -1,7 +1,7 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from datetime import datetime
+import ligas_config as cfg
 import os
 import time
 from selenium.webdriver.common.by import By
@@ -211,7 +211,7 @@ def obter_links_equipes_confronto(url_confronto):
 # ==========================
 
 
-def raspar_dados_time(time_url, liga_principal, jogos_existentes, ligas_permitidas_set, limite_jogos=50):
+def raspar_dados_time(time_url, liga_principal, jogos_existentes, ligas_permitidas_set, limite_jogos=cfg.LIMITE_JOGOS_POR_TIME):
     jogos_raspados = []
     driver = _iniciar_driver()
     if not driver:

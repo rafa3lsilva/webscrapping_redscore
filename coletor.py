@@ -1,5 +1,6 @@
 import pandas as pd
 import data as dt
+from datetime import date, timedelta
 import ligas_config as cfg
 import os
 import logging
@@ -7,6 +8,12 @@ import sqlite3
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from urllib.parse import urlparse
+import warnings
+warnings.filterwarnings('ignore')
+
+
+# Definindo a data de amanhã
+dia = date.today()+timedelta(days=1)
 
 # ======================================== 
 # Configuração de Logging e Banco de Dados
@@ -62,7 +69,7 @@ def exportar_para_csv(nome_db=NOME_DB, nome_csv="dados_redscore.csv"):
         f"\n✅ Exportado histórico de jogos para {nome_csv} ({len(df)} linhas)")
 
 # Função para exportar jogos de amanhã para um arquivo CSV
-def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv="proximos_jogos.csv"):
+def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv=f"jogos_do_dia/Jogos_do_Dia_RedScore_{dia}.csv"):
     """
     Converte a lista de jogos de amanhã para um DataFrame e salva como CSV.
     """
@@ -125,7 +132,7 @@ def rotina_diaria_noturna():
     ligas_permitidas = cfg.LIGAS_PERMITIDAS
 
     with ThreadPoolExecutor(max_workers=5) as executor:
-        futures = {executor.submit(dt.raspar_dados_time, url, liga_correta, jogos_existentes, ligas_permitidas, 20): (
+        futures = {executor.submit(dt.raspar_dados_time, url, liga_correta, jogos_existentes, ligas_permitidas, cfg.LIMITE_JOGOS_POR_TIME): (
             url, liga_correta) for url, liga_correta in equipas_a_visitar.items()}
         for future in tqdm(as_completed(futures), total=len(futures), desc="Atualizando Histórico das Equipas"):
             try:
