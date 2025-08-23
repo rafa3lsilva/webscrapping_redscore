@@ -354,3 +354,7 @@
 2025-08-21 22:38:28,276 [INFO] Exportada agenda de próximos jogos para proximos_jogos.csv (24 linhas).
 2025-08-21 22:46:24,515 [INFO] Dados salvos/atualizados na tabela 'jogos' (691 linhas).
 2025-08-21 22:46:24,532 [INFO] --- Rotina diária concluída ---
+2025-08-22 20:14:17,668 [INFO] --- Iniciando rotina diária de atualização direcionada ---
+2025-08-22 20:14:44,484 [INFO] Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-08-23.csv (66 linhas).
+2025-08-22 20:38:57,160 [INFO] Dados salvos/atualizados na tabela 'jogos' (2169 linhas).
+2025-08-22 20:38:57,217 [INFO] --- Rotina diária concluída ---
