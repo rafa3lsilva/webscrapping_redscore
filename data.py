@@ -286,7 +286,8 @@ def raspar_dados_time(driver, time_url, liga_principal, jogos_existentes, ligas_
                     continue
     except Exception as e:
         print(f"Ocorreu um erro geral com o Selenium em {time_url}: {e}")
- 
+    return jogos_raspados
+
 # ==========================
 # Processamento dos dados
 # ==========================

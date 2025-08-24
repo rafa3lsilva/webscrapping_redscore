@@ -1,31 +1,31 @@
 LIGAS_PERMITIDAS = {
-    "Brasil - Serie A", # verificada
-    "Brasil - Serie B", # verificada
+    "Brasil - Serie A", 
+    "Brasil - Serie B", 
     "Brasil - Serie C",
-    "Argentina - Superliga", # verificada
+    "Argentina - Superliga",
     "Argentina - Primera B Nacional",
-    "Bolívia - Liga De Futbol Prof", # verificada
-    "Chile - Primera Division", # verificada
-    "Colômbia - Liga BetPlay", # verificada
-    "Equador - Liga Pro", # verificada
-    "Paraguai - Division 1", # verificada
-    "Peru - Primera Division", # verificada
-    "Venezuela - Primera Division", # verificada
-    "EUA - Major League Soccer", # verificada
-    "Japão - J-League", # verificada
-    "Japão - J2-League", # verificada
-    "Coréia do Sul - K-League 1", # verificada
-    "Coréia do Sul - K League 2", # verificada
-    "China - Super League", # verificada
-    "Estônia - Meistriliiga", # verificada
-    "Finlândia - Veikkausliiga", # verificada
-    "Irlanda - Premier Division", # verificada
-    "Islândia - Pepsideild", # verificada
-    "Lituânia - A Lyga", # verificada
-    "Noruega - Eliteserien", # verificada
-    "Noruega - Obos-Ligaen", # verificada
-    "Suécia - Allsvenskan", # verificada
-    "Suécia - Superettan", # verificada
+    "Bolívia - Liga De Futbol Prof",
+    "Chile - Primera Division",
+    "Colômbia - Liga BetPlay",
+    "Equador - Liga Pro",
+    "Paraguai - Division 1",
+    "Peru - Primera Division",
+    "Venezuela - Primera Division",
+    "EUA - Major League Soccer",
+    "Japão - J-League",
+    "Japão - J2-League",
+    "Coréia do Sul - K-League 1",
+    "Coréia do Sul - K League 2",
+    "China - Super League",
+    "Estônia - Meistriliiga",
+    "Finlândia - Veikkausliiga",
+    "Irlanda - Premier Division",
+    "Islândia - Pepsideild",
+    "Lituânia - A Lyga",
+    "Noruega - Eliteserien",
+    "Noruega - Obos-Ligaen",
+    "Suécia - Allsvenskan",
+    "Suécia - Superettan",
 
 
     # "Argélia - Ligue 1",
