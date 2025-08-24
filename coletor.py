@@ -18,8 +18,15 @@ dia = date.today()+timedelta(days=1)
 # ======================================== 
 # Configuração de Logging e Banco de Dados
 # ========================================
-logging.basicConfig(filename="coletor.log", level=logging.INFO,
-                    format="%(asctime)s [%(levelname)s] %(message)s")
+logging.basicConfig(
+    filename="coletor.log",
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+)
+
+log = logging.getLogger(__name__)
+log.info("Coletor iniciado")
+
 NOME_DB = "dados.db"
 
 # ================================

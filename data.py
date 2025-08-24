@@ -9,6 +9,9 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import logging
+
+log = logging.getLogger(__name__)
 
 # ==========================
 # Funções Auxiliares
@@ -73,15 +76,22 @@ def _converter_stat_para_int(stat_string):
 # ==========================
 # Função de Raspagem
 # ==========================
+
 def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
-    """Versão FINAL com seletores de jogo corrigidos."""
+    """
+    Versão FINAL OTIMIZADA COM LOGGING.
+    Expande ligas colapsadas verificando o estado real do botão (rotate(0deg))
+    e espera até que os jogos estejam carregados antes de prosseguir.
+    """
     lista_de_jogos = []
     driver = _iniciar_driver()
     if not driver:
+        log.error("Falha ao iniciar o driver")
         return lista_de_jogos
+
     try:
         driver.get(url_amanha)
-        print("Página aberta. A procurar por banner de cookies...")
+        log.info("Página aberta. A procurar por banner de cookies...")
         try:
             seletor_botao_aceitar = "div.cookieinfo-close"
             botao_aceitar = WebDriverWait(driver, 5).until(
@@ -89,24 +99,24 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
                     (By.CSS_SELECTOR, seletor_botao_aceitar))
             )
             botao_aceitar.click()
-            print("Banner de cookies aceite com sucesso.")
+            log.info("Banner de cookies aceite com sucesso.")
             time.sleep(2)
         except Exception:
-            print("Nenhum banner de cookies encontrado. A continuar...")
-        print("A aguardar para a página estabilizar...")
+            log.info("Nenhum banner de cookies encontrado. A continuar...")
+
+        log.info("A aguardar para a página estabilizar...")
         time.sleep(8)
 
-        html_content = driver.page_source
-        if not html_content or "<body" not in html_content.lower():
-            print("ERRO: O conteúdo da página está vazio ou é inválido.")
-            return lista_de_jogos
+        # Normaliza ligas permitidas
+        ligas_normalizadas = {l.lower() for l in ligas_permitidas_set}
 
-        soup = BeautifulSoup(html_content, 'html.parser')
-
-        blocos_de_liga = soup.find_all(
+        # --- FASE A: ENCONTRAR E EXPANDIR LIGAS ---
+        log.info("Fase A: Procurando e expandindo ligas de interesse...")
+        soup_inicial = BeautifulSoup(driver.page_source, 'html.parser')
+        blocos_de_liga_inicial = soup_inicial.find_all(
             'div', id=lambda x: x and x.startswith('league_'))
 
-        for bloco in blocos_de_liga:
+        for bloco in blocos_de_liga_inicial:
             try:
                 pais_el = bloco.select_one("span.d-block.d-md-inline")
                 pais = pais_el.text.strip() if pais_el else ''
@@ -114,11 +124,67 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
                 liga = liga_el.text.strip() if liga_el else ''
                 nome_liga_completo = f"{pais} - {liga}" if pais else liga
 
-                if nome_liga_completo.lower() not in {l.lower() for l in ligas_permitidas_set}:
+                if nome_liga_completo.lower() not in ligas_normalizadas:
                     continue
 
-                print(
-                    f"✅ Liga Válida Encontrada: {nome_liga_completo}. A processar jogos...")
+                id_do_bloco = bloco['id']
+                seletor_do_botao = f"#{id_do_bloco} a.toggle-table"
+
+                try:
+                    elemento_botao = driver.find_element(
+                        By.CSS_SELECTOR, seletor_do_botao)
+                    svg_dentro_do_botao = elemento_botao.find_element(
+                        By.TAG_NAME, "svg")
+                    estilo_svg = svg_dentro_do_botao.get_attribute(
+                        "style") or ""
+
+                    if "rotate(0deg)" in estilo_svg:  # fechado
+                        log.info(
+                            f" -> {nome_liga_completo} está FECHADA. Expandindo...")
+                        driver.execute_script(
+                            "arguments[0].click();", elemento_botao)
+
+                        try:
+                            WebDriverWait(driver, 10).until(
+                                EC.presence_of_element_located(
+                                    (By.CSS_SELECTOR,
+                                     f"#{id_do_bloco} tbody[id^='xmatch_']")
+                                )
+                            )
+                            log.info(
+                                f" -> {nome_liga_completo} expandida com sucesso.")
+                        except:
+                            log.warning(
+                                f" -> {nome_liga_completo} não expandiu a tempo.")
+                    else:
+                        log.info(f" -> {nome_liga_completo} já está ABERTA.")
+                except Exception as e:
+                    log.error(
+                        f" -> Erro ao verificar/clicar {nome_liga_completo}: {e}")
+
+            except Exception:
+                continue
+
+        # --- FASE B: EXTRAIR OS JOGOS ---
+        log.info("Fase B: Extraindo jogos...")
+        time.sleep(2)
+
+        html_final = driver.page_source
+        soup_final = BeautifulSoup(html_final, 'html.parser')
+
+        blocos_de_liga_final = soup_final.find_all(
+            'div', id=lambda x: x and x.startswith('league_'))
+
+        for bloco in blocos_de_liga_final:
+            try:
+                pais_el = bloco.select_one("span.d-block.d-md-inline")
+                pais = pais_el.text.strip() if pais_el else ''
+                liga_el = bloco.select_one("span.font-bold")
+                liga = liga_el.text.strip() if liga_el else ''
+                nome_liga_completo = f"{pais} - {liga}" if pais else liga
+
+                if nome_liga_completo.lower() not in ligas_normalizadas:
+                    continue
 
                 corpos_de_jogo = bloco.find_all(
                     'tbody', id=lambda x: x and x.startswith('xmatch_'))
@@ -129,7 +195,6 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
                         continue
 
                     try:
-                        # Extração de informações do jogo(Id, data/hora, equipes, link do confronto)
                         id_jogo = corpo_jogo['id'].replace('xmatch_', '')
                         hora = linha.select('td')[1].text.strip()
                         time_casa = linha.select_one(
@@ -139,28 +204,40 @@ def raspar_jogos_de_amanha(url_amanha, ligas_permitidas_set):
                         link_confronto = "https://redscores.com" + \
                             linha.select_one("td.text-md-right a")['href']
 
-                        # Extração das odds
                         odds_cells = linha.select("td")
                         odd_h = odds_cells[12].text.strip() if len(
-                            odds_cells) > 12 and odds_cells[12].text.strip() != '-' else '0'
+                            odds_cells) > 12 and odds_cells[12].text.strip() != '-' else None
                         odd_d = odds_cells[13].text.strip() if len(
-                            odds_cells) > 13 and odds_cells[13].text.strip() != '-' else '0'
+                            odds_cells) > 13 and odds_cells[13].text.strip() != '-' else None
                         odd_a = odds_cells[14].text.strip() if len(
-                            odds_cells) > 14 and odds_cells[14].text.strip() != '-' else '0'
+                            odds_cells) > 14 and odds_cells[14].text.strip() != '-' else None
 
                         lista_de_jogos.append({
-                            "id_jogo": id_jogo, "liga": nome_liga_completo, "hora": hora,
-                            "home": time_casa, "away": time_fora,
+                            "id_jogo": id_jogo,
+                            "liga": nome_liga_completo,
+                            "hora": hora,
+                            "home": time_casa,
+                            "away": time_fora,
                             "link_confronto": link_confronto,
-                            "odd_h": odd_h, "odd_d": odd_d, "odd_a": odd_a,
+                            "odd_h": odd_h,
+                            "odd_d": odd_d,
+                            "odd_a": odd_a,
                         })
-                    except (AttributeError, IndexError, TypeError):
+                    except Exception as e:
+                        log.error(
+                            f" -> Erro ao extrair jogo em {nome_liga_completo}: {e}")
                         continue
             except Exception:
                 continue
+
+    except Exception as e:
+        log.error(f"Ocorreu um erro inesperado: {e}")
     finally:
-        if driver:
+        try:
             driver.quit()
+        except:
+            pass
+
     return lista_de_jogos
 
 # ==========================

@@ -2859,3 +2859,1386 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 06-08-2024,UCV,Hermanos Colmenares,Venezuela - Primera Division,0,0,0,0,21,6,3,3,88,48,6,2,1.57,3.5,5.25
 24-07-2024,Metropolitanos,UCV,Venezuela - Primera Division,0,0,0,0,11,5,4,1,79,50,8,2,2.45,2.5,3.4
 18-07-2024,UCV,Angostura,Venezuela - Primera Division,1,0,0,0,8,16,2,4,68,70,6,6,2.1,2.9,3.3
+03-08-2025,Corinthians,Fortaleza,Brasil - Serie A,1,1,0,1,18,8,5,3,77,20,5,3,2.0,3.1,4.2
+26-07-2025,Botafogo,Corinthians,Brasil - Serie A,1,1,1,0,11,12,3,5,47,29,6,2,1.57,3.6,7.0
+16-08-2025,Corinthians,Bahia,Brasil - Serie A,1,2,1,2,24,7,8,5,95,11,9,1,2.62,3.1,2.9
+17-08-2025,Santos,Vasco da Gama,Brasil - Serie A,0,6,0,1,7,14,2,9,27,26,3,3,1.8,3.6,4.5
+10-08-2025,Vasco da Gama,Atlético Mineiro,Brasil - Serie A,1,1,1,1,15,17,4,4,32,50,6,10,2.8,2.9,2.8
+02-08-2025,Mirassol,Vasco da Gama,Brasil - Serie A,3,2,0,0,13,11,4,6,44,49,4,4,1.8,3.3,5.0
+12-07-2025,Vasco da Gama,Botafogo,Brasil - Serie A,0,2,0,0,11,21,5,6,45,34,5,3,3.6,3.2,2.1
+12-06-2025,São Paulo,Vasco da Gama,Brasil - Serie A,1,3,0,2,11,14,3,9,37,28,4,3,1.9,3.1,4.75
+17-05-2025,Vasco da Gama,Fortaleza,Brasil - Serie A,3,0,1,0,14,10,7,3,37,52,4,7,2.4,3.0,3.25
+10-05-2025,Vitória,Vasco da Gama,Brasil - Serie A,2,1,0,1,12,16,4,5,39,75,6,3,1.95,3.4,4.1
+04-05-2025,Vasco da Gama,Palmeiras,Brasil - Serie A,0,1,0,0,13,16,5,2,42,58,7,11,7.0,3.5,1.57
+19-04-2025,Vasco da Gama,Flamengo,Brasil - Serie A,0,0,0,0,6,17,1,7,20,83,2,11,8.5,4.33,1.4
+12-04-2025,Vasco da Gama,Sport Recife,Brasil - Serie A,3,1,2,0,10,18,6,2,28,62,1,10,1.9,3.4,4.2
+05-04-2025,Corinthians,Vasco da Gama,Brasil - Serie A,3,0,2,0,6,10,3,3,35,34,1,4,1.57,4.1,5.75
+30-03-2025,Vasco da Gama,Santos,Brasil - Serie A,2,1,0,1,12,11,5,2,64,45,2,3,2.25,3.1,3.4
+08-12-2024,Cuiabá,Vasco da Gama,Brasil - Serie A,1,2,1,2,11,11,4,4,27,38,2,5,3.6,3.2,2.2
+20-08-2025,Juventude,Vasco da Gama,Brasil - Serie A,2,0,2,0,10,14,5,2,17,53,1,5,4.1,3.4,1.95
+16-08-2025,Vitória,Juventude,Brasil - Serie A,2,2,1,0,18,13,4,4,45,41,4,6,1.7,3.6,5.25
+11-08-2025,Juventude,Corinthians,Brasil - Serie A,2,1,1,0,12,11,4,3,32,39,3,2,4.1,3.2,1.95
+04-08-2025,Santos,Juventude,Brasil - Serie A,3,1,2,1,19,20,8,10,41,38,3,8,1.38,4.75,7.5
+27-07-2025,Bahia,Juventude,Brasil - Serie A,3,0,1,0,17,3,8,0,53,18,2,1,1.28,5.5,12.0
+24-07-2025,Juventude,São Paulo,Brasil - Serie A,0,1,0,0,8,16,0,3,24,53,4,8,4.75,3.25,1.8
+17-08-2025,Botafogo,Palmeiras,Brasil - Serie A,0,1,0,1,15,9,6,2,57,24,4,3,2.87,2.87,2.8
+09-08-2025,Fortaleza,Botafogo,Brasil - Serie A,0,5,0,2,9,21,1,12,26,46,2,8,2.6,3.0,3.0
+16-08-2025,Sport Recife,São Paulo,Brasil - Serie A,2,2,1,0,8,18,5,8,42,48,4,10,2.0,3.25,4.1
+09-08-2025,São Paulo,Vitória,Brasil - Serie A,2,0,1,0,23,5,3,1,34,32,4,3,1.7,3.5,5.75
+25-06-2025,Toronto,New York RB,Eua - Major League Soccer,1,1,0,1,13,8,2,5,1,8,4,6,4.0,3.4,1.95
+31-05-2025,New York RB,Atlanta United,Eua - Major League Soccer,2,0,2,0,7,11,3,3,1,8,1,8,1.95,3.75,3.7
+28-05-2025,New York RB,Charlotte,Eua - Major League Soccer,4,2,2,1,11,12,5,6,12,4,5,2,2.2,3.5,3.2
+22-03-2025,New York RB,Toronto,Eua - Major League Soccer,2,1,1,0,12,5,6,2,61,33,5,1,1.7,3.5,5.5
+08-03-2025,Atlanta United,New York RB,Eua - Major League Soccer,0,0,0,0,10,7,6,0,31,28,5,2,1.9,3.9,3.75
+05-10-2024,Atlanta United,New York RB,Eua - Major League Soccer,2,1,0,0,20,6,6,2,45,24,9,4,2.35,3.6,2.87
+02-10-2024,Toronto,New York RB,Eua - Major League Soccer,1,4,0,1,12,10,3,8,37,42,4,6,2.8,3.4,2.5
+21-09-2024,New York RB,Atlanta United,Eua - Major League Soccer,2,2,1,1,17,10,10,2,72,20,8,2,1.65,4.33,4.75
+12-07-2025,Sporting KC,Seattle Sounders,Eua - Major League Soccer,2,3,0,3,23,13,9,7,59,41,7,4,0.0,0.0,0.0
+25-06-2025,Sporting KC,Charlotte,Eua - Major League Soccer,2,1,0,1,19,18,4,5,58,47,5,4,2.45,3.7,2.62
+15-09-2024,Seattle Sounders,Sporting KC,Eua - Major League Soccer,2,0,2,0,15,13,5,2,48,59,9,11,1.55,4.2,6.0
+07-09-2024,New York RB,Sporting KC,Eua - Major League Soccer,1,1,0,0,11,4,3,1,49,45,4,2,1.66,4.0,4.75
+17-07-2024,Vancouver Whitecaps,Sporting KC,Eua - Major League Soccer,2,1,1,0,14,17,5,8,56,43,4,6,1.57,4.33,5.25
+13-07-2024,SJ Earthquakes,Sporting KC,Eua - Major League Soccer,1,2,0,0,11,13,1,4,40,54,8,7,2.0,3.8,3.4
+10-08-2025,Haugesund,Sarpsborg 08,Noruega - Eliteserien,3,2,0,0,7,29,5,6,27,83,2,11,4.75,4.5,1.55
+20-07-2025,Vålerenga,Haugesund,Noruega - Eliteserien,3,0,0,0,30,8,13,4,61,29,10,7,1.3,5.25,7.5
+06-07-2025,Sarpsborg 08,Haugesund,Noruega - Eliteserien,3,1,0,1,19,12,6,6,88,26,19,1,1.36,5.25,7.0
+29-06-2025,Haugesund,Kristiansund,Noruega - Eliteserien,0,0,0,0,9,8,3,1,53,41,5,4,3.1,3.7,2.1
+17-08-2025,Vålerenga,Sarpsborg 08,Noruega - Eliteserien,4,0,2,0,19,10,8,2,69,59,5,6,1.75,4.33,3.7
+27-07-2025,Bryne,Viking,Noruega - Eliteserien,1,3,0,1,13,9,5,5,44,49,2,5,3.6,3.8,1.9
+20-07-2025,Tromsø,Bryne,Noruega - Eliteserien,3,1,1,0,12,10,6,6,57,33,5,3,1.53,4.1,5.75
+13-07-2025,Bryne,Vålerenga,Noruega - Eliteserien,1,0,0,0,15,12,6,4,49,55,6,2,2.55,3.4,2.6
+22-06-2025,Sarpsborg 08,Bryne,Noruega - Eliteserien,1,1,1,1,6,10,3,4,57,38,3,2,1.7,4.1,4.33
+15-08-2025,Strømsgodset,Bodø / Glimt,Noruega - Eliteserien,0,5,0,3,1,30,1,12,12,180,1,16,7.0,5.5,1.36
+03-08-2025,Strømsgodset,Haugesund,Noruega - Eliteserien,2,0,1,0,22,6,11,3,54,40,5,4,1.36,5.5,6.5
+30-07-2025,Bodø / Glimt,Strømsgodset,Noruega - Eliteserien,1,0,1,0,19,8,5,2,105,17,8,1,1.1,11.0,15.0
+13-07-2025,Strømsgodset,Tromsø,Noruega - Eliteserien,2,3,1,2,10,20,3,9,36,72,4,4,3.6,3.7,2.0
+05-07-2025,Viking,Strømsgodset,Noruega - Eliteserien,1,0,1,0,20,2,5,1,114,16,16,2,1.25,7.0,9.5
+29-06-2025,Strømsgodset,Vålerenga,Noruega - Eliteserien,0,2,0,1,4,16,1,3,24,59,4,3,2.62,3.7,2.4
+02-08-2025,Sarpsborg 08,Brann,Noruega - Eliteserien,1,4,0,1,13,31,4,11,41,104,3,14,2.75,3.75,2.3
+13-07-2025,Brann,Viking,Noruega - Eliteserien,3,1,2,0,16,8,4,3,53,54,5,2,2.15,3.7,3.0
+17-08-2025,Tromsø,Brann,Noruega - Eliteserien,1,2,1,0,12,10,4,2,43,56,4,4,2.2,3.5,3.1
+09-08-2025,Bodø / Glimt,Tromsø,Noruega - Eliteserien,1,1,1,1,11,5,2,3,68,23,12,3,1.4,5.0,6.5
+02-08-2025,Tromsø,Fredrikstad,Noruega - Eliteserien,0,0,0,0,12,12,5,3,57,35,1,5,1.7,3.9,5.0
+25-07-2025,Fredrikstad,Strømsgodset,Noruega - Eliteserien,3,2,2,1,21,10,5,4,80,23,7,1,1.7,4.1,4.33
+16-07-2025,Fredrikstad,Bodø / Glimt,Noruega - Eliteserien,0,1,0,0,9,25,3,6,42,93,3,8,4.5,4.33,1.61
+05-07-2025,Vålerenga,Fredrikstad,Noruega - Eliteserien,1,1,1,1,16,16,5,7,51,48,5,5,2.05,3.4,3.5
+29-06-2025,Fredrikstad,Tromsø,Noruega - Eliteserien,0,1,0,1,11,7,4,4,63,33,8,3,2.5,3.1,2.9
+22-06-2025,Viking,Fredrikstad,Noruega - Eliteserien,3,0,1,0,12,13,4,2,42,49,6,6,1.48,4.5,6.25
+01-06-2025,Fredrikstad,Sarpsborg 08,Noruega - Eliteserien,1,1,0,0,14,18,8,8,75,48,6,9,2.1,3.5,3.3
+03-08-2025,Molde,Bryne,Noruega - Eliteserien,2,0,0,0,17,8,6,2,64,36,13,2,1.61,4.1,5.0
+19-07-2025,Molde,Strømsgodset,Noruega - Eliteserien,4,1,3,1,13,5,4,2,72,32,6,5,1.4,5.0,6.5
+12-07-2025,Fredrikstad,Molde,Noruega - Eliteserien,4,2,0,1,13,11,6,6,70,31,7,4,2.55,3.3,2.75
+05-07-2025,Tromsø,Molde,Noruega - Eliteserien,1,0,0,0,16,2,3,0,17,21,2,2,2.35,3.6,2.75
+22-06-2025,Vålerenga,Molde,Noruega - Eliteserien,2,3,2,1,11,21,7,9,50,45,5,7,2.87,3.6,2.25
+01-06-2025,Molde,Viking,Noruega - Eliteserien,0,1,0,1,9,15,0,3,61,41,7,4,2.62,3.8,2.35
+29-05-2025,Brann,Molde,Noruega - Eliteserien,0,3,0,1,19,4,7,3,82,11,9,0,1.75,4.0,4.2
+16-05-2025,Molde,Kristiansund,Noruega - Eliteserien,0,1,0,1,21,7,7,2,71,20,7,0,1.38,4.75,7.5
+11-05-2025,Bryne,Molde,Noruega - Eliteserien,0,3,0,3,9,13,1,5,49,57,4,3,3.3,3.4,2.1
+04-05-2025,Molde,Haugesund,Noruega - Eliteserien,2,1,1,0,14,7,7,3,67,30,5,3,1.22,6.0,12.0
+03-08-2025,Sirius,Öster,Suécia - Allsvenskan,1,1,0,0,15,13,7,4,63,37,5,6,1.7,4.0,4.5
+27-07-2025,Mjällby,Sirius,Suécia - Allsvenskan,2,1,0,1,19,10,7,2,59,48,10,2,1.53,4.33,5.25
+14-07-2025,Sirius,Mjällby,Suécia - Allsvenskan,1,2,0,2,15,9,7,4,71,34,6,3,2.6,3.5,2.55
+28-06-2025,Öster,Sirius,Suécia - Allsvenskan,2,2,0,0,15,19,7,5,28,46,6,12,2.62,3.3,2.62
+24-05-2025,GAIS,Sirius,Suécia - Allsvenskan,2,1,0,0,28,9,10,4,82,26,9,2,1.95,3.7,3.5
+19-05-2025,Sirius,Norrköping,Suécia - Allsvenskan,1,2,1,2,25,8,7,3,82,9,14,2,2.05,3.7,3.3
+10-11-2024,GAIS,Sirius,Suécia - Allsvenskan,2,1,1,0,14,9,3,3,61,56,5,6,1.95,3.75,3.4
+03-11-2024,Sirius,Mjällby,Suécia - Allsvenskan,1,1,1,1,14,15,2,6,45,36,4,8,2.75,3.7,2.3
+03-10-2024,Norrköping,Sirius,Suécia - Allsvenskan,0,2,0,1,16,15,3,6,58,56,6,4,2.75,3.5,2.37
+25-08-2024,Sirius,Djurgården,Suécia - Allsvenskan,0,1,0,0,18,18,4,6,55,28,6,6,2.3,3.4,3.0
+11-08-2024,Sirius,Kalmar,Suécia - Allsvenskan,3,1,0,0,19,12,7,4,56,37,6,4,1.7,3.9,4.75
+27-07-2024,Malmö FF,Sirius,Suécia - Allsvenskan,0,1,0,0,26,11,9,3,80,34,8,10,1.27,5.75,9.0
+19-07-2024,Sirius,Malmö FF,Suécia - Allsvenskan,3,4,2,0,7,26,6,13,26,69,5,10,5.5,4.5,1.48
+13-07-2024,Sirius,GAIS,Suécia - Allsvenskan,3,1,1,0,15,23,5,6,32,57,6,10,2.1,3.6,3.3
+17-08-2025,Hammarby,GAIS,Suécia - Allsvenskan,1,2,1,1,15,10,5,5,60,37,7,2,1.83,3.8,3.9
+10-08-2025,Norrköping,Hammarby,Suécia - Allsvenskan,0,2,0,0,10,14,3,6,31,68,9,10,4.75,4.2,1.61
+13-07-2025,GAIS,Hammarby,Suécia - Allsvenskan,3,2,1,0,21,8,10,5,47,20,11,1,2.5,3.3,2.75
+22-05-2025,Hammarby,Mjällby,Suécia - Allsvenskan,1,2,1,1,26,9,7,5,72,27,10,3,1.66,4.1,4.5
+14-05-2025,Hammarby,Sirius,Suécia - Allsvenskan,3,2,1,1,16,11,3,4,78,37,10,3,1.7,4.0,4.33
+11-05-2025,Hammarby,Norrköping,Suécia - Allsvenskan,1,1,1,1,22,9,6,2,84,25,7,2,1.45,4.5,6.25
+04-05-2025,Öster,Hammarby,Suécia - Allsvenskan,0,3,0,3,9,18,1,9,28,66,3,8,6.5,4.2,1.48
+18-04-2025,Mjällby,Hammarby,Suécia - Allsvenskan,3,1,3,1,10,13,5,5,28,67,3,4,2.6,3.2,2.75
+26-10-2024,Sirius,Hammarby,Suécia - Allsvenskan,0,3,0,2,10,20,2,8,33,50,6,5,3.1,3.4,2.25
+16-09-2024,Hammarby,Norrköping,Suécia - Allsvenskan,1,1,1,0,18,11,4,6,65,33,10,6,1.5,4.33,6.25
+26-08-2024,Hammarby,GAIS,Suécia - Allsvenskan,0,0,0,0,8,13,1,5,71,37,7,6,1.75,3.8,4.2
+04-08-2024,Kalmar,Hammarby,Suécia - Allsvenskan,1,4,0,1,12,20,5,6,38,51,6,6,3.25,3.5,2.15
+17-08-2025,Mjällby,Djurgården,Suécia - Allsvenskan,1,1,0,1,11,14,4,5,67,47,4,5,2.15,3.5,3.2
+30-06-2025,Djurgården,Norrköping,Suécia - Allsvenskan,1,1,1,0,27,8,12,3,73,21,11,1,1.7,4.1,4.33
+15-05-2025,Djurgården,Mjällby,Suécia - Allsvenskan,1,3,1,1,7,21,3,9,45,43,8,7,2.3,3.5,2.9
+24-04-2025,Djurgården,Öster,Suécia - Allsvenskan,1,0,0,0,26,6,7,0,73,45,15,3,1.4,5.0,7.0
+21-04-2025,Djurgården,GAIS,Suécia - Allsvenskan,0,0,0,0,9,6,2,1,62,53,5,3,2.1,3.3,3.5
+13-04-2025,Hammarby,Djurgården,Suécia - Allsvenskan,2,0,1,0,14,5,5,3,65,32,5,4,2.25,3.25,3.1
+05-04-2025,Sirius,Djurgården,Suécia - Allsvenskan,0,1,0,0,9,17,2,7,43,60,3,4,3.2,3.4,2.2
+10-11-2024,Djurgården,Norrköping,Suécia - Allsvenskan,3,1,1,0,19,16,8,7,37,46,5,3,1.27,5.25,11.0
+21-10-2024,Hammarby,Djurgården,Suécia - Allsvenskan,2,0,2,0,9,13,4,4,25,44,6,7,2.3,3.1,3.3
+06-10-2024,Djurgården,Kalmar,Suécia - Allsvenskan,1,1,0,1,12,8,3,2,71,42,7,2,1.45,4.75,6.25
+22-09-2024,GAIS,Djurgården,Suécia - Allsvenskan,3,0,1,0,17,12,8,4,71,72,4,6,2.8,3.3,2.5
+17-08-2025,Brommapojkarna,Sirius,Suécia - Allsvenskan,2,4,0,0,10,13,5,8,59,40,4,3,2.05,3.9,3.1
+10-08-2025,Öster,Brommapojkarna,Suécia - Allsvenskan,1,1,1,0,8,10,2,1,20,60,3,1,2.7,3.75,2.35
+02-08-2025,Brommapojkarna,Norrköping,Suécia - Allsvenskan,6,4,3,4,16,14,9,9,62,36,5,6,1.7,4.5,4.1
+20-07-2025,Hammarby,Brommapojkarna,Suécia - Allsvenskan,3,2,0,2,20,11,8,3,73,31,8,6,1.7,4.33,4.0
+13-07-2025,Brommapojkarna,Öster,Suécia - Allsvenskan,2,0,0,0,18,9,8,3,50,39,12,7,1.48,4.5,5.75
+07-07-2025,Norrköping,Brommapojkarna,Suécia - Allsvenskan,0,1,0,0,14,14,3,4,66,50,9,4,2.55,3.9,2.45
+29-05-2025,Brommapojkarna,Djurgården,Suécia - Allsvenskan,0,1,0,1,15,8,3,1,46,41,6,6,2.25,3.6,3.0
+19-05-2025,Mjällby,Brommapojkarna,Suécia - Allsvenskan,1,0,1,0,10,19,2,3,39,70,4,7,1.7,3.8,4.5
+24-04-2025,GAIS,Brommapojkarna,Suécia - Allsvenskan,1,1,0,1,20,11,2,6,64,31,12,4,2.0,3.6,3.5
+13-04-2025,Sirius,Brommapojkarna,Suécia - Allsvenskan,0,3,0,0,16,18,3,6,61,37,6,8,2.2,3.4,3.2
+06-04-2025,Brommapojkarna,Hammarby,Suécia - Allsvenskan,0,2,0,0,12,19,4,7,41,65,5,6,3.5,3.6,2.0
+26-10-2024,Brommapojkarna,Kalmar,Suécia - Allsvenskan,1,2,0,0,17,9,6,2,38,70,6,3,2.1,3.6,3.2
+21-10-2024,Norrköping,Brommapojkarna,Suécia - Allsvenskan,1,1,1,1,12,9,2,2,75,31,2,7,2.15,3.4,3.2
+05-10-2024,Brommapojkarna,GAIS,Suécia - Allsvenskan,2,0,0,0,11,13,4,4,30,75,2,8,2.1,3.8,3.1
+25-09-2024,Djurgården,Brommapojkarna,Suécia - Allsvenskan,2,1,1,0,19,7,7,2,67,45,8,6,1.75,3.9,4.2
+21-09-2024,Brommapojkarna,Mjällby,Suécia - Allsvenskan,0,0,0,0,9,7,4,5,47,57,7,8,2.35,3.6,2.8
+15-09-2024,Sirius,Brommapojkarna,Suécia - Allsvenskan,3,2,1,1,22,8,9,3,34,55,5,8,1.95,3.9,3.4
+18-08-2024,Brommapojkarna,Häcken,Suécia - Allsvenskan,1,3,0,1,22,7,8,4,71,37,8,2,2.87,4.0,2.2
+12-08-2024,Hammarby,Brommapojkarna,Suécia - Allsvenskan,3,3,3,1,24,11,9,3,53,42,9,1,1.9,3.9,3.6
+20-07-2024,Brommapojkarna,Hammarby,Suécia - Allsvenskan,0,2,0,0,19,14,6,7,53,63,4,7,2.1,3.9,3.1
+14-07-2024,Kalmar,Brommapojkarna,Suécia - Allsvenskan,0,1,0,0,13,7,2,4,67,53,6,6,2.55,3.5,2.6
+02-08-2025,Värnamo,GAIS,Suécia - Allsvenskan,2,2,1,1,10,29,3,9,29,78,6,6,4.5,3.9,1.7
+27-07-2025,Värnamo,Hammarby,Suécia - Allsvenskan,2,3,2,1,12,22,7,10,34,78,3,6,5.25,4.1,1.57
+21-07-2025,Norrköping,Värnamo,Suécia - Allsvenskan,3,1,1,0,18,15,6,4,64,43,4,7,2.25,3.6,2.9
+13-07-2025,Värnamo,Djurgården,Suécia - Allsvenskan,1,0,0,0,10,21,4,5,37,53,8,8,4.2,3.9,1.75
+05-07-2025,Hammarby,Värnamo,Suécia - Allsvenskan,1,0,0,0,21,10,5,0,114,26,9,3,1.33,5.25,8.0
+01-06-2025,Mjällby,Värnamo,Suécia - Allsvenskan,2,0,0,0,17,19,7,2,57,49,6,4,1.4,5.0,7.0
+24-05-2025,Värnamo,Öster,Suécia - Allsvenskan,1,1,1,0,15,9,3,1,47,54,6,2,1.95,3.4,3.8
+10-05-2025,GAIS,Värnamo,Suécia - Allsvenskan,1,1,1,0,21,13,5,3,68,34,6,2,1.85,3.6,4.1
+27-04-2025,Värnamo,Norrköping,Suécia - Allsvenskan,1,3,0,2,14,10,5,5,77,38,13,3,2.3,3.4,3.0
+20-04-2025,Brommapojkarna,Värnamo,Suécia - Allsvenskan,3,2,1,0,19,18,10,5,40,63,11,6,1.9,3.5,3.8
+31-03-2025,Värnamo,Sirius,Suécia - Allsvenskan,1,2,0,0,13,7,4,4,40,40,4,3,2.15,3.5,3.1
+03-11-2024,Brommapojkarna,Värnamo,Suécia - Allsvenskan,0,1,0,1,5,24,0,7,49,61,4,8,3.0,3.6,2.2
+27-10-2024,Värnamo,Norrköping,Suécia - Allsvenskan,1,2,0,1,14,6,4,2,82,21,10,1,1.95,3.25,4.0
+20-10-2024,GAIS,Värnamo,Suécia - Allsvenskan,0,0,0,0,12,6,2,1,49,34,4,4,2.2,3.4,3.2
+29-09-2024,Värnamo,Djurgården,Suécia - Allsvenskan,1,1,0,0,9,9,2,3,43,51,4,4,3.2,3.25,2.25
+25-09-2024,Mjällby,Värnamo,Suécia - Allsvenskan,1,1,0,1,18,10,7,6,74,32,12,7,2.15,3.25,3.5
+15-09-2024,Kalmar,Värnamo,Suécia - Allsvenskan,3,1,1,0,15,22,5,5,37,62,3,11,2.7,3.2,2.62
+25-08-2024,Häcken,Värnamo,Suécia - Allsvenskan,1,1,1,0,13,14,5,6,71,32,9,5,1.7,3.9,4.5
+17-08-2024,Värnamo,Hammarby,Suécia - Allsvenskan,0,3,0,1,10,15,3,5,36,55,4,2,2.75,3.3,2.55
+04-08-2024,Värnamo,Sirius,Suécia - Allsvenskan,2,4,0,2,12,15,5,7,53,40,6,5,2.45,3.4,2.8
+20-07-2024,Värnamo,Häcken,Suécia - Allsvenskan,2,2,0,2,18,14,4,3,62,60,6,8,2.8,3.9,2.25
+14-07-2024,Djurgården,Värnamo,Suécia - Allsvenskan,1,0,1,0,12,11,5,3,46,45,2,6,1.5,4.33,6.0
+17-08-2025,Häcken,Öster,Suécia - Allsvenskan,0,2,0,1,14,10,4,5,68,25,8,2,1.57,4.33,5.0
+27-07-2025,Häcken,Djurgården,Suécia - Allsvenskan,1,6,0,4,18,18,6,7,42,56,5,1,3.1,3.6,2.2
+29-06-2025,Häcken,GAIS,Suécia - Allsvenskan,1,3,0,2,3,22,1,7,27,85,1,4,2.8,3.6,2.3
+25-05-2025,Djurgården,Häcken,Suécia - Allsvenskan,1,1,0,0,12,12,5,4,63,45,7,1,2.2,3.5,3.1
+18-05-2025,Häcken,Värnamo,Suécia - Allsvenskan,2,0,1,0,19,4,5,1,61,38,5,4,1.95,3.6,3.6
+10-05-2025,Sirius,Häcken,Suécia - Allsvenskan,2,0,1,0,11,17,6,8,45,57,5,4,2.55,3.75,2.45
+04-05-2025,Norrköping,Häcken,Suécia - Allsvenskan,0,2,0,1,12,14,3,5,59,67,11,2,2.55,4.1,2.35
+27-04-2025,Häcken,Hammarby,Suécia - Allsvenskan,1,1,0,0,14,17,7,1,37,70,6,9,2.8,3.6,2.3
+12-04-2025,Häcken,Mjällby,Suécia - Allsvenskan,0,3,0,1,7,11,2,5,64,34,4,5,2.3,3.4,2.9
+05-04-2025,Öster,Häcken,Suécia - Allsvenskan,2,0,1,0,11,15,5,3,33,77,2,10,3.5,3.6,2.0
+29-03-2025,Häcken,Brommapojkarna,Suécia - Allsvenskan,2,0,0,0,14,13,6,6,84,27,7,5,1.6,4.1,5.0
+10-11-2024,Kalmar,Häcken,Suécia - Allsvenskan,1,0,1,0,19,8,5,2,57,56,8,7,2.8,4.1,2.2
+03-11-2024,Häcken,GAIS,Suécia - Allsvenskan,1,2,1,1,16,17,3,8,49,76,5,3,1.8,4.33,3.6
+29-09-2024,Häcken,Sirius,Suécia - Allsvenskan,2,0,0,0,19,16,9,6,37,54,5,6,1.75,3.9,4.1
+26-09-2024,Hammarby,Häcken,Suécia - Allsvenskan,2,0,1,0,14,10,7,2,46,54,4,7,2.1,3.7,3.1
+22-09-2024,Malmö FF,Häcken,Suécia - Allsvenskan,4,0,1,0,13,8,8,2,50,41,4,4,1.48,4.5,6.0
+19-09-2024,Häcken,Djurgården,Suécia - Allsvenskan,1,2,0,0,20,12,6,5,74,37,4,2,2.1,3.8,3.0
+01-09-2024,Norrköping,Häcken,Suécia - Allsvenskan,3,3,1,0,9,20,5,6,23,58,1,6,3.0,4.0,2.1
+09-08-2025,Malmö FF,Mjällby,Suécia - Allsvenskan,1,3,0,0,19,13,6,5,51,38,9,3,1.9,3.6,3.9
+26-07-2025,Brommapojkarna,Malmö FF,Suécia - Allsvenskan,2,3,1,1,10,15,4,4,35,57,3,6,3.75,3.7,1.9
+19-07-2025,Öster,Malmö FF,Suécia - Allsvenskan,0,2,0,1,12,13,1,5,37,34,1,5,5.75,3.9,1.5
+12-07-2025,Malmö FF,Norrköping,Suécia - Allsvenskan,3,1,1,0,14,14,7,5,55,28,4,2,1.25,6.25,10.0
+05-07-2025,GAIS,Malmö FF,Suécia - Allsvenskan,0,0,0,0,22,12,3,1,69,34,6,3,2.9,3.6,2.3
+30-06-2025,Mjällby,Malmö FF,Suécia - Allsvenskan,1,1,0,1,17,13,2,7,56,65,8,5,2.25,3.3,3.1
+01-06-2025,Malmö FF,Häcken,Suécia - Allsvenskan,3,0,2,0,15,7,4,1,69,40,8,4,1.7,4.0,4.33
+15-05-2025,Värnamo,Malmö FF,Suécia - Allsvenskan,2,2,1,2,8,18,4,5,38,70,4,9,4.33,3.8,1.72
+05-05-2025,Malmö FF,Brommapojkarna,Suécia - Allsvenskan,1,2,0,0,27,14,6,7,115,35,7,3,1.38,5.25,7.0
+29-04-2025,Malmö FF,Öster,Suécia - Allsvenskan,2,0,1,0,18,6,4,1,55,37,7,1,1.22,5.75,13.0
+23-04-2025,Hammarby,Malmö FF,Suécia - Allsvenskan,2,0,0,0,13,7,4,3,51,52,4,3,2.25,3.4,3.1
+18-04-2025,Malmö FF,Sirius,Suécia - Allsvenskan,1,1,0,1,19,6,7,1,82,30,9,3,1.4,4.75,7.0
+29-03-2025,Djurgården,Malmö FF,Suécia - Allsvenskan,0,1,0,1,17,9,1,2,77,34,7,3,2.7,3.5,2.5
+10-11-2024,Malmö FF,Brommapojkarna,Suécia - Allsvenskan,2,1,2,1,14,12,4,6,69,34,10,6,1.25,6.25,9.5
+02-11-2024,Hammarby,Malmö FF,Suécia - Allsvenskan,2,2,2,0,15,12,4,4,52,44,8,6,1.61,4.1,5.0
+06-10-2024,Malmö FF,Värnamo,Suécia - Allsvenskan,1,1,0,0,11,10,7,4,65,34,4,7,1.4,5.0,7.0
+29-09-2024,Malmö FF,Mjällby,Suécia - Allsvenskan,2,0,2,0,11,12,5,3,44,51,7,5,1.55,4.2,5.5
+11-08-2025,GAIS,IFK Göteborg,Suécia - Allsvenskan,0,1,0,1,18,7,4,3,95,26,12,2,2.1,3.4,3.3
+20-07-2025,Sirius,IFK Göteborg,Suécia - Allsvenskan,0,1,0,0,15,15,3,6,74,46,3,6,2.62,3.7,2.35
+06-07-2025,IFK Göteborg,Sirius,Suécia - Allsvenskan,3,1,1,1,13,11,5,5,40,35,4,5,1.72,3.9,4.33
+01-06-2025,Brommapojkarna,IFK Göteborg,Suécia - Allsvenskan,1,3,0,2,10,14,2,5,47,46,3,3,2.55,3.6,2.5
+25-05-2025,IFK Göteborg,Malmö FF,Suécia - Allsvenskan,1,0,0,0,4,9,1,1,65,51,2,8,2.75,3.4,2.5
+15-05-2025,IFK Göteborg,Öster,Suécia - Allsvenskan,0,1,0,0,13,8,2,3,81,20,7,4,1.48,4.33,6.25
+12-05-2025,IFK Göteborg,Djurgården,Suécia - Allsvenskan,1,2,1,1,10,5,4,4,55,28,5,1,2.35,3.4,2.9
+04-05-2025,Mjällby,IFK Göteborg,Suécia - Allsvenskan,1,0,1,0,14,9,4,2,58,49,1,8,1.85,3.6,4.0
+28-04-2025,IFK Göteborg,GAIS,Suécia - Allsvenskan,1,1,0,1,12,15,4,6,54,54,4,9,2.45,3.4,2.75
+24-04-2025,Norrköping,IFK Göteborg,Suécia - Allsvenskan,2,3,2,0,12,16,5,5,37,56,5,11,2.4,3.4,2.87
+20-04-2025,IFK Göteborg,Häcken,Suécia - Allsvenskan,2,3,2,2,15,8,7,4,61,28,11,5,2.2,3.6,3.0
+13-04-2025,Värnamo,IFK Göteborg,Suécia - Allsvenskan,0,1,0,1,11,9,3,3,51,32,4,3,2.7,3.3,2.6
+30-03-2025,Hammarby,IFK Göteborg,Suécia - Allsvenskan,4,0,2,0,21,5,10,1,58,34,8,3,1.9,3.6,3.9
+10-11-2024,Mjällby,IFK Göteborg,Suécia - Allsvenskan,1,0,1,0,22,11,7,3,55,65,3,3,2.3,3.4,2.9
+02-11-2024,IFK Göteborg,Kalmar,Suécia - Allsvenskan,1,1,1,0,21,11,10,4,61,47,4,5,1.9,3.5,4.0
+28-10-2024,Malmö FF,IFK Göteborg,Suécia - Allsvenskan,2,1,0,1,13,9,5,1,94,26,4,4,1.44,4.5,6.25
+06-10-2024,Norrköping,IFK Göteborg,Suécia - Allsvenskan,0,2,0,1,17,11,6,5,44,42,8,8,2.2,3.5,3.1
+30-09-2024,IFK Göteborg,GAIS,Suécia - Allsvenskan,2,0,1,0,10,12,5,3,41,48,5,9,2.75,3.6,2.37
+15-09-2024,Häcken,IFK Göteborg,Suécia - Allsvenskan,3,3,1,2,18,13,9,11,67,39,13,2,1.66,4.1,4.5
+01-09-2024,IFK Göteborg,Hammarby,Suécia - Allsvenskan,0,1,0,0,6,16,0,3,30,55,3,6,2.5,3.5,2.6
+25-08-2024,Elfsborg,IFK Göteborg,Suécia - Allsvenskan,3,1,1,0,14,7,7,1,52,32,11,4,1.72,3.8,4.5
+17-08-2024,IFK Göteborg,Sirius,Suécia - Allsvenskan,1,1,0,0,14,9,6,3,41,41,6,9,2.25,3.5,3.0
+10-08-2024,IFK Göteborg,Värnamo,Suécia - Allsvenskan,0,0,0,0,15,12,4,2,74,34,8,4,2.05,3.5,3.5
+04-08-2024,Djurgården,IFK Göteborg,Suécia - Allsvenskan,1,1,0,0,11,11,4,2,28,72,4,5,1.55,4.0,5.5
+27-07-2024,IFK Göteborg,Brommapojkarna,Suécia - Allsvenskan,3,4,1,1,13,19,6,8,53,56,10,4,1.95,3.6,3.5
+15-07-2024,Hammarby,IFK Göteborg,Suécia - Allsvenskan,0,1,0,1,16,16,3,10,51,39,4,5,2.0,3.75,3.5
+16-08-2025,Halmstad,Malmö FF,Suécia - Allsvenskan,0,4,0,3,10,15,4,8,49,60,7,9,4.75,3.9,1.66
+09-08-2025,Halmstad,Sirius,Suécia - Allsvenskan,0,1,0,0,5,16,1,2,38,53,8,8,3.3,3.5,2.15
+03-08-2025,Djurgården,Halmstad,Suécia - Allsvenskan,1,1,1,1,23,6,2,2,64,37,9,5,1.25,6.0,10.0
+26-07-2025,GAIS,Halmstad,Suécia - Allsvenskan,3,0,2,0,18,7,5,2,46,24,6,2,1.3,5.5,9.5
+20-07-2025,Halmstad,Häcken,Suécia - Allsvenskan,0,0,0,0,9,22,3,7,32,66,2,11,3.0,3.4,2.2
+13-07-2025,Häcken,Halmstad,Suécia - Allsvenskan,4,1,3,0,18,11,7,6,73,24,7,1,1.7,4.1,4.33
+28-06-2025,Hammarby,Halmstad,Suécia - Allsvenskan,2,0,1,0,30,5,13,0,82,15,7,2,1.27,5.5,11.0
+01-06-2025,Halmstad,Djurgården,Suécia - Allsvenskan,1,0,0,0,14,14,6,4,44,45,1,5,4.0,3.4,1.9
+18-05-2025,Malmö FF,Halmstad,Suécia - Allsvenskan,3,0,2,0,17,7,6,1,51,16,8,2,1.22,6.25,12.0
+14-05-2025,Halmstad,GAIS,Suécia - Allsvenskan,1,3,1,1,14,14,4,5,30,51,1,5,3.6,3.3,2.0
+10-05-2025,Brommapojkarna,Halmstad,Suécia - Allsvenskan,0,1,0,0,12,6,2,3,0,0,8,4,1.55,4.5,5.25
+03-05-2025,Halmstad,Värnamo,Suécia - Allsvenskan,4,2,2,0,9,14,5,7,32,87,2,10,3.3,3.2,2.25
+27-04-2025,Sirius,Halmstad,Suécia - Allsvenskan,1,1,1,1,8,10,3,6,55,29,8,4,1.6,4.1,5.25
+23-04-2025,Halmstad,Mjällby,Suécia - Allsvenskan,1,3,1,1,6,10,2,5,27,55,1,5,5.25,3.7,1.66
+19-04-2025,Norrköping,Halmstad,Suécia - Allsvenskan,3,0,0,0,15,7,5,1,44,44,8,3,1.61,3.7,5.5
+14-04-2025,Halmstad,Öster,Suécia - Allsvenskan,1,0,0,0,24,6,6,1,47,32,9,5,3.0,3.2,2.4
+05-04-2025,IFK Göteborg,Halmstad,Suécia - Allsvenskan,1,0,0,0,11,2,3,1,52,28,4,2,1.45,4.2,7.0
+03-11-2024,Halmstad,Djurgården,Suécia - Allsvenskan,1,0,0,0,11,7,4,3,57,46,3,3,4.33,3.4,1.83
+27-10-2024,Häcken,Halmstad,Suécia - Allsvenskan,0,1,0,0,20,10,4,2,67,30,8,3,1.45,5.0,5.75
+19-10-2024,Halmstad,Sirius,Suécia - Allsvenskan,3,1,2,0,16,11,7,4,9,12,6,7,3.8,3.6,1.9
+05-10-2024,Hammarby,Halmstad,Suécia - Allsvenskan,1,0,0,0,20,7,5,4,107,33,8,6,1.38,5.0,7.5
+29-09-2024,Halmstad,Norrköping,Suécia - Allsvenskan,0,0,0,0,13,10,1,3,60,37,6,7,2.8,3.25,2.5
+26-09-2024,Halmstad,Kalmar,Suécia - Allsvenskan,2,2,1,2,18,6,5,3,55,24,5,1,3.1,3.1,2.45
+23-09-2024,IFK Göteborg,Halmstad,Suécia - Allsvenskan,1,1,0,0,17,14,5,6,51,36,12,5,1.53,4.2,6.0
+31-08-2024,Mjällby,Halmstad,Suécia - Allsvenskan,3,1,3,1,14,6,4,2,31,43,2,4,1.5,4.0,6.5
+18-08-2024,GAIS,Halmstad,Suécia - Allsvenskan,3,1,2,0,18,13,7,5,47,54,4,10,1.44,4.33,7.0
+10-08-2024,Halmstad,Malmö FF,Suécia - Allsvenskan,0,1,0,1,8,31,2,6,24,90,1,8,8.5,5.0,1.33
+03-08-2024,Brommapojkarna,Halmstad,Suécia - Allsvenskan,4,1,3,1,14,8,4,2,53,32,5,7,1.5,4.1,6.25
+27-07-2024,Halmstad,Värnamo,Suécia - Allsvenskan,1,0,0,0,11,11,5,4,38,58,4,6,3.4,3.1,2.25
+21-07-2024,Norrköping,Halmstad,Suécia - Allsvenskan,1,0,1,0,8,10,6,4,55,54,4,3,1.85,3.9,3.7
+15-07-2024,Halmstad,AIK,Suécia - Allsvenskan,1,2,0,1,9,17,3,5,28,48,0,2,3.7,4.0,1.83
+07-07-2024,Malmö FF,Halmstad,Suécia - Allsvenskan,5,1,2,1,15,10,7,1,55,27,1,6,1.16,8.0,13.0
+01-06-2024,Halmstad,GAIS,Suécia - Allsvenskan,4,0,2,0,12,21,7,5,24,89,3,9,3.9,3.4,1.95
+16-08-2025,Norrköping,Elfsborg,Suécia - Allsvenskan,2,1,1,0,16,19,5,6,31,55,6,13,3.25,3.75,2.05
+11-08-2025,Elfsborg,Värnamo,Suécia - Allsvenskan,2,2,1,0,23,11,8,4,58,29,8,3,1.45,5.0,5.75
+03-08-2025,Häcken,Elfsborg,Suécia - Allsvenskan,1,2,0,0,21,13,8,7,53,40,4,6,3.1,4.0,2.05
+28-07-2025,Elfsborg,IFK Göteborg,Suécia - Allsvenskan,4,3,1,3,15,11,6,5,41,28,12,2,2.35,3.6,2.87
+19-07-2025,Djurgården,Elfsborg,Suécia - Allsvenskan,1,0,1,0,18,12,8,6,47,45,7,1,1.66,3.9,4.33
+12-07-2025,IFK Göteborg,Elfsborg,Suécia - Allsvenskan,1,2,1,2,18,11,7,5,35,52,7,4,2.4,3.4,2.8
+06-07-2025,Elfsborg,Häcken,Suécia - Allsvenskan,0,2,0,1,12,12,3,4,72,21,16,0,1.7,3.9,4.33
+29-06-2025,Värnamo,Elfsborg,Suécia - Allsvenskan,0,0,0,0,18,11,4,3,63,33,9,8,3.7,3.6,1.95
+31-05-2025,Elfsborg,Hammarby,Suécia - Allsvenskan,0,2,0,0,11,21,2,8,40,80,3,4,2.37,3.5,2.8
+25-05-2025,Halmstad,Elfsborg,Suécia - Allsvenskan,1,4,1,2,13,14,1,5,33,59,3,3,5.0,3.6,1.7
+19-05-2025,Elfsborg,Djurgården,Suécia - Allsvenskan,4,0,2,0,10,6,7,2,40,47,3,2,2.15,3.6,3.2
+15-05-2025,Elfsborg,Brommapojkarna,Suécia - Allsvenskan,4,3,2,2,14,19,7,7,32,47,2,4,1.9,3.9,3.6
+11-05-2025,Öster,Elfsborg,Suécia - Allsvenskan,0,1,0,0,5,21,3,5,33,58,9,9,3.3,3.6,2.05
+05-05-2025,Elfsborg,GAIS,Suécia - Allsvenskan,2,0,1,0,11,18,2,1,39,85,6,10,2.3,3.5,2.8
+23-04-2025,Elfsborg,Sirius,Suécia - Allsvenskan,4,3,2,1,16,15,5,8,46,49,7,3,1.7,3.9,4.5
+12-04-2025,Elfsborg,Norrköping,Suécia - Allsvenskan,2,0,1,0,12,10,6,2,35,57,6,4,1.65,4.0,4.75
+07-04-2025,Malmö FF,Elfsborg,Suécia - Allsvenskan,2,1,0,0,22,8,7,2,70,27,5,3,1.75,3.8,4.5
+30-03-2025,Elfsborg,Mjällby,Suécia - Allsvenskan,2,2,0,2,18,11,4,4,75,43,7,5,2.2,3.2,3.5
+10-11-2024,Värnamo,Elfsborg,Suécia - Allsvenskan,0,0,0,0,11,3,4,1,59,33,6,2,1.85,3.5,4.2
+19-10-2024,Elfsborg,Häcken,Suécia - Allsvenskan,1,3,0,1,20,8,5,2,62,41,8,1,1.75,4.1,3.9
+06-10-2024,Sirius,Elfsborg,Suécia - Allsvenskan,4,1,1,1,17,9,6,2,46,41,6,6,2.75,3.7,2.3
+29-09-2024,Kalmar,Elfsborg,Suécia - Allsvenskan,1,3,1,2,11,13,3,6,40,55,4,4,4.1,3.6,1.83
+22-09-2024,Elfsborg,Hammarby,Suécia - Allsvenskan,0,0,0,0,9,12,2,4,52,52,8,6,1.72,4.1,4.2
+19-09-2024,Elfsborg,Norrköping,Suécia - Allsvenskan,2,2,1,0,13,16,3,6,50,91,12,6,1.27,5.75,9.5
+15-09-2024,Halmstad,Elfsborg,Suécia - Allsvenskan,0,1,0,1,7,12,2,2,43,52,3,7,10.0,5.0,1.3
+01-09-2024,Brommapojkarna,Elfsborg,Suécia - Allsvenskan,3,3,2,1,13,21,7,9,43,54,4,13,2.8,3.75,2.25
+18-08-2025,Värnamo,Degerfors,Suécia - Allsvenskan,3,2,1,1,15,15,5,3,40,61,5,10,2.5,3.6,2.6
+10-08-2025,Degerfors,Häcken,Suécia - Allsvenskan,0,0,0,0,9,15,2,6,39,65,4,7,3.1,3.5,2.2
+04-08-2025,IFK Göteborg,Degerfors,Suécia - Allsvenskan,3,0,2,0,32,7,10,2,96,22,20,4,1.65,4.0,4.75
+26-07-2025,Degerfors,Norrköping,Suécia - Allsvenskan,0,0,0,0,21,5,4,1,95,21,7,1,2.15,3.6,3.0
+19-07-2025,Degerfors,GAIS,Suécia - Allsvenskan,0,3,0,1,16,12,9,5,60,34,6,1,3.7,3.6,1.9
+06-07-2025,Djurgården,Degerfors,Suécia - Allsvenskan,5,1,3,0,20,13,8,4,48,37,7,4,1.66,4.0,4.75
+29-06-2025,Degerfors,Brommapojkarna,Suécia - Allsvenskan,0,3,0,1,14,10,0,5,78,23,10,4,2.2,3.6,3.1
+31-05-2025,Degerfors,Öster,Suécia - Allsvenskan,1,2,1,2,16,7,4,3,81,33,4,3,1.8,3.6,4.33
+26-05-2025,Hammarby,Degerfors,Suécia - Allsvenskan,1,0,0,0,13,13,2,2,67,43,4,2,1.38,5.0,7.0
+19-05-2025,Degerfors,IFK Göteborg,Suécia - Allsvenskan,1,3,0,3,13,12,2,6,60,50,5,7,2.9,3.4,2.35
+15-05-2025,Norrköping,Degerfors,Suécia - Allsvenskan,1,2,0,0,13,11,5,4,75,50,8,6,2.05,3.6,3.4
+11-05-2025,Degerfors,Malmö FF,Suécia - Allsvenskan,1,4,0,2,16,20,4,9,30,70,4,13,4.75,4.0,1.65
+03-05-2025,Degerfors,Sirius,Suécia - Allsvenskan,1,1,1,1,19,14,3,2,59,44,5,9,2.35,3.6,2.75
+27-04-2025,Mjällby,Degerfors,Suécia - Allsvenskan,4,1,3,0,7,10,5,3,37,52,1,1,1.57,4.0,5.75
+23-04-2025,Häcken,Degerfors,Suécia - Allsvenskan,3,4,0,1,19,10,8,5,87,17,7,3,1.75,3.9,4.33
+19-04-2025,Degerfors,Elfsborg,Suécia - Allsvenskan,0,1,0,0,16,14,4,5,51,37,5,5,3.7,3.5,1.95
+13-04-2025,GAIS,Degerfors,Suécia - Allsvenskan,2,0,2,0,21,10,3,2,47,31,9,4,1.8,3.5,4.33
+06-04-2025,Degerfors,Värnamo,Suécia - Allsvenskan,1,0,1,0,6,16,3,5,40,49,2,9,2.2,3.25,3.3
+30-03-2025,Halmstad,Degerfors,Suécia - Allsvenskan,0,5,0,1,7,19,4,9,29,35,5,5,2.25,3.0,3.4
+09-11-2024,Degerfors,Öster,Suécia - Superettan,1,2,1,1,14,6,8,4,61,36,7,5,3.0,3.4,2.35
+02-11-2024,Landskrona,Degerfors,Suécia - Superettan,1,1,0,0,9,8,6,6,50,20,6,3,2.25,3.1,3.0
+22-10-2024,Degerfors,Örebro,Suécia - Superettan,1,2,0,0,10,7,5,4,64,40,3,3,1.7,3.7,4.75
+06-10-2024,GIF Sundsvall,Degerfors,Suécia - Superettan,1,2,0,0,8,16,5,10,28,64,3,1,4.5,3.5,1.83
+28-09-2024,Degerfors,Trelleborg,Suécia - Superettan,2,0,1,0,8,13,2,6,50,37,5,3,1.4,4.5,7.0
+23-09-2024,Sandviken,Degerfors,Suécia - Superettan,0,1,0,1,10,6,0,1,53,33,8,3,2.1,3.6,2.9
+19-09-2024,Degerfors,Gefle,Suécia - Superettan,1,0,0,0,21,9,8,2,41,41,12,6,1.33,5.0,8.0
+14-09-2024,Utsikten,Degerfors,Suécia - Superettan,0,3,0,1,5,19,2,9,51,42,3,3,3.25,3.3,2.1
+17-08-2025,IFK Göteborg,AIK,Suécia - Allsvenskan,2,1,1,0,17,16,6,5,38,61,10,10,2.3,3.3,3.1
+10-08-2025,AIK,Djurgården,Suécia - Allsvenskan,0,0,0,0,19,14,3,6,47,56,3,5,2.4,3.25,3.0
+27-07-2025,AIK,Öster,Suécia - Allsvenskan,0,0,0,0,15,6,4,1,44,32,9,1,1.57,3.9,6.0
+20-07-2025,Mjällby,AIK,Suécia - Allsvenskan,2,0,0,0,10,7,2,1,46,46,5,5,2.15,3.3,3.1
+13-07-2025,AIK,Degerfors,Suécia - Allsvenskan,3,0,1,0,13,6,4,1,53,24,5,1,1.66,3.75,5.0
+06-07-2025,Halmstad,AIK,Suécia - Allsvenskan,2,0,2,0,7,13,2,4,17,76,2,8,4.75,3.5,1.75
+29-06-2025,AIK,IFK Göteborg,Suécia - Allsvenskan,3,0,2,0,15,10,5,0,43,42,2,5,2.1,3.3,3.4
+01-06-2025,Sirius,AIK,Suécia - Allsvenskan,3,1,2,0,9,13,4,3,28,62,1,9,3.4,3.4,2.1
+25-05-2025,Brommapojkarna,AIK,Suécia - Allsvenskan,0,1,0,1,14,10,5,2,43,42,7,3,3.2,3.5,2.15
+22-05-2025,Malmö FF,AIK,Suécia - Allsvenskan,0,0,0,0,12,12,3,0,71,47,9,6,1.72,3.7,4.75
+18-05-2025,AIK,Hammarby,Suécia - Allsvenskan,0,0,0,0,15,9,2,2,61,34,7,4,3.2,3.2,2.3
+14-05-2025,Häcken,AIK,Suécia - Allsvenskan,3,3,0,1,18,7,7,5,58,37,4,2,2.7,3.7,2.37
+11-05-2025,AIK,Mjällby,Suécia - Allsvenskan,2,1,1,1,12,14,6,4,47,37,7,6,2.37,3.0,3.3
+04-05-2025,Djurgården,AIK,Suécia - Allsvenskan,1,1,1,0,7,18,2,2,34,56,4,7,2.7,3.0,2.87
+27-04-2025,AIK,Elfsborg,Suécia - Allsvenskan,2,0,2,0,15,12,4,3,40,54,2,4,2.15,3.4,3.3
+24-04-2025,Värnamo,AIK,Suécia - Allsvenskan,1,2,0,1,12,9,2,3,61,24,7,7,2.9,3.1,2.55
+20-04-2025,Öster,AIK,Suécia - Allsvenskan,0,1,0,0,8,11,3,2,44,48,10,5,3.4,3.6,2.05
+14-04-2025,AIK,Malmö FF,Suécia - Allsvenskan,0,0,0,0,14,8,3,1,59,47,5,5,4.1,3.3,1.9
+06-04-2025,AIK,Norrköping,Suécia - Allsvenskan,4,3,0,1,15,11,5,4,43,28,4,2,1.75,3.6,4.75
+31-03-2025,GAIS,AIK,Suécia - Allsvenskan,0,1,0,0,11,10,2,2,70,27,4,8,2.6,3.1,2.8
+10-11-2024,AIK,Halmstad,Suécia - Allsvenskan,5,1,3,1,15,6,8,3,53,19,6,2,1.44,4.1,8.5
+04-11-2024,Norrköping,AIK,Suécia - Allsvenskan,1,0,1,0,9,16,1,3,38,72,5,11,3.1,3.2,2.35
+27-10-2024,AIK,Elfsborg,Suécia - Allsvenskan,2,1,1,0,16,4,5,2,48,53,3,6,2.05,3.3,3.7
+21-10-2024,IFK Göteborg,AIK,Suécia - Allsvenskan,1,2,0,1,10,9,3,2,56,41,7,4,2.87,3.1,2.55
+06-10-2024,AIK,Häcken,Suécia - Allsvenskan,0,2,0,0,10,11,4,4,74,35,5,6,1.95,3.4,3.9
+29-09-2024,AIK,Hammarby,Suécia - Allsvenskan,1,0,0,0,11,5,4,1,41,43,5,2,2.1,3.1,3.7
+25-09-2024,Sirius,AIK,Suécia - Allsvenskan,0,1,0,0,15,11,6,2,49,55,4,4,2.55,3.2,2.8
+21-09-2024,Kalmar,AIK,Suécia - Allsvenskan,0,1,0,0,10,11,3,4,21,54,4,4,4.1,3.4,1.9
+15-09-2024,AIK,Malmö FF,Suécia - Allsvenskan,0,0,0,0,15,7,4,2,38,43,5,2,3.0,3.3,2.3
+31-08-2024,Värnamo,AIK,Suécia - Allsvenskan,0,1,0,1,15,7,0,1,57,37,8,3,3.9,3.4,1.95
+25-08-2024,AIK,Brommapojkarna,Suécia - Allsvenskan,2,1,2,1,20,8,8,3,41,39,5,4,1.72,3.8,4.5
+18-08-2024,Djurgården,AIK,Suécia - Allsvenskan,0,2,0,1,2,6,0,2,37,40,0,4,2.15,3.25,3.3
+02-08-2025,KuPS,Haka,Finlândia - Veikkausliiga,3,2,2,0,21,12,7,4,68,43,4,2,1.65,4.0,4.33
+09-08-2025,Mariehamn,Gnistan,Finlândia - Veikkausliiga,2,5,0,2,12,14,5,8,51,71,6,9,3.2,3.9,2.05
+26-07-2025,Mariehamn,Oulu,Finlândia - Veikkausliiga,0,1,0,0,9,16,0,3,36,61,4,1,3.1,3.2,2.2
+21-07-2025,Mariehamn,Haka,Finlândia - Veikkausliiga,1,1,0,1,16,11,3,4,68,48,10,5,3.3,3.5,1.9
+06-07-2025,Jaro,Mariehamn,Finlândia - Veikkausliiga,1,1,1,0,15,16,7,8,66,42,7,4,1.65,3.75,4.1
+17-08-2025,Haka,HJK,Finlândia - Veikkausliiga,1,2,1,0,5,24,2,7,17,98,1,12,4.75,4.5,1.55
+28-07-2025,Gnistan,HJK,Finlândia - Veikkausliiga,2,4,0,1,9,25,4,11,30,98,5,6,4.75,4.1,1.57
+20-07-2025,HJK,Oulu,Finlândia - Veikkausliiga,3,1,2,0,13,14,7,6,57,52,4,8,1.61,3.4,5.25
+02-07-2025,HJK,Jaro,Finlândia - Veikkausliiga,2,3,1,0,14,13,7,6,86,46,6,7,1.28,5.5,8.5
+27-06-2025,KuPS,HJK,Finlândia - Veikkausliiga,3,0,2,0,7,9,6,8,40,68,7,3,2.5,3.75,2.5
+18-06-2025,HJK,Haka,Finlândia - Veikkausliiga,3,1,2,1,14,12,8,4,59,42,5,5,1.48,4.75,6.0
+14-06-2025,Oulu,HJK,Finlândia - Veikkausliiga,0,4,0,1,4,22,1,7,37,55,2,13,4.0,3.75,1.66
+31-05-2025,HJK,KuPS,Finlândia - Veikkausliiga,0,0,0,0,6,13,2,1,44,55,4,7,1.95,3.7,3.5
+24-05-2025,Mariehamn,HJK,Finlândia - Veikkausliiga,0,4,0,1,8,26,4,9,31,72,4,5,7.5,4.33,1.42
+20-05-2025,HJK,SJK,Finlândia - Veikkausliiga,4,2,3,0,13,17,5,5,50,59,2,9,1.42,5.0,6.0
+11-05-2025,Jaro,HJK,Finlândia - Veikkausliiga,0,3,0,0,5,17,0,6,31,55,4,5,5.25,3.7,1.66
+22-04-2025,HJK,Gnistan,Finlândia - Veikkausliiga,0,1,0,0,11,6,3,4,60,31,8,4,1.42,4.5,7.0
+11-04-2025,SJK,HJK,Finlândia - Veikkausliiga,1,0,0,0,19,14,6,3,42,60,7,6,3.1,3.5,2.1
+05-04-2025,Ilves,HJK,Finlândia - Veikkausliiga,3,2,1,2,10,9,4,4,49,50,3,2,2.45,3.3,2.87
+19-10-2024,KuPS,HJK,Finlândia - Veikkausliiga,1,0,1,0,8,10,6,5,34,58,4,5,1.57,4.33,5.0
+06-10-2024,HJK,Haka,Finlândia - Veikkausliiga,0,1,0,1,16,9,4,6,93,35,11,3,1.5,4.5,5.0
+28-09-2024,HJK,Ilves,Finlândia - Veikkausliiga,0,1,0,0,10,7,0,4,53,67,2,5,2.4,3.3,2.55
+20-09-2024,VPS,HJK,Finlândia - Veikkausliiga,1,1,0,1,17,11,6,2,64,66,8,4,4.5,3.8,1.72
+18-08-2025,Jaro,SJK,Finlândia - Veikkausliiga,0,4,0,3,16,16,5,6,70,51,5,4,3.3,4.0,1.95
+09-08-2025,Jaro,Haka,Finlândia - Veikkausliiga,2,1,0,0,13,8,6,4,54,59,6,9,2.3,3.8,2.7
+02-08-2025,Oulu,Jaro,Finlândia - Veikkausliiga,0,1,0,1,25,8,8,2,68,42,7,2,1.83,3.6,3.75
+16-08-2025,Huracán,Argentinos Juniors,Argentina - Superliga,1,0,0,0,3,8,2,1,33,30,2,5,4.33,2.87,2.1
+10-08-2025,Argentinos Juniors,Unión Santa Fe,Argentina - Superliga,1,0,1,0,9,15,3,1,40,41,2,6,1.7,3.6,5.0
+26-07-2025,Platense,Argentinos Juniors,Argentina - Superliga,0,0,0,0,10,7,3,3,35,40,5,4,3.5,2.75,2.45
+17-08-2025,Banfield,Estudiantes,Argentina - Superliga,3,2,0,2,14,16,6,5,44,29,8,6,2.8,2.9,2.87
+09-08-2025,Belgrano,Banfield,Argentina - Superliga,2,1,1,0,12,12,5,3,37,48,3,4,1.85,3.0,5.25
+16-08-2025,Vélez Sarsfield,Independiente,Argentina - Superliga,2,1,1,0,12,9,3,3,57,17,10,0,3.4,2.75,2.55
+09-08-2025,Independiente,River Plate,Argentina - Superliga,0,0,0,0,6,5,3,1,42,26,2,1,3.0,2.9,2.62
+03-08-2025,Wuhan Three Towns,Changchun Yatai,China - Super League,0,0,0,0,19,10,4,3,64,30,6,3,1.57,4.33,5.0
+27-07-2025,Changchun Yatai,Dalian Zhixing,China - Super League,0,2,0,1,8,16,4,7,77,40,3,2,3.1,3.5,2.25
+18-07-2025,Changchun Yatai,Shanghai Port,China - Super League,1,3,0,1,14,12,3,7,42,40,3,3,6.5,4.75,1.4
+03-08-2025,Shenzhen Peng City,Zhejiang,China - Super League,2,4,0,1,15,14,4,7,53,18,6,2,3.3,3.5,2.1
+16-08-2025,Changchun Yatai,Meizhou Hakka,China - Super League,1,0,1,0,12,15,2,5,28,55,4,9,2.2,3.3,3.25
+10-08-2025,Wuhan Three Towns,Meizhou Hakka,China - Super League,1,2,0,1,12,9,6,3,76,35,3,3,1.55,4.1,5.5
+02-08-2025,Meizhou Hakka,Shanghai Port,China - Super League,2,4,0,4,20,13,6,4,39,52,10,2,5.25,4.5,1.53
+27-07-2025,Shandong Taishan,Meizhou Hakka,China - Super League,3,0,0,0,26,3,10,1,59,40,9,2,1.27,6.5,9.0
+19-07-2025,Henan Songshan Longmen,Meizhou Hakka,China - Super League,1,1,0,0,16,9,6,2,44,42,9,5,1.36,5.25,7.0
+29-06-2025,Meizhou Hakka,Tianjin Jinmen Tiger,China - Super League,1,2,0,2,11,4,5,2,70,13,7,2,2.62,3.6,2.45
+25-06-2025,Meizhou Hakka,Beijing Guoan,China - Super League,0,4,0,2,7,13,3,8,67,42,5,6,4.2,4.5,1.65
+13-06-2025,Dalian Zhixing,Meizhou Hakka,China - Super League,1,0,0,0,11,3,1,1,45,37,6,3,2.45,3.75,2.55
+20-08-2025,Zhejiang,Tianjin Jinmen Tiger,China - Super League,2,0,1,0,11,11,4,6,50,59,2,7,0.0,0.0,0.0
+03-08-2025,Beijing Guoan,Tianjin Jinmen Tiger,China - Super League,2,2,1,1,20,5,8,3,63,6,14,0,1.5,4.5,5.75
+15-08-2025,Shanghai Port,Henan Songshan Longmen,China - Super League,4,1,3,0,18,15,7,2,50,51,4,4,1.27,6.25,9.0
+08-08-2025,Henan Songshan Longmen,Shenzhen Peng City,China - Super League,4,1,1,0,18,16,8,3,54,38,1,3,1.36,5.5,6.5
+16-08-2025,Tianjin Jinmen Tiger,Dalian Zhixing,China - Super League,2,0,1,0,13,14,4,1,34,56,1,4,1.85,3.4,4.33
+16-08-2025,Shenzhen Peng City,Shandong Taishan,China - Super League,1,3,0,2,14,13,4,7,32,27,3,0,3.0,3.7,2.2
+09-08-2025,Shandong Taishan,Changchun Yatai,China - Super League,2,1,1,0,18,11,3,4,101,69,6,7,1.22,6.5,11.0
+16-08-2025,Qingdao Youth Island,Beijing Guoan,China - Super League,1,3,0,1,11,7,4,6,35,38,4,3,3.1,3.75,2.1
+10-08-2025,Tianjin Jinmen Tiger,Qingdao Youth Island,China - Super League,0,0,0,0,15,6,3,1,42,51,5,3,2.1,3.7,3.2
+02-08-2025,Qingdao Youth Island,Henan Songshan Longmen,China - Super League,2,1,2,1,17,15,9,3,56,49,7,9,2.55,3.5,2.6
+26-07-2025,Shanghai Port,Qingdao Youth Island,China - Super League,2,2,1,0,14,11,5,3,64,21,6,2,1.38,5.25,6.5
+18-07-2025,Wuhan Three Towns,Qingdao Youth Island,China - Super League,1,1,1,0,14,10,4,3,50,42,11,3,2.4,3.6,2.75
+12-07-2025,Independiente Petrolero,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,1,0,0,14,8,4,4,36,48,6,7,2.05,3.4,3.0
+05-07-2025,Universitario de Vinto,Aurora,Bolívia - Liga De Futbol Prof,1,2,1,0,13,18,4,6,29,39,5,7,2.55,3.25,2.7
+29-06-2025,The Strongest,Universitario de Vinto,Bolívia - Liga De Futbol Prof,3,2,1,1,18,24,7,7,0,0,5,6,0.0,0.0,0.0
+24-05-2025,Universitario de Vinto,Bolívar,Bolívia - Liga De Futbol Prof,1,1,0,0,8,17,2,9,35,46,3,8,5.5,4.0,1.57
+17-05-2025,Wilstermann,Universitario de Vinto,Bolívia - Liga De Futbol Prof,0,2,0,1,20,15,5,7,55,31,7,4,2.15,3.4,3.2
+10-05-2025,Universitario de Vinto,ABB,Bolívia - Liga De Futbol Prof,2,0,1,0,9,15,5,1,35,28,5,8,1.6,4.1,4.75
+05-05-2025,Real Oruro,Universitario de Vinto,Bolívia - Liga De Futbol Prof,2,0,1,0,16,7,6,3,20,39,0,5,1.72,3.5,4.75
+18-04-2025,Real Tomayapo,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,1,1,0,16,29,5,10,4,2,2,6,2.05,3.3,3.5
+12-04-2025,Universitario de Vinto,Blooming,Bolívia - Liga De Futbol Prof,1,2,0,1,22,11,6,3,55,20,8,4,1.85,3.5,4.0
+03-04-2025,Oriente Petrolero,Universitario de Vinto,Bolívia - Liga De Futbol Prof,0,0,0,0,16,13,6,2,55,30,3,5,1.7,3.8,4.75
+28-03-2025,Universitario de Vinto,Guabirá,Bolívia - Liga De Futbol Prof,4,2,2,1,18,16,9,7,43,34,7,4,1.57,3.75,4.75
+20-12-2024,Nacional Potosí,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,2,0,1,23,16,7,9,48,30,11,4,1.22,8.0,10.0
+18-12-2024,Universitario de Vinto,Wilstermann,Bolívia - Liga De Futbol Prof,1,1,1,0,9,25,3,7,37,63,3,1,1.36,5.25,6.5
+13-12-2024,Bolívar,Universitario de Vinto,Bolívia - Liga De Futbol Prof,5,1,3,0,25,13,12,5,56,14,9,5,1.12,9.0,15.0
+09-12-2024,Independiente Petrolero,Universitario de Vinto,Bolívia - Liga De Futbol Prof,3,2,2,1,16,15,5,8,41,29,4,7,1.66,3.9,5.0
+06-12-2024,Universitario de Vinto,San Antonio Bulo Bulo,Bolívia - Liga De Futbol Prof,0,2,0,0,2,14,2,4,25,52,4,7,1.7,3.75,4.5
+29-11-2024,Universitario de Vinto,Guabirá,Bolívia - Liga De Futbol Prof,1,0,0,0,15,10,2,3,40,31,6,4,1.53,4.2,5.75
+26-11-2024,Blooming,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,0,0,0,19,12,8,3,41,14,6,4,1.66,3.9,5.0
+24-11-2024,Universitario de Vinto,Always Ready,Bolívia - Liga De Futbol Prof,1,2,1,1,18,13,7,5,37,29,5,4,2.55,3.1,2.8
+20-11-2024,Universitario de Vinto,Oriente Petrolero,Bolívia - Liga De Futbol Prof,4,1,0,0,10,17,5,7,26,38,6,8,2.15,3.4,3.25
+29-10-2024,Santa Cruz,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,1,0,0,14,15,7,7,25,30,7,6,2.0,3.4,3.6
+26-10-2024,Universitario de Vinto,The Strongest,Bolívia - Liga De Futbol Prof,2,4,0,1,6,11,4,5,23,41,1,5,3.4,3.25,2.15
+22-10-2024,Aurora,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,2,0,1,14,16,1,11,76,22,6,4,1.85,3.5,4.1
+18-10-2024,Universitario de Vinto,Real Tomayapo,Bolívia - Liga De Futbol Prof,2,1,1,0,12,16,2,5,20,49,4,13,1.57,3.9,5.75
+24-09-2024,Royal Pari,Universitario de Vinto,Bolívia - Liga De Futbol Prof,0,0,0,0,14,3,3,0,37,35,3,2,1.9,3.6,3.9
+20-09-2024,Universitario de Vinto,Nacional Potosí,Bolívia - Liga De Futbol Prof,0,1,0,0,10,15,2,6,31,47,5,3,1.95,3.5,3.8
+13-09-2024,Wilstermann,Universitario de Vinto,Bolívia - Liga De Futbol Prof,1,1,1,0,14,16,5,6,32,51,6,2,2.35,3.1,3.25
+25-08-2024,Universitario de Vinto,Bolívar,Bolívia - Liga De Futbol Prof,0,1,0,1,22,20,4,5,32,53,7,4,4.0,3.75,1.8
+17-08-2024,Universitario de Vinto,Independiente Petrolero,Bolívia - Liga De Futbol Prof,1,2,0,0,17,15,5,5,56,16,10,5,1.75,3.5,4.75
+12-08-2024,San Antonio Bulo Bulo,Universitario de Vinto,Bolívia - Liga De Futbol Prof,2,1,1,0,9,15,3,6,28,44,6,4,1.85,3.5,4.1
+07-08-2024,Universitario de Vinto,Gualberto Villarroel SJ,Bolívia - Liga De Futbol Prof,1,1,0,1,16,16,5,4,39,26,5,3,1.7,4.0,4.5
+08-08-2025,ABB,Real Oruro,Bolívia - Liga De Futbol Prof,1,2,0,0,11,18,2,3,19,40,0,6,2.2,3.3,2.8
+02-08-2025,Real Oruro,Bolívar,Bolívia - Liga De Futbol Prof,3,1,1,0,16,14,6,6,26,48,3,5,4.33,3.7,1.7
+20-08-2025,Independiente Petrolero,Wilstermann,Bolívia - Liga De Futbol Prof,2,1,1,0,18,11,7,4,34,41,4,3,1.5,4.0,5.25
+09-08-2025,Bolívar,Real Tomayapo,Bolívia - Liga De Futbol Prof,5,0,2,0,25,7,12,0,71,27,8,4,1.12,8.5,13.0
+19-08-2025,Operário PR,Avaí,Brasil - Serie B,0,0,0,0,14,9,4,3,38,24,7,3,2.1,3.1,3.75
+26-07-2025,Ferroviária,Operário PR,Brasil - Serie B,0,0,0,0,7,27,3,6,13,108,4,16,2.4,2.9,3.25
+11-07-2025,Vila Nova,Operário PR,Brasil - Serie B,0,0,0,0,10,6,5,3,51,27,5,0,1.9,3.1,4.5
+29-06-2025,Volta Redonda,Operário PR,Brasil - Serie B,1,0,0,0,16,10,2,1,41,29,5,4,2.05,3.0,4.2
+08-06-2025,Remo,Operário PR,Brasil - Serie B,2,1,0,0,16,16,3,5,31,34,6,0,2.2,3.0,3.6
+25-05-2025,Amazonas,Operário PR,Brasil - Serie B,2,0,0,0,12,13,5,1,36,30,4,10,3.2,3.0,2.4
+17-05-2025,Operário PR,Botafogo SP,Brasil - Serie B,3,0,0,0,20,5,7,1,45,19,6,0,1.8,3.5,4.75
+11-05-2025,Cuiabá,Operário PR,Brasil - Serie B,2,3,0,2,15,8,7,4,44,25,6,3,1.9,3.1,4.33
+04-05-2025,Operário PR,América Mineiro,Brasil - Serie B,1,0,1,0,16,10,4,3,16,6,5,4,2.4,2.9,3.1
+26-04-2025,Coritiba,Operário PR,Brasil - Serie B,2,0,2,0,7,13,3,7,35,49,5,4,1.95,3.0,4.5
+19-04-2025,Operário PR,Paysandu,Brasil - Serie B,0,0,0,0,15,7,3,1,59,29,6,3,1.83,3.1,5.0
+16-04-2025,Avaí,Operário PR,Brasil - Serie B,1,0,1,0,11,12,3,4,22,12,4,6,2.15,3.0,3.8
+12-04-2025,Operário PR,Goiás,Brasil - Serie B,1,2,0,0,12,6,1,3,37,36,7,7,2.75,2.62,3.1
+04-04-2025,Criciúma,Operário PR,Brasil - Serie B,1,2,1,1,14,11,4,5,49,28,6,6,1.9,3.2,4.33
+15-11-2024,Operário PR,Mirassol,Brasil - Serie B,1,1,1,0,15,7,4,2,34,28,4,9,2.7,2.7,3.0
+09-11-2024,Novorizontino,Operário PR,Brasil - Serie B,0,1,0,0,21,8,5,4,71,33,4,4,1.66,3.3,6.25
+04-11-2024,Operário PR,Sport Recife,Brasil - Serie B,2,1,0,1,26,11,9,4,48,21,10,2,3.6,3.0,2.15
+29-10-2024,Goiás,Operário PR,Brasil - Serie B,3,0,1,0,23,14,10,3,45,34,3,3,1.75,3.2,5.75
+23-10-2024,Operário PR,América Mineiro,Brasil - Serie B,1,0,0,0,10,15,2,7,29,37,2,3,3.1,3.0,2.45
+20-10-2024,Operário PR,Paysandu,Brasil - Serie B,1,1,0,1,17,14,6,3,58,29,9,4,1.9,3.2,4.5
+08-08-2025,Ferroviária,Amazonas,Brasil - Serie B,2,1,1,0,12,9,4,3,44,21,9,1,2.1,3.0,3.7
+10-08-2025,Avaí,Cuiabá,Brasil - Serie B,2,0,2,0,9,21,5,5,23,55,1,10,2.05,3.1,3.8
+04-08-2025,Cuiabá,Volta Redonda,Brasil - Serie B,2,0,1,0,19,7,6,2,43,28,5,3,1.85,3.3,4.5
+17-08-2025,Atlético GO,Ferroviária,Brasil - Serie B,1,3,0,1,14,14,5,4,55,15,6,4,1.75,3.4,4.75
+10-08-2025,Atlético GO,Botafogo SP,Brasil - Serie B,2,0,0,0,25,6,7,2,70,26,5,5,1.65,3.5,5.75
+22-07-2025,Operário PR,Atlético GO,Brasil - Serie B,3,0,0,0,11,3,5,3,26,16,3,2,2.25,2.87,3.7
+12-07-2025,Paysandu,Atlético GO,Brasil - Serie B,2,2,1,2,12,18,5,8,40,40,11,6,2.75,2.8,2.9
+28-06-2025,Vila Nova,Atlético GO,Brasil - Serie B,1,0,0,0,7,9,1,3,45,33,5,6,2.55,2.87,3.1
+22-06-2025,Atlético GO,Volta Redonda,Brasil - Serie B,2,0,0,0,21,6,6,0,91,22,8,1,1.95,3.2,4.2
+15-06-2025,Atlético GO,Coritiba,Brasil - Serie B,0,0,0,0,18,11,4,2,46,22,4,7,2.25,2.9,3.6
+31-05-2025,Atlético GO,Goiás,Brasil - Serie B,1,2,1,2,16,9,5,5,47,34,7,3,2.25,3.0,3.5
+27-05-2025,América Mineiro,Atlético GO,Brasil - Serie B,2,1,2,1,11,11,5,3,28,23,6,4,1.83,3.4,4.5
+18-05-2025,Atlético GO,Remo,Brasil - Serie B,1,1,0,0,23,7,9,2,75,19,8,5,1.8,3.5,4.5
+10-05-2025,Avaí,Atlético GO,Brasil - Serie B,0,0,0,0,19,11,5,3,55,31,6,4,1.95,3.6,3.6
+27-04-2025,Amazonas,Atlético GO,Brasil - Serie B,1,1,0,1,14,16,4,6,25,47,7,5,2.37,3.1,3.1
+22-04-2025,Atlético GO,Cuiabá,Brasil - Serie B,1,1,1,0,13,13,4,2,20,40,2,8,2.2,2.9,3.75
+17-04-2025,Ferroviária,Atlético GO,Brasil - Serie B,2,0,1,0,13,10,7,2,31,44,6,6,2.7,2.9,2.8
+13-04-2025,Botafogo SP,Atlético GO,Brasil - Serie B,1,1,1,0,12,18,6,3,38,61,6,6,2.55,3.0,3.0
+07-04-2025,Atlético GO,Athletic Club,Brasil - Serie B,4,2,1,1,14,8,8,2,53,37,7,4,1.85,3.25,4.5
+08-12-2024,Bahia,Atlético GO,Brasil - Serie A,2,0,1,0,17,13,5,2,42,40,4,5,1.42,4.75,7.0
+04-12-2024,Atlético GO,Fortaleza,Brasil - Serie A,3,1,1,1,27,12,10,4,50,34,5,3,2.6,3.2,2.9
+30-11-2024,Vasco da Gama,Atlético GO,Brasil - Serie A,2,2,0,1,16,12,7,6,60,25,5,3,1.9,3.25,4.33
+23-11-2024,Atlético GO,Palmeiras,Brasil - Serie A,0,1,0,1,9,10,2,3,57,31,4,2,8.0,5.25,1.33
+06-11-2024,Atlético GO,Atlético Mineiro,Brasil - Serie A,1,0,0,0,13,12,3,5,43,48,4,7,2.3,3.1,3.3
+18-10-2024,Atlético GO,Cuiabá,Brasil - Serie A,0,0,0,0,16,6,4,0,83,23,8,4,2.2,3.1,3.7
+03-10-2024,Criciúma,Atlético GO,Brasil - Serie A,2,0,1,0,17,14,5,3,47,57,7,6,1.83,3.5,4.2
+29-09-2024,Atlético GO,Fluminense,Brasil - Serie A,1,0,0,0,16,13,7,2,30,61,4,3,2.45,3.2,3.0
+15-08-2025,Alianza Petrolera,Once Caldas,Colômbia - Liga Betplay,0,0,0,0,20,9,6,2,42,34,8,4,1.9,3.4,4.2
+03-08-2025,Alianza Petrolera,Atlético Bucaramanga,Colômbia - Liga Betplay,1,3,0,2,14,6,5,5,59,17,6,2,2.1,3.25,3.7
+22-07-2025,Alianza Petrolera,Deportes Tolima,Colômbia - Liga Betplay,0,1,0,1,16,10,2,7,75,27,7,1,2.45,3.1,3.1
+09-08-2025,América de Cali,Deportes Tolima,Colômbia - Liga Betplay,0,1,0,1,14,8,4,2,41,46,3,4,2.1,3.1,3.8
+19-06-2025,América de Cali,Independiente Medellín,Colômbia - Liga Betplay,1,1,1,0,15,11,3,5,48,30,4,3,1.61,3.6,6.0
+12-06-2025,América de Cali,Deportes Tolima,Colômbia - Liga Betplay,1,3,1,1,24,13,9,8,25,2,5,5,1.66,3.6,5.5
+07-06-2025,Deportes Tolima,América de Cali,Colômbia - Liga Betplay,1,1,1,0,8,13,1,6,8,21,3,6,2.8,3.0,2.62
+31-05-2025,Independiente Medellín,América de Cali,Colômbia - Liga Betplay,1,1,0,0,20,12,5,6,43,17,9,1,2.25,3.0,3.5
+25-05-2025,América de Cali,Independiente Medellín,Colômbia - Liga Betplay,2,0,0,0,16,15,5,3,26,27,0,5,3.3,2.87,2.4
+18-05-2025,Unión Magdalena,América de Cali,Colômbia - Liga Betplay,0,2,0,0,15,17,3,7,23,39,3,6,4.2,3.3,1.85
+30-04-2025,Rionegro Águilas,América de Cali,Colômbia - Liga Betplay,0,1,0,0,13,17,2,2,26,17,3,6,3.6,2.8,2.3
+27-04-2025,América de Cali,Deportivo Cali,Colômbia - Liga Betplay,2,0,0,0,18,5,6,2,21,11,8,3,1.72,3.4,5.0
+19-04-2025,La Equidad,América de Cali,Colômbia - Liga Betplay,2,0,1,0,10,19,2,5,27,50,2,8,2.9,3.0,2.5
+16-04-2025,América de Cali,Millonarios,Colômbia - Liga Betplay,0,0,0,0,16,6,6,4,58,26,3,4,1.83,3.4,4.33
+12-04-2025,Envigado,América de Cali,Colômbia - Liga Betplay,1,1,0,0,12,10,3,2,37,31,4,4,6.0,3.6,1.6
+05-04-2025,Once Caldas,América de Cali,Colômbia - Liga Betplay,3,0,1,0,19,16,7,5,36,37,6,7,1.95,3.3,3.9
+27-03-2025,América de Cali,Boyacá Chicó,Colômbia - Liga Betplay,3,0,2,0,17,9,7,3,44,20,7,2,1.27,5.25,11.0
+24-03-2025,Deportivo Cali,América de Cali,Colômbia - Liga Betplay,1,1,0,1,8,10,3,2,24,31,2,8,3.4,2.9,2.35
+15-03-2025,América de Cali,Alianza Petrolera,Colômbia - Liga Betplay,3,0,1,0,20,8,12,3,99,82,9,2,1.61,3.5,6.25
+09-03-2025,Atlético Nacional,América de Cali,Colômbia - Liga Betplay,1,0,1,0,15,9,7,3,15,19,5,6,1.7,3.8,4.75
+01-03-2025,América de Cali,Deportivo Pereira,Colômbia - Liga Betplay,2,0,1,0,13,11,2,3,24,12,3,5,1.48,3.8,8.0
+23-02-2025,Deportes Tolima,América de Cali,Colômbia - Liga Betplay,0,0,0,0,12,9,6,0,36,42,4,2,3.1,2.9,2.55
+15-02-2025,América de Cali,Santa Fe,Colômbia - Liga Betplay,2,0,0,0,13,19,7,5,49,22,11,7,1.42,3.8,9.5
+08-02-2025,América de Cali,Deportivo Pasto,Colômbia - Liga Betplay,1,1,1,1,12,9,2,4,47,21,8,6,1.38,4.33,9.5
+02-02-2025,Atlético Bucaramanga,América de Cali,Colômbia - Liga Betplay,0,4,0,1,20,12,7,6,42,17,8,0,3.25,2.87,2.45
+25-01-2025,América de Cali,Llaneros,Colômbia - Liga Betplay,4,3,1,2,21,9,8,3,40,23,12,4,1.5,4.1,6.5
+04-12-2024,Once Caldas,América de Cali,Colômbia - Liga Betplay,3,0,1,0,9,18,6,5,17,39,0,7,2.62,2.8,3.1
+01-12-2024,América de Cali,Deportes Tolima,Colômbia - Liga Betplay,4,2,1,1,22,6,8,3,58,16,1,2,2.62,2.75,3.2
+08-08-2025,Atlético Nacional,Alianza Petrolera,Colômbia - Liga Betplay,3,0,1,0,11,11,6,6,41,45,5,6,1.61,3.8,5.5
+02-08-2025,Deportes Tolima,Atlético Nacional,Colômbia - Liga Betplay,0,0,0,0,27,4,3,0,72,10,5,1,3.3,3.0,2.3
+16-08-2025,Rionegro Águilas,Boyacá Chicó,Colômbia - Liga Betplay,2,0,0,0,17,12,6,4,37,25,7,4,1.85,3.25,4.75
+09-08-2025,Once Caldas,Rionegro Águilas,Colômbia - Liga Betplay,1,1,1,1,9,15,1,4,36,50,8,7,1.75,3.3,5.25
+26-07-2025,América de Cali,Rionegro Águilas,Colômbia - Liga Betplay,2,1,1,0,8,15,4,4,45,38,3,4,1.57,3.5,7.0
+17-08-2025,Sangju Sangmu,Seoul,Coréia Do Sul - K-League 1,6,2,3,2,14,23,8,8,53,89,1,7,3.1,3.6,2.15
+08-08-2025,Seoul,Daegu,Coréia Do Sul - K-League 1,2,2,2,1,13,16,5,3,52,51,4,4,1.33,5.25,8.0
+23-07-2025,Jeju United,Seoul,Coréia Do Sul - K-League 1,3,2,1,1,16,9,6,4,60,46,4,6,3.4,3.0,2.15
+17-06-2025,Seoul,Gangwon,Coréia Do Sul - K-League 1,1,1,0,1,15,10,4,4,50,25,5,3,1.8,3.4,4.75
+13-06-2025,Gwangju,Seoul,Coréia Do Sul - K-League 1,1,3,0,1,16,11,2,6,83,51,5,5,3.4,3.2,2.15
+31-05-2025,Seoul,Jeju United,Coréia Do Sul - K-League 1,1,3,0,1,30,8,11,5,107,19,13,2,1.65,3.75,5.75
+28-05-2025,Sangju Sangmu,Seoul,Coréia Do Sul - K-League 1,0,1,0,0,14,9,4,6,84,58,5,4,2.7,3.4,2.5
+24-05-2025,Seoul,Suwon,Coréia Do Sul - K-League 1,1,1,1,0,20,8,6,3,83,64,6,2,1.5,3.9,6.5
+18-05-2025,Daegu,Seoul,Coréia Do Sul - K-League 1,0,1,0,0,8,21,3,5,52,87,7,8,5.25,3.7,1.66
+19-04-2025,Seoul,Gwangju,Coréia Do Sul - K-League 1,1,2,0,1,30,6,3,3,89,45,6,3,2.1,3.1,4.0
+29-03-2025,Seoul,Daegu,Coréia Do Sul - K-League 1,3,2,1,0,22,8,8,5,62,40,8,4,1.8,3.6,4.33
+15-03-2025,Gangwon,Seoul,Coréia Do Sul - K-League 1,0,1,0,1,5,12,0,8,45,54,1,2,3.3,3.0,2.4
+08-03-2025,Suwon,Seoul,Coréia Do Sul - K-League 1,0,0,0,0,10,10,4,4,59,81,4,4,3.9,3.4,2.0
+03-03-2025,Seoul,Sangju Sangmu,Coréia Do Sul - K-League 1,0,0,0,0,12,4,4,0,18,14,3,3,2.5,3.25,2.8
+15-02-2025,Jeju United,Seoul,Coréia Do Sul - K-League 1,2,0,1,0,9,8,3,2,64,88,1,4,4.33,3.4,1.83
+23-11-2024,Sangju Sangmu,Seoul,Coréia Do Sul - K-League 1,1,3,0,1,20,13,4,10,102,52,9,4,2.6,3.1,2.7
+26-10-2024,Suwon,Seoul,Coréia Do Sul - K-League 1,0,1,0,1,9,5,4,5,66,48,4,4,3.25,3.2,2.2
+20-10-2024,Gangwon,Seoul,Coréia Do Sul - K-League 1,1,0,0,0,10,8,4,1,43,77,5,4,2.3,3.2,3.2
+06-10-2024,Gwangju,Seoul,Coréia Do Sul - K-League 1,3,1,0,0,9,5,5,1,95,70,2,0,2.62,3.2,2.7
+29-09-2024,Seoul,Suwon,Coréia Do Sul - K-League 1,1,0,0,0,7,4,2,0,91,92,8,2,1.95,3.6,3.75
+21-09-2024,Daegu,Seoul,Coréia Do Sul - K-League 1,1,1,0,0,6,15,3,2,72,116,2,12,2.7,3.3,2.37
+01-09-2024,Jeonbuk Motors,Seoul,Coréia Do Sul - K-League 1,0,0,0,0,9,6,2,0,92,76,2,6,2.5,3.2,2.55
+24-08-2024,Seoul,Gangwon,Coréia Do Sul - K-League 1,2,0,2,0,14,10,8,2,53,101,5,9,2.62,3.1,2.8
+16-08-2024,Seoul,Jeju United,Coréia Do Sul - K-League 1,1,0,1,0,12,13,5,4,56,81,4,6,1.9,3.3,3.6
+21-07-2024,Seoul,Sangju Sangmu,Coréia Do Sul - K-League 1,1,0,0,0,6,4,4,1,41,56,2,5,2.5,3.5,2.7
+13-07-2024,Ulsan,Seoul,Coréia Do Sul - K-League 1,1,0,0,0,6,6,3,2,39,31,3,2,2.1,3.4,3.4
+06-07-2024,Jeju United,Seoul,Coréia Do Sul - K-League 1,3,2,2,0,12,13,5,5,72,108,10,5,3.1,3.3,2.2
+29-06-2024,Jeonbuk Motors,Seoul,Coréia Do Sul - K-League 1,1,5,0,2,8,8,1,6,75,77,4,5,2.9,3.4,2.35
+26-06-2024,Seoul,Gangwon,Coréia Do Sul - K-League 1,2,0,0,0,10,10,6,4,37,26,4,1,1.95,3.5,3.3
+22-06-2024,Seoul,Suwon,Coréia Do Sul - K-League 1,3,0,1,0,7,10,3,0,77,83,4,5,2.0,3.5,3.0
+16-08-2025,Suwon,Ulsan,Coréia Do Sul - K-League 1,4,2,1,1,20,23,11,7,54,79,4,8,3.5,3.8,1.95
+09-08-2025,Ulsan,Jeju United,Coréia Do Sul - K-League 1,1,0,0,0,21,4,6,1,71,59,3,2,1.83,3.8,3.5
+02-08-2025,Ulsan,Suwon,Coréia Do Sul - K-League 1,2,3,0,0,18,16,3,7,72,40,10,6,1.66,3.9,4.1
+27-07-2025,Gangwon,Ulsan,Coréia Do Sul - K-League 1,2,2,0,1,14,14,4,5,53,49,6,4,3.0,3.4,2.3
+20-07-2025,Seoul,Ulsan,Coréia Do Sul - K-League 1,1,0,1,0,7,11,5,3,49,80,3,11,2.15,3.4,3.25
+12-07-2025,Ulsan,Daegu,Coréia Do Sul - K-League 1,2,2,0,1,27,8,8,4,145,37,10,1,1.53,4.0,6.5
+28-05-2025,Gwangju,Ulsan,Coréia Do Sul - K-League 1,1,1,1,0,28,13,8,3,91,59,7,1,3.1,3.2,2.37
+24-05-2025,Ulsan,Sangju Sangmu,Coréia Do Sul - K-League 1,3,2,0,1,17,15,7,7,69,79,5,4,2.25,3.6,3.0
+17-05-2025,Gangwon,Ulsan,Coréia Do Sul - K-League 1,1,1,0,0,12,7,5,1,63,88,2,8,4.75,3.5,1.72
+11-05-2025,Jeju United,Ulsan,Coréia Do Sul - K-League 1,1,2,0,1,17,16,4,9,54,76,2,12,4.0,3.3,1.95
+02-05-2025,Ulsan,Gwangju,Coréia Do Sul - K-League 1,3,0,1,0,12,7,10,2,80,40,4,2,1.7,3.6,5.0
+27-04-2025,Sangju Sangmu,Ulsan,Coréia Do Sul - K-League 1,2,0,1,0,17,15,7,6,60,72,7,4,2.6,3.3,2.7
+19-04-2025,Ulsan,Gangwon,Coréia Do Sul - K-League 1,1,2,1,1,17,6,3,4,104,50,9,0,1.9,3.4,4.33
+13-04-2025,Daegu,Ulsan,Coréia Do Sul - K-League 1,0,1,0,0,15,14,3,4,64,105,5,9,4.1,3.5,1.8
+05-04-2025,Ulsan,Seoul,Coréia Do Sul - K-League 1,0,0,0,0,10,13,2,2,86,58,2,6,2.35,3.3,3.0
+16-03-2025,Suwon,Ulsan,Coréia Do Sul - K-League 1,1,1,1,0,6,23,2,3,54,105,1,8,4.1,3.5,1.9
+09-03-2025,Ulsan,Jeju United,Coréia Do Sul - K-League 1,2,0,1,0,19,11,6,1,87,93,8,6,1.55,3.9,6.25
+23-11-2024,Ulsan,Suwon,Coréia Do Sul - K-League 1,4,2,1,1,16,23,5,7,62,87,6,2,2.45,3.3,2.62
+10-11-2024,Seoul,Ulsan,Coréia Do Sul - K-League 1,1,1,0,1,21,14,5,6,72,54,8,3,2.25,3.25,3.2
+01-11-2024,Ulsan,Gangwon,Coréia Do Sul - K-League 1,2,1,1,0,10,10,5,1,59,54,3,3,1.95,3.3,3.9
+19-10-2024,Sangju Sangmu,Ulsan,Coréia Do Sul - K-League 1,0,0,0,0,14,12,4,7,25,43,2,6,2.87,3.2,2.5
+06-10-2024,Ulsan,Sangju Sangmu,Coréia Do Sul - K-League 1,2,1,0,1,8,11,4,4,62,66,3,2,2.15,3.4,3.3
+13-09-2024,Ulsan,Gangwon,Coréia Do Sul - K-League 1,2,0,1,0,5,12,3,2,43,73,2,4,1.9,3.6,3.9
+10-08-2025,Pohang Steelers,Gwangju,Coréia Do Sul - K-League 1,1,0,1,0,14,2,5,0,49,13,9,0,2.2,3.0,3.2
+27-07-2025,Daegu,Pohang Steelers,Coréia Do Sul - K-League 1,0,1,0,0,6,8,4,4,50,62,3,3,3.6,3.7,1.95
+22-07-2025,Pohang Steelers,Suwon,Coréia Do Sul - K-League 1,1,5,1,2,15,17,6,10,97,53,7,3,1.83,3.6,3.75
+29-06-2025,Seoul,Pohang Steelers,Coréia Do Sul - K-League 1,4,1,3,0,20,6,10,2,93,41,7,4,2.15,3.1,3.6
+21-06-2025,Pohang Steelers,Jeju United,Coréia Do Sul - K-League 1,2,1,0,0,19,10,11,5,70,53,4,2,1.8,3.2,4.33
+17-06-2025,Daegu,Pohang Steelers,Coréia Do Sul - K-League 1,1,1,0,1,15,9,5,6,50,48,2,4,4.33,3.5,1.83
+14-06-2025,Sangju Sangmu,Pohang Steelers,Coréia Do Sul - K-League 1,1,0,1,0,12,7,6,1,79,86,3,3,2.45,3.25,2.87
+01-06-2025,Pohang Steelers,Gangwon,Coréia Do Sul - K-League 1,2,1,1,1,11,11,4,3,63,48,4,5,2.1,3.1,4.0
+18-05-2025,Pohang Steelers,Gwangju,Coréia Do Sul - K-League 1,0,1,0,0,18,10,4,2,52,41,4,2,2.62,3.0,2.8
+10-05-2025,Pohang Steelers,Suwon,Coréia Do Sul - K-League 1,2,0,1,0,14,11,3,1,66,50,6,6,2.3,3.2,3.1
+05-05-2025,Ulsan,Pohang Steelers,Coréia Do Sul - K-League 1,1,1,1,1,17,11,4,5,85,75,6,7,1.72,3.6,4.5
+02-05-2025,Pohang Steelers,Sangju Sangmu,Coréia Do Sul - K-League 1,1,2,0,0,10,12,4,5,81,71,5,4,3.2,3.6,2.15
+27-04-2025,Pohang Steelers,Seoul,Coréia Do Sul - K-League 1,1,0,1,0,8,19,3,5,66,87,3,10,3.2,3.25,2.25
+20-04-2025,Jeju United,Pohang Steelers,Coréia Do Sul - K-League 1,2,0,1,0,14,15,3,4,72,60,8,7,2.7,3.2,2.62
+05-04-2025,Suwon,Pohang Steelers,Coréia Do Sul - K-League 1,1,1,1,0,17,16,8,2,56,81,1,8,3.2,3.0,2.45
+29-03-2025,Pohang Steelers,Ulsan,Coréia Do Sul - K-League 1,1,0,0,0,13,9,4,1,79,86,5,4,3.3,3.25,2.0
+22-03-2025,Gwangju,Pohang Steelers,Coréia Do Sul - K-League 1,2,3,1,1,10,12,5,6,78,68,6,0,2.0,3.2,3.8
+01-03-2025,Pohang Steelers,Daegu,Coréia Do Sul - K-League 1,0,0,0,0,13,9,3,3,64,38,7,2,2.37,3.3,3.0
+23-02-2025,Gangwon,Pohang Steelers,Coréia Do Sul - K-League 1,2,1,0,1,16,5,6,4,69,22,4,3,2.6,3.1,2.8
+23-11-2024,Gangwon,Pohang Steelers,Coréia Do Sul - K-League 1,1,0,1,0,8,14,3,4,18,45,2,9,2.8,3.2,2.4
+10-11-2024,Pohang Steelers,Sangju Sangmu,Coréia Do Sul - K-League 1,0,3,0,0,8,8,5,6,48,50,4,1,2.35,3.3,3.0
+02-11-2024,Seoul,Pohang Steelers,Coréia Do Sul - K-League 1,1,1,1,1,8,4,3,1,68,36,10,1,2.25,3.2,3.25
+27-10-2024,Pohang Steelers,Ulsan,Coréia Do Sul - K-League 1,0,2,0,1,7,9,7,7,67,54,8,5,2.9,3.3,2.37
+18-10-2024,Pohang Steelers,Suwon,Coréia Do Sul - K-League 1,1,1,1,1,8,5,5,5,82,46,6,1,2.0,3.4,3.6
+06-10-2024,Pohang Steelers,Suwon,Coréia Do Sul - K-League 1,1,1,1,0,7,11,3,4,67,76,3,5,1.9,3.5,4.1
+22-09-2024,Pohang Steelers,Gangwon,Coréia Do Sul - K-League 1,2,1,1,0,5,9,2,5,37,67,0,5,2.6,3.25,2.55
+13-09-2024,Gwangju,Pohang Steelers,Coréia Do Sul - K-League 1,2,1,0,0,6,2,5,1,102,60,6,4,2.8,3.1,2.55
+31-08-2024,Ulsan,Pohang Steelers,Coréia Do Sul - K-League 1,5,4,2,1,21,10,10,4,87,43,6,3,2.1,3.4,3.3
+24-08-2024,Pohang Steelers,Daegu,Coréia Do Sul - K-League 1,1,2,0,1,21,9,3,5,92,46,9,6,2.45,3.4,2.75
+17-08-2024,Jeonbuk Motors,Pohang Steelers,Coréia Do Sul - K-League 1,2,1,1,0,11,5,6,1,90,87,2,3,2.2,3.3,2.9
+11-08-2024,Pohang Steelers,Seoul,Coréia Do Sul - K-League 1,1,2,0,1,12,5,4,4,125,55,8,2,2.3,3.25,3.2
+28-07-2024,Pohang Steelers,Sangju Sangmu,Coréia Do Sul - K-League 1,1,2,0,1,7,8,5,5,88,66,5,2,2.37,3.2,3.0
+16-08-2025,Jeonbuk Motors,Daegu,Coréia Do Sul - K-League 1,3,0,1,0,13,14,7,4,56,71,3,3,1.45,4.75,6.0
+26-07-2025,Gwangju,Jeonbuk Motors,Coréia Do Sul - K-League 1,1,2,0,1,15,7,3,3,104,51,6,1,3.3,3.3,2.2
+23-07-2025,Jeonbuk Motors,Gangwon,Coréia Do Sul - K-League 1,2,0,2,0,18,6,9,1,109,47,7,2,1.8,3.7,3.9
+19-07-2025,Pohang Steelers,Jeonbuk Motors,Coréia Do Sul - K-League 1,2,3,2,0,22,14,7,8,59,55,6,5,5.0,3.6,1.75
+27-06-2025,Sangju Sangmu,Jeonbuk Motors,Coréia Do Sul - K-League 1,1,2,0,1,17,15,3,5,90,68,7,6,3.2,3.4,2.25
+21-06-2025,Jeonbuk Motors,Seoul,Coréia Do Sul - K-League 1,1,1,1,1,12,10,3,2,63,50,3,1,2.6,3.0,2.7
+17-06-2025,Jeonbuk Motors,Suwon,Coréia Do Sul - K-League 1,3,2,0,2,12,12,4,6,98,58,8,1,1.7,3.8,4.75
+13-06-2025,Gangwon,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,3,0,2,14,13,3,6,89,66,5,5,3.75,3.1,2.05
+31-05-2025,Jeonbuk Motors,Ulsan,Coréia Do Sul - K-League 1,3,1,1,1,11,12,7,4,84,96,4,6,2.6,3.2,2.7
+27-05-2025,Daegu,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,4,0,2,16,18,1,4,66,74,5,9,5.25,4.1,1.6
+23-05-2025,Jeju United,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,0,0,0,12,10,1,3,67,67,2,3,3.4,3.4,2.1
+11-05-2025,Gwangju,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,1,0,1,22,7,5,4,88,18,6,1,3.25,3.0,2.35
+03-05-2025,Seoul,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,1,0,1,22,5,8,3,106,42,10,3,2.3,3.2,3.1
+26-04-2025,Suwon,Jeonbuk Motors,Coréia Do Sul - K-League 1,1,2,0,0,13,10,2,3,85,67,2,5,3.5,3.3,2.15
+20-04-2025,Jeonbuk Motors,Daegu,Coréia Do Sul - K-League 1,3,1,3,0,18,13,6,5,71,81,5,3,1.75,3.75,4.5
+13-04-2025,Jeonbuk Motors,Jeju United,Coréia Do Sul - K-League 1,1,1,0,1,12,17,2,5,81,71,4,4,1.75,3.3,4.75
+16-03-2025,Jeonbuk Motors,Pohang Steelers,Coréia Do Sul - K-League 1,2,2,2,0,10,17,6,5,64,90,5,7,1.95,3.4,3.9
+09-03-2025,Jeonbuk Motors,Gangwon,Coréia Do Sul - K-League 1,0,1,0,0,11,5,3,1,118,41,5,0,2.15,3.1,3.6
+01-03-2025,Ulsan,Jeonbuk Motors,Coréia Do Sul - K-League 1,1,0,0,0,14,8,4,2,86,83,5,4,2.55,3.3,2.75
+23-02-2025,Jeonbuk Motors,Gwangju,Coréia Do Sul - K-League 1,2,2,1,1,14,4,5,2,109,55,4,1,2.15,3.1,3.4
+16-02-2025,Jeonbuk Motors,Sangju Sangmu,Coréia Do Sul - K-League 1,2,1,1,1,16,11,6,3,95,63,10,1,2.4,3.25,2.9
+24-11-2024,Gwangju,Jeonbuk Motors,Coréia Do Sul - K-League 1,1,1,0,0,12,13,2,4,65,50,5,5,2.62,3.2,2.55
+10-11-2024,Jeonbuk Motors,Daegu,Coréia Do Sul - K-League 1,3,1,0,0,14,10,9,2,67,48,3,4,1.85,3.4,4.2
+27-10-2024,Jeju United,Jeonbuk Motors,Coréia Do Sul - K-League 1,1,0,0,0,5,13,3,3,26,111,1,13,3.4,3.3,2.05
+06-10-2024,Daegu,Jeonbuk Motors,Coréia Do Sul - K-League 1,4,3,2,0,11,13,7,7,24,83,1,9,2.8,3.4,2.45
+28-09-2024,Jeonbuk Motors,Jeju United,Coréia Do Sul - K-League 1,2,1,0,0,11,4,5,3,120,70,6,1,1.8,3.8,4.2
+14-09-2024,Suwon,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,6,0,1,9,15,2,7,73,67,7,4,2.55,3.3,2.7
+15-08-2025,Anyang,Pohang Steelers,Coréia Do Sul - K-League 1,0,1,0,1,11,5,6,2,83,41,5,3,3.1,3.2,2.35
+08-08-2025,Jeonbuk Motors,Anyang,Coréia Do Sul - K-League 1,2,1,1,0,22,13,8,3,103,72,6,5,1.65,3.8,4.75
+26-07-2025,Suwon,Anyang,Coréia Do Sul - K-League 1,2,1,2,1,21,19,9,5,54,58,6,3,2.25,3.5,3.1
+22-07-2025,Anyang,Daegu,Coréia Do Sul - K-League 1,4,0,2,0,15,8,7,1,30,38,5,3,2.1,3.3,3.25
+19-07-2025,Jeju United,Anyang,Coréia Do Sul - K-League 1,2,0,0,0,14,7,6,4,57,35,3,4,2.2,3.25,3.4
+28-06-2025,Anyang,Gwangju,Coréia Do Sul - K-League 1,1,2,1,2,11,20,3,8,74,75,2,4,2.4,3.25,2.9
+22-06-2025,Sangju Sangmu,Anyang,Coréia Do Sul - K-League 1,1,0,0,0,21,7,2,0,78,49,8,4,1.95,3.4,3.4
+14-06-2025,Suwon,Anyang,Coréia Do Sul - K-League 1,1,2,1,0,12,14,3,5,84,75,0,4,2.37,3.1,3.1
+28-05-2025,Gangwon,Anyang,Coréia Do Sul - K-League 1,1,3,0,2,14,9,5,3,69,18,9,2,2.4,3.0,3.2
+23-05-2025,Anyang,Pohang Steelers,Coréia Do Sul - K-League 1,0,2,0,0,5,8,0,2,73,72,3,3,3.2,3.2,2.37
+17-05-2025,Jeonbuk Motors,Anyang,Coréia Do Sul - K-League 1,2,0,2,0,10,18,3,7,58,126,6,5,1.83,3.5,4.2
+10-05-2025,Anyang,Daegu,Coréia Do Sul - K-League 1,2,2,0,1,17,10,4,4,117,45,10,4,1.83,3.6,4.1
+06-05-2025,Anyang,Seoul,Coréia Do Sul - K-League 1,1,1,0,0,7,14,2,3,41,76,2,7,4.0,3.1,2.05
+26-04-2025,Anyang,Jeju United,Coréia Do Sul - K-League 1,2,1,1,0,11,16,4,6,63,91,6,6,2.87,3.25,2.45
+23-04-2025,Anyang,Ulsan,Coréia Do Sul - K-League 1,0,1,0,0,15,15,4,5,74,65,6,5,3.9,3.4,2.0
+19-04-2025,Anyang,Suwon,Coréia Do Sul - K-League 1,3,1,1,1,13,14,7,6,59,53,3,8,2.45,3.3,2.8
+12-04-2025,Pohang Steelers,Anyang,Coréia Do Sul - K-League 1,2,1,0,1,16,11,5,2,62,46,1,2,1.95,3.5,3.9
+06-04-2025,Anyang,Gangwon,Coréia Do Sul - K-League 1,2,0,0,0,16,10,6,3,46,59,5,6,3.3,3.1,2.3
+30-03-2025,Anyang,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,1,0,0,12,12,1,2,88,62,7,5,3.3,3.3,2.15
+15-03-2025,Daegu,Anyang,Coréia Do Sul - K-League 1,0,1,0,1,19,14,8,5,118,54,14,3,1.9,3.3,4.1
+08-03-2025,Anyang,Sangju Sangmu,Coréia Do Sul - K-League 1,1,3,1,3,12,20,7,8,73,80,5,5,3.1,3.1,2.45
+01-03-2025,Gwangju,Anyang,Coréia Do Sul - K-League 1,2,1,0,1,10,10,4,2,100,61,2,1,2.0,3.2,3.4
+22-02-2025,Seoul,Anyang,Coréia Do Sul - K-League 1,2,1,0,0,21,7,4,2,58,34,4,2,2.0,3.1,3.8
+16-02-2025,Ulsan,Anyang,Coréia Do Sul - K-League 1,0,1,0,0,15,7,3,3,115,45,5,1,1.75,3.75,4.5
+09-11-2024,Anyang,Gyeongnam,Coréia Do Sul - K League 2,2,2,1,1,10,7,2,2,75,89,3,5,1.61,3.8,4.33
+02-11-2024,Bucheon 1995,Anyang,Coréia Do Sul - K League 2,0,0,0,0,5,7,0,1,41,60,0,6,2.35,3.2,2.62
+29-10-2024,Anyang,Jeonnam Dragons,Coréia Do Sul - K League 2,1,1,0,0,18,5,7,2,83,58,7,3,1.8,3.8,3.7
+24-09-2024,Seoul E.,Anyang,Coréia Do Sul - K League 2,1,0,1,0,5,4,1,1,47,40,2,8,2.5,3.1,2.8
+21-09-2024,Anyang,Ansan Greeners,Coréia Do Sul - K League 2,2,1,1,0,4,15,2,9,39,87,4,5,1.5,4.33,6.0
+15-09-2024,Gimpo,Anyang,Coréia Do Sul - K League 2,1,2,0,0,8,8,2,3,35,40,7,5,3.2,3.2,2.15
+31-08-2024,Anyang,Cheonan City,Coréia Do Sul - K League 2,1,1,0,0,11,4,5,1,70,44,8,3,1.5,4.0,5.0
+25-08-2024,Seongnam,Anyang,Coréia Do Sul - K League 2,1,1,1,0,8,7,3,1,61,78,3,3,3.6,3.4,1.95
+24-07-2024,Ansan Greeners,Anyang,Coréia Do Sul - K League 2,3,2,0,0,8,7,3,2,64,85,3,9,5.5,3.75,1.53
+21-07-2024,Gimpo,Anyang,Coréia Do Sul - K League 2,0,1,0,0,7,4,2,3,69,59,0,5,3.4,3.2,2.15
+08-07-2024,Anyang,Cheonan City,Coréia Do Sul - K League 2,3,0,0,0,15,8,8,3,49,63,2,4,1.5,3.75,6.25
+30-06-2024,Bucheon 1995,Anyang,Coréia Do Sul - K League 2,1,2,1,0,8,15,2,9,45,62,4,8,3.2,3.25,2.25
+25-06-2024,Gyeongnam,Anyang,Coréia Do Sul - K League 2,0,0,0,0,8,3,3,2,47,33,6,2,3.2,3.3,2.05
+22-06-2024,Anyang,Seoul E.,Coréia Do Sul - K League 2,2,1,1,1,9,10,6,4,47,64,5,7,2.75,3.0,2.62
+15-06-2024,Seongnam,Anyang,Coréia Do Sul - K League 2,3,1,1,0,9,16,5,6,45,89,3,11,2.9,3.1,2.38
+17-08-2025,Gwangju,Daejeon Citizen,Coréia Do Sul - K-League 1,2,0,1,0,8,11,3,1,57,76,3,2,2.4,3.2,3.0
+10-08-2025,Daejeon Citizen,Suwon,Coréia Do Sul - K-League 1,3,2,1,2,12,11,5,3,76,46,5,2,2.3,3.3,2.8
+27-07-2025,Daejeon Citizen,Seoul,Coréia Do Sul - K-League 1,0,1,0,0,4,14,2,5,68,84,0,5,3.5,3.4,2.1
+23-07-2025,Ulsan,Daejeon Citizen,Coréia Do Sul - K-League 1,1,2,1,1,13,18,4,4,51,51,7,4,1.75,3.6,4.0
+19-07-2025,Gangwon,Daejeon Citizen,Coréia Do Sul - K-League 1,2,2,0,0,16,12,8,7,73,56,6,8,2.55,3.2,2.87
+27-06-2025,Daejeon Citizen,Jeju United,Coréia Do Sul - K-League 1,1,1,0,0,13,20,5,9,51,62,5,3,2.2,3.3,3.2
+22-06-2025,Gwangju,Daejeon Citizen,Coréia Do Sul - K-League 1,2,2,0,0,15,14,5,7,65,91,4,8,2.15,3.2,3.2
+18-06-2025,Daejeon Citizen,Sangju Sangmu,Coréia Do Sul - K-League 1,0,0,0,0,12,15,2,6,50,92,7,5,2.55,3.5,2.62
+31-05-2025,Anyang,Daejeon Citizen,Coréia Do Sul - K-League 1,1,1,0,1,16,9,5,4,75,57,2,3,2.75,3.1,2.75
+27-05-2025,Daejeon Citizen,Pohang Steelers,Coréia Do Sul - K-League 1,1,3,1,2,16,12,4,5,70,65,1,3,3.5,3.25,2.2
+24-05-2025,Daejeon Citizen,Daegu,Coréia Do Sul - K-League 1,2,1,1,0,9,9,6,3,64,60,4,4,1.72,3.8,4.5
+18-05-2025,Suwon,Daejeon Citizen,Coréia Do Sul - K-League 1,3,0,0,0,32,8,11,2,105,60,8,1,2.4,3.3,2.8
+10-05-2025,Daejeon Citizen,Seoul,Coréia Do Sul - K-League 1,0,0,0,0,1,25,1,7,44,85,0,11,3.3,3.3,2.15
+06-05-2025,Jeonbuk Motors,Daejeon Citizen,Coréia Do Sul - K-League 1,1,1,0,0,14,8,4,5,84,66,7,7,1.8,3.6,4.5
+03-05-2025,Daejeon Citizen,Anyang,Coréia Do Sul - K-League 1,2,1,1,0,10,20,5,8,72,87,4,3,2.1,3.3,3.4
+27-04-2025,Daejeon Citizen,Gangwon,Coréia Do Sul - K-League 1,1,0,0,0,9,1,2,0,89,43,4,3,2.25,3.1,3.5
+19-04-2025,Sangju Sangmu,Daejeon Citizen,Coréia Do Sul - K-League 1,0,2,0,1,12,10,5,3,59,82,4,5,2.05,3.2,3.8
+12-04-2025,Seoul,Daejeon Citizen,Coréia Do Sul - K-League 1,2,2,0,2,20,8,7,4,66,58,6,1,1.8,3.4,4.75
+05-04-2025,Daejeon Citizen,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,2,0,0,8,11,2,5,88,65,5,4,2.9,3.1,2.5
+01-04-2025,Ulsan,Daejeon Citizen,Coréia Do Sul - K-League 1,2,3,2,2,21,6,4,4,65,25,5,0,1.9,3.5,4.1
+29-03-2025,Daejeon Citizen,Gwangju,Coréia Do Sul - K-League 1,1,1,0,1,8,9,4,2,74,48,6,6,2.25,2.87,3.2
+15-03-2025,Jeju United,Daejeon Citizen,Coréia Do Sul - K-League 1,1,3,0,0,15,11,3,5,45,49,1,4,3.0,3.0,2.55
+08-03-2025,Daegu,Daejeon Citizen,Coréia Do Sul - K-League 1,1,2,0,2,16,7,5,5,93,38,6,3,2.4,3.1,3.0
+02-03-2025,Daejeon Citizen,Suwon,Coréia Do Sul - K-League 1,1,0,0,0,16,8,5,0,105,58,2,2,1.8,3.9,4.2
+23-02-2025,Daejeon Citizen,Ulsan,Coréia Do Sul - K-League 1,0,2,0,1,8,16,1,4,96,64,5,4,2.3,3.3,3.1
+15-02-2025,Pohang Steelers,Daejeon Citizen,Coréia Do Sul - K-League 1,0,3,0,1,20,8,3,5,88,42,7,2,2.05,3.3,3.5
+24-11-2024,Daejeon Citizen,Jeju United,Coréia Do Sul - K-League 1,2,1,2,1,15,16,6,4,73,74,6,6,2.2,3.25,3.0
+02-11-2024,Gwangju,Daejeon Citizen,Coréia Do Sul - K-League 1,0,0,0,0,5,6,0,1,57,49,3,3,1.9,3.3,3.9
+27-10-2024,Daejeon Citizen,Daegu,Coréia Do Sul - K-League 1,1,0,1,0,13,10,2,2,32,35,2,6,2.62,3.2,2.62
+19-10-2024,Jeonbuk Motors,Daejeon Citizen,Coréia Do Sul - K-League 1,0,2,0,1,17,5,3,3,52,31,8,2,1.75,3.6,4.75
+06-10-2024,Jeju United,Daejeon Citizen,Coréia Do Sul - K-League 1,2,1,1,1,23,4,9,3,80,50,7,3,2.6,3.2,2.75
+27-09-2024,Daejeon Citizen,Ulsan,Coréia Do Sul - K-League 1,0,1,0,1,9,10,5,5,66,62,5,2,3.25,3.4,2.15
+22-09-2024,Daejeon Citizen,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,0,0,0,10,7,0,3,65,59,4,2,3.0,3.4,2.25
+14-09-2024,Seoul,Daejeon Citizen,Coréia Do Sul - K-League 1,2,3,1,2,16,7,5,3,83,57,6,2,1.7,3.7,4.75
+01-09-2024,Daejeon Citizen,Gwangju,Coréia Do Sul - K-League 1,2,0,1,0,13,15,5,5,43,59,2,5,3.1,3.5,2.2
+25-08-2024,Sangju Sangmu,Daejeon Citizen,Coréia Do Sul - K-League 1,2,2,1,0,17,7,8,3,70,31,5,3,1.9,3.4,4.0
+10-08-2024,Suwon,Daejeon Citizen,Coréia Do Sul - K-League 1,1,2,1,1,17,10,7,5,93,41,8,4,1.9,3.4,3.9
+27-07-2024,Daegu,Daejeon Citizen,Coréia Do Sul - K-League 1,1,1,1,1,19,9,6,4,60,47,7,5,2.25,3.1,3.3
+21-07-2024,Daejeon Citizen,Pohang Steelers,Coréia Do Sul - K-League 1,1,2,1,0,8,7,1,2,77,46,1,3,3.4,3.4,2.15
+13-07-2024,Daejeon Citizen,Gangwon,Coréia Do Sul - K-League 1,1,1,1,0,5,7,1,1,28,79,1,7,2.9,3.3,2.37
+10-07-2024,Seoul,Daejeon Citizen,Coréia Do Sul - K-League 1,2,1,0,1,18,8,7,2,57,28,6,3,1.61,3.6,4.5
+07-07-2024,Daejeon Citizen,Jeonbuk Motors,Coréia Do Sul - K-League 1,2,2,0,1,8,7,2,2,70,53,8,3,2.8,3.3,2.5
+29-06-2024,Daejeon Citizen,Suwon,Coréia Do Sul - K-League 1,0,2,0,1,8,13,2,4,104,95,4,5,3.1,3.25,2.3
+25-06-2024,Sangju Sangmu,Daejeon Citizen,Coréia Do Sul - K-League 1,2,0,0,0,7,4,4,2,79,49,7,3,1.72,3.5,4.1
+22-06-2024,Daejeon Citizen,Gwangju,Coréia Do Sul - K-League 1,2,1,0,1,9,6,5,1,68,73,4,3,3.5,3.4,1.9
+15-06-2024,Pohang Steelers,Daejeon Citizen,Coréia Do Sul - K-League 1,1,1,1,1,16,4,3,2,87,56,7,2,1.73,3.7,4.5
+15-08-2025,Ansan Greeners,Chungnam Asan,Coréia Do Sul - K League 2,0,2,0,2,9,8,4,5,38,41,10,4,4.33,3.5,1.75
+09-08-2025,Chungnam Asan,Gyeongnam,Coréia Do Sul - K League 2,2,2,0,1,16,7,6,4,66,30,9,2,1.66,4.0,4.33
+02-08-2025,Jeonnam Dragons,Chungnam Asan,Coréia Do Sul - K League 2,2,2,0,0,7,10,2,3,60,64,4,4,2.6,3.5,2.55
+20-07-2025,Bucheon 1995,Chungnam Asan,Coréia Do Sul - K League 2,5,3,2,1,15,16,6,6,46,56,3,5,1.8,3.7,4.0
+28-06-2025,Chungnam Asan,Seoul E.,Coréia Do Sul - K League 2,1,1,1,0,7,10,3,3,26,29,1,0,2.1,3.6,3.1
+21-06-2025,Seongnam,Chungnam Asan,Coréia Do Sul - K League 2,0,2,0,1,9,12,2,7,100,63,7,6,2.9,3.25,2.25
+14-06-2025,Chungnam Asan,Cheonan City,Coréia Do Sul - K League 2,0,1,0,0,15,5,4,1,62,42,2,1,1.53,4.2,5.25
+01-06-2025,Chungnam Asan,Gimpo,Coréia Do Sul - K League 2,2,0,1,0,8,9,4,2,45,31,4,1,2.55,3.1,2.62
+25-05-2025,Chungnam Asan,Bucheon 1995,Coréia Do Sul - K League 2,2,2,2,1,15,17,3,9,70,63,4,5,2.3,3.25,3.0
+17-05-2025,Gyeongnam,Chungnam Asan,Coréia Do Sul - K League 2,1,3,0,2,24,13,4,12,92,37,11,6,2.87,3.6,2.2
+26-04-2025,Chungnam Asan,Ansan Greeners,Coréia Do Sul - K League 2,3,0,1,0,13,14,6,2,67,64,4,5,1.53,4.1,6.0
+20-04-2025,Chungnam Asan,Jeonnam Dragons,Coréia Do Sul - K League 2,0,0,0,0,17,9,6,3,100,60,13,3,2.2,3.25,3.0
+12-04-2025,Gimpo,Chungnam Asan,Coréia Do Sul - K League 2,1,1,0,0,17,8,5,3,74,54,3,4,2.5,3.1,2.62
+30-03-2025,Chungnam Asan,Seongnam,Coréia Do Sul - K League 2,1,1,0,1,16,7,6,3,75,38,11,1,1.95,3.5,3.4
+09-03-2025,Cheonan City,Chungnam Asan,Coréia Do Sul - K League 2,1,0,0,0,3,12,2,5,58,69,3,6,3.6,3.6,1.9
+23-02-2025,Seoul E.,Chungnam Asan,Coréia Do Sul - K League 2,2,1,1,0,12,7,6,1,51,53,6,3,2.25,3.3,3.0
+27-10-2024,Seoul E.,Chungnam Asan,Coréia Do Sul - K League 2,1,2,0,2,4,5,2,2,56,29,4,3,2.15,3.3,3.1
+20-10-2024,Seongnam,Chungnam Asan,Coréia Do Sul - K League 2,2,3,1,1,5,9,2,5,78,69,4,6,3.75,3.4,1.95
+05-10-2024,Gimpo,Chungnam Asan,Coréia Do Sul - K League 2,3,0,2,0,5,9,4,3,34,86,0,3,2.55,3.2,2.55
+28-09-2024,Anyang,Chungnam Asan,Coréia Do Sul - K League 2,0,1,0,0,11,6,1,1,94,45,9,2,2.3,3.25,2.75
+24-09-2024,Chungnam Asan,Cheonan City,Coréia Do Sul - K League 2,2,0,0,0,10,3,3,1,145,56,3,2,1.9,3.6,3.7
+21-09-2024,Chungnam Asan,Jeonnam Dragons,Coréia Do Sul - K League 2,2,1,0,1,18,7,9,2,90,60,8,2,2.25,3.6,3.0
+14-09-2024,Chungnam Asan,Ansan Greeners,Coréia Do Sul - K League 2,1,1,0,0,8,7,5,3,88,57,4,1,1.6,3.8,4.75
+01-09-2024,Chungnam Asan,Gyeongnam,Coréia Do Sul - K League 2,3,0,1,0,8,10,3,1,37,85,1,5,2.2,3.0,3.0
+24-08-2024,Chungnam Asan,Bucheon 1995,Coréia Do Sul - K League 2,2,2,1,1,6,10,2,6,45,41,1,3,2.2,3.2,3.2
+27-07-2024,Anyang,Chungnam Asan,Coréia Do Sul - K League 2,1,0,1,0,5,9,1,2,56,75,4,5,2.2,3.2,3.1
+21-07-2024,Chungnam Asan,Ansan Greeners,Coréia Do Sul - K League 2,2,0,0,0,11,3,4,2,0,0,7,2,1.65,3.75,5.0
+13-07-2024,Jeonnam Dragons,Chungnam Asan,Coréia Do Sul - K League 2,3,2,3,0,6,6,4,3,59,113,3,4,2.45,3.25,2.7
+06-07-2024,Gimpo,Chungnam Asan,Coréia Do Sul - K League 2,3,3,1,2,10,7,3,3,86,47,7,1,2.9,2.87,2.5
+01-07-2024,Chungnam Asan,Seoul E.,Coréia Do Sul - K League 2,2,0,0,0,9,20,6,6,69,95,1,7,2.5,3.1,2.75
+25-06-2024,Seongnam,Chungnam Asan,Coréia Do Sul - K League 2,0,4,0,2,9,7,6,5,78,38,6,2,2.5,3.2,2.62
+22-06-2024,Chungnam Asan,Gyeongnam,Coréia Do Sul - K League 2,4,0,3,0,8,2,4,0,34,38,3,6,2.37,2.87,3.2
+02-06-2024,Cheonan City,Chungnam Asan,Coréia Do Sul - K League 2,0,1,0,0,1,8,0,1,78,93,1,9,3.4,3.1,2.15
+17-08-2025,Cheonan City,Busan I'Park,Coréia Do Sul - K League 2,0,1,0,1,6,3,3,2,46,48,1,2,3.25,3.5,2.0
+02-08-2025,Gyeongnam,Busan I'Park,Coréia Do Sul - K League 2,1,0,1,0,2,21,2,6,34,51,1,5,3.9,3.7,1.85
+26-07-2025,Busan I'Park,Bucheon 1995,Coréia Do Sul - K League 2,4,2,1,0,11,11,6,7,52,62,2,3,2.25,3.5,3.1
+12-07-2025,Busan I'Park,Seongnam,Coréia Do Sul - K League 2,0,0,0,0,11,4,2,2,51,55,5,1,2.15,3.3,3.2
+06-07-2025,Gimpo,Busan I'Park,Coréia Do Sul - K League 2,3,0,1,0,9,7,5,0,45,55,3,3,3.1,3.25,2.2
+15-06-2025,Jeonnam Dragons,Busan I'Park,Coréia Do Sul - K League 2,0,1,0,1,19,15,8,4,110,73,6,4,2.75,3.25,2.45
+07-06-2025,Busan I'Park,Ansan Greeners,Coréia Do Sul - K League 2,0,2,0,0,14,5,3,2,75,22,9,1,1.55,3.75,5.75
+31-05-2025,Seoul E.,Busan I'Park,Coréia Do Sul - K League 2,1,4,0,1,8,6,4,5,54,41,1,5,2.2,3.1,3.0
+24-05-2025,Seongnam,Busan I'Park,Coréia Do Sul - K League 2,0,0,0,0,13,8,5,1,77,91,5,7,3.6,3.4,1.95
+04-05-2025,Busan I'Park,Chungnam Asan,Coréia Do Sul - K League 2,2,0,1,0,8,8,5,2,30,74,0,7,2.35,3.25,3.1
+20-04-2025,Ansan Greeners,Busan I'Park,Coréia Do Sul - K League 2,1,3,0,3,13,11,3,4,61,39,0,3,4.5,3.5,1.7
+13-04-2025,Busan I'Park,Seoul E.,Coréia Do Sul - K League 2,2,2,0,2,14,16,8,9,49,40,3,5,3.0,3.0,2.3
+05-04-2025,Busan I'Park,Jeonnam Dragons,Coréia Do Sul - K League 2,0,1,0,1,12,12,4,4,68,36,7,3,2.2,3.4,3.2
+16-03-2025,Busan I'Park,Cheonan City,Coréia Do Sul - K League 2,2,1,1,1,15,1,6,1,64,33,6,0,1.66,3.7,5.25
+08-03-2025,Bucheon 1995,Busan I'Park,Coréia Do Sul - K League 2,0,2,0,2,11,9,3,2,52,44,5,1,2.62,3.2,2.75
+02-03-2025,Busan I'Park,Gyeongnam,Coréia Do Sul - K League 2,0,1,0,0,10,13,4,3,72,46,10,2,1.8,3.25,4.33
+22-02-2025,Busan I'Park,Gimpo,Coréia Do Sul - K League 2,0,0,0,0,10,6,0,1,67,58,7,5,2.25,3.2,3.2
+21-11-2024,Jeonnam Dragons,Busan I'Park,Coréia Do Sul - K League 2,0,0,0,0,5,13,1,2,38,96,0,4,3.2,3.2,2.2
+09-11-2024,Busan I'Park,Bucheon 1995,Coréia Do Sul - K League 2,3,1,2,1,9,6,3,1,65,58,4,2,1.72,3.3,4.33
+02-11-2024,Cheonan City,Busan I'Park,Coréia Do Sul - K League 2,2,3,1,2,10,9,5,5,60,34,4,1,4.33,4.0,1.57
+20-10-2024,Anyang,Busan I'Park,Coréia Do Sul - K League 2,4,1,1,0,14,9,8,5,59,80,2,5,2.45,3.1,2.87
+05-10-2024,Busan I'Park,Seoul E.,Coréia Do Sul - K League 2,0,0,0,0,9,14,3,6,41,62,3,3,2.5,3.25,2.62
+29-09-2024,Ansan Greeners,Busan I'Park,Coréia Do Sul - K League 2,0,5,0,3,10,11,4,8,57,31,5,3,4.33,3.7,1.66
+22-09-2024,Busan I'Park,Gyeongnam,Coréia Do Sul - K League 2,1,1,1,0,11,8,4,1,75,44,7,6,1.83,3.9,3.8
+15-09-2024,Jeonnam Dragons,Busan I'Park,Coréia Do Sul - K League 2,1,2,1,0,3,13,2,4,89,105,1,7,2.62,3.4,2.37
+01-09-2024,Busan I'Park,Seongnam,Coréia Do Sul - K League 2,3,1,2,0,10,9,5,2,57,44,9,2,1.9,3.25,3.6
+24-08-2024,Busan I'Park,Gimpo,Coréia Do Sul - K League 2,0,0,0,0,8,10,1,6,57,47,6,2,2.0,3.6,3.25
+18-08-2024,Chungnam Asan,Busan I'Park,Coréia Do Sul - K League 2,0,1,0,1,5,5,3,2,120,65,5,6,2.37,3.5,2.8
+10-08-2024,Seoul E.,Busan I'Park,Coréia Do Sul - K League 2,2,1,0,0,11,9,5,2,84,94,5,3,2.25,3.75,2.9
+23-07-2024,Busan I'Park,Gyeongnam,Coréia Do Sul - K League 2,2,1,1,0,7,9,4,2,33,74,2,3,1.8,3.6,3.75
+20-07-2024,Jeonnam Dragons,Busan I'Park,Coréia Do Sul - K League 2,2,3,0,2,15,10,5,5,109,51,10,2,2.75,3.3,2.4
+14-07-2024,Anyang,Busan I'Park,Coréia Do Sul - K League 2,0,2,0,1,18,5,4,2,101,50,10,3,2.3,3.3,2.9
+06-07-2024,Busan I'Park,Bucheon 1995,Coréia Do Sul - K League 2,2,2,1,1,15,12,5,5,78,32,8,2,1.83,3.25,4.0
+29-06-2024,Busan I'Park,Seongnam,Coréia Do Sul - K League 2,2,2,1,2,15,3,2,2,80,20,10,1,1.9,3.6,3.9
+23-06-2024,Gimpo,Busan I'Park,Coréia Do Sul - K League 2,1,0,1,0,8,10,5,0,33,54,3,7,3.5,3.1,2.1
+16-06-2024,Chungnam Asan,Busan I'Park,Coréia Do Sul - K League 2,0,0,0,0,6,6,2,1,40,42,3,7,3.25,3.2,2.25
+27-05-2024,Ansan Greeners,Busan I'Park,Coréia Do Sul - K League 2,1,0,0,0,6,12,5,4,49,90,4,11,4.75,3.4,1.65
+22-05-2024,Busan I'Park,Cheonan City,Coréia Do Sul - K League 2,2,3,2,1,18,7,8,4,118,77,9,1,1.53,4.0,5.75
+10-08-2025,Seoul E.,Hwaseong,Coréia Do Sul - K League 2,0,0,0,0,11,7,1,1,67,46,8,1,1.7,3.5,4.5
+02-08-2025,Hwaseong,Gimpo,Coréia Do Sul - K League 2,0,1,0,1,7,9,4,3,75,67,6,6,3.4,3.2,2.2
+26-07-2025,Chungnam Asan,Hwaseong,Coréia Do Sul - K League 2,1,1,0,0,10,6,3,2,59,21,8,1,1.72,3.7,4.5
+19-07-2025,Hwaseong,Busan I'Park,Coréia Do Sul - K League 2,1,0,0,0,9,12,1,4,35,65,3,6,3.0,3.4,2.15
+12-07-2025,Cheonan City,Hwaseong,Coréia Do Sul - K League 2,2,3,0,1,14,7,5,5,76,42,5,2,2.15,3.2,3.4
+06-07-2025,Hwaseong,Bucheon 1995,Coréia Do Sul - K League 2,0,1,0,0,8,13,2,1,35,45,5,2,4.33,3.5,1.8
+28-06-2025,Hwaseong,Seongnam,Coréia Do Sul - K League 2,1,0,0,0,6,8,2,3,39,53,3,3,3.0,3.0,2.5
+15-06-2025,Hwaseong,Ansan Greeners,Coréia Do Sul - K League 2,0,0,0,0,1,6,1,1,33,34,0,3,2.5,3.3,2.7
+07-06-2025,Gyeongnam,Hwaseong,Coréia Do Sul - K League 2,0,1,0,1,10,8,5,4,44,39,4,3,2.15,3.5,2.9
+31-05-2025,Jeonnam Dragons,Hwaseong,Coréia Do Sul - K League 2,3,2,2,1,16,13,6,4,75,55,4,3,1.9,3.4,3.7
+24-05-2025,Hwaseong,Seoul E.,Coréia Do Sul - K League 2,0,1,0,1,19,7,4,2,53,35,8,5,4.33,3.7,1.7
+17-05-2025,Bucheon 1995,Hwaseong,Coréia Do Sul - K League 2,1,0,0,0,11,6,4,3,75,49,9,3,1.85,3.9,3.6
+10-05-2025,Gimpo,Hwaseong,Coréia Do Sul - K League 2,1,0,1,0,11,3,2,0,80,75,8,3,1.9,3.5,3.3
+04-05-2025,Hwaseong,Cheonan City,Coréia Do Sul - K League 2,2,1,1,1,9,13,4,4,41,54,5,5,2.15,3.4,3.2
+27-04-2025,Busan I'Park,Hwaseong,Coréia Do Sul - K League 2,3,2,2,2,12,12,8,5,52,53,2,5,1.75,3.6,4.75
+12-04-2025,Hwaseong,Jeonnam Dragons,Coréia Do Sul - K League 2,1,2,0,1,8,10,3,3,46,38,5,3,3.0,3.2,2.2
+29-03-2025,Ansan Greeners,Hwaseong,Coréia Do Sul - K League 2,3,3,1,2,16,12,10,5,68,53,6,7,3.0,3.25,2.25
+08-03-2025,Hwaseong,Gyeongnam,Coréia Do Sul - K League 2,1,1,0,0,9,11,3,3,55,64,4,4,2.5,3.25,2.75
+02-03-2025,Hwaseong,Chungnam Asan,Coréia Do Sul - K League 2,1,1,0,1,12,18,5,3,57,80,6,10,2.87,3.3,2.25
+23-02-2025,Seongnam,Hwaseong,Coréia Do Sul - K League 2,2,0,1,0,10,13,3,2,32,64,2,9,2.87,3.1,2.45
+16-08-2025,Gimpo,Suwon Bluewings,Coréia Do Sul - K League 2,3,1,1,0,10,13,4,3,43,52,4,7,2.6,3.25,2.5
+09-08-2025,Suwon Bluewings,Ansan Greeners,Coréia Do Sul - K League 2,3,1,1,0,9,13,4,2,50,40,8,4,1.38,4.75,6.5
+02-08-2025,Cheonan City,Suwon Bluewings,Coréia Do Sul - K League 2,1,2,0,2,16,19,7,5,43,36,9,4,3.9,4.5,1.7
+27-07-2025,Suwon Bluewings,Seoul E.,Coréia Do Sul - K League 2,0,2,0,1,15,5,2,3,80,32,8,4,1.9,4.0,3.4
+19-07-2025,Jeonnam Dragons,Suwon Bluewings,Coréia Do Sul - K League 2,3,4,0,2,20,9,10,6,79,44,11,2,3.2,3.6,2.05
+05-07-2025,Chungnam Asan,Suwon Bluewings,Coréia Do Sul - K League 2,2,3,0,2,16,14,6,4,59,52,7,6,3.3,3.3,2.1
+29-06-2025,Suwon Bluewings,Busan I'Park,Coréia Do Sul - K League 2,1,1,1,0,15,22,2,7,64,83,3,7,1.61,4.2,4.75
+22-06-2025,Gyeongnam,Suwon Bluewings,Coréia Do Sul - K League 2,1,3,0,1,9,10,3,4,47,40,7,5,6.0,4.5,1.42
+06-06-2025,Seongnam,Suwon Bluewings,Coréia Do Sul - K League 2,1,2,1,1,9,13,3,5,35,48,4,1,3.7,3.8,1.8
+01-06-2025,Suwon Bluewings,Bucheon 1995,Coréia Do Sul - K League 2,4,1,0,1,18,22,9,3,51,45,3,10,1.8,3.7,3.7
+25-05-2025,Suwon Bluewings,Gimpo,Coréia Do Sul - K League 2,1,1,0,1,13,14,7,6,83,64,9,4,1.61,4.0,4.2
+17-05-2025,Busan I'Park,Suwon Bluewings,Coréia Do Sul - K League 2,1,4,1,3,13,14,8,9,40,36,6,5,2.8,3.3,2.35
+11-05-2025,Suwon Bluewings,Cheonan City,Coréia Do Sul - K League 2,2,0,2,0,21,14,6,2,54,61,4,7,1.36,4.5,6.25
+27-04-2025,Suwon Bluewings,Seongnam,Coréia Do Sul - K League 2,3,2,0,0,17,14,5,6,94,52,8,2,1.61,3.8,5.0
+19-04-2025,Suwon Bluewings,Hwaseong,Coréia Do Sul - K League 2,3,1,3,0,15,9,6,4,59,43,5,7,1.45,4.1,5.75
+12-04-2025,Bucheon 1995,Suwon Bluewings,Coréia Do Sul - K League 2,1,1,0,0,12,13,6,5,50,47,4,3,3.5,3.4,1.9
+06-04-2025,Suwon Bluewings,Gyeongnam,Coréia Do Sul - K League 2,4,0,4,0,17,13,7,2,59,63,6,4,1.61,4.0,5.25
+29-03-2025,Suwon Bluewings,Jeonnam Dragons,Coréia Do Sul - K League 2,2,1,0,1,16,13,7,6,60,50,4,3,1.95,3.4,3.25
+15-03-2025,Suwon Bluewings,Chungnam Asan,Coréia Do Sul - K League 2,0,0,0,0,7,13,1,4,89,38,7,5,1.83,3.3,4.5
+09-03-2025,Seoul E.,Suwon Bluewings,Coréia Do Sul - K League 2,4,2,3,1,14,15,8,6,23,57,4,3,2.87,3.25,2.37
+22-02-2025,Ansan Greeners,Suwon Bluewings,Coréia Do Sul - K League 2,0,1,0,0,7,25,0,9,40,67,0,6,4.5,3.25,1.8
+03-11-2024,Suwon Bluewings,Ansan Greeners,Coréia Do Sul - K League 2,2,1,0,0,9,4,3,3,65,49,3,5,1.33,4.2,8.0
+30-10-2024,Suwon Bluewings,Chungnam Asan,Coréia Do Sul - K League 2,2,1,0,1,19,14,8,7,76,84,5,8,2.2,3.2,3.2
+27-10-2024,Gimpo,Suwon Bluewings,Coréia Do Sul - K League 2,0,0,0,0,12,10,2,3,48,71,0,3,3.25,3.25,2.1
+19-10-2024,Bucheon 1995,Suwon Bluewings,Coréia Do Sul - K League 2,1,1,0,1,12,8,7,1,48,41,9,6,2.7,3.4,2.45
+06-10-2024,Suwon Bluewings,Anyang,Coréia Do Sul - K League 2,1,0,0,0,7,12,2,1,46,66,1,3,1.95,3.25,3.75
+28-09-2024,Gyeongnam,Suwon Bluewings,Coréia Do Sul - K League 2,1,1,1,0,5,18,3,7,35,56,1,1,3.3,3.4,2.0
+25-09-2024,Suwon Bluewings,Busan I'Park,Coréia Do Sul - K League 2,0,1,0,1,11,6,1,1,105,51,8,1,2.15,3.2,3.2
+22-09-2024,Seongnam,Suwon Bluewings,Coréia Do Sul - K League 2,1,2,1,0,3,22,2,6,42,96,1,6,3.7,3.75,1.9
+14-09-2024,Suwon Bluewings,Cheonan City,Coréia Do Sul - K League 2,1,2,0,1,11,10,2,6,94,62,8,9,1.53,4.1,5.0
+25-08-2024,Seoul E.,Suwon Bluewings,Coréia Do Sul - K League 2,2,0,0,0,3,10,2,3,38,59,5,6,2.75,3.6,2.25
+18-08-2024,Suwon Bluewings,Jeonnam Dragons,Coréia Do Sul - K League 2,2,1,1,0,8,8,6,3,45,71,4,1,1.9,3.7,3.6
+12-08-2024,Suwon Bluewings,Anyang,Coréia Do Sul - K League 2,2,1,1,0,18,12,9,5,82,69,8,8,2.75,3.0,2.75
+29-07-2024,Gimpo,Suwon Bluewings,Coréia Do Sul - K League 2,1,1,0,1,9,13,3,2,60,88,2,3,2.7,3.4,2.35
+23-07-2024,Bucheon 1995,Suwon Bluewings,Coréia Do Sul - K League 2,0,3,0,1,12,5,1,3,60,32,13,5,2.9,3.3,2.2
+13-07-2024,Cheonan City,Suwon Bluewings,Coréia Do Sul - K League 2,1,2,1,0,8,16,2,3,69,88,7,7,3.8,3.5,1.85
+30-06-2024,Suwon Bluewings,Ansan Greeners,Coréia Do Sul - K League 2,1,1,0,0,20,9,8,4,91,58,9,4,1.38,5.0,7.5
+25-06-2024,Jeonnam Dragons,Suwon Bluewings,Coréia Do Sul - K League 2,1,1,1,0,9,10,2,3,98,93,5,7,2.62,3.4,2.35
+22-06-2024,Suwon Bluewings,Seongnam,Coréia Do Sul - K League 2,3,0,1,0,15,12,6,3,82,54,3,4,1.75,3.6,4.2
+15-06-2024,Gyeongnam,Suwon Bluewings,Coréia Do Sul - K League 2,0,0,0,0,9,16,2,5,49,68,1,7,3.3,3.1,2.2
+02-06-2024,Busan I'Park,Suwon Bluewings,Coréia Do Sul - K League 2,1,1,0,0,14,8,5,4,44,34,3,2,2.8,3.2,2.55
+25-05-2024,Suwon Bluewings,Seoul E.,Coréia Do Sul - K League 2,1,3,1,0,14,8,4,4,54,65,3,4,2.1,3.2,3.1
+16-08-2025,Cheongju,Hwaseong,Coréia Do Sul - K League 2,1,1,0,0,9,9,1,2,63,45,4,1,2.45,3.1,2.7
+10-08-2025,Cheongju,Bucheon 1995,Coréia Do Sul - K League 2,0,1,0,0,13,8,2,2,51,44,4,4,2.7,3.4,2.3
+02-08-2025,Ansan Greeners,Cheongju,Coréia Do Sul - K League 2,1,2,1,1,12,8,6,3,71,41,6,4,2.62,3.0,2.8
+26-07-2025,Cheongju,Gimpo,Coréia Do Sul - K League 2,0,3,0,0,12,12,3,8,85,63,4,6,2.9,3.2,2.4
+20-07-2025,Cheongju,Cheonan City,Coréia Do Sul - K League 2,2,1,1,1,10,11,3,3,68,76,5,6,2.25,3.3,2.9
+12-07-2025,Suwon Bluewings,Cheongju,Coréia Do Sul - K League 2,1,0,0,0,13,9,4,0,68,50,8,3,0.0,0.0,0.0
+05-07-2025,Cheongju,Seoul E.,Coréia Do Sul - K League 2,2,1,0,1,14,10,5,2,82,77,1,1,3.75,3.5,1.85
+29-06-2025,Cheongju,Jeonnam Dragons,Coréia Do Sul - K League 2,2,2,1,0,12,10,7,3,63,64,5,3,3.3,3.8,2.0
+22-06-2025,Busan I'Park,Cheongju,Coréia Do Sul - K League 2,2,2,1,0,15,8,8,3,41,61,6,3,1.57,3.9,5.0
+14-06-2025,Cheongju,Seongnam,Coréia Do Sul - K League 2,0,1,0,0,9,13,3,6,65,61,2,2,3.1,3.6,2.1
+06-06-2025,Cheongju,Chungnam Asan,Coréia Do Sul - K League 2,0,2,0,2,11,12,0,4,84,81,6,10,3.1,3.5,2.1
+31-05-2025,Cheongju,Gyeongnam,Coréia Do Sul - K League 2,1,2,1,0,10,7,4,3,35,62,0,1,2.2,3.5,2.75
+24-05-2025,Cheongju,Ansan Greeners,Coréia Do Sul - K League 2,0,0,0,0,11,10,2,1,89,60,5,4,2.2,3.3,3.0
+18-05-2025,Jeonnam Dragons,Cheongju,Coréia Do Sul - K League 2,4,1,1,0,20,14,10,4,81,58,3,2,1.9,3.5,3.8
+11-05-2025,Cheongju,Busan I'Park,Coréia Do Sul - K League 2,0,2,0,0,8,12,4,3,68,69,2,6,3.0,3.1,2.2
+04-05-2025,Cheongju,Suwon Bluewings,Coréia Do Sul - K League 2,3,3,3,1,15,13,6,5,80,91,4,7,0.0,0.0,0.0
+26-04-2025,Cheonan City,Cheongju,Coréia Do Sul - K League 2,0,1,0,1,16,7,2,2,78,51,7,2,0.0,0.0,0.0
+19-04-2025,Seoul E.,Cheongju,Coréia Do Sul - K League 2,0,2,0,1,15,10,4,6,65,44,5,3,1.5,3.9,5.5
+06-04-2025,Chungnam Asan,Cheongju,Coréia Do Sul - K League 2,3,1,2,0,11,9,6,2,75,66,2,3,1.85,3.5,4.1
+29-03-2025,Gyeongnam,Cheongju,Coréia Do Sul - K League 2,3,0,1,0,24,7,8,2,63,49,5,2,2.2,3.0,3.1
+15-03-2025,Hwaseong,Cheongju,Coréia Do Sul - K League 2,2,1,0,0,17,14,8,6,60,51,9,8,2.25,3.2,3.2
+08-03-2025,Gimpo,Cheongju,Coréia Do Sul - K League 2,2,3,1,2,18,8,8,4,68,27,5,2,1.95,3.2,4.0
+03-03-2025,Seongnam,Cheongju,Coréia Do Sul - K League 2,1,1,1,1,18,16,5,5,41,17,7,2,0.0,0.0,0.0
+23-02-2025,Bucheon 1995,Cheongju,Coréia Do Sul - K League 2,3,1,2,0,17,13,9,3,41,32,3,5,0.0,0.0,0.0
+09-11-2024,Cheongju,Chungnam Asan,Coréia Do Sul - K League 2,1,4,0,1,9,8,3,4,26,29,5,3,0.0,0.0,0.0
+03-11-2024,Jeonnam Dragons,Cheongju,Coréia Do Sul - K League 2,3,0,2,0,6,9,4,3,50,80,1,2,1.72,3.5,4.1
+29-10-2024,Busan I'Park,Cheongju,Coréia Do Sul - K League 2,0,1,0,0,9,9,5,4,54,29,3,1,1.65,3.7,5.0
+26-10-2024,Cheongju,Anyang,Coréia Do Sul - K League 2,0,2,0,0,8,13,1,7,42,53,3,5,3.5,3.25,2.0
+19-10-2024,Cheongju,Gimpo,Coréia Do Sul - K League 2,0,1,0,0,5,7,2,1,79,51,7,4,2.87,3.1,2.5
+05-10-2024,Bucheon 1995,Cheongju,Coréia Do Sul - K League 2,0,0,0,0,12,6,4,0,46,25,9,2,1.9,3.3,3.8
+29-09-2024,Cheongju,Seongnam,Coréia Do Sul - K League 2,1,1,0,1,5,8,2,2,78,54,2,3,2.2,3.2,3.0
+24-09-2024,Ansan Greeners,Cheongju,Coréia Do Sul - K League 2,3,2,2,2,8,8,3,2,40,34,2,1,3.4,2.75,2.3
+21-09-2024,Cheonan City,Cheongju,Coréia Do Sul - K League 2,1,0,1,0,7,9,2,2,40,77,6,13,2.9,3.1,2.5
+14-09-2024,Cheongju,Seoul E.,Coréia Do Sul - K League 2,1,2,1,0,8,11,4,2,62,64,1,7,3.2,3.0,2.2
+31-08-2024,Cheongju,Suwon Bluewings,Coréia Do Sul - K League 2,2,2,2,0,7,8,5,4,67,104,2,1,4.0,3.0,1.9
+17-08-2024,Gyeongnam,Cheongju,Coréia Do Sul - K League 2,0,0,0,0,15,9,5,5,54,38,3,4,2.2,3.4,3.25
+12-08-2024,Cheongju,Seongnam,Coréia Do Sul - K League 2,1,1,1,1,5,4,1,1,72,78,3,3,2.75,3.1,2.62
+29-07-2024,Busan I'Park,Cheongju,Coréia Do Sul - K League 2,0,2,0,0,5,6,0,2,87,84,2,3,1.85,3.6,3.6
+24-07-2024,Cheongju,Chungnam Asan,Coréia Do Sul - K League 2,0,3,0,1,0,3,1,3,62,49,2,3,2.9,3.1,2.35
+20-07-2024,Suwon Bluewings,Cheongju,Coréia Do Sul - K League 2,0,0,0,0,9,4,2,0,71,17,6,1,1.61,3.8,5.0
+13-07-2024,Cheongju,Ansan Greeners,Coréia Do Sul - K League 2,2,1,1,0,14,7,8,3,64,35,3,4,2.0,3.2,3.75
+07-07-2024,Cheongju,Seoul E.,Coréia Do Sul - K League 2,2,3,0,1,9,6,4,3,105,64,9,3,3.4,3.1,2.05
+26-06-2024,Gimpo,Cheongju,Coréia Do Sul - K League 2,1,1,1,1,9,3,2,1,76,28,8,0,2.87,2.75,2.5
+23-06-2024,Bucheon 1995,Cheongju,Coréia Do Sul - K League 2,0,4,0,2,8,12,0,6,89,60,6,3,2.0,3.0,4.1
+16-06-2024,Cheongju,Cheonan City,Coréia Do Sul - K League 2,1,1,1,0,9,5,7,4,59,66,6,4,2.2,3.1,3.4
+02-06-2024,Anyang,Cheongju,Coréia Do Sul - K League 2,2,0,2,0,16,6,7,3,62,57,9,3,2.05,2.9,3.9
+26-05-2024,Cheongju,Gyeongnam,Coréia Do Sul - K League 2,1,0,1,0,8,8,3,2,70,82,3,2,2.88,2.8,2.45
+21-05-2024,Jeonnam Dragons,Cheongju,Coréia Do Sul - K League 2,1,1,0,0,6,6,1,1,76,92,2,0,1.95,3.0,4.1
+16-08-2025,Incheon United,Seongnam,Coréia Do Sul - K League 2,1,2,0,2,8,8,4,4,57,74,3,6,1.9,3.3,3.6
+09-08-2025,Busan I'Park,Incheon United,Coréia Do Sul - K League 2,0,2,0,1,18,4,5,3,62,14,7,1,3.2,3.1,2.25
+02-08-2025,Seoul E.,Incheon United,Coréia Do Sul - K League 2,0,0,0,0,8,2,1,0,54,26,6,5,3.4,3.3,2.1
+27-07-2025,Incheon United,Ansan Greeners,Coréia Do Sul - K League 2,4,2,2,0,12,7,6,3,47,26,2,2,1.4,4.33,7.5
+20-07-2025,Gyeongnam,Incheon United,Coréia Do Sul - K League 2,0,2,0,0,13,10,3,4,29,45,2,5,4.75,4.0,1.6
+13-07-2025,Incheon United,Chungnam Asan,Coréia Do Sul - K League 2,2,1,1,1,16,6,7,2,60,32,4,3,1.66,3.6,4.75
+05-07-2025,Jeonnam Dragons,Incheon United,Coréia Do Sul - K League 2,2,1,1,1,6,16,2,6,50,79,2,9,4.1,3.5,1.8
+29-06-2025,Gimpo,Incheon United,Coréia Do Sul - K League 2,1,1,1,0,5,11,3,2,31,38,0,4,4.5,3.6,1.8
+21-06-2025,Incheon United,Hwaseong,Coréia Do Sul - K League 2,2,0,1,0,8,7,3,0,47,41,2,1,1.38,4.2,7.5
+15-06-2025,Suwon Bluewings,Incheon United,Coréia Do Sul - K League 2,1,2,0,1,21,9,6,2,69,30,4,2,2.75,3.5,2.35
+08-06-2025,Incheon United,Bucheon 1995,Coréia Do Sul - K League 2,1,0,0,0,11,5,5,1,33,24,3,2,1.57,4.1,5.0
+01-06-2025,Cheonan City,Incheon United,Coréia Do Sul - K League 2,3,3,1,2,9,7,5,4,39,42,4,1,7.5,4.75,1.33
+25-05-2025,Incheon United,Jeonnam Dragons,Coréia Do Sul - K League 2,2,0,1,0,23,4,7,0,65,26,5,4,1.61,3.8,4.75
+18-05-2025,Ansan Greeners,Incheon United,Coréia Do Sul - K League 2,0,2,0,1,8,8,2,3,64,62,6,0,6.5,4.5,1.4
+10-05-2025,Chungnam Asan,Incheon United,Coréia Do Sul - K League 2,0,3,0,1,7,6,2,3,82,62,2,3,3.7,3.2,1.9
+04-05-2025,Incheon United,Gimpo,Coréia Do Sul - K League 2,3,0,1,0,15,10,6,3,60,60,3,2,1.65,3.7,5.25
+26-04-2025,Bucheon 1995,Incheon United,Coréia Do Sul - K League 2,1,3,1,3,13,7,5,5,73,36,8,3,3.7,3.3,2.05
+19-04-2025,Incheon United,Cheonan City,Coréia Do Sul - K League 2,3,0,2,0,11,13,5,3,36,50,4,3,1.42,4.33,6.25
+13-04-2025,Incheon United,Cheongju,Coréia Do Sul - K League 2,2,1,0,1,16,15,7,5,51,41,9,5,0.0,0.0,0.0
+05-04-2025,Hwaseong,Incheon United,Coréia Do Sul - K League 2,0,1,0,1,7,9,2,5,49,56,4,3,4.2,3.9,1.75
+29-03-2025,Incheon United,Busan I'Park,Coréia Do Sul - K League 2,1,1,0,1,11,7,3,5,80,46,3,5,2.05,2.9,3.75
+15-03-2025,Incheon United,Seoul E.,Coréia Do Sul - K League 2,1,0,0,0,12,4,5,1,49,31,6,2,2.2,3.1,3.4
+09-03-2025,Seongnam,Incheon United,Coréia Do Sul - K League 2,2,1,0,0,8,6,6,3,50,70,3,6,4.5,3.6,1.75
+01-03-2025,Incheon United,Suwon Bluewings,Coréia Do Sul - K League 2,2,0,0,0,12,7,2,3,53,48,5,6,2.35,3.1,2.9
+22-02-2025,Incheon United,Gyeongnam,Coréia Do Sul - K League 2,2,0,0,0,23,5,10,0,86,28,9,2,1.5,4.33,5.0
+24-11-2024,Daegu,Incheon United,Coréia Do Sul - K-League 1,1,3,0,1,17,19,9,10,70,59,5,5,2.7,3.2,2.45
+10-11-2024,Incheon United,Daejeon Citizen,Coréia Do Sul - K-League 1,1,2,1,2,16,9,6,6,103,56,8,2,2.7,3.0,2.75
+02-11-2024,Jeonbuk Motors,Incheon United,Coréia Do Sul - K-League 1,0,0,0,0,6,6,0,1,44,48,6,6,1.9,3.3,4.0
+27-10-2024,Incheon United,Gwangju,Coréia Do Sul - K-League 1,1,0,1,0,10,11,6,2,30,52,6,8,3.1,3.1,2.3
+19-10-2024,Incheon United,Jeju United,Coréia Do Sul - K-League 1,1,2,0,0,14,4,6,2,69,26,11,3,2.6,2.87,3.0
+06-10-2024,Incheon United,Gangwon,Coréia Do Sul - K-League 1,1,3,0,1,3,9,2,8,37,69,2,5,2.9,3.2,2.45
+27-09-2024,Pohang Steelers,Incheon United,Coréia Do Sul - K-League 1,1,0,0,0,9,3,2,0,82,84,5,7,2.2,3.4,3.2
+22-09-2024,Incheon United,Ulsan,Coréia Do Sul - K-League 1,0,0,0,0,6,13,0,2,34,83,2,9,3.1,3.3,2.15
+15-09-2024,Sangju Sangmu,Incheon United,Coréia Do Sul - K-League 1,2,0,0,0,12,16,1,3,65,92,5,3,2.4,3.3,2.8
+31-08-2024,Daegu,Incheon United,Coréia Do Sul - K-League 1,1,2,1,0,14,12,5,6,54,71,5,7,2.37,3.6,2.8
+24-08-2024,Incheon United,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,1,0,1,13,8,6,1,55,31,8,2,2.75,3.3,2.5
+17-08-2024,Daejeon Citizen,Incheon United,Coréia Do Sul - K-League 1,2,1,1,0,9,13,5,2,43,88,3,4,2.62,3.0,2.62
+10-08-2024,Jeju United,Incheon United,Coréia Do Sul - K-League 1,0,1,0,0,2,8,3,2,57,53,5,3,2.15,3.2,3.3
+27-07-2024,Incheon United,Seoul,Coréia Do Sul - K-League 1,0,1,0,0,10,8,1,1,57,37,5,1,3.4,3.1,2.2
+21-07-2024,Incheon United,Suwon,Coréia Do Sul - K-League 1,1,4,0,2,7,13,1,4,50,37,5,3,3.0,3.25,2.37
+14-07-2024,Gwangju,Incheon United,Coréia Do Sul - K-League 1,0,2,0,1,5,10,1,2,123,54,6,4,1.8,3.6,4.2
+09-07-2024,Daegu,Incheon United,Coréia Do Sul - K-League 1,0,0,0,0,17,10,2,2,54,30,8,4,2.15,3.2,3.0
+05-07-2024,Incheon United,Sangju Sangmu,Coréia Do Sul - K-League 1,1,1,0,1,4,7,1,1,53,90,5,2,3.3,3.1,2.3
+30-06-2024,Incheon United,Gangwon,Coréia Do Sul - K-League 1,0,1,0,0,9,16,3,6,56,90,3,11,2.45,3.3,2.75
+26-06-2024,Jeju United,Incheon United,Coréia Do Sul - K-League 1,1,0,0,0,11,6,3,0,79,54,7,1,2.4,3.1,2.75
+23-06-2024,Incheon United,Pohang Steelers,Coréia Do Sul - K-League 1,1,3,0,1,3,13,1,3,48,76,2,6,2.62,3.0,2.45
+15-08-2025,Delfin,El Nacional,Equador - Liga Pro,0,3,0,2,18,11,7,6,51,21,9,4,1.9,3.5,3.7
+03-08-2025,LDU Quito,Mushuc Runa,Equador - Liga Pro,2,1,0,0,26,4,7,2,61,24,10,1,1.4,4.5,7.5
+12-07-2025,LDU Quito,Emelec,Equador - Liga Pro,2,0,1,0,19,4,6,1,23,9,5,7,1.42,3.9,7.5
+06-07-2025,Delfin,LDU Quito,Equador - Liga Pro,0,4,0,1,16,8,5,5,46,28,5,2,3.8,3.0,2.1
+28-06-2025,Orense,LDU Quito,Equador - Liga Pro,2,1,1,0,7,7,4,1,28,41,1,4,3.1,3.1,2.3
+18-06-2025,LDU Quito,Barcelona Guayaquil,Equador - Liga Pro,3,1,2,1,22,6,10,4,34,18,5,1,0.0,0.0,0.0
+14-06-2025,Cuniburo,LDU Quito,Equador - Liga Pro,1,2,0,0,6,22,3,4,20,62,2,9,4.5,3.5,1.8
+31-05-2025,LDU Quito,Técnico Universitario,Equador - Liga Pro,3,2,2,2,17,11,7,4,57,22,10,3,1.48,4.1,6.5
+24-05-2025,Universidad Católica,LDU Quito,Equador - Liga Pro,3,1,0,0,12,20,4,6,28,44,5,9,2.5,3.2,2.75
+10-05-2025,Macará,LDU Quito,Equador - Liga Pro,0,1,0,1,21,18,3,2,52,38,5,6,3.8,3.3,2.0
+03-05-2025,LDU Quito,El Nacional,Equador - Liga Pro,2,2,1,1,20,15,3,5,51,28,14,1,1.61,3.8,5.5
+26-04-2025,Manta,LDU Quito,Equador - Liga Pro,1,1,1,1,11,9,2,2,50,34,6,5,4.5,4.0,1.66
+14-04-2025,Mushuc Runa,LDU Quito,Equador - Liga Pro,1,0,0,0,14,10,4,1,39,36,7,5,3.25,3.3,2.15
+29-03-2025,Deportivo Cuenca,LDU Quito,Equador - Liga Pro,1,2,1,1,7,13,4,6,18,58,5,9,3.3,3.1,2.15
+16-03-2025,Emelec,LDU Quito,Equador - Liga Pro,1,0,1,0,15,9,4,1,61,70,8,5,4.0,3.1,2.05
+08-03-2025,LDU Quito,Delfin,Equador - Liga Pro,3,0,1,0,11,7,6,4,59,28,2,2,1.22,6.25,11.0
+01-03-2025,LDU Quito,Orense,Equador - Liga Pro,4,0,0,0,19,7,7,0,56,24,6,2,1.3,5.25,8.5
+16-02-2025,LDU Quito,Cuniburo,Equador - Liga Pro,0,0,0,0,22,10,1,3,91,29,7,5,1.55,3.75,6.25
+01-12-2024,LDU Quito,Deportivo Cuenca,Equador - Liga Pro,5,0,4,0,16,2,6,1,36,21,3,1,1.27,5.25,10.0
+24-11-2024,Universidad Católica,LDU Quito,Equador - Liga Pro,2,4,0,3,21,8,9,4,61,30,10,2,2.35,3.25,3.0
+03-11-2024,Emelec,LDU Quito,Equador - Liga Pro,0,1,0,1,18,14,3,8,53,44,9,5,3.2,2.9,2.4
+26-10-2024,LDU Quito,Mushuc Runa,Equador - Liga Pro,1,1,1,0,13,17,3,5,50,29,7,5,1.44,4.2,7.0
+19-10-2024,Técnico Universitario,LDU Quito,Equador - Liga Pro,1,2,0,1,10,14,2,5,40,32,8,7,3.3,3.4,2.1
+06-10-2024,LDU Quito,Orense,Equador - Liga Pro,2,0,1,0,19,3,6,0,48,18,3,0,1.33,4.5,10.0
+29-09-2024,Delfin,LDU Quito,Equador - Liga Pro,3,2,1,2,21,8,12,4,37,29,7,4,3.7,3.2,2.1
+21-09-2024,LDU Quito,El Nacional,Equador - Liga Pro,1,1,1,1,25,9,7,2,63,18,8,2,1.48,4.33,6.0
+14-09-2024,Imbabura,LDU Quito,Equador - Liga Pro,4,0,4,0,15,15,9,3,28,44,4,7,5.75,3.75,1.57
+31-08-2024,LDU Quito,Barcelona Guayaquil,Equador - Liga Pro,3,0,2,0,14,10,7,3,26,33,6,4,1.7,3.4,5.75
+25-08-2024,LDU Quito,Libertad,Equador - Liga Pro,3,0,0,0,20,8,8,2,59,18,10,3,1.27,5.75,8.0
+16-08-2025,Independiente del Valle,Orense,Equador - Liga Pro,2,1,1,0,15,7,8,2,51,17,5,3,1.38,4.33,11.0
+02-08-2025,Independiente del Valle,El Nacional,Equador - Liga Pro,1,0,0,0,9,11,2,2,45,24,6,4,1.42,4.33,7.5
+29-06-2025,Universidad Católica,Independiente del Valle,Equador - Liga Pro,0,3,0,3,10,12,4,6,34,20,5,4,3.3,3.5,2.05
+22-06-2025,LDU Quito,Independiente del Valle,Equador - Liga Pro,1,1,0,0,24,8,5,3,0,0,5,4,2.5,3.0,3.0
+31-05-2025,Delfin,Independiente del Valle,Equador - Liga Pro,1,1,0,1,9,6,4,1,37,21,5,3,3.7,3.1,2.1
+23-05-2025,Independiente del Valle,Mushuc Runa,Equador - Liga Pro,2,1,1,0,18,8,7,3,32,40,5,4,1.53,4.0,6.0
+18-05-2025,Cuniburo,Independiente del Valle,Equador - Liga Pro,1,3,0,1,12,21,5,4,23,43,3,4,3.6,3.4,2.0
+11-05-2025,Técnico Universitario,Independiente del Valle,Equador - Liga Pro,1,2,0,1,19,14,9,9,44,35,5,10,2.8,3.1,2.5
+04-05-2025,Independiente del Valle,Emelec,Equador - Liga Pro,1,2,0,1,21,9,7,4,1,0,6,1,1.48,4.5,5.5
+27-04-2025,Orense,Independiente del Valle,Equador - Liga Pro,1,2,1,0,12,6,4,3,50,16,10,1,3.6,3.25,2.05
+19-04-2025,Independiente del Valle,Manta,Equador - Liga Pro,2,0,2,0,20,6,7,1,50,23,7,3,1.16,6.5,17.0
+14-04-2025,El Nacional,Independiente del Valle,Equador - Liga Pro,1,3,1,3,12,11,3,4,48,29,8,2,3.8,3.4,1.9
+05-04-2025,Independiente del Valle,Deportivo Cuenca,Equador - Liga Pro,4,0,2,0,16,10,6,1,37,31,7,2,1.45,4.1,6.5
+28-03-2025,Aucas,Independiente del Valle,Equador - Liga Pro,1,2,1,2,17,10,5,6,0,0,3,2,3.1,3.2,2.4
+16-03-2025,Independiente del Valle,Macará,Equador - Liga Pro,1,1,0,1,15,7,3,3,45,19,7,5,1.48,3.8,7.5
+08-03-2025,Barcelona Guayaquil,Independiente del Valle,Equador - Liga Pro,0,4,0,2,6,8,1,6,30,23,3,2,2.2,3.2,3.3
+02-03-2025,Independiente del Valle,Universidad Católica,Equador - Liga Pro,1,1,1,0,10,11,7,3,26,27,7,3,1.9,3.4,4.1
+22-02-2025,Independiente del Valle,LDU Quito,Equador - Liga Pro,1,1,1,0,13,9,3,4,28,28,3,5,2.4,3.25,2.9
+15-02-2025,Libertad,Independiente del Valle,Equador - Liga Pro,2,0,1,0,5,15,2,2,27,56,4,5,6.0,3.7,1.57
+14-12-2024,Independiente del Valle,LDU Quito,Equador - Liga Pro,1,0,0,0,25,4,7,2,73,52,12,0,1.85,3.6,3.9
+07-12-2024,LDU Quito,Independiente del Valle,Equador - Liga Pro,3,0,1,0,11,13,7,2,39,42,4,9,2.55,2.87,2.9
+01-12-2024,Orense,Independiente del Valle,Equador - Liga Pro,0,0,0,0,5,18,2,7,26,62,2,8,3.7,3.5,1.9
+24-11-2024,Independiente del Valle,Macará,Equador - Liga Pro,7,0,6,0,17,10,10,2,40,18,2,5,1.22,6.0,12.0
+09-11-2024,LDU Quito,Independiente del Valle,Equador - Liga Pro,2,1,1,1,12,17,4,4,43,57,1,6,2.7,3.3,2.45
+03-11-2024,Independiente del Valle,El Nacional,Equador - Liga Pro,2,0,1,0,15,4,6,0,27,29,2,3,1.14,7.5,17.0
+25-10-2024,Deportivo Cuenca,Independiente del Valle,Equador - Liga Pro,0,2,0,1,14,21,7,5,48,31,8,6,5.0,3.5,1.72
+17-08-2025,Técnico Universitario,Emelec,Equador - Liga Pro,0,1,0,0,14,8,5,2,56,38,3,3,2.1,3.0,3.7
+16-08-2025,Flora,Harju Jalgpallikool,Estônia - Meistriliiga,3,1,2,0,16,7,6,4,92,48,6,2,1.28,5.5,7.5
+09-08-2025,Kuressaare,Harju Jalgpallikool,Estônia - Meistriliiga,1,3,1,3,25,8,7,3,90,55,5,3,2.5,3.5,2.35
+17-08-2025,Afturelding,KA,Islândia - Pepsideild,3,3,0,1,18,18,7,8,54,67,8,7,2.87,3.5,2.15
+06-07-2025,KR,KA,Islândia - Pepsideild,1,2,0,0,16,9,5,3,75,54,6,6,1.8,4.1,3.4
+27-06-2025,KA,Valur,Islândia - Pepsideild,2,5,1,2,9,19,5,7,54,55,6,6,2.87,3.6,2.15
+22-06-2025,KA,Víkingur Reykjavík,Islândia - Pepsideild,0,2,0,1,13,8,1,3,99,70,9,4,3.4,3.75,1.9
+15-06-2025,Vestri,KA,Islândia - Pepsideild,1,0,1,0,8,21,4,5,43,84,2,7,3.0,3.5,2.1
+01-06-2025,KA,Stjarnan,Islândia - Pepsideild,1,1,0,1,26,10,9,4,75,50,14,3,1.9,4.2,3.4
+24-05-2025,KA,Afturelding,Islândia - Pepsideild,1,0,0,0,13,9,2,2,72,45,10,3,1.9,3.9,3.25
+23-04-2025,Valur,KA,Islândia - Pepsideild,3,1,2,0,19,12,9,4,94,94,2,4,1.48,4.75,5.0
+13-04-2025,Víkingur Reykjavík,KA,Islândia - Pepsideild,4,0,3,0,18,6,9,2,99,69,9,8,1.57,4.33,5.0
+06-04-2025,KA,KR,Islândia - Pepsideild,2,2,2,2,13,13,6,4,71,63,9,2,2.5,4.0,2.2
+19-10-2024,KA,Vestri,Islândia - Pepsideild,2,1,2,0,14,17,4,2,14,4,4,5,1.72,4.0,3.8
+06-10-2024,KA,KR,Islândia - Pepsideild,0,4,0,2,16,15,4,9,61,37,10,0,2.2,4.0,2.45
+29-09-2024,Fylkir,KA,Islândia - Pepsideild,1,3,1,1,4,8,2,4,84,84,6,8,2.75,4.0,2.1
+25-09-2024,KA,HK,Islândia - Pepsideild,3,3,1,2,17,12,9,9,85,69,9,6,1.4,5.25,5.5
+18-08-2024,KA,Stjarnan,Islândia - Pepsideild,1,1,1,1,14,12,4,6,70,56,10,7,1.9,3.7,3.5
+11-08-2024,Fylkir,KA,Islândia - Pepsideild,1,1,0,0,15,16,5,3,94,114,6,11,3.1,3.9,1.95
+06-08-2024,KA,Valur,Islândia - Pepsideild,1,0,1,0,14,8,6,2,43,51,8,5,3.3,4.0,1.85
+29-07-2024,KR,KA,Islândia - Pepsideild,2,2,1,0,16,9,7,3,98,78,8,6,2.1,3.9,2.75
+20-07-2024,KA,Víkingur Reykjavík,Islândia - Pepsideild,1,0,0,0,9,15,2,7,36,64,4,7,3.25,3.8,1.9
+14-07-2024,Vestri,KA,Islândia - Pepsideild,0,2,0,1,12,14,1,7,48,52,4,1,3.7,4.0,1.66
+28-06-2024,HK,KA,Islândia - Pepsideild,1,2,0,0,12,24,2,10,46,66,4,15,3.7,3.9,1.75
+19-06-2024,Breidablik,KA,Islândia - Pepsideild,2,1,1,0,20,12,5,4,72,38,14,6,1.44,4.75,5.25
+18-08-2025,Fram,KR,Islândia - Pepsideild,0,1,0,1,11,9,3,2,72,67,4,2,2.37,3.9,2.37
+10-08-2025,Vestri,Fram,Islândia - Pepsideild,3,2,1,1,15,15,6,9,34,47,6,14,3.25,3.7,1.95
+06-08-2025,Fram,Stjarnan,Islândia - Pepsideild,1,1,0,0,21,16,4,5,69,61,8,3,2.7,3.9,2.15
+27-07-2025,Fram,Víkingur Reykjavík,Islândia - Pepsideild,2,2,1,1,7,18,5,9,54,76,5,10,3.6,3.9,1.85
+17-07-2025,Afturelding,Fram,Islândia - Pepsideild,1,1,0,0,10,13,3,5,52,56,6,6,2.7,3.5,2.25
+02-06-2025,Valur,Fram,Islândia - Pepsideild,2,1,0,0,14,6,4,1,100,98,3,3,1.4,5.0,5.5
+29-05-2025,Fram,KA,Islândia - Pepsideild,1,2,1,1,10,19,2,7,71,94,7,4,2.35,3.5,2.62
+23-05-2025,KR,Fram,Islândia - Pepsideild,2,3,1,3,21,10,6,4,132,69,5,2,1.65,4.33,4.0
+18-05-2025,Fram,Vestri,Islândia - Pepsideild,1,0,1,0,6,15,3,4,81,88,3,5,1.83,3.8,3.6
+10-05-2025,Stjarnan,Fram,Islândia - Pepsideild,2,0,1,0,13,16,8,3,95,93,6,13,2.25,3.6,2.75
+05-05-2025,Víkingur Reykjavík,Fram,Islândia - Pepsideild,3,2,2,1,19,6,4,2,43,64,5,5,1.53,4.2,4.33
+28-04-2025,Fram,Afturelding,Islândia - Pepsideild,3,0,2,0,14,28,8,9,57,89,6,9,1.8,3.8,3.8
+26-10-2024,Fram,KA,Islândia - Pepsideild,1,4,0,2,18,13,5,7,61,48,8,5,2.62,3.5,2.3
+20-10-2024,HK,Fram,Islândia - Pepsideild,2,1,1,1,17,18,5,5,67,68,7,3,2.05,3.8,2.9
+05-10-2024,Fram,Vestri,Islândia - Pepsideild,2,4,1,3,14,11,8,8,85,33,7,3,1.95,3.7,2.9
+29-09-2024,KR,Fram,Islândia - Pepsideild,7,1,4,0,17,11,9,5,56,57,5,6,1.85,4.1,3.2
+22-09-2024,Fram,Fylkir,Islândia - Pepsideild,2,0,2,0,4,15,2,1,76,88,1,12,1.66,4.0,4.2
+01-09-2024,HK,Fram,Islândia - Pepsideild,1,0,0,0,8,20,2,5,43,75,6,8,4.33,3.9,1.61
+25-08-2024,Fram,KA,Islândia - Pepsideild,1,2,1,1,10,13,3,5,52,45,3,1,2.15,3.3,3.1
+06-08-2024,Fram,Stjarnan,Islândia - Pepsideild,2,1,0,0,15,9,6,1,90,79,9,4,2.15,3.6,2.8
+31-07-2024,Fylkir,Fram,Islândia - Pepsideild,0,0,0,0,6,13,3,3,41,67,3,9,2.6,3.6,2.3
+28-07-2024,Fram,Valur,Islândia - Pepsideild,4,1,3,1,12,27,5,7,36,94,0,8,3.3,4.75,1.72
+11-07-2024,Fram,KR,Islândia - Pepsideild,1,0,0,0,11,10,4,4,48,69,6,5,2.4,3.7,2.3
+30-06-2024,Víkingur Reykjavík,Fram,Islândia - Pepsideild,2,1,2,0,9,17,7,7,35,54,4,6,1.48,4.75,4.33
+27-06-2024,Vestri,Fram,Islândia - Pepsideild,1,3,0,2,9,21,1,6,62,67,9,6,2.8,3.5,2.25
+23-06-2024,KA,Fram,Islândia - Pepsideild,3,2,1,2,13,6,7,3,79,58,9,11,1.83,3.7,3.75
+17-08-2025,ÍA,Víkingur Reykjavík,Islândia - Pepsideild,0,1,0,0,6,14,2,6,47,72,4,4,5.0,4.5,1.48
+05-08-2025,ÍA,Valur,Islândia - Pepsideild,2,2,0,2,11,13,4,6,58,77,3,6,4.2,4.1,1.61
+19-07-2025,KA,ÍA,Islândia - Pepsideild,2,0,1,0,15,13,8,3,55,65,2,4,0.0,0.0,0.0
+14-07-2025,ÍA,KR,Islândia - Pepsideild,1,0,0,0,6,16,4,7,38,89,1,8,3.5,4.5,1.72
+05-07-2025,ÍA,Fram,Islândia - Pepsideild,0,1,0,1,13,10,3,3,69,57,6,10,3.25,3.9,1.9
+29-06-2025,Vestri,ÍA,Islândia - Pepsideild,0,2,0,0,11,11,2,4,75,58,7,5,1.83,3.7,3.6
+22-06-2025,ÍA,Stjarnan,Islândia - Pepsideild,0,3,0,1,15,22,4,7,51,73,10,7,2.9,4.2,1.95
+15-06-2025,Afturelding,ÍA,Islândia - Pepsideild,4,1,1,1,12,12,5,2,93,82,7,3,2.2,3.7,2.75
+24-05-2025,Víkingur Reykjavík,ÍA,Islândia - Pepsideild,2,1,2,1,13,9,8,1,98,76,4,0,1.25,6.25,8.0
+10-05-2025,Valur,ÍA,Islândia - Pepsideild,6,1,1,0,19,9,11,5,110,61,8,1,1.5,4.5,4.5
+04-05-2025,ÍA,KA,Islândia - Pepsideild,3,0,2,0,9,15,5,5,29,99,4,12,2.1,3.9,2.75
+27-04-2025,KR,ÍA,Islândia - Pepsideild,5,0,2,0,20,15,10,6,95,61,4,3,1.9,4.1,3.2
+23-04-2025,ÍA,Vestri,Islândia - Pepsideild,0,2,0,2,14,7,5,3,83,34,8,3,1.57,4.1,5.0
+14-04-2025,Stjarnan,ÍA,Islândia - Pepsideild,2,1,1,1,9,14,3,7,81,93,2,7,1.9,3.7,3.6
+06-04-2025,Fram,ÍA,Islândia - Pepsideild,0,1,0,1,11,12,3,3,93,87,10,3,2.3,3.75,2.55
+26-10-2024,Valur,ÍA,Islândia - Pepsideild,6,1,4,1,23,9,13,6,66,53,10,5,1.45,4.5,5.5
+19-10-2024,ÍA,Víkingur Reykjavík,Islândia - Pepsideild,3,4,2,0,8,16,2,2,19,24,3,8,5.5,4.5,1.45
+30-09-2024,Stjarnan,ÍA,Islândia - Pepsideild,3,0,1,0,9,15,3,5,84,86,5,8,1.61,4.5,4.0
+15-09-2024,ÍA,KA,Islândia - Pepsideild,1,0,1,0,7,12,3,4,49,67,4,9,2.4,3.9,2.45
+01-09-2024,KR,ÍA,Islândia - Pepsideild,4,2,3,1,12,19,6,8,51,73,2,16,1.95,3.9,3.1
+19-08-2024,Víkingur Reykjavík,ÍA,Islândia - Pepsideild,1,2,1,2,9,9,4,5,132,81,4,3,1.53,4.5,4.75
+12-08-2024,ÍA,Fram,Islândia - Pepsideild,1,0,0,0,7,11,2,1,64,66,3,1,2.15,3.6,2.87
+07-08-2024,Vestri,ÍA,Islândia - Pepsideild,0,0,0,0,11,6,5,3,37,29,3,1,3.7,3.9,1.8
+28-07-2024,ÍA,Stjarnan,Islândia - Pepsideild,1,3,1,0,13,20,6,8,70,89,4,5,1.9,4.0,3.1
+15-07-2024,Fylkir,ÍA,Islândia - Pepsideild,3,0,2,0,14,16,7,4,46,77,9,7,2.8,3.8,2.05
+06-07-2024,ÍA,HK,Islândia - Pepsideild,8,0,4,0,15,11,9,5,51,48,6,1,1.48,4.33,5.5
+28-06-2024,ÍA,Valur,Islândia - Pepsideild,3,2,2,1,11,13,6,5,76,92,3,7,4.0,4.5,1.61
+23-06-2024,Breidablik,ÍA,Islândia - Pepsideild,1,1,0,0,20,7,9,3,80,33,8,3,1.4,5.25,5.5
+18-06-2024,ÍA,KR,Islândia - Pepsideild,2,1,0,0,22,14,6,7,76,67,11,5,2.55,3.7,2.3
+01-06-2024,KA,ÍA,Islândia - Pepsideild,2,3,2,3,14,10,7,4,81,41,9,4,1.75,4.0,3.4
+25-05-2024,ÍA,Víkingur Reykjavík,Islândia - Pepsideild,0,1,0,0,11,16,3,7,57,91,5,10,4.75,4.0,1.53
+21-05-2024,Fram,ÍA,Islândia - Pepsideild,1,1,0,0,15,16,6,5,49,59,3,6,2.0,3.8,3.1
+11-05-2024,ÍA,Vestri,Islândia - Pepsideild,3,0,1,0,14,12,11,2,45,55,5,7,1.8,3.8,3.75
+05-05-2024,Stjarnan,ÍA,Islândia - Pepsideild,4,1,1,1,19,14,9,4,101,68,9,0,1.65,4.0,4.0
+10-08-2025,Valur,Breidablik,Islândia - Pepsideild,2,1,0,1,8,9,2,6,71,102,9,8,1.85,3.9,3.3
+03-08-2025,Breidablik,KA,Islândia - Pepsideild,1,1,1,1,14,13,4,9,58,42,7,6,1.61,4.0,4.33
+26-07-2025,KR,Breidablik,Islândia - Pepsideild,1,1,1,0,21,11,7,7,64,68,6,7,2.7,4.0,2.25
+19-07-2025,Breidablik,Vestri,Islândia - Pepsideild,1,0,1,0,19,7,8,2,82,39,5,2,1.22,6.5,8.5
+03-07-2025,Afturelding,Breidablik,Islândia - Pepsideild,2,2,1,2,13,15,7,3,62,69,7,9,4.0,3.9,1.7
+27-06-2025,Stjarnan,Breidablik,Islândia - Pepsideild,1,4,1,0,11,24,5,10,56,68,3,2,2.4,3.7,2.45
+23-06-2025,Breidablik,Fram,Islândia - Pepsideild,1,1,0,0,13,12,3,6,71,35,7,2,1.57,4.75,4.1
+01-06-2025,Breidablik,Víkingur Reykjavík,Islândia - Pepsideild,3,1,2,0,13,11,6,5,47,65,4,5,2.75,3.9,2.25
+29-05-2025,Breidablik,ÍA,Islândia - Pepsideild,1,4,1,3,14,19,6,8,76,52,8,9,1.4,5.0,5.5
+19-05-2025,Breidablik,Valur,Islândia - Pepsideild,2,1,1,1,17,13,6,3,95,83,5,7,2.05,3.9,2.9
+11-05-2025,KA,Breidablik,Islândia - Pepsideild,0,1,0,1,7,11,4,5,47,43,6,6,4.33,4.0,1.65
+05-05-2025,Breidablik,KR,Islândia - Pepsideild,3,3,0,0,17,18,11,5,55,43,8,9,1.61,4.5,3.8
+27-04-2025,Vestri,Breidablik,Islândia - Pepsideild,0,1,0,0,5,19,2,5,37,88,0,11,5.25,4.2,1.55
+23-04-2025,Breidablik,Stjarnan,Islândia - Pepsideild,2,1,1,0,26,8,9,2,66,43,8,3,1.65,4.33,4.2
+13-04-2025,Fram,Breidablik,Islândia - Pepsideild,4,2,0,2,12,8,7,2,82,87,6,4,4.5,4.0,1.7
+05-04-2025,Breidablik,Afturelding,Islândia - Pepsideild,2,0,2,0,19,8,5,2,68,39,7,4,1.28,5.75,7.0
+27-10-2024,Víkingur Reykjavík,Breidablik,Islândia - Pepsideild,0,3,0,1,13,19,2,7,87,71,5,2,1.9,3.7,3.4
+19-10-2024,Breidablik,Stjarnan,Islândia - Pepsideild,2,1,0,0,11,13,2,4,63,64,3,8,1.5,4.75,5.0
+06-10-2024,Breidablik,Valur,Islândia - Pepsideild,2,2,0,1,10,6,3,4,132,61,10,3,1.57,4.1,4.2
+23-09-2024,Breidablik,ÍA,Islândia - Pepsideild,2,0,0,0,12,7,4,1,64,44,5,3,1.38,5.0,6.0
+15-09-2024,Breidablik,HK,Islândia - Pepsideild,5,3,1,2,21,12,9,4,91,60,8,4,1.18,7.0,11.0
+01-09-2024,KA,Breidablik,Islândia - Pepsideild,2,3,1,1,12,14,4,5,51,29,5,6,2.75,3.5,2.2
+25-08-2024,ÍA,Breidablik,Islândia - Pepsideild,1,2,0,0,12,19,4,4,81,98,4,7,3.3,3.8,1.95
+19-08-2024,Breidablik,Fram,Islândia - Pepsideild,3,1,1,1,13,7,4,4,105,70,8,5,1.6,4.2,4.33
+15-08-2024,Valur,Breidablik,Islândia - Pepsideild,0,2,0,1,10,13,6,2,59,52,8,10,2.25,3.9,2.6
+11-08-2024,Stjarnan,Breidablik,Islândia - Pepsideild,2,2,1,0,16,15,8,7,75,90,10,9,3.4,4.0,1.83
+06-08-2024,Breidablik,Fylkir,Islândia - Pepsideild,3,0,1,0,20,11,7,4,106,70,4,5,1.3,5.75,6.5
+21-07-2024,Breidablik,KR,Islândia - Pepsideild,4,2,3,1,18,15,9,7,89,102,6,4,1.6,4.0,4.5
+17-08-2025,Breidablik,FH,Islândia - Pepsideild,4,5,2,1,16,16,10,10,106,75,5,2,2.1,3.6,3.0
+11-08-2025,FH,ÍA,Islândia - Pepsideild,3,2,1,2,15,11,9,4,51,50,8,7,1.55,4.1,5.0
+03-08-2025,FH,Víkingur Reykjavík,Islândia - Pepsideild,2,2,1,1,9,12,4,3,73,75,4,3,2.75,3.5,2.3
+27-07-2025,Valur,FH,Islândia - Pepsideild,3,1,1,0,13,13,7,7,69,109,3,8,1.7,4.0,4.1
+13-07-2025,FH,KA,Islândia - Pepsideild,5,0,2,0,18,14,7,4,0,0,3,5,0.0,0.0,0.0
+07-07-2025,FH,Stjarnan,Islândia - Pepsideild,1,1,0,1,21,14,7,5,70,61,6,7,2.15,3.6,2.87
+29-06-2025,KR,FH,Islândia - Pepsideild,3,2,0,1,18,4,4,4,148,70,10,1,2.1,3.6,2.9
+22-06-2025,FH,Vestri,Islândia - Pepsideild,2,0,1,0,21,5,5,1,89,71,7,1,1.55,4.0,5.0
+15-06-2025,Fram,FH,Islândia - Pepsideild,2,0,1,0,11,16,6,5,94,85,4,4,3.25,3.7,1.95
+01-06-2025,FH,Afturelding,Islândia - Pepsideild,0,0,0,0,14,10,5,3,85,74,6,5,1.83,3.9,3.75
+25-05-2025,FH,Breidablik,Islândia - Pepsideild,2,0,1,0,10,14,4,4,82,108,4,8,3.0,3.6,2.1
+19-05-2025,ÍA,FH,Islândia - Pepsideild,1,3,0,1,13,21,6,6,61,61,3,4,2.8,3.8,2.15
+11-05-2025,Víkingur Reykjavík,FH,Islândia - Pepsideild,3,1,2,1,8,10,3,4,37,33,8,8,1.55,4.5,4.33
+04-05-2025,FH,Valur,Islândia - Pepsideild,3,0,2,0,17,19,5,4,71,80,5,10,3.0,3.8,2.05
+27-04-2025,KA,FH,Islândia - Pepsideild,3,2,1,1,13,12,10,5,55,52,5,7,2.37,3.5,2.7
+23-04-2025,FH,KR,Islândia - Pepsideild,2,2,1,1,19,16,7,5,78,111,12,5,2.3,3.9,2.62
+13-04-2025,Vestri,FH,Islândia - Pepsideild,1,0,1,0,5,10,1,4,32,66,2,7,3.0,3.5,2.25
+07-04-2025,Stjarnan,FH,Islândia - Pepsideild,2,1,0,0,12,15,4,3,85,76,6,8,2.0,4.0,2.9
+26-10-2024,Stjarnan,FH,Islândia - Pepsideild,3,2,2,2,8,15,2,7,61,55,4,4,1.61,4.1,4.33
+19-10-2024,FH,Valur,Islândia - Pepsideild,1,1,0,1,14,18,6,5,45,41,11,13,3.1,4.0,1.95
+06-10-2024,ÍA,FH,Islândia - Pepsideild,4,1,3,1,11,14,6,8,49,59,6,10,2.37,3.6,2.45
+29-09-2024,FH,Breidablik,Islândia - Pepsideild,0,1,0,0,7,19,1,9,20,49,3,8,2.87,4.1,2.0
+25-09-2024,Víkingur Reykjavík,FH,Islândia - Pepsideild,3,0,1,0,12,9,8,1,89,66,8,5,1.4,4.5,6.25
+15-09-2024,Fram,FH,Islândia - Pepsideild,3,3,1,2,7,18,6,8,34,45,5,4,3.1,3.6,2.05
+01-09-2024,FH,Stjarnan,Islândia - Pepsideild,0,3,0,0,17,9,7,4,59,39,15,5,1.75,3.9,3.75
+25-08-2024,Fylkir,FH,Islândia - Pepsideild,2,3,2,1,4,19,2,6,62,128,3,10,4.0,3.8,1.75
+19-08-2024,FH,Valur,Islândia - Pepsideild,2,2,0,1,15,6,4,4,73,36,10,2,2.7,3.8,2.2
+12-08-2024,KR,FH,Islândia - Pepsideild,1,0,1,0,10,14,4,3,98,97,9,4,2.35,4.0,2.4
+05-08-2024,FH,Víkingur Reykjavík,Islândia - Pepsideild,2,3,2,1,5,16,3,8,73,83,6,9,3.2,3.7,1.95
+28-07-2024,Vestri,FH,Islândia - Pepsideild,0,2,0,0,6,9,3,3,24,46,1,8,4.1,4.1,1.65
+22-07-2024,FH,ÍA,Islândia - Pepsideild,1,1,0,0,22,11,4,2,119,67,9,5,1.83,3.75,3.6
+15-07-2024,FH,HK,Islândia - Pepsideild,3,1,1,1,22,6,6,6,79,114,14,2,1.22,5.75,8.5
+08-07-2024,FH,KA,Islândia - Pepsideild,1,1,1,0,16,13,3,4,54,52,9,1,1.8,3.5,4.0
+28-06-2024,FH,Breidablik,Islândia - Pepsideild,1,0,1,0,8,9,1,0,57,51,5,2,3.1,3.8,2.0
+23-06-2024,FH,Fylkir,Islândia - Pepsideild,3,1,1,0,12,10,5,3,85,96,5,7,1.55,4.5,4.2
+18-06-2024,Stjarnan,FH,Islândia - Pepsideild,4,2,1,1,14,19,9,6,77,61,5,6,2.2,3.9,2.7
+31-05-2024,FH,Fram,Islândia - Pepsideild,3,3,2,0,14,6,6,3,47,43,7,4,1.65,3.9,4.0
+25-05-2024,Valur,FH,Islândia - Pepsideild,2,2,1,1,12,26,6,10,92,107,5,7,1.75,3.6,3.75
+20-05-2024,FH,KR,Islândia - Pepsideild,1,2,0,2,16,14,6,3,115,88,13,8,2.15,3.6,2.9
+12-05-2024,Víkingur Reykjavík,FH,Islândia - Pepsideild,2,0,1,0,9,8,4,4,78,94,2,6,1.5,4.2,5.5
+04-05-2024,FH,Vestri,Islândia - Pepsideild,3,2,1,2,12,7,6,2,126,85,6,4,1.44,4.2,6.5
+28-04-2024,ÍA,FH,Islândia - Pepsideild,1,2,1,1,9,13,5,6,58,58,5,3,2.8,3.8,2.25
+17-08-2025,ÍBV,Valur,Islândia - Pepsideild,4,1,2,0,15,7,9,4,40,46,7,3,3.3,4.1,1.8
+10-08-2025,KA,ÍBV,Islândia - Pepsideild,1,0,0,0,14,6,7,4,54,40,4,3,2.1,3.5,3.0
+02-08-2025,ÍBV,KR,Islândia - Pepsideild,2,1,1,1,16,14,7,5,67,87,7,6,2.62,3.7,2.25
+27-07-2025,Vestri,ÍBV,Islândia - Pepsideild,2,0,2,0,9,14,5,4,34,91,1,7,2.7,3.3,2.45
+14-07-2025,ÍBV,Stjarnan,Islândia - Pepsideild,1,0,0,0,12,8,5,2,42,48,5,5,2.45,3.6,2.4
+05-07-2025,ÍBV,Víkingur Reykjavík,Islândia - Pepsideild,0,0,0,0,7,10,2,2,27,46,3,9,4.2,4.0,1.65
+29-06-2025,Fram,ÍBV,Islândia - Pepsideild,2,0,2,0,15,8,7,3,82,84,4,3,2.1,3.6,2.9
+23-06-2025,ÍBV,Afturelding,Islândia - Pepsideild,1,2,1,0,11,10,4,6,56,39,6,5,2.0,3.5,3.3
+15-06-2025,ÍBV,Breidablik,Islândia - Pepsideild,0,2,0,1,10,8,1,3,42,56,8,8,3.8,3.8,1.75
+01-06-2025,ÍA,ÍBV,Islândia - Pepsideild,0,3,0,1,9,14,4,8,65,56,7,9,2.1,4.0,2.9
+29-05-2025,ÍBV,FH,Islândia - Pepsideild,2,1,0,1,12,13,2,6,43,52,3,3,3.6,3.4,1.9
+24-05-2025,Valur,ÍBV,Islândia - Pepsideild,3,0,3,0,15,8,5,1,98,77,7,4,1.36,5.0,6.25
+18-05-2025,ÍBV,KA,Islândia - Pepsideild,0,0,0,0,6,12,0,2,40,58,2,9,2.0,3.8,3.1
+10-05-2025,KR,ÍBV,Islândia - Pepsideild,4,1,2,1,17,15,10,7,27,39,9,8,1.7,4.0,4.0
+04-05-2025,ÍBV,Vestri,Islândia - Pepsideild,0,2,0,1,14,12,4,3,59,27,9,3,1.75,3.6,4.0
+28-04-2025,Stjarnan,ÍBV,Islândia - Pepsideild,2,3,1,2,17,19,4,10,105,63,9,5,1.83,3.75,3.75
+24-04-2025,ÍBV,Fram,Islândia - Pepsideild,3,1,2,1,13,6,4,3,35,51,1,6,2.6,3.4,2.5
+13-04-2025,Afturelding,ÍBV,Islândia - Pepsideild,0,0,0,0,13,21,1,4,40,52,2,8,2.2,3.5,3.0
+07-04-2025,Víkingur Reykjavík,ÍBV,Islândia - Pepsideild,2,0,0,0,8,3,3,0,67,58,5,2,1.2,6.25,8.5
+16-08-2025,Renofa Yamaguchi,Vegalta Sendai,Japão - J2-League,2,2,1,1,12,11,4,4,78,75,5,6,3.0,3.2,2.45
+31-05-2025,JEF United,Renofa Yamaguchi,Japão - J2-League,0,0,0,0,18,9,6,2,78,70,3,6,1.85,3.5,4.0
+25-05-2025,V-Varen Nagasaki,JEF United,Japão - J2-League,1,0,0,0,21,14,8,4,52,39,5,6,2.3,3.6,2.8
+17-05-2025,JEF United,Vegalta Sendai,Japão - J2-League,0,0,0,0,10,15,1,5,73,52,5,6,2.1,3.2,3.4
+03-11-2024,JEF United,V-Varen Nagasaki,Japão - J2-League,1,2,1,1,12,9,7,6,70,46,5,4,1.9,3.6,3.7
+05-10-2024,JEF United,ThespaKusatsu Gunma,Japão - J2-League,1,0,1,0,18,7,4,3,112,85,6,5,1.36,4.75,8.0
+21-09-2024,JEF United,Renofa Yamaguchi,Japão - J2-League,4,1,1,0,13,11,8,3,50,48,2,6,1.9,3.4,4.1
+25-08-2024,JEF United,Vegalta Sendai,Japão - J2-League,4,2,1,1,13,7,7,4,45,30,5,2,1.95,3.5,3.6
+10-08-2024,Fagiano Okayama,JEF United,Japão - J2-League,0,0,0,0,6,7,3,2,105,75,8,5,2.55,3.25,2.62
+03-08-2024,Yokohama,JEF United,Japão - J2-League,2,1,0,1,8,11,2,4,88,77,4,2,2.15,3.4,3.2
+14-07-2024,JEF United,Roasso Kumamoto,Japão - J2-League,0,2,0,0,6,11,1,2,51,48,4,5,1.9,3.8,3.7
+03-08-2025,Dainava,Sūduva,Lituânia - A Lyga,2,2,0,0,15,19,6,7,33,58,5,7,3.8,3.6,1.72
+28-07-2025,FA Šiauliai,Dainava,Lituânia - A Lyga,3,1,1,1,19,12,10,4,50,37,12,0,0.0,0.0,0.0
+21-07-2025,Kauno Žalgiris,Dainava,Lituânia - A Lyga,3,0,1,0,8,13,5,6,31,41,0,8,1.25,5.75,9.0
+14-07-2025,Dainava,Panevėžys,Lituânia - A Lyga,0,3,0,2,9,14,1,5,48,53,1,5,3.9,3.4,1.75
+17-08-2025,Sūduva,Banga,Lituânia - A Lyga,2,1,0,1,17,11,6,3,79,50,4,3,1.66,3.5,4.33
+13-08-2025,Banga,Hegelmann Litauen,Lituânia - A Lyga,0,1,0,1,8,12,1,5,33,46,5,1,4.5,3.25,1.7
+10-08-2025,Hegelmann Litauen,Dainava,Lituânia - A Lyga,0,1,0,0,21,7,7,2,88,31,6,4,1.3,5.0,7.0
+20-08-2025,Panevėžys,Banga,Lituânia - A Lyga,1,0,0,0,14,12,5,2,44,40,6,7,1.66,3.6,4.75
+17-08-2025,Hegelmann Litauen,Panevėžys,Lituânia - A Lyga,3,1,3,1,17,9,9,6,61,57,3,9,1.75,3.6,3.8
+20-08-2025,FA Šiauliai,Kauno Žalgiris,Lituânia - A Lyga,2,2,1,2,15,12,7,4,37,41,4,6,5.0,3.75,1.6
+16-08-2025,Guaraní,Cerro Porteño,Paraguai - Division 1,3,4,2,2,12,15,6,6,27,30,3,5,2.75,3.1,2.5
+20-08-2025,Žalgiris,Dainava,Lituânia - A Lyga,1,1,0,0,19,8,4,2,61,32,14,1,1.27,5.0,10.0
+29-07-2025,General Caballero JLM,Sportivo Trinidense,Paraguai - Division 1,0,0,0,0,15,4,2,1,74,31,3,1,3.4,3.2,2.1
+11-07-2025,Sportivo Luqueño,General Caballero JLM,Paraguai - Division 1,2,0,0,0,9,15,4,3,0,0,6,7,0.0,0.0,0.0
+05-07-2025,Cerro Porteño,General Caballero JLM,Paraguai - Division 1,3,1,2,0,13,10,6,4,23,27,4,2,1.45,4.33,5.75
+24-05-2025,Libertad,General Caballero JLM,Paraguai - Division 1,1,0,0,0,19,7,4,2,49,33,8,3,1.38,4.2,10.0
+16-05-2025,Cerro Porteño,General Caballero JLM,Paraguai - Division 1,2,1,2,1,18,12,6,5,35,18,8,3,1.45,3.8,7.5
+11-05-2025,Olimpia,General Caballero JLM,Paraguai - Division 1,0,3,0,2,14,13,3,5,60,38,9,4,1.53,3.7,5.75
+05-05-2025,General Caballero JLM,Sportivo Trinidense,Paraguai - Division 1,1,1,1,1,16,12,6,9,34,46,5,7,2.62,2.8,2.9
+27-04-2025,Sportivo Luqueño,General Caballero JLM,Paraguai - Division 1,0,0,0,0,13,13,2,2,38,50,2,3,2.2,3.25,2.8
+16-04-2025,Sportivo Ameliano,General Caballero JLM,Paraguai - Division 1,0,1,0,0,14,10,2,4,67,32,2,2,2.0,3.2,3.75
+13-04-2025,General Caballero JLM,Guaraní,Paraguai - Division 1,0,0,0,0,11,7,1,2,32,26,1,0,2.87,3.2,2.45
+04-04-2025,Deportivo Recoleta,General Caballero JLM,Paraguai - Division 1,3,1,1,0,8,15,4,4,47,54,2,3,2.15,3.2,3.3
+30-03-2025,Nacional Asunción,General Caballero JLM,Paraguai - Division 1,1,0,1,0,12,13,5,3,43,32,2,3,1.95,3.1,4.33
+22-03-2025,General Caballero JLM,Libertad,Paraguai - Division 1,0,5,0,3,6,19,3,7,26,34,2,4,4.0,3.2,1.85
+09-03-2025,General Caballero JLM,Cerro Porteño,Paraguai - Division 1,0,1,0,0,11,17,3,4,35,56,0,5,3.0,3.0,2.4
+01-03-2025,General Caballero JLM,Olimpia,Paraguai - Division 1,1,1,1,0,6,19,4,8,36,60,3,9,5.25,3.1,1.8
+24-02-2025,Sportivo Trinidense,General Caballero JLM,Paraguai - Division 1,0,0,0,0,18,16,4,5,67,43,10,5,2.2,3.3,3.3
+14-02-2025,General Caballero JLM,Sportivo Luqueño,Paraguai - Division 1,3,0,2,0,18,21,7,5,39,67,4,6,2.45,3.1,2.7
+10-02-2025,Atlético Tembetary,General Caballero JLM,Paraguai - Division 1,1,0,0,0,23,7,3,1,73,63,3,5,2.5,3.1,2.7
+02-02-2025,General Caballero JLM,Sportivo Ameliano,Paraguai - Division 1,1,0,1,0,11,12,1,0,45,47,7,6,2.55,3.2,2.55
+30-01-2025,Guaraní,General Caballero JLM,Paraguai - Division 1,2,1,2,0,6,16,3,2,25,50,3,5,2.05,3.0,4.1
+25-01-2025,General Caballero JLM,Deportivo Recoleta,Paraguai - Division 1,2,2,2,1,10,17,4,7,43,58,1,4,1.95,3.3,3.9
+25-11-2024,Sportivo Ameliano,General Caballero JLM,Paraguai - Division 1,0,1,0,0,3,7,0,2,66,48,7,3,2.35,3.0,2.9
+17-11-2024,General Caballero JLM,Libertad,Paraguai - Division 1,3,1,1,1,14,7,5,4,52,25,8,2,2.7,3.4,2.45
+09-11-2024,Sportivo Trinidense,General Caballero JLM,Paraguai - Division 1,2,1,2,0,22,14,7,4,80,78,4,7,2.15,3.0,3.4
+02-11-2024,General Caballero JLM,Guaraní,Paraguai - Division 1,0,0,0,0,14,8,3,3,52,50,6,5,2.9,3.0,2.35
+25-10-2024,Nacional Asunción,General Caballero JLM,Paraguai - Division 1,1,0,1,0,5,11,1,2,80,97,3,1,1.75,3.6,4.33
+19-10-2024,General Caballero JLM,Tacuary,Paraguai - Division 1,0,0,0,0,7,4,3,0,45,42,2,1,2.4,3.1,3.0
+13-10-2024,Cerro Porteño,General Caballero JLM,Paraguai - Division 1,2,1,2,1,10,11,4,7,75,75,7,5,1.42,4.2,6.25
+04-10-2024,General Caballero JLM,Sol de América,Paraguai - Division 1,1,1,0,0,12,14,5,3,51,60,2,2,2.4,3.0,3.0
+28-09-2024,Olimpia,General Caballero JLM,Paraguai - Division 1,0,0,0,0,14,8,5,3,41,54,3,6,1.57,3.7,5.25
+23-09-2024,Sportivo Luqueño,General Caballero JLM,Paraguai - Division 1,1,1,1,0,9,15,2,5,70,90,3,7,1.9,3.2,4.0
+13-09-2024,General Caballero JLM,Sportivo Ameliano,Paraguai - Division 1,0,4,0,2,10,14,3,10,97,54,5,6,2.55,2.9,2.75
+31-08-2024,Libertad,General Caballero JLM,Paraguai - Division 1,0,1,0,1,17,10,5,4,84,60,8,3,1.5,4.2,5.75
+27-08-2024,General Caballero JLM,Sportivo Trinidense,Paraguai - Division 1,2,1,0,0,11,13,5,2,54,67,2,2,2.6,3.0,2.5
+24-08-2024,Guaraní,General Caballero JLM,Paraguai - Division 1,1,1,0,1,10,7,5,6,88,47,11,3,1.8,3.3,4.5
+17-08-2024,General Caballero JLM,Nacional Asunción,Paraguai - Division 1,0,0,0,0,16,18,2,3,62,59,6,6,3.2,3.2,2.3
+12-08-2024,Tacuary,General Caballero JLM,Paraguai - Division 1,2,1,1,1,11,11,6,3,57,69,2,5,2.35,2.9,2.9
+08-08-2024,General Caballero JLM,Cerro Porteño,Paraguai - Division 1,2,1,0,1,9,9,4,5,46,57,3,7,5.5,3.6,1.57
+02-08-2024,Sol de América,General Caballero JLM,Paraguai - Division 1,3,0,1,0,10,7,6,1,60,69,6,1,2.25,2.9,3.2
+17-08-2025,Olimpia,Libertad,Paraguai - Division 1,0,0,0,0,13,8,3,4,42,28,7,1,1.9,3.5,3.9
+10-08-2025,Guaraní,Olimpia,Paraguai - Division 1,4,0,2,0,9,16,5,6,19,44,2,10,3.4,3.4,2.1
+03-08-2025,Olimpia,Cerro Porteño,Paraguai - Division 1,2,3,1,0,14,14,6,5,20,33,3,10,2.75,3.0,2.7
+19-07-2025,ADT,Cienciano,Peru - Primera Division,1,0,0,0,9,19,3,3,19,50,3,11,2.37,2.9,3.2
+20-06-2025,Universitario,ADT,Peru - Primera Division,5,0,2,0,22,6,10,2,46,17,3,1,1.27,5.75,7.5
+17-05-2025,Sporting Cristal,ADT,Peru - Primera Division,2,1,1,1,13,10,5,4,83,30,14,4,1.36,4.75,8.0
+11-05-2025,ADT,ADC Juan Pablo II,Peru - Primera Division,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
+04-05-2025,Alianza Atlético,ADT,Peru - Primera Division,2,0,1,0,7,10,2,2,36,55,1,9,2.05,3.3,3.6
+05-04-2025,Melgar,ADT,Peru - Primera Division,4,0,2,0,20,7,10,0,44,26,4,2,1.48,4.0,7.0
+29-03-2025,ADT,Alianza Lima,Peru - Primera Division,3,0,1,0,10,7,6,3,36,34,3,2,1.5,3.9,5.75
+08-03-2025,Sport Huancayo,ADT,Peru - Primera Division,2,1,1,1,11,19,6,4,28,53,4,5,2.15,3.2,3.5
+27-02-2025,ADT,Sport Boys,Peru - Primera Division,2,2,2,1,14,11,8,4,33,32,2,6,1.44,4.5,6.5
+23-02-2025,Alianza Universidad,ADT,Peru - Primera Division,2,3,2,3,14,12,5,7,73,66,4,3,2.2,3.2,3.25
+15-02-2025,ADT,Atlético Grau,Peru - Primera Division,4,3,1,1,9,12,5,6,33,34,2,6,1.66,3.7,5.25
+09-02-2025,Cienciano,ADT,Peru - Primera Division,2,2,0,0,16,17,3,5,43,47,8,2,2.0,3.5,3.5
+01-11-2024,ADT,Sport Boys,Peru - Primera Division,1,0,0,0,17,5,4,1,44,21,6,2,1.27,4.75,8.5
+28-10-2024,Comerciantes Unidos,ADT,Peru - Primera Division,0,0,0,0,11,18,2,4,34,72,1,9,3.4,3.6,2.05
+23-10-2024,ADT,Unión Comercio,Peru - Primera Division,2,0,0,0,22,5,9,2,80,4,7,1,1.07,11.0,19.0
+19-10-2024,Universitario,ADT,Peru - Primera Division,2,1,1,0,13,10,3,2,26,31,4,1,1.22,5.0,13.0
+28-09-2024,ADT,Alianza Atlético,Peru - Primera Division,0,1,0,0,20,8,4,3,94,38,9,1,1.53,3.9,6.25
+22-09-2024,César Vallejo,ADT,Peru - Primera Division,0,0,0,0,21,10,5,0,44,30,7,2,1.9,3.2,4.1
+17-09-2024,ADT,Cusco FC,Peru - Primera Division,1,2,1,0,20,12,9,3,50,25,6,4,2.0,3.4,3.6
+13-09-2024,Deportivo Garcilaso,ADT,Peru - Primera Division,1,0,1,0,11,16,4,5,34,33,4,4,1.75,3.5,4.0
+25-08-2024,ADT,Sport Huancayo,Peru - Primera Division,2,1,2,0,16,9,6,7,48,35,5,6,1.66,3.75,4.75
+16-08-2024,ADT,Melgar,Peru - Primera Division,1,1,1,1,14,11,5,4,51,28,2,4,2.62,3.25,2.62
+10-08-2024,Alianza Lima,ADT,Peru - Primera Division,0,0,0,0,20,4,5,1,70,19,4,0,1.36,4.33,7.5
+04-08-2024,ADT,Atlético Grau,Peru - Primera Division,1,2,1,1,18,11,6,4,51,30,4,5,1.48,4.0,7.0
+31-07-2024,Carlos Mannucci,ADT,Peru - Primera Division,3,2,2,1,12,10,5,4,47,25,8,4,3.2,3.0,2.4
+27-07-2024,ADT,Los Chankas,Peru - Primera Division,2,1,1,0,20,11,9,4,49,34,5,2,1.48,4.2,5.5
+21-07-2024,Cienciano,ADT,Peru - Primera Division,0,1,0,0,8,12,0,4,29,44,4,3,2.2,3.2,3.1
+12-07-2024,ADT,Sporting Cristal,Peru - Primera Division,3,1,1,1,17,11,8,5,60,38,5,2,2.1,3.2,3.25
+26-05-2024,Sport Boys,ADT,Peru - Primera Division,1,0,0,0,21,5,7,0,37,37,2,2,2.7,3.25,2.5
+19-05-2024,ADT,Comerciantes Unidos,Peru - Primera Division,2,0,1,0,18,7,5,2,52,36,9,3,1.29,5.0,9.0
+10-05-2024,Unión Comercio,ADT,Peru - Primera Division,2,2,1,0,7,9,3,6,58,64,8,5,3.4,3.2,2.2
+03-05-2024,ADT,Universitario,Peru - Primera Division,2,0,1,0,16,13,4,2,41,37,2,7,2.3,3.5,2.8
+28-04-2024,Alianza Atlético,ADT,Peru - Primera Division,1,2,0,1,16,10,5,4,50,37,6,3,2.55,3.0,2.88
+20-04-2024,ADT,César Vallejo,Peru - Primera Division,1,0,1,0,21,9,5,0,58,36,7,5,1.65,3.6,5.0
+14-04-2024,Cusco FC,ADT,Peru - Primera Division,3,2,2,2,12,8,7,3,47,26,3,6,2.45,3.4,2.7
+07-04-2024,ADT,Deportivo Garcilaso,Peru - Primera Division,2,2,0,2,23,9,7,4,67,21,9,2,1.73,3.6,4.33
+31-03-2024,Sport Huancayo,ADT,Peru - Primera Division,0,2,0,0,11,21,5,6,42,45,6,3,2.15,3.5,3.25
+10-08-2025,Kalmar,Varberg BoIS,Suécia - Superettan,2,0,1,0,13,7,5,2,71,44,10,5,1.9,3.6,3.9
+28-07-2025,Helsingborg,Varberg BoIS,Suécia - Superettan,1,2,0,0,15,14,6,6,88,73,4,7,2.3,3.25,3.0
+20-07-2025,Varberg BoIS,GIF Sundsvall,Suécia - Superettan,0,2,0,0,14,7,5,4,92,40,7,2,1.8,3.4,4.1
+22-06-2025,Oddevold,Varberg BoIS,Suécia - Superettan,2,1,0,0,9,18,4,7,27,44,5,6,3.4,3.2,2.1
+31-05-2025,Sandviken,Varberg BoIS,Suécia - Superettan,2,1,1,0,12,11,9,5,47,50,5,4,2.8,3.7,2.35
+25-05-2025,Varberg BoIS,Kalmar,Suécia - Superettan,0,0,0,0,13,6,2,2,55,54,6,8,3.5,3.4,2.05
+22-05-2025,Varberg BoIS,Landskrona,Suécia - Superettan,4,2,4,0,14,11,7,4,42,86,2,4,2.25,3.25,3.2
+03-05-2025,Varberg BoIS,Helsingborg,Suécia - Superettan,1,0,0,0,9,7,3,1,86,79,6,2,2.2,3.5,3.1
+27-04-2025,Trelleborg,Varberg BoIS,Suécia - Superettan,0,4,0,3,17,12,7,8,32,25,11,4,2.15,3.4,3.1
+21-04-2025,Varberg BoIS,Umeå,Suécia - Superettan,4,0,2,0,17,6,5,3,64,64,6,6,1.61,3.9,4.75
+07-04-2025,Varberg BoIS,Örebro,Suécia - Superettan,2,1,1,1,16,6,5,2,77,62,4,1,2.1,3.6,3.2
+29-03-2025,Falkenberg,Varberg BoIS,Suécia - Superettan,2,2,1,1,11,14,4,6,51,62,3,6,2.0,3.7,2.9
+09-11-2024,Varberg BoIS,Sandviken,Suécia - Superettan,2,1,1,1,9,17,7,9,46,52,3,5,2.5,3.9,2.5
+02-11-2024,Trelleborg,Varberg BoIS,Suécia - Superettan,0,1,0,0,14,12,6,7,41,26,7,7,3.1,3.75,2.0
+27-10-2024,Varberg BoIS,Degerfors,Suécia - Superettan,0,0,0,0,3,8,4,3,73,82,5,4,3.1,3.5,2.2
+20-10-2024,Öster,Varberg BoIS,Suécia - Superettan,3,4,2,0,18,14,3,4,87,70,6,8,1.44,5.0,5.75
+05-10-2024,Varberg BoIS,Örebro,Suécia - Superettan,1,1,0,1,6,11,11,12,53,63,7,9,2.3,3.1,3.1
+18-09-2024,Skövde AIK,Varberg BoIS,Suécia - Superettan,2,2,0,1,13,13,4,7,47,47,2,2,3.0,3.5,2.2
+14-09-2024,Oddevold,Varberg BoIS,Suécia - Superettan,3,2,1,0,12,6,5,3,37,40,4,5,2.1,3.4,3.1
+31-08-2024,Varberg BoIS,Utsikten,Suécia - Superettan,1,1,0,1,14,12,5,2,51,41,9,1,2.25,3.5,2.75
+26-08-2024,Landskrona,Varberg BoIS,Suécia - Superettan,1,4,1,2,16,7,7,4,43,26,10,3,1.66,4.0,4.75
+16-08-2024,Varberg BoIS,GIF Sundsvall,Suécia - Superettan,3,0,1,0,6,10,4,6,55,77,8,9,1.8,3.5,4.33
+10-08-2024,Gefle,Varberg BoIS,Suécia - Superettan,0,4,0,1,7,13,3,7,38,36,3,1,2.1,3.7,3.2
+03-08-2024,Varberg BoIS,Helsingborg,Suécia - Superettan,0,3,0,2,8,10,3,6,64,80,5,5,2.9,3.4,2.15
+22-07-2024,Varberg BoIS,Landskrona,Suécia - Superettan,1,1,0,0,3,17,2,6,15,66,1,10,3.1,3.4,2.25
+28-06-2024,Helsingborg,Varberg BoIS,Suécia - Superettan,1,0,0,0,11,6,3,2,101,57,6,3,1.85,3.3,3.9
+23-06-2024,Varberg BoIS,Gefle,Suécia - Superettan,4,3,1,1,10,15,6,11,50,74,5,8,1.83,3.5,3.8
+15-06-2024,Utsikten,Varberg BoIS,Suécia - Superettan,0,1,0,0,18,9,4,2,58,40,11,6,2.15,3.4,3.3
+02-06-2024,Varberg BoIS,Skövde AIK,Suécia - Superettan,2,2,0,2,12,6,3,3,49,38,3,5,1.85,3.7,4.0
+16-08-2025,Alianza Lima,ADT,Peru - Primera Division,3,1,0,0,24,3,5,1,58,28,7,1,1.33,5.0,8.5
+16-08-2025,Östersunds FK,GIF Sundsvall,Suécia - Superettan,1,3,0,1,25,11,8,6,73,39,9,1,2.05,3.4,3.5
+09-08-2025,Landskrona,Östersunds FK,Suécia - Superettan,2,0,1,0,13,6,4,1,63,44,5,6,2.1,3.4,3.4
+02-08-2025,Östersunds FK,Helsingborg,Suécia - Superettan,2,2,2,2,11,13,4,4,51,56,6,2,2.62,3.4,2.7
+19-07-2025,Östersunds FK,Falkenberg,Suécia - Superettan,3,1,1,0,16,8,7,3,45,32,5,3,2.55,3.4,2.55
+28-06-2025,GIF Sundsvall,Östersunds FK,Suécia - Superettan,1,1,1,1,10,13,2,2,59,55,8,2,2.37,3.1,2.9
+14-06-2025,Östersunds FK,Oddevold,Suécia - Superettan,1,3,0,1,13,6,3,4,138,45,7,2,2.1,3.4,3.25
+01-06-2025,Helsingborg,Östersunds FK,Suécia - Superettan,0,0,0,0,11,12,4,5,47,47,11,2,1.95,3.6,3.6
+24-05-2025,Östersunds FK,Örebro,Suécia - Superettan,3,1,1,0,22,16,8,8,34,36,4,6,2.15,3.3,3.1
+17-05-2025,Östersunds FK,Sandviken,Suécia - Superettan,2,2,1,1,16,11,6,6,71,53,9,3,2.45,3.6,2.62
+11-05-2025,Östersunds FK,Varberg BoIS,Suécia - Superettan,0,1,0,1,8,13,3,4,37,48,4,4,2.4,3.5,2.75
+20-04-2025,Kalmar,Östersunds FK,Suécia - Superettan,2,0,0,0,10,8,5,3,54,52,1,8,1.42,4.2,6.5
+12-04-2025,Umeå,Östersunds FK,Suécia - Superettan,2,2,1,1,10,9,2,5,53,41,10,6,2.3,3.3,2.8
+05-04-2025,Östersunds FK,Landskrona,Suécia - Superettan,3,3,2,0,12,19,4,9,31,64,5,7,2.35,3.5,2.9
+30-03-2025,Trelleborg,Östersunds FK,Suécia - Superettan,0,1,0,0,15,5,3,3,60,31,5,0,1.9,3.5,3.4
+26-10-2024,Utsikten,Östersunds FK,Suécia - Superettan,3,1,0,1,9,7,5,5,39,31,2,3,2.62,3.4,2.55
+19-10-2024,Östersunds FK,Landskrona,Suécia - Superettan,2,1,0,0,9,11,12,12,32,52,3,1,2.8,3.4,2.37
+05-10-2024,Sandviken,Östersunds FK,Suécia - Superettan,3,1,0,1,13,12,8,5,36,28,4,5,1.65,4.0,4.75
+30-09-2024,Östersunds FK,Oddevold,Suécia - Superettan,0,2,0,1,1,8,2,3,67,28,5,2,2.2,3.25,3.2
+24-09-2024,Gefle,Östersunds FK,Suécia - Superettan,0,0,0,0,8,7,0,0,40,31,4,8,2.7,3.4,2.3
+18-09-2024,Östersunds FK,GIF Sundsvall,Suécia - Superettan,1,2,1,0,10,5,4,4,54,25,7,1,1.75,3.6,4.33
+13-09-2024,Östersunds FK,Helsingborg,Suécia - Superettan,1,0,1,0,6,8,2,3,58,50,2,4,2.3,3.4,2.75
+31-08-2024,Degerfors,Östersunds FK,Suécia - Superettan,2,0,1,0,18,11,11,5,57,46,6,4,1.6,3.75,5.0
+25-08-2024,Östersunds FK,Skövde AIK,Suécia - Superettan,2,2,2,1,19,4,14,2,51,36,12,3,1.4,5.0,7.0
+17-08-2024,Trelleborg,Östersunds FK,Suécia - Superettan,1,0,0,0,10,12,5,11,42,60,1,9,2.25,3.5,3.0
+10-08-2024,Östersunds FK,Öster,Suécia - Superettan,0,0,0,0,10,8,3,5,52,50,3,2,3.2,3.4,2.15
+02-08-2024,Örebro,Östersunds FK,Suécia - Superettan,4,1,1,1,15,4,11,3,57,39,6,3,2.0,3.5,3.2
+27-07-2024,Östersunds FK,Varberg BoIS,Suécia - Superettan,2,1,0,1,15,2,9,2,63,32,6,1,1.75,3.9,3.9
+21-07-2024,Östersunds FK,Degerfors,Suécia - Superettan,2,1,2,0,10,10,2,4,41,48,8,5,2.55,3.5,2.55
+30-06-2024,Landskrona,Östersunds FK,Suécia - Superettan,4,3,2,0,11,8,6,5,54,17,3,4,1.8,3.25,4.1
+12-08-2025,Västerås SK,Örebro,Suécia - Superettan,2,1,0,1,16,6,6,3,74,42,6,3,1.55,4.2,5.5
+03-08-2025,Landskrona,Västerås SK,Suécia - Superettan,1,2,0,2,10,12,3,4,59,55,4,5,3.2,3.6,2.15
+28-07-2025,Västerås SK,Trelleborg,Suécia - Superettan,3,0,1,0,17,11,6,5,76,66,7,3,1.57,4.0,4.75
+19-07-2025,Sandviken,Västerås SK,Suécia - Superettan,0,3,0,2,11,16,1,6,54,63,5,8,2.62,3.4,2.4
+28-06-2025,Västerås SK,Landskrona,Suécia - Superettan,1,0,0,0,14,6,5,2,36,34,4,7,1.75,3.75,3.9
+15-06-2025,Varberg BoIS,Västerås SK,Suécia - Superettan,1,0,0,0,12,9,2,3,59,41,6,4,2.5,3.3,2.6
+31-05-2025,Västerås SK,Umeå,Suécia - Superettan,2,2,1,2,20,9,5,3,92,34,9,3,1.27,5.5,10.0
+26-05-2025,Oddevold,Västerås SK,Suécia - Superettan,1,5,1,3,8,15,3,7,30,60,2,3,2.7,3.2,2.6
+21-05-2025,Västerås SK,Östersunds FK,Suécia - Superettan,1,0,0,0,9,3,4,1,40,48,1,3,1.55,4.2,5.5
+17-05-2025,Trelleborg,Västerås SK,Suécia - Superettan,5,0,2,0,13,12,8,0,43,66,2,6,2.55,3.4,2.7
+10-05-2025,GIF Sundsvall,Västerås SK,Suécia - Superettan,1,2,1,0,12,11,5,5,44,45,6,3,3.7,3.5,1.95
+06-05-2025,Västerås SK,Kalmar,Suécia - Superettan,2,2,1,2,7,11,3,2,37,47,2,1,2.6,3.25,2.62
+28-04-2025,Utsikten,Västerås SK,Suécia - Superettan,2,2,1,1,9,10,4,3,70,72,11,4,4.0,3.5,1.8
+22-04-2025,Helsingborg,Västerås SK,Suécia - Superettan,2,0,1,0,11,18,9,12,37,66,4,2,2.55,3.0,2.8
+14-04-2025,Västerås SK,Falkenberg,Suécia - Superettan,1,0,1,0,7,16,3,2,21,34,2,10,1.42,4.2,7.0
+01-04-2025,Örebro,Västerås SK,Suécia - Superettan,0,2,0,1,13,12,6,6,89,74,5,5,3.0,3.4,2.0
+10-11-2024,Västerås SK,Hammarby,Suécia - Allsvenskan,1,0,0,0,8,8,1,4,50,44,3,4,2.8,3.6,2.3
+02-11-2024,Elfsborg,Västerås SK,Suécia - Allsvenskan,1,0,1,0,18,10,5,2,52,51,6,9,1.55,4.5,5.0
+28-10-2024,Djurgården,Västerås SK,Suécia - Allsvenskan,2,1,1,1,18,22,5,7,49,42,8,3,1.55,4.1,5.5
+19-10-2024,Västerås SK,Malmö FF,Suécia - Allsvenskan,1,1,0,1,23,14,5,4,55,30,4,8,4.5,4.1,1.65
+05-10-2024,Mjällby,Västerås SK,Suécia - Allsvenskan,2,1,1,1,16,10,4,4,55,43,6,7,1.85,3.75,3.8
+30-09-2024,Brommapojkarna,Västerås SK,Suécia - Allsvenskan,2,1,0,0,19,14,6,2,52,61,6,3,2.2,4.0,2.8
+26-09-2024,Västerås SK,IFK Göteborg,Suécia - Allsvenskan,1,1,0,1,17,26,6,8,64,53,8,6,1.95,3.7,3.6
+22-09-2024,Värnamo,Västerås SK,Suécia - Allsvenskan,2,0,2,0,18,15,5,5,46,64,7,9,2.3,3.4,3.0
+14-09-2024,Västerås SK,GAIS,Suécia - Allsvenskan,2,3,0,3,17,11,6,3,94,31,9,3,2.1,3.6,3.2
+31-08-2024,Västerås SK,Sirius,Suécia - Allsvenskan,1,2,1,1,18,14,3,6,66,52,7,8,2.35,3.6,2.8
+26-08-2024,Halmstad,Västerås SK,Suécia - Allsvenskan,0,1,0,1,12,15,1,5,46,62,1,5,3.4,3.4,2.1
+17-08-2024,Västerås SK,Kalmar,Suécia - Allsvenskan,2,1,0,1,13,9,5,4,47,32,3,4,1.72,4.0,4.33
+10-08-2024,Norrköping,Västerås SK,Suécia - Allsvenskan,2,1,0,0,14,9,3,5,47,40,6,6,2.55,3.6,2.55
+03-08-2024,Västerås SK,AIK,Suécia - Allsvenskan,1,2,1,2,7,15,2,6,53,81,1,5,2.75,3.5,2.4
+28-07-2024,Häcken,Västerås SK,Suécia - Allsvenskan,4,0,2,0,7,21,6,7,27,83,2,10,1.53,5.0,4.75
+21-07-2024,IFK Göteborg,Västerås SK,Suécia - Allsvenskan,1,1,0,0,13,13,5,6,4,5,7,7,2.0,3.6,3.6
+14-07-2024,Västerås SK,Norrköping,Suécia - Allsvenskan,2,1,0,0,14,11,6,4,76,46,7,7,1.65,4.2,4.5
+08-07-2024,Västerås SK,Häcken,Suécia - Allsvenskan,1,2,1,1,15,18,7,4,36,74,5,14,3.2,3.8,2.1
+02-06-2024,Kalmar,Västerås SK,Suécia - Allsvenskan,0,4,0,1,15,12,4,7,57,36,7,3,2.75,3.3,2.55
+15-08-2025,Utsikten,Varberg BoIS,Suécia - Superettan,1,1,0,1,10,13,3,6,65,84,9,8,3.7,3.4,2.05
+10-08-2025,Helsingborg,Utsikten,Suécia - Superettan,3,0,1,0,14,7,6,2,57,48,3,7,1.66,3.9,4.75
+02-08-2025,Utsikten,GIF Sundsvall,Suécia - Superettan,4,1,2,0,7,12,6,3,57,81,1,1,2.6,3.3,2.62
+27-07-2025,Kalmar,Utsikten,Suécia - Superettan,1,0,0,0,11,3,7,0,46,20,9,2,1.36,4.75,7.0
+21-07-2025,Utsikten,Helsingborg,Suécia - Superettan,1,2,0,0,9,15,2,4,55,81,2,3,3.1,3.5,2.05
+27-06-2025,Varberg BoIS,Utsikten,Suécia - Superettan,1,1,0,0,9,8,2,3,85,58,8,2,1.57,4.0,4.75
+22-06-2025,Utsikten,Östersunds FK,Suécia - Superettan,1,0,1,0,17,20,5,2,58,101,3,12,2.55,3.7,2.4
+15-06-2025,Trelleborg,Utsikten,Suécia - Superettan,1,1,1,1,12,5,2,3,55,36,7,4,2.25,3.2,3.0
+31-05-2025,Utsikten,Kalmar,Suécia - Superettan,1,1,1,1,12,9,2,4,61,81,3,8,4.5,4.0,1.66
+17-08-2025,Deportivo La Guaira,Deportivo Táchira,Venezuela - Primera Division,3,1,2,1,19,13,9,4,34,28,5,6,2.2,2.8,3.5
+10-08-2025,Metropolitanos,Deportivo La Guaira,Venezuela - Primera Division,1,3,0,1,5,14,2,5,37,40,2,6,5.25,3.3,1.66
+04-07-2025,Oulu,KuPS,Finlândia - Veikkausliiga,2,2,1,0,2,12,2,5,20,65,2,7,3.0,3.2,2.15
+01-07-2025,KuPS,Gnistan,Finlândia - Veikkausliiga,6,2,3,1,20,9,11,7,0,0,8,3,1.61,4.1,4.75
+18-06-2025,Mariehamn,KuPS,Finlândia - Veikkausliiga,1,0,0,0,11,21,2,5,46,94,2,10,5.5,4.5,1.5
+14-06-2025,KuPS,Ilves,Finlândia - Veikkausliiga,0,3,0,2,10,14,2,5,62,32,5,5,2.45,3.4,2.6
+21-05-2025,Ilves,KuPS,Finlândia - Veikkausliiga,3,0,0,0,13,3,4,2,64,38,9,1,2.45,3.5,2.75
+16-05-2025,Haka,KuPS,Finlândia - Veikkausliiga,1,3,0,1,6,10,1,4,49,43,8,5,3.5,3.75,1.9
+02-05-2025,KuPS,SJK,Finlândia - Veikkausliiga,1,0,1,0,11,11,3,3,47,44,4,7,1.8,3.8,3.9
+27-04-2025,Gnistan,KuPS,Finlândia - Veikkausliiga,1,2,1,0,13,14,6,6,46,57,7,9,3.6,3.3,2.05
+23-04-2025,KuPS,Mariehamn,Finlândia - Veikkausliiga,4,1,2,0,19,9,6,2,82,23,6,1,1.42,4.75,7.5
+19-04-2025,KuPS,Jaro,Finlândia - Veikkausliiga,1,0,0,0,14,7,2,5,95,53,6,2,1.72,3.75,4.2
+12-04-2025,KuPS,Oulu,Finlândia - Veikkausliiga,1,0,1,0,9,9,4,5,19,36,1,6,1.55,3.6,5.75
+05-10-2024,SJK,KuPS,Finlândia - Veikkausliiga,0,1,0,0,10,4,5,3,56,67,4,3,2.55,3.5,2.4
+29-09-2024,KuPS,Haka,Finlândia - Veikkausliiga,2,0,0,0,13,9,3,3,66,44,5,2,1.3,4.5,8.0
+24-09-2024,Ilves,KuPS,Finlândia - Veikkausliiga,1,0,1,0,7,9,3,2,64,55,2,3,2.15,3.6,3.1
+14-09-2024,KuPS,VPS,Finlândia - Veikkausliiga,3,1,1,0,7,7,4,3,46,43,4,2,1.38,4.75,6.25
+25-08-2024,KuPS,Mariehamn,Finlândia - Veikkausliiga,3,0,1,0,19,5,10,3,98,59,17,4,1.36,4.2,8.5

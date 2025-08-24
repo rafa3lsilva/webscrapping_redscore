@@ -1,33 +1,32 @@
 LIGAS_PERMITIDAS = {
-    "Brasil - Serie A",
-    "Brasil - Serie B", # Liga Brasileira - Série B
-    "Brasil - Serie C",
-    "Argentina - Superliga", # Liga Argentina - Superliga
-    "Argentina - Primera B Nacional", # Liga Argentina - Primera B Nacional
-    "Bolívia - Liga De Futbol Prof", # Liga Boliviana - Liga De Futbol Prof
-    "Chile - Primera Division", # Liga Chilena - Primera División
-    "Colômbia - Liga BetPlay", # Liga Colombiana - Liga BetPlay
-    "Equador - Liga Pro", # Liga Equatoriana - Liga Pro
-    "Paraguai - Division 1", # Liga Paraguaia - División 1
-    "Peru - Primera Division", # Liga Peruana - Primera División
-    "Uruguai - Primera Division",
-    "Venezuela - Primera Division", # Liga Venezuelana - Primera División
-    "EUA - Major League Soccer",
-    "Japão - J-League", # Liga Japonesa - J-League
-    "Japão - J2-League",
-    "Coreia-do-sul - K-League 1", 
-    "Coreia-do-sul - K League 2", 
-    "China - Super League", 
-    "Estônia - Meistriliiga", # Liga Estoniana - Meistriliiga
-    "Finlândia - Veikkausliiga", # Liga Finlandesa - Veikkausliiga
-    "República da Irlanda - Premier Division",
-    "Islândia - Pepsideild",
-    "Lituânia - A Lyga", # Liga Lituana - A Lyga
-    "Noruega - Eliteserien", # Liga Norueguesa - Eliteserien
-    "Noruega - Obos-Ligaen",
-    "Suécia - Allsvenskan",
-    "Suécia - Superettan",
-    "Irlanda - Premier Division", # Liga Irlandesa - Premier Division
+    "Brasil - Serie A", # verificada
+    "Brasil - Serie B", # verificada
+    # "Brasil - Serie C",
+    "Argentina - Superliga", # verificada
+    # "Argentina - Primera B Nacional",
+    "Bolívia - Liga De Futbol Prof", # verificada
+    "Chile - Primera Division", # verificada
+    "Colômbia - Liga BetPlay", # verificada
+    "Equador - Liga Pro", # verificada
+    "Paraguai - Division 1", # verificada
+    "Peru - Primera Division", # verificada
+    "Venezuela - Primera Division", # verificada
+    "EUA - Major League Soccer", # verificada
+    "Japão - J-League", # verificada
+    "Japão - J2-League", # verificada
+    "Coréia do Sul - K-League 1", # verificada
+    "Coréia do Sul - K League 2", # verificada
+    "China - Super League", # verificada
+    "Estônia - Meistriliiga", # verificada
+    "Finlândia - Veikkausliiga", # verificada
+    "Irlanda - Premier Division", # verificada
+    "Islândia - Pepsideild", # verificada
+    "Lituânia - A Lyga", # verificada
+    "Noruega - Eliteserien", # verificada
+    "Noruega - Obos-Ligaen", # verificada
+    "Suécia - Allsvenskan", # verificada
+    "Suécia - Superettan", # verificada
+
 
     # "Argélia - Ligue 1",
     # "África-do-sul - Premier League",
