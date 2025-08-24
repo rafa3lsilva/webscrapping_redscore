@@ -5,11 +5,13 @@ import ligas_config as cfg
 import os
 import logging
 import sqlite3
+from urllib.parse import urlparse
+import random
+import time
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from urllib.parse import urlparse
-import warnings
-warnings.filterwarnings('ignore')
+from auth_redscore import REDSCORE_USER, REDSCORE_PASS
+from login_redscore import login_redscore
 
 
 # Definindo a data de amanhã
@@ -99,55 +101,76 @@ def rotina_diaria_noturna():
     inicializar_banco()
     logging.info("--- Iniciando rotina diária de atualização direcionada ---")
 
-    print("--- Fase 1: Coletando agenda de amanhã ---")
-    url_amanha = "https://redscores.com/pt-br/futebol/amanha"
-    jogos_amanha = dt.raspar_jogos_de_amanha(
-        url_amanha, cfg.LIGAS_PERMITIDAS)
+    driver = None
+    try:
+        print("--- Fase 0: Autenticando no RedScore ---")
 
-    if not jogos_amanha:
-        print("Nenhum jogo encontrado para amanhã nas ligas permitidas. Rotina concluída.")
-        logging.info("Nenhum jogo encontrado para amanhã.")
-        return
-    exportar_jogos_amanha_para_csv(jogos_amanha)
+        driver = login_redscore(REDSCORE_USER, REDSCORE_PASS)
 
-    print(
-        f"\n--- Fase 2: Obtendo links das equipas de {len(jogos_amanha)} confrontos ---")
+        print("--- Fase 1: Coletando agenda de amanhã ---")
+        driver.get("https://redscores.com/pt-br/futebol/amanha")
+        time.sleep(5)  # espera carregar os jogos (tem JS pesado)
 
-    equipas_a_visitar = {}
-    for jogo in tqdm(jogos_amanha, desc="Verificando Confrontos"):
-        link_confronto = jogo['link_confronto']
-        link_home, link_away = dt.obter_links_equipes_confronto(
-            link_confronto)
-        liga_correta = jogo['liga']
+        jogos_amanha = dt.raspar_jogos_de_amanha(
+            driver, cfg.LIGAS_PERMITIDAS
+        )
 
-        if link_home and link_away:
-            equipas_a_visitar[link_home] = liga_correta
-            equipas_a_visitar[link_away] = liga_correta
+        if not jogos_amanha:
+            print("Nenhum jogo encontrado para amanhã nas ligas permitidas. Rotina concluída.")
+            logging.info("Nenhum jogo encontrado para amanhã.")
+            return
 
-    if not equipas_a_visitar:
-        print("Não foi possível extrair links de equipas. Rotina concluída.")
-        logging.warning(
-            "Não foi possível extrair links de equipas das páginas de confronto.")
-        return
+        exportar_jogos_amanha_para_csv(jogos_amanha)
+        
+        print(
+            f"\n--- Fase 2: Obtendo links das equipas de {len(jogos_amanha)} confrontos ---")
 
-    print(
-        f"\n--- Fase 3: Atualizando o histórico de {len(equipas_a_visitar)} equipas ---")
+        equipas_a_visitar = {}
+        with tqdm(jogos_amanha, desc="Verificando Confrontos") as progress_bar:
+            for jogo in progress_bar:
+                link_confronto = jogo['link_confronto']
+                link_home, link_away = dt.obter_links_equipes_confronto(
+                    driver, link_confronto)
+                liga_correta = jogo['liga']
 
-    jogos_existentes = carregar_jogos_existentes()
-    todos_os_jogos_novos = []
+                if link_home and link_away:
+                    equipas_a_visitar[link_home] = liga_correta
+                    equipas_a_visitar[link_away] = liga_correta
 
-    ligas_permitidas = cfg.LIGAS_PERMITIDAS
+                # Pausa entre 2 e 5 segundos
+                sleep_time = random.uniform(2, 5)
 
-    with ThreadPoolExecutor(max_workers=5) as executor:
-        futures = {executor.submit(dt.raspar_dados_time, url, liga_correta, jogos_existentes, ligas_permitidas, cfg.LIMITE_JOGOS_POR_TIME): (
-            url, liga_correta) for url, liga_correta in equipas_a_visitar.items()}
-        for future in tqdm(as_completed(futures), total=len(futures), desc="Atualizando Histórico das Equipas"):
-            try:
-                todos_os_jogos_novos.extend(future.result())
-            except Exception as e:
-                logging.error(f"Erro ao processar URL {futures[future]}: {e}")
+                # NOVO: Atualiza a mensagem na própria barra de progresso
+                progress_bar.set_postfix_str(f"A aguardar {sleep_time:.2f}s...")
 
-    if todos_os_jogos_novos:
+                time.sleep(sleep_time)
+
+            if not equipas_a_visitar:
+                print("Não foi possível extrair links de equipas. Rotina concluída.")
+                logging.warning(
+                    "Não foi possível extrair links de equipas das páginas de confronto.")
+                return
+
+        print(
+            f"\n--- Fase 3: Atualizando o histórico de {len(equipas_a_visitar)} equipas ---")
+
+        jogos_existentes = carregar_jogos_existentes()
+        todos_os_jogos_novos = []
+        ligas_permitidas = cfg.LIGAS_PERMITIDAS
+
+        # ATENÇÃO: O uso de Threads aqui pode ser complexo com um único driver.
+        # Para simplificar e garantir estabilidade, vamos fazer de forma sequencial primeiro.
+        # O processamento com Threads e Selenium requer uma gestão mais avançada de pools de drivers.
+
+        print(
+            "Executando a raspagem das equipas de forma sequencial para maior estabilidade.")
+        for url, liga_correta in tqdm(equipas_a_visitar.items(), desc="Atualizando Histórico das Equipas"):
+            jogos_da_equipa = dt.raspar_dados_time(
+                driver, url, liga_correta, jogos_existentes, ligas_permitidas, cfg.LIMITE_JOGOS_POR_TIME)
+            todos_os_jogos_novos.extend(jogos_da_equipa)
+
+        # O código restante para processar e salvar os dados continua o mesmo...
+        if todos_os_jogos_novos:
             print(
                 f"\n--- Fase 4: Processando e salvando {len(todos_os_jogos_novos)} jogos raspados ---")
             df_novos_jogos = dt.processar_dados_raspados(todos_os_jogos_novos)
@@ -165,7 +188,7 @@ def rotina_diaria_noturna():
                     list(jogos_existentes), columns=["Data", "Home", "Away"])
                 if not jogos_existentes_df.empty:
                     df_novos_jogos = df_novos_jogos.merge(jogos_existentes_df, on=[
-                                                          "Data", "Home", "Away"], how='left', indicator=True).query('_merge == "left_only"').drop('_merge', axis=1)
+                                                        "Data", "Home", "Away"], how='left', indicator=True).query('_merge == "left_only"').drop('_merge', axis=1)
 
                 if not df_novos_jogos.empty:
                     salvar_no_banco(df_novos_jogos)
@@ -173,10 +196,19 @@ def rotina_diaria_noturna():
                         f"✅ {len(df_novos_jogos)} novos resultados salvos no banco de dados.")
                 else:
                     print("Todos os jogos processados já existiam no banco de dados.")
-    else:
-        print("\nNenhum resultado novo encontrado para as equipas de amanhã.")
+        else:
+            print("\nNenhum resultado novo encontrado para as equipas de amanhã.")
 
-    exportar_para_csv()
+        exportar_para_csv()
+    except Exception as e:
+        logging.error(f"Um erro crítico ocorreu na rotina principal: {e}")
+        print(f"ERRO CRÍTICO: {e}")
+    finally:
+        # Este bloco garante que o navegador seja fechado, não importa o que aconteça
+        if driver:
+            print("\n--- Encerrando o navegador ---")
+            driver.quit()
+
     logging.info("--- Rotina diária concluída ---")
     print("\n--- Rotina diária concluída ---")
 

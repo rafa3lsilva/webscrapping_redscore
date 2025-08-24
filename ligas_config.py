@@ -1,9 +1,9 @@
 LIGAS_PERMITIDAS = {
     "Brasil - Serie A", # verificada
     "Brasil - Serie B", # verificada
-    # "Brasil - Serie C",
+    "Brasil - Serie C",
     "Argentina - Superliga", # verificada
-    # "Argentina - Primera B Nacional",
+    "Argentina - Primera B Nacional",
     "Bolívia - Liga De Futbol Prof", # verificada
     "Chile - Primera Division", # verificada
     "Colômbia - Liga BetPlay", # verificada

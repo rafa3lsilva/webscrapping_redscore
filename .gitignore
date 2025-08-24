@@ -10,3 +10,6 @@
 # Ignorar ficheiros de log, banco de dados e executáveis
 # A mudança está aqui, com o asterisco no início
 *.exe
+
+auth_redscore.py
+login_redscore.py
