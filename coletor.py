@@ -17,7 +17,7 @@ from login_redscore import login_redscore
 # Definindo a data de amanhã
 dia = date.today()+timedelta(days=1)
 
-# ======================================== 
+# ========================================
 # Configuração de Logging e Banco de Dados
 # ========================================
 logging.basicConfig(
@@ -41,7 +41,7 @@ def inicializar_banco(nome_db=NOME_DB):
     CREATE TABLE IF NOT EXISTS jogos (
         Data TEXT, Home TEXT, Away TEXT, Liga TEXT, H_Gols_FT INTEGER, A_Gols_FT INTEGER,
         H_Gols_HT INTEGER, A_Gols_HT INTEGER, H_Chute INTEGER, A_Chute INTEGER,
-        H_Chute_Gol INTEGER, A_Chute_Gol, H_Ataques INTEGER, A_Ataques INTEGER,
+        H_Chute_Gol INTEGER, A_Chute_Gol INTEGER, H_Ataques INTEGER, A_Ataques INTEGER,
         H_Escanteios INTEGER, A_Escanteios INTEGER, Odd_H REAL, Odd_D REAL, Odd_A REAL,
         PRIMARY KEY (Data, Home, Away)
     )""")
@@ -87,6 +87,7 @@ def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv=f"jogos_do_dia/Jogos
         return
 
     df = pd.DataFrame(lista_de_jogos)
+    os.makedirs(os.path.dirname(nome_csv), exist_ok=True)
     df.to_csv(nome_csv, index=False, encoding='utf-8')
     print(
         f"✅ Exportada a agenda de próximos jogos para {nome_csv} ({len(df)} linhas)")
@@ -108,20 +109,19 @@ def rotina_diaria_noturna():
         driver = login_redscore(REDSCORE_USER, REDSCORE_PASS)
 
         print("--- Fase 1: Coletando agenda de amanhã ---")
-        driver.get("https://redscores.com/pt-br/futebol/amanha")
-        time.sleep(5)  # espera carregar os jogos (tem JS pesado)
-
+        # navigation to agenda handled inside dt.raspar_jogos_de_amanha
         jogos_amanha = dt.raspar_jogos_de_amanha(
             driver, cfg.LIGAS_PERMITIDAS
         )
 
         if not jogos_amanha:
-            print("Nenhum jogo encontrado para amanhã nas ligas permitidas. Rotina concluída.")
+            print(
+                "Nenhum jogo encontrado para amanhã nas ligas permitidas. Rotina concluída.")
             logging.info("Nenhum jogo encontrado para amanhã.")
             return
 
         exportar_jogos_amanha_para_csv(jogos_amanha)
-        
+
         print(
             f"\n--- Fase 2: Obtendo links das equipas de {len(jogos_amanha)} confrontos ---")
 
@@ -141,7 +141,8 @@ def rotina_diaria_noturna():
                 sleep_time = random.uniform(2, 5)
 
                 # NOVO: Atualiza a mensagem na própria barra de progresso
-                progress_bar.set_postfix_str(f"A aguardar {sleep_time:.2f}s...")
+                progress_bar.set_postfix_str(
+                    f"A aguardar {sleep_time:.2f}s...")
 
                 time.sleep(sleep_time)
 
@@ -157,10 +158,6 @@ def rotina_diaria_noturna():
         jogos_existentes = carregar_jogos_existentes()
         todos_os_jogos_novos = []
         ligas_permitidas = cfg.LIGAS_PERMITIDAS
-
-        # ATENÇÃO: O uso de Threads aqui pode ser complexo com um único driver.
-        # Para simplificar e garantir estabilidade, vamos fazer de forma sequencial primeiro.
-        # O processamento com Threads e Selenium requer uma gestão mais avançada de pools de drivers.
 
         print(
             "Executando a raspagem das equipas de forma sequencial para maior estabilidade.")
@@ -188,7 +185,7 @@ def rotina_diaria_noturna():
                     list(jogos_existentes), columns=["Data", "Home", "Away"])
                 if not jogos_existentes_df.empty:
                     df_novos_jogos = df_novos_jogos.merge(jogos_existentes_df, on=[
-                                                        "Data", "Home", "Away"], how='left', indicator=True).query('_merge == "left_only"').drop('_merge', axis=1)
+                        "Data", "Home", "Away"], how='left', indicator=True).query('_merge == "left_only"').drop('_merge', axis=1)
 
                 if not df_novos_jogos.empty:
                     salvar_no_banco(df_novos_jogos)

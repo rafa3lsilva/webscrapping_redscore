@@ -7,6 +7,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import logging
+import csv
 
 # Configura logger específico do módulo
 log = logging.getLogger("coletor")
@@ -21,19 +22,25 @@ if not log.handlers:
 # ==========================
 # Função para formatar datas
 # ==========================
-def _formatar_data(texto_data):
+def _formatar_data(texto_data: str):
     """
-    Formata uma string de data para o formato DD-MM-YYYY, lidando
-    corretamente com o formato americano (MM-DD-YYYY) do site.
+    Converte datas do site (formato MM-DD-YY ou MM/DD/YY)
+    para o formato padronizado YYYY-MM-DD.
     """
     if not texto_data or not isinstance(texto_data, str):
         return None
     try:
-        data_obj = pd.to_datetime(texto_data)
-
-        return data_obj.strftime('%d-%m-%Y')
+        # Forçar interpretação como formato americano (MM-DD-YY)
+        data_obj = pd.to_datetime(texto_data, format="%m/%d/%y", errors="coerce")
+        if pd.isna(data_obj):
+            # fallback: tenta parse genérico
+            data_obj = pd.to_datetime(texto_data, errors="coerce")
+        if pd.isna(data_obj):
+            return None
+        return data_obj.strftime("%Y-%m-%d")
     except Exception:
         return None
+
 
 # ==========================
 # Função para converter strings de estatísticas
@@ -47,7 +54,7 @@ def _converter_stat_para_int(stat_string):
         return partes if len(partes) == 2 else [0, 0]
     except (ValueError, IndexError):
         return [0, 0]
-    
+
 # ==========================
 # Função de Raspagem
 # ==========================
@@ -59,7 +66,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
     - Espera dinâmica inicial para garantir HTML carregado
     """
     lista_de_jogos = []
-    #driver = _iniciar_driver()
+    # driver = _iniciar_driver()
     if not driver:
         log.error("Falha ao iniciar o driver")
         return lista_de_jogos
@@ -183,8 +190,8 @@ def obter_links_equipes_confronto(driver, url_confronto):
 
         soup = BeautifulSoup(html_content, 'html.parser')
 
-        seletor_equipes = "div.match-detail__name a"
-        links_equipes = soup.select(seletor_equipes)
+        # 🚀 Seleciona os dois times diretamente
+        links_equipes = soup.select("div.match-detail__teams div.match-detail__name a")
 
         if len(links_equipes) >= 2:
             link_home = "https://redscores.com" + links_equipes[0]['href']
@@ -192,7 +199,7 @@ def obter_links_equipes_confronto(driver, url_confronto):
             return link_home, link_away
         else:
             print(
-                f"-> AVISO: Encontrados {len(links_equipes)} links de equipes em {url_confronto}. Esperava 2.")
+                f"[ERRO] Não encontrou 2 links de equipes em {url_confronto}. Encontrados: {len(links_equipes)}")
             return None, None
 
     except Exception as e:
@@ -206,6 +213,16 @@ def raspar_dados_time(driver, time_url, liga_principal, jogos_existentes, ligas_
     jogos_raspados = []
     if not driver:
         return jogos_raspados
+    # Abrir a página do time antes de buscar elementos
+    try:
+        driver.get(time_url)
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located(
+                (By.CSS_SELECTOR, "div.match-grid__bottom"))
+        )
+    except Exception:
+        # se não conseguiu carregar, segue tentando com o estado atual do driver
+        pass
 
     try:
         while True:
