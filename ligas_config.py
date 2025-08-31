@@ -26,6 +26,7 @@ LIGAS_PERMITIDAS = {
     "Noruega - Obos-Ligaen",
     "Suécia - Allsvenskan",
     "Suécia - Superettan",
+    "Uruguai - Primera Division",
 
 
     # "Argélia - Ligue 1",
