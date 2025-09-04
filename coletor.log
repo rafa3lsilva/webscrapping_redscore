@@ -10205,3 +10205,67 @@ Stacktrace:
 2025-09-01 21:44:34,170 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/america-mineiro-avai/vvAxbWA
 2025-09-01 21:44:57,175 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (1 linhas).
 2025-09-01 21:44:59,547 [INFO] root: --- Rotina diária concluída ---
+2025-09-03 20:54:13,274 [INFO] __main__: Coletor iniciado
+2025-09-03 20:54:13,283 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-03 20:54:25,840 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-03 20:54:25,840 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-03 20:54:30,979 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-03 20:54:30,979 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-03 20:54:32,207 [INFO] Raspagem finalizada. Total de jogos coletados: 0
+2025-09-03 20:54:32,207 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 0
+2025-09-03 20:54:32,207 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-04 18:48:29,612 [INFO] __main__: Coletor iniciado
+2025-09-04 18:48:29,623 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-04 18:48:45,970 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-04 18:48:45,970 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-04 18:48:47,462 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-04 18:48:47,462 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-04 18:48:49,245 [INFO]  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-04 18:48:49,245 [INFO] coletor:  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-04 18:48:49,246 [INFO]  -> Brasil - Serie B está aberta. Processando...
+2025-09-04 18:48:49,246 [INFO] coletor:  -> Brasil - Serie B está aberta. Processando...
+2025-09-04 18:48:49,247 [INFO]  -> Brasil - Serie C está aberta. Processando...
+2025-09-04 18:48:49,247 [INFO] coletor:  -> Brasil - Serie C está aberta. Processando...
+2025-09-04 18:48:49,249 [INFO]  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-04 18:48:49,249 [INFO] coletor:  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-04 18:48:49,249 [INFO]  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-04 18:48:49,249 [INFO] coletor:  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-04 18:48:49,250 [INFO]  -> Uruguai - Primera Division está aberta. Processando...
+2025-09-04 18:48:49,250 [INFO] coletor:  -> Uruguai - Primera Division está aberta. Processando...
+2025-09-04 18:48:49,272 [INFO] Raspagem finalizada. Total de jogos coletados: 16
+2025-09-04 18:48:49,272 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 16
+2025-09-04 18:48:49,285 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-05.csv (16 linhas).
+2025-09-04 18:48:50,862 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/almagro-san-miguel/34BxQ5B
+2025-09-04 18:48:50,862 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/almagro-san-miguel/34BxQ5B
+2025-09-04 18:48:55,671 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-moron-defensores-unidos/E5BxT5B
+2025-09-04 18:48:55,671 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-moron-defensores-unidos/E5BxT5B
+2025-09-04 18:49:00,076 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/san-martin-tucuman-colegiales/pubxfIB
+2025-09-04 18:49:00,076 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/san-martin-tucuman-colegiales/pubxfIB
+2025-09-04 18:49:05,302 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/all-boys-gimnasia-y-tiro/6gbxKHb
+2025-09-04 18:49:05,302 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/all-boys-gimnasia-y-tiro/6gbxKHb
+2025-09-04 18:49:12,248 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/estudiantes-caseros-nueva-chicago/bvbxaPB
+2025-09-04 18:49:12,248 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/estudiantes-caseros-nueva-chicago/bvbxaPB
+2025-09-04 18:49:18,163 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/remo-amazonas/KdBxvgBA
+2025-09-04 18:49:18,163 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/remo-amazonas/KdBxvgBA
+2025-09-04 18:49:22,772 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/paysandu-volta-redonda/A6x1DB
+2025-09-04 18:49:22,772 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/paysandu-volta-redonda/A6x1DB
+2025-09-04 18:49:27,435 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ferroviaria-coritiba/cUxbvA
+2025-09-04 18:49:27,435 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ferroviaria-coritiba/cUxbvA
+2025-09-04 18:49:34,074 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/1st-position-8th-ranked/07eAxYVEA
+2025-09-04 18:49:34,074 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/1st-position-8th-ranked/07eAxYVEA
+2025-09-04 18:49:40,738 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/4th-position-5th-position/37eAx47eA
+2025-09-04 18:49:40,738 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/4th-position-5th-position/37eAx47eA
+2025-09-04 18:49:47,083 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/7th-ranked-2nd-ranked/yVEAxhwfA
+2025-09-04 18:49:47,083 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/7th-ranked-2nd-ranked/yVEAxhwfA
+2025-09-04 18:49:53,457 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/6th-position-3rd-ranked/57eAxZVfA
+2025-09-04 18:49:53,457 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/6th-position-3rd-ranked/57eAxZVfA
+2025-09-04 18:50:00,293 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-pasto-boyaca-chico/lNBxs5B
+2025-09-04 18:50:00,293 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-pasto-boyaca-chico/lNBxs5B
+2025-09-04 18:50:06,533 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/once-caldas-deportivo-pereira/E7xMGb
+2025-09-04 18:50:06,533 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/once-caldas-deportivo-pereira/E7xMGb
+2025-09-04 18:50:12,883 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-luqueno-guarani/PpAxZFc
+2025-09-04 18:50:12,883 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-luqueno-guarani/PpAxZFc
+2025-09-04 18:50:19,338 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/defensor-sporting-juventud/mFbxCpb
+2025-09-04 18:50:19,338 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/defensor-sporting-juventud/mFbxCpb
+2025-09-04 18:55:31,502 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (54 linhas).
+2025-09-04 18:55:34,054 [INFO] root: --- Rotina diária concluída ---
