@@ -10269,3 +10269,64 @@ Stacktrace:
 2025-09-04 18:50:19,338 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/defensor-sporting-juventud/mFbxCpb
 2025-09-04 18:55:31,502 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (54 linhas).
 2025-09-04 18:55:34,054 [INFO] root: --- Rotina diária concluída ---
+2025-09-05 18:47:58,135 [INFO] __main__: Coletor iniciado
+2025-09-05 18:47:58,146 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-05 18:48:14,895 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-05 18:48:14,895 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-05 18:48:20,147 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-05 18:48:20,147 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-05 18:48:22,177 [INFO]  -> EUA - Major League Soccer está aberta. Processando...
+2025-09-05 18:48:22,177 [INFO] coletor:  -> EUA - Major League Soccer está aberta. Processando...
+2025-09-05 18:48:22,178 [INFO]  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-05 18:48:22,178 [INFO] coletor:  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-05 18:48:22,179 [INFO]  -> Brasil - Serie B está aberta. Processando...
+2025-09-05 18:48:22,179 [INFO] coletor:  -> Brasil - Serie B está aberta. Processando...
+2025-09-05 18:48:22,179 [INFO]  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-05 18:48:22,179 [INFO] coletor:  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-05 18:48:22,181 [INFO]  -> Coréia do Sul - K League 2 está aberta. Processando...
+2025-09-05 18:48:22,181 [INFO] coletor:  -> Coréia do Sul - K League 2 está aberta. Processando...
+2025-09-05 18:48:22,182 [INFO]  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-05 18:48:22,182 [INFO] coletor:  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-05 18:48:22,183 [INFO]  -> Uruguai - Primera Division está aberta. Processando...
+2025-09-05 18:48:22,183 [INFO] coletor:  -> Uruguai - Primera Division está aberta. Processando...
+2025-09-05 18:48:22,218 [INFO] Raspagem finalizada. Total de jogos coletados: 18
+2025-09-05 18:48:22,218 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 18
+2025-09-05 18:48:22,256 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-06.csv (18 linhas).
+2025-09-05 18:48:23,865 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/la-galaxy-houston-dynamo/ydx0D
+2025-09-05 18:48:23,865 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/la-galaxy-houston-dynamo/ydx0D
+2025-09-05 18:48:30,204 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/dallas-st-louis-city/rEx7ZfA
+2025-09-05 18:48:30,204 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/dallas-st-louis-city/rEx7ZfA
+2025-09-05 18:48:34,710 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chicago-fire-new-england/hAxPf
+2025-09-05 18:48:34,710 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chicago-fire-new-england/hAxPf
+2025-09-05 18:48:40,769 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/atlanta-club-atletico-guemes/5vbxf1B
+2025-09-05 18:48:40,769 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/atlanta-club-atletico-guemes/5vbxf1B
+2025-09-05 18:48:47,406 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/botafogo-sp-athletico-pr/VAxi5
+2025-09-05 18:48:47,406 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/botafogo-sp-athletico-pr/VAxi5
+2025-09-05 18:48:54,113 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/atletico-bucaramanga-alianza-petrolera/BGbxLNB
+2025-09-05 18:48:54,113 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/atletico-bucaramanga-alianza-petrolera/BGbxLNB
+2025-09-05 18:48:58,770 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportes-tolima-llaneros/IWbxMcc
+2025-09-05 18:48:58,770 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportes-tolima-llaneros/IWbxMcc
+2025-09-05 18:49:05,635 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/junior-fc-union-magdalena/WCbxfAB
+2025-09-05 18:49:05,635 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/junior-fc-union-magdalena/WCbxfAB
+2025-09-05 18:49:10,999 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/millonarios-santa-fe/bdbxAlB
+2025-09-05 18:49:10,999 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/millonarios-santa-fe/bdbxAlB
+2025-09-05 18:49:16,079 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/seongnam-ansan-greeners/d8xuuA
+2025-09-05 18:49:16,079 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/seongnam-ansan-greeners/d8xuuA
+2025-09-05 18:49:21,830 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/suwon-bluewings-busan-i-park/Ytxdw
+2025-09-05 18:49:21,830 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/suwon-bluewings-busan-i-park/Ytxdw
+2025-09-05 18:49:27,241 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/jeonnam-dragons-seoul-e/UebxP7B
+2025-09-05 18:49:27,241 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/jeonnam-dragons-seoul-e/UebxP7B
+2025-09-05 18:49:33,074 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/gyeongnam-cheongju/2ebxr5c
+2025-09-05 18:49:33,074 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/gyeongnam-cheongju/2ebxr5c
+2025-09-05 18:49:39,637 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/nacional-asuncion-deportivo-recoleta/B6xZ4bA
+2025-09-05 18:49:39,637 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/nacional-asuncion-deportivo-recoleta/B6xZ4bA
+2025-09-05 18:49:46,190 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/libertad-general-caballero-jlm/b7bxpdbA
+2025-09-05 18:49:46,190 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/libertad-general-caballero-jlm/b7bxpdbA
+2025-09-05 18:49:51,923 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/wanderers-danubio/ODxL5
+2025-09-05 18:49:51,923 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/wanderers-danubio/ODxL5
+2025-09-05 18:49:57,961 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/penarol-plaza-colonia/w3xRub
+2025-09-05 18:49:57,961 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/penarol-plaza-colonia/w3xRub
+2025-09-05 18:50:03,899 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/river-plate-boston-river/PXxyoA
+2025-09-05 18:50:03,899 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/river-plate-boston-river/PXxyoA
+2025-09-05 18:56:15,221 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (216 linhas).
+2025-09-05 18:56:17,665 [INFO] root: --- Rotina diária concluída ---
