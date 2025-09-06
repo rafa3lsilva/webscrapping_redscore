@@ -10330,3 +10330,88 @@ Stacktrace:
 2025-09-05 18:50:03,899 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/river-plate-boston-river/PXxyoA
 2025-09-05 18:56:15,221 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (216 linhas).
 2025-09-05 18:56:17,665 [INFO] root: --- Rotina diária concluída ---
+2025-09-06 19:12:43,784 [INFO] __main__: Coletor iniciado
+2025-09-06 19:12:43,791 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-06 19:12:56,013 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-06 19:12:56,013 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-06 19:13:01,206 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-06 19:13:01,206 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-06 19:13:02,974 [INFO]  -> EUA - Major League Soccer está aberta. Processando...
+2025-09-06 19:13:02,974 [INFO] coletor:  -> EUA - Major League Soccer está aberta. Processando...
+2025-09-06 19:13:02,975 [INFO]  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-06 19:13:02,975 [INFO] coletor:  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-06 19:13:02,977 [INFO]  -> Brasil - Serie B está aberta. Processando...
+2025-09-06 19:13:02,977 [INFO] coletor:  -> Brasil - Serie B está aberta. Processando...
+2025-09-06 19:13:02,978 [INFO]  -> Chile - Primera Division está aberta. Processando...
+2025-09-06 19:13:02,978 [INFO] coletor:  -> Chile - Primera Division está aberta. Processando...
+2025-09-06 19:13:02,979 [INFO]  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-06 19:13:02,979 [INFO] coletor:  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-06 19:13:02,980 [INFO]  -> Coréia do Sul - K League 2 está aberta. Processando...
+2025-09-06 19:13:02,980 [INFO] coletor:  -> Coréia do Sul - K League 2 está aberta. Processando...
+2025-09-06 19:13:02,981 [INFO]  -> Irlanda - Premier Division está aberta. Processando...
+2025-09-06 19:13:02,981 [INFO] coletor:  -> Irlanda - Premier Division está aberta. Processando...
+2025-09-06 19:13:02,982 [INFO]  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-06 19:13:02,982 [INFO] coletor:  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-06 19:13:02,983 [INFO]  -> Uruguai - Primera Division está aberta. Processando...
+2025-09-06 19:13:02,983 [INFO] coletor:  -> Uruguai - Primera Division está aberta. Processando...
+2025-09-06 19:13:03,016 [INFO] Raspagem finalizada. Total de jogos coletados: 28
+2025-09-06 19:13:03,016 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 28
+2025-09-06 19:13:03,033 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-07.csv (28 linhas).
+2025-09-06 19:13:04,540 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sporting-kc-austin/jCxXjDA
+2025-09-06 19:13:04,540 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sporting-kc-austin/jCxXjDA
+2025-09-06 19:13:10,758 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/gimnasia-jujuy-gimnasia-mendoza/Nobxh0B
+2025-09-06 19:13:10,758 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/gimnasia-jujuy-gimnasia-mendoza/Nobxh0B
+2025-09-06 19:13:15,301 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/defensores-de-belgrano-atletico-mitre/f0xb1B
+2025-09-06 19:13:15,301 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/defensores-de-belgrano-atletico-mitre/f0xb1B
+2025-09-06 19:13:20,884 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-madryn-los-andes/PZBxcPgA
+2025-09-06 19:13:20,884 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-madryn-los-andes/PZBxcPgA
+2025-09-06 19:13:26,053 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/central-norte-agropecuario/5VBx11B
+2025-09-06 19:13:26,053 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/central-norte-agropecuario/5VBx11B
+2025-09-06 19:13:30,490 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/patronato-racing-cordoba/H2AxC2B
+2025-09-06 19:13:30,490 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/patronato-racing-cordoba/H2AxC2B
+2025-09-06 19:13:34,551 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chaco-for-ever-chacarita-juniors/3ubxa7b
+2025-09-06 19:13:34,551 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chaco-for-ever-chacarita-juniors/3ubxa7b
+2025-09-06 19:13:41,502 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chapecoense-criciuma/TFx7SA
+2025-09-06 19:13:41,502 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chapecoense-criciuma/TFx7SA
+2025-09-06 19:13:45,690 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/america-mineiro-operario-pr/vvAxE7B
+2025-09-06 19:13:45,690 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/america-mineiro-operario-pr/vvAxE7B
+2025-09-06 19:13:51,038 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/avai-goias/bWAx0pb
+2025-09-06 19:13:51,038 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/avai-goias/bWAx0pb
+2025-09-06 19:13:56,226 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cobresal-palestino/EvAxeub
+2025-09-06 19:13:56,226 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cobresal-palestino/EvAxeub
+2025-09-06 19:14:02,132 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/rionegro-aguilas-envigado/ZbxD7B
+2025-09-06 19:14:02,132 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/rionegro-aguilas-envigado/ZbxD7B
+2025-09-06 19:14:06,936 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-cali-america-de-cali/b6x7Ob
+2025-09-06 19:14:06,936 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/deportivo-cali-america-de-cali/b6x7Ob
+2025-09-06 19:14:11,611 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/independiente-medellin-atletico-nacional/NCxEyA
+2025-09-06 19:14:11,611 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/independiente-medellin-atletico-nacional/NCxEyA
+2025-09-06 19:14:17,975 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/fortaleza-ceif-la-equidad/ZUAxEUb
+2025-09-06 19:14:17,975 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/fortaleza-ceif-la-equidad/ZUAxEUb
+2025-09-06 19:14:24,208 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/incheon-united-bucheon-1995/O1AxU8A
+2025-09-06 19:14:24,208 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/incheon-united-bucheon-1995/O1AxU8A
+2025-09-06 19:14:30,720 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cheonan-city-gimpo/dYcx05c
+2025-09-06 19:14:30,720 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cheonan-city-gimpo/dYcx05c
+2025-09-06 19:14:36,156 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chungnam-asan-hwaseong/aYcx44c
+2025-09-06 19:14:36,156 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/chungnam-asan-hwaseong/aYcx44c
+2025-09-06 19:14:41,271 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/galway-united-shelbourne/DCxgg
+2025-09-06 19:14:41,271 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/galway-united-shelbourne/DCxgg
+2025-09-06 19:14:47,738 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/2-de-mayo-olimpia/fBcx0Fc
+2025-09-06 19:14:47,738 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/2-de-mayo-olimpia/fBcx0Fc
+2025-09-06 19:14:54,099 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cerro-largo-cerro/NUxm4
+2025-09-06 19:14:54,099 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cerro-largo-cerro/NUxm4
+2025-09-06 19:15:00,568 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cerro-largo-cerro/NUxm4
+2025-09-06 19:15:00,568 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cerro-largo-cerro/NUxm4
+2025-09-06 19:15:04,670 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/progreso-miramar-misiones/Pgbx2Ac
+2025-09-06 19:15:04,670 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/progreso-miramar-misiones/Pgbx2Ac
+2025-09-06 19:15:09,998 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/progreso-miramar-misiones/Pgbx2Ac
+2025-09-06 19:15:09,998 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/progreso-miramar-misiones/Pgbx2Ac
+2025-09-06 19:15:14,084 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/nacional-racing/RGxkPA
+2025-09-06 19:15:14,084 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/nacional-racing/RGxkPA
+2025-09-06 19:15:19,100 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/nacional-racing/RGxkPA
+2025-09-06 19:15:19,100 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/nacional-racing/RGxkPA
+2025-09-06 19:15:23,873 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/liverpool-torque/aixZoA
+2025-09-06 19:15:23,873 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/liverpool-torque/aixZoA
+2025-09-06 19:15:28,015 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/liverpool-torque/aixZoA
+2025-09-06 19:15:28,015 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/liverpool-torque/aixZoA
+2025-09-06 19:21:26,261 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (124 linhas).
+2025-09-06 19:21:28,657 [INFO] root: --- Rotina diária concluída ---
