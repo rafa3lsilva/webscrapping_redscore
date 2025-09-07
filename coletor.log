@@ -10415,3 +10415,74 @@ Stacktrace:
 2025-09-06 19:15:28,015 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/liverpool-torque/aixZoA
 2025-09-06 19:21:26,261 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (124 linhas).
 2025-09-06 19:21:28,657 [INFO] root: --- Rotina diária concluída ---
+2025-09-07 18:35:59,783 [INFO] __main__: Coletor iniciado
+2025-09-07 18:35:59,792 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-07 18:36:13,957 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-07 18:36:13,957 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-07 18:36:19,089 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-07 18:36:19,089 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-07 18:36:20,388 [INFO]  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-07 18:36:20,388 [INFO] coletor:  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-07 18:36:20,390 [INFO]  -> Brasil - Serie B está aberta. Processando...
+2025-09-07 18:36:20,390 [INFO] coletor:  -> Brasil - Serie B está aberta. Processando...
+2025-09-07 18:36:20,391 [INFO]  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-07 18:36:20,391 [INFO] coletor:  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-07 18:36:20,397 [INFO] Raspagem finalizada. Total de jogos coletados: 9
+2025-09-07 18:36:20,397 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 9
+2025-09-07 18:36:20,408 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-08.csv (9 linhas).
+2025-09-07 18:36:22,031 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/arsenal-de-sarandi-tristan-suarez/9rAxa5B
+2025-09-07 18:36:22,031 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/arsenal-de-sarandi-tristan-suarez/9rAxa5B
+2025-09-07 18:36:27,556 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/alvarado-deportivo-maipu/uGbxlQB
+2025-09-07 18:36:27,556 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/alvarado-deportivo-maipu/uGbxlQB
+2025-09-07 18:36:31,962 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/almirante-brown-san-telmo/lMBxA5B
+2025-09-07 18:36:31,962 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/almirante-brown-san-telmo/lMBxA5B
+2025-09-07 18:36:35,649 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/colon-estudiantes-rio-cuarto/nBAxyiB
+2025-09-07 18:36:35,649 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/colon-estudiantes-rio-cuarto/nBAxyiB
+2025-09-07 18:36:40,155 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ferro-carril-oeste-quilmes/f3Axpeb
+2025-09-07 18:36:40,155 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ferro-carril-oeste-quilmes/f3Axpeb
+2025-09-07 18:36:47,436 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/novorizontino-atletico-go/nVAxRhb
+2025-09-07 18:36:47,436 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/novorizontino-atletico-go/nVAxRhb
+2025-09-07 18:36:53,105 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cuiaba-crb/roAxNuA
+2025-09-07 18:36:53,105 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cuiaba-crb/roAxNuA
+2025-09-07 18:36:59,407 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/vila-nova-athletic-club/XgBxSebA
+2025-09-07 18:36:59,407 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/vila-nova-athletic-club/XgBxSebA
+2025-09-07 18:37:04,427 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-trinidense-sportivo-ameliano/Q7bx04bA
+2025-09-07 18:37:04,427 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-trinidense-sportivo-ameliano/Q7bx04bA
+2025-09-07 18:41:42,337 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=50748): Read timed out. (read timeout=120)")': /session/6251396a8258e2f987a4d0d648f80a6e/source
+2025-09-07 18:41:43,418 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
+2025-09-07 18:41:45,550 [INFO] root: --- Rotina diária concluída ---
+2025-09-07 18:42:03,787 [INFO] __main__: Coletor iniciado
+2025-09-07 18:42:03,788 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-07 18:42:17,117 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-07 18:42:17,117 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-07 18:42:22,328 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-07 18:42:22,328 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-07 18:42:23,712 [INFO]  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-07 18:42:23,712 [INFO] coletor:  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-07 18:42:23,713 [INFO]  -> Brasil - Serie B está aberta. Processando...
+2025-09-07 18:42:23,713 [INFO] coletor:  -> Brasil - Serie B está aberta. Processando...
+2025-09-07 18:42:23,714 [INFO]  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-07 18:42:23,714 [INFO] coletor:  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-07 18:42:23,720 [INFO] Raspagem finalizada. Total de jogos coletados: 9
+2025-09-07 18:42:23,720 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 9
+2025-09-07 18:42:23,724 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-08.csv (9 linhas).
+2025-09-07 18:42:25,243 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/arsenal-de-sarandi-tristan-suarez/9rAxa5B
+2025-09-07 18:42:25,243 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/arsenal-de-sarandi-tristan-suarez/9rAxa5B
+2025-09-07 18:42:29,039 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/alvarado-deportivo-maipu/uGbxlQB
+2025-09-07 18:42:29,039 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/alvarado-deportivo-maipu/uGbxlQB
+2025-09-07 18:42:32,923 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/almirante-brown-san-telmo/lMBxA5B
+2025-09-07 18:42:32,923 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/almirante-brown-san-telmo/lMBxA5B
+2025-09-07 18:42:38,117 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/colon-estudiantes-rio-cuarto/nBAxyiB
+2025-09-07 18:42:38,117 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/colon-estudiantes-rio-cuarto/nBAxyiB
+2025-09-07 18:42:43,164 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ferro-carril-oeste-quilmes/f3Axpeb
+2025-09-07 18:42:43,164 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ferro-carril-oeste-quilmes/f3Axpeb
+2025-09-07 18:42:47,161 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/novorizontino-atletico-go/nVAxRhb
+2025-09-07 18:42:47,161 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/novorizontino-atletico-go/nVAxRhb
+2025-09-07 18:42:52,583 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cuiaba-crb/roAxNuA
+2025-09-07 18:42:52,583 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/cuiaba-crb/roAxNuA
+2025-09-07 18:42:56,396 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/vila-nova-athletic-club/XgBxSebA
+2025-09-07 18:42:56,396 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/vila-nova-athletic-club/XgBxSebA
+2025-09-07 18:43:03,028 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-trinidense-sportivo-ameliano/Q7bx04bA
+2025-09-07 18:43:03,028 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-trinidense-sportivo-ameliano/Q7bx04bA
+2025-09-07 18:45:24,652 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (21 linhas).
+2025-09-07 18:45:27,004 [INFO] root: --- Rotina diária concluída ---
