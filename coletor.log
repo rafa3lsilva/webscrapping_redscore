@@ -10486,3 +10486,77 @@ Stacktrace:
 2025-09-07 18:43:03,028 [INFO] coletor: -> A aguardar a p�gina do confronto: https://redscores.com/pt-br/match/sportivo-trinidense-sportivo-ameliano/Q7bx04bA
 2025-09-07 18:45:24,652 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (21 linhas).
 2025-09-07 18:45:27,004 [INFO] root: --- Rotina di�ria conclu�da ---
+2025-09-08 20:14:19,444 [INFO] __main__: Coletor iniciado
+2025-09-08 20:14:19,445 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:14:19,446 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:14:19,446 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:14:19,446 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:14:46,717 [INFO] __main__: Coletor iniciado
+2025-09-08 20:14:46,718 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:14:46,720 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:14:46,720 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:14:46,720 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:20:19,283 [INFO] __main__: Coletor iniciado
+2025-09-08 20:20:19,284 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:20:19,286 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:20:19,286 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:20:19,286 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:21:13,922 [INFO] __main__: Coletor iniciado
+2025-09-08 20:21:13,923 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:21:13,982 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:21:13,982 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:21:13,982 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:29:46,730 [INFO] __main__: Coletor iniciado
+2025-09-08 20:29:46,731 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:29:46,731 [ERROR] root: Um erro crítico ocorreu na rotina principal: 'Options' object has no attribute 'add_experimental_option'
+2025-09-08 20:29:46,731 [INFO] root: --- Rotina diária concluída ---
+2025-09-08 20:32:54,565 [INFO] __main__: Coletor iniciado
+2025-09-08 20:32:54,565 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:32:54,565 [ERROR] root: Um erro crítico ocorreu na rotina principal: login_redscore() missing 1 required positional argument: 'password'
+2025-09-08 20:32:54,565 [INFO] root: --- Rotina diária concluída ---
+2025-09-08 20:33:44,177 [INFO] __main__: Coletor iniciado
+2025-09-08 20:33:44,178 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:33:44,178 [ERROR] root: Um erro crítico ocorreu na rotina principal: 'Options' object has no attribute 'add_experimental_option'
+2025-09-08 20:33:44,178 [INFO] root: --- Rotina diária concluída ---
+2025-09-08 20:36:47,246 [INFO] __main__: Coletor iniciado
+2025-09-08 20:36:47,246 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:38:58,867 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:38:58,867 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:38:58,867 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:41:44,921 [INFO] __main__: Coletor iniciado
+2025-09-08 20:41:44,922 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:42:03,916 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:42:03,916 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:42:03,916 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:47:05,024 [INFO] __main__: Coletor iniciado
+2025-09-08 20:47:05,025 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:47:05,026 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:47:05,026 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:47:05,026 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:51:34,477 [INFO] __main__: Coletor iniciado
+2025-09-08 20:51:34,477 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:55:43,854 [INFO] __main__: Coletor iniciado
+2025-09-08 20:55:43,855 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:55:53,790 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:55:53,790 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:55:53,790 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 20:58:20,663 [INFO] __main__: Coletor iniciado
+2025-09-08 20:58:20,663 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 20:58:26,188 [ERROR] Falha ao iniciar o driver
+2025-09-08 20:58:26,188 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-08 20:58:26,188 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-08 21:00:45,086 [INFO] __main__: Coletor iniciado
+2025-09-08 21:00:45,087 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-08 21:01:08,886 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-08 21:01:08,886 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-08 21:01:13,977 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-08 21:01:13,977 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-08 21:01:15,453 [INFO]  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-08 21:01:15,453 [INFO] coletor:  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-08 21:01:15,460 [INFO] Raspagem finalizada. Total de jogos coletados: 1
+2025-09-08 21:01:15,460 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 1
+2025-09-08 21:01:15,467 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-09.csv (1 linhas).
+2025-09-08 21:01:18,328 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/once-caldas-atletico-bucaramanga/E7xBGb
+2025-09-08 21:01:18,328 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/once-caldas-atletico-bucaramanga/E7xBGb
+2025-09-08 21:01:51,496 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
+2025-09-08 21:01:53,179 [INFO] root: --- Rotina diária concluída ---

@@ -13,3 +13,6 @@
 
 auth_redscore.py
 login_redscore.py
+
+# Perfil temporário do Firefox (criado pelo script)
+firefox_profile/
