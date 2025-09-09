@@ -10560,3 +10560,28 @@ Stacktrace:
 2025-09-08 21:01:18,328 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/once-caldas-atletico-bucaramanga/E7xBGb
 2025-09-08 21:01:51,496 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
 2025-09-08 21:01:53,179 [INFO] root: --- Rotina diária concluída ---
+2025-09-09 19:39:04,026 [INFO] __main__: Coletor iniciado
+2025-09-09 19:39:04,027 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-09 19:39:35,448 [ERROR] root: Um erro crítico ocorreu na rotina principal: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:199:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:552:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-09 19:39:35,448 [INFO] root: --- Rotina diária concluída ---
+2025-09-09 19:40:57,007 [INFO] __main__: Coletor iniciado
+2025-09-09 19:40:57,008 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-09 19:41:18,270 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-09 19:41:18,270 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-09 19:41:23,366 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-09 19:41:23,366 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-09 19:41:24,597 [INFO]  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-09 19:41:24,597 [INFO] coletor:  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-09 19:41:24,605 [INFO] Raspagem finalizada. Total de jogos coletados: 1
+2025-09-09 19:41:24,605 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 1
+2025-09-09 19:41:24,611 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-10.csv (1 linhas).
+2025-09-09 19:41:27,530 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/millonarios-deportivo-pasto/bdbxlNB
+2025-09-09 19:41:27,530 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/millonarios-deportivo-pasto/bdbxlNB
+2025-09-09 19:41:58,011 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
+2025-09-09 19:41:59,281 [INFO] root: --- Rotina diária concluída ---
