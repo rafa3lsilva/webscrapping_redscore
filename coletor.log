@@ -10678,3 +10678,173 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-10 19:57:01,965 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ia-breidablik/Ykxk1A
 2025-09-10 19:57:53,810 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (4 linhas).
 2025-09-10 19:57:55,090 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 21:28:48,685 [INFO] __main__: Coletor iniciado
+2025-09-11 21:28:48,686 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 21:29:19,049 [ERROR] Falha ao iniciar o driver
+2025-09-11 21:29:19,049 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-11 21:29:19,049 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-11 21:44:03,445 [INFO] __main__: Coletor iniciado
+2025-09-11 21:44:03,446 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 21:44:03,446 [INFO] WDM: ====== WebDriver manager ======
+2025-09-11 21:44:04,739 [INFO] WDM: Get LATEST geckodriver version for 142.0 firefox
+2025-09-11 21:44:05,280 [INFO] WDM: Get LATEST geckodriver version for 142.0 firefox
+2025-09-11 21:44:05,581 [INFO] WDM: There is no [linux64] geckodriver "v0.36.0" for browser firefox "142.0" in cache
+2025-09-11 21:44:05,581 [INFO] WDM: Get LATEST geckodriver version for 142.0 firefox
+2025-09-11 21:44:05,893 [INFO] WDM: Getting latest mozilla release info for v0.36.0
+2025-09-11 21:44:06,406 [INFO] WDM: About to download new driver from https://github.com/mozilla/geckodriver/releases/download/v0.36.0/geckodriver-v0.36.0-linux64.tar.gz
+2025-09-11 21:44:06,919 [INFO] WDM: Driver downloading response is 200
+2025-09-11 21:44:07,119 [INFO] WDM: Get LATEST geckodriver version for 142.0 firefox
+2025-09-11 21:44:07,540 [INFO] WDM: Driver has been saved in cache [/home/rafael/.wdm/drivers/geckodriver/linux64/v0.36.0]
+2025-09-11 21:44:07,542 [ERROR] Falha ao iniciar o driver
+2025-09-11 21:44:07,542 [ERROR] coletor: Falha ao iniciar o driver
+2025-09-11 21:44:07,542 [INFO] root: Nenhum jogo encontrado para amanhã.
+2025-09-11 21:49:31,228 [INFO] __main__: Coletor iniciado
+2025-09-11 21:49:31,229 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 21:55:28,739 [INFO] __main__: Coletor iniciado
+2025-09-11 21:55:28,739 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 21:55:28,740 [ERROR] root: Um erro crítico ocorreu na rotina principal: WebDriver.__init__() got an unexpected keyword argument 'firefox_profile'
+2025-09-11 21:55:28,740 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 21:58:27,425 [INFO] __main__: Coletor iniciado
+2025-09-11 21:58:27,425 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:04:40,366 [INFO] __main__: Coletor iniciado
+2025-09-11 22:04:40,366 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:06:43,601 [INFO] __main__: Coletor iniciado
+2025-09-11 22:06:43,602 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:08:11,459 [INFO] __main__: Coletor iniciado
+2025-09-11 22:08:11,460 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:09:19,110 [ERROR] root: Um erro crítico ocorreu na rotina principal: Message: Failed to read marionette port
+
+2025-09-11 22:09:19,110 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 22:10:04,266 [INFO] __main__: Coletor iniciado
+2025-09-11 22:10:04,266 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:10:07,939 [ERROR] root: Um erro crítico ocorreu na rotina principal: Message: Process unexpectedly closed with status 1
+
+2025-09-11 22:10:07,939 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 22:12:52,276 [INFO] __main__: Coletor iniciado
+2025-09-11 22:12:52,276 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:14:20,752 [INFO] __main__: Coletor iniciado
+2025-09-11 22:14:20,753 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:15:16,275 [INFO] __main__: Coletor iniciado
+2025-09-11 22:15:16,275 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:15:52,670 [INFO] __main__: Coletor iniciado
+2025-09-11 22:15:52,670 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:16:01,087 [ERROR] root: Um erro crítico ocorreu na rotina principal: Message: Tried to run command without establishing a connection; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+
+2025-09-11 22:16:01,087 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 22:20:52,846 [INFO] __main__: Coletor iniciado
+2025-09-11 22:20:52,846 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:20:52,846 [ERROR] root: Um erro crítico ocorreu na rotina principal: login_redscore() missing 1 required positional argument: 'password'
+2025-09-11 22:20:52,846 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 22:21:17,276 [INFO] __main__: Coletor iniciado
+2025-09-11 22:21:17,277 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:21:17,277 [ERROR] root: Um erro crítico ocorreu na rotina principal: login_redscore() missing 1 required positional argument: 'password'
+2025-09-11 22:21:17,277 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 22:26:35,096 [INFO] __main__: Coletor iniciado
+2025-09-11 22:26:35,097 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:26:35,097 [ERROR] root: Um erro crítico ocorreu na rotina principal: login_redscore() missing 1 required positional argument: 'password'
+2025-09-11 22:26:35,097 [INFO] root: --- Rotina diária concluída ---
+2025-09-11 22:32:53,258 [INFO] __main__: Coletor iniciado
+2025-09-11 22:32:53,258 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-11 22:33:11,759 [INFO] Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-11 22:33:11,759 [INFO] coletor: Página de jogos de amanhã aberta. Verificando banner de cookies...
+2025-09-11 22:33:16,893 [INFO] Nenhum banner de cookies encontrado. Continuando...
+2025-09-11 22:33:16,893 [INFO] coletor: Nenhum banner de cookies encontrado. Continuando...
+2025-09-11 22:33:18,948 [INFO]  -> Noruega - Eliteserien está aberta. Processando...
+2025-09-11 22:33:18,948 [INFO] coletor:  -> Noruega - Eliteserien está aberta. Processando...
+2025-09-11 22:33:18,949 [INFO]  -> Argentina - Superliga está aberta. Processando...
+2025-09-11 22:33:18,949 [INFO] coletor:  -> Argentina - Superliga está aberta. Processando...
+2025-09-11 22:33:18,951 [INFO]  -> China - Super League está aberta. Processando...
+2025-09-11 22:33:18,951 [INFO] coletor:  -> China - Super League está aberta. Processando...
+2025-09-11 22:33:18,952 [INFO]  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-11 22:33:18,952 [INFO] coletor:  -> Argentina - Primera B Nacional está aberta. Processando...
+2025-09-11 22:33:18,952 [INFO]  -> Bolívia - Liga De Futbol Prof está aberta. Processando...
+2025-09-11 22:33:18,952 [INFO] coletor:  -> Bolívia - Liga De Futbol Prof está aberta. Processando...
+2025-09-11 22:33:18,953 [INFO]  -> Brasil - Serie B está aberta. Processando...
+2025-09-11 22:33:18,953 [INFO] coletor:  -> Brasil - Serie B está aberta. Processando...
+2025-09-11 22:33:18,954 [INFO]  -> Chile - Primera Division está aberta. Processando...
+2025-09-11 22:33:18,954 [INFO] coletor:  -> Chile - Primera Division está aberta. Processando...
+2025-09-11 22:33:18,954 [INFO]  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-11 22:33:18,954 [INFO] coletor:  -> Colômbia - Liga BetPlay está aberta. Processando...
+2025-09-11 22:33:18,955 [INFO]  -> Equador - Liga Pro está aberta. Processando...
+2025-09-11 22:33:18,955 [INFO] coletor:  -> Equador - Liga Pro está aberta. Processando...
+2025-09-11 22:33:18,955 [INFO]  -> Irlanda - Premier Division está aberta. Processando...
+2025-09-11 22:33:18,955 [INFO] coletor:  -> Irlanda - Premier Division está aberta. Processando...
+2025-09-11 22:33:18,956 [INFO]  -> Japão - J-League está aberta. Processando...
+2025-09-11 22:33:18,956 [INFO] coletor:  -> Japão - J-League está aberta. Processando...
+2025-09-11 22:33:18,957 [INFO]  -> Lituânia - A Lyga está aberta. Processando...
+2025-09-11 22:33:18,957 [INFO] coletor:  -> Lituânia - A Lyga está aberta. Processando...
+2025-09-11 22:33:18,957 [INFO]  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-11 22:33:18,957 [INFO] coletor:  -> Paraguai - Division 1 está aberta. Processando...
+2025-09-11 22:33:18,958 [INFO]  -> Peru - Primera Division está aberta. Processando...
+2025-09-11 22:33:18,958 [INFO] coletor:  -> Peru - Primera Division está aberta. Processando...
+2025-09-11 22:33:18,959 [INFO]  -> Venezuela - Primera Division está aberta. Processando...
+2025-09-11 22:33:18,959 [INFO] coletor:  -> Venezuela - Primera Division está aberta. Processando...
+2025-09-11 22:33:18,981 [INFO] Raspagem finalizada. Total de jogos coletados: 32
+2025-09-11 22:33:18,981 [INFO] coletor: Raspagem finalizada. Total de jogos coletados: 32
+2025-09-11 22:33:18,987 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-12.csv (32 linhas).
+2025-09-11 22:33:21,385 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/kristiansund-bodo-glimt/HhxKN
+2025-09-11 22:33:21,385 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/kristiansund-bodo-glimt/HhxKN
+2025-09-11 22:33:26,678 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/central-cordoba-deportivo-riestra/9zBx94B
+2025-09-11 22:33:26,678 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/central-cordoba-deportivo-riestra/9zBx94B
+2025-09-11 22:33:31,832 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/huracan-velez-sarsfield/o0xlub
+2025-09-11 22:33:31,832 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/huracan-velez-sarsfield/o0xlub
+2025-09-11 22:33:38,586 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/san-lorenzo-racing-club/qexE8
+2025-09-11 22:33:38,586 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/san-lorenzo-racing-club/qexE8
+2025-09-11 22:33:46,155 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/independiente-rivadavia-lanus/JGx6Tb
+2025-09-11 22:33:46,155 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/independiente-rivadavia-lanus/JGx6Tb
+2025-09-11 22:33:52,825 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/newell-s-old-boys-atletico-tucuman/qxa2b
+2025-09-11 22:33:52,825 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/newell-s-old-boys-atletico-tucuman/qxa2b
+2025-09-11 22:33:57,954 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/shanghai-port-yunnan-yukun/IQAxUfFA
+2025-09-11 22:33:57,954 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/shanghai-port-yunnan-yukun/IQAxUfFA
+2025-09-11 22:34:03,002 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/beijing-guoan-henan-songshan-longmen/H4xfib
+2025-09-11 22:34:03,002 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/beijing-guoan-henan-songshan-longmen/H4xfib
+2025-09-11 22:34:10,338 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/changchun-yatai-chengdu-rongcheng/63xZ0c
+2025-09-11 22:34:10,338 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/changchun-yatai-chengdu-rongcheng/63xZ0c
+2025-09-11 22:34:17,086 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/shandong-taishan-shanghai-shenhua/juxDpb
+2025-09-11 22:34:17,086 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/shandong-taishan-shanghai-shenhua/juxDpb
+2025-09-11 22:34:23,224 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/arsenal-de-sarandi-gimnasia-y-tiro/9rAxKHb
+2025-09-11 22:34:23,224 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/arsenal-de-sarandi-gimnasia-y-tiro/9rAxKHb
+2025-09-11 22:34:28,636 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/real-tomayapo-universitario-de-vinto/DTdAxvSeA
+2025-09-11 22:34:28,636 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/real-tomayapo-universitario-de-vinto/DTdAxvSeA
+2025-09-11 22:34:35,003 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/bolivar-guabira/MvAxAEB
+2025-09-11 22:34:35,003 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/bolivar-guabira/MvAxAEB
+2025-09-11 22:34:41,970 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/criciuma-volta-redonda/7SAx1DB
+2025-09-11 22:34:41,970 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/criciuma-volta-redonda/7SAx1DB
+2025-09-11 22:34:48,511 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/coritiba-goias/bvAx0pb
+2025-09-11 22:34:48,511 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/coritiba-goias/bvAx0pb
+2025-09-11 22:34:53,428 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/coquimbo-unido-nublense/PUxMkB
+2025-09-11 22:34:53,428 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/coquimbo-unido-nublense/PUxMkB
+2025-09-11 22:35:00,199 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/union-la-calera-everton/qRBx7bc
+2025-09-11 22:35:00,199 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/union-la-calera-everton/qRBx7bc
+2025-09-11 22:35:06,916 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/rionegro-aguilas-independiente-medellin/ZbxNC
+2025-09-11 22:35:06,916 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/rionegro-aguilas-independiente-medellin/ZbxNC
+2025-09-11 22:35:12,279 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/junior-fc-la-equidad/WCbxEUb
+2025-09-11 22:35:12,279 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/junior-fc-la-equidad/WCbxEUb
+2025-09-11 22:35:17,185 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ldu-quito-libertad/V3bxJDEA
+2025-09-11 22:35:17,185 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/ldu-quito-libertad/V3bxJDEA
+2025-09-11 22:35:23,247 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/bohemians-derry-city/edx9I
+2025-09-11 22:35:23,247 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/bohemians-derry-city/edx9I
+2025-09-11 22:35:29,273 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/kyoto-sanga-sanfrecce-hiroshima/q6xS7B
+2025-09-11 22:35:29,273 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/kyoto-sanga-sanfrecce-hiroshima/q6xS7B
+2025-09-11 22:35:35,436 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/kashiwa-reysol-vissel-kobe/3cxmbA
+2025-09-11 22:35:35,436 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/kashiwa-reysol-vissel-kobe/3cxmbA
+2025-09-11 22:35:42,275 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/yokohama-machida-zelvia/bUxpob
+2025-09-11 22:35:42,275 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/yokohama-machida-zelvia/bUxpob
+2025-09-11 22:35:48,818 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/suduva-panevezys/lRAx8fb
+2025-09-11 22:35:48,818 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/suduva-panevezys/lRAx8fb
+2025-09-11 22:35:53,228 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/dziugas-telsiai-dainava/10xdmb
+2025-09-11 22:35:53,228 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/dziugas-telsiai-dainava/10xdmb
+2025-09-11 22:35:58,767 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-ameliano-atletico-tembetary/04bAx14bA
+2025-09-11 22:35:58,767 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/sportivo-ameliano-atletico-tembetary/04bAx14bA
+2025-09-11 22:36:03,984 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/2-de-mayo-guarani/fBcxZFc
+2025-09-11 22:36:03,984 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/2-de-mayo-guarani/fBcxZFc
+2025-09-11 22:36:10,547 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/utc-cajamarca-ayacucho/NcAx6VB
+2025-09-11 22:36:10,547 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/utc-cajamarca-ayacucho/NcAx6VB
+2025-09-11 22:36:16,490 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/los-chankas-sport-huancayo/g1Ax6lB
+2025-09-11 22:36:16,490 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/los-chankas-sport-huancayo/g1Ax6lB
+2025-09-11 22:36:23,632 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/yaracuyanos-academia-anzoategui/rCcxDEEA
+2025-09-11 22:36:23,632 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/yaracuyanos-academia-anzoategui/rCcxDEEA
+2025-09-11 22:36:30,308 [INFO] -> A aguardar a página do confronto: https://redscores.com/pt-br/match/estudiantes-merida-metropolitanos/FFbxmBB
+2025-09-11 22:36:30,308 [INFO] coletor: -> A aguardar a página do confronto: https://redscores.com/pt-br/match/estudiantes-merida-metropolitanos/FFbxmBB
+2025-09-11 22:46:45,651 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (315 linhas).
+2025-09-11 22:46:46,341 [INFO] root: --- Rotina diária concluída ---
