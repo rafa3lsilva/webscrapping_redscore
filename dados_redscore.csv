@@ -6126,3 +6126,535 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2025-08-31,Academia Anzoátegui,Academia Puerto Cabello,Venezuela - Primera Division,1,0,0,0,13,7,7,3,50,23,6,2,2.15,3.0,3.1
 2025-08-30,Monagas,Metropolitanos,Venezuela - Primera Division,2,0,1,0,13,6,3,1,38,25,1,4,1.75,3.5,4.1
 2025-08-31,Deportivo Táchira,Estudiantes Mérida,Venezuela - Primera Division,4,0,1,0,19,15,7,1,45,34,5,1,1.55,3.9,4.75
+2025-08-31,Flamengo,Grêmio,Brasil - Serie A,1,1,0,0,21,6,6,1,55,19,13,0,1.25,5.25,13.0
+2025-08-31,Mirassol,Bahia,Brasil - Serie A,5,1,3,0,15,15,9,6,43,55,4,2,2.35,3.2,3.2
+2025-08-31,Vitória,Atlético Mineiro,Brasil - Serie A,1,0,1,0,14,19,4,5,34,44,2,5,3.5,3.0,2.3
+2025-08-31,Internacional,Fortaleza,Brasil - Serie A,2,1,1,1,14,10,6,3,51,32,4,5,1.65,3.75,5.5
+2025-08-31,Santos,Fluminense,Brasil - Serie A,0,0,0,0,9,5,2,0,35,33,6,1,2.4,3.1,3.2
+2025-08-31,Corinthians,Palmeiras,Brasil - Serie A,1,1,1,1,9,19,1,7,12,68,3,10,3.8,3.1,2.1
+2025-07-19,Atlanta United,Charlotte,Eua - Major League Soccer,2,3,1,0,19,8,6,4,63,30,7,2,2.25,3.6,2.87
+2025-08-16,Portland Timbers,Cincinnati,Eua - Major League Soccer,2,3,1,3,24,10,5,5,68,33,6,3,2.62,3.3,2.62
+2025-08-10,Cincinnati,Charlotte,Eua - Major League Soccer,0,1,0,0,17,8,7,3,58,48,5,2,1.75,4.0,4.33
+2025-07-12,Cincinnati,Columbus Crew,Eua - Major League Soccer,2,4,2,2,13,11,4,4,38,39,5,4,2.35,3.7,2.8
+2025-07-05,Cincinnati,Chicago Fire,Eua - Major League Soccer,2,1,1,0,13,15,4,5,38,66,1,10,1.85,4.2,3.4
+2025-06-28,Orlando City,Cincinnati,Eua - Major League Soccer,1,2,0,1,17,9,3,4,61,36,4,2,1.85,3.8,3.9
+2025-08-30,Nashville SC,Atlanta United,Eua - Major League Soccer,0,1,0,1,19,10,7,4,45,30,12,1,1.65,4.2,4.75
+2025-07-16,Nashville SC,Columbus Crew,Eua - Major League Soccer,3,0,2,0,10,21,4,4,30,83,1,5,2.0,3.6,3.5
+2025-07-05,Nashville SC,Philadelphia Union,Eua - Major League Soccer,1,0,0,0,12,11,4,3,32,34,4,3,1.85,3.6,3.9
+2025-06-14,Chicago Fire,Nashville SC,Eua - Major League Soccer,0,2,0,0,14,11,7,3,35,34,9,4,2.55,3.4,2.62
+2025-05-31,Nashville SC,New York City,Eua - Major League Soccer,2,2,2,0,17,13,5,4,44,35,6,1,1.9,3.6,4.0
+2025-05-28,Columbus Crew,Nashville SC,Eua - Major League Soccer,2,2,0,1,21,14,5,6,82,32,7,3,1.95,3.75,3.6
+2025-05-24,Toronto,Nashville SC,Eua - Major League Soccer,1,2,0,0,9,17,3,6,5,13,3,6,3.1,3.4,2.3
+2025-05-10,Nashville SC,Charlotte,Eua - Major League Soccer,2,1,0,0,12,10,8,4,49,46,12,5,1.8,3.9,4.2
+2025-05-03,Atlanta United,Nashville SC,Eua - Major League Soccer,1,1,1,0,6,10,2,5,38,69,2,8,2.15,3.5,3.3
+2025-04-26,Nashville SC,Chicago Fire,Eua - Major League Soccer,7,2,5,0,18,8,12,5,62,45,4,1,1.9,3.5,3.9
+2025-04-19,Seattle Sounders,Nashville SC,Eua - Major League Soccer,3,0,3,0,14,12,7,8,4,15,2,7,1.8,3.5,4.75
+2025-04-12,Nashville SC,Real Salt Lake,Eua - Major League Soccer,2,1,1,1,22,13,7,5,83,67,4,2,1.8,3.8,4.33
+2025-04-05,Charlotte,Nashville SC,Eua - Major League Soccer,2,1,0,1,5,13,4,7,34,34,3,8,2.15,3.4,3.3
+2025-03-29,Nashville SC,Cincinnati,Eua - Major League Soccer,1,2,1,1,14,17,7,6,34,48,4,5,2.25,3.4,3.2
+2025-03-16,Philadelphia Union,Nashville SC,Eua - Major League Soccer,1,3,1,2,11,12,5,4,72,52,7,2,1.9,3.7,3.9
+2025-03-08,Nashville SC,Portland Timbers,Eua - Major League Soccer,2,0,1,0,24,9,12,4,52,39,5,2,1.65,4.2,4.75
+2024-10-19,Chicago Fire,Nashville SC,Eua - Major League Soccer,0,3,0,0,12,16,6,6,46,49,4,6,1.95,3.9,3.5
+2024-10-06,New York City,Nashville SC,Eua - Major League Soccer,3,1,3,0,11,22,4,6,31,60,3,6,1.5,4.5,5.75
+2024-09-21,Nashville SC,Cincinnati,Eua - Major League Soccer,2,2,2,1,7,13,2,4,30,64,2,7,3.0,3.5,2.37
+2024-09-18,Nashville SC,Chicago Fire,Eua - Major League Soccer,1,0,1,0,5,10,2,4,17,61,1,2,1.75,4.0,4.33
+2024-09-14,Atlanta United,Nashville SC,Eua - Major League Soccer,0,2,0,1,10,5,5,3,59,37,6,2,1.66,4.33,4.33
+2024-08-31,Orlando City,Nashville SC,Eua - Major League Soccer,3,0,2,0,15,11,7,2,56,46,5,5,1.5,4.33,6.0
+2024-08-24,Nashville SC,Austin,Eua - Major League Soccer,0,2,0,1,18,15,8,6,71,31,10,2,2.2,3.6,3.2
+2024-07-20,Philadelphia Union,Nashville SC,Eua - Major League Soccer,3,0,2,0,19,18,9,3,50,47,4,7,1.57,4.33,5.25
+2025-07-26,DC United,Austin,Eua - Major League Soccer,2,4,0,2,14,15,6,6,41,53,3,6,2.6,3.4,2.62
+2025-07-19,Columbus Crew,DC United,Eua - Major League Soccer,2,1,1,0,18,6,5,1,83,18,7,0,1.45,4.75,6.5
+2025-07-16,Charlotte,DC United,Eua - Major League Soccer,2,1,1,0,17,11,7,1,54,19,9,4,1.48,4.5,6.0
+2025-07-05,DC United,Atlanta United,Eua - Major League Soccer,0,0,0,0,9,6,2,1,62,62,3,0,2.25,3.6,2.9
+2025-06-28,DC United,Nashville SC,Eua - Major League Soccer,0,1,0,1,7,7,1,2,43,25,4,3,4.1,3.6,1.9
+2025-06-14,Real Salt Lake,DC United,Eua - Major League Soccer,2,0,1,0,20,8,6,1,28,22,10,2,1.7,3.9,4.75
+2025-06-07,DC United,Chicago Fire,Eua - Major League Soccer,1,7,0,4,15,15,3,11,2,15,9,7,2.6,3.5,2.6
+2025-05-31,Cincinnati,DC United,Eua - Major League Soccer,1,2,1,2,9,11,4,5,6,10,5,5,1.45,4.5,7.0
+2025-05-17,Nashville SC,DC United,Eua - Major League Soccer,0,0,0,0,8,3,5,1,54,13,5,1,1.5,4.0,6.25
+2025-05-14,DC United,New York City,Eua - Major League Soccer,0,0,0,0,5,15,2,5,12,6,4,9,2.25,3.6,2.9
+2025-05-10,Toronto,DC United,Eua - Major League Soccer,2,0,0,0,19,15,8,5,51,35,4,5,2.35,3.5,2.87
+2025-05-03,DC United,Colorado Rapids,Eua - Major League Soccer,2,1,2,1,9,8,3,3,4,6,2,4,2.05,3.6,3.3
+2025-04-26,Philadelphia Union,DC United,Eua - Major League Soccer,3,0,1,0,12,9,6,5,65,59,3,6,1.61,4.2,5.0
+2025-04-12,DC United,Cincinnati,Eua - Major League Soccer,0,1,0,1,14,11,2,5,68,46,10,4,2.25,3.5,3.0
+2025-03-29,DC United,Columbus Crew,Eua - Major League Soccer,1,2,1,1,8,9,2,7,68,36,3,4,2.4,3.6,2.8
+2025-03-22,Orlando City,DC United,Eua - Major League Soccer,4,1,2,0,20,13,8,6,41,50,1,10,1.83,3.9,3.9
+2025-03-01,Chicago Fire,DC United,Eua - Major League Soccer,2,2,1,1,11,18,4,6,34,62,5,10,2.15,3.6,3.2
+2025-02-22,DC United,Toronto,Eua - Major League Soccer,2,2,2,1,8,12,3,7,34,41,2,7,1.85,3.7,4.2
+2024-10-19,DC United,Charlotte,Eua - Major League Soccer,0,3,0,0,14,14,3,7,66,32,7,4,1.75,3.9,4.33
+2024-10-02,Nashville SC,DC United,Eua - Major League Soccer,3,4,2,1,19,27,4,10,34,74,5,13,2.15,3.7,3.2
+2024-09-28,DC United,Columbus Crew,Eua - Major League Soccer,2,2,1,0,12,16,6,6,36,53,5,3,2.5,3.75,2.62
+2024-09-22,Philadelphia Union,DC United,Eua - Major League Soccer,4,0,2,0,17,16,9,4,45,57,4,5,1.85,4.0,3.6
+2024-09-14,DC United,New York City,Eua - Major League Soccer,1,1,0,1,10,9,6,3,38,42,4,3,2.5,3.5,2.75
+2024-09-07,Chicago Fire,DC United,Eua - Major League Soccer,1,2,0,2,6,9,2,3,47,28,3,4,2.2,3.6,3.1
+2024-08-31,Toronto,DC United,Eua - Major League Soccer,1,3,0,0,6,11,3,6,37,39,6,1,2.2,3.4,3.3
+2024-08-24,DC United,Dallas,Eua - Major League Soccer,3,4,2,4,17,13,7,8,50,48,5,5,1.7,3.8,4.75
+2025-08-23,Nashville SC,Orlando City,Eua - Major League Soccer,5,1,4,0,17,12,9,4,30,26,5,4,1.66,4.33,4.5
+2025-07-25,Columbus Crew,Orlando City,Eua - Major League Soccer,1,3,0,0,19,10,8,6,84,36,9,1,2.15,3.5,3.1
+2025-08-24,Atlanta United,Toronto,Eua - Major League Soccer,0,0,0,0,6,12,1,2,43,55,6,5,1.75,3.9,4.33
+2025-08-16,Toronto,Columbus Crew,Eua - Major League Soccer,1,1,0,1,7,12,3,7,26,50,2,7,3.7,3.9,1.85
+2025-08-09,Philadelphia Union,Toronto,Eua - Major League Soccer,1,1,1,0,12,10,3,4,47,36,5,8,1.42,4.75,6.5
+2025-07-26,Charlotte,Toronto,Eua - Major League Soccer,2,0,0,0,10,13,4,3,15,57,2,4,1.53,4.75,5.25
+2025-07-19,Nashville SC,Toronto,Eua - Major League Soccer,1,0,1,0,10,7,5,0,53,35,6,2,1.28,4.75,9.5
+2025-08-30,Toronto,CF Montréal,Eua - Major League Soccer,1,1,0,0,17,11,5,2,42,27,8,6,1.9,3.8,3.7
+2025-08-16,CF Montréal,DC United,Eua - Major League Soccer,1,1,1,1,9,16,3,3,16,5,2,4,2.05,3.6,3.4
+2025-08-09,CF Montréal,Atlanta United,Eua - Major League Soccer,1,1,1,0,9,17,3,5,36,49,6,9,2.75,3.5,2.45
+2025-07-16,Philadelphia Union,CF Montréal,Eua - Major League Soccer,2,1,1,1,17,11,6,4,50,22,9,4,1.42,5.0,6.5
+2025-07-12,Orlando City,CF Montréal,Eua - Major League Soccer,1,1,1,0,10,4,4,1,2,8,3,2,0.0,0.0,0.0
+2025-07-05,CF Montréal,Inter Miami,Eua - Major League Soccer,1,4,1,2,13,15,8,10,37,49,5,2,3.5,4.33,1.85
+2025-06-28,CF Montréal,New York City,Eua - Major League Soccer,1,0,1,0,13,11,6,2,42,48,5,8,2.62,3.5,2.55
+2025-06-25,CF Montréal,Cincinnati,Eua - Major League Soccer,1,3,0,1,10,15,4,11,9,7,3,0,3.1,3.6,2.15
+2025-06-14,Houston Dynamo,CF Montréal,Eua - Major League Soccer,1,3,0,2,18,8,2,5,30,26,7,7,1.8,3.7,4.5
+2025-05-28,Inter Miami,CF Montréal,Eua - Major League Soccer,4,2,1,0,14,11,4,6,5,2,0,2,1.4,5.5,6.25
+2025-05-17,CF Montréal,Toronto,Eua - Major League Soccer,1,6,0,3,11,19,5,8,43,38,5,3,1.72,3.8,4.5
+2025-05-14,CF Montréal,Columbus Crew,Eua - Major League Soccer,1,1,1,0,4,14,2,4,1,6,0,4,3.0,3.4,2.35
+2025-05-10,New York City,CF Montréal,Eua - Major League Soccer,0,1,0,0,10,19,2,7,19,17,3,11,1.85,3.7,4.1
+2025-05-03,CF Montréal,Philadelphia Union,Eua - Major League Soccer,1,2,1,1,12,9,2,4,5,7,6,2,2.75,3.25,2.55
+2025-04-19,CF Montréal,Orlando City,Eua - Major League Soccer,0,0,0,0,12,9,7,2,6,4,8,2,2.9,3.1,2.6
+2025-04-12,CF Montréal,Charlotte,Eua - Major League Soccer,0,1,0,1,18,8,2,4,99,27,8,4,2.4,3.25,3.0
+2025-04-05,Columbus Crew,CF Montréal,Eua - Major League Soccer,2,1,2,0,11,4,5,1,46,28,5,3,1.5,4.5,5.75
+2025-03-29,Chicago Fire,CF Montréal,Eua - Major League Soccer,1,1,1,0,6,17,2,7,28,38,2,8,1.66,4.0,5.0
+2025-03-22,Nashville SC,CF Montréal,Eua - Major League Soccer,3,0,0,0,16,8,7,2,37,40,5,3,1.57,4.2,5.5
+2025-03-15,DC United,CF Montréal,Eua - Major League Soccer,0,0,0,0,15,10,6,2,61,38,6,2,1.48,4.75,6.25
+2025-03-08,Vancouver Whitecaps,CF Montréal,Eua - Major League Soccer,2,0,1,0,14,10,7,2,45,43,8,7,1.36,5.0,8.0
+2025-03-01,Minnesota United,CF Montréal,Eua - Major League Soccer,1,0,0,0,14,3,6,0,33,41,2,5,1.42,4.75,7.0
+2025-02-22,Atlanta United,CF Montréal,Eua - Major League Soccer,3,2,1,0,14,13,8,6,39,47,7,5,1.44,4.75,7.0
+2024-10-22,CF Montréal,Atlanta United,Eua - Major League Soccer,2,2,0,2,15,13,7,5,75,39,7,1,2.55,3.4,2.75
+2024-10-19,CF Montréal,New York City,Eua - Major League Soccer,2,0,2,0,5,16,4,4,16,88,1,10,3.2,3.7,2.15
+2024-10-05,Charlotte,CF Montréal,Eua - Major League Soccer,2,0,1,0,14,8,6,1,35,47,4,2,1.6,4.33,5.0
+2024-10-02,Atlanta United,CF Montréal,Eua - Major League Soccer,1,2,1,1,15,9,7,3,54,34,7,1,1.53,4.75,5.25
+2024-09-21,CF Montréal,Chicago Fire,Eua - Major League Soccer,2,0,1,0,8,12,3,3,27,44,0,5,2.05,3.6,3.5
+2024-09-14,CF Montréal,Charlotte,Eua - Major League Soccer,2,1,2,1,13,10,8,1,33,58,7,5,3.1,3.4,2.3
+2024-08-31,Cincinnati,CF Montréal,Eua - Major League Soccer,4,1,1,0,16,5,6,3,41,19,7,1,1.38,5.25,7.5
+2025-08-23,DC United,Inter Miami,Eua - Major League Soccer,1,1,1,0,11,13,2,3,36,74,5,8,2.7,3.25,2.55
+2025-08-10,Orlando City,Inter Miami,Eua - Major League Soccer,4,1,1,1,21,10,12,5,47,48,5,3,2.0,4.0,3.25
+2025-07-26,Inter Miami,Cincinnati,Eua - Major League Soccer,0,0,0,0,13,8,3,4,62,25,5,2,2.25,3.8,2.9
+2025-07-16,Cincinnati,Inter Miami,Eua - Major League Soccer,3,0,1,0,11,10,6,2,35,36,1,4,2.7,3.9,2.35
+2025-07-12,Inter Miami,Nashville SC,Eua - Major League Soccer,2,1,1,0,9,8,5,2,2,2,0,4,0.0,0.0,0.0
+2025-09-06,St. Louis City,Dallas,Eua - Major League Soccer,1,1,1,1,42,4,14,2,110,25,16,7,2.0,4.0,3.2
+2025-07-26,Atlanta United,Seattle Sounders,Eua - Major League Soccer,2,2,1,0,13,8,2,2,46,51,3,4,2.62,3.6,2.5
+2025-07-06,Seattle Sounders,Columbus Crew,Eua - Major League Soccer,1,1,1,1,8,9,2,3,39,53,2,1,1.9,3.9,3.7
+2025-06-28,Seattle Sounders,Austin,Eua - Major League Soccer,2,0,1,0,12,11,6,1,65,46,3,5,1.8,3.75,4.33
+2025-06-08,Vancouver Whitecaps,Seattle Sounders,Eua - Major League Soccer,3,0,1,0,13,7,5,0,43,54,3,3,3.4,3.3,2.2
+2025-06-01,Seattle Sounders,Minnesota United,Eua - Major League Soccer,2,3,0,0,10,13,2,6,96,24,9,0,1.85,3.6,4.2
+2025-08-09,SJ Earthquakes,Vancouver Whitecaps,Eua - Major League Soccer,2,1,0,0,16,7,5,3,59,21,5,3,0.0,0.0,0.0
+2025-07-19,Seattle Sounders,SJ Earthquakes,Eua - Major League Soccer,3,2,1,1,19,20,9,9,52,42,5,2,0.0,0.0,0.0
+2025-07-12,Minnesota United,SJ Earthquakes,Eua - Major League Soccer,4,1,3,0,12,10,6,4,32,69,5,8,0.0,0.0,0.0
+2025-06-25,Dallas,SJ Earthquakes,Eua - Major League Soccer,2,4,1,0,10,24,8,10,32,71,0,8,2.55,3.6,2.62
+2025-06-13,Portland Timbers,SJ Earthquakes,Eua - Major League Soccer,1,1,0,0,13,16,5,6,53,34,8,7,2.2,3.8,2.9
+2025-05-24,SJ Earthquakes,Houston Dynamo,Eua - Major League Soccer,3,3,0,1,14,10,8,3,51,31,11,7,2.2,3.6,3.1
+2025-05-14,SJ Earthquakes,Inter Miami,Eua - Major League Soccer,3,3,3,2,13,10,5,5,51,50,7,2,2.45,3.9,2.55
+2025-05-10,Colorado Rapids,SJ Earthquakes,Eua - Major League Soccer,0,2,0,1,11,11,4,5,60,40,4,2,1.8,4.0,4.0
+2025-05-03,SJ Earthquakes,Portland Timbers,Eua - Major League Soccer,4,1,3,1,15,17,8,5,43,58,2,6,2.3,3.3,3.1
+2025-04-26,Columbus Crew,SJ Earthquakes,Eua - Major League Soccer,2,1,1,1,15,15,3,6,71,50,7,2,1.45,4.75,6.0
+2025-04-06,SJ Earthquakes,DC United,Eua - Major League Soccer,6,1,3,1,20,16,10,10,39,46,3,4,2.15,3.6,3.2
+2025-03-29,SJ Earthquakes,Seattle Sounders,Eua - Major League Soccer,1,1,1,0,10,26,3,9,40,74,4,12,3.4,3.3,2.2
+2025-03-22,Charlotte,SJ Earthquakes,Eua - Major League Soccer,4,1,3,0,14,26,8,6,25,58,0,5,1.61,4.1,5.25
+2025-03-15,SJ Earthquakes,Colorado Rapids,Eua - Major League Soccer,1,2,1,1,27,9,11,4,93,58,10,4,1.95,3.6,3.6
+2025-03-09,SJ Earthquakes,Minnesota United,Eua - Major League Soccer,0,1,0,1,17,10,1,6,68,29,10,4,2.4,3.5,2.87
+2025-02-23,SJ Earthquakes,Real Salt Lake,Eua - Major League Soccer,4,0,1,0,14,22,9,7,24,54,6,5,2.15,3.6,3.2
+2024-10-05,SJ Earthquakes,Real Salt Lake,Eua - Major League Soccer,0,1,0,0,6,14,2,5,20,58,2,9,2.8,3.9,2.3
+2024-10-02,SJ Earthquakes,Dallas,Eua - Major League Soccer,3,2,1,1,10,16,5,5,24,40,4,5,2.7,3.5,2.55
+2024-09-28,CF Montréal,SJ Earthquakes,Eua - Major League Soccer,3,0,0,0,15,11,8,2,44,33,7,3,1.8,4.0,4.0
+2024-09-21,SJ Earthquakes,St. Louis City,Eua - Major League Soccer,1,2,1,2,15,7,5,2,42,37,4,4,2.3,3.9,2.8
+2024-09-18,Seattle Sounders,SJ Earthquakes,Eua - Major League Soccer,2,2,2,1,18,9,4,3,59,28,5,3,1.28,6.5,8.0
+2024-09-14,Vancouver Whitecaps,SJ Earthquakes,Eua - Major League Soccer,2,0,1,0,19,5,11,2,83,28,7,2,1.48,4.75,6.25
+2024-08-31,SJ Earthquakes,Minnesota United,Eua - Major League Soccer,1,2,1,1,5,13,2,7,27,52,3,8,2.3,3.9,2.8
+2024-08-24,Real Salt Lake,SJ Earthquakes,Eua - Major League Soccer,0,2,0,2,16,14,4,6,44,28,7,7,1.33,6.0,8.0
+2025-09-06,Chicago Fire,New England,Eua - Major League Soccer,3,2,2,0,14,16,7,7,59,30,8,6,1.66,4.1,4.5
+2025-08-30,New York City,DC United,Eua - Major League Soccer,1,2,1,1,9,8,3,2,54,36,9,2,1.45,5.0,5.75
+2025-08-23,Cincinnati,New York City,Eua - Major League Soccer,0,1,0,0,10,10,5,4,29,55,4,4,2.25,4.0,2.8
+2025-08-17,New York City,Nashville SC,Eua - Major League Soccer,2,1,1,1,12,12,4,3,49,25,2,4,2.45,3.5,2.75
+2025-08-16,Charlotte,Real Salt Lake,Eua - Major League Soccer,1,0,1,0,11,19,2,7,44,46,3,5,1.9,3.8,3.7
+2025-07-26,Real Salt Lake,SJ Earthquakes,Eua - Major League Soccer,2,1,0,0,11,9,3,3,36,39,4,3,1.83,4.2,3.75
+2025-07-19,Real Salt Lake,Cincinnati,Eua - Major League Soccer,0,1,0,0,17,14,7,4,44,34,3,5,1.9,3.7,3.5
+2025-07-16,Portland Timbers,Real Salt Lake,Eua - Major League Soccer,0,1,0,0,12,10,1,4,16,14,9,2,2.25,3.75,2.9
+2025-09-07,Sporting KC,Austin,Eua - Major League Soccer,1,2,1,1,13,7,4,4,12,20,6,1,0.0,0.0,0.0
+2025-08-16,Colorado Rapids,Atlanta United,Eua - Major League Soccer,3,1,1,1,9,11,3,2,39,50,3,4,2.25,3.9,2.8
+2025-07-26,Philadelphia Union,Colorado Rapids,Eua - Major League Soccer,3,1,0,1,27,5,11,1,56,28,11,1,1.57,4.5,5.25
+2025-07-16,Seattle Sounders,Colorado Rapids,Eua - Major League Soccer,3,3,2,0,16,13,8,9,11,5,3,7,1.65,4.2,4.75
+2025-07-12,Colorado Rapids,Vancouver Whitecaps,Eua - Major League Soccer,3,0,2,0,16,14,7,2,16,47,7,10,2.5,3.6,2.62
+2025-09-06,Houston Dynamo,LA Galaxy,Eua - Major League Soccer,1,1,1,0,9,15,3,4,36,46,5,4,1.65,4.0,5.0
+2025-08-30,Cincinnati,Philadelphia Union,Eua - Major League Soccer,0,1,0,0,13,14,3,4,38,46,7,4,2.75,3.6,2.4
+2025-08-30,New York RB,Columbus Crew,Eua - Major League Soccer,0,0,0,0,8,3,4,1,6,8,4,6,0.0,0.0,0.0
+2025-08-24,Charlotte,New York RB,Eua - Major League Soccer,1,0,1,0,4,15,2,3,29,52,2,8,2.0,3.8,3.4
+2025-08-16,New York RB,Philadelphia Union,Eua - Major League Soccer,1,0,0,0,7,11,2,1,5,14,1,2,0.0,0.0,0.0
+2025-08-10,New York RB,Real Salt Lake,Eua - Major League Soccer,2,1,0,1,24,7,7,3,49,27,5,0,0.0,0.0,0.0
+2025-07-19,New York RB,Inter Miami,Eua - Major League Soccer,1,5,1,3,8,13,2,8,14,4,2,4,0.0,0.0,0.0
+2025-07-12,Philadelphia Union,New York RB,Eua - Major League Soccer,2,0,2,0,17,8,5,1,10,7,8,5,0.0,0.0,0.0
+2025-07-05,SJ Earthquakes,New York RB,Eua - Major League Soccer,1,1,0,1,15,10,3,4,66,67,9,7,0.0,0.0,0.0
+2025-06-28,New York RB,Minnesota United,Eua - Major League Soccer,2,2,1,2,21,8,7,2,6,7,6,6,0.0,0.0,0.0
+2025-06-25,Toronto,New York RB,Eua - Major League Soccer,1,1,0,1,13,8,2,5,1,8,4,6,4.0,3.4,1.95
+2025-06-14,Austin,New York RB,Eua - Major League Soccer,2,1,1,1,6,15,4,1,26,37,2,7,2.35,3.25,3.1
+2025-05-31,New York RB,Atlanta United,Eua - Major League Soccer,2,0,2,0,7,11,3,3,1,8,1,8,1.95,3.75,3.7
+2025-05-28,New York RB,Charlotte,Eua - Major League Soccer,4,2,2,1,11,12,5,6,12,4,5,2,2.2,3.5,3.2
+2025-05-24,DC United,New York RB,Eua - Major League Soccer,0,2,0,1,7,11,6,6,5,5,4,1,2.87,3.3,2.45
+2025-05-17,New York City,New York RB,Eua - Major League Soccer,2,0,1,0,13,10,3,1,33,65,4,6,2.1,3.5,3.4
+2025-05-14,Nashville SC,New York RB,Eua - Major League Soccer,2,1,1,0,13,7,7,2,40,54,5,6,1.9,3.9,3.6
+2025-05-03,Inter Miami,New York RB,Eua - Major League Soccer,4,1,3,1,12,9,6,3,1,6,3,6,1.6,4.2,5.25
+2025-04-26,New York RB,CF Montréal,Eua - Major League Soccer,1,0,0,0,12,9,6,5,36,35,6,4,1.75,3.7,5.0
+2025-04-19,New York RB,DC United,Eua - Major League Soccer,1,2,0,2,10,12,2,4,16,5,9,1,2.05,3.4,3.6
+2025-04-12,Orlando City,New York RB,Eua - Major League Soccer,0,0,0,0,14,9,4,1,70,44,7,2,1.75,3.8,4.5
+2025-04-05,New York RB,Chicago Fire,Eua - Major League Soccer,2,1,2,1,7,13,6,6,45,49,2,4,1.85,3.7,3.9
+2025-03-22,New York RB,Toronto,Eua - Major League Soccer,2,1,1,0,12,5,6,2,61,33,5,1,1.7,3.5,5.5
+2025-03-15,New York RB,Orlando City,Eua - Major League Soccer,2,2,1,2,14,16,7,7,38,38,2,6,2.0,3.25,3.9
+2025-03-08,Atlanta United,New York RB,Eua - Major League Soccer,0,0,0,0,10,7,6,0,31,28,5,2,1.9,3.9,3.75
+2025-03-01,New York RB,Nashville SC,Eua - Major League Soccer,2,0,2,0,12,10,5,2,27,29,1,5,1.75,3.75,4.5
+2025-02-22,Cincinnati,New York RB,Eua - Major League Soccer,1,0,0,0,11,15,2,3,44,43,4,2,1.85,3.6,4.2
+2024-11-30,Orlando City,New York RB,Eua - Major League Soccer,0,1,0,0,9,7,3,1,74,35,5,2,1.85,3.4,4.2
+2024-11-23,New York City,New York RB,Eua - Major League Soccer,0,2,0,2,25,9,7,3,60,27,13,5,2.1,3.5,3.4
+2024-11-03,New York RB,Columbus Crew,Eua - Major League Soccer,2,2,0,0,12,18,6,4,42,64,3,5,2.35,3.5,2.87
+2024-10-29,Columbus Crew,New York RB,Eua - Major League Soccer,0,1,0,1,15,11,8,3,81,57,5,4,1.75,4.1,4.1
+2024-10-19,New York RB,Columbus Crew,Eua - Major League Soccer,2,3,0,2,13,19,7,6,36,77,4,4,2.1,3.7,3.25
+2024-10-05,Atlanta United,New York RB,Eua - Major League Soccer,2,1,0,0,20,6,6,2,45,24,9,4,2.35,3.6,2.87
+2024-10-02,Toronto,New York RB,Eua - Major League Soccer,1,4,0,1,12,10,3,8,37,42,4,6,2.8,3.4,2.5
+2024-09-28,New York RB,New York City,Eua - Major League Soccer,1,5,1,4,15,11,4,6,46,41,9,1,2.05,3.7,3.4
+2024-09-21,New York RB,Atlanta United,Eua - Major League Soccer,2,2,1,1,17,10,10,2,72,20,8,2,1.65,4.33,4.75
+2025-08-31,Los Angeles FC,San Diego,Eua - Major League Soccer,1,2,1,1,16,6,4,4,48,21,7,3,0.0,0.0,0.0
+2025-08-30,Minnesota United,Portland Timbers,Eua - Major League Soccer,1,1,0,0,9,16,6,6,30,53,4,6,1.7,4.0,4.5
+2025-08-23,Real Salt Lake,Minnesota United,Eua - Major League Soccer,1,3,1,2,27,9,6,3,70,25,6,5,2.3,3.9,2.75
+2025-08-16,Minnesota United,Seattle Sounders,Eua - Major League Soccer,1,0,0,0,10,15,3,5,30,65,3,8,2.3,3.5,3.0
+2025-08-10,Minnesota United,Colorado Rapids,Eua - Major League Soccer,1,2,0,0,22,12,9,5,58,18,13,4,1.53,4.5,5.5
+2025-08-31,Strømsgodset,Molde,Noruega - Eliteserien,3,1,2,0,16,14,8,3,39,73,2,6,3.7,3.9,1.85
+2025-08-31,Fredrikstad,Haugesund,Noruega - Eliteserien,2,2,2,2,19,12,3,3,72,26,5,0,1.33,5.25,8.0
+2025-08-30,Vålerenga,Bryne,Noruega - Eliteserien,3,2,3,1,17,15,3,5,69,39,10,1,1.57,4.33,5.0
+2025-08-31,Malmö FF,Degerfors,Suécia - Allsvenskan,1,1,1,1,25,11,7,4,93,23,8,4,1.28,6.25,8.5
+2025-08-30,Mjällby,Halmstad,Suécia - Allsvenskan,1,0,0,0,11,9,5,3,49,30,9,5,1.42,5.0,6.0
+2025-08-24,Elfsborg,Halmstad,Suécia - Allsvenskan,1,2,0,1,10,13,4,7,62,26,2,3,1.53,4.33,5.75
+2025-08-31,Norrköping,Djurgården,Suécia - Allsvenskan,0,4,0,2,8,14,2,11,28,70,7,6,4.2,4.2,1.72
+2025-08-31,Ilves,Mariehamn,Finlândia - Veikkausliiga,2,1,0,0,15,8,3,3,95,41,8,4,1.2,6.5,10.0
+2025-08-31,Oulu,Haka,Finlândia - Veikkausliiga,3,2,3,1,13,9,4,4,31,37,3,3,1.9,3.7,3.4
+2025-08-31,Gnistan,Jaro,Finlândia - Veikkausliiga,1,2,0,1,23,9,5,5,101,68,9,6,1.65,4.2,4.1
+2025-08-31,Inter Turku,VPS,Finlândia - Veikkausliiga,2,1,0,0,24,7,7,6,93,23,17,5,1.42,4.5,6.0
+2025-08-31,SJK,KuPS,Finlândia - Veikkausliiga,1,1,1,1,16,11,3,4,54,49,10,6,2.55,4.0,2.25
+2025-08-31,KTP,HJK,Finlândia - Veikkausliiga,1,4,1,2,14,20,4,11,60,42,6,1,6.25,4.5,1.4
+2025-09-01,Platense,Godoy Cruz,Argentina - Superliga,1,3,0,1,25,10,5,6,73,27,7,4,2.2,2.87,4.0
+2025-08-17,Central Cordoba,Barracas Central,Argentina - Superliga,1,1,0,1,18,10,7,2,51,36,10,1,2.05,3.2,3.9
+2025-08-29,Instituto,Independiente,Argentina - Superliga,0,0,0,0,10,9,2,2,48,50,10,7,3.0,2.87,2.7
+2025-08-16,Vélez Sarsfield,Independiente,Argentina - Superliga,2,1,1,0,12,9,3,3,57,17,10,0,3.4,2.75,2.55
+2025-08-29,Banfield,Tigre,Argentina - Superliga,1,0,0,0,14,11,7,5,41,41,6,3,2.62,2.75,3.2
+2025-08-31,Aldosivi,Boca Juniors,Argentina - Superliga,0,2,0,1,8,8,3,4,31,21,3,7,6.0,3.3,1.7
+2025-08-31,Shenzhen Peng City,Meizhou Hakka,China - Super League,2,0,1,0,14,17,7,7,42,43,4,6,1.83,3.9,4.0
+2025-09-07,Atletico Mitre,Defensores de Belgrano,Argentina - Primera B Nacional,1,2,1,1,11,6,2,3,63,56,4,0,2.2,2.7,4.2
+2025-09-07,Chaco For Ever,Chacarita Juniors,Argentina - Primera B Nacional,0,0,0,0,16,8,6,3,89,71,4,3,2.05,2.87,4.33
+2025-09-08,Colón,Estudiantes Río Cuarto,Argentina - Primera B Nacional,0,1,0,1,9,8,2,6,79,64,8,3,0.0,0.0,0.0
+2025-09-05,Estudiantes Caseros,Nueva Chicago,Argentina - Primera B Nacional,2,0,2,0,7,7,4,2,15,8,5,4,1.75,3.2,5.5
+2025-09-08,Quilmes,Ferro Carril Oeste,Argentina - Primera B Nacional,0,0,0,0,4,8,2,2,59,64,5,7,2.3,2.75,3.6
+2025-09-05,San Miguel,Almagro,Argentina - Primera B Nacional,1,1,1,0,7,13,4,8,106,82,3,2,2.05,2.8,4.5
+2025-09-05,Defensores Unidos,Deportivo Morón,Argentina - Primera B Nacional,0,1,0,0,6,16,2,6,58,106,4,11,3.9,2.75,2.25
+2025-09-05,Temperley,Talleres Remedios,Argentina - Primera B Nacional,1,0,0,0,9,9,3,4,81,59,8,3,1.7,3.2,6.0
+2025-08-22,Always Ready,Oriente Petrolero,Bolívia - Liga De Futbol Prof,2,0,1,0,34,6,15,3,71,15,9,4,1.12,8.5,15.0
+2025-08-04,Oriente Petrolero,Aurora,Bolívia - Liga De Futbol Prof,3,0,0,0,12,7,4,3,28,34,2,2,1.9,3.6,3.5
+2025-07-29,Nacional Potosí,Oriente Petrolero,Bolívia - Liga De Futbol Prof,4,1,2,0,9,14,6,2,25,43,3,3,1.25,5.25,8.5
+2025-08-24,Real Oruro,Independiente Petrolero,Bolívia - Liga De Futbol Prof,3,4,1,2,19,17,7,7,33,35,2,1,1.57,3.9,4.75
+2025-08-08,ABB,Real Oruro,Bolívia - Liga De Futbol Prof,1,2,0,0,11,18,2,3,19,40,0,6,2.2,3.3,2.8
+2025-08-12,Wilstermann,San Antonio Bulo Bulo,Bolívia - Liga De Futbol Prof,0,3,0,1,8,15,2,7,21,52,1,4,3.0,3.6,2.05
+2025-08-23,San Antonio Bulo Bulo,Aurora,Bolívia - Liga De Futbol Prof,1,2,0,2,17,8,8,5,65,19,11,1,1.72,3.6,4.2
+2025-08-13,Aurora,Blooming,Bolívia - Liga De Futbol Prof,4,1,1,1,19,12,8,2,36,31,3,12,2.05,3.3,3.2
+2025-08-23,The Strongest,Gualberto Villarroel SJ,Bolívia - Liga De Futbol Prof,2,1,1,1,14,10,5,3,37,35,4,1,1.3,5.75,6.5
+2025-08-09,Nacional Potosí,The Strongest,Bolívia - Liga De Futbol Prof,0,2,0,0,15,15,1,7,44,42,6,3,2.2,3.7,2.7
+2025-08-03,The Strongest,Blooming,Bolívia - Liga De Futbol Prof,3,2,1,2,24,13,7,5,57,17,8,1,1.38,4.33,6.0
+2025-07-20,Wilstermann,The Strongest,Bolívia - Liga De Futbol Prof,1,2,1,1,11,11,3,7,47,42,4,9,4.33,4.0,1.6
+2025-09-07,América Mineiro,Operário PR,Brasil - Serie B,1,1,1,1,11,9,4,5,45,24,5,2,2.25,3.0,3.6
+2025-09-08,Vila Nova,Athletic Club,Brasil - Serie B,1,1,1,0,11,12,3,2,40,37,5,1,2.37,2.87,3.4
+2025-09-05,Amazonas,Remo,Brasil - Serie B,1,3,0,1,19,10,3,5,55,23,7,2,2.3,3.0,3.4
+2025-09-07,Brusque,Náutico,Brasil - Serie C,0,1,0,1,0,0,4,1,0,0,6,2,0.0,0.0,0.0
+2025-08-30,Náutico,Ituano,Brasil - Serie C,3,0,1,0,22,8,10,1,78,60,7,5,2.25,3.1,3.0
+2025-08-17,Náutico,Anápolis,Brasil - Serie C,1,0,0,0,16,7,6,0,73,42,6,4,1.48,3.7,6.5
+2025-08-10,Londrina,Náutico,Brasil - Serie C,0,2,0,0,14,11,2,8,85,77,10,2,2.2,3.25,3.0
+2025-08-03,Náutico,Retrô,Brasil - Serie C,3,0,1,0,15,10,4,1,49,42,2,7,1.7,3.2,5.5
+2025-07-13,Figueirense,Náutico,Brasil - Serie C,0,0,0,0,18,8,6,2,75,59,6,8,0.0,0.0,0.0
+2025-07-05,Náutico,Floresta,Brasil - Serie C,0,0,0,0,12,9,4,2,105,41,7,2,1.8,3.4,4.1
+2025-06-29,Tombense,Náutico,Brasil - Serie C,0,2,0,1,13,10,3,3,63,46,4,2,2.2,3.0,3.6
+2025-06-16,Náutico,Maringá,Brasil - Serie C,2,1,2,0,12,15,4,7,38,40,5,5,2.25,3.2,3.1
+2025-05-31,ABC,Náutico,Brasil - Serie C,0,0,0,0,14,7,1,0,69,47,7,6,2.05,3.0,3.6
+2025-05-24,Náutico,Ponte Preta,Brasil - Serie C,0,1,0,0,9,15,1,6,80,61,5,6,2.25,3.1,3.0
+2025-05-17,Ypiranga Erechim,Náutico,Brasil - Serie C,0,4,0,2,12,10,1,7,43,37,3,4,2.0,3.25,3.4
+2025-05-10,Náutico,Confiança,Brasil - Serie C,2,0,2,0,16,14,5,2,61,68,3,7,1.8,3.3,4.2
+2025-05-04,Náutico,Brusque,Brasil - Serie C,0,0,0,0,10,17,0,3,63,60,7,4,2.05,3.0,3.3
+2025-04-26,CSA,Náutico,Brasil - Serie C,2,1,1,1,3,7,3,5,25,42,5,8,0.0,0.0,0.0
+2025-04-19,Náutico,Botafogo PB,Brasil - Serie C,0,0,0,0,11,9,3,4,73,31,8,6,2.45,2.6,3.5
+2025-04-13,Itabaiana,Náutico,Brasil - Serie C,2,1,0,1,9,10,2,1,39,45,2,3,2.87,2.9,2.5
+2024-08-24,Londrina,Náutico,Brasil - Serie C,3,2,2,1,20,17,10,3,73,58,6,4,2.0,3.2,3.6
+2024-08-17,Náutico,Ferroviário,Brasil - Serie C,4,1,3,0,19,12,11,4,46,60,2,4,1.45,4.0,6.5
+2024-08-11,Náutico,Botafogo PB,Brasil - Serie C,2,0,1,0,22,9,7,4,43,47,6,5,2.0,3.25,3.25
+2024-08-04,CSA,Náutico,Brasil - Serie C,2,2,0,1,18,5,7,2,88,30,9,1,2.1,3.0,3.3
+2024-07-31,Náutico,Ypiranga Erechim,Brasil - Serie C,1,2,1,0,0,0,0,0,0,0,0,0,2.05,3.1,3.3
+2024-07-27,Sampaio Corrêa,Náutico,Brasil - Serie C,1,1,1,1,17,9,4,2,119,77,3,5,2.3,3.0,2.9
+2025-09-06,Guarani,Ponte Preta,Brasil - Serie C,0,1,0,1,0,0,1,3,0,0,3,3,0.0,0.0,0.0
+2025-08-30,Tombense,Guarani,Brasil - Serie C,2,2,0,1,17,15,6,7,82,56,3,5,4.5,3.0,1.9
+2025-08-25,Guarani,Confiança,Brasil - Serie C,1,0,1,0,10,10,2,5,66,71,3,1,2.05,3.1,3.5
+2025-08-16,ABC,Guarani,Brasil - Serie C,3,4,2,2,24,9,7,5,72,34,8,1,2.45,3.0,2.87
+2025-08-09,Guarani,Ypiranga Erechim,Brasil - Serie C,2,1,1,1,19,4,4,1,100,47,8,2,1.8,3.4,4.33
+2025-08-02,Ponte Preta,Guarani,Brasil - Serie C,1,1,0,0,9,8,3,2,87,56,6,7,2.0,3.1,4.2
+2025-07-26,Guarani,Náutico,Brasil - Serie C,0,1,0,1,10,7,1,1,84,70,5,4,1.9,3.2,4.2
+2025-07-21,Anápolis,Guarani,Brasil - Serie C,2,0,2,0,11,13,6,2,62,67,2,5,2.9,2.87,2.6
+2025-07-13,Guarani,Ituano,Brasil - Serie C,0,0,0,0,12,3,3,0,52,51,4,0,0.0,0.0,0.0
+2025-07-06,Londrina,Guarani,Brasil - Serie C,1,1,0,0,9,5,5,2,80,84,5,3,2.25,2.87,3.4
+2025-06-28,Guarani,CSA,Brasil - Serie C,1,0,1,0,11,8,3,2,62,60,7,5,1.9,3.0,4.75
+2025-06-15,Guarani,Itabaiana,Brasil - Serie C,2,1,2,1,7,7,4,3,67,53,7,4,1.48,3.75,7.0
+2025-05-31,Retrô,Guarani,Brasil - Serie C,0,2,0,2,18,8,1,4,74,38,4,1,2.15,3.1,3.25
+2025-05-26,Guarani,Figueirense,Brasil - Serie C,0,0,0,0,18,8,3,2,57,33,8,4,1.85,3.1,4.0
+2025-05-17,Floresta,Guarani,Brasil - Serie C,0,0,0,0,11,8,4,2,80,59,4,2,3.8,3.2,1.95
+2025-05-04,Guarani,Botafogo PB,Brasil - Serie C,2,1,1,0,18,8,10,1,86,73,6,1,1.9,3.2,3.9
+2025-04-20,Brusque,Guarani,Brasil - Serie C,1,0,1,0,6,19,2,7,48,92,3,8,2.0,3.0,4.0
+2025-04-13,Guarani,Maringá,Brasil - Serie C,2,3,1,2,9,11,3,6,81,87,6,4,2.2,3.0,3.3
+2024-11-24,Guarani,Ceará,Brasil - Serie B,0,0,0,0,4,11,1,3,23,60,2,7,6.25,4.2,1.5
+2024-11-17,Brusque,Guarani,Brasil - Serie B,2,1,1,0,8,21,2,10,26,52,0,8,2.25,2.9,3.6
+2025-09-07,Floresta,Caxias,Brasil - Serie C,0,0,0,0,0,0,0,0,0,0,0,0,0.0,0.0,0.0
+2025-08-30,Maringá,Caxias,Brasil - Serie C,3,0,1,0,19,8,7,3,89,49,4,5,1.9,3.0,4.2
+2025-08-23,Caxias,Brusque,Brasil - Serie C,0,1,0,1,14,7,3,3,95,18,14,3,1.9,3.0,4.2
+2025-08-18,Tombense,Caxias,Brasil - Serie C,0,0,0,0,17,13,2,2,98,81,11,5,2.05,3.0,3.7
+2025-08-09,Caxias,ABC,Brasil - Serie C,1,0,0,0,10,8,4,3,37,31,5,6,1.9,2.75,4.33
+2025-08-03,Ypiranga Erechim,Caxias,Brasil - Serie C,0,1,0,1,16,16,4,4,43,49,5,5,2.35,3.2,2.9
+2025-07-27,Caxias,Ponte Preta,Brasil - Serie C,2,1,1,1,11,10,5,4,83,76,5,3,2.0,2.8,4.1
+2025-07-21,Náutico,Caxias,Brasil - Serie C,2,0,0,0,17,7,4,0,68,42,8,5,1.9,3.25,4.1
+2025-07-13,Caxias,Anápolis,Brasil - Serie C,1,0,0,0,15,6,4,0,61,19,10,1,0.0,0.0,0.0
+2025-07-05,CSA,Caxias,Brasil - Serie C,2,3,2,3,23,14,10,6,106,49,6,5,1.95,3.4,3.5
+2025-06-29,Caxias,Ituano,Brasil - Serie C,2,1,0,1,17,5,6,1,75,38,8,4,1.9,3.2,4.1
+2025-06-14,Botafogo PB,Caxias,Brasil - Serie C,1,2,1,1,20,14,7,6,39,45,7,3,1.9,3.1,4.2
+2025-05-31,Caxias,Londrina,Brasil - Serie C,4,2,3,2,12,16,7,4,69,46,3,4,2.35,2.8,3.2
+2025-05-24,Itabaiana,Caxias,Brasil - Serie C,2,1,0,1,19,7,5,3,47,33,3,4,2.3,3.0,3.0
+2025-05-11,Caxias,Retrô,Brasil - Serie C,2,1,0,1,8,6,4,1,61,31,5,0,1.9,3.1,4.2
+2025-05-05,Figueirense,Caxias,Brasil - Serie C,2,3,1,2,9,5,2,4,62,20,16,0,1.85,3.1,4.0
+2025-04-28,Caxias,Guarani,Brasil - Serie C,2,0,1,0,6,7,2,1,47,55,4,3,2.15,3.1,3.1
+2025-04-20,Confiança,Caxias,Brasil - Serie C,2,1,1,1,22,6,8,1,91,61,5,4,1.83,3.5,3.9
+2025-04-13,Caxias,Floresta,Brasil - Serie C,1,0,0,0,4,6,1,2,55,30,7,2,1.6,3.4,6.0
+2024-08-24,CSA,Caxias,Brasil - Serie C,2,1,1,0,13,9,7,2,66,65,6,6,1.9,3.25,3.7
+2024-08-18,Caxias,ABC,Brasil - Serie C,2,0,2,0,10,11,6,2,86,89,9,4,1.83,3.1,4.5
+2024-08-10,Caxias,Ferroviário,Brasil - Serie C,2,1,0,1,17,11,6,4,68,26,9,1,1.65,3.4,4.5
+2024-08-07,Ypiranga Erechim,Caxias,Brasil - Serie C,1,0,0,0,11,13,2,4,50,64,1,10,1.9,3.0,4.0
+2024-08-04,São Bernardo,Caxias,Brasil - Serie C,2,0,1,0,7,9,4,1,33,62,0,4,1.55,3.3,6.0
+2024-07-31,Caxias,Confiança,Brasil - Serie C,1,0,0,0,18,7,5,1,110,46,9,1,1.7,3.1,5.0
+2024-07-28,Caxias,EC São José,Brasil - Serie C,1,0,1,0,13,8,5,3,68,66,6,3,1.83,3.3,3.9
+2024-07-20,Londrina,Caxias,Brasil - Serie C,2,0,1,0,9,16,4,5,50,95,4,8,1.61,3.5,4.75
+2024-07-17,Caxias,Aparecidense,Brasil - Serie C,3,0,2,0,11,16,5,9,41,53,8,10,1.9,3.25,3.7
+2024-07-08,Caxias,Remo,Brasil - Serie C,2,4,0,2,8,4,0,3,133,32,13,3,2.0,3.2,3.3
+2024-06-30,Floresta,Caxias,Brasil - Serie C,2,1,1,0,16,11,5,4,67,43,7,2,2.2,3.0,3.1
+2024-06-26,Tombense,Caxias,Brasil - Serie C,2,1,0,0,8,12,6,4,55,66,6,7,1.6,3.4,6.0
+2024-06-23,Volta Redonda,Caxias,Brasil - Serie C,1,0,0,0,14,8,4,3,56,34,8,5,1.65,3.5,4.5
+2024-06-16,Caxias,Ferroviária,Brasil - Serie C,0,0,0,0,4,8,1,2,68,55,11,2,2.45,2.9,2.75
+2024-06-12,Sampaio Corrêa,Caxias,Brasil - Serie C,2,1,0,1,18,12,8,4,117,76,8,3,1.83,3.0,4.5
+2024-06-09,Náutico,Caxias,Brasil - Serie C,2,2,0,0,22,10,8,4,56,37,7,2,1.7,3.2,5.0
+2024-06-02,Caxias,Figueirense,Brasil - Serie C,2,1,2,0,7,12,4,5,34,42,6,5,2.63,3.1,2.45
+2024-04-28,Botafogo PB,Caxias,Brasil - Serie C,1,1,0,0,17,7,6,3,76,55,5,3,2.0,3.0,3.5
+2025-09-06,São Bernardo,Londrina,Brasil - Serie C,2,2,0,2,0,0,7,3,0,0,15,3,0.0,0.0,0.0
+2025-08-30,Floresta,São Bernardo,Brasil - Serie C,2,0,0,0,10,2,3,0,82,45,7,2,1.83,3.25,4.1
+2025-08-24,São Bernardo,Náutico,Brasil - Serie C,1,1,0,0,17,15,6,3,70,57,6,4,2.3,2.9,3.1
+2025-08-17,São Bernardo,Figueirense,Brasil - Serie C,0,3,0,1,12,7,3,6,88,31,10,5,1.55,3.6,5.5
+2025-08-10,Retrô,São Bernardo,Brasil - Serie C,0,1,0,0,9,16,3,10,31,65,4,3,3.25,2.9,2.35
+2025-08-03,São Bernardo,Tombense,Brasil - Serie C,2,0,0,0,15,6,6,1,60,35,5,3,1.38,3.8,10.0
+2025-07-27,São Bernardo,Confiança,Brasil - Serie C,1,1,0,1,19,9,8,4,72,43,9,3,1.72,3.25,5.25
+2025-07-20,Ypiranga Erechim,São Bernardo,Brasil - Serie C,0,2,0,1,9,11,1,4,50,36,3,2,2.6,2.8,3.0
+2025-07-12,São Bernardo,Ponte Preta,Brasil - Serie C,2,0,1,0,10,7,5,3,49,56,4,3,0.0,0.0,0.0
+2025-07-07,Botafogo PB,São Bernardo,Brasil - Serie C,1,1,0,0,16,10,7,1,54,47,7,4,2.45,3.0,2.87
+2025-06-28,São Bernardo,Anápolis,Brasil - Serie C,3,0,3,0,20,7,8,1,81,41,8,1,1.57,3.4,6.5
+2025-06-14,Ituano,São Bernardo,Brasil - Serie C,1,1,0,0,15,12,2,2,52,67,9,2,2.87,2.8,2.6
+2025-06-02,São Bernardo,CSA,Brasil - Serie C,1,3,0,2,20,9,4,6,55,15,12,2,1.72,3.4,5.0
+2025-05-26,Brusque,São Bernardo,Brasil - Serie C,1,0,1,0,4,20,1,5,31,62,1,7,2.55,2.75,2.87
+2025-05-18,São Bernardo,Caxias,Brasil - Serie C,1,0,0,0,16,7,5,2,67,34,5,7,1.66,3.6,4.75
+2025-05-10,Guarani,São Bernardo,Brasil - Serie C,0,1,0,1,13,9,2,5,92,56,9,6,2.2,3.0,3.3
+2025-05-05,São Bernardo,Londrina,Brasil - Serie C,0,0,0,0,6,5,2,2,49,34,8,3,1.9,3.25,3.9
+2025-04-27,Itabaiana,São Bernardo,Brasil - Serie C,0,1,0,1,10,7,3,3,113,56,6,3,2.45,3.0,2.7
+2025-04-20,Maringá,São Bernardo,Brasil - Serie C,1,0,0,0,20,8,6,2,110,98,5,1,1.7,3.3,5.25
+2025-04-13,São Bernardo,ABC,Brasil - Serie C,1,1,0,0,14,6,4,1,48,34,6,6,1.85,3.2,4.0
+2025-08-30,O'Higgins,Audax Italiano,Chile - Primera Division,3,2,2,0,21,7,10,3,46,55,5,6,1.9,3.5,3.8
+2025-09-07,Cobresal,Palestino,Chile - Primera Division,2,1,1,0,23,9,8,2,46,40,8,7,2.35,3.4,2.75
+2025-08-30,Deportes Iquique,Deportes Limache,Chile - Primera Division,2,1,0,1,25,7,8,2,46,28,9,2,2.5,3.5,2.55
+2025-08-22,Deportes Limache,O'Higgins,Chile - Primera Division,2,2,1,0,11,14,5,8,33,56,5,3,2.75,3.3,2.5
+2025-08-17,Huachipato,Deportes Limache,Chile - Primera Division,4,0,1,0,14,14,5,5,37,43,5,7,2.25,3.2,3.1
+2025-08-11,Deportes Limache,Audax Italiano,Chile - Primera Division,4,0,1,0,15,13,6,2,35,60,3,8,2.45,3.4,2.75
+2025-08-02,Coquimbo Unido,Deportes Limache,Chile - Primera Division,2,1,0,1,13,4,3,1,54,24,7,1,1.61,3.8,5.25
+2025-09-07,América de Cali,Deportivo Cali,Colômbia - Liga Betplay,0,0,0,0,12,7,2,3,25,27,4,6,1.7,3.4,5.5
+2025-09-10,Millonarios,Deportivo Pasto,Colômbia - Liga Betplay,1,0,1,0,12,14,6,6,39,25,5,2,1.5,3.8,7.0
+2025-09-09,Atlético Bucaramanga,Once Caldas,Colômbia - Liga Betplay,0,0,0,0,18,6,6,1,39,26,7,2,1.6,3.7,5.5
+2025-08-30,Ulsan,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,2,0,0,15,13,0,4,61,65,4,5,2.35,3.4,2.9
+2025-08-31,Daejeon Citizen,Sangju Sangmu,Coréia Do Sul - K-League 1,2,1,0,0,24,10,7,2,91,55,11,3,2.3,3.5,2.9
+2025-08-31,Gangwon,Pohang Steelers,Coréia Do Sul - K-League 1,1,0,1,0,12,8,7,1,45,37,4,1,2.7,3.0,2.75
+2025-08-31,Seoul,Anyang,Coréia Do Sul - K-League 1,1,2,0,1,21,9,4,7,93,46,7,4,1.7,3.9,4.5
+2025-09-07,Hwaseong,Chungnam Asan,Coréia Do Sul - K League 2,1,1,1,1,15,10,4,4,38,43,1,3,3.8,3.4,1.85
+2025-09-06,Jeonnam Dragons,Seoul E.,Coréia Do Sul - K League 2,1,2,1,2,15,7,5,4,98,52,4,0,2.8,3.4,2.3
+2025-09-06,Busan I'Park,Suwon Bluewings,Coréia Do Sul - K League 2,1,0,1,0,16,7,4,2,74,43,6,4,3.0,3.5,2.15
+2025-09-06,Cheongju,Gyeongnam,Coréia Do Sul - K League 2,0,1,0,0,10,14,1,4,32,39,3,3,2.25,3.4,2.9
+2025-09-07,Gimpo,Cheonan City,Coréia Do Sul - K League 2,1,3,0,1,11,17,5,12,44,25,9,4,1.72,3.5,4.5
+2025-09-07,Bucheon 1995,Incheon United,Coréia Do Sul - K League 2,1,0,0,0,4,8,2,0,44,60,2,2,4.1,3.1,1.95
+2025-08-30,Independiente del Valle,Técnico Universitario,Equador - Liga Pro,4,0,2,0,17,6,10,1,53,20,10,3,1.45,4.2,7.0
+2025-08-24,Emelec,Independiente del Valle,Equador - Liga Pro,0,1,0,1,15,10,3,3,24,10,5,5,3.0,3.0,2.4
+2025-08-09,Manta,Independiente del Valle,Equador - Liga Pro,0,0,0,0,9,16,2,4,38,43,1,10,5.0,3.9,1.61
+2025-08-02,Independiente del Valle,El Nacional,Equador - Liga Pro,1,0,0,0,9,11,2,2,45,24,6,4,1.42,4.33,7.5
+2025-07-18,Independiente del Valle,Aucas,Equador - Liga Pro,2,1,2,0,13,11,5,2,2,4,2,4,1.85,3.25,4.33
+2025-07-11,Macará,Independiente del Valle,Equador - Liga Pro,1,2,1,1,11,11,1,4,36,40,4,4,3.7,3.3,1.95
+2025-06-14,Independiente del Valle,Libertad,Equador - Liga Pro,1,1,1,0,14,11,6,1,49,41,5,3,1.38,4.5,7.5
+2025-05-31,Delfin,Independiente del Valle,Equador - Liga Pro,1,1,0,1,9,6,4,1,37,21,5,3,3.7,3.1,2.1
+2025-05-23,Independiente del Valle,Mushuc Runa,Equador - Liga Pro,2,1,1,0,18,8,7,3,32,40,5,4,1.53,4.0,6.0
+2025-05-18,Cuniburo,Independiente del Valle,Equador - Liga Pro,1,3,0,1,12,21,5,4,23,43,3,4,3.6,3.4,2.0
+2025-05-11,Técnico Universitario,Independiente del Valle,Equador - Liga Pro,1,2,0,1,19,14,9,9,44,35,5,10,2.8,3.1,2.5
+2025-05-04,Independiente del Valle,Emelec,Equador - Liga Pro,1,2,0,1,21,9,7,4,1,0,6,1,1.48,4.5,5.5
+2025-04-19,Independiente del Valle,Manta,Equador - Liga Pro,2,0,2,0,20,6,7,1,50,23,7,3,1.16,6.5,17.0
+2025-04-14,El Nacional,Independiente del Valle,Equador - Liga Pro,1,3,1,3,12,11,3,4,48,29,8,2,3.8,3.4,1.9
+2025-03-28,Aucas,Independiente del Valle,Equador - Liga Pro,1,2,1,2,17,10,5,6,0,0,3,2,3.1,3.2,2.4
+2025-03-16,Independiente del Valle,Macará,Equador - Liga Pro,1,1,0,1,15,7,3,3,45,19,7,5,1.48,3.8,7.5
+2025-02-15,Libertad,Independiente del Valle,Equador - Liga Pro,2,0,1,0,5,15,2,2,27,56,4,5,6.0,3.7,1.57
+2024-11-24,Independiente del Valle,Macará,Equador - Liga Pro,7,0,6,0,17,10,10,2,40,18,2,5,1.22,6.0,12.0
+2024-11-03,Independiente del Valle,El Nacional,Equador - Liga Pro,2,0,1,0,15,4,6,0,27,29,2,3,1.14,7.5,17.0
+2025-08-29,Cuniburo,El Nacional,Equador - Liga Pro,0,1,0,0,9,14,2,5,24,45,4,6,2.7,3.1,2.6
+2025-08-31,Barcelona Guayaquil,Universidad Católica,Equador - Liga Pro,2,3,1,0,11,18,4,5,32,33,4,10,1.85,3.4,4.2
+2025-08-31,Deportivo Cuenca,Orense,Equador - Liga Pro,1,1,0,0,17,4,4,0,53,18,8,2,1.9,3.2,4.2
+2025-08-30,Mushuc Runa,Manta,Equador - Liga Pro,2,0,1,0,15,7,7,1,45,17,6,1,1.66,3.75,5.0
+2025-08-23,Macará,Mushuc Runa,Equador - Liga Pro,2,1,1,1,8,11,3,2,31,34,3,3,2.25,3.2,3.2
+2025-08-16,Mushuc Runa,Aucas,Equador - Liga Pro,1,0,0,0,10,16,4,4,27,38,1,9,3.0,3.4,2.2
+2025-08-09,Mushuc Runa,Libertad,Equador - Liga Pro,1,2,1,1,21,6,7,2,50,21,7,1,2.3,3.2,3.0
+2025-07-27,Mushuc Runa,Técnico Universitario,Equador - Liga Pro,0,1,0,1,11,14,4,4,52,34,7,2,2.35,3.1,3.2
+2025-07-20,Emelec,Mushuc Runa,Equador - Liga Pro,1,0,1,0,11,11,3,3,34,42,5,6,1.57,3.7,5.75
+2025-07-13,Cuniburo,Mushuc Runa,Equador - Liga Pro,1,1,0,0,12,14,5,3,37,25,11,5,0.0,0.0,0.0
+2025-08-30,Tallinna Kalev,Flora,Estônia - Meistriliiga,0,4,0,0,9,21,4,9,34,54,6,6,9.0,6.25,1.2
+2025-08-30,Vaprus,Paide,Estônia - Meistriliiga,1,0,1,0,14,12,6,5,51,60,4,6,4.75,4.1,1.61
+2025-08-31,Tammeka,Harju Jalgpallikool,Estônia - Meistriliiga,3,0,2,0,15,17,8,5,48,68,5,9,2.4,3.7,2.35
+2025-08-29,Levadia,Trans,Estônia - Meistriliiga,3,1,1,0,19,7,8,4,53,53,4,7,1.45,3.7,6.5
+2025-08-22,Levadia,Vaprus,Estônia - Meistriliiga,1,3,0,3,31,6,13,4,108,30,11,1,1.25,5.5,8.0
+2025-08-17,Tallinna Kalev,Levadia,Estônia - Meistriliiga,1,6,1,2,9,32,4,13,28,57,1,4,19.0,7.5,1.14
+2025-08-31,Nagoya Grampus,Tokyo,Japão - J-League,1,1,0,0,15,10,2,4,44,36,6,3,2.25,3.4,3.0
+2025-08-31,Urawa Reds,Albirex Niigata,Japão - J-League,1,0,1,0,14,17,5,4,48,66,1,9,1.7,3.8,4.75
+2025-08-31,Shimizu S-Pulse,Kashima Antlers,Japão - J-League,1,1,1,0,10,17,6,6,29,68,2,5,3.0,3.4,2.3
+2025-08-31,Shonan Bellmare,Gamba Osaka,Japão - J-League,4,5,3,1,10,25,7,14,28,66,5,9,4.33,3.5,1.83
+2025-08-16,Consadole Sapporo,Blaublitz Akita,Japão - J2-League,0,2,0,1,16,11,1,5,80,53,9,7,2.3,3.3,3.0
+2025-08-31,Ehime,Vegalta Sendai,Japão - J2-League,1,1,1,0,7,33,2,5,40,65,4,12,5.0,3.6,1.65
+2025-08-30,Mito Hollyhock,Renofa Yamaguchi,Japão - J2-League,2,2,1,0,17,10,4,6,52,42,5,5,2.0,3.2,3.7
+2025-08-30,JEF United,Ventforet Kofu,Japão - J2-League,2,1,1,1,15,20,6,8,74,69,2,6,1.85,3.4,4.1
+2025-08-23,Ventforet Kofu,Consadole Sapporo,Japão - J2-League,1,2,1,2,9,12,2,4,46,61,3,4,2.15,3.4,3.2
+2025-08-30,Montedio Yamagata,Sagan Tosu,Japão - J2-League,3,2,3,1,17,11,7,3,74,63,4,3,2.5,3.2,2.75
+2025-08-23,Sagan Tosu,Mito Hollyhock,Japão - J2-League,2,2,0,1,17,13,5,5,73,55,6,2,2.7,3.1,2.6
+2025-08-31,Oita Trinita,Júbilo Iwata,Japão - J2-League,0,0,0,0,7,9,1,2,32,60,1,4,3.1,3.2,2.3
+2025-08-30,Imabari,Iwaki,Japão - J2-League,0,2,0,1,9,9,1,5,41,73,2,8,2.37,3.4,2.8
+2025-08-23,Blaublitz Akita,Imabari,Japão - J2-League,1,2,1,1,11,10,6,5,56,28,5,5,2.8,3.2,2.5
+2025-08-16,Kataller Toyama,Imabari,Japão - J2-League,1,2,0,2,17,14,9,4,84,40,12,3,4.2,3.25,1.9
+2025-08-09,Imabari,Roasso Kumamoto,Japão - J2-League,3,2,2,0,11,8,6,4,25,48,2,5,2.0,3.5,3.6
+2025-08-30,Consadole Sapporo,Omiya Ardija,Japão - J2-League,1,0,1,0,14,15,5,4,32,35,4,2,2.9,3.5,2.25
+2025-08-23,Omiya Ardija,Roasso Kumamoto,Japão - J2-League,1,0,0,0,18,8,5,2,68,50,9,2,1.9,3.4,3.5
+2025-08-31,V-Varen Nagasaki,Fujieda MYFC,Japão - J2-League,2,1,1,1,16,8,8,4,50,56,2,6,1.57,4.2,5.0
+2025-08-30,Banga,Kauno Žalgiris,Lituânia - A Lyga,0,0,0,0,0,0,2,5,0,0,3,7,0.0,0.0,0.0
+2025-08-23,Sogndal,Moss,Noruega - Obos-Ligaen,3,1,3,0,10,13,5,2,23,52,1,5,1.75,3.9,4.0
+2025-08-10,Mjøndalen,Sogndal,Noruega - Obos-Ligaen,2,3,1,2,11,16,4,6,41,43,3,3,4.0,3.8,1.8
+2025-08-02,Sogndal,Skeid,Noruega - Obos-Ligaen,1,1,0,0,11,12,3,4,44,37,6,6,1.66,4.2,4.2
+2025-07-30,Moss,Sogndal,Noruega - Obos-Ligaen,3,1,2,0,13,22,6,7,14,18,4,7,2.55,3.5,2.55
+2025-07-26,Sogndal,Stabæk,Noruega - Obos-Ligaen,1,1,1,0,21,6,7,3,69,94,7,6,2.25,3.7,2.8
+2025-06-28,Lillestrøm,Sogndal,Noruega - Obos-Ligaen,0,0,0,0,14,11,1,2,72,47,4,4,1.28,6.0,7.5
+2025-08-30,Lillestrøm,Skeid,Noruega - Obos-Ligaen,3,1,0,1,31,5,10,2,55,30,9,3,1.12,7.5,17.0
+2025-08-16,Lillestrøm,Start,Noruega - Obos-Ligaen,3,0,0,0,17,7,7,2,65,49,7,3,1.55,4.75,4.75
+2025-08-31,Lyn,Odd,Noruega - Obos-Ligaen,0,0,0,0,6,11,5,3,91,55,7,8,1.6,4.33,4.75
+2025-08-23,Mjøndalen,Hødd,Noruega - Obos-Ligaen,1,1,0,1,11,9,2,5,47,36,6,6,2.7,3.5,2.37
+2025-08-17,Hødd,Skeid,Noruega - Obos-Ligaen,1,1,0,1,16,5,5,2,119,40,12,1,1.95,3.6,3.7
+2025-08-10,Hødd,Start,Noruega - Obos-Ligaen,0,2,0,0,6,9,2,2,51,33,10,3,4.5,3.9,1.7
+2025-08-06,Sogndal,Hødd,Noruega - Obos-Ligaen,2,1,2,0,18,14,8,5,80,86,3,5,1.85,3.9,3.7
+2025-08-02,Ranheim,Hødd,Noruega - Obos-Ligaen,2,1,0,0,19,10,10,4,34,20,9,9,1.72,3.9,4.1
+2025-08-18,Stabæk,Sogndal,Noruega - Obos-Ligaen,1,2,0,1,16,11,4,4,86,71,7,3,2.35,3.9,2.6
+2025-08-10,Kongsvinger,Stabæk,Noruega - Obos-Ligaen,2,1,1,0,17,7,9,2,59,30,7,3,1.65,4.33,4.2
+2025-08-30,Hødd,Raufoss,Noruega - Obos-Ligaen,2,4,1,2,10,20,4,8,47,53,6,10,2.2,3.4,3.0
+2025-08-23,Raufoss,Lillestrøm,Noruega - Obos-Ligaen,1,2,0,1,9,17,3,8,26,65,3,7,7.5,5.0,1.36
+2025-08-18,Åsane,Raufoss,Noruega - Obos-Ligaen,4,2,4,2,10,11,4,7,74,79,3,7,2.2,3.4,3.1
+2025-08-31,Aalesund,Egersund,Noruega - Obos-Ligaen,2,3,1,1,26,18,15,10,67,33,13,2,1.53,4.75,5.0
+2025-08-30,Stabæk,Start,Noruega - Obos-Ligaen,1,1,0,1,16,7,5,3,55,70,4,3,3.2,3.7,2.05
+2025-08-30,Kongsvinger,Ranheim,Noruega - Obos-Ligaen,1,1,1,0,14,15,4,5,50,51,9,5,1.57,4.5,4.5
+2025-08-23,Ranheim,Stabæk,Noruega - Obos-Ligaen,1,1,0,1,9,8,4,2,31,34,6,4,2.6,3.6,2.45
+2025-08-30,Åsane,Sogndal,Noruega - Obos-Ligaen,1,1,0,1,10,10,4,4,43,45,4,5,3.1,3.5,2.2
+2025-09-06,General Caballero JLM,Libertad,Paraguai - Division 1,0,0,0,0,10,15,2,2,39,54,7,9,3.9,3.3,1.95
+2025-08-23,Comerciantes Unidos,Alianza Universidad,Peru - Primera Division,1,2,0,2,17,9,5,5,39,25,8,3,2.15,3.1,3.4
+2025-08-17,Cusco FC,Alianza Atlético,Peru - Primera Division,1,0,1,0,11,12,7,4,28,25,4,3,1.4,4.33,8.0
+2025-08-06,Deportivo Binacional,Alianza Atlético,Peru - Primera Division,2,0,2,0,16,10,7,1,35,35,5,4,2.3,3.2,3.1
+2025-08-01,Alianza Atlético,Melgar,Peru - Primera Division,0,0,0,0,16,8,3,2,57,41,6,4,2.2,3.2,3.3
+2025-07-27,Alianza Lima,Alianza Atlético,Peru - Primera Division,1,1,0,0,16,13,5,4,38,26,5,3,1.4,4.2,8.0
+2025-08-22,Juan Pablo II College,Cusco FC,Peru - Primera Division,0,0,0,0,24,3,6,2,85,28,8,3,3.3,3.2,2.2
+2025-08-10,Juan Pablo II College,Deportivo Binacional,Peru - Primera Division,0,0,0,0,12,4,6,0,33,28,0,5,1.57,3.6,6.5
+2025-08-05,Melgar,Juan Pablo II College,Peru - Primera Division,1,1,1,0,21,5,5,2,80,20,11,0,1.2,5.75,15.0
+2025-07-31,Juan Pablo II College,Alianza Lima,Peru - Primera Division,1,2,1,1,13,17,5,7,31,71,2,10,7.5,4.75,1.38
+2025-07-20,Juan Pablo II College,Sport Boys,Peru - Primera Division,3,0,2,0,10,13,5,3,31,43,1,6,1.95,3.25,4.2
+2025-07-13,Juan Pablo II College,Alianza Universidad,Peru - Primera Division,1,0,0,0,8,13,3,5,45,47,1,6,1.9,3.3,3.75
+2025-07-02,Juan Pablo II College,Melgar,Peru - Primera Division,1,1,0,1,11,10,2,4,43,43,4,6,4.33,2.87,2.0
+2025-06-27,Juan Pablo II College,Cienciano,Peru - Primera Division,2,2,1,2,14,12,6,6,48,34,5,4,2.15,3.1,3.2
+2025-06-22,Comerciantes Unidos,Juan Pablo II College,Peru - Primera Division,3,0,3,0,9,14,4,6,25,46,4,2,2.2,3.1,3.3
+2025-06-14,Juan Pablo II College,Los Chankas,Peru - Primera Division,3,0,2,0,19,12,9,3,50,25,5,5,1.8,3.25,5.0
+2025-05-25,Deportivo Garcilaso,Juan Pablo II College,Peru - Primera Division,4,0,1,0,12,14,7,6,15,16,3,3,1.36,4.75,7.0
+2025-05-18,Juan Pablo II College,Universitario,Peru - Primera Division,2,0,1,0,5,17,4,3,10,67,1,5,12.0,6.0,1.2
+2025-05-03,Juan Pablo II College,Ayacucho,Peru - Primera Division,0,0,0,0,7,8,2,2,44,44,7,2,1.75,3.7,4.33
+2025-04-28,Sporting Cristal,Juan Pablo II College,Peru - Primera Division,3,2,3,1,11,13,4,7,36,48,6,7,1.22,6.5,10.0
+2025-04-12,Juan Pablo II College,Alianza Atlético,Peru - Primera Division,1,0,1,0,10,9,3,2,28,53,1,2,2.75,3.3,2.45
+2025-04-06,Cusco FC,Juan Pablo II College,Peru - Primera Division,4,2,2,0,14,9,5,4,37,21,2,4,1.25,6.0,11.0
+2025-03-10,Deportivo Binacional,Juan Pablo II College,Peru - Primera Division,2,0,1,0,16,9,5,2,28,34,8,6,1.3,5.0,10.0
+2025-02-21,Alianza Lima,Juan Pablo II College,Peru - Primera Division,1,0,1,0,22,9,6,4,50,39,7,7,1.2,5.5,11.0
+2025-02-16,Juan Pablo II College,Sport Huancayo,Peru - Primera Division,0,1,0,0,7,12,1,4,34,35,1,7,2.8,3.1,2.6
+2025-02-09,Sport Boys,Juan Pablo II College,Peru - Primera Division,1,0,0,0,17,9,4,1,40,15,3,1,1.57,4.1,5.25
+2025-08-24,Universitario,Alianza Lima,Peru - Primera Division,0,0,0,0,17,5,4,0,52,25,2,1,1.9,3.1,4.5
+2025-08-25,Falkenberg,Sandviken,Suécia - Superettan,4,0,2,0,11,11,5,4,43,67,4,5,2.05,3.3,3.3
+2025-08-16,Helsingborg,Falkenberg,Suécia - Superettan,0,0,0,0,12,8,4,2,81,49,3,3,2.1,3.5,3.3
+2025-08-31,Utsikten,Örgryte,Suécia - Superettan,1,2,1,1,13,19,3,6,68,74,10,6,3.9,4.0,1.72
+2025-08-30,Landskrona,GIF Sundsvall,Suécia - Superettan,2,1,2,1,12,19,7,4,42,72,3,3,1.8,3.6,3.8
+2025-08-09,GIF Sundsvall,Sandviken,Suécia - Superettan,1,0,1,0,7,11,3,2,38,62,2,4,2.4,3.4,2.8
+2025-07-26,GIF Sundsvall,Örebro,Suécia - Superettan,1,1,0,1,21,9,6,3,63,23,14,2,2.4,3.25,2.8
+2025-06-01,GIF Sundsvall,Falkenberg,Suécia - Superettan,0,0,0,0,10,12,4,3,54,65,4,5,3.2,3.5,2.15
+2025-05-27,Sandviken,GIF Sundsvall,Suécia - Superettan,0,1,0,1,9,6,4,1,101,27,8,0,1.95,3.8,3.5
+2025-05-17,Örebro,GIF Sundsvall,Suécia - Superettan,1,2,1,0,14,5,3,2,99,63,5,6,2.05,3.25,3.8
+2025-05-10,GIF Sundsvall,Västerås SK,Suécia - Superettan,1,2,1,0,12,11,5,5,44,45,6,3,3.7,3.5,1.95
+2025-04-20,GIF Sundsvall,Landskrona,Suécia - Superettan,1,2,0,0,7,11,0,4,33,45,2,7,2.7,3.6,2.25
+2025-04-05,Kalmar,GIF Sundsvall,Suécia - Superettan,1,0,1,0,11,5,6,2,53,44,6,6,1.42,4.5,7.0
+2025-03-29,GIF Sundsvall,Helsingborg,Suécia - Superettan,2,0,0,0,6,9,3,2,37,66,3,2,3.0,3.7,1.9
+2024-11-09,GIF Sundsvall,Gefle,Suécia - Superettan,3,0,1,0,8,6,7,4,44,57,2,4,1.95,3.4,4.1
+2024-11-02,Sandviken,GIF Sundsvall,Suécia - Superettan,1,2,0,0,4,2,2,2,53,20,6,2,1.57,4.1,4.75
+2024-10-21,Helsingborg,GIF Sundsvall,Suécia - Superettan,2,1,1,0,6,5,9,4,63,85,3,6,1.61,4.2,4.75
+2024-09-28,Skövde AIK,GIF Sundsvall,Suécia - Superettan,0,2,0,2,14,9,4,7,44,32,4,4,2.62,3.1,2.62
+2024-08-31,Örebro,GIF Sundsvall,Suécia - Superettan,0,0,0,0,13,2,7,4,69,34,8,2,1.57,3.8,5.0
+2024-08-12,Landskrona,GIF Sundsvall,Suécia - Superettan,0,0,0,0,9,3,5,2,50,19,11,1,1.33,5.25,8.0
+2024-06-29,GIF Sundsvall,Örebro,Suécia - Superettan,1,3,0,1,11,9,3,6,59,61,3,3,2.9,3.1,2.3
+2025-08-30,Varberg BoIS,Falkenberg,Suécia - Superettan,3,2,1,1,13,10,8,4,46,52,4,2,1.95,3.5,3.5
+2025-08-10,Kalmar,Varberg BoIS,Suécia - Superettan,2,0,1,0,13,7,5,2,71,44,10,5,1.9,3.6,3.9
+2025-07-28,Helsingborg,Varberg BoIS,Suécia - Superettan,1,2,0,0,15,14,6,6,88,73,4,7,2.3,3.25,3.0
+2025-07-20,Varberg BoIS,GIF Sundsvall,Suécia - Superettan,0,2,0,0,14,7,5,4,92,40,7,2,1.8,3.4,4.1
+2025-06-15,Varberg BoIS,Västerås SK,Suécia - Superettan,1,0,0,0,12,9,2,3,59,41,6,4,2.5,3.3,2.6
+2025-05-31,Sandviken,Varberg BoIS,Suécia - Superettan,2,1,1,0,12,11,9,5,47,50,5,4,2.8,3.7,2.35
+2025-05-25,Varberg BoIS,Kalmar,Suécia - Superettan,0,0,0,0,13,6,2,2,55,54,6,8,3.5,3.4,2.05
+2025-05-22,Varberg BoIS,Landskrona,Suécia - Superettan,4,2,4,0,14,11,7,4,42,86,2,4,2.25,3.25,3.2
+2025-05-03,Varberg BoIS,Helsingborg,Suécia - Superettan,1,0,0,0,9,7,3,1,86,79,6,2,2.2,3.5,3.1
+2025-04-07,Varberg BoIS,Örebro,Suécia - Superettan,2,1,1,1,16,6,5,2,77,62,4,1,2.1,3.6,3.2
+2025-03-29,Falkenberg,Varberg BoIS,Suécia - Superettan,2,2,1,1,11,14,4,6,51,62,3,6,2.0,3.7,2.9
+2024-11-09,Varberg BoIS,Sandviken,Suécia - Superettan,2,1,1,1,9,17,7,9,46,52,3,5,2.5,3.9,2.5
+2024-10-05,Varberg BoIS,Örebro,Suécia - Superettan,1,1,0,1,6,11,11,12,53,63,7,9,2.3,3.1,3.1
+2024-09-18,Skövde AIK,Varberg BoIS,Suécia - Superettan,2,2,0,1,13,13,4,7,47,47,2,2,3.0,3.5,2.2
+2024-08-26,Landskrona,Varberg BoIS,Suécia - Superettan,1,4,1,2,16,7,7,4,43,26,10,3,1.66,4.0,4.75
+2024-08-16,Varberg BoIS,GIF Sundsvall,Suécia - Superettan,3,0,1,0,6,10,4,6,55,77,8,9,1.8,3.5,4.33
+2024-08-10,Gefle,Varberg BoIS,Suécia - Superettan,0,4,0,1,7,13,3,7,38,36,3,1,2.1,3.7,3.2
+2024-08-03,Varberg BoIS,Helsingborg,Suécia - Superettan,0,3,0,2,8,10,3,6,64,80,5,5,2.9,3.4,2.15
+2024-07-22,Varberg BoIS,Landskrona,Suécia - Superettan,1,1,0,0,3,17,2,6,15,66,1,10,3.1,3.4,2.25
+2024-06-28,Helsingborg,Varberg BoIS,Suécia - Superettan,1,0,0,0,11,6,3,2,101,57,6,3,1.85,3.3,3.9
+2024-06-23,Varberg BoIS,Gefle,Suécia - Superettan,4,3,1,1,10,15,6,11,50,74,5,8,1.83,3.5,3.8
+2025-08-30,Sandviken,Örebro,Suécia - Superettan,2,1,1,0,13,8,6,2,53,55,5,4,2.15,3.5,2.8
+2025-08-30,Östersunds FK,Kalmar,Suécia - Superettan,0,0,0,0,16,14,5,2,33,60,3,10,3.9,3.9,1.7
+2025-08-24,Varberg BoIS,Östersunds FK,Suécia - Superettan,1,1,0,0,10,10,2,6,60,56,7,5,1.7,3.8,4.1
+2025-08-16,Östersunds FK,GIF Sundsvall,Suécia - Superettan,1,3,0,1,25,11,8,6,73,39,9,1,2.05,3.4,3.5
+2025-08-09,Landskrona,Östersunds FK,Suécia - Superettan,2,0,1,0,13,6,4,1,63,44,5,6,2.1,3.4,3.4
+2025-08-02,Östersunds FK,Helsingborg,Suécia - Superettan,2,2,2,2,11,13,4,4,51,56,6,2,2.62,3.4,2.7
+2025-07-19,Östersunds FK,Falkenberg,Suécia - Superettan,3,1,1,0,16,8,7,3,45,32,5,3,2.55,3.4,2.55
+2025-06-28,GIF Sundsvall,Östersunds FK,Suécia - Superettan,1,1,1,1,10,13,2,2,59,55,8,2,2.37,3.1,2.9
+2025-06-01,Helsingborg,Östersunds FK,Suécia - Superettan,0,0,0,0,11,12,4,5,47,47,11,2,1.95,3.6,3.6
+2025-05-24,Östersunds FK,Örebro,Suécia - Superettan,3,1,1,0,22,16,8,8,34,36,4,6,2.15,3.3,3.1
+2025-05-21,Västerås SK,Östersunds FK,Suécia - Superettan,1,0,0,0,9,3,4,1,40,48,1,3,1.55,4.2,5.5
+2025-05-17,Östersunds FK,Sandviken,Suécia - Superettan,2,2,1,1,16,11,6,6,71,53,9,3,2.45,3.6,2.62
+2025-05-11,Östersunds FK,Varberg BoIS,Suécia - Superettan,0,1,0,1,8,13,3,4,37,48,4,4,2.4,3.5,2.75
+2025-04-20,Kalmar,Östersunds FK,Suécia - Superettan,2,0,0,0,10,8,5,3,54,52,1,8,1.42,4.2,6.5
+2025-04-05,Östersunds FK,Landskrona,Suécia - Superettan,3,3,2,0,12,19,4,9,31,64,5,7,2.35,3.5,2.9
+2024-10-19,Östersunds FK,Landskrona,Suécia - Superettan,2,1,0,0,9,11,12,12,32,52,3,1,2.8,3.4,2.37
+2024-10-05,Sandviken,Östersunds FK,Suécia - Superettan,3,1,0,1,13,12,8,5,36,28,4,5,1.65,4.0,4.75
+2024-09-24,Gefle,Östersunds FK,Suécia - Superettan,0,0,0,0,8,7,0,0,40,31,4,8,2.7,3.4,2.3
+2024-09-18,Östersunds FK,GIF Sundsvall,Suécia - Superettan,1,2,1,0,10,5,4,4,54,25,7,1,1.75,3.6,4.33
+2024-09-13,Östersunds FK,Helsingborg,Suécia - Superettan,1,0,1,0,6,8,2,3,58,50,2,4,2.3,3.4,2.75
+2024-08-25,Östersunds FK,Skövde AIK,Suécia - Superettan,2,2,2,1,19,4,14,2,51,36,12,3,1.4,5.0,7.0
+2024-08-02,Örebro,Östersunds FK,Suécia - Superettan,4,1,1,1,15,4,11,3,57,39,6,3,2.0,3.5,3.2
+2024-07-27,Östersunds FK,Varberg BoIS,Suécia - Superettan,2,1,0,1,15,2,9,2,63,32,6,1,1.75,3.9,3.9
+2025-08-31,Umeå,Oddevold,Suécia - Superettan,0,2,0,1,10,10,4,3,29,28,3,3,2.75,3.5,2.25
+2025-08-31,Brage,Trelleborg,Suécia - Superettan,2,1,0,1,15,11,8,4,72,36,10,4,2.2,3.4,3.2
+2025-09-07,Nacional,Racing,Uruguai - Primera Division,3,0,2,0,10,13,6,2,73,46,12,5,1.5,4.1,6.0
+2025-09-06,Boston River,River Plate,Uruguai - Primera Division,2,0,2,0,6,8,5,5,55,69,4,5,1.7,3.7,4.75
+2025-09-07,Torque,Liverpool,Uruguai - Primera Division,1,1,0,0,14,17,2,7,41,44,2,10,2.2,3.1,3.4
+2025-09-06,Peñarol,Plaza Colonia,Uruguai - Primera Division,1,0,0,0,9,8,4,3,104,53,5,2,1.2,6.5,10.0
+2025-09-07,Cerro,Cerro Largo,Uruguai - Primera Division,0,1,0,0,11,13,3,6,65,56,2,1,2.62,3.1,2.7
+2025-09-05,Defensor Sporting,Juventud,Uruguai - Primera Division,1,0,0,0,15,7,4,1,53,62,4,3,2.2,3.1,3.3
+2025-08-31,UCV,Zamora Fútbol Club,Venezuela - Primera Division,0,1,0,0,12,8,4,2,69,27,9,2,1.75,3.5,3.9
+2025-08-30,Rayo Zuliano,Carabobo,Venezuela - Primera Division,0,2,0,1,6,17,0,7,31,38,5,7,4.1,3.7,1.66
+2025-08-30,Deportivo La Guaira,Portuguesa,Venezuela - Primera Division,3,1,0,1,19,8,7,3,47,16,6,0,1.4,4.2,7.0
