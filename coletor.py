@@ -159,8 +159,6 @@ def rotina_diaria_noturna():
         todos_os_jogos_novos = []
         ligas_permitidas = cfg.LIGAS_PERMITIDAS
 
-        print(
-            "Executando a raspagem das equipas de forma sequencial para maior estabilidade.")
         for url, liga_correta in tqdm(equipas_a_visitar.items(), desc="Atualizando Histórico das Equipas"):
             jogos_da_equipa = dt.raspar_dados_time(
                 driver, url, liga_correta, jogos_existentes, ligas_permitidas, cfg.LIMITE_JOGOS_POR_TIME)

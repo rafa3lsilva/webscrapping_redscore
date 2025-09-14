@@ -58,222 +58,128 @@ def _converter_stat_para_int(stat_string):
 # ==========================
 # Função de Raspagem
 # ==========================
-
-
 def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
     """
-    Raspagem da agenda de amanhã (robusta).
-    Retorna lista de dicts com chaves:
-      id_jogo, liga, hora, home, away, link_confronto, odd_h, odd_d, odd_a
+    Raspagem da agenda de amanhã na RedScores com suporte a múltiplos layouts.
+    Faz auditoria de jogos incompletos, salva HTML de debug e conta times únicos.
     """
     jogos = []
     total_encontrados = 0
     total_validos = 0
     total_incompletos = 0
     total_filtrados = 0
-
-    # normaliza ligas permitidas para comparação case-insensitive
-    ligas_normalizadas = {l.strip().lower() for l in ligas_permitidas_set if l}
+    times_unicos = set()
 
     try:
         driver.get("https://redscores.com/pt-br/futebol/amanha")
-        log.info("[AGENDA] Acessando /futebol/amanha")
+        log.info("[AGENDA] Aguardando agenda carregar...")
 
-        # espera genérica por qualquer estrutura plausível da página
-        try:
-            WebDriverWait(driver, 12).until(
-                EC.presence_of_element_located(
-                    (By.CSS_SELECTOR, "div[id^='league_'], div.fixtures, table"))
-            )
-        except Exception:
-            log.warning(
-                "[AGENDA] Elemento esperado não apareceu rapidamente — seguindo com o HTML atual")
-            time.sleep(1)
-
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "body"))
+        )
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
 
-        # 1) Primeiro: tenta estrutura antiga por blocos de liga (id league_)
-        blocos_de_liga = soup.find_all(
-            'div', id=lambda x: x and x.startswith('league_'))
-        if blocos_de_liga:
-            log.info(
-                f"[AGENDA] Detectados {len(blocos_de_liga)} blocos de liga (layout 'league_').")
-            for bloco in blocos_de_liga:
-                pais_el = bloco.select_one("span.d-block.d-md-inline")
-                pais = pais_el.text.strip() if pais_el else ''
-                liga_el = bloco.select_one("span.font-bold")
-                liga = liga_el.text.strip() if liga_el else ''
-                nome_liga_completo = f"{pais} - {liga}" if pais else liga
-                if nome_liga_completo and nome_liga_completo.lower() not in ligas_normalizadas:
-                    # pular ligas não permitidas
+        # 1️⃣ Primeiro tenta estrutura padrão da página "amanhã"
+        blocos_liga = soup.select("div[id^='league_']")
+        jogos_html = []
+
+        if blocos_liga:
+            for bloco in blocos_liga:
+                liga_pais = bloco.select_one("span.d-block.d-md-inline")
+                liga_nome = bloco.select_one("span.font-bold")
+                nome_liga = (
+                    f"{liga_pais.get_text(strip=True)} - {liga_nome.get_text(strip=True)}"
+                    if liga_pais else liga_nome.get_text(strip=True)
+                )
+
+                if nome_liga not in ligas_permitidas_set:
+                    total_filtrados += 1
                     continue
 
-                corpos_de_jogo = bloco.find_all(
-                    'tbody', id=lambda x: x and x.startswith('xmatch_'))
-                for corpo_jogo in corpos_de_jogo:
-                    try:
-                        linha = corpo_jogo.find('tr')
-                        if not linha:
-                            continue
-                        id_jogo = corpo_jogo.get('id', '').replace(
-                            'xmatch_', '') or None
-                        tds = linha.find_all('td')
+                jogos_bloco = bloco.select("tbody[id^='xmatch_']")
+                for corpo in jogos_bloco:
+                    jogos_html.append((nome_liga, corpo))
 
-                        # tentativa segura de extrair campos (com validações)
-                        hora = tds[1].get_text(
-                            strip=True) if len(tds) > 1 else None
-                        # tenta extrair nomes dos times com diferentes possíveis seletores
+        # 2️⃣ Fallback: tenta o layout "fixtures__item" ou "a.matchLink"
+        if not jogos_html:
+            log.warning(
+                "[AGENDA] Nenhum bloco de liga encontrado. Tentando layout alternativo...")
+            for jogo in soup.select("div.fixtures__item, a.matchLink"):
+                jogos_html.append(("Desconhecida", jogo))
 
-                        def extrair_time_from_td(td_idx):
-                            if len(tds) > td_idx:
-                                el = tds[td_idx]
-                                # prefer span.team, fallback a texto direto
-                                s = el.select_one("span.team")
-                                if s and s.get_text(strip=True):
-                                    return s.get_text(strip=True)
-                                # fallback: link ou texto
-                                a = el.select_one("a")
-                                if a and a.get_text(strip=True):
-                                    return a.get_text(strip=True)
-                                return el.get_text(strip=True)
-                            return None
+        total_encontrados = len(jogos_html)
+        log.info(f"[AGENDA] Total de jogos encontrados: {total_encontrados}")
 
-                        time_casa = extrair_time_from_td(2)
-                        time_fora = extrair_time_from_td(4)
-                        link_elem = tds[2].select_one(
-                            "a") if len(tds) > 2 else None
-                        link_confronto = "https://redscores.com" + \
-                            link_elem['href'] if link_elem and link_elem.has_attr(
-                                'href') else None
+        for nome_liga, jogo in jogos_html:
+            try:
+                if jogo.name == "tbody":
+                    # Layout padrão
+                    tds = jogo.select("tr td")
+                    hora_texto = tds[1].get_text(strip=True)
+                    home = tds[2].select_one("span.team").get_text(strip=True)
+                    away = tds[4].select_one("span.team").get_text(strip=True)
+                    link_url = "https://redscores.com" + \
+                        tds[2].select_one("a")["href"]
+                else:
+                    # Layout alternativo
+                    hora = jogo.select_one(".fixtures__time")
+                    equipes = jogo.select(".fixtures__name")
+                    link = jogo.get("href") or (jogo.select_one(
+                        "a.fixtures__match") or {}).get("href")
+                    hora_texto = hora.get_text(strip=True) if hora else None
+                    home, away = (e.get_text(strip=True) for e in equipes[:2]) if len(
+                        equipes) >= 2 else (None, None)
+                    link_url = "https://redscores.com" + link if link else None
 
-                        if not hora or not time_casa or not time_fora or not link_confronto:
-                            total_incompletos += 1
-                            log.warning(
-                                f"[AGENDA] Jogo incompleto (league_): LIGA={nome_liga_completo}, ID={id_jogo}, HORA={hora}, TIMES={[time_casa, time_fora]}, LINK={link_confronto}")
-                            with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
-                                writer = csv.writer(f)
-                                writer.writerow(
-                                    [nome_liga_completo, id_jogo, hora, time_casa, time_fora, link_confronto])
-                            continue
-
-                        jogos.append({
-                            "id_jogo": id_jogo,
-                            "liga": nome_liga_completo,
-                            "hora": hora,
-                            "home": " ".join(time_casa.split()),
-                            "away": " ".join(time_fora.split()),
-                            "link_confronto": link_confronto,
-                            "odd_h": None, "odd_d": None, "odd_a": None
-                        })
-                        total_validos += 1
-                    except Exception as e:
-                        total_incompletos += 1
-                        log.error(
-                            f"[AGENDA] Erro ao processar jogo (league_): {e}")
-                        with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
-                            writer = csv.writer(f)
-                            writer.writerow(["ERRO_LEAGUE", str(e)])
-                        continue
-
-        else:
-            # 2) Fallback: tenta layout moderno (.fixtures__item / fixtures)
-            jogos_html = soup.select(
-                "div.fixtures__item, li.fixture-item, div.fixture, div.match-row")
-            total_encontrados = len(jogos_html)
-            log.info(
-                f"[AGENDA] Layout 'fixtures' detectado: itens encontrados = {total_encontrados}")
-
-            for item in jogos_html:
-                try:
-                    # liga
-                    liga_el = item.select_one(
-                        "div.fixtures__tournament, .tournament-name, .competition")
-                    nome_liga = liga_el.get_text(
-                        strip=True) if liga_el else None
-                    if nome_liga and nome_liga.lower() not in ligas_normalizadas:
-                        total_filtrados += 1
-                        continue
-
-                    # hora
-                    hora_el = item.select_one(
-                        "div.fixtures__time, span.fixture__time, .time")
-                    hora_texto = hora_el.get_text(
-                        strip=True) if hora_el else None
-
-                    # times (varia bastante)
-                    equipes = item.select(
-                        "div.fixtures__name, span.team-name, .team .name, .team")
-                    times = [e.get_text(strip=True)
-                             for e in equipes if e.get_text(strip=True)]
-                    # se ainda não tiver 2, tenta pegar por spans separados
-                    if len(times) < 2:
-                        left = item.select_one(
-                            ".team--home, .home .name, .team-left")
-                        right = item.select_one(
-                            ".team--away, .away .name, .team-right")
-                        if left:
-                            tl = left.get_text(strip=True)
-                        else:
-                            tl = None
-                        if right:
-                            tr = right.get_text(strip=True)
-                        else:
-                            tr = None
-                        times = [t for t in [tl, tr] if t]
-
-                    # link
-                    link_tag = item.select_one(
-                        "a[href*='/match/'], a.fixtures__match, a.match-link")
-                    link_url = (
-                        "https://redscores.com" + link_tag['href']) if link_tag and link_tag.has_attr('href') else None
-
-                    if not hora_texto or len(times) < 2 or not link_url:
-                        total_incompletos += 1
-                        log.warning(
-                            f"[AGENDA] Jogo incompleto (fixtures): LIGA={nome_liga}, HORA={hora_texto}, TIMES={times}, LINK={link_url}")
-                        with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
-                            writer = csv.writer(f)
-                            writer.writerow(
-                                [nome_liga, hora_texto, ";".join(times), link_url])
-                        continue
-
-                    jogos.append({
-                        "id_jogo": None,
-                        "liga": nome_liga,
-                        "hora": hora_texto,
-                        "home": " ".join(times[0].split()),
-                        "away": " ".join(times[1].split()),
-                        "link_confronto": link_url,
-                        "odd_h": None, "odd_d": None, "odd_a": None
-                    })
-                    total_validos += 1
-
-                except Exception as e:
+                if not hora_texto or not home or not away or not link_url:
                     total_incompletos += 1
-                    log.error(
-                        f"[AGENDA] Erro ao processar item (fixtures): {e}")
+                    log.warning(
+                        f"[AGENDA] Jogo incompleto: {nome_liga} | {hora_texto} | {home} x {away} | {link_url}")
                     with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
                         writer = csv.writer(f)
-                        writer.writerow(["ERRO_FIXTURES", str(e)])
+                        writer.writerow(
+                            [nome_liga, hora_texto, home, away, link_url])
                     continue
 
-        # Se não encontrou nada por nenhum método, loga para diagnóstico
-        if total_validos == 0:
-            log.error(
-                "[AGENDA] Nenhum jogo válido coletado. Verifique seletores e HTML da página.")
-            # salva snapshot do HTML para debug
-            with open("pagina_amanha_snapshot.html", "w", encoding="utf-8") as f:
-                f.write(html)
+                jogos.append({
+                    "liga": nome_liga,
+                    "hora": hora_texto,
+                    "home": home,
+                    "away": away,
+                    "link_confronto": link_url
+                })
+
+                # auditoria de times
+                times_unicos.add(home)
+                times_unicos.add(away)
+
+                total_validos += 1
+
+            except Exception as e:
+                total_incompletos += 1
+                log.error(f"[AGENDA] Erro ao processar jogo: {e}")
+                with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
+                    writer = csv.writer(f)
+                    writer.writerow([nome_liga, "ERRO", str(e)])
+                continue
 
         log.info(
-            f"[AGENDA] Finalizado. Válidos: {total_validos}, Incompletos: {total_incompletos}, Filtrados: {total_filtrados}")
+            f"[AGENDA] Concluído. Válidos: {total_validos}, Incompletos: {total_incompletos}, Filtrados: {total_filtrados}")
+        log.info(
+            f"[AGENDA] Times únicos encontrados: {len(times_unicos)} (esperado ≈ {total_validos * 2})")
+
+        if total_validos == 0:
+            with open("snapshot_amanha.html", "w", encoding="utf-8") as f:
+                f.write(html)
+            log.warning(
+                "[AGENDA] Nenhum jogo válido encontrado. HTML salvo para inspeção.")
+
         return jogos
 
     except Exception as e:
         log.error(f"[AGENDA] Falha geral na raspagem: {e}")
         return []
-
 
 # ==========================
 # Obter links de equipes do confronto
