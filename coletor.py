@@ -108,7 +108,7 @@ def rotina_diaria_noturna():
 
         driver = login_redscore(REDSCORE_USER, REDSCORE_PASS)
 
-        print("--- Fase 1: Coletando agenda de amanhã ---")
+        print("\n--- Fase 1: Coletando agenda de amanhã ---")
         # navigation to agenda handled inside dt.raspar_jogos_de_amanha
         jogos_amanha = dt.raspar_jogos_de_amanha(
             driver, cfg.LIGAS_PERMITIDAS
