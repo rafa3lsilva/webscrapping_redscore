@@ -12422,3 +12422,68 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-14 18:02:01,195 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/orgryte/1870, AWAY=https://redscores.com/pt-br/team/umea/5881
 2025-09-14 18:05:25,176 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (16 linhas).
 2025-09-14 18:05:25,553 [INFO] root: --- Rotina diária concluída ---
+2025-09-15 19:25:55,726 [INFO] __main__: Coletor iniciado
+2025-09-15 19:25:55,727 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-15 19:26:17,476 [INFO] [AGENDA] Aguardando agenda carregar...
+2025-09-15 19:26:17,476 [INFO] coletor: [AGENDA] Aguardando agenda carregar...
+2025-09-15 19:26:18,196 [INFO] [AGENDA] Total de jogos encontrados: 13
+2025-09-15 19:26:18,196 [INFO] coletor: [AGENDA] Total de jogos encontrados: 13
+2025-09-15 19:26:18,201 [INFO] [AGENDA] Concluído. Válidos: 13, Incompletos: 0, Filtrados: 84
+2025-09-15 19:26:18,201 [INFO] coletor: [AGENDA] Concluído. Válidos: 13, Incompletos: 0, Filtrados: 84
+2025-09-15 19:26:18,201 [INFO] [AGENDA] Times únicos encontrados: 26 (esperado ≈ 26)
+2025-09-15 19:26:18,201 [INFO] coletor: [AGENDA] Times únicos encontrados: 26 (esperado ≈ 26)
+2025-09-15 19:26:18,206 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-16.csv (13 linhas).
+2025-09-15 19:26:20,499 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/seattle-sounders-inter-miami/nVx3IBA
+2025-09-15 19:26:20,499 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/seattle-sounders-inter-miami/nVx3IBA
+2025-09-15 19:26:21,027 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/inter-miami/239235, AWAY=https://redscores.com/pt-br/team/seattle-sounders/2649
+2025-09-15 19:26:21,027 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/inter-miami/239235, AWAY=https://redscores.com/pt-br/team/seattle-sounders/2649
+2025-09-15 19:26:27,251 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/oriente-petrolero-san-antonio-bulo-bulo/AGbxsSeA
+2025-09-15 19:26:27,251 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/oriente-petrolero-san-antonio-bulo-bulo/AGbxsSeA
+2025-09-15 19:26:27,696 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/san-antonio-bulo-bulo/259042, AWAY=https://redscores.com/pt-br/team/oriente-petrolero/8236
+2025-09-15 19:26:27,696 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/san-antonio-bulo-bulo/259042, AWAY=https://redscores.com/pt-br/team/oriente-petrolero/8236
+2025-09-15 19:26:34,446 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/guabira-real-tomayapo/AEBxDTdA
+2025-09-15 19:26:34,446 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/guabira-real-tomayapo/AEBxDTdA
+2025-09-15 19:26:34,812 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/real-tomayapo/251693, AWAY=https://redscores.com/pt-br/team/guabira/11713
+2025-09-15 19:26:34,812 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/real-tomayapo/251693, AWAY=https://redscores.com/pt-br/team/guabira/11713
+2025-09-15 19:26:39,576 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/aurora-real-oruro/H5BxmGfA
+2025-09-15 19:26:39,576 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/aurora-real-oruro/H5BxmGfA
+2025-09-15 19:26:39,967 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/real-oruro/265008, AWAY=https://redscores.com/pt-br/team/aurora/14594
+2025-09-15 19:26:39,967 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/real-oruro/265008, AWAY=https://redscores.com/pt-br/team/aurora/14594
+2025-09-15 19:26:46,210 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/avai-atletico-go/bWAxRhb
+2025-09-15 19:26:46,210 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/avai-atletico-go/bWAxRhb
+2025-09-15 19:26:46,642 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/atletico-go/8331, AWAY=https://redscores.com/pt-br/team/avai/6468
+2025-09-15 19:26:46,642 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/atletico-go/8331, AWAY=https://redscores.com/pt-br/team/avai/6468
+2025-09-15 19:26:53,259 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/chapecoense-athletico-pr/TFxi5
+2025-09-15 19:26:53,259 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/chapecoense-athletico-pr/TFxi5
+2025-09-15 19:26:53,734 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/chapecoense/710, AWAY=https://redscores.com/pt-br/team/athletico-pr/3432
+2025-09-15 19:26:53,734 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/chapecoense/710, AWAY=https://redscores.com/pt-br/team/athletico-pr/3432
+2025-09-15 19:26:59,562 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/atletico-bucaramanga-america-de-cali/BGbx7Ob
+2025-09-15 19:26:59,562 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/atletico-bucaramanga-america-de-cali/BGbx7Ob
+2025-09-15 19:26:59,998 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/america-de-cali/9269, AWAY=https://redscores.com/pt-br/team/atletico-bucaramanga/8238
+2025-09-15 19:26:59,998 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/america-de-cali/9269, AWAY=https://redscores.com/pt-br/team/atletico-bucaramanga/8238
+2025-09-15 19:27:06,244 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/vaprus-tammeka/1XxjEA
+2025-09-15 19:27:06,244 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/vaprus-tammeka/1XxjEA
+2025-09-15 19:27:06,721 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/tammeka/4288, AWAY=https://redscores.com/pt-br/team/vaprus/2858
+2025-09-15 19:27:06,721 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/tammeka/4288, AWAY=https://redscores.com/pt-br/team/vaprus/2858
+2025-09-15 19:27:12,633 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/universitario-juan-pablo-ii-college/AgbxwyFA
+2025-09-15 19:27:12,633 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/universitario-juan-pablo-ii-college/AgbxwyFA
+2025-09-15 19:27:13,046 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/universitario/8175, AWAY=https://redscores.com/pt-br/team/juan-pablo-ii-college/270823
+2025-09-15 19:27:13,046 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/universitario/8175, AWAY=https://redscores.com/pt-br/team/juan-pablo-ii-college/270823
+2025-09-15 19:27:19,677 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/utc-cajamarca-adt/NcAxokBA
+2025-09-15 19:27:19,677 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/utc-cajamarca-adt/NcAxokBA
+2025-09-15 19:27:20,101 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/adt/239392, AWAY=https://redscores.com/pt-br/team/utc-cajamarca/3992
+2025-09-15 19:27:20,101 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/adt/239392, AWAY=https://redscores.com/pt-br/team/utc-cajamarca/3992
+2025-09-15 19:27:25,518 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/los-chankas-alianza-lima/g1Ax61b
+2025-09-15 19:27:25,518 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/los-chankas-alianza-lima/g1Ax61b
+2025-09-15 19:27:25,909 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/los-chankas/6905, AWAY=https://redscores.com/pt-br/team/alianza-lima/10671
+2025-09-15 19:27:25,909 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/los-chankas/6905, AWAY=https://redscores.com/pt-br/team/alianza-lima/10671
+2025-09-15 19:27:32,175 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/comerciantes-unidos-sport-huancayo/5hBx6lB
+2025-09-15 19:27:32,175 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/comerciantes-unidos-sport-huancayo/5hBx6lB
+2025-09-15 19:27:32,661 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/comerciantes-unidos/12073, AWAY=https://redscores.com/pt-br/team/sport-huancayo/12562
+2025-09-15 19:27:32,661 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/comerciantes-unidos/12073, AWAY=https://redscores.com/pt-br/team/sport-huancayo/12562
+2025-09-15 19:27:39,126 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/helsingborg-landskrona/XexbE
+2025-09-15 19:27:39,126 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/helsingborg-landskrona/XexbE
+2025-09-15 19:27:39,487 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/helsingborg/534, AWAY=https://redscores.com/pt-br/team/landskrona/551
+2025-09-15 19:27:39,487 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/helsingborg/534, AWAY=https://redscores.com/pt-br/team/landskrona/551
+2025-09-15 19:33:02,605 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (17 linhas).
+2025-09-15 19:33:03,269 [INFO] root: --- Rotina diária concluída ---
