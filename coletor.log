@@ -12556,3 +12556,36 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-16 19:32:53,567 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/cienciano/13264, AWAY=https://redscores.com/pt-br/team/sport-boys/15644
 2025-09-16 19:39:15,194 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (16 linhas).
 2025-09-16 19:39:15,890 [INFO] root: --- Rotina diária concluída ---
+2025-09-17 20:45:06,147 [INFO] __main__: Coletor iniciado
+2025-09-17 20:45:06,148 [INFO] root: --- Iniciando rotina diária de atualização direcionada ---
+2025-09-17 20:45:24,472 [INFO] [AGENDA] Aguardando agenda carregar...
+2025-09-17 20:45:24,472 [INFO] coletor: [AGENDA] Aguardando agenda carregar...
+2025-09-17 20:45:25,163 [INFO] [AGENDA] Total de jogos encontrados: 5
+2025-09-17 20:45:25,163 [INFO] coletor: [AGENDA] Total de jogos encontrados: 5
+2025-09-17 20:45:25,165 [INFO] [AGENDA] Concluído. Válidos: 5, Incompletos: 0, Filtrados: 69
+2025-09-17 20:45:25,165 [INFO] coletor: [AGENDA] Concluído. Válidos: 5, Incompletos: 0, Filtrados: 69
+2025-09-17 20:45:25,165 [INFO] [AGENDA] Times únicos encontrados: 10 (esperado ≈ 10)
+2025-09-17 20:45:25,165 [INFO] coletor: [AGENDA] Times únicos encontrados: 10 (esperado ≈ 10)
+2025-09-17 20:45:25,171 [INFO] root: Exportada agenda de próximos jogos para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-18.csv (5 linhas).
+2025-09-17 20:45:26,669 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/always-ready-universitario-de-vinto/J7AAxvSeA
+2025-09-17 20:45:26,669 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/always-ready-universitario-de-vinto/J7AAxvSeA
+2025-09-17 20:45:27,150 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/always-ready/234259, AWAY=https://redscores.com/pt-br/team/universitario-de-vinto/259048
+2025-09-17 20:45:27,150 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/always-ready/234259, AWAY=https://redscores.com/pt-br/team/universitario-de-vinto/259048
+2025-09-17 20:45:31,115 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/botafogo-sp-operario-pr/VAxE7B
+2025-09-17 20:45:31,115 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/botafogo-sp-operario-pr/VAxE7B
+2025-09-17 20:45:31,698 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/botafogo-sp/104, AWAY=https://redscores.com/pt-br/team/operario-pr/14710
+2025-09-17 20:45:31,698 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/botafogo-sp/104, AWAY=https://redscores.com/pt-br/team/operario-pr/14710
+2025-09-17 20:45:36,677 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/cusco-fc-ayacucho/66bx6VB
+2025-09-17 20:45:36,677 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/cusco-fc-ayacucho/66bx6VB
+2025-09-17 20:45:37,214 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/ayacucho/13843, AWAY=https://redscores.com/pt-br/team/cusco-fc/10976
+2025-09-17 20:45:37,214 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/ayacucho/13843, AWAY=https://redscores.com/pt-br/team/cusco-fc/10976
+2025-09-17 20:45:41,457 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/alianza-universidad-atletico-grau/yrbxiqu
+2025-09-17 20:45:41,457 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/alianza-universidad-atletico-grau/yrbxiqu
+2025-09-17 20:45:41,970 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/atletico-grau/150808, AWAY=https://redscores.com/pt-br/team/alianza-universidad/9563
+2025-09-17 20:45:41,970 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/atletico-grau/150808, AWAY=https://redscores.com/pt-br/team/alianza-universidad/9563
+2025-09-17 20:45:47,606 [INFO] [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/melgar-deportivo-garcilaso/MBxChc
+2025-09-17 20:45:47,606 [INFO] coletor: [CONFRONTO] Aguardando carregamento da página: https://redscores.com/pt-br/match/melgar-deportivo-garcilaso/MBxChc
+2025-09-17 20:45:48,134 [INFO] [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/deportivo-garcilaso/15743, AWAY=https://redscores.com/pt-br/team/melgar/208
+2025-09-17 20:45:48,134 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/deportivo-garcilaso/15743, AWAY=https://redscores.com/pt-br/team/melgar/208
+2025-09-17 20:47:10,706 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
+2025-09-17 20:47:11,316 [INFO] root: --- Rotina diária concluída ---
