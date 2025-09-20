@@ -8,6 +8,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import logging
 import csv
+from collections import Counter
+import os
+from datetime import date
 
 # Configura logger específico do módulo
 log = logging.getLogger("coletor")
@@ -60,9 +63,25 @@ def _converter_stat_para_int(stat_string):
 # ==========================
 def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
     """
-    Raspagem da agenda de amanhã na RedScores com suporte a múltiplos layouts.
-    Faz auditoria de jogos incompletos, salva HTML de debug e conta times únicos.
+    Raspagem da agenda de amanhã na RedScores:
+    - Suporte a múltiplos layouts
+    - Auditoria de jogos incompletos e times ausentes
+    - Deduplicação final com log/CSV
+    - Contagem de times únicos
+    - Salva auditoria em pastas separadas com arquivos diários
     """
+    # Garante que as pastas de auditoria existem
+    os.makedirs("jogos_faltando_time", exist_ok=True)
+    os.makedirs("jogos_duplicados", exist_ok=True)
+
+    # Nome dos arquivos diários
+    data_hoje = date.today().strftime("%Y-%m-%d")
+    arquivo_faltando = os.path.join(
+        "jogos_faltando_time", f"faltando_time_{data_hoje}.csv")
+    arquivo_duplicados = os.path.join(
+        "jogos_duplicados", f"duplicados_{data_hoje}.csv")
+    arquivo_incompletos = f"jogos_agenda_incompletos_{data_hoje}.csv"
+
     jogos = []
     total_encontrados = 0
     total_validos = 0
@@ -80,7 +99,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
         html = driver.page_source
         soup = BeautifulSoup(html, "html.parser")
 
-        # 1️⃣ Primeiro tenta estrutura padrão da página "amanhã"
+        # 1️⃣ Layout padrão (blocos de liga)
         blocos_liga = soup.select("div[id^='league_']")
         jogos_html = []
 
@@ -101,7 +120,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                 for corpo in jogos_bloco:
                     jogos_html.append((nome_liga, corpo))
 
-        # 2️⃣ Fallback: tenta o layout "fixtures__item" ou "a.matchLink"
+        # 2️⃣ Fallback: fixtures__item ou matchLink
         if not jogos_html:
             log.warning(
                 "[AGENDA] Nenhum bloco de liga encontrado. Tentando layout alternativo...")
@@ -114,7 +133,6 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
         for nome_liga, jogo in jogos_html:
             try:
                 if jogo.name == "tbody":
-                    # Layout padrão
                     tds = jogo.select("tr td")
                     hora_texto = tds[1].get_text(strip=True)
                     home = tds[2].select_one("span.team").get_text(strip=True)
@@ -122,7 +140,6 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                     link_url = "https://redscores.com" + \
                         tds[2].select_one("a")["href"]
                 else:
-                    # Layout alternativo
                     hora = jogo.select_one(".fixtures__time")
                     equipes = jogo.select(".fixtures__name")
                     link = jogo.get("href") or (jogo.select_one(
@@ -136,9 +153,8 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                     total_incompletos += 1
                     log.warning(
                         f"[AGENDA] Jogo incompleto: {nome_liga} | {hora_texto} | {home} x {away} | {link_url}")
-                    with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
-                        writer = csv.writer(f)
-                        writer.writerow(
+                    with open(arquivo_incompletos, "a", newline="", encoding="utf-8") as f:
+                        csv.writer(f).writerow(
                             [nome_liga, hora_texto, home, away, link_url])
                     continue
 
@@ -150,19 +166,58 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                     "link_confronto": link_url
                 })
 
-                # auditoria de times
                 times_unicos.add(home)
                 times_unicos.add(away)
-
                 total_validos += 1
 
             except Exception as e:
                 total_incompletos += 1
                 log.error(f"[AGENDA] Erro ao processar jogo: {e}")
-                with open("jogos_agenda_incompletos.csv", "a", newline="", encoding="utf-8") as f:
-                    writer = csv.writer(f)
-                    writer.writerow([nome_liga, "ERRO", str(e)])
+                with open(arquivo_incompletos, "a", newline="", encoding="utf-8") as f:
+                    csv.writer(f).writerow([nome_liga, "ERRO", str(e)])
                 continue
+
+        # Auditoria: verificar se algum jogo válido tem time ausente
+        contador_times = Counter()
+        for j in jogos:
+            contador_times[j["home"]] += 1
+            contador_times[j["away"]] += 1
+
+
+        total_times_contados = sum(contador_times.values())
+        log.info(
+            f"[AGENDA] Total de ocorrências de times: {total_times_contados} (esperado = {len(jogos) * 2})")
+
+        if total_times_contados != len(jogos) * 2:
+            log.warning(
+                "[AGENDA] ⚠️ Inconsistência: algum time está faltando ou duplicado!")
+            with open(os.path.join("jogos_faltando_time", f"auditoria_times_{data_hoje}.csv"), "w", newline="", encoding="utf-8") as f:
+                writer = csv.writer(f)
+                writer.writerow(["Time", "Ocorrencias"])
+                for time, qtd in contador_times.most_common():
+                    writer.writerow([time, qtd])
+
+        # === Deduplicação final ===
+        vistos = set()
+        jogos_unicos = []
+        duplicatas = []
+        for j in jogos:
+            chave = (j["liga"], j["hora"], j["home"], j["away"])
+            if chave in vistos:
+                duplicatas.append(chave)
+                with open(arquivo_duplicados, "a", newline="", encoding="utf-8") as f:
+                    csv.writer(f).writerow(
+                        [j["liga"], j["hora"], j["home"], j["away"], j["link_confronto"]])
+                continue
+            vistos.add(chave)
+            jogos_unicos.append(j)
+
+        if duplicatas:
+            contagem_ligas = Counter([c[0] for c in duplicatas])
+            log.warning(
+                f"[AGENDA] Duplicatas removidas: {len(duplicatas)} | Ligas afetadas: {dict(contagem_ligas)}")
+        else:
+            log.info("[AGENDA] Nenhuma duplicata detectada.")
 
         log.info(
             f"[AGENDA] Concluído. Válidos: {total_validos}, Incompletos: {total_incompletos}, Filtrados: {total_filtrados}")
@@ -175,7 +230,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
             log.warning(
                 "[AGENDA] Nenhum jogo válido encontrado. HTML salvo para inspeção.")
 
-        return jogos
+        return jogos_unicos
 
     except Exception as e:
         log.error(f"[AGENDA] Falha geral na raspagem: {e}")

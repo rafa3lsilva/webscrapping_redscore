@@ -137,8 +137,8 @@ def rotina_diaria_noturna():
                     equipas_a_visitar[link_home] = liga_correta
                     equipas_a_visitar[link_away] = liga_correta
 
-                # Pausa entre 2 e 5 segundos
-                sleep_time = random.uniform(2, 5)
+                # Pausa entre 1 e 3 segundos
+                sleep_time = random.uniform(1, 3)
 
                 # NOVO: Atualiza a mensagem na própria barra de progresso
                 progress_bar.set_postfix_str(
