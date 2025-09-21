@@ -14247,3 +14247,287 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-19 23:04:14,246 [INFO] coletor: [CONFRONTO] Links encontrados: HOME=https://redscores.com/pt-br/team/caracas/12294, AWAY=https://redscores.com/pt-br/team/zamora-futbol-club/9404
 2025-09-19 23:36:59,845 [INFO] root: Dados salvos/atualizados na tabela 'jogos' (128 linhas).
 2025-09-19 23:37:00,261 [INFO] root: --- Rotina diária concluída ---
+2025-09-20 16:19:56,978 [INFO] __main__: Coletor iniciado
+2025-09-20 16:19:56,979 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-20 16:20:40,894 [INFO] [AGENDA] Válidos=86, Incompletos=0, Filtrados=396, Duplicados=4
+2025-09-20 16:20:40,894 [INFO] coletor: [AGENDA] Válidos=86, Incompletos=0, Filtrados=396, Duplicados=4
+2025-09-20 16:20:40,894 [INFO] __main__: [TEMPO] Fase 1 concluída em 22.30s
+2025-09-20 16:20:40,905 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-21.csv (82 linhas).
+2025-09-20 16:22:43,501 [INFO] __main__: [TEMPO] Fase 2 concluída em 122.60s (links extraídos: 164)
+2025-09-20 16:24:54,101 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/austin/254172: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:24:54,101 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/austin/254172: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:17,949 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/sarpsborg-08/2601: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:17,949 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/sarpsborg-08/2601: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:29,715 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/tromso/7242: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:29,715 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/tromso/7242: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:41,295 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/hamkam/8661: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:41,295 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/hamkam/8661: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:54,293 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/kristiansund/869: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:27:54,293 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/kristiansund/869: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:05,652 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/haugesund/270: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:05,652 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/haugesund/270: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:17,320 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/ifk-goteborg/532: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:17,320 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/ifk-goteborg/532: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:28,992 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/brommapojkarna/3285: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:28,992 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/brommapojkarna/3285: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:40,698 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/viking/321: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:40,698 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/viking/321: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:52,114 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/molde/290: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:28:52,114 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/molde/290: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:29:03,648 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/sirius/2678: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:29:03,648 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/sirius/2678: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:29:15,220 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/degerfors/2753: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:29:15,220 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/degerfors/2753: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:29:26,966 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/hammarby/2353: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:29:26,966 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/hammarby/2353: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:30:05,082 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/vps/1840: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:30:05,082 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/vps/1840: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:31:21,092 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/rosario-central/3365: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:31:21,092 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/rosario-central/3365: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:32:47,323 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/shanghai-port/5751: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:32:47,323 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/shanghai-port/5751: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:34:07,316 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/alvarado/8275: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:34:07,316 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/alvarado/8275: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:34:54,852 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /session/696f97f6-f843-4253-ba55-6e8935ab9e82
+2025-09-20 16:34:54,852 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f426d64baa0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/696f97f6-f843-4253-ba55-6e8935ab9e82
+2025-09-20 16:34:54,853 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f426afcaea0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/696f97f6-f843-4253-ba55-6e8935ab9e82
+2025-09-20 16:35:23,975 [INFO] __main__: Coletor iniciado
+2025-09-20 16:35:23,975 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-20 16:36:16,131 [INFO] [AGENDA] Válidos=86, Incompletos=0, Filtrados=396, Duplicados=4
+2025-09-20 16:36:16,131 [INFO] coletor: [AGENDA] Válidos=86, Incompletos=0, Filtrados=396, Duplicados=4
+2025-09-20 16:36:16,131 [INFO] __main__: [TEMPO] Fase 1 concluída em 31.20s
+2025-09-20 16:36:16,134 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-21.csv (82 linhas).
+2025-09-20 16:38:54,312 [INFO] __main__: [F2] 78 confrontos requerem fallback com Selenium (sequencial).
+2025-09-20 16:39:51,299 [WARNING] [CONFRONTO] Tentativa 1 falhou para https://redscores.com/pt-br/match/rosenborg-bodo-glimt/3KxKN: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:39:51,299 [WARNING] coletor: [CONFRONTO] Tentativa 1 falhou para https://redscores.com/pt-br/match/rosenborg-bodo-glimt/3KxKN: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-20 16:44:08,868 [INFO] __main__: [TEMPO] Fase 2 concluída em 472.73s (links extraídos: 164)
+2025-09-20 16:53:35,427 [INFO] __main__: [TEMPO] Fase 3 concluída em 566.56s (jogos raspados: 230)
+2025-09-20 16:53:35,525 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (61 linhas).
+2025-09-20 16:53:35,604 [INFO] __main__: Exportado histórico para dados_redscore.csv (7125 linhas)
+2025-09-20 16:53:36,088 [INFO] __main__: --- Rotina concluída em 1092.11s ---
+2025-09-20 16:58:16,860 [INFO] __main__: Coletor iniciado
+2025-09-20 16:58:16,860 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-20 16:58:35,022 [INFO] [AGENDA] Válidos=86, Incompletos=0, Filtrados=396, Duplicados=4
+2025-09-20 16:58:35,022 [INFO] coletor: [AGENDA] Válidos=86, Incompletos=0, Filtrados=396, Duplicados=4
+2025-09-20 16:58:35,023 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.54s
+2025-09-20 16:58:35,024 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-21.csv (82 linhas).
+2025-09-20 16:59:29,746 [INFO] __main__: [TEMPO] Fase 2 concluída em 54.72s (links extraídos: 164)
+2025-09-20 17:07:49,904 [INFO] __main__: [TEMPO] Fase 3 concluída em 500.16s (jogos raspados: 156)
+2025-09-20 17:07:50,022 [INFO] __main__: Exportado histórico para dados_redscore.csv (7125 linhas)
+2025-09-20 17:07:50,386 [INFO] __main__: --- Rotina concluída em 573.53s ---
