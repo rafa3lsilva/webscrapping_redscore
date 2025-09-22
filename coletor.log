@@ -14544,3 +14544,63 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-21 21:28:04,763 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.1 MB).
 2025-09-21 21:28:04,775 [INFO] __main__: [DB] VACUUM concluído.
 2025-09-21 21:28:05,469 [INFO] __main__: --- Rotina concluída em 165.26s ---
+2025-09-22 19:30:17,360 [INFO] __main__: Coletor iniciado
+2025-09-22 19:30:17,361 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-22 19:30:41,906 [INFO] [AGENDA] Válidos=16, Incompletos=0, Filtrados=104, Duplicados=0
+2025-09-22 19:30:41,906 [INFO] coletor: [AGENDA] Válidos=16, Incompletos=0, Filtrados=104, Duplicados=0
+2025-09-22 19:30:41,906 [INFO] __main__: [TEMPO] Fase 1 concluída em 5.18s
+2025-09-22 19:30:41,910 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-23.csv (16 linhas).
+2025-09-22 19:30:49,535 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.62s (links extraídos: 32)
+2025-09-22 19:31:15,545 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/hjk/724: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-22 19:31:15,545 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/hjk/724: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-22 19:33:11,451 [INFO] __main__: [TEMPO] Fase 3 concluída em 141.92s (jogos raspados: 43)
+2025-09-22 19:33:11,541 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (17 linhas).
+2025-09-22 19:33:11,674 [INFO] __main__: Exportado histórico para dados_redscore.csv (7152 linhas)
+2025-09-22 19:33:12,567 [INFO] __main__: --- Rotina concluída em 175.21s ---
+2025-09-22 19:40:15,461 [INFO] __main__: Coletor iniciado
+2025-09-22 19:40:15,461 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-22 19:40:39,649 [INFO] [AGENDA] Válidos=16, Incompletos=0, Filtrados=104, Duplicados=0
+2025-09-22 19:40:39,649 [INFO] coletor: [AGENDA] Válidos=16, Incompletos=0, Filtrados=104, Duplicados=0
+2025-09-22 19:40:39,649 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.41s
+2025-09-22 19:40:39,652 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-23.csv (16 linhas).
+2025-09-22 19:40:47,214 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.56s (links extraídos: 32)
+2025-09-22 19:40:50,196 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77f444737c80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b878a203-8530-4eb7-a934-6c16dfbce81f
+2025-09-22 19:40:50,197 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77f4442cc860>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b878a203-8530-4eb7-a934-6c16dfbce81f
+2025-09-22 19:40:50,198 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77f4122fb3e0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b878a203-8530-4eb7-a934-6c16dfbce81f
+2025-09-22 19:41:58,783 [INFO] __main__: Coletor iniciado
+2025-09-22 19:41:58,783 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-22 19:42:21,071 [INFO] [AGENDA] Válidos=22, Incompletos=0, Filtrados=103, Duplicados=0
+2025-09-22 19:42:21,071 [INFO] coletor: [AGENDA] Válidos=22, Incompletos=0, Filtrados=103, Duplicados=0
+2025-09-22 19:42:21,072 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.50s
+2025-09-22 19:42:21,075 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-23.csv (22 linhas).
+2025-09-22 19:42:31,446 [INFO] __main__: [TEMPO] Fase 2 concluída em 10.37s (links extraídos: 44)
+2025-09-22 19:44:40,000 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/albirex-niigata/3607: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-22 19:44:40,000 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/albirex-niigata/3607: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-22 19:45:34,246 [INFO] __main__: [TEMPO] Fase 3 concluída em 182.80s (jogos raspados: 80)
+2025-09-22 19:45:34,360 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (47 linhas).
+2025-09-22 19:45:34,510 [INFO] __main__: Exportado histórico para dados_redscore.csv (7199 linhas)
+2025-09-22 19:45:35,313 [INFO] __main__: --- Rotina concluída em 216.53s ---
