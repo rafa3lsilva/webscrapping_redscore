@@ -14531,3 +14531,16 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-20 17:07:49,904 [INFO] __main__: [TEMPO] Fase 3 concluída em 500.16s (jogos raspados: 156)
 2025-09-20 17:07:50,022 [INFO] __main__: Exportado histórico para dados_redscore.csv (7125 linhas)
 2025-09-20 17:07:50,386 [INFO] __main__: --- Rotina concluída em 573.53s ---
+2025-09-21 21:25:20,211 [INFO] __main__: Coletor iniciado
+2025-09-21 21:25:20,212 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-21 21:25:45,801 [INFO] [AGENDA] Válidos=15, Incompletos=0, Filtrados=98, Duplicados=0
+2025-09-21 21:25:45,801 [INFO] coletor: [AGENDA] Válidos=15, Incompletos=0, Filtrados=98, Duplicados=0
+2025-09-21 21:25:45,801 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.11s
+2025-09-21 21:25:45,806 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-22.csv (15 linhas).
+2025-09-21 21:26:05,654 [INFO] __main__: [TEMPO] Fase 2 concluída em 19.85s (links extraídos: 30)
+2025-09-21 21:28:04,515 [INFO] __main__: [TEMPO] Fase 3 concluída em 118.86s (jogos raspados: 58)
+2025-09-21 21:28:04,614 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
+2025-09-21 21:28:04,762 [INFO] __main__: Exportado histórico para dados_redscore.csv (7135 linhas)
+2025-09-21 21:28:04,763 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.1 MB).
+2025-09-21 21:28:04,775 [INFO] __main__: [DB] VACUUM concluído.
+2025-09-21 21:28:05,469 [INFO] __main__: --- Rotina concluída em 165.26s ---
