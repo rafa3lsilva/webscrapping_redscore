@@ -14604,3 +14604,28 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-22 19:45:34,360 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (47 linhas).
 2025-09-22 19:45:34,510 [INFO] __main__: Exportado histórico para dados_redscore.csv (7199 linhas)
 2025-09-22 19:45:35,313 [INFO] __main__: --- Rotina concluída em 216.53s ---
+2025-09-23 19:10:06,177 [INFO] __main__: Coletor iniciado
+2025-09-23 19:10:06,179 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-23 19:10:30,397 [INFO] [AGENDA] Válidos=26, Incompletos=0, Filtrados=134, Duplicados=0
+2025-09-23 19:10:30,397 [INFO] coletor: [AGENDA] Válidos=26, Incompletos=0, Filtrados=134, Duplicados=0
+2025-09-23 19:10:30,397 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.59s
+2025-09-23 19:10:30,401 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-24.csv (26 linhas).
+2025-09-23 19:10:43,594 [INFO] __main__: [TEMPO] Fase 2 concluída em 13.19s (links extraídos: 52)
+2025-09-23 19:13:58,052 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/southend-united/114: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-23 19:13:58,052 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/southend-united/114: Message: 
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:555:5
+dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
+
+2025-09-23 19:15:08,789 [INFO] __main__: [TEMPO] Fase 3 concluída em 265.19s (jogos raspados: 114)
+2025-09-23 19:15:08,888 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (44 linhas).
+2025-09-23 19:15:09,008 [INFO] __main__: Exportado histórico para dados_redscore.csv (7243 linhas)
+2025-09-23 19:15:09,799 [INFO] __main__: --- Rotina concluída em 303.62s ---
