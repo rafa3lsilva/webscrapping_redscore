@@ -14629,3 +14629,14 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-23 19:15:08,888 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (44 linhas).
 2025-09-23 19:15:09,008 [INFO] __main__: Exportado histórico para dados_redscore.csv (7243 linhas)
 2025-09-23 19:15:09,799 [INFO] __main__: --- Rotina concluída em 303.62s ---
+2025-09-24 20:32:20,155 [INFO] __main__: Coletor iniciado
+2025-09-24 20:32:20,157 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-24 20:32:39,774 [INFO] [AGENDA] Válidos=12, Incompletos=0, Filtrados=72, Duplicados=0
+2025-09-24 20:32:39,774 [INFO] coletor: [AGENDA] Válidos=12, Incompletos=0, Filtrados=72, Duplicados=0
+2025-09-24 20:32:39,774 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.96s
+2025-09-24 20:32:39,779 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-25.csv (12 linhas).
+2025-09-24 20:32:46,611 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.83s (links extraídos: 24)
+2025-09-24 20:34:02,015 [INFO] __main__: [TEMPO] Fase 3 concluída em 75.40s (jogos raspados: 53)
+2025-09-24 20:34:02,152 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
+2025-09-24 20:34:02,316 [INFO] __main__: Exportado histórico para dados_redscore.csv (7253 linhas)
+2025-09-24 20:34:03,409 [INFO] __main__: --- Rotina concluída em 103.25s ---
