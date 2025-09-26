@@ -14640,3 +14640,147 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2025-09-24 20:34:02,152 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
 2025-09-24 20:34:02,316 [INFO] __main__: Exportado histórico para dados_redscore.csv (7253 linhas)
 2025-09-24 20:34:03,409 [INFO] __main__: --- Rotina concluída em 103.25s ---
+2025-09-25 21:24:00,699 [INFO] __main__: Coletor iniciado
+2025-09-25 21:24:00,700 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:24:01,531 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:24:01,531 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:24:01,532 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:24:01,532 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:24:45,318 [INFO] __main__: Coletor iniciado
+2025-09-25 21:24:45,319 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:24:46,010 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:24:46,010 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:24:46,011 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:24:46,011 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:25:11,785 [INFO] __main__: Coletor iniciado
+2025-09-25 21:25:11,785 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:25:12,566 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:25:12,566 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:25:12,566 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:25:12,566 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:27:05,445 [INFO] __main__: Coletor iniciado
+2025-09-25 21:27:05,446 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:27:06,147 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:27:06,147 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:27:06,147 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:27:06,147 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:33:34,749 [INFO] __main__: Coletor iniciado
+2025-09-25 21:33:34,750 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:33:35,525 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:33:35,525 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:33:35,525 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:33:35,526 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:33:51,571 [INFO] __main__: Coletor iniciado
+2025-09-25 21:33:51,572 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:33:52,226 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:33:52,226 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:33:52,226 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:33:52,226 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:38:32,878 [INFO] __main__: Coletor iniciado
+2025-09-25 21:38:32,879 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:38:33,604 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:38:33,604 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:38:33,605 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:38:33,605 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:44:04,650 [INFO] __main__: Coletor iniciado
+2025-09-25 21:44:04,651 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:44:05,391 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:44:05,391 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:44:05,391 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:44:05,391 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:44:18,147 [INFO] __main__: Coletor iniciado
+2025-09-25 21:44:18,147 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:44:18,862 [ERROR] [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:44:18,862 [ERROR] coletor: [AGENDA] Falha geral: 'NoneType' object has no attribute 'get'
+2025-09-25 21:44:18,862 [INFO] __main__: [TEMPO] Fase 1 concluída em 0.00s
+2025-09-25 21:44:18,862 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-09-25 21:46:22,635 [INFO] __main__: Coletor iniciado
+2025-09-25 21:46:22,635 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:46:29,521 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (677,503) because another element <div id="clever-86072-1819789-sticky-footer-arrow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-09-25 21:46:29,521 [INFO] __main__: --- Rotina concluída em 6.89s ---
+2025-09-25 21:47:14,548 [INFO] __main__: Coletor iniciado
+2025-09-25 21:47:14,548 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:47:23,158 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (683,490) because another element <div id="clever-86072-1819789-sticky-footer-shadow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-09-25 21:47:23,159 [INFO] __main__: --- Rotina concluída em 8.61s ---
+2025-09-25 21:49:10,332 [INFO] __main__: Coletor iniciado
+2025-09-25 21:49:10,332 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:49:18,785 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (683,490) because another element <div id="clever-86072-1819789-sticky-footer-shadow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-09-25 21:49:18,785 [INFO] __main__: --- Rotina concluída em 8.45s ---
+2025-09-25 21:59:06,781 [INFO] __main__: Coletor iniciado
+2025-09-25 21:59:06,781 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 21:59:15,583 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (683,490) because another element <div id="clever-86072-1819789-sticky-footer-shadow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-09-25 21:59:15,584 [INFO] __main__: --- Rotina concluída em 8.80s ---
+2025-09-25 22:04:20,337 [INFO] __main__: Coletor iniciado
+2025-09-25 22:04:20,338 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 22:04:29,985 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (683,490) because another element <div id="clever-86072-1819789-sticky-footer-shadow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-09-25 22:04:29,985 [INFO] __main__: --- Rotina concluída em 9.65s ---
+2025-09-25 22:08:22,941 [INFO] __main__: Coletor iniciado
+2025-09-25 22:08:22,941 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 22:08:55,192 [INFO] [AGENDA] Válidos=25, Incompletos=0, Filtrados=229, Duplicados=0
+2025-09-25 22:08:55,192 [INFO] coletor: [AGENDA] Válidos=25, Incompletos=0, Filtrados=229, Duplicados=0
+2025-09-25 22:08:55,192 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.31s
+2025-09-25 22:08:55,197 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-26.csv (25 linhas).
+2025-09-25 22:09:07,534 [INFO] __main__: [TEMPO] Fase 2 concluída em 12.34s (links extraídos: 50)
+2025-09-25 22:09:11,646 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7384bd9679b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c899e9b0-4e75-4e2c-808a-01cb819de157
+2025-09-25 22:09:11,647 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x73848e8805c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c899e9b0-4e75-4e2c-808a-01cb819de157
+2025-09-25 22:09:11,647 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x73848e880620>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c899e9b0-4e75-4e2c-808a-01cb819de157
+2025-09-25 22:13:48,497 [INFO] __main__: Coletor iniciado
+2025-09-25 22:13:48,498 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 22:13:55,459 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: name 'TimeoutException' is not defined
+2025-09-25 22:13:55,459 [INFO] __main__: --- Rotina concluída em 6.96s ---
+2025-09-25 22:16:19,784 [INFO] __main__: Coletor iniciado
+2025-09-25 22:16:19,784 [INFO] __main__: --- Rotina diária iniciada ---
+2025-09-25 22:16:44,396 [INFO] [AGENDA] Válidos=25, Incompletos=0, Filtrados=229, Duplicados=0
+2025-09-25 22:16:44,396 [INFO] coletor: [AGENDA] Válidos=25, Incompletos=0, Filtrados=229, Duplicados=0
+2025-09-25 22:16:44,397 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.00s
+2025-09-25 22:16:44,399 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-09-26.csv (25 linhas).
+2025-09-25 22:16:55,969 [INFO] __main__: [TEMPO] Fase 2 concluída em 11.57s (links extraídos: 50)
+2025-09-25 22:19:50,914 [INFO] __main__: [TEMPO] Fase 3 concluída em 174.94s (jogos raspados: 74)
+2025-09-25 22:19:50,962 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (35 linhas).
+2025-09-25 22:19:51,036 [INFO] __main__: Exportado histórico para dados_redscore.csv (7288 linhas)
+2025-09-25 22:19:51,447 [INFO] __main__: --- Rotina concluída em 211.66s ---
