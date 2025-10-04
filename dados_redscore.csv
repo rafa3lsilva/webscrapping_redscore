@@ -7805,3 +7805,47 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2025-09-20,Harrogate,Shrewsbury,Inglaterra - League Two,2,0,0,0,13,15,9,2,53,51,4,5,2.75,3.7,2.3
 2025-09-13,Shrewsbury,Salford,Inglaterra - League Two,1,3,0,1,18,11,3,3,49,47,7,4,2.8,3.3,2.55
 2025-09-06,Barnet,Shrewsbury,Inglaterra - League Two,1,3,1,3,14,11,6,4,76,36,6,3,1.7,3.8,4.5
+2025-10-02,Flamengo,Cruzeiro,Brasil - Serie A,0,0,0,0,15,11,2,5,74,35,4,2,1.55,3.9,6.25
+2025-10-01,Palmeiras,Vasco da Gama,Brasil - Serie A,3,0,3,0,11,9,6,3,2,3,1,3,1.33,5.25,9.0
+2025-10-02,Vitória,Ceará,Brasil - Serie A,1,0,1,0,9,14,3,3,41,31,6,3,2.35,3.0,3.4
+2025-10-02,Fortaleza,São Paulo,Brasil - Serie A,0,2,0,1,24,8,5,3,79,18,8,6,2.7,2.9,2.9
+2025-09-27,Sarpsborg 08,Viking,Noruega - Eliteserien,3,3,1,3,10,21,4,6,54,47,5,12,3.9,4.2,1.8
+2025-10-01,KFUM,Fredrikstad,Noruega - Eliteserien,2,1,2,0,9,7,3,4,80,27,2,3,1.8,3.5,4.33
+2025-09-28,HamKam,Rosenborg,Noruega - Eliteserien,4,0,3,0,28,7,16,3,81,25,6,1,3.9,3.7,1.9
+2025-09-28,Malmö FF,Värnamo,Suécia - Allsvenskan,3,2,1,1,19,11,8,4,65,14,3,0,1.2,7.0,12.0
+2025-09-28,Racing Club,Independiente,Argentina - Superliga,0,0,0,0,8,8,2,4,44,16,7,3,2.25,2.9,3.6
+2025-09-30,Newell's Old Boys,Estudiantes,Argentina - Superliga,1,1,0,0,12,16,4,5,54,52,7,2,3.0,2.87,2.55
+2025-09-29,Barracas Central,Belgrano,Argentina - Superliga,1,1,1,0,14,13,5,5,45,46,3,2,3.4,2.75,2.5
+2025-09-28,River Plate,Deportivo Riestra,Argentina - Superliga,1,2,1,1,21,6,9,2,90,15,15,1,1.53,3.6,8.0
+2025-09-27,Nueva Chicago,Agropecuario,Argentina - Primera B Nacional,1,0,0,0,11,10,1,3,89,80,5,5,4.0,2.87,2.15
+2025-09-28,Estudiantes Río Cuarto,Almirante Brown,Argentina - Primera B Nacional,1,1,1,0,6,10,3,2,85,76,5,1,1.53,3.75,7.0
+2025-09-27,San Telmo,Gimnasia Jujuy,Argentina - Primera B Nacional,3,2,2,0,12,27,5,9,56,74,3,4,3.3,3.25,2.2
+2025-09-28,Chacarita Juniors,Gimnasia Mendoza,Argentina - Primera B Nacional,1,1,0,1,13,9,6,5,14,11,6,5,3.4,2.7,2.5
+2025-09-27,Defensores de Belgrano,Central Norte,Argentina - Primera B Nacional,2,0,1,0,7,15,4,3,21,15,8,8,1.85,2.9,5.25
+2025-09-27,Talleres Remedios,Chaco For Ever,Argentina - Primera B Nacional,1,0,1,0,11,9,3,3,51,68,6,5,4.2,2.87,2.1
+2025-09-27,Deportivo Morón,Atletico Mitre,Argentina - Primera B Nacional,3,0,2,0,16,6,7,3,49,53,3,3,1.66,3.25,6.0
+2025-09-27,Athletico PR,Operário PR,Brasil - Serie B,1,0,1,0,8,16,3,6,31,28,1,5,1.53,3.7,7.5
+2025-09-27,Estudiantes Caseros,Colón,Argentina - Primera B Nacional,1,0,1,0,15,2,6,0,87,62,4,3,1.53,3.5,8.5
+2025-09-28,Defensores Unidos,Temperley,Argentina - Primera B Nacional,0,0,0,0,11,10,4,5,76,92,2,10,5.25,3.1,1.8
+2025-09-27,Alianza Petrolera,Llaneros,Colômbia - Liga Betplay,3,1,2,0,19,13,11,1,44,37,7,8,1.75,3.4,5.0
+2025-09-28,Junior FC,Deportivo Pasto,Colômbia - Liga Betplay,2,0,1,0,17,8,4,2,76,10,4,3,1.22,5.75,13.0
+2025-09-26,Once Caldas,Boyacá Chicó,Colômbia - Liga Betplay,5,2,2,0,15,8,8,4,51,11,6,0,2.0,3.1,4.0
+2025-09-27,Atlético Nacional,Millonarios,Colômbia - Liga Betplay,2,0,0,0,21,15,7,5,38,23,7,4,1.48,4.0,7.5
+2025-09-27,Sangju Sangmu,Pohang Steelers,Coréia Do Sul - K-League 1,2,0,0,0,18,4,7,1,98,44,6,1,2.25,3.4,2.87
+2025-09-27,Gangwon,Daejeon Citizen,Coréia Do Sul - K-League 1,0,0,0,0,8,18,3,2,67,61,6,6,2.15,3.25,3.1
+2025-09-27,Manta,Macará,Equador - Liga Pro,1,3,1,1,16,10,4,4,50,26,13,2,2.9,3.0,2.62
+2025-09-28,Libertad,Cuniburo,Equador - Liga Pro,1,0,0,0,16,7,6,2,68,39,7,3,1.9,3.7,3.6
+2025-09-27,Barcelona Guayaquil,Aucas,Equador - Liga Pro,1,1,1,1,12,14,3,8,57,27,10,6,1.6,3.8,5.25
+2025-09-27,FH,Breidablik,Islândia - Pepsideild,1,1,0,0,14,20,3,7,54,77,9,10,2.55,3.4,2.45
+2025-09-27,Imabari,Sagan Tosu,Japão - J2-League,1,1,1,0,15,8,3,3,49,55,3,8,2.2,3.3,3.1
+2025-09-27,Oita Trinita,Ehime,Japão - J2-League,0,3,0,1,12,13,3,8,53,54,2,3,1.9,3.25,4.2
+2025-09-26,Banga,Džiugas Telšiai,Lituânia - A Lyga,0,1,0,0,17,12,7,6,48,29,10,4,2.8,3.25,2.2
+2025-10-01,Alianza Lima,Atlético Grau,Peru - Primera Division,2,1,0,1,16,18,6,3,46,33,3,9,1.5,4.0,6.5
+2025-10-02,Melgar,Cienciano,Peru - Primera Division,2,0,0,0,10,15,7,4,32,45,4,4,1.75,3.7,4.33
+2025-10-01,Alianza Atlético,Universitario,Peru - Primera Division,0,2,0,0,4,17,0,4,35,61,2,6,6.5,3.75,1.55
+2025-09-26,Wanderers,Cerro,Uruguai - Primera Division,0,1,0,1,13,7,3,5,84,60,5,4,2.15,3.1,3.5
+2025-09-29,Racing,Progreso,Uruguai - Primera Division,0,0,0,0,13,2,2,0,85,47,4,2,2.0,3.2,3.8
+2025-09-27,Academia Puerto Cabello,Estudiantes Mérida,Venezuela - Primera Division,1,2,1,1,21,8,5,5,64,9,11,1,1.85,3.4,4.2
+2025-09-28,Monagas,Caracas,Venezuela - Primera Division,2,2,1,0,14,18,5,6,23,42,5,7,1.95,3.5,3.25
+2025-09-27,UCV,Rayo Zuliano,Venezuela - Primera Division,3,0,2,0,18,14,6,3,27,40,6,2,1.6,3.7,5.25
+2025-09-27,Metropolitanos,Portuguesa,Venezuela - Primera Division,5,1,1,0,16,11,9,3,32,21,4,3,1.9,3.3,4.1
