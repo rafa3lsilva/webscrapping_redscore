@@ -28,6 +28,8 @@ LIGAS_PERMITIDAS = {
     "Suécia - Superettan",
     "Uruguai - Primera Division",
     "Inglaterra - National League",
+    "Inglaterra - League One",
+    "Inglaterra - League Two",
 
 
     # "Argélia - Ligue 1",
@@ -63,8 +65,6 @@ LIGAS_PERMITIDAS = {
     # "Hungria - OTP Bank Liga",
     # "Inglaterra - Premier League",
     # "Inglaterra - Championship",
-    # "Inglaterra - League One",
-    # "Inglaterra - League Two",
     # "Irlanda do Norte - Premiership",
     # "Israel - Ligat ha'Al",
     # "Itália - Serie A",

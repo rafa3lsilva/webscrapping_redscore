@@ -14864,3 +14864,21 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-02 20:28:55,528 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (31 linhas).
 2025-10-02 20:28:55,658 [INFO] __main__: Exportado histórico para dados_redscore.csv (7571 linhas)
 2025-10-02 20:28:56,188 [INFO] __main__: --- Rotina concluída em 162.32s ---
+2025-10-03 21:02:08,271 [INFO] __main__: Coletor iniciado
+2025-10-03 21:02:08,272 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-03 21:02:27,842 [INFO] [AGENDA] Válidos=109, Incompletos=0, Filtrados=432, Duplicados=0
+2025-10-03 21:02:27,842 [INFO] coletor: [AGENDA] Válidos=109, Incompletos=0, Filtrados=432, Duplicados=0
+2025-10-03 21:02:27,843 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.44s
+2025-10-03 21:02:27,845 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-04.csv (109 linhas).
+2025-10-03 21:02:35,971 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x762e9387b140>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/f61142be-ce4e-4b63-acca-18b6717e36e5
+2025-10-03 21:03:39,972 [INFO] __main__: Coletor iniciado
+2025-10-03 21:03:39,973 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-03 21:03:58,602 [INFO] [AGENDA] Válidos=131, Incompletos=0, Filtrados=430, Duplicados=0
+2025-10-03 21:03:58,602 [INFO] coletor: [AGENDA] Válidos=131, Incompletos=0, Filtrados=430, Duplicados=0
+2025-10-03 21:03:58,602 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.53s
+2025-10-03 21:03:58,604 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-04.csv (131 linhas).
+2025-10-03 21:04:49,991 [INFO] __main__: [TEMPO] Fase 2 concluída em 51.39s (links extraídos: 262)
+2025-10-03 21:15:39,616 [INFO] __main__: [TEMPO] Fase 3 concluída em 649.62s (jogos raspados: 533)
+2025-10-03 21:15:39,803 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (235 linhas).
+2025-10-03 21:15:39,902 [INFO] __main__: Exportado histórico para dados_redscore.csv (7806 linhas)
+2025-10-03 21:15:40,270 [INFO] __main__: --- Rotina concluída em 720.30s ---
