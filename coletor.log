@@ -14927,3 +14927,14 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-07 20:47:44,111 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (12 linhas).
 2025-10-07 20:47:44,271 [INFO] __main__: Exportado histórico para dados_redscore.csv (7874 linhas)
 2025-10-07 20:47:45,459 [INFO] __main__: --- Rotina concluída em 121.67s ---
+2025-10-08 21:36:53,935 [INFO] __main__: Coletor iniciado
+2025-10-08 21:36:53,936 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-08 21:37:14,348 [INFO] [AGENDA] Válidos=4, Incompletos=0, Filtrados=29, Duplicados=0
+2025-10-08 21:37:14,348 [INFO] coletor: [AGENDA] Válidos=4, Incompletos=0, Filtrados=29, Duplicados=0
+2025-10-08 21:37:14,349 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.43s
+2025-10-08 21:37:14,352 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-09.csv (4 linhas).
+2025-10-08 21:37:16,408 [INFO] __main__: [TEMPO] Fase 2 concluída em 2.06s (links extraídos: 8)
+2025-10-08 21:37:38,842 [INFO] __main__: [TEMPO] Fase 3 concluída em 22.43s (jogos raspados: 17)
+2025-10-08 21:37:38,919 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (3 linhas).
+2025-10-08 21:37:39,086 [INFO] __main__: Exportado histórico para dados_redscore.csv (7877 linhas)
+2025-10-08 21:37:40,224 [INFO] __main__: --- Rotina concluída em 46.29s ---
