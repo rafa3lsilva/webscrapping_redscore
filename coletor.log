@@ -14949,3 +14949,29 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-09 21:45:47,551 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (22 linhas).
 2025-10-09 21:45:47,663 [INFO] __main__: Exportado histórico para dados_redscore.csv (7899 linhas)
 2025-10-09 21:45:48,326 [INFO] __main__: --- Rotina concluída em 87.06s ---
+2025-10-10 20:14:15,086 [INFO] __main__: Coletor iniciado
+2025-10-10 20:14:15,088 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-10 20:14:34,529 [INFO] [AGENDA] Válidos=51, Incompletos=0, Filtrados=315, Duplicados=0
+2025-10-10 20:14:34,529 [INFO] coletor: [AGENDA] Válidos=51, Incompletos=0, Filtrados=315, Duplicados=0
+2025-10-10 20:14:34,529 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.37s
+2025-10-10 20:14:34,533 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-11.csv (51 linhas).
+2025-10-10 20:14:59,023 [INFO] __main__: [TEMPO] Fase 2 concluída em 24.49s (links extraídos: 102)
+2025-10-10 20:19:42,246 [INFO] __main__: [TEMPO] Fase 3 concluída em 283.22s (jogos raspados: 138)
+2025-10-10 20:19:42,394 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (64 linhas).
+2025-10-10 20:19:42,547 [INFO] __main__: Exportado histórico para dados_redscore.csv (7963 linhas)
+2025-10-10 20:19:43,078 [INFO] __main__: --- Rotina concluída em 327.99s ---
+2025-10-10 20:45:40,746 [INFO] __main__: Coletor iniciado
+2025-10-10 20:45:40,747 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-10 20:45:49,169 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: name 'TimeoutException' is not defined
+2025-10-10 20:45:49,171 [INFO] __main__: --- Rotina concluída em 8.42s ---
+2025-10-10 20:50:45,761 [INFO] __main__: Coletor iniciado
+2025-10-10 20:50:45,761 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-10 20:51:09,527 [INFO] [AGENDA] Válidos=55, Incompletos=0, Filtrados=314, Duplicados=0
+2025-10-10 20:51:09,527 [INFO] coletor: [AGENDA] Válidos=55, Incompletos=0, Filtrados=314, Duplicados=0
+2025-10-10 20:51:09,527 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.74s
+2025-10-10 20:51:09,529 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-11.csv (55 linhas).
+2025-10-10 20:51:35,841 [INFO] __main__: [TEMPO] Fase 2 concluída em 26.31s (links extraídos: 110)
+2025-10-10 20:56:50,957 [INFO] __main__: [TEMPO] Fase 3 concluída em 315.11s (jogos raspados: 97)
+2025-10-10 20:56:51,130 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (26 linhas).
+2025-10-10 20:56:51,269 [INFO] __main__: Exportado histórico para dados_redscore.csv (7989 linhas)
+2025-10-10 20:56:51,938 [INFO] __main__: --- Rotina concluída em 366.18s ---

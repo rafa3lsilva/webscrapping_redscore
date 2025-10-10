@@ -30,11 +30,11 @@ LIGAS_PERMITIDAS = {
     "Inglaterra - National League",
     "Inglaterra - League One",
     "Inglaterra - League Two",
+    "Escócia - Championship",
+    "Egito - Premier League",
+    "Argélia - Ligue 1",
 
-
-    # "Argélia - Ligue 1",
     # "África-do-sul - Premier League",
-    # "Egito - Premier League",
     # "Malásia - Super League",
     # "Austrália - A-League",
     # "Arábia Saudita - Pro League",
@@ -52,7 +52,6 @@ LIGAS_PERMITIDAS = {
     # "Dinamarca - Superliga",
     # "Dinamarca - First Division",
     # "Escócia - Premiership",
-    # "Escócia - Championship",
     # "Escócia - League One",
     # "Escócia - League Two",
     # "Eslováquia - Fortuna Liga",
