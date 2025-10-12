@@ -15001,3 +15001,16 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-11 22:46:22,421 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (29 linhas).
 2025-10-11 22:46:22,553 [INFO] __main__: Exportado histórico para dados_redscore.csv (8018 linhas)
 2025-10-11 22:46:23,060 [INFO] __main__: --- Rotina concluída em 236.38s ---
+2025-10-12 18:52:03,655 [INFO] __main__: Coletor iniciado
+2025-10-12 18:52:03,656 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-12 18:52:20,011 [INFO] [AGENDA] Válidos=9, Incompletos=0, Filtrados=44, Duplicados=0
+2025-10-12 18:52:20,011 [INFO] coletor: [AGENDA] Válidos=9, Incompletos=0, Filtrados=44, Duplicados=0
+2025-10-12 18:52:20,011 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.32s
+2025-10-12 18:52:20,017 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-13.csv (9 linhas).
+2025-10-12 18:52:24,383 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.37s (links extraídos: 18)
+2025-10-12 18:53:16,291 [INFO] __main__: [TEMPO] Fase 3 concluída em 51.91s (jogos raspados: 37)
+2025-10-12 18:53:16,341 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
+2025-10-12 18:53:16,408 [INFO] __main__: Exportado histórico para dados_redscore.csv (8025 linhas)
+2025-10-12 18:53:16,408 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.2 MB).
+2025-10-12 18:53:16,416 [INFO] __main__: [DB] VACUUM concluído.
+2025-10-12 18:53:17,062 [INFO] __main__: --- Rotina concluída em 73.41s ---
