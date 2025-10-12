@@ -126,12 +126,35 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                         csv.writer(f).writerow(
                             [nome_liga, hora_texto, home, away, link_url])
                     continue
+                
+                # Inicializa as odds como None
+                odd_h, odd_d, odd_a = None, None, None
+                try:
+                    # Tenta selecionar o texto dentro das colunas 15, 16 e 17
+                    # O índice em Python é n-1, então usamos 14, 15, 16
+                    odd_h_text = tds[14].get_text(strip=True)
+                    odd_d_text = tds[15].get_text(strip=True)
+                    odd_a_text = tds[16].get_text(strip=True)
+                    
+                    # Converte para float se o texto não estiver vazio
+                    if odd_h_text: odd_h = float(odd_h_text)
+                    if odd_d_text: odd_d = float(odd_d_text)
+                    if odd_a_text: odd_a = float(odd_a_text)
+                    log.info(f"[ODDS] Odds para {home} vs {away}: {odd_h}, {odd_d}, {odd_a}")
+
+                except (IndexError, ValueError) as e:
+                    # IndexError: acontece se o jogo não tiver as 17 colunas (sem odds)
+                    # ValueError: acontece se o texto não puder ser convertido para float
+                    log.warning(f"[ODDS] Odds não encontradas para {home} vs {away}. Motivo: {e}")
 
                 jogos.append({
                     "liga": nome_liga,
                     "hora": hora_texto,
                     "home": home,
                     "away": away,
+                    "Odd_H": odd_h,
+                    "Odd_D": odd_d,
+                    "Odd_A": odd_a,
                     "link_confronto": link_url
                 })
                 times_unicos.update([home, away])
