@@ -15014,3 +15014,33 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-12 18:53:16,408 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.2 MB).
 2025-10-12 18:53:16,416 [INFO] __main__: [DB] VACUUM concluído.
 2025-10-12 18:53:17,062 [INFO] __main__: --- Rotina concluída em 73.41s ---
+2025-10-12 19:04:31,438 [INFO] __main__: Coletor iniciado
+2025-10-12 19:04:31,439 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-12 19:04:45,914 [INFO] [ODDS] Odds para Platense vs Deportivo Riestra: 2.25, 2.87, 3.9
+2025-10-12 19:04:45,914 [INFO] coletor: [ODDS] Odds para Platense vs Deportivo Riestra: 2.25, 2.87, 3.9
+2025-10-12 19:04:45,914 [INFO] [ODDS] Odds para Volta Redonda vs Atlético GO: 2.7, 3.1, 2.7
+2025-10-12 19:04:45,914 [INFO] coletor: [ODDS] Odds para Volta Redonda vs Atlético GO: 2.7, 3.1, 2.7
+2025-10-12 19:04:45,915 [WARNING] [ODDS] Odds não encontradas para CRB vs Ferroviária. Motivo: could not convert string to float: '-'
+2025-10-12 19:04:45,915 [WARNING] coletor: [ODDS] Odds não encontradas para CRB vs Ferroviária. Motivo: could not convert string to float: '-'
+2025-10-12 19:04:45,915 [INFO] [ODDS] Odds para Universidad Chile vs Palestino: 1.75, 3.4, 5.0
+2025-10-12 19:04:45,915 [INFO] coletor: [ODDS] Odds para Universidad Chile vs Palestino: 1.75, 3.4, 5.0
+2025-10-12 19:04:45,915 [INFO] [ODDS] Odds para Once Caldas vs Independiente Medellín: 2.7, 3.1, 2.7
+2025-10-12 19:04:45,915 [INFO] coletor: [ODDS] Odds para Once Caldas vs Independiente Medellín: 2.7, 3.1, 2.7
+2025-10-12 19:04:45,915 [INFO] [ODDS] Odds para Fortaleza CEIF vs Boyacá Chicó: 1.83, 3.3, 4.5
+2025-10-12 19:04:45,915 [INFO] coletor: [ODDS] Odds para Fortaleza CEIF vs Boyacá Chicó: 1.83, 3.3, 4.5
+2025-10-12 19:04:45,916 [INFO] [ODDS] Odds para Cork City vs Shelbourne: 5.25, 3.6, 1.66
+2025-10-12 19:04:45,916 [INFO] coletor: [ODDS] Odds para Cork City vs Shelbourne: 5.25, 3.6, 1.66
+2025-10-12 19:04:45,916 [INFO] [ODDS] Odds para UTC Cajamarca vs Cienciano: 3.1, 3.25, 2.25
+2025-10-12 19:04:45,916 [INFO] coletor: [ODDS] Odds para UTC Cajamarca vs Cienciano: 3.1, 3.25, 2.25
+2025-10-12 19:04:45,916 [INFO] [ODDS] Odds para Juan Pablo II College vs Deportivo Garcilaso: 2.0, 3.4, 3.5
+2025-10-12 19:04:45,916 [INFO] coletor: [ODDS] Odds para Juan Pablo II College vs Deportivo Garcilaso: 2.0, 3.4, 3.5
+2025-10-12 19:04:45,916 [INFO] [AGENDA] Válidos=9, Incompletos=0, Filtrados=44, Duplicados=0
+2025-10-12 19:04:45,916 [INFO] coletor: [AGENDA] Válidos=9, Incompletos=0, Filtrados=44, Duplicados=0
+2025-10-12 19:04:45,916 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.86s
+2025-10-12 19:04:45,919 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-13.csv (9 linhas).
+2025-10-12 19:04:50,103 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.18s (links extraídos: 18)
+2025-10-12 19:05:45,328 [INFO] __main__: [TEMPO] Fase 3 concluída em 55.22s (jogos raspados: 31)
+2025-10-12 19:05:45,449 [INFO] __main__: Exportado histórico para dados_redscore.csv (8025 linhas)
+2025-10-12 19:05:45,450 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.2 MB).
+2025-10-12 19:05:45,459 [INFO] __main__: [DB] VACUUM concluído.
+2025-10-12 19:05:46,158 [INFO] __main__: --- Rotina concluída em 74.72s ---
