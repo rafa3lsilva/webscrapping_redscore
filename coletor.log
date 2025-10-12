@@ -14975,3 +14975,29 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-10 20:56:51,130 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (26 linhas).
 2025-10-10 20:56:51,269 [INFO] __main__: Exportado histórico para dados_redscore.csv (7989 linhas)
 2025-10-10 20:56:51,938 [INFO] __main__: --- Rotina concluída em 366.18s ---
+2025-10-11 22:41:07,146 [INFO] __main__: Coletor iniciado
+2025-10-11 22:41:07,147 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-11 22:41:16,801 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: The element with the reference c2b06d0c-4e0c-4a77-bd86-b35fd6b6afca is stale; either its node document is not the active document, or it is no longer connected to the DOM; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:831:5
+getKnownElement@chrome://remote/content/marionette/json.sys.mjs:405:11
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:263:20
+cloneObject@chrome://remote/content/marionette/json.sys.mjs:59:24
+deserializeJSON@chrome://remote/content/marionette/json.sys.mjs:293:16
+json.deserialize@chrome://remote/content/marionette/json.sys.mjs:297:10
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:179:30
+
+2025-10-11 22:41:16,801 [INFO] __main__: --- Rotina concluída em 9.65s ---
+2025-10-11 22:42:26,682 [INFO] __main__: Coletor iniciado
+2025-10-11 22:42:26,682 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-11 22:42:45,125 [INFO] [AGENDA] Válidos=34, Incompletos=0, Filtrados=285, Duplicados=0
+2025-10-11 22:42:45,125 [INFO] coletor: [AGENDA] Válidos=34, Incompletos=0, Filtrados=285, Duplicados=0
+2025-10-11 22:42:45,125 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.84s
+2025-10-11 22:42:45,130 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-12.csv (34 linhas).
+2025-10-11 22:43:10,323 [INFO] __main__: [TEMPO] Fase 2 concluída em 25.19s (links extraídos: 68)
+2025-10-11 22:46:22,293 [INFO] __main__: [TEMPO] Fase 3 concluída em 191.97s (jogos raspados: 87)
+2025-10-11 22:46:22,421 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (29 linhas).
+2025-10-11 22:46:22,553 [INFO] __main__: Exportado histórico para dados_redscore.csv (8018 linhas)
+2025-10-11 22:46:23,060 [INFO] __main__: --- Rotina concluída em 236.38s ---
