@@ -15067,3 +15067,34 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-13 21:55:30,924 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
 2025-10-13 21:55:31,077 [INFO] __main__: Exportado histórico para dados_redscore.csv (8032 linhas)
 2025-10-13 21:55:32,131 [INFO] __main__: --- Rotina concluída em 55.85s ---
+2025-10-14 21:18:39,908 [INFO] __main__: Coletor iniciado
+2025-10-14 21:18:39,910 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-14 21:18:59,165 [INFO] [ODDS] Odds para Palmeiras vs Bragantino: 1.36, 5.0, 8.5
+2025-10-14 21:18:59,165 [INFO] coletor: [ODDS] Odds para Palmeiras vs Bragantino: 1.36, 5.0, 8.5
+2025-10-14 21:18:59,166 [INFO] [ODDS] Odds para Botafogo vs Flamengo: 4.2, 3.2, 2.0
+2025-10-14 21:18:59,166 [INFO] coletor: [ODDS] Odds para Botafogo vs Flamengo: 4.2, 3.2, 2.0
+2025-10-14 21:18:59,167 [INFO] [ODDS] Odds para Mirassol vs Internacional: 2.15, 3.25, 3.6
+2025-10-14 21:18:59,167 [INFO] coletor: [ODDS] Odds para Mirassol vs Internacional: 2.15, 3.25, 3.6
+2025-10-14 21:18:59,167 [INFO] [ODDS] Odds para Sport Recife vs Ceará: 2.4, 3.1, 3.2
+2025-10-14 21:18:59,167 [INFO] coletor: [ODDS] Odds para Sport Recife vs Ceará: 2.4, 3.1, 3.2
+2025-10-14 21:18:59,168 [INFO] [ODDS] Odds para Santos vs Corinthians: 2.25, 3.0, 3.6
+2025-10-14 21:18:59,168 [INFO] coletor: [ODDS] Odds para Santos vs Corinthians: 2.25, 3.0, 3.6
+2025-10-14 21:18:59,168 [INFO] [ODDS] Odds para Atlético Mineiro vs Cruzeiro: 3.0, 3.0, 2.6
+2025-10-14 21:18:59,168 [INFO] coletor: [ODDS] Odds para Atlético Mineiro vs Cruzeiro: 3.0, 3.0, 2.6
+2025-10-14 21:18:59,169 [INFO] [ODDS] Odds para Fortaleza vs Vasco da Gama: 2.25, 3.3, 3.3
+2025-10-14 21:18:59,169 [INFO] coletor: [ODDS] Odds para Fortaleza vs Vasco da Gama: 2.25, 3.3, 3.3
+2025-10-14 21:18:59,169 [WARNING] [ODDS] Odds não encontradas para Deportivo Pereira vs Millonarios. Motivo: could not convert string to float: '-'
+2025-10-14 21:18:59,169 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Pereira vs Millonarios. Motivo: could not convert string to float: '-'
+2025-10-14 21:18:59,170 [INFO] [ODDS] Odds para Deportivo Pereira vs Millonarios: 2.37, 3.2, 3.1
+2025-10-14 21:18:59,170 [INFO] coletor: [ODDS] Odds para Deportivo Pereira vs Millonarios: 2.37, 3.2, 3.1
+2025-10-14 21:18:59,170 [INFO] [ODDS] Odds para Sporting Cristal vs Universitario: 3.5, 2.87, 2.25
+2025-10-14 21:18:59,170 [INFO] coletor: [ODDS] Odds para Sporting Cristal vs Universitario: 3.5, 2.87, 2.25
+2025-10-14 21:18:59,170 [INFO] [AGENDA] Válidos=10, Incompletos=0, Filtrados=66, Duplicados=1
+2025-10-14 21:18:59,170 [INFO] coletor: [AGENDA] Válidos=10, Incompletos=0, Filtrados=66, Duplicados=1
+2025-10-14 21:18:59,170 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.52s
+2025-10-14 21:18:59,175 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-15.csv (9 linhas).
+2025-10-14 21:19:04,227 [INFO] __main__: [TEMPO] Fase 2 concluída em 5.05s (links extraídos: 18)
+2025-10-14 21:19:57,112 [INFO] __main__: [TEMPO] Fase 3 concluída em 52.88s (jogos raspados: 27)
+2025-10-14 21:19:57,191 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (8 linhas).
+2025-10-14 21:19:57,335 [INFO] __main__: Exportado histórico para dados_redscore.csv (8040 linhas)
+2025-10-14 21:19:58,446 [INFO] __main__: --- Rotina concluída em 78.54s ---
