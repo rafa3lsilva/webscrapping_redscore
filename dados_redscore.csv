@@ -8039,3 +8039,47 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2025-10-04,Internacional,Botafogo,Brasil - Serie A,2,0,1,0,15,13,7,3,32,31,6,4,2.3,3.25,3.2
 2025-10-05,Bahia,Flamengo,Brasil - Serie A,1,0,1,0,11,8,3,3,60,28,3,1,5.75,3.6,1.66
 2025-10-05,Ceará,Santos,Brasil - Serie A,3,0,1,0,11,17,5,5,6,9,2,7,2.4,2.9,3.25
+2025-08-31,Ben Aknoun,JS Kabylie,Argélia - Ligue 1,1,1,1,1,10,6,5,3,47,41,8,4,3.4,2.87,2.1
+2025-10-04,SJK,Ilves,Finlândia - Veikkausliiga,2,1,1,0,7,22,3,7,18,112,1,9,3.5,3.9,1.8
+2025-10-05,Inter Turku,KuPS,Finlândia - Veikkausliiga,0,3,0,0,14,16,4,10,60,36,7,8,2.2,3.2,3.25
+2025-09-27,Ben Aknoun,JS Saoura,Argélia - Ligue 1,1,1,1,1,10,17,6,5,59,60,4,5,2.1,2.8,3.4
+2025-10-04,El Bayadh,Ben Aknoun,Argélia - Ligue 1,1,2,0,1,25,8,11,4,64,27,5,4,1.55,3.4,6.0
+2025-09-12,MC Oran,JS Kabylie,Argélia - Ligue 1,2,0,0,0,11,13,5,1,44,41,4,4,2.4,2.75,3.0
+2025-10-04,USM Khenchela,MC Oran,Argélia - Ligue 1,2,0,0,0,16,7,6,2,66,38,2,1,1.83,3.0,4.2
+2025-09-20,USM Khenchela,Ben Aknoun,Argélia - Ligue 1,1,1,0,0,21,6,7,4,103,68,6,5,0.0,0.0,0.0
+2025-09-16,MC Alger,MC Oran,Argélia - Ligue 1,3,2,2,1,13,8,8,3,56,52,2,5,1.53,3.8,4.75
+2025-09-05,CS Constantine,MB Rouisset,Argélia - Ligue 1,2,0,1,0,11,6,5,1,55,40,3,3,1.72,3.1,4.75
+2025-10-04,JS Saoura,Oued Akbou,Argélia - Ligue 1,3,2,1,1,7,6,4,2,89,57,2,1,1.6,3.4,4.75
+2025-09-28,Oued Akbou,USM Khenchela,Argélia - Ligue 1,1,1,1,1,11,20,4,5,48,43,4,8,1.6,3.3,5.25
+2025-09-12,Oued Akbou,MC Alger,Argélia - Ligue 1,0,1,0,1,12,3,3,2,83,71,10,1,3.3,2.55,2.37
+2025-09-06,JS Kabylie,Oued Akbou,Argélia - Ligue 1,0,0,0,0,14,9,5,3,54,33,3,5,1.55,3.4,6.0
+2025-09-27,ASO Chlef,MB Rouisset,Argélia - Ligue 1,1,1,1,0,18,18,13,11,62,87,7,8,1.66,3.1,5.0
+2025-09-19,CS Constantine,ASO Chlef,Argélia - Ligue 1,2,2,0,1,20,8,7,5,59,22,6,1,1.53,3.2,7.5
+2025-09-13,ASO Chlef,El Bayadh,Argélia - Ligue 1,2,0,1,0,7,11,3,7,39,49,3,4,1.61,3.25,5.5
+2025-09-05,JS Saoura,ASO Chlef,Argélia - Ligue 1,1,0,1,0,7,3,1,0,82,62,3,4,1.8,2.9,4.75
+2025-10-03,MB Rouisset,CR Belouizdad,Argélia - Ligue 1,1,1,0,0,6,6,2,1,28,16,10,5,2.45,2.87,2.8
+2025-09-28,CR Belouizdad,CS Constantine,Argélia - Ligue 1,2,2,1,1,8,4,5,4,43,44,4,4,1.5,3.5,6.0
+2025-09-20,El Bayadh,CR Belouizdad,Argélia - Ligue 1,1,1,0,0,14,10,4,7,82,31,6,2,3.75,2.62,2.1
+2025-09-13,CR Belouizdad,JS Saoura,Argélia - Ligue 1,1,2,1,1,12,10,5,6,97,53,7,2,1.5,3.4,6.5
+2025-09-06,USM Khenchela,CR Belouizdad,Argélia - Ligue 1,1,1,1,0,8,11,5,1,63,83,4,4,2.8,3.25,2.2
+2025-10-03,Paradou AC,JS Kabylie,Argélia - Ligue 1,1,2,1,1,8,13,4,7,26,51,5,5,4.5,3.3,1.7
+2025-09-27,MC Oran,Paradou AC,Argélia - Ligue 1,3,1,1,1,15,8,10,4,48,32,6,2,1.57,3.25,5.75
+2025-09-19,Paradou AC,Oued Akbou,Argélia - Ligue 1,1,2,0,2,5,8,2,3,83,71,3,2,2.05,3.0,3.4
+2025-09-12,Ben Aknoun,Paradou AC,Argélia - Ligue 1,1,0,1,0,9,8,4,6,81,70,3,2,2.35,2.87,3.1
+2025-10-04,MC Alger,Mostaganem,Argélia - Ligue 1,1,0,0,0,15,4,3,1,41,25,4,0,1.28,4.1,11.0
+2025-09-24,JS Kabylie,Mostaganem,Argélia - Ligue 1,1,0,1,0,8,2,2,0,47,42,1,4,1.38,4.33,7.0
+2025-09-11,Mostaganem,MB Rouisset,Argélia - Ligue 1,1,1,1,1,6,11,4,6,52,52,3,3,1.72,2.9,5.0
+2025-09-05,MC Oran,Mostaganem,Argélia - Ligue 1,0,0,0,0,16,3,7,2,39,36,5,2,2.1,3.0,3.25
+2025-10-04,ES Sétif,ASO Chlef,Argélia - Ligue 1,1,1,0,0,8,9,6,5,58,37,11,4,1.53,3.3,6.25
+2025-09-29,Mostaganem,ES Sétif,Argélia - Ligue 1,1,0,1,0,8,10,2,4,49,46,7,5,2.1,2.75,3.7
+2025-09-19,MB Rouisset,ES Sétif,Argélia - Ligue 1,3,0,1,0,19,17,10,5,51,92,2,8,0.0,0.0,0.0
+2025-09-11,ES Sétif,CS Constantine,Argélia - Ligue 1,2,1,0,1,10,8,2,2,97,67,9,0,1.75,2.9,5.0
+2025-09-05,El Bayadh,ES Sétif,Argélia - Ligue 1,1,1,0,1,23,17,9,6,56,48,5,6,2.62,2.62,2.8
+2025-10-04,CS Constantine,USM Alger,Argélia - Ligue 1,1,1,1,1,2,1,2,1,0,0,7,2,1.85,3.0,4.0
+2025-09-29,USM Alger,El Bayadh,Argélia - Ligue 1,1,1,0,0,11,3,4,1,118,59,13,1,1.48,3.4,7.5
+2025-09-20,JS Saoura,USM Alger,Argélia - Ligue 1,1,0,1,0,0,0,0,0,61,72,1,3,2.2,2.8,3.5
+2025-09-13,USM Alger,USM Khenchela,Argélia - Ligue 1,1,1,0,1,12,4,4,3,45,24,12,3,1.48,3.5,7.0
+2025-09-06,Paradou AC,USM Alger,Argélia - Ligue 1,0,1,0,0,6,16,3,8,47,50,7,12,2.4,3.2,2.6
+2025-10-10,Sportivo Trinidense,General Caballero JLM,Paraguai - Division 1,2,0,0,0,17,13,6,1,24,29,4,5,2.3,3.2,3.1
+2025-10-11,Atlético Tembetary,Libertad,Paraguai - Division 1,2,1,1,1,14,10,4,4,14,11,1,1,5.75,3.7,1.57
+2025-10-04,Sport Boys,Sport Huancayo,Peru - Primera Division,2,1,1,0,11,16,4,4,46,42,5,8,2.0,3.4,3.75

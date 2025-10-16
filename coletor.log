@@ -15098,3 +15098,44 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-14 21:19:57,191 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (8 linhas).
 2025-10-14 21:19:57,335 [INFO] __main__: Exportado histórico para dados_redscore.csv (8040 linhas)
 2025-10-14 21:19:58,446 [INFO] __main__: --- Rotina concluída em 78.54s ---
+2025-10-15 22:02:57,193 [INFO] __main__: Coletor iniciado
+2025-10-15 22:02:57,195 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-15 22:03:14,108 [INFO] [ODDS] Odds para Grêmio vs São Paulo: 2.87, 3.0, 2.62
+2025-10-15 22:03:14,108 [INFO] coletor: [ODDS] Odds para Grêmio vs São Paulo: 2.87, 3.0, 2.62
+2025-10-15 22:03:14,108 [WARNING] [ODDS] Odds não encontradas para Fluminense vs Juventude. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,108 [WARNING] coletor: [ODDS] Odds não encontradas para Fluminense vs Juventude. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,109 [INFO] [ODDS] Odds para Vitória vs Bahia: 2.9, 2.9, 2.7
+2025-10-15 22:03:14,109 [INFO] coletor: [ODDS] Odds para Vitória vs Bahia: 2.9, 2.9, 2.7
+2025-10-15 22:03:14,109 [INFO] [ODDS] Odds para Huddersfield vs Bolton: 2.62, 3.3, 2.55
+2025-10-15 22:03:14,109 [INFO] coletor: [ODDS] Odds para Huddersfield vs Bolton: 2.62, 3.3, 2.55
+2025-10-15 22:03:14,109 [INFO] [ODDS] Odds para Ilves vs KuPS: 2.05, 4.1, 2.75
+2025-10-15 22:03:14,109 [INFO] coletor: [ODDS] Odds para Ilves vs KuPS: 2.05, 4.1, 2.75
+2025-10-15 22:03:14,110 [WARNING] [ODDS] Odds não encontradas para CS Constantine vs Oued Akbou. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,110 [WARNING] coletor: [ODDS] Odds não encontradas para CS Constantine vs Oued Akbou. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,110 [WARNING] [ODDS] Odds não encontradas para MB Rouisset vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,110 [WARNING] coletor: [ODDS] Odds não encontradas para MB Rouisset vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,111 [WARNING] [ODDS] Odds não encontradas para El Bayadh vs MC Oran. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,111 [WARNING] coletor: [ODDS] Odds não encontradas para El Bayadh vs MC Oran. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,111 [WARNING] [ODDS] Odds não encontradas para JS Saoura vs JS Kabylie. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,111 [WARNING] coletor: [ODDS] Odds não encontradas para JS Saoura vs JS Kabylie. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,111 [WARNING] [ODDS] Odds não encontradas para ASO Chlef vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,111 [WARNING] coletor: [ODDS] Odds não encontradas para ASO Chlef vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,112 [WARNING] [ODDS] Odds não encontradas para USM Khenchela vs MC Alger. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,112 [WARNING] coletor: [ODDS] Odds não encontradas para USM Khenchela vs MC Alger. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,112 [WARNING] [ODDS] Odds não encontradas para Paradou AC vs Mostaganem. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,112 [WARNING] coletor: [ODDS] Odds não encontradas para Paradou AC vs Mostaganem. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,113 [WARNING] [ODDS] Odds não encontradas para ES Sétif vs USM Alger. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,113 [WARNING] coletor: [ODDS] Odds não encontradas para ES Sétif vs USM Alger. Motivo: could not convert string to float: '-'
+2025-10-15 22:03:14,113 [INFO] [ODDS] Odds para General Caballero JLM vs Atlético Tembetary: 1.85, 3.3, 4.2
+2025-10-15 22:03:14,113 [INFO] coletor: [ODDS] Odds para General Caballero JLM vs Atlético Tembetary: 1.85, 3.3, 4.2
+2025-10-15 22:03:14,114 [INFO] [ODDS] Odds para Alianza Lima vs Sport Boys: 1.4, 5.25, 6.0
+2025-10-15 22:03:14,114 [INFO] coletor: [ODDS] Odds para Alianza Lima vs Sport Boys: 1.4, 5.25, 6.0
+2025-10-15 22:03:14,114 [INFO] [AGENDA] Válidos=15, Incompletos=0, Filtrados=43, Duplicados=0
+2025-10-15 22:03:14,114 [INFO] coletor: [AGENDA] Válidos=15, Incompletos=0, Filtrados=43, Duplicados=0
+2025-10-15 22:03:14,114 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.49s
+2025-10-15 22:03:14,118 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-16.csv (15 linhas).
+2025-10-15 22:03:20,727 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.61s (links extraídos: 30)
+2025-10-15 22:04:45,015 [INFO] __main__: [TEMPO] Fase 3 concluída em 84.29s (jogos raspados: 90)
+2025-10-15 22:04:45,102 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (44 linhas).
+2025-10-15 22:04:45,245 [INFO] __main__: Exportado histórico para dados_redscore.csv (8084 linhas)
+2025-10-15 22:04:46,299 [INFO] __main__: --- Rotina concluída em 109.10s ---
