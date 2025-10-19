@@ -15924,3 +15924,78 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-18 21:26:28,980 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (180 linhas).
 2025-10-18 21:26:29,101 [INFO] __main__: Exportado histórico para dados_redscore.csv (9020 linhas)
 2025-10-18 21:26:29,837 [INFO] __main__: --- Rotina concluída em 750.82s ---
+2025-10-19 19:32:45,357 [INFO] __main__: Coletor iniciado
+2025-10-19 19:32:45,358 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-19 19:33:02,194 [INFO] [ODDS] Odds para Juventude vs Bragantino: 2.87, 3.2, 2.55
+2025-10-19 19:33:02,194 [INFO] coletor: [ODDS] Odds para Juventude vs Bragantino: 2.87, 3.2, 2.55
+2025-10-19 19:33:02,195 [INFO] [ODDS] Odds para Vasco da Gama vs Fluminense: 2.9, 3.0, 2.62
+2025-10-19 19:33:02,195 [INFO] coletor: [ODDS] Odds para Vasco da Gama vs Fluminense: 2.9, 3.0, 2.62
+2025-10-19 19:33:02,195 [INFO] [ODDS] Odds para Santos vs Vitória: 1.6, 3.6, 6.5
+2025-10-19 19:33:02,195 [INFO] coletor: [ODDS] Odds para Santos vs Vitória: 1.6, 3.6, 6.5
+2025-10-19 19:33:02,195 [INFO] [ODDS] Odds para Cádiz vs Burgos: 2.2, 3.0, 3.7
+2025-10-19 19:33:02,195 [INFO] coletor: [ODDS] Odds para Cádiz vs Burgos: 2.2, 3.0, 3.7
+2025-10-19 19:33:02,196 [INFO] [ODDS] Odds para Nancy vs Amiens: 1.7, 3.6, 4.75
+2025-10-19 19:33:02,196 [INFO] coletor: [ODDS] Odds para Nancy vs Amiens: 1.7, 3.6, 4.75
+2025-10-19 19:33:02,196 [INFO] [ODDS] Odds para Jong PSV vs Den Haag: 5.75, 4.75, 1.42
+2025-10-19 19:33:02,196 [INFO] coletor: [ODDS] Odds para Jong PSV vs Den Haag: 5.75, 4.75, 1.42
+2025-10-19 19:33:02,196 [INFO] [ODDS] Odds para Jong AZ vs Willem II: 2.75, 3.75, 2.25
+2025-10-19 19:33:02,196 [INFO] coletor: [ODDS] Odds para Jong AZ vs Willem II: 2.75, 3.75, 2.25
+2025-10-19 19:33:02,196 [INFO] [ODDS] Odds para Dordrecht vs Waalwijk: 2.05, 3.7, 3.1
+2025-10-19 19:33:02,196 [INFO] coletor: [ODDS] Odds para Dordrecht vs Waalwijk: 2.05, 3.7, 3.1
+2025-10-19 19:33:02,197 [WARNING] [ODDS] Odds não encontradas para Roda Kerkrade vs Almere City. Motivo: could not convert string to float: '-'
+2025-10-19 19:33:02,197 [WARNING] coletor: [ODDS] Odds não encontradas para Roda Kerkrade vs Almere City. Motivo: could not convert string to float: '-'
+2025-10-19 19:33:02,197 [INFO] [ODDS] Odds para SønderjyskE vs Fredericia: 1.75, 4.1, 4.0
+2025-10-19 19:33:02,197 [INFO] coletor: [ODDS] Odds para SønderjyskE vs Fredericia: 1.75, 4.1, 4.0
+2025-10-19 19:33:02,197 [INFO] [ODDS] Odds para Degerfors vs Halmstad: 1.95, 3.5, 3.8
+2025-10-19 19:33:02,197 [INFO] coletor: [ODDS] Odds para Degerfors vs Halmstad: 1.95, 3.5, 3.8
+2025-10-19 19:33:02,197 [INFO] [ODDS] Odds para IFK Göteborg vs Mjällby: 2.6, 3.4, 2.62
+2025-10-19 19:33:02,197 [INFO] coletor: [ODDS] Odds para IFK Göteborg vs Mjällby: 2.6, 3.4, 2.62
+2025-10-19 19:33:02,198 [INFO] [ODDS] Odds para Tigre vs Barracas Central: 2.0, 3.1, 4.33
+2025-10-19 19:33:02,198 [INFO] coletor: [ODDS] Odds para Tigre vs Barracas Central: 2.0, 3.1, 4.33
+2025-10-19 19:33:02,198 [INFO] [ODDS] Odds para Deportivo Riestra vs Instituto: 2.62, 2.8, 3.1
+2025-10-19 19:33:02,198 [INFO] coletor: [ODDS] Odds para Deportivo Riestra vs Instituto: 2.62, 2.8, 3.1
+2025-10-19 19:33:02,198 [INFO] [ODDS] Odds para Atlético Tucumán vs San Lorenzo: 2.7, 3.0, 2.9
+2025-10-19 19:33:02,198 [INFO] coletor: [ODDS] Odds para Atlético Tucumán vs San Lorenzo: 2.7, 3.0, 2.9
+2025-10-19 19:33:02,198 [INFO] [ODDS] Odds para Tristán Suárez vs Estudiantes Caseros: 2.5, 2.9, 3.1
+2025-10-19 19:33:02,198 [INFO] coletor: [ODDS] Odds para Tristán Suárez vs Estudiantes Caseros: 2.5, 2.9, 3.1
+2025-10-19 19:33:02,199 [INFO] [ODDS] Odds para Ferroviária vs Paysandu: 2.1, 3.25, 3.6
+2025-10-19 19:33:02,199 [INFO] coletor: [ODDS] Odds para Ferroviária vs Paysandu: 2.1, 3.25, 3.6
+2025-10-19 19:33:02,199 [INFO] [ODDS] Odds para La Equidad vs Deportes Tolima: 4.75, 3.2, 1.83
+2025-10-19 19:33:02,199 [INFO] coletor: [ODDS] Odds para La Equidad vs Deportes Tolima: 4.75, 3.2, 1.83
+2025-10-19 19:33:02,199 [INFO] [ODDS] Odds para Independiente Medellín vs Santa Fe: 1.8, 3.4, 4.75
+2025-10-19 19:33:02,199 [INFO] coletor: [ODDS] Odds para Independiente Medellín vs Santa Fe: 1.8, 3.4, 4.75
+2025-10-19 19:33:02,199 [INFO] [ODDS] Odds para El Nacional vs Deportivo Cuenca: 2.87, 3.1, 2.45
+2025-10-19 19:33:02,199 [INFO] coletor: [ODDS] Odds para El Nacional vs Deportivo Cuenca: 2.87, 3.1, 2.45
+2025-10-19 19:33:02,199 [INFO] [ODDS] Odds para Bohemians vs St Patrick's: 2.35, 3.2, 3.1
+2025-10-19 19:33:02,199 [INFO] coletor: [ODDS] Odds para Bohemians vs St Patrick's: 2.35, 3.2, 3.1
+2025-10-19 19:33:02,200 [WARNING] [ODDS] Odds não encontradas para Bohemians vs St Patrick's. Motivo: could not convert string to float: '-'
+2025-10-19 19:33:02,200 [WARNING] coletor: [ODDS] Odds não encontradas para Bohemians vs St Patrick's. Motivo: could not convert string to float: '-'
+2025-10-19 19:33:02,200 [INFO] [ODDS] Odds para Fram vs Stjarnan: 3.3, 3.8, 1.95
+2025-10-19 19:33:02,200 [INFO] coletor: [ODDS] Odds para Fram vs Stjarnan: 3.3, 3.8, 1.95
+2025-10-19 19:33:02,200 [INFO] [ODDS] Odds para Sport Huancayo vs Alianza Lima: 2.45, 3.3, 2.75
+2025-10-19 19:33:02,200 [INFO] coletor: [ODDS] Odds para Sport Huancayo vs Alianza Lima: 2.45, 3.3, 2.75
+2025-10-19 19:33:02,200 [INFO] [ODDS] Odds para Sport Boys vs Melgar: 3.4, 3.25, 2.1
+2025-10-19 19:33:02,200 [INFO] coletor: [ODDS] Odds para Sport Boys vs Melgar: 3.4, 3.25, 2.1
+2025-10-19 19:33:02,201 [INFO] [ODDS] Odds para Universitario vs Ayacucho: 1.06, 10.0, 29.0
+2025-10-19 19:33:02,201 [INFO] coletor: [ODDS] Odds para Universitario vs Ayacucho: 1.06, 10.0, 29.0
+2025-10-19 19:33:02,201 [INFO] [ODDS] Odds para Wisła Płock vs Nieciecza: 2.0, 3.5, 3.6
+2025-10-19 19:33:02,201 [INFO] coletor: [ODDS] Odds para Wisła Płock vs Nieciecza: 2.0, 3.5, 3.6
+2025-10-19 19:33:02,201 [INFO] [ODDS] Odds para Racing vs Juventud: 2.25, 3.25, 3.1
+2025-10-19 19:33:02,201 [INFO] coletor: [ODDS] Odds para Racing vs Juventud: 2.25, 3.25, 3.1
+2025-10-19 19:33:02,201 [INFO] [ODDS] Odds para Plaza Colonia vs Liverpool: 3.7, 3.25, 2.0
+2025-10-19 19:33:02,201 [INFO] coletor: [ODDS] Odds para Plaza Colonia vs Liverpool: 3.7, 3.25, 2.0
+2025-10-19 19:33:02,202 [INFO] [ODDS] Odds para Arda vs Septemvri Sofia: 1.42, 4.33, 8.0
+2025-10-19 19:33:02,202 [INFO] coletor: [ODDS] Odds para Arda vs Septemvri Sofia: 1.42, 4.33, 8.0
+2025-10-19 19:33:02,202 [INFO] [ODDS] Odds para Beroe vs Montana: 2.1, 3.1, 3.7
+2025-10-19 19:33:02,202 [INFO] coletor: [ODDS] Odds para Beroe vs Montana: 2.1, 3.1, 3.7
+2025-10-19 19:33:02,202 [INFO] [AGENDA] Válidos=31, Incompletos=0, Filtrados=68, Duplicados=1
+2025-10-19 19:33:02,202 [INFO] coletor: [AGENDA] Válidos=31, Incompletos=0, Filtrados=68, Duplicados=1
+2025-10-19 19:33:02,202 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.30s
+2025-10-19 19:33:02,205 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-20.csv (30 linhas).
+2025-10-19 19:33:21,266 [INFO] __main__: [TEMPO] Fase 2 concluída em 19.06s (links extraídos: 60)
+2025-10-19 19:35:53,566 [INFO] __main__: [TEMPO] Fase 3 concluída em 152.30s (jogos raspados: 85)
+2025-10-19 19:35:53,611 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (23 linhas).
+2025-10-19 19:35:53,684 [INFO] __main__: Exportado histórico para dados_redscore.csv (9043 linhas)
+2025-10-19 19:35:53,684 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.4 MB).
+2025-10-19 19:35:53,693 [INFO] __main__: [DB] VACUUM concluído.
+2025-10-19 19:35:54,054 [INFO] __main__: --- Rotina concluída em 188.70s ---
