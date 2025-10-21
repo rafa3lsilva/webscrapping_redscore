@@ -181,18 +181,46 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                 for time, qtd in contador_times.most_common():
                     writer.writerow([time, qtd])
 
-        # Deduplicação
-        vistos = set()
-        jogos_unicos, duplicatas = [], []
-        for j in jogos:
-            chave = (j["liga"], j["hora"], j["home"], j["away"])
-            if chave in vistos:
-                duplicatas.append(chave)
-                with open(arquivo_duplicados, "a", newline="", encoding="utf-8") as f:
-                    csv.writer(f).writerow([*chave, j["link_confronto"]])
-                continue
-            vistos.add(chave)
-            jogos_unicos.append(j)
+        jogos_unicos_dict = {}
+        
+        # Manter o log de itens descartados
+        with open(arquivo_duplicados, "w", newline="", encoding="utf-8") as f:
+            # Escreve o cabeçalho no arquivo de duplicados
+            csv.writer(f).writerow(["liga", "hora", "home", "away", "link_confronto", "motivo"])
+
+        for jogo_atual in jogos:
+            chave = (jogo_atual["liga"], jogo_atual["hora"], jogo_atual["home"], jogo_atual["away"])
+
+            if chave not in jogos_unicos_dict:
+                # Se é a primeira vez que vemos este jogo, simplesmente o adicionamos.
+                jogos_unicos_dict[chave] = jogo_atual
+            else:
+                # Já existe uma versão deste jogo, vamos comparar.
+                jogo_existente = jogos_unicos_dict[chave]
+
+                # --- Verificação de Odds (ADAPTE ESTA LÓGICA SE NECESSÁRIO) ---
+                # Condição para o jogo existente ter odds válidas.
+                existente_tem_odds = 'odd_home' in jogo_existente and jogo_existente['odd_home'] not in [None, 0, 1.0]
+                # Condição para o jogo atual (o novo) ter odds válidas.
+                atual_tem_odds = 'odd_home' in jogo_atual and jogo_atual['odd_home'] not in [None, 0, 1.0]
+                # --- Fim da Verificação ---
+
+                if not existente_tem_odds and atual_tem_odds:
+                    # O jogo existente NÃO tem odds, mas o novo TEM.
+                    # Substituímos o existente pelo novo, que é mais completo.
+                    jogos_unicos_dict[chave] = jogo_atual
+                    
+                    # Logamos o jogo antigo como "substituído por versão com odds"
+                    with open(arquivo_duplicados, "a", newline="", encoding="utf-8") as f:
+                        csv.writer(f).writerow([*chave, jogo_existente.get("link_confronto", "N/A"), "Substituído por versão com odds"])
+                else:
+                    # Em todos os outros casos (ambos têm odds, ou só o existente tem, ou nenhum tem),
+                    # mantemos a primeira versão que encontrámos e descartamos a nova.
+                    with open(arquivo_duplicados, "a", newline="", encoding="utf-8") as f:
+                        csv.writer(f).writerow([*chave, jogo_atual.get("link_confronto", "N/A"), "Duplicado sem prioridade"])
+
+        # No final, a lista de jogos únicos e de melhor qualidade são os valores do nosso dicionário.
+        jogos_unicos = list(jogos_unicos_dict.values())
 
         log.info(
             f"[AGENDA] Válidos={total_validos}, Incompletos={total_incompletos}, Filtrados={total_filtrados}, Duplicados={len(duplicatas)}")

@@ -1,5 +1,5 @@
 LIGAS_PERMITIDAS = {
-    "África-do-sul - Premier League",
+    "África do Sul - Premier League",
     "Albânia - Superliga",
     "Alemanha - 2. Bundesliga",
     "Alemanha - 3. Liga",
