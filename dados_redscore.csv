@@ -9080,3 +9080,71 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2025-09-22,Pharco,Al Masry,Egito - Premier League,0,0,0,0,7,13,3,4,41,63,5,8,5.25,3.8,1.5
 2025-10-17,Academia Puerto Cabello,Deportivo La Guaira,Venezuela - Primera Division,3,1,2,0,11,20,6,8,18,59,5,9,2.8,3.0,2.37
 2025-10-17,Zamora Fútbol Club,Monagas,Venezuela - Primera Division,2,0,1,0,13,6,4,1,9,4,6,2,2.6,3.0,2.6
+2025-10-18,Portland Timbers,San Diego,Eua - Major League Soccer,0,4,0,1,11,16,3,6,50,69,3,5,2.87,3.7,2.3
+2025-10-18,St. Louis City,Real Salt Lake,Eua - Major League Soccer,2,2,1,2,28,8,7,3,97,50,7,3,2.4,3.8,2.7
+2025-10-18,New England,Chicago Fire,Eua - Major League Soccer,2,2,1,0,6,17,2,5,55,126,2,5,3.1,3.9,2.1
+2025-10-18,Toronto,Orlando City,Eua - Major League Soccer,4,2,2,0,12,31,6,10,40,70,2,8,3.2,3.6,2.15
+2025-10-19,Bahia,Grêmio,Brasil - Serie A,4,0,2,0,23,13,10,1,51,33,11,5,1.72,3.7,5.0
+2025-10-19,Internacional,Sport Recife,Brasil - Serie A,2,0,1,0,13,13,5,2,28,43,3,6,1.66,3.8,5.25
+2025-10-18,Konyaspor,Kocaelispor,Turquia - Super Lig,2,3,0,1,12,7,3,3,42,27,3,4,1.8,3.6,4.1
+2025-10-05,Kasımpaşa,Konyaspor,Turquia - Super Lig,1,1,0,1,10,7,2,6,44,34,5,3,2.62,3.2,2.62
+2025-09-22,Galatasaray,Konyaspor,Turquia - Super Lig,3,1,2,0,13,14,7,5,34,41,4,6,1.2,7.5,11.0
+2025-09-13,Konyaspor,Alanyaspor,Turquia - Super Lig,1,2,0,1,13,7,5,4,48,24,6,1,2.0,3.5,3.6
+2025-10-18,Beşiktaş,Gençlerbirliği,Turquia - Super Lig,1,2,0,0,11,5,4,2,26,21,5,4,1.22,5.75,13.0
+2025-10-04,Galatasaray,Beşiktaş,Turquia - Super Lig,1,1,0,1,14,11,2,5,44,35,4,8,1.72,4.1,4.33
+2025-09-29,Beşiktaş,Kocaelispor,Turquia - Super Lig,3,1,2,0,13,7,6,1,37,48,3,6,1.36,5.25,7.0
+2025-09-24,Kayserispor,Beşiktaş,Turquia - Super Lig,0,4,0,3,6,13,2,9,41,38,4,5,5.75,4.1,1.55
+2025-09-19,Göztepe,Beşiktaş,Turquia - Super Lig,3,0,2,0,13,13,5,2,49,45,6,5,2.6,3.2,2.6
+2025-10-18,Rizespor,Trabzonspor,Turquia - Super Lig,1,2,1,2,22,8,3,5,47,18,7,0,3.0,3.3,2.3
+2025-10-03,Antalyaspor,Rizespor,Turquia - Super Lig,2,5,1,2,15,14,7,7,51,38,6,2,2.6,3.25,2.7
+2025-09-28,Rizespor,Kasımpaşa,Turquia - Super Lig,1,2,0,1,13,8,2,2,40,42,1,4,2.0,3.6,3.7
+2025-09-21,Kocaelispor,Rizespor,Turquia - Super Lig,1,1,1,1,16,8,6,1,64,15,8,3,2.87,3.3,2.45
+2025-09-15,Rizespor,Gençlerbirliği,Turquia - Super Lig,1,0,0,0,15,15,5,4,45,46,4,7,1.57,3.8,6.25
+2025-10-18,Başakşehir,Galatasaray,Turquia - Super Lig,1,2,0,1,5,16,2,5,23,35,2,4,4.0,4.33,1.7
+2025-10-05,Göztepe,Başakşehir,Turquia - Super Lig,1,0,1,0,9,11,2,3,26,56,6,5,1.8,3.5,4.2
+2025-09-28,Konyaspor,Başakşehir,Turquia - Super Lig,2,1,2,0,13,17,5,4,29,55,2,11,2.15,3.3,3.4
+2025-09-21,Başakşehir,Alanyaspor,Turquia - Super Lig,1,1,1,0,13,13,5,6,50,25,7,4,1.85,3.7,4.0
+2025-09-17,Karagümrük,Başakşehir,Turquia - Super Lig,0,2,0,0,6,4,2,1,28,34,3,4,3.7,3.6,1.9
+2025-10-19,Ilves,Inter Turku,Finlândia - Veikkausliiga,1,2,1,0,5,13,2,5,40,44,2,5,2.15,3.5,2.9
+2025-10-19,KuPS,HJK,Finlândia - Veikkausliiga,3,1,1,0,12,14,7,3,28,56,5,10,2.35,3.5,2.5
+2025-10-19,Gnistan,SJK,Finlândia - Veikkausliiga,3,4,1,1,8,18,3,7,27,47,6,9,3.1,4.1,1.9
+2025-10-18,Santos Laguna,León,México - Liga Mx,2,0,1,0,10,21,5,11,21,27,4,11,2.7,3.7,2.37
+2025-10-18,Monterrey,Pumas UNAM,México - Liga Mx,1,1,1,1,15,14,6,2,55,41,3,8,1.7,3.8,5.0
+2025-10-01,Kaizer Chiefs,AmaZulu,África Do Sul - Premier League,1,1,1,1,23,3,8,1,117,31,7,1,1.95,3.2,3.5
+2025-09-24,Kaizer Chiefs,Marumo Gallants FC,África Do Sul - Premier League,1,1,1,0,10,10,5,4,62,36,1,1,1.83,3.1,4.33
+2025-09-28,Siwelele,Marumo Gallants FC,África Do Sul - Premier League,1,0,1,0,5,10,2,3,39,42,3,3,2.15,2.75,3.9
+2025-09-20,Magesi,Siwelele,África Do Sul - Premier League,2,0,1,0,15,5,6,3,0,0,2,2,0.0,0.0,0.0
+2025-09-16,Durban City,Siwelele,África Do Sul - Premier League,2,0,1,0,11,7,3,1,46,42,2,4,2.3,2.87,3.2
+2025-10-18,Juárez,Pachuca,México - Liga Mx,2,2,2,1,16,8,4,3,6,5,4,5,2.55,3.25,2.87
+2025-10-18,Toluca,Querétaro,México - Liga Mx,4,0,3,0,16,14,7,5,40,13,3,6,1.22,6.5,12.0
+2025-10-18,Guadalajara,Mazatlán,México - Liga Mx,2,0,2,0,13,5,5,0,50,25,5,2,1.33,5.25,8.5
+2025-09-28,Chippa United,Stellenbosch,África Do Sul - Premier League,0,0,0,0,9,11,3,1,71,70,5,3,3.8,2.6,2.25
+2025-09-24,Stellenbosch,Durban City,África Do Sul - Premier League,0,0,0,0,7,8,1,2,64,56,3,6,2.05,3.0,3.6
+2025-09-20,Stellenbosch,Richards Bay,África Do Sul - Premier League,0,1,0,1,6,6,3,2,102,58,7,2,1.75,3.2,4.75
+2025-09-27,Golden Arrows,Orbit College,África Do Sul - Premier League,3,0,2,0,13,13,6,5,58,73,3,4,2.2,2.7,3.9
+2025-09-24,Golden Arrows,Mamelodi Sundowns,África Do Sul - Premier League,1,0,1,0,13,9,3,3,17,49,5,3,10.0,4.33,1.3
+2025-09-20,Sekhukhune United,Golden Arrows,África Do Sul - Premier League,1,0,0,0,19,8,5,0,43,17,5,2,0.0,0.0,0.0
+2025-09-30,Orlando Pirates,TS Galaxy,África Do Sul - Premier League,2,0,1,0,15,6,6,3,69,62,5,3,1.48,3.6,8.0
+2025-09-23,Siwelele,Orlando Pirates,África Do Sul - Premier League,0,1,0,0,7,9,2,3,69,62,3,2,5.75,3.5,1.57
+2025-09-27,Polokwane City,Sekhukhune United,África Do Sul - Premier League,1,0,1,0,4,10,1,1,57,96,2,7,3.4,2.45,2.6
+2025-09-24,Orbit College,Polokwane City,África Do Sul - Premier League,1,0,0,0,8,9,1,4,0,0,6,5,2.9,2.7,2.62
+2025-09-21,Polokwane City,Chippa United,África Do Sul - Premier League,2,1,1,1,19,11,3,3,92,69,9,6,2.1,2.75,3.9
+2025-09-17,Polokwane City,Golden Arrows,África Do Sul - Premier League,2,1,0,1,24,14,7,5,73,43,7,3,2.15,2.6,4.33
+2025-09-29,Al Ahly,Zamalek,Egito - Premier League,2,1,0,1,18,6,4,2,74,18,5,0,2.15,2.8,3.9
+2025-08-29,Al Ittihad,ENPPI,Egito - Premier League,0,3,0,1,11,11,1,6,83,45,3,3,2.8,2.62,2.87
+2025-10-19,Harju Jalgpallikool,Nõmme Kalju,Estônia - Meistriliiga,1,3,1,0,10,14,3,4,40,50,2,5,5.25,5.0,1.42
+2025-10-18,Paide,Tammeka,Estônia - Meistriliiga,5,0,2,0,16,11,8,2,56,42,6,3,1.25,6.25,7.5
+2025-10-18,Trakai,Hegelmann Litauen,Lituânia - A Lyga,2,0,0,0,5,19,3,8,27,83,2,9,4.5,4.33,1.5
+2025-10-18,Dainava,Žalgiris,Lituânia - A Lyga,1,1,0,0,15,17,5,4,30,52,4,9,6.25,4.1,1.48
+2025-10-17,Kauno Žalgiris,FA Šiauliai,Lituânia - A Lyga,3,1,1,0,21,6,9,1,62,47,2,4,1.33,4.75,7.5
+2025-10-18,Banga,Panevėžys,Lituânia - A Lyga,2,2,1,2,12,12,5,6,37,34,2,9,3.0,3.1,2.15
+2025-10-18,Odd,Ranheim,Noruega - Obos-Ligaen,1,1,0,0,16,17,7,3,57,46,7,7,2.4,3.75,2.62
+2025-10-18,Mjøndalen,Aalesund,Noruega - Obos-Ligaen,0,6,0,3,7,20,2,13,48,55,6,10,4.75,4.1,1.65
+2025-10-17,Lillestrøm,Lyn,Noruega - Obos-Ligaen,5,1,2,1,14,12,7,5,68,51,6,7,1.38,5.0,7.0
+2025-10-18,Sogndal,Start,Noruega - Obos-Ligaen,0,0,0,0,10,17,4,3,33,36,3,5,2.62,3.5,2.45
+2025-10-18,Egersund,Raufoss,Noruega - Obos-Ligaen,4,0,2,0,11,12,6,7,55,31,5,2,1.61,3.9,5.25
+2025-10-18,Moss,Kongsvinger,Noruega - Obos-Ligaen,2,4,1,2,13,13,3,8,35,58,2,5,3.5,4.33,1.83
+2025-10-18,Skeid,Stabæk,Noruega - Obos-Ligaen,0,5,0,2,12,17,4,11,34,37,3,7,5.5,4.75,1.5
+2025-10-18,Hødd,Åsane,Noruega - Obos-Ligaen,3,3,1,2,10,11,5,6,78,48,4,5,2.1,3.3,3.3
+2025-10-18,Metropolitanos,Deportivo Táchira,Venezuela - Primera Division,1,1,1,1,13,11,4,4,28,60,2,8,4.5,3.5,1.66
+2025-10-18,Caracas,Carabobo,Venezuela - Primera Division,0,0,0,0,15,9,3,3,59,28,5,3,2.8,3.4,2.25

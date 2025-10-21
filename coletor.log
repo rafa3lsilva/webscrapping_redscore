@@ -16148,3 +16148,453 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-20 19:58:28,575 [INFO] __main__: [TEMPO] Fase 3 concluída em 220.77s (jogos raspados: 45)
 2025-10-20 19:58:28,736 [INFO] __main__: Exportado histórico para dados_redscore.csv (9081 linhas)
 2025-10-20 19:58:29,510 [INFO] __main__: --- Rotina concluída em 260.23s ---
+2025-10-21 20:02:38,023 [INFO] __main__: Coletor iniciado
+2025-10-21 20:02:38,023 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-21 20:02:59,195 [INFO] [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:02:59,195 [INFO] coletor: [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:02:59,195 [INFO] [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:02:59,195 [INFO] coletor: [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:02:59,195 [INFO] [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:02:59,195 [INFO] coletor: [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:02:59,196 [INFO] [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:02:59,196 [INFO] coletor: [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:02:59,196 [INFO] [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:02:59,196 [INFO] coletor: [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:02:59,197 [INFO] [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:02:59,197 [INFO] coletor: [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:02:59,197 [INFO] [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:02:59,197 [INFO] coletor: [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:02:59,198 [INFO] [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:02:59,198 [INFO] coletor: [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:02:59,198 [INFO] [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.5, 3.75, 1.72
+2025-10-21 20:02:59,198 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.5, 3.75, 1.72
+2025-10-21 20:02:59,198 [INFO] [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:02:59,198 [INFO] coletor: [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:02:59,199 [INFO] [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:02:59,199 [INFO] coletor: [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:02:59,199 [INFO] [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:02:59,199 [INFO] coletor: [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:02:59,200 [INFO] [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:02:59,200 [INFO] coletor: [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:02:59,200 [INFO] [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:02:59,200 [INFO] coletor: [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:02:59,201 [INFO] [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:02:59,201 [INFO] coletor: [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:02:59,201 [INFO] [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:02:59,201 [INFO] coletor: [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:02:59,201 [INFO] [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:02:59,201 [INFO] coletor: [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:02:59,202 [WARNING] [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,202 [WARNING] coletor: [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,202 [WARNING] [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,202 [WARNING] coletor: [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,203 [INFO] [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:02:59,203 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:02:59,203 [INFO] [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:02:59,203 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:02:59,203 [WARNING] [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,203 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,204 [INFO] [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:02:59,204 [INFO] coletor: [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:02:59,204 [INFO] [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:02:59,204 [INFO] coletor: [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:02:59,205 [INFO] [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:02:59,205 [INFO] coletor: [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:02:59,205 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:02:59,205 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:02:59,205 [INFO] [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:02:59,205 [INFO] coletor: [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:02:59,206 [INFO] [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:02:59,206 [INFO] coletor: [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:02:59,206 [INFO] [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:02:59,206 [INFO] coletor: [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:02:59,207 [INFO] [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:02:59,207 [INFO] coletor: [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:02:59,207 [INFO] [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:02:59,207 [INFO] coletor: [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:02:59,207 [INFO] [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:02:59,207 [INFO] coletor: [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:02:59,208 [INFO] [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:02:59,208 [INFO] coletor: [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:02:59,208 [INFO] [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:02:59,208 [INFO] coletor: [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:02:59,209 [INFO] [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:02:59,209 [INFO] coletor: [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:02:59,209 [INFO] [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:02:59,209 [INFO] coletor: [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:02:59,210 [INFO] [ODDS] Odds para Ranheim vs Mjøndalen: 1.38, 5.25, 5.75
+2025-10-21 20:02:59,210 [INFO] coletor: [ODDS] Odds para Ranheim vs Mjøndalen: 1.38, 5.25, 5.75
+2025-10-21 20:02:59,210 [INFO] [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:02:59,210 [INFO] coletor: [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:02:59,210 [INFO] [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:02:59,210 [INFO] coletor: [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:02:59,211 [INFO] [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:02:59,211 [INFO] coletor: [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:02:59,211 [WARNING] [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,211 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:02:59,212 [ERROR] [AGENDA] Falha geral: name 'duplicatas' is not defined
+2025-10-21 20:02:59,212 [ERROR] coletor: [AGENDA] Falha geral: name 'duplicatas' is not defined
+2025-10-21 20:02:59,212 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.93s
+2025-10-21 20:02:59,212 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-10-21 20:04:23,409 [INFO] __main__: Coletor iniciado
+2025-10-21 20:04:23,410 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-21 20:05:10,260 [INFO] [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:05:10,260 [INFO] coletor: [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:05:10,260 [INFO] [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:05:10,260 [INFO] coletor: [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:05:10,261 [INFO] [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:05:10,261 [INFO] coletor: [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:05:10,261 [INFO] [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:05:10,261 [INFO] coletor: [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:05:10,261 [INFO] [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:05:10,261 [INFO] coletor: [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:05:10,262 [INFO] [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:05:10,262 [INFO] coletor: [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:05:10,262 [INFO] [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:05:10,262 [INFO] coletor: [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:05:10,263 [INFO] [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:05:10,263 [INFO] coletor: [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:05:10,263 [INFO] [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:05:10,263 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:05:10,264 [INFO] [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:05:10,264 [INFO] coletor: [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:05:10,264 [INFO] [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:05:10,264 [INFO] coletor: [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:05:10,264 [INFO] [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:05:10,264 [INFO] coletor: [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:05:10,265 [INFO] [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:05:10,265 [INFO] coletor: [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:05:10,265 [INFO] [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:05:10,265 [INFO] coletor: [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:05:10,266 [INFO] [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:05:10,266 [INFO] coletor: [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:05:10,266 [INFO] [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:05:10,266 [INFO] coletor: [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:05:10,266 [INFO] [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:05:10,266 [INFO] coletor: [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:05:10,267 [WARNING] [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,267 [WARNING] coletor: [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,267 [WARNING] [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,267 [WARNING] coletor: [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,268 [INFO] [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:05:10,268 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:05:10,268 [INFO] [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:05:10,268 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:05:10,268 [WARNING] [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,268 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,269 [INFO] [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:05:10,269 [INFO] coletor: [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:05:10,269 [INFO] [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:05:10,269 [INFO] coletor: [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:05:10,270 [INFO] [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:05:10,270 [INFO] coletor: [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:05:10,270 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:05:10,270 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:05:10,270 [INFO] [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:05:10,270 [INFO] coletor: [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:05:10,271 [INFO] [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:05:10,271 [INFO] coletor: [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:05:10,271 [INFO] [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:05:10,271 [INFO] coletor: [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:05:10,272 [INFO] [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:05:10,272 [INFO] coletor: [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:05:10,272 [INFO] [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:05:10,272 [INFO] coletor: [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:05:10,272 [INFO] [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:05:10,272 [INFO] coletor: [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:05:10,273 [INFO] [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:05:10,273 [INFO] coletor: [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:05:10,273 [INFO] [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:05:10,273 [INFO] coletor: [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:05:10,274 [INFO] [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:05:10,274 [INFO] coletor: [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:05:10,274 [INFO] [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:05:10,274 [INFO] coletor: [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:05:10,274 [INFO] [ODDS] Odds para Ranheim vs Mjøndalen: 1.38, 5.25, 5.75
+2025-10-21 20:05:10,274 [INFO] coletor: [ODDS] Odds para Ranheim vs Mjøndalen: 1.38, 5.25, 5.75
+2025-10-21 20:05:10,275 [INFO] [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:05:10,275 [INFO] coletor: [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:05:10,275 [INFO] [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:05:10,275 [INFO] coletor: [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:05:10,276 [INFO] [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:05:10,276 [INFO] coletor: [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:05:10,276 [WARNING] [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,276 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:05:10,277 [ERROR] [AGENDA] Falha geral: name 'duplicatas' is not defined
+2025-10-21 20:05:10,277 [ERROR] coletor: [AGENDA] Falha geral: name 'duplicatas' is not defined
+2025-10-21 20:05:10,277 [INFO] __main__: [TEMPO] Fase 1 concluída em 18.28s
+2025-10-21 20:05:10,277 [INFO] __main__: Nenhum jogo encontrado para amanhã.
+2025-10-21 20:08:58,087 [INFO] __main__: Coletor iniciado
+2025-10-21 20:08:58,088 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-21 20:09:33,923 [INFO] [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:09:33,923 [INFO] coletor: [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:09:33,924 [INFO] [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:09:33,924 [INFO] coletor: [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:09:33,924 [INFO] [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:09:33,924 [INFO] coletor: [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:09:33,925 [INFO] [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:09:33,925 [INFO] coletor: [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:09:33,925 [INFO] [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:09:33,925 [INFO] coletor: [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:09:33,926 [INFO] [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:09:33,926 [INFO] coletor: [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:09:33,926 [INFO] [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:09:33,926 [INFO] coletor: [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:09:33,926 [INFO] [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:09:33,926 [INFO] coletor: [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:09:33,927 [INFO] [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:09:33,927 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:09:33,927 [INFO] [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:09:33,927 [INFO] coletor: [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:09:33,928 [INFO] [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:09:33,928 [INFO] coletor: [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:09:33,928 [INFO] [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:09:33,928 [INFO] coletor: [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:09:33,928 [INFO] [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:09:33,928 [INFO] coletor: [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:09:33,929 [INFO] [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:09:33,929 [INFO] coletor: [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:09:33,929 [INFO] [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:09:33,929 [INFO] coletor: [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:09:33,930 [INFO] [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:09:33,930 [INFO] coletor: [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:09:33,930 [INFO] [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:09:33,930 [INFO] coletor: [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:09:33,931 [WARNING] [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,931 [WARNING] coletor: [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,931 [WARNING] [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,931 [WARNING] coletor: [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,931 [INFO] [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:09:33,931 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:09:33,932 [INFO] [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:09:33,932 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:09:33,932 [WARNING] [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,932 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,933 [INFO] [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:09:33,933 [INFO] coletor: [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:09:33,933 [INFO] [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:09:33,933 [INFO] coletor: [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:09:33,933 [INFO] [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:09:33,933 [INFO] coletor: [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:09:33,934 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:09:33,934 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:09:33,934 [INFO] [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:09:33,934 [INFO] coletor: [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:09:33,935 [INFO] [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:09:33,935 [INFO] coletor: [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:09:33,935 [INFO] [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:09:33,935 [INFO] coletor: [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:09:33,935 [INFO] [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:09:33,935 [INFO] coletor: [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:09:33,936 [INFO] [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:09:33,936 [INFO] coletor: [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:09:33,936 [INFO] [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:09:33,936 [INFO] coletor: [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:09:33,937 [INFO] [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:09:33,937 [INFO] coletor: [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:09:33,937 [INFO] [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:09:33,937 [INFO] coletor: [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:09:33,937 [INFO] [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:09:33,937 [INFO] coletor: [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:09:33,938 [INFO] [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:09:33,938 [INFO] coletor: [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:09:33,938 [INFO] [ODDS] Odds para Ranheim vs Mjøndalen: 1.38, 5.25, 5.75
+2025-10-21 20:09:33,938 [INFO] coletor: [ODDS] Odds para Ranheim vs Mjøndalen: 1.38, 5.25, 5.75
+2025-10-21 20:09:33,939 [INFO] [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:09:33,939 [INFO] coletor: [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:09:33,939 [INFO] [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:09:33,939 [INFO] coletor: [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:09:33,939 [INFO] [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:09:33,939 [INFO] coletor: [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:09:33,940 [WARNING] [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,940 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:09:33,940 [INFO] [AGENDA] Válidos=41, Incompletos=0, Filtrados=92, Duplicados=0
+2025-10-21 20:09:33,940 [INFO] coletor: [AGENDA] Válidos=41, Incompletos=0, Filtrados=92, Duplicados=0
+2025-10-21 20:09:33,941 [INFO] __main__: [TEMPO] Fase 1 concluída em 10.82s
+2025-10-21 20:09:33,943 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-22.csv (38 linhas).
+2025-10-21 20:09:53,641 [INFO] __main__: [TEMPO] Fase 2 concluída em 19.70s (links extraídos: 76)
+2025-10-21 20:15:05,759 [INFO] __main__: Coletor iniciado
+2025-10-21 20:15:05,760 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-21 20:15:31,686 [INFO] [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:15:31,686 [INFO] coletor: [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:15:31,686 [INFO] [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:15:31,686 [INFO] coletor: [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:15:31,687 [INFO] [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:15:31,687 [INFO] coletor: [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:15:31,687 [INFO] [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:15:31,687 [INFO] coletor: [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:15:31,688 [INFO] [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:15:31,688 [INFO] coletor: [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:15:31,688 [INFO] [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:15:31,688 [INFO] coletor: [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:15:31,688 [INFO] [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:15:31,688 [INFO] coletor: [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:15:31,689 [INFO] [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:15:31,689 [INFO] coletor: [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:15:31,689 [INFO] [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:15:31,689 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:15:31,690 [INFO] [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:15:31,690 [INFO] coletor: [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:15:31,690 [INFO] [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:15:31,690 [INFO] coletor: [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:15:31,690 [INFO] [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:15:31,690 [INFO] coletor: [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:15:31,691 [INFO] [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:15:31,691 [INFO] coletor: [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:15:31,691 [INFO] [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:15:31,691 [INFO] coletor: [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:15:31,692 [INFO] [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:15:31,692 [INFO] coletor: [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:15:31,692 [INFO] [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:15:31,692 [INFO] coletor: [ODDS] Odds para Pachuca vs Tigres UANL: 2.6, 3.5, 2.6
+2025-10-21 20:15:31,692 [INFO] [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:15:31,692 [INFO] coletor: [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.65, 3.3, 5.25
+2025-10-21 20:15:31,693 [WARNING] [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,693 [WARNING] coletor: [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,693 [WARNING] [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,693 [WARNING] coletor: [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,694 [INFO] [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:15:31,694 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:15:31,694 [INFO] [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:15:31,694 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:15:31,695 [WARNING] [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,695 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,695 [INFO] [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:15:31,695 [INFO] coletor: [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:15:31,695 [INFO] [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:15:31,695 [INFO] coletor: [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:15:31,696 [INFO] [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:15:31,696 [INFO] coletor: [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:15:31,696 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:15:31,696 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:15:31,697 [INFO] [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:15:31,697 [INFO] coletor: [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:15:31,697 [INFO] [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:15:31,697 [INFO] coletor: [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:15:31,697 [INFO] [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:15:31,697 [INFO] coletor: [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:15:31,698 [INFO] [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:15:31,698 [INFO] coletor: [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:15:31,698 [INFO] [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:15:31,698 [INFO] coletor: [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:15:31,699 [INFO] [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:15:31,699 [INFO] coletor: [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:15:31,699 [INFO] [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:15:31,699 [INFO] coletor: [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:15:31,699 [INFO] [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:15:31,699 [INFO] coletor: [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:15:31,700 [INFO] [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:15:31,700 [INFO] coletor: [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:15:31,700 [INFO] [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:15:31,700 [INFO] coletor: [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:15:31,701 [INFO] [ODDS] Odds para Ranheim vs Mjøndalen: 1.36, 5.5, 6.0
+2025-10-21 20:15:31,701 [INFO] coletor: [ODDS] Odds para Ranheim vs Mjøndalen: 1.36, 5.5, 6.0
+2025-10-21 20:15:31,701 [INFO] [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:15:31,701 [INFO] coletor: [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:15:31,702 [INFO] [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:15:31,702 [INFO] coletor: [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:15:31,702 [INFO] [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:15:31,702 [INFO] coletor: [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:15:31,702 [WARNING] [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,702 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:15:31,703 [INFO] [AGENDA] Válidos=41, Incompletos=0, Filtrados=92, Duplicados=0
+2025-10-21 20:15:31,703 [INFO] coletor: [AGENDA] Válidos=41, Incompletos=0, Filtrados=92, Duplicados=0
+2025-10-21 20:15:31,703 [INFO] __main__: [TEMPO] Fase 1 concluída em 5.21s
+2025-10-21 20:15:31,706 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-22.csv (38 linhas).
+2025-10-21 20:15:53,246 [INFO] __main__: [TEMPO] Fase 2 concluída em 21.54s (links extraídos: 76)
+2025-10-21 20:20:25,632 [INFO] __main__: [TEMPO] Fase 3 concluída em 272.39s (jogos raspados: 134)
+2025-10-21 20:20:25,720 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (68 linhas).
+2025-10-21 20:20:25,855 [INFO] __main__: Exportado histórico para dados_redscore.csv (9149 linhas)
+2025-10-21 20:20:26,697 [INFO] __main__: --- Rotina concluída em 320.94s ---
+2025-10-21 20:38:29,445 [INFO] __main__: Coletor iniciado
+2025-10-21 20:38:29,445 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-21 20:39:14,821 [INFO] [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:39:14,821 [INFO] coletor: [ODDS] Odds para Rizespor vs Başakşehir: 2.3, 3.1, 3.2
+2025-10-21 20:39:14,822 [INFO] [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:39:14,822 [INFO] coletor: [ODDS] Odds para Konyaspor vs Beşiktaş: 3.1, 3.5, 2.2
+2025-10-21 20:39:14,822 [INFO] [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:39:14,822 [INFO] coletor: [ODDS] Odds para Bahia vs Internacional: 1.9, 3.5, 4.33
+2025-10-21 20:39:14,822 [INFO] [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:39:14,822 [INFO] coletor: [ODDS] Odds para Chicago Fire vs Orlando City: 2.1, 3.8, 3.3
+2025-10-21 20:39:14,823 [INFO] [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:39:14,823 [INFO] coletor: [ODDS] Odds para Portland Timbers vs Real Salt Lake: 2.15, 3.6, 3.2
+2025-10-21 20:39:14,823 [INFO] [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:39:14,823 [INFO] coletor: [ODDS] Odds para Wrexham vs Oxford Utd: 1.95, 3.4, 3.75
+2025-10-21 20:39:14,824 [INFO] [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:39:14,824 [INFO] coletor: [ODDS] Odds para Swansea vs QPR: 2.05, 3.3, 3.5
+2025-10-21 20:39:14,824 [INFO] [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:39:14,824 [INFO] coletor: [ODDS] Odds para Watford vs West Brom: 2.7, 3.25, 2.6
+2025-10-21 20:39:14,824 [INFO] [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:39:14,824 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Middlesbrough: 4.75, 3.8, 1.7
+2025-10-21 20:39:14,825 [INFO] [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:39:14,825 [INFO] coletor: [ODDS] Odds para Inter Turku vs Gnistan: 1.33, 5.25, 6.5
+2025-10-21 20:39:14,825 [INFO] [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:39:14,825 [INFO] coletor: [ODDS] Odds para HJK vs SJK: 1.9, 4.2, 3.25
+2025-10-21 20:39:14,826 [INFO] [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:39:14,826 [INFO] coletor: [ODDS] Odds para Huracán vs Central Cordoba: 1.95, 2.9, 5.0
+2025-10-21 20:39:14,826 [INFO] [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:39:14,826 [INFO] coletor: [ODDS] Odds para Mazatlán vs Santos Laguna: 1.95, 3.7, 3.7
+2025-10-21 20:39:14,827 [INFO] [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:39:14,827 [INFO] coletor: [ODDS] Odds para Monterrey vs Juárez: 1.61, 4.0, 5.25
+2025-10-21 20:39:14,827 [INFO] [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:39:14,827 [INFO] coletor: [ODDS] Odds para Querétaro vs Guadalajara: 5.25, 3.5, 1.72
+2025-10-21 20:39:14,827 [INFO] [ODDS] Odds para Pachuca vs Tigres UANL: 2.55, 3.5, 2.62
+2025-10-21 20:39:14,827 [INFO] coletor: [ODDS] Odds para Pachuca vs Tigres UANL: 2.55, 3.5, 2.62
+2025-10-21 20:39:14,828 [INFO] [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.72, 3.25, 4.75
+2025-10-21 20:39:14,828 [INFO] coletor: [ODDS] Odds para Kaizer Chiefs vs Siwelele: 1.72, 3.25, 4.75
+2025-10-21 20:39:14,828 [WARNING] [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,828 [WARNING] coletor: [ODDS] Odds não encontradas para Orlando Pirates vs Polokwane City. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,829 [WARNING] [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,829 [WARNING] coletor: [ODDS] Odds não encontradas para Stellenbosch vs Golden Arrows. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,829 [INFO] [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:39:14,829 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Polokwane City: 1.36, 3.9, 9.5
+2025-10-21 20:39:14,829 [INFO] [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:39:14,829 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Golden Arrows: 1.61, 3.3, 5.75
+2025-10-21 20:39:14,830 [WARNING] [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,830 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,830 [INFO] [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:39:14,830 [INFO] coletor: [ODDS] Odds para MC Alger vs Paradou AC: 1.33, 4.0, 8.0
+2025-10-21 20:39:14,831 [INFO] [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:39:14,831 [INFO] coletor: [ODDS] Odds para Al Ahly vs Al Ittihad: 1.22, 5.25, 13.0
+2025-10-21 20:39:14,831 [INFO] [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:39:14,831 [INFO] coletor: [ODDS] Odds para Al Masry vs Smouha: 1.9, 2.9, 4.5
+2025-10-21 20:39:14,832 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:39:14,832 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Tammeka: 2.25, 3.5, 2.6
+2025-10-21 20:39:14,832 [INFO] [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:39:14,832 [INFO] coletor: [ODDS] Odds para Tallinna Kalev vs Nõmme Kalju: 8.5, 5.75, 1.22
+2025-10-21 20:39:14,832 [INFO] [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:39:14,832 [INFO] coletor: [ODDS] Odds para Levadia vs Paide: 1.72, 3.8, 3.6
+2025-10-21 20:39:14,833 [INFO] [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:39:14,833 [INFO] coletor: [ODDS] Odds para FA Šiauliai vs Banga: 1.66, 3.7, 4.2
+2025-10-21 20:39:14,833 [INFO] [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:39:14,833 [INFO] coletor: [ODDS] Odds para Kauno Žalgiris vs Žalgiris: 1.95, 3.7, 3.0
+2025-10-21 20:39:14,834 [INFO] [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:39:14,834 [INFO] coletor: [ODDS] Odds para Panevėžys vs Trakai: 1.55, 4.1, 4.5
+2025-10-21 20:39:14,834 [INFO] [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:39:14,834 [INFO] coletor: [ODDS] Odds para Odd vs Lillestrøm: 5.75, 4.75, 1.42
+2025-10-21 20:39:14,834 [INFO] [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:39:14,834 [INFO] coletor: [ODDS] Odds para Raufoss vs Sogndal: 2.8, 3.5, 2.3
+2025-10-21 20:39:14,835 [INFO] [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:39:14,835 [INFO] coletor: [ODDS] Odds para Egersund vs Moss: 1.75, 3.9, 3.9
+2025-10-21 20:39:14,835 [INFO] [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:39:14,835 [INFO] coletor: [ODDS] Odds para Kongsvinger vs Hødd: 1.4, 5.0, 6.0
+2025-10-21 20:39:14,836 [INFO] [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:39:14,836 [INFO] coletor: [ODDS] Odds para Start vs Skeid: 1.2, 6.25, 10.0
+2025-10-21 20:39:14,836 [INFO] [ODDS] Odds para Ranheim vs Mjøndalen: 1.36, 5.5, 6.0
+2025-10-21 20:39:14,836 [INFO] coletor: [ODDS] Odds para Ranheim vs Mjøndalen: 1.36, 5.5, 6.0
+2025-10-21 20:39:14,836 [INFO] [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:39:14,836 [INFO] coletor: [ODDS] Odds para Aalesund vs Lyn: 1.7, 3.8, 4.33
+2025-10-21 20:39:14,837 [INFO] [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:39:14,837 [INFO] coletor: [ODDS] Odds para Stabæk vs Åsane: 1.48, 4.5, 5.5
+2025-10-21 20:39:14,837 [INFO] [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:39:14,837 [INFO] coletor: [ODDS] Odds para Carabobo vs Metropolitanos: 1.53, 4.0, 5.25
+2025-10-21 20:39:14,838 [WARNING] [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,838 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Táchira vs Caracas. Motivo: could not convert string to float: '-'
+2025-10-21 20:39:14,838 [INFO] [AGENDA] Válidos=41, Incompletos=0, Filtrados=92, Duplicados=0
+2025-10-21 20:39:14,838 [INFO] coletor: [AGENDA] Válidos=41, Incompletos=0, Filtrados=92, Duplicados=0
+2025-10-21 20:39:14,838 [INFO] __main__: [TEMPO] Fase 1 concluída em 17.03s
+2025-10-21 20:39:14,841 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-22.csv (38 linhas).
+2025-10-21 20:39:38,875 [INFO] __main__: [TEMPO] Fase 2 concluída em 24.03s (links extraídos: 76)
+2025-10-21 20:45:47,507 [INFO] __main__: [TEMPO] Fase 3 concluída em 368.63s (jogos raspados: 57)
+2025-10-21 20:45:47,750 [INFO] __main__: Exportado histórico para dados_redscore.csv (9149 linhas)
+2025-10-21 20:45:48,973 [INFO] __main__: --- Rotina concluída em 439.53s ---
