@@ -16975,3 +16975,1183 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-23 21:52:27,841 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (8 linhas).
 2025-10-23 21:52:27,921 [INFO] __main__: Exportado histórico para dados_redscore.csv (9500 linhas)
 2025-10-23 21:52:28,286 [INFO] __main__: --- Rotina concluída em 459.37s ---
+2025-10-24 19:09:33,630 [INFO] __main__: Coletor iniciado
+2025-10-24 19:09:33,631 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-24 19:09:50,265 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: name 'TimeoutException' is not defined
+2025-10-24 19:09:50,265 [INFO] __main__: --- Rotina concluída em 16.63s ---
+2025-10-24 19:11:55,831 [INFO] __main__: Coletor iniciado
+2025-10-24 19:11:55,832 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-24 19:12:14,785 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (683,490) because another element <div id="clever-86072-1911608-sticky-footer-shadow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-10-24 19:12:14,785 [INFO] __main__: --- Rotina concluída em 18.95s ---
+2025-10-24 19:16:50,129 [INFO] __main__: Coletor iniciado
+2025-10-24 19:16:50,130 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-24 19:17:25,535 [INFO] [ODDS] Odds para Newcastle vs Fulham: 1.61, 3.9, 5.5
+2025-10-24 19:17:25,535 [INFO] coletor: [ODDS] Odds para Newcastle vs Fulham: 1.61, 3.9, 5.5
+2025-10-24 19:17:25,536 [INFO] [ODDS] Odds para Chelsea vs Sunderland: 1.38, 5.0, 8.0
+2025-10-24 19:17:25,536 [INFO] coletor: [ODDS] Odds para Chelsea vs Sunderland: 1.38, 5.0, 8.0
+2025-10-24 19:17:25,537 [INFO] [ODDS] Odds para Manchester United vs Brighton: 2.0, 3.7, 3.4
+2025-10-24 19:17:25,537 [INFO] coletor: [ODDS] Odds para Manchester United vs Brighton: 2.0, 3.7, 3.4
+2025-10-24 19:17:25,537 [INFO] [ODDS] Odds para Brentford vs Liverpool: 4.0, 4.1, 1.75
+2025-10-24 19:17:25,537 [INFO] coletor: [ODDS] Odds para Brentford vs Liverpool: 4.0, 4.1, 1.75
+2025-10-24 19:17:25,537 [INFO] [ODDS] Odds para Girona vs R. Oviedo: 1.8, 3.5, 5.0
+2025-10-24 19:17:25,537 [INFO] coletor: [ODDS] Odds para Girona vs R. Oviedo: 1.8, 3.5, 5.0
+2025-10-24 19:17:25,538 [INFO] [ODDS] Odds para Espanyol vs Elche: 1.95, 3.4, 4.0
+2025-10-24 19:17:25,538 [INFO] coletor: [ODDS] Odds para Espanyol vs Elche: 1.95, 3.4, 4.0
+2025-10-24 19:17:25,538 [INFO] [ODDS] Odds para Athletic Club vs Getafe: 1.65, 3.4, 6.25
+2025-10-24 19:17:25,538 [INFO] coletor: [ODDS] Odds para Athletic Club vs Getafe: 1.65, 3.4, 6.25
+2025-10-24 19:17:25,539 [INFO] [ODDS] Odds para Valencia vs Villarreal: 3.2, 3.6, 2.2
+2025-10-24 19:17:25,539 [INFO] coletor: [ODDS] Odds para Valencia vs Villarreal: 3.2, 3.6, 2.2
+2025-10-24 19:17:25,539 [INFO] [ODDS] Odds para Hoffenheim vs Heidenheim: 1.57, 4.5, 5.25
+2025-10-24 19:17:25,539 [INFO] coletor: [ODDS] Odds para Hoffenheim vs Heidenheim: 1.57, 4.5, 5.25
+2025-10-24 19:17:25,540 [INFO] [ODDS] Odds para Hamburger vs Wolfsburg: 2.35, 3.5, 2.9
+2025-10-24 19:17:25,540 [INFO] coletor: [ODDS] Odds para Hamburger vs Wolfsburg: 2.35, 3.5, 2.9
+2025-10-24 19:17:25,540 [INFO] [ODDS] Odds para Frankfurt vs St. Pauli: 1.7, 4.2, 4.33
+2025-10-24 19:17:25,540 [INFO] coletor: [ODDS] Odds para Frankfurt vs St. Pauli: 1.7, 4.2, 4.33
+2025-10-24 19:17:25,540 [INFO] [ODDS] Odds para M'Gladbach vs Bayern: 10.0, 6.5, 1.22
+2025-10-24 19:17:25,540 [INFO] coletor: [ODDS] Odds para M'Gladbach vs Bayern: 10.0, 6.5, 1.22
+2025-10-24 19:17:25,541 [INFO] [ODDS] Odds para Augsburg vs RB Leipzig: 3.25, 4.0, 2.0
+2025-10-24 19:17:25,541 [INFO] coletor: [ODDS] Odds para Augsburg vs RB Leipzig: 3.25, 4.0, 2.0
+2025-10-24 19:17:25,541 [INFO] [ODDS] Odds para Dortmund vs FC Köln: 1.44, 5.25, 6.25
+2025-10-24 19:17:25,541 [INFO] coletor: [ODDS] Odds para Dortmund vs FC Köln: 1.44, 5.25, 6.25
+2025-10-24 19:17:25,542 [INFO] [ODDS] Odds para Udinese vs Lecce: 1.8, 3.4, 4.75
+2025-10-24 19:17:25,542 [INFO] coletor: [ODDS] Odds para Udinese vs Lecce: 1.8, 3.4, 4.75
+2025-10-24 19:17:25,542 [INFO] [ODDS] Odds para Parma vs Como: 3.9, 3.5, 1.95
+2025-10-24 19:17:25,542 [INFO] coletor: [ODDS] Odds para Parma vs Como: 3.9, 3.5, 1.95
+2025-10-24 19:17:25,543 [INFO] [ODDS] Odds para Napoli vs Inter: 2.9, 3.2, 2.5
+2025-10-24 19:17:25,543 [INFO] coletor: [ODDS] Odds para Napoli vs Inter: 2.9, 3.2, 2.5
+2025-10-24 19:17:25,543 [INFO] [ODDS] Odds para Cremonese vs Atalanta: 5.5, 4.0, 1.6
+2025-10-24 19:17:25,543 [INFO] coletor: [ODDS] Odds para Cremonese vs Atalanta: 5.5, 4.0, 1.6
+2025-10-24 19:17:25,543 [INFO] [ODDS] Odds para Brest vs PSG: 7.5, 5.5, 1.33
+2025-10-24 19:17:25,543 [INFO] coletor: [ODDS] Odds para Brest vs PSG: 7.5, 5.5, 1.33
+2025-10-24 19:17:25,544 [INFO] [ODDS] Odds para Monaco vs Toulouse: 1.9, 3.8, 3.7
+2025-10-24 19:17:25,544 [INFO] coletor: [ODDS] Odds para Monaco vs Toulouse: 1.9, 3.8, 3.7
+2025-10-24 19:17:25,544 [INFO] [ODDS] Odds para Lens vs Marseille: 2.8, 3.6, 2.37
+2025-10-24 19:17:25,544 [INFO] coletor: [ODDS] Odds para Lens vs Marseille: 2.8, 3.6, 2.37
+2025-10-24 19:17:25,545 [INFO] [ODDS] Odds para Fortuna Sittard vs Groningen: 2.87, 3.25, 2.55
+2025-10-24 19:17:25,545 [INFO] coletor: [ODDS] Odds para Fortuna Sittard vs Groningen: 2.87, 3.25, 2.55
+2025-10-24 19:17:25,545 [INFO] [ODDS] Odds para Sparta Rotterdam vs Telstar: 1.85, 4.0, 3.8
+2025-10-24 19:17:25,545 [INFO] coletor: [ODDS] Odds para Sparta Rotterdam vs Telstar: 1.85, 4.0, 3.8
+2025-10-24 19:17:25,545 [INFO] [ODDS] Odds para FC Volendam vs Heracles Almelo: 2.1, 3.9, 3.1
+2025-10-24 19:17:25,545 [INFO] coletor: [ODDS] Odds para FC Volendam vs Heracles Almelo: 2.1, 3.9, 3.1
+2025-10-24 19:17:25,546 [INFO] [ODDS] Odds para Zwolle vs Nijmegen: 3.3, 3.75, 2.1
+2025-10-24 19:17:25,546 [INFO] coletor: [ODDS] Odds para Zwolle vs Nijmegen: 3.3, 3.75, 2.1
+2025-10-24 19:17:25,546 [INFO] [ODDS] Odds para Santa Clara vs AVS: 1.53, 3.8, 7.0
+2025-10-24 19:17:25,546 [INFO] coletor: [ODDS] Odds para Santa Clara vs AVS: 1.53, 3.8, 7.0
+2025-10-24 19:17:25,547 [INFO] [ODDS] Odds para Benfica vs Arouca: 1.18, 7.0, 13.0
+2025-10-24 19:17:25,547 [INFO] coletor: [ODDS] Odds para Benfica vs Arouca: 1.18, 7.0, 13.0
+2025-10-24 19:17:25,547 [INFO] [ODDS] Odds para Estrela Amadora vs Rio Ave: 2.5, 3.2, 2.87
+2025-10-24 19:17:25,547 [INFO] coletor: [ODDS] Odds para Estrela Amadora vs Rio Ave: 2.5, 3.2, 2.87
+2025-10-24 19:17:25,548 [INFO] [ODDS] Odds para Kocaelispor vs Alanyaspor: 2.55, 3.1, 2.8
+2025-10-24 19:17:25,548 [INFO] coletor: [ODDS] Odds para Kocaelispor vs Alanyaspor: 2.55, 3.1, 2.8
+2025-10-24 19:17:25,549 [INFO] [ODDS] Odds para Trabzonspor vs Eyüpspor: 1.57, 3.9, 5.75
+2025-10-24 19:17:25,549 [INFO] coletor: [ODDS] Odds para Trabzonspor vs Eyüpspor: 1.57, 3.9, 5.75
+2025-10-24 19:17:25,550 [INFO] [ODDS] Odds para Atlético Mineiro vs Ceará: 1.9, 3.4, 4.0
+2025-10-24 19:17:25,550 [INFO] coletor: [ODDS] Odds para Atlético Mineiro vs Ceará: 1.9, 3.4, 4.0
+2025-10-24 19:17:25,550 [INFO] [ODDS] Odds para Vitória vs Corinthians: 2.5, 3.1, 3.0
+2025-10-24 19:17:25,550 [INFO] coletor: [ODDS] Odds para Vitória vs Corinthians: 2.5, 3.1, 3.0
+2025-10-24 19:17:25,551 [INFO] [ODDS] Odds para Fluminense vs Internacional: 1.9, 3.25, 4.33
+2025-10-24 19:17:25,551 [INFO] coletor: [ODDS] Odds para Fluminense vs Internacional: 1.9, 3.25, 4.33
+2025-10-24 19:17:25,552 [INFO] [ODDS] Odds para Sport Recife vs Mirassol: 2.7, 3.3, 2.62
+2025-10-24 19:17:25,552 [INFO] coletor: [ODDS] Odds para Sport Recife vs Mirassol: 2.7, 3.3, 2.62
+2025-10-24 19:17:25,553 [INFO] [ODDS] Odds para Fortaleza vs Flamengo: 5.5, 3.6, 1.66
+2025-10-24 19:17:25,553 [INFO] coletor: [ODDS] Odds para Fortaleza vs Flamengo: 5.5, 3.6, 1.66
+2025-10-24 19:17:25,554 [INFO] [ODDS] Odds para São Paulo vs Bahia: 1.9, 3.4, 4.2
+2025-10-24 19:17:25,554 [INFO] coletor: [ODDS] Odds para São Paulo vs Bahia: 1.9, 3.4, 4.2
+2025-10-24 19:17:25,554 [INFO] [ODDS] Odds para Westerlo vs Dender: 1.7, 3.8, 4.33
+2025-10-24 19:17:25,554 [INFO] coletor: [ODDS] Odds para Westerlo vs Dender: 1.7, 3.8, 4.33
+2025-10-24 19:17:25,555 [INFO] [ODDS] Odds para Mechelen vs OH Leuven: 2.15, 3.4, 3.1
+2025-10-24 19:17:25,555 [INFO] coletor: [ODDS] Odds para Mechelen vs OH Leuven: 2.15, 3.4, 3.1
+2025-10-24 19:17:25,556 [INFO] [ODDS] Odds para Gent vs St. Liège: 1.9, 3.6, 3.8
+2025-10-24 19:17:25,556 [INFO] coletor: [ODDS] Odds para Gent vs St. Liège: 1.9, 3.6, 3.8
+2025-10-24 19:17:25,557 [INFO] [ODDS] Odds para Dundee United vs St. Mirren: 2.3, 3.5, 2.9
+2025-10-24 19:17:25,557 [INFO] coletor: [ODDS] Odds para Dundee United vs St. Mirren: 2.3, 3.5, 2.9
+2025-10-24 19:17:25,558 [INFO] [ODDS] Odds para Falkirk vs Dundee: 1.66, 3.9, 4.75
+2025-10-24 19:17:25,558 [INFO] coletor: [ODDS] Odds para Falkirk vs Dundee: 1.66, 3.9, 4.75
+2025-10-24 19:17:25,558 [INFO] [ODDS] Odds para Livingston vs Motherwell: 3.3, 3.5, 2.05
+2025-10-24 19:17:25,558 [INFO] coletor: [ODDS] Odds para Livingston vs Motherwell: 3.3, 3.5, 2.05
+2025-10-24 19:17:25,559 [WARNING] [ODDS] Odds não encontradas para Falkirk vs Dundee. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,559 [WARNING] coletor: [ODDS] Odds não encontradas para Falkirk vs Dundee. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,559 [WARNING] [ODDS] Odds não encontradas para Dundee United vs St. Mirren. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,559 [WARNING] coletor: [ODDS] Odds não encontradas para Dundee United vs St. Mirren. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,559 [WARNING] [ODDS] Odds não encontradas para Hearts vs Celtic. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,559 [WARNING] coletor: [ODDS] Odds não encontradas para Hearts vs Celtic. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,560 [WARNING] [ODDS] Odds não encontradas para Aberdeen vs Hibernian. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,560 [WARNING] coletor: [ODDS] Odds não encontradas para Aberdeen vs Hibernian. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,560 [WARNING] [ODDS] Odds não encontradas para Livingston vs Motherwell. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,560 [WARNING] coletor: [ODDS] Odds não encontradas para Livingston vs Motherwell. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,561 [WARNING] [ODDS] Odds não encontradas para Rangers vs Kilmarnock. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,561 [WARNING] coletor: [ODDS] Odds não encontradas para Rangers vs Kilmarnock. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,561 [INFO] [ODDS] Odds para Coventry vs Watford: 1.48, 4.75, 6.0
+2025-10-24 19:17:25,561 [INFO] coletor: [ODDS] Odds para Coventry vs Watford: 1.48, 4.75, 6.0
+2025-10-24 19:17:25,561 [INFO] [ODDS] Odds para Ipswich vs West Brom: 1.75, 3.6, 4.5
+2025-10-24 19:17:25,561 [INFO] coletor: [ODDS] Odds para Ipswich vs West Brom: 1.75, 3.6, 4.5
+2025-10-24 19:17:25,562 [INFO] [ODDS] Odds para Portsmouth vs Stoke: 2.8, 3.1, 2.62
+2025-10-24 19:17:25,562 [INFO] coletor: [ODDS] Odds para Portsmouth vs Stoke: 2.8, 3.1, 2.62
+2025-10-24 19:17:25,562 [INFO] [ODDS] Odds para Blackburn vs Southampton: 3.0, 3.25, 2.35
+2025-10-24 19:17:25,562 [INFO] coletor: [ODDS] Odds para Blackburn vs Southampton: 3.0, 3.25, 2.35
+2025-10-24 19:17:25,563 [INFO] [ODDS] Odds para Bristol City vs Birmingham: 2.3, 3.25, 3.1
+2025-10-24 19:17:25,563 [INFO] coletor: [ODDS] Odds para Bristol City vs Birmingham: 2.3, 3.25, 3.1
+2025-10-24 19:17:25,563 [INFO] [ODDS] Odds para Swansea vs Norwich: 2.25, 3.25, 3.2
+2025-10-24 19:17:25,563 [INFO] coletor: [ODDS] Odds para Swansea vs Norwich: 2.25, 3.25, 3.2
+2025-10-24 19:17:25,563 [INFO] [ODDS] Odds para Hull vs Charlton: 2.4, 3.3, 2.9
+2025-10-24 19:17:25,563 [INFO] coletor: [ODDS] Odds para Hull vs Charlton: 2.4, 3.3, 2.9
+2025-10-24 19:17:25,564 [INFO] [ODDS] Odds para Middlesbrough vs Wrexham: 1.72, 3.6, 4.75
+2025-10-24 19:17:25,564 [INFO] coletor: [ODDS] Odds para Middlesbrough vs Wrexham: 1.72, 3.6, 4.75
+2025-10-24 19:17:25,564 [INFO] [ODDS] Odds para Millwall vs Leicester: 2.55, 3.2, 2.8
+2025-10-24 19:17:25,564 [INFO] coletor: [ODDS] Odds para Millwall vs Leicester: 2.55, 3.2, 2.8
+2025-10-24 19:17:25,565 [INFO] [ODDS] Odds para Derby vs QPR: 2.2, 3.6, 3.0
+2025-10-24 19:17:25,565 [INFO] coletor: [ODDS] Odds para Derby vs QPR: 2.2, 3.6, 3.0
+2025-10-24 19:17:25,565 [INFO] [ODDS] Odds para Sheffield Wed vs Oxford Utd: 2.75, 3.25, 2.55
+2025-10-24 19:17:25,565 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Oxford Utd: 2.75, 3.25, 2.55
+2025-10-24 19:17:25,565 [INFO] [ODDS] Odds para Bolton vs Cardiff: 1.9, 3.6, 3.6
+2025-10-24 19:17:25,565 [INFO] coletor: [ODDS] Odds para Bolton vs Cardiff: 1.9, 3.6, 3.6
+2025-10-24 19:17:25,566 [INFO] [ODDS] Odds para Mansfield vs Wigan: 2.45, 3.1, 2.87
+2025-10-24 19:17:25,566 [INFO] coletor: [ODDS] Odds para Mansfield vs Wigan: 2.45, 3.1, 2.87
+2025-10-24 19:17:25,566 [INFO] [ODDS] Odds para Northampton vs Luton: 4.2, 3.2, 1.9
+2025-10-24 19:17:25,566 [INFO] coletor: [ODDS] Odds para Northampton vs Luton: 4.2, 3.2, 1.9
+2025-10-24 19:17:25,567 [INFO] [ODDS] Odds para Peterborough vs Blackpool: 2.37, 3.5, 2.8
+2025-10-24 19:17:25,567 [INFO] coletor: [ODDS] Odds para Peterborough vs Blackpool: 2.37, 3.5, 2.8
+2025-10-24 19:17:25,567 [INFO] [ODDS] Odds para Barnsley vs Rotherham: 1.85, 3.6, 3.9
+2025-10-24 19:17:25,567 [INFO] coletor: [ODDS] Odds para Barnsley vs Rotherham: 1.85, 3.6, 3.9
+2025-10-24 19:17:25,567 [INFO] [ODDS] Odds para Reading vs Doncaster: 2.2, 3.25, 3.2
+2025-10-24 19:17:25,567 [INFO] coletor: [ODDS] Odds para Reading vs Doncaster: 2.2, 3.25, 3.2
+2025-10-24 19:17:25,568 [INFO] [ODDS] Odds para Stevenage vs Bradford City: 2.37, 3.25, 2.9
+2025-10-24 19:17:25,568 [INFO] coletor: [ODDS] Odds para Stevenage vs Bradford City: 2.37, 3.25, 2.9
+2025-10-24 19:17:25,568 [INFO] [ODDS] Odds para Wycombe vs Huddersfield: 2.05, 3.4, 3.4
+2025-10-24 19:17:25,568 [INFO] coletor: [ODDS] Odds para Wycombe vs Huddersfield: 2.05, 3.4, 3.4
+2025-10-24 19:17:25,569 [INFO] [ODDS] Odds para Wimbledon vs Burton: 1.9, 3.5, 4.0
+2025-10-24 19:17:25,569 [INFO] coletor: [ODDS] Odds para Wimbledon vs Burton: 1.9, 3.5, 4.0
+2025-10-24 19:17:25,569 [INFO] [ODDS] Odds para Leyton Orient vs Lincoln: 2.55, 3.25, 2.7
+2025-10-24 19:17:25,569 [INFO] coletor: [ODDS] Odds para Leyton Orient vs Lincoln: 2.55, 3.25, 2.7
+2025-10-24 19:17:25,569 [WARNING] [ODDS] Odds não encontradas para Port Vale vs Stockport County. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,569 [WARNING] coletor: [ODDS] Odds não encontradas para Port Vale vs Stockport County. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,570 [INFO] [ODDS] Odds para Fleetwood vs Accrington: 2.0, 3.5, 3.5
+2025-10-24 19:17:25,570 [INFO] coletor: [ODDS] Odds para Fleetwood vs Accrington: 2.0, 3.5, 3.5
+2025-10-24 19:17:25,570 [INFO] [ODDS] Odds para Cheltenham vs Walsall: 4.0, 3.6, 1.83
+2025-10-24 19:17:25,570 [INFO] coletor: [ODDS] Odds para Cheltenham vs Walsall: 4.0, 3.6, 1.83
+2025-10-24 19:17:25,571 [INFO] [ODDS] Odds para Crawley vs Bristol Rovers: 2.37, 3.25, 2.87
+2025-10-24 19:17:25,571 [INFO] coletor: [ODDS] Odds para Crawley vs Bristol Rovers: 2.37, 3.25, 2.87
+2025-10-24 19:17:25,571 [INFO] [ODDS] Odds para Gillingham vs Salford: 2.55, 3.1, 2.75
+2025-10-24 19:17:25,571 [INFO] coletor: [ODDS] Odds para Gillingham vs Salford: 2.55, 3.1, 2.75
+2025-10-24 19:17:25,572 [INFO] [ODDS] Odds para Oldham vs Shrewsbury: 1.9, 3.4, 4.0
+2025-10-24 19:17:25,572 [INFO] coletor: [ODDS] Odds para Oldham vs Shrewsbury: 1.9, 3.4, 4.0
+2025-10-24 19:17:25,572 [INFO] [ODDS] Odds para Tranmere vs Chesterfield: 3.0, 3.4, 2.3
+2025-10-24 19:17:25,572 [INFO] coletor: [ODDS] Odds para Tranmere vs Chesterfield: 3.0, 3.4, 2.3
+2025-10-24 19:17:25,572 [INFO] [ODDS] Odds para Barrow vs Barnet: 4.0, 3.6, 1.85
+2025-10-24 19:17:25,572 [INFO] coletor: [ODDS] Odds para Barrow vs Barnet: 4.0, 3.6, 1.85
+2025-10-24 19:17:25,573 [INFO] [ODDS] Odds para Bromley vs MK Dons: 2.6, 3.25, 2.62
+2025-10-24 19:17:25,573 [INFO] coletor: [ODDS] Odds para Bromley vs MK Dons: 2.6, 3.25, 2.62
+2025-10-24 19:17:25,573 [INFO] [ODDS] Odds para Crewe vs Grimsby Town: 2.7, 3.25, 2.55
+2025-10-24 19:17:25,573 [INFO] coletor: [ODDS] Odds para Crewe vs Grimsby Town: 2.7, 3.25, 2.55
+2025-10-24 19:17:25,574 [INFO] [ODDS] Odds para Harrogate vs Newport: 1.95, 3.4, 3.7
+2025-10-24 19:17:25,574 [INFO] coletor: [ODDS] Odds para Harrogate vs Newport: 1.95, 3.4, 3.7
+2025-10-24 19:17:25,574 [INFO] [ODDS] Odds para Notts County vs Cambridge: 2.37, 3.25, 2.9
+2025-10-24 19:17:25,574 [INFO] coletor: [ODDS] Odds para Notts County vs Cambridge: 2.37, 3.25, 2.9
+2025-10-24 19:17:25,575 [INFO] [ODDS] Odds para Swindon vs Colchester: 2.15, 3.5, 3.2
+2025-10-24 19:17:25,575 [INFO] coletor: [ODDS] Odds para Swindon vs Colchester: 2.15, 3.5, 3.2
+2025-10-24 19:17:25,575 [INFO] [ODDS] Odds para Cultural Leonesa vs Ceuta: 2.37, 3.1, 3.1
+2025-10-24 19:17:25,575 [INFO] coletor: [ODDS] Odds para Cultural Leonesa vs Ceuta: 2.37, 3.1, 3.1
+2025-10-24 19:17:25,576 [INFO] [ODDS] Odds para Eibar vs Leganés: 2.2, 3.1, 3.3
+2025-10-24 19:17:25,576 [INFO] coletor: [ODDS] Odds para Eibar vs Leganés: 2.2, 3.1, 3.3
+2025-10-24 19:17:25,576 [INFO] [ODDS] Odds para Albacete vs Córdoba: 2.3, 3.2, 3.1
+2025-10-24 19:17:25,576 [INFO] coletor: [ODDS] Odds para Albacete vs Córdoba: 2.3, 3.2, 3.1
+2025-10-24 19:17:25,576 [INFO] [ODDS] Odds para Granada vs Cádiz: 2.3, 3.1, 3.3
+2025-10-24 19:17:25,576 [INFO] coletor: [ODDS] Odds para Granada vs Cádiz: 2.3, 3.1, 3.3
+2025-10-24 19:17:25,577 [INFO] [ODDS] Odds para Burgos vs R. Sociedad II: 1.8, 3.3, 4.75
+2025-10-24 19:17:25,577 [INFO] coletor: [ODDS] Odds para Burgos vs R. Sociedad II: 1.8, 3.3, 4.75
+2025-10-24 19:17:25,577 [INFO] [ODDS] Odds para Mirandés vs Racing Santander: 3.4, 3.7, 2.05
+2025-10-24 19:17:25,577 [INFO] coletor: [ODDS] Odds para Mirandés vs Racing Santander: 3.4, 3.7, 2.05
+2025-10-24 19:17:25,578 [INFO] [ODDS] Odds para Südtirol vs Cesena: 2.87, 3.1, 2.55
+2025-10-24 19:17:25,578 [INFO] coletor: [ODDS] Odds para Südtirol vs Cesena: 2.87, 3.1, 2.55
+2025-10-24 19:17:25,578 [INFO] [ODDS] Odds para Virtus Entella vs Pescara: 1.83, 3.5, 4.33
+2025-10-24 19:17:25,578 [INFO] coletor: [ODDS] Odds para Virtus Entella vs Pescara: 1.83, 3.5, 4.33
+2025-10-24 19:17:25,578 [INFO] [ODDS] Odds para Monza vs Reggiana: 1.53, 3.75, 7.0
+2025-10-24 19:17:25,578 [INFO] coletor: [ODDS] Odds para Monza vs Reggiana: 1.53, 3.75, 7.0
+2025-10-24 19:17:25,579 [INFO] [ODDS] Odds para Avellino vs Spezia: 2.7, 3.0, 2.7
+2025-10-24 19:17:25,579 [INFO] coletor: [ODDS] Odds para Avellino vs Spezia: 2.7, 3.0, 2.7
+2025-10-24 19:17:25,579 [INFO] [ODDS] Odds para Sampdoria vs Frosinone: 2.3, 3.1, 3.3
+2025-10-24 19:17:25,579 [INFO] coletor: [ODDS] Odds para Sampdoria vs Frosinone: 2.3, 3.1, 3.3
+2025-10-24 19:17:25,580 [INFO] [ODDS] Odds para Carrarese vs Venezia: 2.87, 3.2, 2.45
+2025-10-24 19:17:25,580 [INFO] coletor: [ODDS] Odds para Carrarese vs Venezia: 2.87, 3.2, 2.45
+2025-10-24 19:17:25,580 [INFO] [ODDS] Odds para Catanzaro vs Palermo: 3.5, 3.2, 2.15
+2025-10-24 19:17:25,580 [INFO] coletor: [ODDS] Odds para Catanzaro vs Palermo: 3.5, 3.2, 2.15
+2025-10-24 19:17:25,580 [INFO] [ODDS] Odds para Dynamo Dresden vs Paderborn: 3.1, 3.8, 2.1
+2025-10-24 19:17:25,580 [INFO] coletor: [ODDS] Odds para Dynamo Dresden vs Paderborn: 3.1, 3.8, 2.1
+2025-10-24 19:17:25,581 [INFO] [ODDS] Odds para Bielefeld vs Elversberg: 2.9, 3.7, 2.25
+2025-10-24 19:17:25,581 [INFO] coletor: [ODDS] Odds para Bielefeld vs Elversberg: 2.9, 3.7, 2.25
+2025-10-24 19:17:25,581 [INFO] [ODDS] Odds para Kiel vs Bochum: 1.9, 4.1, 3.4
+2025-10-24 19:17:25,581 [INFO] coletor: [ODDS] Odds para Kiel vs Bochum: 1.9, 4.1, 3.4
+2025-10-24 19:17:25,582 [INFO] [ODDS] Odds para Hertha vs Düsseldorf: 1.9, 3.8, 3.6
+2025-10-24 19:17:25,582 [INFO] coletor: [ODDS] Odds para Hertha vs Düsseldorf: 1.9, 3.8, 3.6
+2025-10-24 19:17:25,582 [INFO] [ODDS] Odds para Amiens vs Rodez: 3.0, 3.25, 2.37
+2025-10-24 19:17:25,582 [INFO] coletor: [ODDS] Odds para Amiens vs Rodez: 3.0, 3.25, 2.37
+2025-10-24 19:17:25,582 [INFO] [ODDS] Odds para Montpellier vs Nancy: 2.0, 3.3, 3.5
+2025-10-24 19:17:25,582 [INFO] coletor: [ODDS] Odds para Montpellier vs Nancy: 2.0, 3.3, 3.5
+2025-10-24 19:17:25,583 [INFO] [ODDS] Odds para Annecy vs Saint-Étienne: 4.1, 3.75, 1.8
+2025-10-24 19:17:25,583 [INFO] coletor: [ODDS] Odds para Annecy vs Saint-Étienne: 4.1, 3.75, 1.8
+2025-10-24 19:17:25,583 [INFO] [ODDS] Odds para Den Haag vs Den Bosch: 1.2, 7.5, 10.0
+2025-10-24 19:17:25,583 [INFO] coletor: [ODDS] Odds para Den Haag vs Den Bosch: 1.2, 7.5, 10.0
+2025-10-24 19:17:25,584 [INFO] [ODDS] Odds para LASK Linz vs Grazer: 1.57, 3.75, 6.25
+2025-10-24 19:17:25,584 [INFO] coletor: [ODDS] Odds para LASK Linz vs Grazer: 1.57, 3.75, 6.25
+2025-10-24 19:17:25,584 [INFO] [ODDS] Odds para Altach vs Hartberg: 1.95, 3.3, 3.8
+2025-10-24 19:17:25,584 [INFO] coletor: [ODDS] Odds para Altach vs Hartberg: 1.95, 3.3, 3.8
+2025-10-24 19:17:25,585 [INFO] [ODDS] Odds para WSG Tirol vs BW Linz: 2.6, 3.25, 2.7
+2025-10-24 19:17:25,585 [INFO] coletor: [ODDS] Odds para WSG Tirol vs BW Linz: 2.6, 3.25, 2.7
+2025-10-24 19:17:25,585 [INFO] [ODDS] Odds para St. Gallen vs Grasshopper: 1.75, 3.7, 4.5
+2025-10-24 19:17:25,585 [INFO] coletor: [ODDS] Odds para St. Gallen vs Grasshopper: 1.75, 3.7, 4.5
+2025-10-24 19:17:25,585 [INFO] [ODDS] Odds para Sion vs Thun: 2.25, 3.3, 3.2
+2025-10-24 19:17:25,585 [INFO] coletor: [ODDS] Odds para Sion vs Thun: 2.25, 3.3, 3.2
+2025-10-24 19:17:25,586 [INFO] [ODDS] Odds para Winterthur vs Luzern: 3.1, 3.75, 2.1
+2025-10-24 19:17:25,586 [INFO] coletor: [ODDS] Odds para Winterthur vs Luzern: 3.1, 3.75, 2.1
+2025-10-24 19:17:25,586 [INFO] [ODDS] Odds para Viking vs Bryne: 1.28, 5.75, 9.0
+2025-10-24 19:17:25,586 [INFO] coletor: [ODDS] Odds para Viking vs Bryne: 1.28, 5.75, 9.0
+2025-10-24 19:17:25,587 [INFO] [ODDS] Odds para Sarpsborg 08 vs KFUM: 3.0, 3.4, 2.3
+2025-10-24 19:17:25,587 [INFO] coletor: [ODDS] Odds para Sarpsborg 08 vs KFUM: 3.0, 3.4, 2.3
+2025-10-24 19:17:25,587 [INFO] [ODDS] Odds para Djurgården vs Värnamo: 1.27, 5.75, 10.0
+2025-10-24 19:17:25,587 [INFO] coletor: [ODDS] Odds para Djurgården vs Värnamo: 1.27, 5.75, 10.0
+2025-10-24 19:17:25,587 [INFO] [ODDS] Odds para Öster vs Degerfors: 2.4, 3.4, 2.8
+2025-10-24 19:17:25,587 [INFO] coletor: [ODDS] Odds para Öster vs Degerfors: 2.4, 3.4, 2.8
+2025-10-24 19:17:25,588 [INFO] [ODDS] Odds para Gnistan vs Ilves: 4.75, 4.5, 1.48
+2025-10-24 19:17:25,588 [INFO] coletor: [ODDS] Odds para Gnistan vs Ilves: 4.75, 4.5, 1.48
+2025-10-24 19:17:25,588 [INFO] [ODDS] Odds para Mazatlán vs América: 5.5, 4.1, 1.6
+2025-10-24 19:17:25,588 [INFO] coletor: [ODDS] Odds para Mazatlán vs América: 5.5, 4.1, 1.6
+2025-10-24 19:17:25,589 [INFO] [ODDS] Odds para Tigres UANL vs Tijuana: 1.5, 4.5, 6.0
+2025-10-24 19:17:25,589 [INFO] coletor: [ODDS] Odds para Tigres UANL vs Tijuana: 1.5, 4.5, 6.0
+2025-10-24 19:17:25,589 [INFO] [ODDS] Odds para León vs Pumas UNAM: 2.6, 3.4, 2.62
+2025-10-24 19:17:25,589 [INFO] coletor: [ODDS] Odds para León vs Pumas UNAM: 2.6, 3.4, 2.62
+2025-10-24 19:17:25,590 [INFO] [ODDS] Odds para Guadalajara vs Atlas: 1.55, 4.5, 5.25
+2025-10-24 19:17:25,590 [INFO] coletor: [ODDS] Odds para Guadalajara vs Atlas: 1.55, 4.5, 5.25
+2025-10-24 19:17:25,590 [INFO] [ODDS] Odds para Kifisia vs Panaitolikos: 1.8, 3.4, 4.5
+2025-10-24 19:17:25,590 [INFO] coletor: [ODDS] Odds para Kifisia vs Panaitolikos: 1.8, 3.4, 4.5
+2025-10-24 19:17:25,590 [INFO] [ODDS] Odds para Panserraikos vs Larissa: 2.4, 3.1, 3.2
+2025-10-24 19:17:25,590 [INFO] coletor: [ODDS] Odds para Panserraikos vs Larissa: 2.4, 3.1, 3.2
+2025-10-24 19:17:25,591 [INFO] [ODDS] Odds para OFI vs Atromitos: 2.05, 3.3, 3.75
+2025-10-24 19:17:25,591 [INFO] coletor: [ODDS] Odds para OFI vs Atromitos: 2.05, 3.3, 3.75
+2025-10-24 19:17:25,591 [INFO] [ODDS] Odds para Tianjin Jinmen Tiger vs Changchun Yatai: 1.75, 3.6, 4.75
+2025-10-24 19:17:25,591 [INFO] coletor: [ODDS] Odds para Tianjin Jinmen Tiger vs Changchun Yatai: 1.75, 3.6, 4.75
+2025-10-24 19:17:25,592 [INFO] [ODDS] Odds para Henan Songshan Longmen vs Zhejiang: 1.85, 4.0, 3.6
+2025-10-24 19:17:25,592 [INFO] coletor: [ODDS] Odds para Henan Songshan Longmen vs Zhejiang: 1.85, 4.0, 3.6
+2025-10-24 19:17:25,592 [INFO] [ODDS] Odds para Teuta Durrës vs Flamurtari: 2.2, 3.0, 3.0
+2025-10-24 19:17:25,592 [INFO] coletor: [ODDS] Odds para Teuta Durrës vs Flamurtari: 2.2, 3.0, 3.0
+2025-10-24 19:17:25,593 [INFO] [ODDS] Odds para Partizani Tirana vs Egnatia Rrogozhinë: 2.62, 2.75, 2.7
+2025-10-24 19:17:25,593 [INFO] coletor: [ODDS] Odds para Partizani Tirana vs Egnatia Rrogozhinë: 2.62, 2.75, 2.7
+2025-10-24 19:17:25,593 [INFO] [ODDS] Odds para Energie Cottbus vs Havelse: 1.33, 5.75, 7.0
+2025-10-24 19:17:25,593 [INFO] coletor: [ODDS] Odds para Energie Cottbus vs Havelse: 1.33, 5.75, 7.0
+2025-10-24 19:17:25,594 [INFO] [ODDS] Odds para Ingolstadt vs Saarbrücken: 2.25, 3.8, 2.75
+2025-10-24 19:17:25,594 [INFO] coletor: [ODDS] Odds para Ingolstadt vs Saarbrücken: 2.25, 3.8, 2.75
+2025-10-24 19:17:25,594 [INFO] [ODDS] Odds para Regensburg vs Stuttgart II: 2.35, 3.6, 2.75
+2025-10-24 19:17:25,594 [INFO] coletor: [ODDS] Odds para Regensburg vs Stuttgart II: 2.35, 3.6, 2.75
+2025-10-24 19:17:25,595 [INFO] [ODDS] Odds para Verl vs Ulm: 1.9, 3.9, 3.5
+2025-10-24 19:17:25,595 [INFO] coletor: [ODDS] Odds para Verl vs Ulm: 1.9, 3.9, 3.5
+2025-10-24 19:17:25,595 [INFO] [ODDS] Odds para Waldhof Mannheim vs 1860 München: 2.5, 3.5, 2.62
+2025-10-24 19:17:25,595 [INFO] coletor: [ODDS] Odds para Waldhof Mannheim vs 1860 München: 2.5, 3.5, 2.62
+2025-10-24 19:17:25,595 [INFO] [ODDS] Odds para Schweinfurt vs Osnabrück: 4.5, 3.9, 1.7
+2025-10-24 19:17:25,595 [INFO] coletor: [ODDS] Odds para Schweinfurt vs Osnabrück: 4.5, 3.9, 1.7
+2025-10-24 19:17:25,596 [INFO] [ODDS] Odds para Al Quadisiya vs Al Akhdoud: 1.33, 5.25, 8.0
+2025-10-24 19:17:25,596 [INFO] coletor: [ODDS] Odds para Al Quadisiya vs Al Akhdoud: 1.33, 5.25, 8.0
+2025-10-24 19:17:25,596 [INFO] [ODDS] Odds para Al Shabab vs Damac: 1.55, 4.33, 5.0
+2025-10-24 19:17:25,596 [INFO] coletor: [ODDS] Odds para Al Shabab vs Damac: 1.55, 4.33, 5.0
+2025-10-24 19:17:25,597 [INFO] [ODDS] Odds para Al Hazm vs Al Nassr: 9.0, 7.0, 1.2
+2025-10-24 19:17:25,597 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Nassr: 9.0, 7.0, 1.2
+2025-10-24 19:17:25,597 [INFO] [ODDS] Odds para El Bayadh vs MC Oran: 2.4, 2.55, 3.2
+2025-10-24 19:17:25,597 [INFO] coletor: [ODDS] Odds para El Bayadh vs MC Oran: 2.4, 2.55, 3.2
+2025-10-24 19:17:25,598 [INFO] [ODDS] Odds para CS Constantine vs Oued Akbou: 1.8, 3.0, 4.5
+2025-10-24 19:17:25,598 [INFO] coletor: [ODDS] Odds para CS Constantine vs Oued Akbou: 1.8, 3.0, 4.5
+2025-10-24 19:17:25,598 [INFO] [ODDS] Odds para Pyunik vs Gandzasar: 1.22, 5.75, 9.0
+2025-10-24 19:17:25,598 [INFO] coletor: [ODDS] Odds para Pyunik vs Gandzasar: 1.22, 5.75, 9.0
+2025-10-24 19:17:25,598 [INFO] [ODDS] Odds para Ararat-Armenia vs BKMA: 1.28, 4.75, 7.5
+2025-10-24 19:17:25,598 [INFO] coletor: [ODDS] Odds para Ararat-Armenia vs BKMA: 1.28, 4.75, 7.5
+2025-10-24 19:17:25,599 [INFO] [ODDS] Odds para Auckland vs Western Sydney Wanderers: 1.8, 4.0, 4.0
+2025-10-24 19:17:25,599 [INFO] coletor: [ODDS] Odds para Auckland vs Western Sydney Wanderers: 1.8, 4.0, 4.0
+2025-10-24 19:17:25,599 [INFO] [ODDS] Odds para Melbourne City vs Perth Glory: 1.48, 5.0, 5.5
+2025-10-24 19:17:25,599 [INFO] coletor: [ODDS] Odds para Melbourne City vs Perth Glory: 1.48, 5.0, 5.5
+2025-10-24 19:17:25,600 [INFO] [ODDS] Odds para Sydney vs Central Coast Mariners: 1.53, 4.33, 5.75
+2025-10-24 19:17:25,600 [INFO] coletor: [ODDS] Odds para Sydney vs Central Coast Mariners: 1.53, 4.33, 5.75
+2025-10-24 19:17:25,600 [INFO] [ODDS] Odds para Wellington Phoenix vs Brisbane Roar: 2.87, 3.5, 2.4
+2025-10-24 19:17:25,600 [INFO] coletor: [ODDS] Odds para Wellington Phoenix vs Brisbane Roar: 2.87, 3.5, 2.4
+2025-10-24 19:17:25,601 [INFO] [ODDS] Odds para Club Brugge II vs Olympic Charleroi: 1.66, 3.8, 4.2
+2025-10-24 19:17:25,601 [INFO] coletor: [ODDS] Odds para Club Brugge II vs Olympic Charleroi: 1.66, 3.8, 4.2
+2025-10-24 19:17:25,601 [INFO] [ODDS] Odds para Waasland-Beveren vs Patro Eisden: 1.75, 3.5, 4.2
+2025-10-24 19:17:25,601 [INFO] coletor: [ODDS] Odds para Waasland-Beveren vs Patro Eisden: 1.75, 3.5, 4.2
+2025-10-24 19:17:25,601 [INFO] [ODDS] Odds para Eupen vs KRC Genk II: 1.53, 4.1, 5.0
+2025-10-24 19:17:25,601 [INFO] coletor: [ODDS] Odds para Eupen vs KRC Genk II: 1.53, 4.1, 5.0
+2025-10-24 19:17:25,602 [INFO] [ODDS] Odds para Liège vs RWDM: 2.62, 3.3, 2.45
+2025-10-24 19:17:25,602 [INFO] coletor: [ODDS] Odds para Liège vs RWDM: 2.62, 3.3, 2.45
+2025-10-24 19:17:25,602 [INFO] [ODDS] Odds para Volta Redonda vs Coritiba: 3.0, 3.0, 2.5
+2025-10-24 19:17:25,602 [INFO] coletor: [ODDS] Odds para Volta Redonda vs Coritiba: 3.0, 3.0, 2.5
+2025-10-24 19:17:25,603 [INFO] [ODDS] Odds para Athletic Club vs América Mineiro: 2.7, 3.1, 2.7
+2025-10-24 19:17:25,603 [INFO] coletor: [ODDS] Odds para Athletic Club vs América Mineiro: 2.7, 3.1, 2.7
+2025-10-24 19:17:25,603 [INFO] [ODDS] Odds para Paysandu vs Avaí: 2.5, 3.2, 2.8
+2025-10-24 19:17:25,603 [INFO] coletor: [ODDS] Odds para Paysandu vs Avaí: 2.5, 3.2, 2.8
+2025-10-24 19:17:25,604 [INFO] [ODDS] Odds para Criciúma vs Goiás: 1.95, 3.2, 4.1
+2025-10-24 19:17:25,604 [INFO] coletor: [ODDS] Odds para Criciúma vs Goiás: 1.95, 3.2, 4.1
+2025-10-24 19:17:25,604 [INFO] [ODDS] Odds para Ponte Preta vs Londrina: 1.9, 3.1, 3.75
+2025-10-24 19:17:25,604 [INFO] coletor: [ODDS] Odds para Ponte Preta vs Londrina: 1.9, 3.1, 3.75
+2025-10-24 19:17:25,605 [INFO] [ODDS] Odds para La Serena vs Audax Italiano: 2.8, 3.2, 2.5
+2025-10-24 19:17:25,605 [INFO] coletor: [ODDS] Odds para La Serena vs Audax Italiano: 2.8, 3.2, 2.5
+2025-10-24 19:17:25,605 [INFO] [ODDS] Odds para Huachipato vs Deportes Iquique: 1.9, 3.6, 3.75
+2025-10-24 19:17:25,605 [INFO] coletor: [ODDS] Odds para Huachipato vs Deportes Iquique: 1.9, 3.6, 3.75
+2025-10-24 19:17:25,605 [INFO] [ODDS] Odds para Envigado vs Boyacá Chicó: 2.1, 3.0, 3.9
+2025-10-24 19:17:25,605 [INFO] coletor: [ODDS] Odds para Envigado vs Boyacá Chicó: 2.1, 3.0, 3.9
+2025-10-24 19:17:25,606 [INFO] [ODDS] Odds para Deportes Tolima vs Deportivo Cali: 1.8, 3.6, 4.2
+2025-10-24 19:17:25,606 [INFO] coletor: [ODDS] Odds para Deportes Tolima vs Deportivo Cali: 1.8, 3.6, 4.2
+2025-10-24 19:17:25,606 [INFO] [ODDS] Odds para Atlético Bucaramanga vs Llaneros: 1.48, 4.1, 7.0
+2025-10-24 19:17:25,606 [INFO] coletor: [ODDS] Odds para Atlético Bucaramanga vs Llaneros: 1.48, 4.1, 7.0
+2025-10-24 19:17:25,607 [WARNING] [ODDS] Odds não encontradas para Alianza Petrolera vs La Equidad. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,607 [WARNING] coletor: [ODDS] Odds não encontradas para Alianza Petrolera vs La Equidad. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,607 [INFO] [ODDS] Odds para Santa Fe vs Millonarios: 2.45, 3.25, 2.87
+2025-10-24 19:17:25,607 [INFO] coletor: [ODDS] Odds para Santa Fe vs Millonarios: 2.45, 3.25, 2.87
+2025-10-24 19:17:25,608 [INFO] [ODDS] Odds para Once Caldas vs Unión Magdalena: 1.45, 4.33, 7.0
+2025-10-24 19:17:25,608 [INFO] coletor: [ODDS] Odds para Once Caldas vs Unión Magdalena: 1.45, 4.33, 7.0
+2025-10-24 19:17:25,608 [INFO] [ODDS] Odds para Jeonbuk Motors vs Sangju Sangmu: 2.15, 3.6, 3.0
+2025-10-24 19:17:25,608 [INFO] coletor: [ODDS] Odds para Jeonbuk Motors vs Sangju Sangmu: 2.15, 3.6, 3.0
+2025-10-24 19:17:25,609 [INFO] [ODDS] Odds para Gwangju vs Anyang: 2.05, 3.1, 3.6
+2025-10-24 19:17:25,609 [INFO] coletor: [ODDS] Odds para Gwangju vs Anyang: 2.05, 3.1, 3.6
+2025-10-24 19:17:25,609 [INFO] [ODDS] Odds para Suwon vs Jeju United: 1.83, 3.6, 3.75
+2025-10-24 19:17:25,609 [INFO] coletor: [ODDS] Odds para Suwon vs Jeju United: 1.83, 3.6, 3.75
+2025-10-24 19:17:25,609 [INFO] [ODDS] Odds para Seongnam vs Hwaseong: 1.72, 3.6, 4.75
+2025-10-24 19:17:25,609 [INFO] coletor: [ODDS] Odds para Seongnam vs Hwaseong: 1.72, 3.6, 4.75
+2025-10-24 19:17:25,610 [INFO] [ODDS] Odds para Suwon Bluewings vs Jeonnam Dragons: 1.7, 4.2, 4.2
+2025-10-24 19:17:25,610 [INFO] coletor: [ODDS] Odds para Suwon Bluewings vs Jeonnam Dragons: 1.7, 4.2, 4.2
+2025-10-24 19:17:25,610 [INFO] [ODDS] Odds para Busan I'Park vs Gimpo: 1.95, 3.4, 4.0
+2025-10-24 19:17:25,610 [INFO] coletor: [ODDS] Odds para Busan I'Park vs Gimpo: 1.95, 3.4, 4.0
+2025-10-24 19:17:25,611 [INFO] [ODDS] Odds para Cheonan City vs Ansan Greeners: 2.2, 3.4, 3.3
+2025-10-24 19:17:25,611 [INFO] coletor: [ODDS] Odds para Cheonan City vs Ansan Greeners: 2.2, 3.4, 3.3
+2025-10-24 19:17:25,611 [INFO] [ODDS] Odds para Cheongju vs Bucheon 1995: 4.2, 3.7, 1.8
+2025-10-24 19:17:25,611 [INFO] coletor: [ODDS] Odds para Cheongju vs Bucheon 1995: 4.2, 3.7, 1.8
+2025-10-24 19:17:25,612 [INFO] [ODDS] Odds para Lokomotiva Zagreb vs Istra 1961: 2.37, 3.25, 2.8
+2025-10-24 19:17:25,612 [INFO] coletor: [ODDS] Odds para Lokomotiva Zagreb vs Istra 1961: 2.37, 3.25, 2.8
+2025-10-24 19:17:25,612 [INFO] [ODDS] Odds para Varaždin vs Slaven Koprivnica: 2.1, 3.25, 3.3
+2025-10-24 19:17:25,612 [INFO] coletor: [ODDS] Odds para Varaždin vs Slaven Koprivnica: 2.1, 3.25, 3.3
+2025-10-24 19:17:25,612 [INFO] [ODDS] Odds para Aarhus Fremad vs Esbjerg: 1.9, 3.7, 3.7
+2025-10-24 19:17:25,612 [INFO] coletor: [ODDS] Odds para Aarhus Fremad vs Esbjerg: 1.9, 3.7, 3.7
+2025-10-24 19:17:25,613 [INFO] [ODDS] Odds para AaB vs Lyngby: 2.4, 3.4, 2.75
+2025-10-24 19:17:25,613 [INFO] coletor: [ODDS] Odds para AaB vs Lyngby: 2.4, 3.4, 2.75
+2025-10-24 19:17:25,613 [INFO] [ODDS] Odds para Hobro vs Hillerød: 2.62, 3.25, 2.62
+2025-10-24 19:17:25,613 [INFO] coletor: [ODDS] Odds para Hobro vs Hillerød: 2.62, 3.25, 2.62
+2025-10-24 19:17:25,614 [INFO] [ODDS] Odds para Haras El Hodood vs Ghazl El Mehalla: 3.25, 2.45, 2.7
+2025-10-24 19:17:25,614 [INFO] coletor: [ODDS] Odds para Haras El Hodood vs Ghazl El Mehalla: 3.25, 2.45, 2.7
+2025-10-24 19:17:25,614 [INFO] [ODDS] Odds para Future FC vs Al Mokawloon: 2.15, 2.87, 3.7
+2025-10-24 19:17:25,614 [INFO] coletor: [ODDS] Odds para Future FC vs Al Mokawloon: 2.15, 2.87, 3.7
+2025-10-24 19:17:25,615 [INFO] [ODDS] Odds para Mushuc Runa vs Manta: 1.45, 4.33, 6.5
+2025-10-24 19:17:25,615 [INFO] coletor: [ODDS] Odds para Mushuc Runa vs Manta: 1.45, 4.33, 6.5
+2025-10-24 19:17:25,615 [INFO] [ODDS] Odds para Barcelona Guayaquil vs Libertad: 1.57, 4.75, 4.5
+2025-10-24 19:17:25,615 [INFO] coletor: [ODDS] Odds para Barcelona Guayaquil vs Libertad: 1.57, 4.75, 4.5
+2025-10-24 19:17:25,615 [INFO] [ODDS] Odds para Deportivo Cuenca vs Aucas: 2.25, 3.3, 3.1
+2025-10-24 19:17:25,615 [INFO] coletor: [ODDS] Odds para Deportivo Cuenca vs Aucas: 2.25, 3.3, 3.1
+2025-10-24 19:17:25,616 [INFO] [ODDS] Odds para Queen's Park vs Ayr United: 3.7, 3.25, 1.95
+2025-10-24 19:17:25,616 [INFO] coletor: [ODDS] Odds para Queen's Park vs Ayr United: 3.7, 3.25, 1.95
+2025-10-24 19:17:25,616 [INFO] [ODDS] Odds para Airdrieonians vs Arbroath: 2.87, 3.3, 2.25
+2025-10-24 19:17:25,616 [INFO] coletor: [ODDS] Odds para Airdrieonians vs Arbroath: 2.87, 3.3, 2.25
+2025-10-24 19:17:25,617 [INFO] [ODDS] Odds para Greenock Morton vs St. Johnstone: 4.33, 3.6, 1.7
+2025-10-24 19:17:25,617 [INFO] coletor: [ODDS] Odds para Greenock Morton vs St. Johnstone: 4.33, 3.6, 1.7
+2025-10-24 19:17:25,617 [INFO] [ODDS] Odds para Raith Rovers vs Partick Thistle: 2.5, 3.1, 2.7
+2025-10-24 19:17:25,617 [INFO] coletor: [ODDS] Odds para Raith Rovers vs Partick Thistle: 2.5, 3.1, 2.7
+2025-10-24 19:17:25,618 [INFO] [ODDS] Odds para Ross County vs Dunfermline Athletic: 2.05, 3.25, 3.3
+2025-10-24 19:17:25,618 [INFO] coletor: [ODDS] Odds para Ross County vs Dunfermline Athletic: 2.05, 3.25, 3.3
+2025-10-24 19:17:25,619 [INFO] [ODDS] Odds para Peterhead vs Inverness CT: 3.6, 3.6, 1.8
+2025-10-24 19:17:25,619 [INFO] coletor: [ODDS] Odds para Peterhead vs Inverness CT: 3.6, 3.6, 1.8
+2025-10-24 19:17:25,619 [INFO] [ODDS] Odds para Montrose vs Cove Rangers: 2.05, 3.3, 3.1
+2025-10-24 19:17:25,619 [INFO] coletor: [ODDS] Odds para Montrose vs Cove Rangers: 2.05, 3.3, 3.1
+2025-10-24 19:17:25,619 [INFO] [ODDS] Odds para Kelty Hearts vs East Fife: 4.33, 3.6, 1.66
+2025-10-24 19:17:25,619 [INFO] coletor: [ODDS] Odds para Kelty Hearts vs East Fife: 4.33, 3.6, 1.66
+2025-10-24 19:17:25,620 [INFO] [ODDS] Odds para Alloa Athletic vs Stenhousemuir: 2.25, 3.3, 2.8
+2025-10-24 19:17:25,620 [INFO] coletor: [ODDS] Odds para Alloa Athletic vs Stenhousemuir: 2.25, 3.3, 2.8
+2025-10-24 19:17:25,620 [INFO] [ODDS] Odds para Trenčín vs Komárno: 2.3, 3.3, 3.1
+2025-10-24 19:17:25,620 [INFO] coletor: [ODDS] Odds para Trenčín vs Komárno: 2.3, 3.3, 3.1
+2025-10-24 19:17:25,621 [INFO] [ODDS] Odds para Žilina vs Skalica: 1.57, 4.2, 5.25
+2025-10-24 19:17:25,621 [INFO] coletor: [ODDS] Odds para Žilina vs Skalica: 1.57, 4.2, 5.25
+2025-10-24 19:17:25,621 [INFO] [ODDS] Odds para Zemplín Michalovce vs Dunajská Streda: 4.1, 3.75, 1.8
+2025-10-24 19:17:25,621 [INFO] coletor: [ODDS] Odds para Zemplín Michalovce vs Dunajská Streda: 4.1, 3.75, 1.8
+2025-10-24 19:17:25,622 [INFO] [ODDS] Odds para FK Košice vs Podbrezová: 1.9, 3.75, 3.6
+2025-10-24 19:17:25,622 [INFO] coletor: [ODDS] Odds para FK Košice vs Podbrezová: 1.9, 3.75, 3.6
+2025-10-24 19:17:25,622 [INFO] [ODDS] Odds para Radomlje vs Koper: 4.5, 3.4, 1.72
+2025-10-24 19:17:25,622 [INFO] coletor: [ODDS] Odds para Radomlje vs Koper: 4.5, 3.4, 1.72
+2025-10-24 19:17:25,622 [INFO] [ODDS] Odds para Maribor vs Primorje: 1.33, 5.0, 7.5
+2025-10-24 19:17:25,622 [INFO] coletor: [ODDS] Odds para Maribor vs Primorje: 1.33, 5.0, 7.5
+2025-10-24 19:17:25,623 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Trans: 4.1, 3.8, 1.65
+2025-10-24 19:17:25,623 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Trans: 4.1, 3.8, 1.65
+2025-10-24 19:17:25,623 [INFO] [ODDS] Odds para Kuressaare vs Nõmme Kalju: 5.75, 4.33, 1.4
+2025-10-24 19:17:25,623 [INFO] coletor: [ODDS] Odds para Kuressaare vs Nõmme Kalju: 5.75, 4.33, 1.4
+2025-10-24 19:17:25,624 [INFO] [ODDS] Odds para Tammeka vs Tallinna Kalev: 1.53, 4.0, 4.75
+2025-10-24 19:17:25,624 [INFO] coletor: [ODDS] Odds para Tammeka vs Tallinna Kalev: 1.53, 4.0, 4.75
+2025-10-24 19:17:25,624 [INFO] [ODDS] Odds para Puskás vs MTK: 1.7, 4.2, 4.0
+2025-10-24 19:17:25,624 [INFO] coletor: [ODDS] Odds para Puskás vs MTK: 1.7, 4.2, 4.0
+2025-10-24 19:17:25,625 [INFO] [ODDS] Odds para Diósgyőr vs Paksi SE: 3.9, 4.1, 1.75
+2025-10-24 19:17:25,625 [INFO] coletor: [ODDS] Odds para Diósgyőr vs Paksi SE: 3.9, 4.1, 1.75
+2025-10-24 19:17:25,625 [INFO] [ODDS] Odds para Nyíregyháza Spartacus vs Kazincbarcika: 1.65, 3.9, 5.0
+2025-10-24 19:17:25,625 [INFO] coletor: [ODDS] Odds para Nyíregyháza Spartacus vs Kazincbarcika: 1.65, 3.9, 5.0
+2025-10-24 19:17:25,625 [INFO] [ODDS] Odds para Halifax Town vs York City: 4.33, 3.6, 1.72
+2025-10-24 19:17:25,625 [INFO] coletor: [ODDS] Odds para Halifax Town vs York City: 4.33, 3.6, 1.72
+2025-10-24 19:17:25,626 [INFO] [ODDS] Odds para Yeovil Town vs Carlisle: 3.6, 3.4, 1.9
+2025-10-24 19:17:25,626 [INFO] coletor: [ODDS] Odds para Yeovil Town vs Carlisle: 3.6, 3.4, 1.9
+2025-10-24 19:17:25,626 [INFO] [ODDS] Odds para Wealdstone vs Sutton: 2.1, 3.4, 3.1
+2025-10-24 19:17:25,626 [INFO] coletor: [ODDS] Odds para Wealdstone vs Sutton: 2.1, 3.4, 3.1
+2025-10-24 19:17:25,627 [INFO] [ODDS] Odds para Gateshead vs Truro City: 1.9, 3.9, 3.25
+2025-10-24 19:17:25,627 [INFO] coletor: [ODDS] Odds para Gateshead vs Truro City: 1.9, 3.9, 3.25
+2025-10-24 19:17:25,627 [INFO] [ODDS] Odds para Woking vs Rochdale: 3.9, 3.5, 1.8
+2025-10-24 19:17:25,627 [INFO] coletor: [ODDS] Odds para Woking vs Rochdale: 3.9, 3.5, 1.8
+2025-10-24 19:17:25,628 [INFO] [ODDS] Odds para Forest Green vs Boreham Wood: 2.0, 3.5, 3.2
+2025-10-24 19:17:25,628 [INFO] coletor: [ODDS] Odds para Forest Green vs Boreham Wood: 2.0, 3.5, 3.2
+2025-10-24 19:17:25,628 [INFO] [ODDS] Odds para Southend United vs Brackley Town: 1.61, 3.5, 5.25
+2025-10-24 19:17:25,628 [INFO] coletor: [ODDS] Odds para Southend United vs Brackley Town: 1.61, 3.5, 5.25
+2025-10-24 19:17:25,628 [INFO] [ODDS] Odds para Eastleigh vs Morecambe: 1.85, 3.7, 3.5
+2025-10-24 19:17:25,628 [INFO] coletor: [ODDS] Odds para Eastleigh vs Morecambe: 1.85, 3.7, 3.5
+2025-10-24 19:17:25,629 [INFO] [ODDS] Odds para Braintree Town vs Altrincham: 2.62, 3.4, 2.35
+2025-10-24 19:17:25,629 [INFO] coletor: [ODDS] Odds para Braintree Town vs Altrincham: 2.62, 3.4, 2.35
+2025-10-24 19:17:25,629 [INFO] [ODDS] Odds para Hartlepool vs Solihull Moors: 1.66, 4.1, 4.0
+2025-10-24 19:17:25,629 [INFO] coletor: [ODDS] Odds para Hartlepool vs Solihull Moors: 1.66, 4.1, 4.0
+2025-10-24 19:17:25,630 [INFO] [ODDS] Odds para Scunthorpe vs Aldershot Town: 1.66, 3.7, 4.5
+2025-10-24 19:17:25,630 [INFO] coletor: [ODDS] Odds para Scunthorpe vs Aldershot Town: 1.66, 3.7, 4.5
+2025-10-24 19:17:25,630 [INFO] [ODDS] Odds para Tamworth vs Boston United: 1.75, 3.7, 4.1
+2025-10-24 19:17:25,630 [INFO] coletor: [ODDS] Odds para Tamworth vs Boston United: 1.75, 3.7, 4.1
+2025-10-24 19:17:25,631 [INFO] [ODDS] Odds para Sligo Rovers vs Cork City: 1.5, 4.2, 5.5
+2025-10-24 19:17:25,631 [INFO] coletor: [ODDS] Odds para Sligo Rovers vs Cork City: 1.5, 4.2, 5.5
+2025-10-24 19:17:25,631 [INFO] [ODDS] Odds para Dungannon Swifts vs Glenavon: 1.75, 3.75, 4.33
+2025-10-24 19:17:25,631 [INFO] coletor: [ODDS] Odds para Dungannon Swifts vs Glenavon: 1.75, 3.75, 4.33
+2025-10-24 19:17:25,631 [INFO] [ODDS] Odds para Carrick Rangers vs Cliftonville: 2.62, 3.4, 2.55
+2025-10-24 19:17:25,631 [INFO] coletor: [ODDS] Odds para Carrick Rangers vs Cliftonville: 2.62, 3.4, 2.55
+2025-10-24 19:17:25,632 [INFO] [ODDS] Odds para Crusaders vs Glentoran: 4.5, 3.9, 1.7
+2025-10-24 19:17:25,632 [INFO] coletor: [ODDS] Odds para Crusaders vs Glentoran: 4.5, 3.9, 1.7
+2025-10-24 19:17:25,632 [INFO] [ODDS] Odds para Portadown vs Coleraine: 5.25, 4.5, 1.53
+2025-10-24 19:17:25,632 [INFO] coletor: [ODDS] Odds para Portadown vs Coleraine: 5.25, 4.5, 1.53
+2025-10-24 19:17:25,633 [INFO] [ODDS] Odds para Linfield vs Ballymena United: 1.4, 4.75, 7.0
+2025-10-24 19:17:25,633 [INFO] coletor: [ODDS] Odds para Linfield vs Ballymena United: 1.4, 4.75, 7.0
+2025-10-24 19:17:25,633 [INFO] [ODDS] Odds para Larne vs Bangor: 1.4, 4.75, 7.0
+2025-10-24 19:17:25,633 [INFO] coletor: [ODDS] Odds para Larne vs Bangor: 1.4, 4.75, 7.0
+2025-10-24 19:17:25,634 [INFO] [ODDS] Odds para ÍBV vs KA: 2.35, 3.75, 2.55
+2025-10-24 19:17:25,634 [INFO] coletor: [ODDS] Odds para ÍBV vs KA: 2.35, 3.75, 2.55
+2025-10-24 19:17:25,634 [INFO] [ODDS] Odds para ÍA vs Afturelding: 2.55, 3.5, 2.45
+2025-10-24 19:17:25,634 [INFO] coletor: [ODDS] Odds para ÍA vs Afturelding: 2.55, 3.5, 2.45
+2025-10-24 19:17:25,634 [INFO] [ODDS] Odds para Vestri vs KR: 3.25, 4.0, 1.85
+2025-10-24 19:17:25,634 [INFO] coletor: [ODDS] Odds para Vestri vs KR: 3.25, 4.0, 1.85
+2025-10-24 19:17:25,635 [INFO] [ODDS] Odds para FH vs Fram: 1.83, 4.1, 3.25
+2025-10-24 19:17:25,635 [INFO] coletor: [ODDS] Odds para FH vs Fram: 1.83, 4.1, 3.25
+2025-10-24 19:17:25,635 [INFO] [ODDS] Odds para Víkingur Reykjavík vs Valur: 1.6, 4.2, 4.33
+2025-10-24 19:17:25,635 [INFO] coletor: [ODDS] Odds para Víkingur Reykjavík vs Valur: 1.6, 4.2, 4.33
+2025-10-24 19:17:25,636 [INFO] [ODDS] Odds para Ashdod vs Hapoel Petah Tikva: 3.0, 3.25, 2.25
+2025-10-24 19:17:25,636 [INFO] coletor: [ODDS] Odds para Ashdod vs Hapoel Petah Tikva: 3.0, 3.25, 2.25
+2025-10-24 19:17:25,636 [INFO] [ODDS] Odds para Hapoel Haifa vs Beitar Jerusalem: 4.33, 3.5, 1.75
+2025-10-24 19:17:25,636 [INFO] coletor: [ODDS] Odds para Hapoel Haifa vs Beitar Jerusalem: 4.33, 3.5, 1.75
+2025-10-24 19:17:25,637 [INFO] [ODDS] Odds para Ironi Tiberias vs Maccabi Haifa: 6.5, 4.75, 1.4
+2025-10-24 19:17:25,637 [INFO] coletor: [ODDS] Odds para Ironi Tiberias vs Maccabi Haifa: 6.5, 4.75, 1.4
+2025-10-24 19:17:25,637 [INFO] [ODDS] Odds para Hapoel Katamon vs Bnei Sakhnin: 2.15, 3.2, 3.2
+2025-10-24 19:17:25,637 [INFO] coletor: [ODDS] Odds para Hapoel Katamon vs Bnei Sakhnin: 2.15, 3.2, 3.2
+2025-10-24 19:17:25,637 [INFO] [ODDS] Odds para Maccabi Netanya vs Hapoel Tel Aviv: 3.1, 3.6, 2.05
+2025-10-24 19:17:25,637 [INFO] coletor: [ODDS] Odds para Maccabi Netanya vs Hapoel Tel Aviv: 3.1, 3.6, 2.05
+2025-10-24 19:17:25,638 [INFO] [ODDS] Odds para Urawa Reds vs Machida Zelvia: 3.25, 3.25, 2.25
+2025-10-24 19:17:25,638 [INFO] coletor: [ODDS] Odds para Urawa Reds vs Machida Zelvia: 3.25, 3.25, 2.25
+2025-10-24 19:17:25,638 [INFO] [ODDS] Odds para Nagoya Grampus vs Gamba Osaka: 2.7, 3.25, 2.7
+2025-10-24 19:17:25,638 [INFO] coletor: [ODDS] Odds para Nagoya Grampus vs Gamba Osaka: 2.7, 3.25, 2.7
+2025-10-24 19:17:25,639 [INFO] [ODDS] Odds para Kashiwa Reysol vs Yokohama: 1.65, 3.9, 5.0
+2025-10-24 19:17:25,639 [INFO] coletor: [ODDS] Odds para Kashiwa Reysol vs Yokohama: 1.65, 3.9, 5.0
+2025-10-24 19:17:25,639 [INFO] [ODDS] Odds para Shimizu S-Pulse vs Tokyo Verdy: 2.4, 3.1, 3.1
+2025-10-24 19:17:25,639 [INFO] coletor: [ODDS] Odds para Shimizu S-Pulse vs Tokyo Verdy: 2.4, 3.1, 3.1
+2025-10-24 19:17:25,640 [INFO] [ODDS] Odds para Kyoto Sanga vs Kashima Antlers: 2.87, 3.4, 2.37
+2025-10-24 19:17:25,640 [INFO] coletor: [ODDS] Odds para Kyoto Sanga vs Kashima Antlers: 2.87, 3.4, 2.37
+2025-10-24 19:17:25,640 [INFO] [ODDS] Odds para Yokohama F. Marinos vs Sanfrecce Hiroshima: 4.0, 3.6, 1.85
+2025-10-24 19:17:25,640 [INFO] coletor: [ODDS] Odds para Yokohama F. Marinos vs Sanfrecce Hiroshima: 4.0, 3.6, 1.85
+2025-10-24 19:17:25,641 [INFO] [ODDS] Odds para Tokyo vs Fagiano Okayama: 2.1, 3.25, 3.6
+2025-10-24 19:17:25,641 [INFO] coletor: [ODDS] Odds para Tokyo vs Fagiano Okayama: 2.1, 3.25, 3.6
+2025-10-24 19:17:25,641 [INFO] [ODDS] Odds para Cerezo Osaka vs Kawasaki Frontale: 2.62, 3.6, 2.45
+2025-10-24 19:17:25,641 [INFO] coletor: [ODDS] Odds para Cerezo Osaka vs Kawasaki Frontale: 2.62, 3.6, 2.45
+2025-10-24 19:17:25,641 [INFO] [ODDS] Odds para Fujieda MYFC vs Ventforet Kofu: 2.25, 3.3, 3.1
+2025-10-24 19:17:25,641 [INFO] coletor: [ODDS] Odds para Fujieda MYFC vs Ventforet Kofu: 2.25, 3.3, 3.1
+2025-10-24 19:17:25,642 [INFO] [ODDS] Odds para V-Varen Nagasaki vs Imabari: 1.85, 3.75, 3.75
+2025-10-24 19:17:25,642 [INFO] coletor: [ODDS] Odds para V-Varen Nagasaki vs Imabari: 1.85, 3.75, 3.75
+2025-10-24 19:17:25,642 [WARNING] [ODDS] Odds não encontradas para Kuching FA vs Pulau Pinang. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,642 [WARNING] coletor: [ODDS] Odds não encontradas para Kuching FA vs Pulau Pinang. Motivo: could not convert string to float: '-'
+2025-10-24 19:17:25,643 [INFO] [ODDS] Odds para Johor Darul Ta'zim vs DPMM FC: 1.03, 13.0, 26.0
+2025-10-24 19:17:25,643 [INFO] coletor: [ODDS] Odds para Johor Darul Ta'zim vs DPMM FC: 1.03, 13.0, 26.0
+2025-10-24 19:17:25,643 [INFO] [ODDS] Odds para Negeri Sembilan vs PDRM: 1.9, 3.25, 3.5
+2025-10-24 19:17:25,643 [INFO] coletor: [ODDS] Odds para Negeri Sembilan vs PDRM: 1.9, 3.25, 3.5
+2025-10-24 19:17:25,644 [INFO] [ODDS] Odds para Skeid vs Raufoss: 3.8, 3.75, 1.83
+2025-10-24 19:17:25,644 [INFO] coletor: [ODDS] Odds para Skeid vs Raufoss: 3.8, 3.75, 1.83
+2025-10-24 19:17:25,644 [INFO] [ODDS] Odds para Åsane vs Start: 4.33, 3.8, 1.72
+2025-10-24 19:17:25,644 [INFO] coletor: [ODDS] Odds para Åsane vs Start: 4.33, 3.8, 1.72
+2025-10-24 19:17:25,644 [INFO] [ODDS] Odds para Hødd vs Stabæk: 3.9, 3.75, 1.83
+2025-10-24 19:17:25,644 [INFO] coletor: [ODDS] Odds para Hødd vs Stabæk: 3.9, 3.75, 1.83
+2025-10-24 19:17:25,645 [INFO] [ODDS] Odds para Lillestrøm vs Ranheim: 1.22, 7.0, 9.0
+2025-10-24 19:17:25,645 [INFO] coletor: [ODDS] Odds para Lillestrøm vs Ranheim: 1.22, 7.0, 9.0
+2025-10-24 19:17:25,645 [INFO] [ODDS] Odds para Mjøndalen vs Odd: 3.0, 3.5, 2.15
+2025-10-24 19:17:25,645 [INFO] coletor: [ODDS] Odds para Mjøndalen vs Odd: 3.0, 3.5, 2.15
+2025-10-24 19:17:25,646 [INFO] [ODDS] Odds para Moss vs Aalesund: 4.1, 3.9, 1.72
+2025-10-24 19:17:25,646 [INFO] coletor: [ODDS] Odds para Moss vs Aalesund: 4.1, 3.9, 1.72
+2025-10-24 19:17:25,646 [INFO] [ODDS] Odds para Sogndal vs Egersund: 2.15, 3.6, 3.0
+2025-10-24 19:17:25,646 [INFO] coletor: [ODDS] Odds para Sogndal vs Egersund: 2.15, 3.6, 3.0
+2025-10-24 19:17:25,647 [INFO] [ODDS] Odds para Lyn vs Kongsvinger: 2.45, 3.75, 2.55
+2025-10-24 19:17:25,647 [INFO] coletor: [ODDS] Odds para Lyn vs Kongsvinger: 2.45, 3.75, 2.55
+2025-10-24 19:17:25,647 [INFO] [ODDS] Odds para Connah's Quay vs Haverfordwest County: 1.44, 4.2, 5.75
+2025-10-24 19:17:25,647 [INFO] coletor: [ODDS] Odds para Connah's Quay vs Haverfordwest County: 1.44, 4.2, 5.75
+2025-10-24 19:17:25,648 [INFO] [ODDS] Odds para Cardiff MU vs Flint Town United: 2.0, 3.5, 3.1
+2025-10-24 19:17:25,648 [INFO] coletor: [ODDS] Odds para Cardiff MU vs Flint Town United: 2.0, 3.5, 3.1
+2025-10-24 19:17:25,648 [INFO] [ODDS] Odds para Bala Town vs Barry Town United: 2.55, 3.6, 2.25
+2025-10-24 19:17:25,648 [INFO] coletor: [ODDS] Odds para Bala Town vs Barry Town United: 2.55, 3.6, 2.25
+2025-10-24 19:17:25,648 [INFO] [ODDS] Odds para Briton Ferry vs Colwyn Bay: 3.8, 3.6, 1.72
+2025-10-24 19:17:25,648 [INFO] coletor: [ODDS] Odds para Briton Ferry vs Colwyn Bay: 3.8, 3.6, 1.72
+2025-10-24 19:17:25,649 [INFO] [ODDS] Odds para Penybont vs Caernarfon Town: 1.75, 3.6, 3.7
+2025-10-24 19:17:25,649 [INFO] coletor: [ODDS] Odds para Penybont vs Caernarfon Town: 1.75, 3.6, 3.7
+2025-10-24 19:17:25,649 [INFO] [ODDS] Odds para Atlético Tembetary vs Sportivo Luqueño: 3.3, 3.4, 2.05
+2025-10-24 19:17:25,649 [INFO] coletor: [ODDS] Odds para Atlético Tembetary vs Sportivo Luqueño: 3.3, 3.4, 2.05
+2025-10-24 19:17:25,650 [INFO] [ODDS] Odds para Sportivo Trinidense vs 2 de Mayo: 2.2, 3.3, 3.1
+2025-10-24 19:17:25,650 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs 2 de Mayo: 2.2, 3.3, 3.1
+2025-10-24 19:17:25,650 [INFO] [ODDS] Odds para Ayacucho vs Deportivo Garcilaso: 2.25, 3.6, 2.87
+2025-10-24 19:17:25,650 [INFO] coletor: [ODDS] Odds para Ayacucho vs Deportivo Garcilaso: 2.25, 3.6, 2.87
+2025-10-24 19:17:25,651 [INFO] [ODDS] Odds para Alianza Atlético vs Cienciano: 2.05, 3.4, 3.5
+2025-10-24 19:17:25,651 [INFO] coletor: [ODDS] Odds para Alianza Atlético vs Cienciano: 2.05, 3.4, 3.5
+2025-10-24 19:17:25,651 [INFO] [ODDS] Odds para Cusco FC vs Atlético Grau: 1.65, 3.4, 5.5
+2025-10-24 19:17:25,651 [INFO] coletor: [ODDS] Odds para Cusco FC vs Atlético Grau: 1.65, 3.4, 5.5
+2025-10-24 19:17:25,651 [INFO] [ODDS] Odds para Arka Gdynia vs Piast Gliwice: 2.62, 3.1, 2.87
+2025-10-24 19:17:25,651 [INFO] coletor: [ODDS] Odds para Arka Gdynia vs Piast Gliwice: 2.62, 3.1, 2.87
+2025-10-24 19:17:25,652 [INFO] [ODDS] Odds para Pogoń Szczecin vs Cracovia Kraków: 2.3, 3.4, 3.0
+2025-10-24 19:17:25,652 [INFO] coletor: [ODDS] Odds para Pogoń Szczecin vs Cracovia Kraków: 2.3, 3.4, 3.0
+2025-10-24 19:17:25,652 [INFO] [ODDS] Odds para Katowice vs Korona Kielce: 2.45, 3.3, 3.0
+2025-10-24 19:17:25,652 [INFO] coletor: [ODDS] Odds para Katowice vs Korona Kielce: 2.45, 3.3, 3.0
+2025-10-24 19:17:25,653 [INFO] [ODDS] Odds para União de Leiria vs Leixões: 2.0, 3.3, 3.6
+2025-10-24 19:17:25,653 [INFO] coletor: [ODDS] Odds para União de Leiria vs Leixões: 2.0, 3.3, 3.6
+2025-10-24 19:17:25,653 [INFO] [ODDS] Odds para Sporting CP II vs Lusitania FC Lourosa: 2.15, 3.3, 3.25
+2025-10-24 19:17:25,653 [INFO] coletor: [ODDS] Odds para Sporting CP II vs Lusitania FC Lourosa: 2.15, 3.3, 3.25
+2025-10-24 19:17:25,654 [INFO] [ODDS] Odds para Ferreira vs Portimonense: 2.6, 3.3, 2.6
+2025-10-24 19:17:25,654 [INFO] coletor: [ODDS] Odds para Ferreira vs Portimonense: 2.6, 3.3, 2.6
+2025-10-24 19:17:25,654 [INFO] [ODDS] Odds para Academico Viseu vs Chaves: 2.55, 3.0, 2.6
+2025-10-24 19:17:25,654 [INFO] coletor: [ODDS] Odds para Academico Viseu vs Chaves: 2.55, 3.0, 2.6
+2025-10-24 19:17:25,655 [INFO] [ODDS] Odds para Feirense vs Benfica II: 2.3, 3.1, 2.9
+2025-10-24 19:17:25,655 [INFO] coletor: [ODDS] Odds para Feirense vs Benfica II: 2.3, 3.1, 2.9
+2025-10-24 19:17:25,655 [INFO] [ODDS] Odds para Otelul vs Universitatea Cluj: 2.9, 2.7, 2.9
+2025-10-24 19:17:25,655 [INFO] coletor: [ODDS] Odds para Otelul vs Universitatea Cluj: 2.9, 2.7, 2.9
+2025-10-24 19:17:25,655 [INFO] [ODDS] Odds para CFR Cluj vs SSC Farul: 1.8, 3.7, 4.2
+2025-10-24 19:17:25,655 [INFO] coletor: [ODDS] Odds para CFR Cluj vs SSC Farul: 1.8, 3.7, 4.2
+2025-10-24 19:17:25,656 [INFO] [ODDS] Odds para Radnički Kragujevac vs Bačka Topola: 1.7, 3.7, 4.5
+2025-10-24 19:17:25,656 [INFO] coletor: [ODDS] Odds para Radnički Kragujevac vs Bačka Topola: 1.7, 3.7, 4.5
+2025-10-24 19:17:25,656 [INFO] [ODDS] Odds para IMT Novi Beograd vs OFK Beograd: 2.25, 3.75, 2.62
+2025-10-24 19:17:25,656 [INFO] coletor: [ODDS] Odds para IMT Novi Beograd vs OFK Beograd: 2.25, 3.75, 2.62
+2025-10-24 19:17:25,657 [INFO] [ODDS] Odds para Radnik Surdulica vs Spartak Subotica: 1.95, 3.5, 3.4
+2025-10-24 19:17:25,657 [INFO] coletor: [ODDS] Odds para Radnik Surdulica vs Spartak Subotica: 1.95, 3.5, 3.4
+2025-10-24 19:17:25,657 [INFO] [ODDS] Odds para Železničar Pančevo vs Čukarički: 2.4, 3.4, 2.62
+2025-10-24 19:17:25,657 [INFO] coletor: [ODDS] Odds para Železničar Pančevo vs Čukarički: 2.4, 3.4, 2.62
+2025-10-24 19:17:25,658 [INFO] [ODDS] Odds para Umeå vs Varberg BoIS: 3.1, 3.7, 2.1
+2025-10-24 19:17:25,658 [INFO] coletor: [ODDS] Odds para Umeå vs Varberg BoIS: 3.1, 3.7, 2.1
+2025-10-24 19:17:25,658 [INFO] [ODDS] Odds para GIF Sundsvall vs Kalmar: 5.75, 4.2, 1.5
+2025-10-24 19:17:25,658 [INFO] coletor: [ODDS] Odds para GIF Sundsvall vs Kalmar: 5.75, 4.2, 1.5
+2025-10-24 19:17:25,659 [INFO] [ODDS] Odds para Sandviken vs Utsikten: 1.95, 3.5, 3.4
+2025-10-24 19:17:25,659 [INFO] coletor: [ODDS] Odds para Sandviken vs Utsikten: 1.95, 3.5, 3.4
+2025-10-24 19:17:25,659 [INFO] [ODDS] Odds para Brage vs Helsingborg: 2.4, 3.5, 2.7
+2025-10-24 19:17:25,659 [INFO] coletor: [ODDS] Odds para Brage vs Helsingborg: 2.4, 3.5, 2.7
+2025-10-24 19:17:25,659 [INFO] [ODDS] Odds para Oddevold vs Östersunds FK: 2.1, 3.5, 3.25
+2025-10-24 19:17:25,659 [INFO] coletor: [ODDS] Odds para Oddevold vs Östersunds FK: 2.1, 3.5, 3.25
+2025-10-24 19:17:25,660 [INFO] [ODDS] Odds para Juventud vs Plaza Colonia: 1.95, 3.25, 4.0
+2025-10-24 19:17:25,660 [INFO] coletor: [ODDS] Odds para Juventud vs Plaza Colonia: 1.95, 3.25, 4.0
+2025-10-24 19:17:25,660 [INFO] [ODDS] Odds para Cerro vs Peñarol: 9.5, 4.75, 1.33
+2025-10-24 19:17:25,660 [INFO] coletor: [ODDS] Odds para Cerro vs Peñarol: 9.5, 4.75, 1.33
+2025-10-24 19:17:25,661 [INFO] [ODDS] Odds para Cerro Largo vs Racing: 2.55, 3.1, 2.75
+2025-10-24 19:17:25,661 [INFO] coletor: [ODDS] Odds para Cerro Largo vs Racing: 2.55, 3.1, 2.75
+2025-10-24 19:17:25,661 [INFO] [ODDS] Odds para Monagas vs Deportivo La Guaira: 3.0, 3.4, 2.1
+2025-10-24 19:17:25,661 [INFO] coletor: [ODDS] Odds para Monagas vs Deportivo La Guaira: 3.0, 3.4, 2.1
+2025-10-24 19:17:25,662 [INFO] [ODDS] Odds para Academia Puerto Cabello vs Zamora Fútbol Club: 1.8, 3.5, 4.1
+2025-10-24 19:17:25,662 [INFO] coletor: [ODDS] Odds para Academia Puerto Cabello vs Zamora Fútbol Club: 1.8, 3.5, 4.1
+2025-10-24 19:17:25,662 [INFO] [ODDS] Odds para Botev Vratsa vs Septemvri Sofia: 1.75, 3.5, 4.75
+2025-10-24 19:17:25,662 [INFO] coletor: [ODDS] Odds para Botev Vratsa vs Septemvri Sofia: 1.75, 3.5, 4.75
+2025-10-24 19:17:25,663 [INFO] [ODDS] Odds para Slavia Sofia vs Cherno More: 3.1, 3.25, 2.3
+2025-10-24 19:17:25,663 [INFO] coletor: [ODDS] Odds para Slavia Sofia vs Cherno More: 3.1, 3.25, 2.3
+2025-10-24 19:17:25,663 [INFO] [ODDS] Odds para Levski Sofia vs Dobrudzha 1919: 1.18, 6.5, 17.0
+2025-10-24 19:17:25,663 [INFO] coletor: [ODDS] Odds para Levski Sofia vs Dobrudzha 1919: 1.18, 6.5, 17.0
+2025-10-24 19:17:25,664 [INFO] [AGENDA] Válidos=285, Incompletos=0, Filtrados=394, Duplicados=0
+2025-10-24 19:17:25,664 [INFO] coletor: [AGENDA] Válidos=285, Incompletos=0, Filtrados=394, Duplicados=0
+2025-10-24 19:17:25,664 [INFO] __main__: [TEMPO] Fase 1 concluída em 12.34s
+2025-10-24 19:17:25,676 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-25.csv (282 linhas).
+2025-10-24 19:20:27,411 [INFO] __main__: [TEMPO] Fase 2 concluída em 181.73s (links extraídos: 564)
+2025-10-24 19:21:14,776 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7dd9b6987dd0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a0647e5d-7dba-4a96-84ec-2c7cadc4661d
+2025-10-24 19:21:14,777 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7dd9e5ff0770>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a0647e5d-7dba-4a96-84ec-2c7cadc4661d
+2025-10-24 19:21:14,778 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7dd9ea8ceab0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a0647e5d-7dba-4a96-84ec-2c7cadc4661d
+2025-10-24 19:21:56,850 [INFO] __main__: Coletor iniciado
+2025-10-24 19:21:56,850 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-24 19:22:32,225 [INFO] __main__: Coletor iniciado
+2025-10-24 19:22:32,226 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-24 19:23:10,350 [INFO] [ODDS] Odds para Newcastle vs Fulham: 1.61, 3.9, 5.5
+2025-10-24 19:23:10,350 [INFO] coletor: [ODDS] Odds para Newcastle vs Fulham: 1.61, 3.9, 5.5
+2025-10-24 19:23:10,351 [INFO] [ODDS] Odds para Chelsea vs Sunderland: 1.38, 5.0, 8.0
+2025-10-24 19:23:10,351 [INFO] coletor: [ODDS] Odds para Chelsea vs Sunderland: 1.38, 5.0, 8.0
+2025-10-24 19:23:10,351 [INFO] [ODDS] Odds para Manchester United vs Brighton: 2.0, 3.7, 3.4
+2025-10-24 19:23:10,351 [INFO] coletor: [ODDS] Odds para Manchester United vs Brighton: 2.0, 3.7, 3.4
+2025-10-24 19:23:10,352 [INFO] [ODDS] Odds para Brentford vs Liverpool: 4.0, 4.1, 1.75
+2025-10-24 19:23:10,352 [INFO] coletor: [ODDS] Odds para Brentford vs Liverpool: 4.0, 4.1, 1.75
+2025-10-24 19:23:10,352 [INFO] [ODDS] Odds para Girona vs R. Oviedo: 1.8, 3.5, 5.0
+2025-10-24 19:23:10,352 [INFO] coletor: [ODDS] Odds para Girona vs R. Oviedo: 1.8, 3.5, 5.0
+2025-10-24 19:23:10,352 [INFO] [ODDS] Odds para Espanyol vs Elche: 1.95, 3.4, 4.0
+2025-10-24 19:23:10,352 [INFO] coletor: [ODDS] Odds para Espanyol vs Elche: 1.95, 3.4, 4.0
+2025-10-24 19:23:10,353 [INFO] [ODDS] Odds para Athletic Club vs Getafe: 1.65, 3.4, 6.25
+2025-10-24 19:23:10,353 [INFO] coletor: [ODDS] Odds para Athletic Club vs Getafe: 1.65, 3.4, 6.25
+2025-10-24 19:23:10,353 [INFO] [ODDS] Odds para Valencia vs Villarreal: 3.2, 3.6, 2.2
+2025-10-24 19:23:10,353 [INFO] coletor: [ODDS] Odds para Valencia vs Villarreal: 3.2, 3.6, 2.2
+2025-10-24 19:23:10,354 [INFO] [ODDS] Odds para Hoffenheim vs Heidenheim: 1.55, 4.33, 5.25
+2025-10-24 19:23:10,354 [INFO] coletor: [ODDS] Odds para Hoffenheim vs Heidenheim: 1.55, 4.33, 5.25
+2025-10-24 19:23:10,354 [INFO] [ODDS] Odds para Hamburger vs Wolfsburg: 2.35, 3.5, 2.9
+2025-10-24 19:23:10,354 [INFO] coletor: [ODDS] Odds para Hamburger vs Wolfsburg: 2.35, 3.5, 2.9
+2025-10-24 19:23:10,354 [INFO] [ODDS] Odds para Frankfurt vs St. Pauli: 1.7, 4.2, 4.33
+2025-10-24 19:23:10,354 [INFO] coletor: [ODDS] Odds para Frankfurt vs St. Pauli: 1.7, 4.2, 4.33
+2025-10-24 19:23:10,355 [INFO] [ODDS] Odds para M'Gladbach vs Bayern: 10.0, 6.5, 1.22
+2025-10-24 19:23:10,355 [INFO] coletor: [ODDS] Odds para M'Gladbach vs Bayern: 10.0, 6.5, 1.22
+2025-10-24 19:23:10,355 [INFO] [ODDS] Odds para Augsburg vs RB Leipzig: 3.25, 4.0, 2.0
+2025-10-24 19:23:10,355 [INFO] coletor: [ODDS] Odds para Augsburg vs RB Leipzig: 3.25, 4.0, 2.0
+2025-10-24 19:23:10,356 [INFO] [ODDS] Odds para Dortmund vs FC Köln: 1.4, 5.0, 7.0
+2025-10-24 19:23:10,356 [INFO] coletor: [ODDS] Odds para Dortmund vs FC Köln: 1.4, 5.0, 7.0
+2025-10-24 19:23:10,356 [INFO] [ODDS] Odds para Udinese vs Lecce: 1.8, 3.4, 4.75
+2025-10-24 19:23:10,356 [INFO] coletor: [ODDS] Odds para Udinese vs Lecce: 1.8, 3.4, 4.75
+2025-10-24 19:23:10,356 [INFO] [ODDS] Odds para Parma vs Como: 3.9, 3.5, 1.95
+2025-10-24 19:23:10,356 [INFO] coletor: [ODDS] Odds para Parma vs Como: 3.9, 3.5, 1.95
+2025-10-24 19:23:10,357 [INFO] [ODDS] Odds para Napoli vs Inter: 2.9, 3.2, 2.5
+2025-10-24 19:23:10,357 [INFO] coletor: [ODDS] Odds para Napoli vs Inter: 2.9, 3.2, 2.5
+2025-10-24 19:23:10,357 [INFO] [ODDS] Odds para Cremonese vs Atalanta: 5.5, 4.0, 1.6
+2025-10-24 19:23:10,357 [INFO] coletor: [ODDS] Odds para Cremonese vs Atalanta: 5.5, 4.0, 1.6
+2025-10-24 19:23:10,358 [INFO] [ODDS] Odds para Brest vs PSG: 7.5, 5.5, 1.33
+2025-10-24 19:23:10,358 [INFO] coletor: [ODDS] Odds para Brest vs PSG: 7.5, 5.5, 1.33
+2025-10-24 19:23:10,358 [INFO] [ODDS] Odds para Monaco vs Toulouse: 1.8, 4.1, 3.9
+2025-10-24 19:23:10,358 [INFO] coletor: [ODDS] Odds para Monaco vs Toulouse: 1.8, 4.1, 3.9
+2025-10-24 19:23:10,359 [INFO] [ODDS] Odds para Lens vs Marseille: 2.7, 3.6, 2.45
+2025-10-24 19:23:10,359 [INFO] coletor: [ODDS] Odds para Lens vs Marseille: 2.7, 3.6, 2.45
+2025-10-24 19:23:10,359 [INFO] [ODDS] Odds para Fortuna Sittard vs Groningen: 2.87, 3.25, 2.55
+2025-10-24 19:23:10,359 [INFO] coletor: [ODDS] Odds para Fortuna Sittard vs Groningen: 2.87, 3.25, 2.55
+2025-10-24 19:23:10,359 [INFO] [ODDS] Odds para Sparta Rotterdam vs Telstar: 1.85, 4.0, 3.8
+2025-10-24 19:23:10,359 [INFO] coletor: [ODDS] Odds para Sparta Rotterdam vs Telstar: 1.85, 4.0, 3.8
+2025-10-24 19:23:10,360 [INFO] [ODDS] Odds para FC Volendam vs Heracles Almelo: 2.1, 3.9, 3.1
+2025-10-24 19:23:10,360 [INFO] coletor: [ODDS] Odds para FC Volendam vs Heracles Almelo: 2.1, 3.9, 3.1
+2025-10-24 19:23:10,360 [INFO] [ODDS] Odds para Zwolle vs Nijmegen: 3.3, 3.75, 2.1
+2025-10-24 19:23:10,360 [INFO] coletor: [ODDS] Odds para Zwolle vs Nijmegen: 3.3, 3.75, 2.1
+2025-10-24 19:23:10,361 [INFO] [ODDS] Odds para Santa Clara vs AVS: 1.53, 3.8, 7.0
+2025-10-24 19:23:10,361 [INFO] coletor: [ODDS] Odds para Santa Clara vs AVS: 1.53, 3.8, 7.0
+2025-10-24 19:23:10,361 [INFO] [ODDS] Odds para Benfica vs Arouca: 1.18, 7.0, 13.0
+2025-10-24 19:23:10,361 [INFO] coletor: [ODDS] Odds para Benfica vs Arouca: 1.18, 7.0, 13.0
+2025-10-24 19:23:10,361 [INFO] [ODDS] Odds para Estrela Amadora vs Rio Ave: 2.5, 3.2, 2.87
+2025-10-24 19:23:10,361 [INFO] coletor: [ODDS] Odds para Estrela Amadora vs Rio Ave: 2.5, 3.2, 2.87
+2025-10-24 19:23:10,362 [INFO] [ODDS] Odds para Kocaelispor vs Alanyaspor: 2.55, 3.1, 2.8
+2025-10-24 19:23:10,362 [INFO] coletor: [ODDS] Odds para Kocaelispor vs Alanyaspor: 2.55, 3.1, 2.8
+2025-10-24 19:23:10,362 [INFO] [ODDS] Odds para Trabzonspor vs Eyüpspor: 1.57, 3.9, 5.75
+2025-10-24 19:23:10,362 [INFO] coletor: [ODDS] Odds para Trabzonspor vs Eyüpspor: 1.57, 3.9, 5.75
+2025-10-24 19:23:10,363 [INFO] [ODDS] Odds para Atlético Mineiro vs Ceará: 1.9, 3.4, 4.0
+2025-10-24 19:23:10,363 [INFO] coletor: [ODDS] Odds para Atlético Mineiro vs Ceará: 1.9, 3.4, 4.0
+2025-10-24 19:23:10,363 [INFO] [ODDS] Odds para Vitória vs Corinthians: 2.5, 3.1, 3.0
+2025-10-24 19:23:10,363 [INFO] coletor: [ODDS] Odds para Vitória vs Corinthians: 2.5, 3.1, 3.0
+2025-10-24 19:23:10,364 [INFO] [ODDS] Odds para Fluminense vs Internacional: 1.9, 3.25, 4.33
+2025-10-24 19:23:10,364 [INFO] coletor: [ODDS] Odds para Fluminense vs Internacional: 1.9, 3.25, 4.33
+2025-10-24 19:23:10,364 [INFO] [ODDS] Odds para Sport Recife vs Mirassol: 2.7, 3.3, 2.62
+2025-10-24 19:23:10,364 [INFO] coletor: [ODDS] Odds para Sport Recife vs Mirassol: 2.7, 3.3, 2.62
+2025-10-24 19:23:10,364 [INFO] [ODDS] Odds para Fortaleza vs Flamengo: 5.5, 3.6, 1.66
+2025-10-24 19:23:10,364 [INFO] coletor: [ODDS] Odds para Fortaleza vs Flamengo: 5.5, 3.6, 1.66
+2025-10-24 19:23:10,365 [INFO] [ODDS] Odds para São Paulo vs Bahia: 1.9, 3.4, 4.2
+2025-10-24 19:23:10,365 [INFO] coletor: [ODDS] Odds para São Paulo vs Bahia: 1.9, 3.4, 4.2
+2025-10-24 19:23:10,365 [INFO] [ODDS] Odds para Westerlo vs Dender: 1.7, 3.8, 4.33
+2025-10-24 19:23:10,365 [INFO] coletor: [ODDS] Odds para Westerlo vs Dender: 1.7, 3.8, 4.33
+2025-10-24 19:23:10,366 [INFO] [ODDS] Odds para Mechelen vs OH Leuven: 2.15, 3.4, 3.1
+2025-10-24 19:23:10,366 [INFO] coletor: [ODDS] Odds para Mechelen vs OH Leuven: 2.15, 3.4, 3.1
+2025-10-24 19:23:10,366 [INFO] [ODDS] Odds para Gent vs St. Liège: 1.9, 3.6, 3.8
+2025-10-24 19:23:10,366 [INFO] coletor: [ODDS] Odds para Gent vs St. Liège: 1.9, 3.6, 3.8
+2025-10-24 19:23:10,366 [INFO] [ODDS] Odds para Dundee United vs St. Mirren: 2.3, 3.5, 2.9
+2025-10-24 19:23:10,366 [INFO] coletor: [ODDS] Odds para Dundee United vs St. Mirren: 2.3, 3.5, 2.9
+2025-10-24 19:23:10,367 [INFO] [ODDS] Odds para Falkirk vs Dundee: 1.66, 3.9, 4.75
+2025-10-24 19:23:10,367 [INFO] coletor: [ODDS] Odds para Falkirk vs Dundee: 1.66, 3.9, 4.75
+2025-10-24 19:23:10,367 [INFO] [ODDS] Odds para Livingston vs Motherwell: 3.3, 3.5, 2.05
+2025-10-24 19:23:10,367 [INFO] coletor: [ODDS] Odds para Livingston vs Motherwell: 3.3, 3.5, 2.05
+2025-10-24 19:23:10,368 [WARNING] [ODDS] Odds não encontradas para Falkirk vs Dundee. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,368 [WARNING] coletor: [ODDS] Odds não encontradas para Falkirk vs Dundee. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,368 [WARNING] [ODDS] Odds não encontradas para Dundee United vs St. Mirren. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,368 [WARNING] coletor: [ODDS] Odds não encontradas para Dundee United vs St. Mirren. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,368 [WARNING] [ODDS] Odds não encontradas para Hearts vs Celtic. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,368 [WARNING] coletor: [ODDS] Odds não encontradas para Hearts vs Celtic. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,369 [WARNING] [ODDS] Odds não encontradas para Aberdeen vs Hibernian. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,369 [WARNING] coletor: [ODDS] Odds não encontradas para Aberdeen vs Hibernian. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,369 [WARNING] [ODDS] Odds não encontradas para Livingston vs Motherwell. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,369 [WARNING] coletor: [ODDS] Odds não encontradas para Livingston vs Motherwell. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,370 [WARNING] [ODDS] Odds não encontradas para Rangers vs Kilmarnock. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,370 [WARNING] coletor: [ODDS] Odds não encontradas para Rangers vs Kilmarnock. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,370 [INFO] [ODDS] Odds para Coventry vs Watford: 1.48, 4.75, 6.0
+2025-10-24 19:23:10,370 [INFO] coletor: [ODDS] Odds para Coventry vs Watford: 1.48, 4.75, 6.0
+2025-10-24 19:23:10,371 [INFO] [ODDS] Odds para Ipswich vs West Brom: 1.75, 3.6, 4.5
+2025-10-24 19:23:10,371 [INFO] coletor: [ODDS] Odds para Ipswich vs West Brom: 1.75, 3.6, 4.5
+2025-10-24 19:23:10,371 [INFO] [ODDS] Odds para Portsmouth vs Stoke: 2.8, 3.1, 2.62
+2025-10-24 19:23:10,371 [INFO] coletor: [ODDS] Odds para Portsmouth vs Stoke: 2.8, 3.1, 2.62
+2025-10-24 19:23:10,371 [INFO] [ODDS] Odds para Blackburn vs Southampton: 3.0, 3.25, 2.35
+2025-10-24 19:23:10,371 [INFO] coletor: [ODDS] Odds para Blackburn vs Southampton: 3.0, 3.25, 2.35
+2025-10-24 19:23:10,372 [INFO] [ODDS] Odds para Bristol City vs Birmingham: 2.15, 3.3, 3.4
+2025-10-24 19:23:10,372 [INFO] coletor: [ODDS] Odds para Bristol City vs Birmingham: 2.15, 3.3, 3.4
+2025-10-24 19:23:10,372 [INFO] [ODDS] Odds para Swansea vs Norwich: 2.25, 3.25, 3.2
+2025-10-24 19:23:10,372 [INFO] coletor: [ODDS] Odds para Swansea vs Norwich: 2.25, 3.25, 3.2
+2025-10-24 19:23:10,373 [INFO] [ODDS] Odds para Hull vs Charlton: 2.45, 3.3, 2.8
+2025-10-24 19:23:10,373 [INFO] coletor: [ODDS] Odds para Hull vs Charlton: 2.45, 3.3, 2.8
+2025-10-24 19:23:10,373 [INFO] [ODDS] Odds para Middlesbrough vs Wrexham: 1.72, 3.6, 4.75
+2025-10-24 19:23:10,373 [INFO] coletor: [ODDS] Odds para Middlesbrough vs Wrexham: 1.72, 3.6, 4.75
+2025-10-24 19:23:10,373 [INFO] [ODDS] Odds para Millwall vs Leicester: 2.55, 3.2, 2.8
+2025-10-24 19:23:10,373 [INFO] coletor: [ODDS] Odds para Millwall vs Leicester: 2.55, 3.2, 2.8
+2025-10-24 19:23:10,374 [INFO] [ODDS] Odds para Derby vs QPR: 2.7, 3.25, 2.62
+2025-10-24 19:23:10,374 [INFO] coletor: [ODDS] Odds para Derby vs QPR: 2.7, 3.25, 2.62
+2025-10-24 19:23:10,374 [INFO] [ODDS] Odds para Sheffield Wed vs Oxford Utd: 2.75, 3.25, 2.55
+2025-10-24 19:23:10,374 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Oxford Utd: 2.75, 3.25, 2.55
+2025-10-24 19:23:10,375 [INFO] [ODDS] Odds para Bolton vs Cardiff: 1.9, 3.6, 3.6
+2025-10-24 19:23:10,375 [INFO] coletor: [ODDS] Odds para Bolton vs Cardiff: 1.9, 3.6, 3.6
+2025-10-24 19:23:10,375 [INFO] [ODDS] Odds para Mansfield vs Wigan: 2.45, 3.1, 2.87
+2025-10-24 19:23:10,375 [INFO] coletor: [ODDS] Odds para Mansfield vs Wigan: 2.45, 3.1, 2.87
+2025-10-24 19:23:10,375 [INFO] [ODDS] Odds para Northampton vs Luton: 4.2, 3.2, 1.9
+2025-10-24 19:23:10,375 [INFO] coletor: [ODDS] Odds para Northampton vs Luton: 4.2, 3.2, 1.9
+2025-10-24 19:23:10,376 [INFO] [ODDS] Odds para Peterborough vs Blackpool: 2.37, 3.5, 2.8
+2025-10-24 19:23:10,376 [INFO] coletor: [ODDS] Odds para Peterborough vs Blackpool: 2.37, 3.5, 2.8
+2025-10-24 19:23:10,376 [INFO] [ODDS] Odds para Barnsley vs Rotherham: 1.85, 3.6, 3.9
+2025-10-24 19:23:10,376 [INFO] coletor: [ODDS] Odds para Barnsley vs Rotherham: 1.85, 3.6, 3.9
+2025-10-24 19:23:10,377 [INFO] [ODDS] Odds para Reading vs Doncaster: 2.2, 3.25, 3.2
+2025-10-24 19:23:10,377 [INFO] coletor: [ODDS] Odds para Reading vs Doncaster: 2.2, 3.25, 3.2
+2025-10-24 19:23:10,377 [INFO] [ODDS] Odds para Stevenage vs Bradford City: 2.37, 3.25, 2.9
+2025-10-24 19:23:10,377 [INFO] coletor: [ODDS] Odds para Stevenage vs Bradford City: 2.37, 3.25, 2.9
+2025-10-24 19:23:10,377 [INFO] [ODDS] Odds para Wycombe vs Huddersfield: 2.05, 3.4, 3.4
+2025-10-24 19:23:10,377 [INFO] coletor: [ODDS] Odds para Wycombe vs Huddersfield: 2.05, 3.4, 3.4
+2025-10-24 19:23:10,378 [INFO] [ODDS] Odds para Wimbledon vs Burton: 1.9, 3.5, 4.0
+2025-10-24 19:23:10,378 [INFO] coletor: [ODDS] Odds para Wimbledon vs Burton: 1.9, 3.5, 4.0
+2025-10-24 19:23:10,378 [INFO] [ODDS] Odds para Leyton Orient vs Lincoln: 2.55, 3.25, 2.7
+2025-10-24 19:23:10,378 [INFO] coletor: [ODDS] Odds para Leyton Orient vs Lincoln: 2.55, 3.25, 2.7
+2025-10-24 19:23:10,379 [WARNING] [ODDS] Odds não encontradas para Port Vale vs Stockport County. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,379 [WARNING] coletor: [ODDS] Odds não encontradas para Port Vale vs Stockport County. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,379 [INFO] [ODDS] Odds para Fleetwood vs Accrington: 2.0, 3.5, 3.5
+2025-10-24 19:23:10,379 [INFO] coletor: [ODDS] Odds para Fleetwood vs Accrington: 2.0, 3.5, 3.5
+2025-10-24 19:23:10,379 [INFO] [ODDS] Odds para Cheltenham vs Walsall: 4.0, 3.6, 1.83
+2025-10-24 19:23:10,379 [INFO] coletor: [ODDS] Odds para Cheltenham vs Walsall: 4.0, 3.6, 1.83
+2025-10-24 19:23:10,380 [INFO] [ODDS] Odds para Crawley vs Bristol Rovers: 2.35, 3.25, 2.9
+2025-10-24 19:23:10,380 [INFO] coletor: [ODDS] Odds para Crawley vs Bristol Rovers: 2.35, 3.25, 2.9
+2025-10-24 19:23:10,380 [INFO] [ODDS] Odds para Gillingham vs Salford: 2.55, 3.1, 2.75
+2025-10-24 19:23:10,380 [INFO] coletor: [ODDS] Odds para Gillingham vs Salford: 2.55, 3.1, 2.75
+2025-10-24 19:23:10,381 [INFO] [ODDS] Odds para Oldham vs Shrewsbury: 1.9, 3.4, 4.0
+2025-10-24 19:23:10,381 [INFO] coletor: [ODDS] Odds para Oldham vs Shrewsbury: 1.9, 3.4, 4.0
+2025-10-24 19:23:10,381 [INFO] [ODDS] Odds para Tranmere vs Chesterfield: 3.0, 3.25, 2.3
+2025-10-24 19:23:10,381 [INFO] coletor: [ODDS] Odds para Tranmere vs Chesterfield: 3.0, 3.25, 2.3
+2025-10-24 19:23:10,382 [INFO] [ODDS] Odds para Barrow vs Barnet: 3.75, 3.5, 1.95
+2025-10-24 19:23:10,382 [INFO] coletor: [ODDS] Odds para Barrow vs Barnet: 3.75, 3.5, 1.95
+2025-10-24 19:23:10,382 [INFO] [ODDS] Odds para Bromley vs MK Dons: 2.6, 3.25, 2.62
+2025-10-24 19:23:10,382 [INFO] coletor: [ODDS] Odds para Bromley vs MK Dons: 2.6, 3.25, 2.62
+2025-10-24 19:23:10,382 [INFO] [ODDS] Odds para Crewe vs Grimsby Town: 2.7, 3.25, 2.55
+2025-10-24 19:23:10,382 [INFO] coletor: [ODDS] Odds para Crewe vs Grimsby Town: 2.7, 3.25, 2.55
+2025-10-24 19:23:10,383 [INFO] [ODDS] Odds para Harrogate vs Newport: 1.95, 3.4, 3.7
+2025-10-24 19:23:10,383 [INFO] coletor: [ODDS] Odds para Harrogate vs Newport: 1.95, 3.4, 3.7
+2025-10-24 19:23:10,383 [INFO] [ODDS] Odds para Notts County vs Cambridge: 2.37, 3.25, 2.9
+2025-10-24 19:23:10,383 [INFO] coletor: [ODDS] Odds para Notts County vs Cambridge: 2.37, 3.25, 2.9
+2025-10-24 19:23:10,384 [INFO] [ODDS] Odds para Swindon vs Colchester: 2.15, 3.4, 3.2
+2025-10-24 19:23:10,384 [INFO] coletor: [ODDS] Odds para Swindon vs Colchester: 2.15, 3.4, 3.2
+2025-10-24 19:23:10,384 [INFO] [ODDS] Odds para Cultural Leonesa vs Ceuta: 2.37, 3.1, 3.1
+2025-10-24 19:23:10,384 [INFO] coletor: [ODDS] Odds para Cultural Leonesa vs Ceuta: 2.37, 3.1, 3.1
+2025-10-24 19:23:10,384 [INFO] [ODDS] Odds para Eibar vs Leganés: 2.2, 3.1, 3.3
+2025-10-24 19:23:10,384 [INFO] coletor: [ODDS] Odds para Eibar vs Leganés: 2.2, 3.1, 3.3
+2025-10-24 19:23:10,385 [INFO] [ODDS] Odds para Albacete vs Córdoba: 2.3, 3.2, 3.1
+2025-10-24 19:23:10,385 [INFO] coletor: [ODDS] Odds para Albacete vs Córdoba: 2.3, 3.2, 3.1
+2025-10-24 19:23:10,385 [INFO] [ODDS] Odds para Granada vs Cádiz: 2.3, 3.1, 3.3
+2025-10-24 19:23:10,385 [INFO] coletor: [ODDS] Odds para Granada vs Cádiz: 2.3, 3.1, 3.3
+2025-10-24 19:23:10,386 [INFO] [ODDS] Odds para Burgos vs R. Sociedad II: 1.7, 3.4, 5.75
+2025-10-24 19:23:10,386 [INFO] coletor: [ODDS] Odds para Burgos vs R. Sociedad II: 1.7, 3.4, 5.75
+2025-10-24 19:23:10,386 [INFO] [ODDS] Odds para Mirandés vs Racing Santander: 3.4, 3.7, 2.05
+2025-10-24 19:23:10,386 [INFO] coletor: [ODDS] Odds para Mirandés vs Racing Santander: 3.4, 3.7, 2.05
+2025-10-24 19:23:10,386 [INFO] [ODDS] Odds para Südtirol vs Cesena: 2.87, 3.1, 2.55
+2025-10-24 19:23:10,386 [INFO] coletor: [ODDS] Odds para Südtirol vs Cesena: 2.87, 3.1, 2.55
+2025-10-24 19:23:10,387 [INFO] [ODDS] Odds para Virtus Entella vs Pescara: 1.83, 3.5, 4.33
+2025-10-24 19:23:10,387 [INFO] coletor: [ODDS] Odds para Virtus Entella vs Pescara: 1.83, 3.5, 4.33
+2025-10-24 19:23:10,387 [INFO] [ODDS] Odds para Monza vs Reggiana: 1.53, 3.75, 7.0
+2025-10-24 19:23:10,387 [INFO] coletor: [ODDS] Odds para Monza vs Reggiana: 1.53, 3.75, 7.0
+2025-10-24 19:23:10,388 [INFO] [ODDS] Odds para Avellino vs Spezia: 2.7, 3.0, 2.7
+2025-10-24 19:23:10,388 [INFO] coletor: [ODDS] Odds para Avellino vs Spezia: 2.7, 3.0, 2.7
+2025-10-24 19:23:10,388 [INFO] [ODDS] Odds para Sampdoria vs Frosinone: 2.3, 3.1, 3.3
+2025-10-24 19:23:10,388 [INFO] coletor: [ODDS] Odds para Sampdoria vs Frosinone: 2.3, 3.1, 3.3
+2025-10-24 19:23:10,388 [INFO] [ODDS] Odds para Carrarese vs Venezia: 3.0, 3.2, 2.4
+2025-10-24 19:23:10,388 [INFO] coletor: [ODDS] Odds para Carrarese vs Venezia: 3.0, 3.2, 2.4
+2025-10-24 19:23:10,389 [INFO] [ODDS] Odds para Catanzaro vs Palermo: 3.5, 3.2, 2.15
+2025-10-24 19:23:10,389 [INFO] coletor: [ODDS] Odds para Catanzaro vs Palermo: 3.5, 3.2, 2.15
+2025-10-24 19:23:10,389 [INFO] [ODDS] Odds para Dynamo Dresden vs Paderborn: 3.1, 3.8, 2.1
+2025-10-24 19:23:10,389 [INFO] coletor: [ODDS] Odds para Dynamo Dresden vs Paderborn: 3.1, 3.8, 2.1
+2025-10-24 19:23:10,390 [INFO] [ODDS] Odds para Bielefeld vs Elversberg: 2.9, 3.7, 2.25
+2025-10-24 19:23:10,390 [INFO] coletor: [ODDS] Odds para Bielefeld vs Elversberg: 2.9, 3.7, 2.25
+2025-10-24 19:23:10,390 [INFO] [ODDS] Odds para Kiel vs Bochum: 1.9, 4.1, 3.4
+2025-10-24 19:23:10,390 [INFO] coletor: [ODDS] Odds para Kiel vs Bochum: 1.9, 4.1, 3.4
+2025-10-24 19:23:10,390 [INFO] [ODDS] Odds para Hertha vs Düsseldorf: 1.9, 3.8, 3.6
+2025-10-24 19:23:10,390 [INFO] coletor: [ODDS] Odds para Hertha vs Düsseldorf: 1.9, 3.8, 3.6
+2025-10-24 19:23:10,391 [INFO] [ODDS] Odds para Amiens vs Rodez: 3.0, 3.25, 2.37
+2025-10-24 19:23:10,391 [INFO] coletor: [ODDS] Odds para Amiens vs Rodez: 3.0, 3.25, 2.37
+2025-10-24 19:23:10,391 [INFO] [ODDS] Odds para Montpellier vs Nancy: 2.0, 3.3, 3.5
+2025-10-24 19:23:10,391 [INFO] coletor: [ODDS] Odds para Montpellier vs Nancy: 2.0, 3.3, 3.5
+2025-10-24 19:23:10,392 [INFO] [ODDS] Odds para Annecy vs Saint-Étienne: 4.1, 3.75, 1.8
+2025-10-24 19:23:10,392 [INFO] coletor: [ODDS] Odds para Annecy vs Saint-Étienne: 4.1, 3.75, 1.8
+2025-10-24 19:23:10,392 [INFO] [ODDS] Odds para Den Haag vs Den Bosch: 1.2, 7.5, 10.0
+2025-10-24 19:23:10,392 [INFO] coletor: [ODDS] Odds para Den Haag vs Den Bosch: 1.2, 7.5, 10.0
+2025-10-24 19:23:10,393 [INFO] [ODDS] Odds para LASK Linz vs Grazer: 1.57, 3.75, 6.25
+2025-10-24 19:23:10,393 [INFO] coletor: [ODDS] Odds para LASK Linz vs Grazer: 1.57, 3.75, 6.25
+2025-10-24 19:23:10,393 [INFO] [ODDS] Odds para Altach vs Hartberg: 1.95, 3.3, 3.8
+2025-10-24 19:23:10,393 [INFO] coletor: [ODDS] Odds para Altach vs Hartberg: 1.95, 3.3, 3.8
+2025-10-24 19:23:10,393 [INFO] [ODDS] Odds para WSG Tirol vs BW Linz: 2.6, 3.25, 2.7
+2025-10-24 19:23:10,393 [INFO] coletor: [ODDS] Odds para WSG Tirol vs BW Linz: 2.6, 3.25, 2.7
+2025-10-24 19:23:10,394 [INFO] [ODDS] Odds para St. Gallen vs Grasshopper: 1.75, 3.7, 4.5
+2025-10-24 19:23:10,394 [INFO] coletor: [ODDS] Odds para St. Gallen vs Grasshopper: 1.75, 3.7, 4.5
+2025-10-24 19:23:10,394 [INFO] [ODDS] Odds para Sion vs Thun: 2.3, 3.3, 3.1
+2025-10-24 19:23:10,394 [INFO] coletor: [ODDS] Odds para Sion vs Thun: 2.3, 3.3, 3.1
+2025-10-24 19:23:10,395 [INFO] [ODDS] Odds para Winterthur vs Luzern: 3.1, 3.75, 2.1
+2025-10-24 19:23:10,395 [INFO] coletor: [ODDS] Odds para Winterthur vs Luzern: 3.1, 3.75, 2.1
+2025-10-24 19:23:10,395 [INFO] [ODDS] Odds para Viking vs Bryne: 1.28, 5.75, 9.0
+2025-10-24 19:23:10,395 [INFO] coletor: [ODDS] Odds para Viking vs Bryne: 1.28, 5.75, 9.0
+2025-10-24 19:23:10,395 [INFO] [ODDS] Odds para Sarpsborg 08 vs KFUM: 3.0, 3.4, 2.3
+2025-10-24 19:23:10,395 [INFO] coletor: [ODDS] Odds para Sarpsborg 08 vs KFUM: 3.0, 3.4, 2.3
+2025-10-24 19:23:10,396 [INFO] [ODDS] Odds para Djurgården vs Värnamo: 1.27, 5.75, 10.0
+2025-10-24 19:23:10,396 [INFO] coletor: [ODDS] Odds para Djurgården vs Värnamo: 1.27, 5.75, 10.0
+2025-10-24 19:23:10,396 [INFO] [ODDS] Odds para Öster vs Degerfors: 2.4, 3.4, 2.8
+2025-10-24 19:23:10,396 [INFO] coletor: [ODDS] Odds para Öster vs Degerfors: 2.4, 3.4, 2.8
+2025-10-24 19:23:10,397 [INFO] [ODDS] Odds para Gnistan vs Ilves: 4.75, 4.5, 1.48
+2025-10-24 19:23:10,397 [INFO] coletor: [ODDS] Odds para Gnistan vs Ilves: 4.75, 4.5, 1.48
+2025-10-24 19:23:10,397 [INFO] [ODDS] Odds para Mazatlán vs América: 5.5, 4.1, 1.6
+2025-10-24 19:23:10,397 [INFO] coletor: [ODDS] Odds para Mazatlán vs América: 5.5, 4.1, 1.6
+2025-10-24 19:23:10,397 [INFO] [ODDS] Odds para Tigres UANL vs Tijuana: 1.5, 4.5, 6.0
+2025-10-24 19:23:10,397 [INFO] coletor: [ODDS] Odds para Tigres UANL vs Tijuana: 1.5, 4.5, 6.0
+2025-10-24 19:23:10,398 [INFO] [ODDS] Odds para León vs Pumas UNAM: 2.6, 3.4, 2.62
+2025-10-24 19:23:10,398 [INFO] coletor: [ODDS] Odds para León vs Pumas UNAM: 2.6, 3.4, 2.62
+2025-10-24 19:23:10,398 [INFO] [ODDS] Odds para Guadalajara vs Atlas: 1.55, 4.5, 5.25
+2025-10-24 19:23:10,398 [INFO] coletor: [ODDS] Odds para Guadalajara vs Atlas: 1.55, 4.5, 5.25
+2025-10-24 19:23:10,399 [INFO] [ODDS] Odds para Kifisia vs Panaitolikos: 1.8, 3.4, 4.5
+2025-10-24 19:23:10,399 [INFO] coletor: [ODDS] Odds para Kifisia vs Panaitolikos: 1.8, 3.4, 4.5
+2025-10-24 19:23:10,399 [INFO] [ODDS] Odds para Panserraikos vs Larissa: 2.4, 3.1, 3.2
+2025-10-24 19:23:10,399 [INFO] coletor: [ODDS] Odds para Panserraikos vs Larissa: 2.4, 3.1, 3.2
+2025-10-24 19:23:10,399 [INFO] [ODDS] Odds para OFI vs Atromitos: 2.05, 3.3, 3.75
+2025-10-24 19:23:10,399 [INFO] coletor: [ODDS] Odds para OFI vs Atromitos: 2.05, 3.3, 3.75
+2025-10-24 19:23:10,400 [INFO] [ODDS] Odds para Tianjin Jinmen Tiger vs Changchun Yatai: 1.75, 3.6, 4.75
+2025-10-24 19:23:10,400 [INFO] coletor: [ODDS] Odds para Tianjin Jinmen Tiger vs Changchun Yatai: 1.75, 3.6, 4.75
+2025-10-24 19:23:10,400 [INFO] [ODDS] Odds para Henan Songshan Longmen vs Zhejiang: 1.85, 4.0, 3.6
+2025-10-24 19:23:10,400 [INFO] coletor: [ODDS] Odds para Henan Songshan Longmen vs Zhejiang: 1.85, 4.0, 3.6
+2025-10-24 19:23:10,401 [INFO] [ODDS] Odds para Teuta Durrës vs Flamurtari: 2.2, 3.0, 3.0
+2025-10-24 19:23:10,401 [INFO] coletor: [ODDS] Odds para Teuta Durrës vs Flamurtari: 2.2, 3.0, 3.0
+2025-10-24 19:23:10,401 [INFO] [ODDS] Odds para Partizani Tirana vs Egnatia Rrogozhinë: 2.62, 2.75, 2.7
+2025-10-24 19:23:10,401 [INFO] coletor: [ODDS] Odds para Partizani Tirana vs Egnatia Rrogozhinë: 2.62, 2.75, 2.7
+2025-10-24 19:23:10,402 [INFO] [ODDS] Odds para Energie Cottbus vs Havelse: 1.33, 5.75, 7.0
+2025-10-24 19:23:10,402 [INFO] coletor: [ODDS] Odds para Energie Cottbus vs Havelse: 1.33, 5.75, 7.0
+2025-10-24 19:23:10,402 [INFO] [ODDS] Odds para Ingolstadt vs Saarbrücken: 2.25, 3.8, 2.75
+2025-10-24 19:23:10,402 [INFO] coletor: [ODDS] Odds para Ingolstadt vs Saarbrücken: 2.25, 3.8, 2.75
+2025-10-24 19:23:10,402 [INFO] [ODDS] Odds para Regensburg vs Stuttgart II: 2.3, 3.6, 2.8
+2025-10-24 19:23:10,402 [INFO] coletor: [ODDS] Odds para Regensburg vs Stuttgart II: 2.3, 3.6, 2.8
+2025-10-24 19:23:10,403 [INFO] [ODDS] Odds para Verl vs Ulm: 1.9, 3.9, 3.5
+2025-10-24 19:23:10,403 [INFO] coletor: [ODDS] Odds para Verl vs Ulm: 1.9, 3.9, 3.5
+2025-10-24 19:23:10,403 [INFO] [ODDS] Odds para Waldhof Mannheim vs 1860 München: 2.4, 3.5, 2.75
+2025-10-24 19:23:10,403 [INFO] coletor: [ODDS] Odds para Waldhof Mannheim vs 1860 München: 2.4, 3.5, 2.75
+2025-10-24 19:23:10,404 [INFO] [ODDS] Odds para Schweinfurt vs Osnabrück: 4.5, 3.9, 1.7
+2025-10-24 19:23:10,404 [INFO] coletor: [ODDS] Odds para Schweinfurt vs Osnabrück: 4.5, 3.9, 1.7
+2025-10-24 19:23:10,404 [INFO] [ODDS] Odds para Al Quadisiya vs Al Akhdoud: 1.33, 5.25, 8.0
+2025-10-24 19:23:10,404 [INFO] coletor: [ODDS] Odds para Al Quadisiya vs Al Akhdoud: 1.33, 5.25, 8.0
+2025-10-24 19:23:10,404 [INFO] [ODDS] Odds para Al Shabab vs Damac: 1.55, 4.33, 5.0
+2025-10-24 19:23:10,404 [INFO] coletor: [ODDS] Odds para Al Shabab vs Damac: 1.55, 4.33, 5.0
+2025-10-24 19:23:10,405 [INFO] [ODDS] Odds para Al Hazm vs Al Nassr: 9.0, 7.0, 1.2
+2025-10-24 19:23:10,405 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Nassr: 9.0, 7.0, 1.2
+2025-10-24 19:23:10,405 [INFO] [ODDS] Odds para El Bayadh vs MC Oran: 2.4, 2.55, 3.2
+2025-10-24 19:23:10,405 [INFO] coletor: [ODDS] Odds para El Bayadh vs MC Oran: 2.4, 2.55, 3.2
+2025-10-24 19:23:10,406 [INFO] [ODDS] Odds para CS Constantine vs Oued Akbou: 1.8, 3.0, 4.5
+2025-10-24 19:23:10,406 [INFO] coletor: [ODDS] Odds para CS Constantine vs Oued Akbou: 1.8, 3.0, 4.5
+2025-10-24 19:23:10,406 [INFO] [ODDS] Odds para Pyunik vs Gandzasar: 1.22, 5.75, 9.0
+2025-10-24 19:23:10,406 [INFO] coletor: [ODDS] Odds para Pyunik vs Gandzasar: 1.22, 5.75, 9.0
+2025-10-24 19:23:10,407 [INFO] [ODDS] Odds para Ararat-Armenia vs BKMA: 1.28, 4.75, 7.5
+2025-10-24 19:23:10,407 [INFO] coletor: [ODDS] Odds para Ararat-Armenia vs BKMA: 1.28, 4.75, 7.5
+2025-10-24 19:23:10,407 [INFO] [ODDS] Odds para Auckland vs Western Sydney Wanderers: 1.8, 4.0, 4.0
+2025-10-24 19:23:10,407 [INFO] coletor: [ODDS] Odds para Auckland vs Western Sydney Wanderers: 1.8, 4.0, 4.0
+2025-10-24 19:23:10,407 [INFO] [ODDS] Odds para Melbourne City vs Perth Glory: 1.48, 5.0, 5.5
+2025-10-24 19:23:10,407 [INFO] coletor: [ODDS] Odds para Melbourne City vs Perth Glory: 1.48, 5.0, 5.5
+2025-10-24 19:23:10,408 [INFO] [ODDS] Odds para Sydney vs Central Coast Mariners: 1.55, 4.33, 5.5
+2025-10-24 19:23:10,408 [INFO] coletor: [ODDS] Odds para Sydney vs Central Coast Mariners: 1.55, 4.33, 5.5
+2025-10-24 19:23:10,408 [INFO] [ODDS] Odds para Wellington Phoenix vs Brisbane Roar: 2.87, 3.5, 2.4
+2025-10-24 19:23:10,408 [INFO] coletor: [ODDS] Odds para Wellington Phoenix vs Brisbane Roar: 2.87, 3.5, 2.4
+2025-10-24 19:23:10,409 [INFO] [ODDS] Odds para Club Brugge II vs Olympic Charleroi: 1.66, 3.8, 4.2
+2025-10-24 19:23:10,409 [INFO] coletor: [ODDS] Odds para Club Brugge II vs Olympic Charleroi: 1.66, 3.8, 4.2
+2025-10-24 19:23:10,409 [INFO] [ODDS] Odds para Waasland-Beveren vs Patro Eisden: 1.75, 3.5, 4.2
+2025-10-24 19:23:10,409 [INFO] coletor: [ODDS] Odds para Waasland-Beveren vs Patro Eisden: 1.75, 3.5, 4.2
+2025-10-24 19:23:10,409 [INFO] [ODDS] Odds para Eupen vs KRC Genk II: 1.53, 4.1, 5.0
+2025-10-24 19:23:10,409 [INFO] coletor: [ODDS] Odds para Eupen vs KRC Genk II: 1.53, 4.1, 5.0
+2025-10-24 19:23:10,410 [INFO] [ODDS] Odds para Liège vs RWDM: 2.62, 3.3, 2.45
+2025-10-24 19:23:10,410 [INFO] coletor: [ODDS] Odds para Liège vs RWDM: 2.62, 3.3, 2.45
+2025-10-24 19:23:10,410 [INFO] [ODDS] Odds para Volta Redonda vs Coritiba: 3.0, 3.0, 2.5
+2025-10-24 19:23:10,410 [INFO] coletor: [ODDS] Odds para Volta Redonda vs Coritiba: 3.0, 3.0, 2.5
+2025-10-24 19:23:10,411 [INFO] [ODDS] Odds para Athletic Club vs América Mineiro: 2.7, 3.1, 2.7
+2025-10-24 19:23:10,411 [INFO] coletor: [ODDS] Odds para Athletic Club vs América Mineiro: 2.7, 3.1, 2.7
+2025-10-24 19:23:10,411 [INFO] [ODDS] Odds para Paysandu vs Avaí: 2.5, 3.2, 2.8
+2025-10-24 19:23:10,411 [INFO] coletor: [ODDS] Odds para Paysandu vs Avaí: 2.5, 3.2, 2.8
+2025-10-24 19:23:10,411 [INFO] [ODDS] Odds para Criciúma vs Goiás: 1.95, 3.2, 4.1
+2025-10-24 19:23:10,411 [INFO] coletor: [ODDS] Odds para Criciúma vs Goiás: 1.95, 3.2, 4.1
+2025-10-24 19:23:10,412 [INFO] [ODDS] Odds para Ponte Preta vs Londrina: 1.9, 3.1, 3.75
+2025-10-24 19:23:10,412 [INFO] coletor: [ODDS] Odds para Ponte Preta vs Londrina: 1.9, 3.1, 3.75
+2025-10-24 19:23:10,412 [INFO] [ODDS] Odds para La Serena vs Audax Italiano: 2.8, 3.2, 2.5
+2025-10-24 19:23:10,412 [INFO] coletor: [ODDS] Odds para La Serena vs Audax Italiano: 2.8, 3.2, 2.5
+2025-10-24 19:23:10,413 [INFO] [ODDS] Odds para Huachipato vs Deportes Iquique: 1.9, 3.6, 3.75
+2025-10-24 19:23:10,413 [INFO] coletor: [ODDS] Odds para Huachipato vs Deportes Iquique: 1.9, 3.6, 3.75
+2025-10-24 19:23:10,413 [INFO] [ODDS] Odds para Envigado vs Boyacá Chicó: 2.1, 3.0, 3.9
+2025-10-24 19:23:10,413 [INFO] coletor: [ODDS] Odds para Envigado vs Boyacá Chicó: 2.1, 3.0, 3.9
+2025-10-24 19:23:10,414 [INFO] [ODDS] Odds para Deportes Tolima vs Deportivo Cali: 1.8, 3.6, 4.2
+2025-10-24 19:23:10,414 [INFO] coletor: [ODDS] Odds para Deportes Tolima vs Deportivo Cali: 1.8, 3.6, 4.2
+2025-10-24 19:23:10,414 [INFO] [ODDS] Odds para Atlético Bucaramanga vs Llaneros: 1.48, 4.1, 7.0
+2025-10-24 19:23:10,414 [INFO] coletor: [ODDS] Odds para Atlético Bucaramanga vs Llaneros: 1.48, 4.1, 7.0
+2025-10-24 19:23:10,414 [WARNING] [ODDS] Odds não encontradas para Alianza Petrolera vs La Equidad. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,414 [WARNING] coletor: [ODDS] Odds não encontradas para Alianza Petrolera vs La Equidad. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,415 [INFO] [ODDS] Odds para Santa Fe vs Millonarios: 2.45, 3.25, 2.87
+2025-10-24 19:23:10,415 [INFO] coletor: [ODDS] Odds para Santa Fe vs Millonarios: 2.45, 3.25, 2.87
+2025-10-24 19:23:10,415 [INFO] [ODDS] Odds para Once Caldas vs Unión Magdalena: 1.45, 4.33, 7.0
+2025-10-24 19:23:10,415 [INFO] coletor: [ODDS] Odds para Once Caldas vs Unión Magdalena: 1.45, 4.33, 7.0
+2025-10-24 19:23:10,416 [INFO] [ODDS] Odds para Jeonbuk Motors vs Sangju Sangmu: 2.15, 3.6, 3.0
+2025-10-24 19:23:10,416 [INFO] coletor: [ODDS] Odds para Jeonbuk Motors vs Sangju Sangmu: 2.15, 3.6, 3.0
+2025-10-24 19:23:10,416 [INFO] [ODDS] Odds para Gwangju vs Anyang: 2.0, 3.1, 3.75
+2025-10-24 19:23:10,416 [INFO] coletor: [ODDS] Odds para Gwangju vs Anyang: 2.0, 3.1, 3.75
+2025-10-24 19:23:10,416 [INFO] [ODDS] Odds para Suwon vs Jeju United: 1.9, 3.5, 3.5
+2025-10-24 19:23:10,416 [INFO] coletor: [ODDS] Odds para Suwon vs Jeju United: 1.9, 3.5, 3.5
+2025-10-24 19:23:10,417 [INFO] [ODDS] Odds para Seongnam vs Hwaseong: 1.72, 3.6, 4.75
+2025-10-24 19:23:10,417 [INFO] coletor: [ODDS] Odds para Seongnam vs Hwaseong: 1.72, 3.6, 4.75
+2025-10-24 19:23:10,417 [INFO] [ODDS] Odds para Suwon Bluewings vs Jeonnam Dragons: 1.8, 4.0, 3.8
+2025-10-24 19:23:10,417 [INFO] coletor: [ODDS] Odds para Suwon Bluewings vs Jeonnam Dragons: 1.8, 4.0, 3.8
+2025-10-24 19:23:10,418 [INFO] [ODDS] Odds para Busan I'Park vs Gimpo: 1.95, 3.4, 4.0
+2025-10-24 19:23:10,418 [INFO] coletor: [ODDS] Odds para Busan I'Park vs Gimpo: 1.95, 3.4, 4.0
+2025-10-24 19:23:10,418 [INFO] [ODDS] Odds para Cheonan City vs Ansan Greeners: 2.2, 3.4, 3.3
+2025-10-24 19:23:10,418 [INFO] coletor: [ODDS] Odds para Cheonan City vs Ansan Greeners: 2.2, 3.4, 3.3
+2025-10-24 19:23:10,419 [INFO] [ODDS] Odds para Cheongju vs Bucheon 1995: 4.2, 3.7, 1.8
+2025-10-24 19:23:10,419 [INFO] coletor: [ODDS] Odds para Cheongju vs Bucheon 1995: 4.2, 3.7, 1.8
+2025-10-24 19:23:10,419 [INFO] [ODDS] Odds para Lokomotiva Zagreb vs Istra 1961: 2.35, 3.2, 2.87
+2025-10-24 19:23:10,419 [INFO] coletor: [ODDS] Odds para Lokomotiva Zagreb vs Istra 1961: 2.35, 3.2, 2.87
+2025-10-24 19:23:10,419 [INFO] [ODDS] Odds para Varaždin vs Slaven Koprivnica: 2.1, 3.25, 3.3
+2025-10-24 19:23:10,419 [INFO] coletor: [ODDS] Odds para Varaždin vs Slaven Koprivnica: 2.1, 3.25, 3.3
+2025-10-24 19:23:10,420 [INFO] [ODDS] Odds para Aarhus Fremad vs Esbjerg: 1.9, 3.7, 3.7
+2025-10-24 19:23:10,420 [INFO] coletor: [ODDS] Odds para Aarhus Fremad vs Esbjerg: 1.9, 3.7, 3.7
+2025-10-24 19:23:10,420 [INFO] [ODDS] Odds para AaB vs Lyngby: 2.4, 3.4, 2.75
+2025-10-24 19:23:10,420 [INFO] coletor: [ODDS] Odds para AaB vs Lyngby: 2.4, 3.4, 2.75
+2025-10-24 19:23:10,421 [INFO] [ODDS] Odds para Hobro vs Hillerød: 2.62, 3.25, 2.62
+2025-10-24 19:23:10,421 [INFO] coletor: [ODDS] Odds para Hobro vs Hillerød: 2.62, 3.25, 2.62
+2025-10-24 19:23:10,421 [INFO] [ODDS] Odds para Haras El Hodood vs Ghazl El Mehalla: 3.25, 2.45, 2.7
+2025-10-24 19:23:10,421 [INFO] coletor: [ODDS] Odds para Haras El Hodood vs Ghazl El Mehalla: 3.25, 2.45, 2.7
+2025-10-24 19:23:10,421 [INFO] [ODDS] Odds para Future FC vs Al Mokawloon: 2.15, 2.87, 3.7
+2025-10-24 19:23:10,421 [INFO] coletor: [ODDS] Odds para Future FC vs Al Mokawloon: 2.15, 2.87, 3.7
+2025-10-24 19:23:10,422 [INFO] [ODDS] Odds para Mushuc Runa vs Manta: 1.45, 4.33, 6.5
+2025-10-24 19:23:10,422 [INFO] coletor: [ODDS] Odds para Mushuc Runa vs Manta: 1.45, 4.33, 6.5
+2025-10-24 19:23:10,422 [INFO] [ODDS] Odds para Barcelona Guayaquil vs Libertad: 1.57, 4.75, 4.5
+2025-10-24 19:23:10,422 [INFO] coletor: [ODDS] Odds para Barcelona Guayaquil vs Libertad: 1.57, 4.75, 4.5
+2025-10-24 19:23:10,423 [INFO] [ODDS] Odds para Deportivo Cuenca vs Aucas: 2.25, 3.3, 3.1
+2025-10-24 19:23:10,423 [INFO] coletor: [ODDS] Odds para Deportivo Cuenca vs Aucas: 2.25, 3.3, 3.1
+2025-10-24 19:23:10,423 [INFO] [ODDS] Odds para Queen's Park vs Ayr United: 3.7, 3.25, 1.95
+2025-10-24 19:23:10,423 [INFO] coletor: [ODDS] Odds para Queen's Park vs Ayr United: 3.7, 3.25, 1.95
+2025-10-24 19:23:10,424 [INFO] [ODDS] Odds para Airdrieonians vs Arbroath: 2.87, 3.3, 2.25
+2025-10-24 19:23:10,424 [INFO] coletor: [ODDS] Odds para Airdrieonians vs Arbroath: 2.87, 3.3, 2.25
+2025-10-24 19:23:10,424 [INFO] [ODDS] Odds para Greenock Morton vs St. Johnstone: 4.33, 3.6, 1.7
+2025-10-24 19:23:10,424 [INFO] coletor: [ODDS] Odds para Greenock Morton vs St. Johnstone: 4.33, 3.6, 1.7
+2025-10-24 19:23:10,424 [INFO] [ODDS] Odds para Raith Rovers vs Partick Thistle: 2.5, 3.1, 2.7
+2025-10-24 19:23:10,424 [INFO] coletor: [ODDS] Odds para Raith Rovers vs Partick Thistle: 2.5, 3.1, 2.7
+2025-10-24 19:23:10,425 [INFO] [ODDS] Odds para Ross County vs Dunfermline Athletic: 2.05, 3.25, 3.3
+2025-10-24 19:23:10,425 [INFO] coletor: [ODDS] Odds para Ross County vs Dunfermline Athletic: 2.05, 3.25, 3.3
+2025-10-24 19:23:10,425 [INFO] [ODDS] Odds para Peterhead vs Inverness CT: 3.6, 3.6, 1.8
+2025-10-24 19:23:10,425 [INFO] coletor: [ODDS] Odds para Peterhead vs Inverness CT: 3.6, 3.6, 1.8
+2025-10-24 19:23:10,426 [INFO] [ODDS] Odds para Montrose vs Cove Rangers: 2.05, 3.3, 3.1
+2025-10-24 19:23:10,426 [INFO] coletor: [ODDS] Odds para Montrose vs Cove Rangers: 2.05, 3.3, 3.1
+2025-10-24 19:23:10,426 [INFO] [ODDS] Odds para Kelty Hearts vs East Fife: 4.33, 3.6, 1.66
+2025-10-24 19:23:10,426 [INFO] coletor: [ODDS] Odds para Kelty Hearts vs East Fife: 4.33, 3.6, 1.66
+2025-10-24 19:23:10,426 [INFO] [ODDS] Odds para Alloa Athletic vs Stenhousemuir: 2.25, 3.3, 2.8
+2025-10-24 19:23:10,426 [INFO] coletor: [ODDS] Odds para Alloa Athletic vs Stenhousemuir: 2.25, 3.3, 2.8
+2025-10-24 19:23:10,427 [INFO] [ODDS] Odds para Trenčín vs Komárno: 2.3, 3.3, 3.1
+2025-10-24 19:23:10,427 [INFO] coletor: [ODDS] Odds para Trenčín vs Komárno: 2.3, 3.3, 3.1
+2025-10-24 19:23:10,427 [INFO] [ODDS] Odds para Žilina vs Skalica: 1.57, 4.2, 5.25
+2025-10-24 19:23:10,427 [INFO] coletor: [ODDS] Odds para Žilina vs Skalica: 1.57, 4.2, 5.25
+2025-10-24 19:23:10,428 [INFO] [ODDS] Odds para Zemplín Michalovce vs Dunajská Streda: 4.33, 4.0, 1.61
+2025-10-24 19:23:10,428 [INFO] coletor: [ODDS] Odds para Zemplín Michalovce vs Dunajská Streda: 4.33, 4.0, 1.61
+2025-10-24 19:23:10,428 [INFO] [ODDS] Odds para FK Košice vs Podbrezová: 1.9, 3.75, 3.6
+2025-10-24 19:23:10,428 [INFO] coletor: [ODDS] Odds para FK Košice vs Podbrezová: 1.9, 3.75, 3.6
+2025-10-24 19:23:10,429 [INFO] [ODDS] Odds para Radomlje vs Koper: 4.5, 3.4, 1.72
+2025-10-24 19:23:10,429 [INFO] coletor: [ODDS] Odds para Radomlje vs Koper: 4.5, 3.4, 1.72
+2025-10-24 19:23:10,429 [INFO] [ODDS] Odds para Maribor vs Primorje: 1.33, 5.0, 7.5
+2025-10-24 19:23:10,429 [INFO] coletor: [ODDS] Odds para Maribor vs Primorje: 1.33, 5.0, 7.5
+2025-10-24 19:23:10,429 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Trans: 4.1, 3.8, 1.65
+2025-10-24 19:23:10,429 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Trans: 4.1, 3.8, 1.65
+2025-10-24 19:23:10,430 [INFO] [ODDS] Odds para Kuressaare vs Nõmme Kalju: 5.75, 4.33, 1.4
+2025-10-24 19:23:10,430 [INFO] coletor: [ODDS] Odds para Kuressaare vs Nõmme Kalju: 5.75, 4.33, 1.4
+2025-10-24 19:23:10,430 [INFO] [ODDS] Odds para Tammeka vs Tallinna Kalev: 1.53, 4.0, 4.75
+2025-10-24 19:23:10,430 [INFO] coletor: [ODDS] Odds para Tammeka vs Tallinna Kalev: 1.53, 4.0, 4.75
+2025-10-24 19:23:10,431 [INFO] [ODDS] Odds para Puskás vs MTK: 1.7, 4.2, 4.0
+2025-10-24 19:23:10,431 [INFO] coletor: [ODDS] Odds para Puskás vs MTK: 1.7, 4.2, 4.0
+2025-10-24 19:23:10,431 [INFO] [ODDS] Odds para Diósgyőr vs Paksi SE: 4.0, 4.1, 1.7
+2025-10-24 19:23:10,431 [INFO] coletor: [ODDS] Odds para Diósgyőr vs Paksi SE: 4.0, 4.1, 1.7
+2025-10-24 19:23:10,431 [INFO] [ODDS] Odds para Nyíregyháza Spartacus vs Kazincbarcika: 1.7, 3.8, 4.75
+2025-10-24 19:23:10,431 [INFO] coletor: [ODDS] Odds para Nyíregyháza Spartacus vs Kazincbarcika: 1.7, 3.8, 4.75
+2025-10-24 19:23:10,432 [INFO] [ODDS] Odds para Halifax Town vs York City: 4.33, 3.6, 1.72
+2025-10-24 19:23:10,432 [INFO] coletor: [ODDS] Odds para Halifax Town vs York City: 4.33, 3.6, 1.72
+2025-10-24 19:23:10,432 [INFO] [ODDS] Odds para Yeovil Town vs Carlisle: 3.6, 3.4, 1.9
+2025-10-24 19:23:10,432 [INFO] coletor: [ODDS] Odds para Yeovil Town vs Carlisle: 3.6, 3.4, 1.9
+2025-10-24 19:23:10,433 [INFO] [ODDS] Odds para Wealdstone vs Sutton: 2.1, 3.4, 3.1
+2025-10-24 19:23:10,433 [INFO] coletor: [ODDS] Odds para Wealdstone vs Sutton: 2.1, 3.4, 3.1
+2025-10-24 19:23:10,433 [INFO] [ODDS] Odds para Gateshead vs Truro City: 1.9, 3.9, 3.25
+2025-10-24 19:23:10,433 [INFO] coletor: [ODDS] Odds para Gateshead vs Truro City: 1.9, 3.9, 3.25
+2025-10-24 19:23:10,434 [INFO] [ODDS] Odds para Woking vs Rochdale: 3.9, 3.5, 1.8
+2025-10-24 19:23:10,434 [INFO] coletor: [ODDS] Odds para Woking vs Rochdale: 3.9, 3.5, 1.8
+2025-10-24 19:23:10,434 [INFO] [ODDS] Odds para Forest Green vs Boreham Wood: 2.0, 3.5, 3.2
+2025-10-24 19:23:10,434 [INFO] coletor: [ODDS] Odds para Forest Green vs Boreham Wood: 2.0, 3.5, 3.2
+2025-10-24 19:23:10,434 [INFO] [ODDS] Odds para Southend United vs Brackley Town: 1.61, 3.5, 5.25
+2025-10-24 19:23:10,434 [INFO] coletor: [ODDS] Odds para Southend United vs Brackley Town: 1.61, 3.5, 5.25
+2025-10-24 19:23:10,435 [INFO] [ODDS] Odds para Eastleigh vs Morecambe: 1.85, 3.7, 3.5
+2025-10-24 19:23:10,435 [INFO] coletor: [ODDS] Odds para Eastleigh vs Morecambe: 1.85, 3.7, 3.5
+2025-10-24 19:23:10,435 [INFO] [ODDS] Odds para Braintree Town vs Altrincham: 2.62, 3.4, 2.35
+2025-10-24 19:23:10,435 [INFO] coletor: [ODDS] Odds para Braintree Town vs Altrincham: 2.62, 3.4, 2.35
+2025-10-24 19:23:10,436 [INFO] [ODDS] Odds para Hartlepool vs Solihull Moors: 1.66, 4.1, 4.0
+2025-10-24 19:23:10,436 [INFO] coletor: [ODDS] Odds para Hartlepool vs Solihull Moors: 1.66, 4.1, 4.0
+2025-10-24 19:23:10,436 [INFO] [ODDS] Odds para Scunthorpe vs Aldershot Town: 1.66, 3.7, 4.5
+2025-10-24 19:23:10,436 [INFO] coletor: [ODDS] Odds para Scunthorpe vs Aldershot Town: 1.66, 3.7, 4.5
+2025-10-24 19:23:10,436 [INFO] [ODDS] Odds para Tamworth vs Boston United: 1.75, 3.7, 4.1
+2025-10-24 19:23:10,436 [INFO] coletor: [ODDS] Odds para Tamworth vs Boston United: 1.75, 3.7, 4.1
+2025-10-24 19:23:10,437 [INFO] [ODDS] Odds para Sligo Rovers vs Cork City: 1.5, 4.2, 5.5
+2025-10-24 19:23:10,437 [INFO] coletor: [ODDS] Odds para Sligo Rovers vs Cork City: 1.5, 4.2, 5.5
+2025-10-24 19:23:10,437 [INFO] [ODDS] Odds para Dungannon Swifts vs Glenavon: 1.75, 3.75, 4.33
+2025-10-24 19:23:10,437 [INFO] coletor: [ODDS] Odds para Dungannon Swifts vs Glenavon: 1.75, 3.75, 4.33
+2025-10-24 19:23:10,438 [INFO] [ODDS] Odds para Carrick Rangers vs Cliftonville: 2.62, 3.4, 2.55
+2025-10-24 19:23:10,438 [INFO] coletor: [ODDS] Odds para Carrick Rangers vs Cliftonville: 2.62, 3.4, 2.55
+2025-10-24 19:23:10,438 [INFO] [ODDS] Odds para Crusaders vs Glentoran: 4.5, 3.9, 1.7
+2025-10-24 19:23:10,438 [INFO] coletor: [ODDS] Odds para Crusaders vs Glentoran: 4.5, 3.9, 1.7
+2025-10-24 19:23:10,438 [INFO] [ODDS] Odds para Portadown vs Coleraine: 5.25, 4.5, 1.53
+2025-10-24 19:23:10,438 [INFO] coletor: [ODDS] Odds para Portadown vs Coleraine: 5.25, 4.5, 1.53
+2025-10-24 19:23:10,439 [INFO] [ODDS] Odds para Linfield vs Ballymena United: 1.4, 4.75, 7.0
+2025-10-24 19:23:10,439 [INFO] coletor: [ODDS] Odds para Linfield vs Ballymena United: 1.4, 4.75, 7.0
+2025-10-24 19:23:10,439 [INFO] [ODDS] Odds para Larne vs Bangor: 1.4, 4.75, 7.0
+2025-10-24 19:23:10,439 [INFO] coletor: [ODDS] Odds para Larne vs Bangor: 1.4, 4.75, 7.0
+2025-10-24 19:23:10,440 [INFO] [ODDS] Odds para ÍBV vs KA: 2.35, 3.75, 2.55
+2025-10-24 19:23:10,440 [INFO] coletor: [ODDS] Odds para ÍBV vs KA: 2.35, 3.75, 2.55
+2025-10-24 19:23:10,440 [INFO] [ODDS] Odds para ÍA vs Afturelding: 2.55, 3.5, 2.45
+2025-10-24 19:23:10,440 [INFO] coletor: [ODDS] Odds para ÍA vs Afturelding: 2.55, 3.5, 2.45
+2025-10-24 19:23:10,440 [INFO] [ODDS] Odds para Vestri vs KR: 3.25, 4.0, 1.85
+2025-10-24 19:23:10,440 [INFO] coletor: [ODDS] Odds para Vestri vs KR: 3.25, 4.0, 1.85
+2025-10-24 19:23:10,441 [INFO] [ODDS] Odds para FH vs Fram: 1.83, 4.1, 3.25
+2025-10-24 19:23:10,441 [INFO] coletor: [ODDS] Odds para FH vs Fram: 1.83, 4.1, 3.25
+2025-10-24 19:23:10,441 [INFO] [ODDS] Odds para Víkingur Reykjavík vs Valur: 1.6, 4.2, 4.33
+2025-10-24 19:23:10,441 [INFO] coletor: [ODDS] Odds para Víkingur Reykjavík vs Valur: 1.6, 4.2, 4.33
+2025-10-24 19:23:10,442 [INFO] [ODDS] Odds para Ashdod vs Hapoel Petah Tikva: 2.87, 3.4, 2.25
+2025-10-24 19:23:10,442 [INFO] coletor: [ODDS] Odds para Ashdod vs Hapoel Petah Tikva: 2.87, 3.4, 2.25
+2025-10-24 19:23:10,442 [INFO] [ODDS] Odds para Hapoel Haifa vs Beitar Jerusalem: 4.33, 3.5, 1.75
+2025-10-24 19:23:10,442 [INFO] coletor: [ODDS] Odds para Hapoel Haifa vs Beitar Jerusalem: 4.33, 3.5, 1.75
+2025-10-24 19:23:10,443 [INFO] [ODDS] Odds para Ironi Tiberias vs Maccabi Haifa: 6.5, 4.75, 1.4
+2025-10-24 19:23:10,443 [INFO] coletor: [ODDS] Odds para Ironi Tiberias vs Maccabi Haifa: 6.5, 4.75, 1.4
+2025-10-24 19:23:10,443 [INFO] [ODDS] Odds para Hapoel Katamon vs Bnei Sakhnin: 2.15, 3.2, 3.2
+2025-10-24 19:23:10,443 [INFO] coletor: [ODDS] Odds para Hapoel Katamon vs Bnei Sakhnin: 2.15, 3.2, 3.2
+2025-10-24 19:23:10,443 [INFO] [ODDS] Odds para Maccabi Netanya vs Hapoel Tel Aviv: 3.1, 3.6, 2.05
+2025-10-24 19:23:10,443 [INFO] coletor: [ODDS] Odds para Maccabi Netanya vs Hapoel Tel Aviv: 3.1, 3.6, 2.05
+2025-10-24 19:23:10,444 [INFO] [ODDS] Odds para Urawa Reds vs Machida Zelvia: 3.25, 3.25, 2.25
+2025-10-24 19:23:10,444 [INFO] coletor: [ODDS] Odds para Urawa Reds vs Machida Zelvia: 3.25, 3.25, 2.25
+2025-10-24 19:23:10,444 [INFO] [ODDS] Odds para Nagoya Grampus vs Gamba Osaka: 2.7, 3.25, 2.7
+2025-10-24 19:23:10,444 [INFO] coletor: [ODDS] Odds para Nagoya Grampus vs Gamba Osaka: 2.7, 3.25, 2.7
+2025-10-24 19:23:10,445 [INFO] [ODDS] Odds para Kashiwa Reysol vs Yokohama: 1.65, 3.9, 5.0
+2025-10-24 19:23:10,445 [INFO] coletor: [ODDS] Odds para Kashiwa Reysol vs Yokohama: 1.65, 3.9, 5.0
+2025-10-24 19:23:10,445 [INFO] [ODDS] Odds para Shimizu S-Pulse vs Tokyo Verdy: 2.4, 3.1, 3.1
+2025-10-24 19:23:10,445 [INFO] coletor: [ODDS] Odds para Shimizu S-Pulse vs Tokyo Verdy: 2.4, 3.1, 3.1
+2025-10-24 19:23:10,445 [INFO] [ODDS] Odds para Kyoto Sanga vs Kashima Antlers: 2.87, 3.4, 2.37
+2025-10-24 19:23:10,445 [INFO] coletor: [ODDS] Odds para Kyoto Sanga vs Kashima Antlers: 2.87, 3.4, 2.37
+2025-10-24 19:23:10,446 [INFO] [ODDS] Odds para Yokohama F. Marinos vs Sanfrecce Hiroshima: 4.0, 3.6, 1.85
+2025-10-24 19:23:10,446 [INFO] coletor: [ODDS] Odds para Yokohama F. Marinos vs Sanfrecce Hiroshima: 4.0, 3.6, 1.85
+2025-10-24 19:23:10,446 [INFO] [ODDS] Odds para Tokyo vs Fagiano Okayama: 2.1, 3.25, 3.6
+2025-10-24 19:23:10,446 [INFO] coletor: [ODDS] Odds para Tokyo vs Fagiano Okayama: 2.1, 3.25, 3.6
+2025-10-24 19:23:10,447 [INFO] [ODDS] Odds para Cerezo Osaka vs Kawasaki Frontale: 2.62, 3.6, 2.45
+2025-10-24 19:23:10,447 [INFO] coletor: [ODDS] Odds para Cerezo Osaka vs Kawasaki Frontale: 2.62, 3.6, 2.45
+2025-10-24 19:23:10,447 [INFO] [ODDS] Odds para Fujieda MYFC vs Ventforet Kofu: 2.25, 3.3, 3.1
+2025-10-24 19:23:10,447 [INFO] coletor: [ODDS] Odds para Fujieda MYFC vs Ventforet Kofu: 2.25, 3.3, 3.1
+2025-10-24 19:23:10,447 [INFO] [ODDS] Odds para V-Varen Nagasaki vs Imabari: 1.85, 3.75, 3.75
+2025-10-24 19:23:10,447 [INFO] coletor: [ODDS] Odds para V-Varen Nagasaki vs Imabari: 1.85, 3.75, 3.75
+2025-10-24 19:23:10,448 [WARNING] [ODDS] Odds não encontradas para Kuching FA vs Pulau Pinang. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,448 [WARNING] coletor: [ODDS] Odds não encontradas para Kuching FA vs Pulau Pinang. Motivo: could not convert string to float: '-'
+2025-10-24 19:23:10,448 [INFO] [ODDS] Odds para Johor Darul Ta'zim vs DPMM FC: 1.03, 13.0, 26.0
+2025-10-24 19:23:10,448 [INFO] coletor: [ODDS] Odds para Johor Darul Ta'zim vs DPMM FC: 1.03, 13.0, 26.0
+2025-10-24 19:23:10,449 [INFO] [ODDS] Odds para Negeri Sembilan vs PDRM: 1.9, 3.25, 3.5
+2025-10-24 19:23:10,449 [INFO] coletor: [ODDS] Odds para Negeri Sembilan vs PDRM: 1.9, 3.25, 3.5
+2025-10-24 19:23:10,449 [INFO] [ODDS] Odds para Skeid vs Raufoss: 3.8, 3.75, 1.83
+2025-10-24 19:23:10,449 [INFO] coletor: [ODDS] Odds para Skeid vs Raufoss: 3.8, 3.75, 1.83
+2025-10-24 19:23:10,449 [INFO] [ODDS] Odds para Åsane vs Start: 4.33, 3.8, 1.72
+2025-10-24 19:23:10,449 [INFO] coletor: [ODDS] Odds para Åsane vs Start: 4.33, 3.8, 1.72
+2025-10-24 19:23:10,450 [INFO] [ODDS] Odds para Hødd vs Stabæk: 3.9, 3.75, 1.83
+2025-10-24 19:23:10,450 [INFO] coletor: [ODDS] Odds para Hødd vs Stabæk: 3.9, 3.75, 1.83
+2025-10-24 19:23:10,450 [INFO] [ODDS] Odds para Lillestrøm vs Ranheim: 1.22, 7.0, 9.0
+2025-10-24 19:23:10,450 [INFO] coletor: [ODDS] Odds para Lillestrøm vs Ranheim: 1.22, 7.0, 9.0
+2025-10-24 19:23:10,451 [INFO] [ODDS] Odds para Mjøndalen vs Odd: 3.0, 3.5, 2.15
+2025-10-24 19:23:10,451 [INFO] coletor: [ODDS] Odds para Mjøndalen vs Odd: 3.0, 3.5, 2.15
+2025-10-24 19:23:10,451 [INFO] [ODDS] Odds para Moss vs Aalesund: 4.1, 3.9, 1.72
+2025-10-24 19:23:10,451 [INFO] coletor: [ODDS] Odds para Moss vs Aalesund: 4.1, 3.9, 1.72
+2025-10-24 19:23:10,451 [INFO] [ODDS] Odds para Sogndal vs Egersund: 2.15, 3.6, 3.0
+2025-10-24 19:23:10,451 [INFO] coletor: [ODDS] Odds para Sogndal vs Egersund: 2.15, 3.6, 3.0
+2025-10-24 19:23:10,452 [INFO] [ODDS] Odds para Lyn vs Kongsvinger: 2.45, 3.75, 2.55
+2025-10-24 19:23:10,452 [INFO] coletor: [ODDS] Odds para Lyn vs Kongsvinger: 2.45, 3.75, 2.55
+2025-10-24 19:23:10,452 [INFO] [ODDS] Odds para Connah's Quay vs Haverfordwest County: 1.44, 4.2, 5.75
+2025-10-24 19:23:10,452 [INFO] coletor: [ODDS] Odds para Connah's Quay vs Haverfordwest County: 1.44, 4.2, 5.75
+2025-10-24 19:23:10,453 [INFO] [ODDS] Odds para Cardiff MU vs Flint Town United: 2.0, 3.5, 3.1
+2025-10-24 19:23:10,453 [INFO] coletor: [ODDS] Odds para Cardiff MU vs Flint Town United: 2.0, 3.5, 3.1
+2025-10-24 19:23:10,453 [INFO] [ODDS] Odds para Bala Town vs Barry Town United: 2.55, 3.6, 2.25
+2025-10-24 19:23:10,453 [INFO] coletor: [ODDS] Odds para Bala Town vs Barry Town United: 2.55, 3.6, 2.25
+2025-10-24 19:23:10,453 [INFO] [ODDS] Odds para Briton Ferry vs Colwyn Bay: 3.8, 3.6, 1.72
+2025-10-24 19:23:10,453 [INFO] coletor: [ODDS] Odds para Briton Ferry vs Colwyn Bay: 3.8, 3.6, 1.72
+2025-10-24 19:23:10,454 [INFO] [ODDS] Odds para Penybont vs Caernarfon Town: 1.75, 3.6, 3.7
+2025-10-24 19:23:10,454 [INFO] coletor: [ODDS] Odds para Penybont vs Caernarfon Town: 1.75, 3.6, 3.7
+2025-10-24 19:23:10,454 [INFO] [ODDS] Odds para Atlético Tembetary vs Sportivo Luqueño: 3.3, 3.4, 2.05
+2025-10-24 19:23:10,454 [INFO] coletor: [ODDS] Odds para Atlético Tembetary vs Sportivo Luqueño: 3.3, 3.4, 2.05
+2025-10-24 19:23:10,455 [INFO] [ODDS] Odds para Sportivo Trinidense vs 2 de Mayo: 2.2, 3.3, 3.1
+2025-10-24 19:23:10,455 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs 2 de Mayo: 2.2, 3.3, 3.1
+2025-10-24 19:23:10,455 [INFO] [ODDS] Odds para Ayacucho vs Deportivo Garcilaso: 2.25, 3.6, 2.87
+2025-10-24 19:23:10,455 [INFO] coletor: [ODDS] Odds para Ayacucho vs Deportivo Garcilaso: 2.25, 3.6, 2.87
+2025-10-24 19:23:10,456 [INFO] [ODDS] Odds para Alianza Atlético vs Cienciano: 2.05, 3.4, 3.5
+2025-10-24 19:23:10,456 [INFO] coletor: [ODDS] Odds para Alianza Atlético vs Cienciano: 2.05, 3.4, 3.5
+2025-10-24 19:23:10,456 [INFO] [ODDS] Odds para Cusco FC vs Atlético Grau: 1.65, 3.4, 5.5
+2025-10-24 19:23:10,456 [INFO] coletor: [ODDS] Odds para Cusco FC vs Atlético Grau: 1.65, 3.4, 5.5
+2025-10-24 19:23:10,456 [INFO] [ODDS] Odds para Arka Gdynia vs Piast Gliwice: 2.62, 3.1, 2.87
+2025-10-24 19:23:10,456 [INFO] coletor: [ODDS] Odds para Arka Gdynia vs Piast Gliwice: 2.62, 3.1, 2.87
+2025-10-24 19:23:10,457 [INFO] [ODDS] Odds para Pogoń Szczecin vs Cracovia Kraków: 2.3, 3.4, 3.0
+2025-10-24 19:23:10,457 [INFO] coletor: [ODDS] Odds para Pogoń Szczecin vs Cracovia Kraków: 2.3, 3.4, 3.0
+2025-10-24 19:23:10,457 [INFO] [ODDS] Odds para Katowice vs Korona Kielce: 2.45, 3.3, 3.0
+2025-10-24 19:23:10,457 [INFO] coletor: [ODDS] Odds para Katowice vs Korona Kielce: 2.45, 3.3, 3.0
+2025-10-24 19:23:10,458 [INFO] [ODDS] Odds para União de Leiria vs Leixões: 2.0, 3.3, 3.6
+2025-10-24 19:23:10,458 [INFO] coletor: [ODDS] Odds para União de Leiria vs Leixões: 2.0, 3.3, 3.6
+2025-10-24 19:23:10,458 [INFO] [ODDS] Odds para Sporting CP II vs Lusitania FC Lourosa: 2.15, 3.3, 3.25
+2025-10-24 19:23:10,458 [INFO] coletor: [ODDS] Odds para Sporting CP II vs Lusitania FC Lourosa: 2.15, 3.3, 3.25
+2025-10-24 19:23:10,458 [INFO] [ODDS] Odds para Ferreira vs Portimonense: 2.6, 3.3, 2.6
+2025-10-24 19:23:10,458 [INFO] coletor: [ODDS] Odds para Ferreira vs Portimonense: 2.6, 3.3, 2.6
+2025-10-24 19:23:10,459 [INFO] [ODDS] Odds para Academico Viseu vs Chaves: 2.55, 3.0, 2.6
+2025-10-24 19:23:10,459 [INFO] coletor: [ODDS] Odds para Academico Viseu vs Chaves: 2.55, 3.0, 2.6
+2025-10-24 19:23:10,459 [INFO] [ODDS] Odds para Feirense vs Benfica II: 2.3, 3.1, 2.9
+2025-10-24 19:23:10,459 [INFO] coletor: [ODDS] Odds para Feirense vs Benfica II: 2.3, 3.1, 2.9
+2025-10-24 19:23:10,460 [INFO] [ODDS] Odds para Otelul vs Universitatea Cluj: 2.9, 2.7, 2.9
+2025-10-24 19:23:10,460 [INFO] coletor: [ODDS] Odds para Otelul vs Universitatea Cluj: 2.9, 2.7, 2.9
+2025-10-24 19:23:10,460 [INFO] [ODDS] Odds para CFR Cluj vs SSC Farul: 1.8, 3.7, 4.2
+2025-10-24 19:23:10,460 [INFO] coletor: [ODDS] Odds para CFR Cluj vs SSC Farul: 1.8, 3.7, 4.2
+2025-10-24 19:23:10,460 [INFO] [ODDS] Odds para Radnički Kragujevac vs Bačka Topola: 1.7, 3.7, 4.5
+2025-10-24 19:23:10,460 [INFO] coletor: [ODDS] Odds para Radnički Kragujevac vs Bačka Topola: 1.7, 3.7, 4.5
+2025-10-24 19:23:10,461 [INFO] [ODDS] Odds para IMT Novi Beograd vs OFK Beograd: 2.25, 3.75, 2.62
+2025-10-24 19:23:10,461 [INFO] coletor: [ODDS] Odds para IMT Novi Beograd vs OFK Beograd: 2.25, 3.75, 2.62
+2025-10-24 19:23:10,461 [INFO] [ODDS] Odds para Radnik Surdulica vs Spartak Subotica: 2.05, 3.2, 3.4
+2025-10-24 19:23:10,461 [INFO] coletor: [ODDS] Odds para Radnik Surdulica vs Spartak Subotica: 2.05, 3.2, 3.4
+2025-10-24 19:23:10,462 [INFO] [ODDS] Odds para Železničar Pančevo vs Čukarički: 2.4, 3.4, 2.62
+2025-10-24 19:23:10,462 [INFO] coletor: [ODDS] Odds para Železničar Pančevo vs Čukarički: 2.4, 3.4, 2.62
+2025-10-24 19:23:10,462 [INFO] [ODDS] Odds para Umeå vs Varberg BoIS: 3.1, 3.7, 2.1
+2025-10-24 19:23:10,462 [INFO] coletor: [ODDS] Odds para Umeå vs Varberg BoIS: 3.1, 3.7, 2.1
+2025-10-24 19:23:10,462 [INFO] [ODDS] Odds para GIF Sundsvall vs Kalmar: 5.75, 4.2, 1.5
+2025-10-24 19:23:10,462 [INFO] coletor: [ODDS] Odds para GIF Sundsvall vs Kalmar: 5.75, 4.2, 1.5
+2025-10-24 19:23:10,463 [INFO] [ODDS] Odds para Sandviken vs Utsikten: 1.9, 3.5, 3.5
+2025-10-24 19:23:10,463 [INFO] coletor: [ODDS] Odds para Sandviken vs Utsikten: 1.9, 3.5, 3.5
+2025-10-24 19:23:10,463 [INFO] [ODDS] Odds para Brage vs Helsingborg: 2.4, 3.5, 2.7
+2025-10-24 19:23:10,463 [INFO] coletor: [ODDS] Odds para Brage vs Helsingborg: 2.4, 3.5, 2.7
+2025-10-24 19:23:10,464 [INFO] [ODDS] Odds para Oddevold vs Östersunds FK: 2.1, 3.5, 3.25
+2025-10-24 19:23:10,464 [INFO] coletor: [ODDS] Odds para Oddevold vs Östersunds FK: 2.1, 3.5, 3.25
+2025-10-24 19:23:10,464 [INFO] [ODDS] Odds para Juventud vs Plaza Colonia: 2.05, 3.2, 3.7
+2025-10-24 19:23:10,464 [INFO] coletor: [ODDS] Odds para Juventud vs Plaza Colonia: 2.05, 3.2, 3.7
+2025-10-24 19:23:10,464 [INFO] [ODDS] Odds para Cerro vs Peñarol: 9.5, 4.75, 1.33
+2025-10-24 19:23:10,464 [INFO] coletor: [ODDS] Odds para Cerro vs Peñarol: 9.5, 4.75, 1.33
+2025-10-24 19:23:10,465 [INFO] [ODDS] Odds para Cerro Largo vs Racing: 2.55, 3.1, 2.75
+2025-10-24 19:23:10,465 [INFO] coletor: [ODDS] Odds para Cerro Largo vs Racing: 2.55, 3.1, 2.75
+2025-10-24 19:23:10,465 [INFO] [ODDS] Odds para Monagas vs Deportivo La Guaira: 3.0, 3.4, 2.1
+2025-10-24 19:23:10,465 [INFO] coletor: [ODDS] Odds para Monagas vs Deportivo La Guaira: 3.0, 3.4, 2.1
+2025-10-24 19:23:10,466 [INFO] [ODDS] Odds para Academia Puerto Cabello vs Zamora Fútbol Club: 1.8, 3.5, 4.1
+2025-10-24 19:23:10,466 [INFO] coletor: [ODDS] Odds para Academia Puerto Cabello vs Zamora Fútbol Club: 1.8, 3.5, 4.1
+2025-10-24 19:23:10,466 [INFO] [ODDS] Odds para Botev Vratsa vs Septemvri Sofia: 1.75, 3.5, 4.75
+2025-10-24 19:23:10,466 [INFO] coletor: [ODDS] Odds para Botev Vratsa vs Septemvri Sofia: 1.75, 3.5, 4.75
+2025-10-24 19:23:10,466 [INFO] [ODDS] Odds para Slavia Sofia vs Cherno More: 3.1, 3.25, 2.3
+2025-10-24 19:23:10,466 [INFO] coletor: [ODDS] Odds para Slavia Sofia vs Cherno More: 3.1, 3.25, 2.3
+2025-10-24 19:23:10,467 [INFO] [ODDS] Odds para Levski Sofia vs Dobrudzha 1919: 1.18, 6.5, 17.0
+2025-10-24 19:23:10,467 [INFO] coletor: [ODDS] Odds para Levski Sofia vs Dobrudzha 1919: 1.18, 6.5, 17.0
+2025-10-24 19:23:10,468 [INFO] [AGENDA] Válidos=285, Incompletos=0, Filtrados=394, Duplicados=0
+2025-10-24 19:23:10,468 [INFO] coletor: [AGENDA] Válidos=285, Incompletos=0, Filtrados=394, Duplicados=0
+2025-10-24 19:23:10,468 [INFO] __main__: [TEMPO] Fase 1 concluída em 12.95s
+2025-10-24 19:23:10,473 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-25.csv (282 linhas).
+2025-10-24 19:26:11,119 [INFO] __main__: [TEMPO] Fase 2 concluída em 180.65s (links extraídos: 564)
+2025-10-24 20:04:07,619 [INFO] __main__: [TEMPO] Fase 3 concluída em 2276.50s (jogos raspados: 1273)
+2025-10-24 20:04:08,038 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (691 linhas).
+2025-10-24 20:04:08,174 [INFO] __main__: Exportado histórico para dados_redscore.csv (10191 linhas)
+2025-10-24 20:04:09,295 [INFO] __main__: --- Rotina concluída em 2497.07s ---
