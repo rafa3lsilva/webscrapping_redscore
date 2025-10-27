@@ -18540,3 +18540,78 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-25 23:54:18,531 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (188 linhas).
 2025-10-25 23:54:18,614 [INFO] __main__: Exportado histórico para dados_redscore.csv (10379 linhas)
 2025-10-25 23:54:18,955 [INFO] __main__: --- Rotina concluída em 1211.34s ---
+2025-10-26 19:48:33,983 [INFO] __main__: Coletor iniciado
+2025-10-26 19:48:33,985 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-26 19:48:54,569 [INFO] [ODDS] Odds para Betis vs Atlético Madrid: 3.1, 3.7, 2.2
+2025-10-26 19:48:54,569 [INFO] coletor: [ODDS] Odds para Betis vs Atlético Madrid: 3.1, 3.7, 2.2
+2025-10-26 19:48:54,569 [INFO] [ODDS] Odds para Moreirense vs Porto: 9.5, 5.75, 1.28
+2025-10-26 19:48:54,569 [INFO] coletor: [ODDS] Odds para Moreirense vs Porto: 9.5, 5.75, 1.28
+2025-10-26 19:48:54,569 [INFO] [ODDS] Odds para Samsunspor vs Rizespor: 1.9, 3.4, 4.2
+2025-10-26 19:48:54,569 [INFO] coletor: [ODDS] Odds para Samsunspor vs Rizespor: 1.9, 3.4, 4.2
+2025-10-26 19:48:54,570 [INFO] [ODDS] Odds para Gaziantep vs Fenerbahçe: 4.5, 4.2, 1.65
+2025-10-26 19:48:54,570 [INFO] coletor: [ODDS] Odds para Gaziantep vs Fenerbahçe: 4.5, 4.2, 1.65
+2025-10-26 19:48:54,570 [INFO] [ODDS] Odds para Cincinnati vs Columbus Crew: 2.37, 3.8, 2.7
+2025-10-26 19:48:54,570 [INFO] coletor: [ODDS] Odds para Cincinnati vs Columbus Crew: 2.37, 3.8, 2.7
+2025-10-26 19:48:54,570 [WARNING] [ODDS] Odds não encontradas para Minnesota United vs Seattle Sounders. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,570 [WARNING] coletor: [ODDS] Odds não encontradas para Minnesota United vs Seattle Sounders. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,570 [INFO] [ODDS] Odds para Port Vale vs Stockport County: 2.5, 3.2, 2.75
+2025-10-26 19:48:54,570 [INFO] coletor: [ODDS] Odds para Port Vale vs Stockport County: 2.5, 3.2, 2.75
+2025-10-26 19:48:54,571 [INFO] [ODDS] Odds para OB vs Brøndby: 4.0, 3.6, 1.9
+2025-10-26 19:48:54,571 [INFO] coletor: [ODDS] Odds para OB vs Brøndby: 4.0, 3.6, 1.9
+2025-10-26 19:48:54,571 [INFO] [ODDS] Odds para Brommapojkarna vs GAIS: 3.2, 3.5, 2.15
+2025-10-26 19:48:54,571 [INFO] coletor: [ODDS] Odds para Brommapojkarna vs GAIS: 3.2, 3.5, 2.15
+2025-10-26 19:48:54,571 [INFO] [ODDS] Odds para Malmö FF vs Hammarby: 2.2, 3.4, 3.2
+2025-10-26 19:48:54,571 [INFO] coletor: [ODDS] Odds para Malmö FF vs Hammarby: 2.2, 3.4, 3.2
+2025-10-26 19:48:54,571 [INFO] [ODDS] Odds para SJK vs KuPS: 2.5, 3.8, 2.35
+2025-10-26 19:48:54,571 [INFO] coletor: [ODDS] Odds para SJK vs KuPS: 2.5, 3.8, 2.35
+2025-10-26 19:48:54,572 [INFO] [ODDS] Odds para Barracas Central vs Boca Juniors: 5.0, 2.9, 1.95
+2025-10-26 19:48:54,572 [INFO] coletor: [ODDS] Odds para Barracas Central vs Boca Juniors: 5.0, 2.9, 1.95
+2025-10-26 19:48:54,572 [WARNING] [ODDS] Odds não encontradas para Ararat vs Noah. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,572 [WARNING] coletor: [ODDS] Odds não encontradas para Ararat vs Noah. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,572 [INFO] [ODDS] Odds para Macarthur vs Adelaide United: 2.35, 3.7, 2.8
+2025-10-26 19:48:54,572 [INFO] coletor: [ODDS] Odds para Macarthur vs Adelaide United: 2.35, 3.7, 2.8
+2025-10-26 19:48:54,572 [INFO] [ODDS] Odds para Chapecoense vs Operário PR: 1.95, 3.1, 4.33
+2025-10-26 19:48:54,572 [INFO] coletor: [ODDS] Odds para Chapecoense vs Operário PR: 1.95, 3.1, 4.33
+2025-10-26 19:48:54,572 [WARNING] [ODDS] Odds não encontradas para Athletico PR vs Amazonas. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,572 [WARNING] coletor: [ODDS] Odds não encontradas para Athletico PR vs Amazonas. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,573 [INFO] [ODDS] Odds para Colo-Colo vs Deportes Limache: 1.6, 4.2, 5.0
+2025-10-26 19:48:54,573 [INFO] coletor: [ODDS] Odds para Colo-Colo vs Deportes Limache: 1.6, 4.2, 5.0
+2025-10-26 19:48:54,573 [WARNING] [ODDS] Odds não encontradas para Deportivo Pasto vs Deportivo Pereira. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,573 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Pasto vs Deportivo Pereira. Motivo: could not convert string to float: '-'
+2025-10-26 19:48:54,573 [INFO] [ODDS] Odds para Rijeka vs Osijek: 1.85, 3.4, 3.9
+2025-10-26 19:48:54,573 [INFO] coletor: [ODDS] Odds para Rijeka vs Osijek: 1.85, 3.4, 3.9
+2025-10-26 19:48:54,573 [INFO] [ODDS] Odds para Vukovar vs Dinamo Zagreb: 9.5, 6.0, 1.22
+2025-10-26 19:48:54,573 [INFO] coletor: [ODDS] Odds para Vukovar vs Dinamo Zagreb: 9.5, 6.0, 1.22
+2025-10-26 19:48:54,574 [INFO] [ODDS] Odds para Smouha vs El Gounah: 1.95, 2.8, 4.33
+2025-10-26 19:48:54,574 [INFO] coletor: [ODDS] Odds para Smouha vs El Gounah: 1.95, 2.8, 4.33
+2025-10-26 19:48:54,574 [INFO] [ODDS] Odds para Al Ittihad vs Wadi Degla: 3.0, 2.62, 2.55
+2025-10-26 19:48:54,574 [INFO] coletor: [ODDS] Odds para Al Ittihad vs Wadi Degla: 3.0, 2.62, 2.55
+2025-10-26 19:48:54,574 [INFO] [ODDS] Odds para Maccabi Tel Aviv vs Ironi Kiryat Shmona: 1.22, 5.5, 11.0
+2025-10-26 19:48:54,574 [INFO] coletor: [ODDS] Odds para Maccabi Tel Aviv vs Ironi Kiryat Shmona: 1.22, 5.5, 11.0
+2025-10-26 19:48:54,574 [INFO] [ODDS] Odds para Sūduva vs Kauno Žalgiris: 2.75, 3.4, 2.25
+2025-10-26 19:48:54,574 [INFO] coletor: [ODDS] Odds para Sūduva vs Kauno Žalgiris: 2.75, 3.4, 2.25
+2025-10-26 19:48:54,575 [INFO] [ODDS] Odds para Dainava vs Hegelmann Litauen: 5.0, 3.8, 1.53
+2025-10-26 19:48:54,575 [INFO] coletor: [ODDS] Odds para Dainava vs Hegelmann Litauen: 5.0, 3.8, 1.53
+2025-10-26 19:48:54,575 [INFO] [ODDS] Odds para Sportivo Ameliano vs General Caballero JLM: 2.2, 3.25, 3.3
+2025-10-26 19:48:54,575 [INFO] coletor: [ODDS] Odds para Sportivo Ameliano vs General Caballero JLM: 2.2, 3.25, 3.3
+2025-10-26 19:48:54,575 [INFO] [ODDS] Odds para Nacional Asunción vs Cerro Porteño: 3.4, 3.25, 2.0
+2025-10-26 19:48:54,575 [INFO] coletor: [ODDS] Odds para Nacional Asunción vs Cerro Porteño: 3.4, 3.25, 2.0
+2025-10-26 19:48:54,575 [INFO] [ODDS] Odds para Radomiak Radom vs Wisła Płock: 2.3, 3.3, 3.2
+2025-10-26 19:48:54,575 [INFO] coletor: [ODDS] Odds para Radomiak Radom vs Wisła Płock: 2.3, 3.3, 3.2
+2025-10-26 19:48:54,576 [INFO] [ODDS] Odds para Botoşani vs Hermannstadt: 2.05, 3.3, 3.7
+2025-10-26 19:48:54,576 [INFO] coletor: [ODDS] Odds para Botoşani vs Hermannstadt: 2.05, 3.3, 3.7
+2025-10-26 19:48:54,576 [INFO] [ODDS] Odds para Rapid Bucuresti vs Unirea Slobozia: 1.44, 4.5, 6.5
+2025-10-26 19:48:54,576 [INFO] coletor: [ODDS] Odds para Rapid Bucuresti vs Unirea Slobozia: 1.44, 4.5, 6.5
+2025-10-26 19:48:54,576 [INFO] [ODDS] Odds para CSKA 1948 Sofia vs Ludogorets: 3.8, 3.3, 2.0
+2025-10-26 19:48:54,576 [INFO] coletor: [ODDS] Odds para CSKA 1948 Sofia vs Ludogorets: 3.8, 3.3, 2.0
+2025-10-26 19:48:54,577 [INFO] [AGENDA] Válidos=31, Incompletos=0, Filtrados=65, Duplicados=0
+2025-10-26 19:48:54,577 [INFO] coletor: [AGENDA] Válidos=31, Incompletos=0, Filtrados=65, Duplicados=0
+2025-10-26 19:48:54,577 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.56s
+2025-10-26 19:48:54,580 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-27.csv (31 linhas).
+2025-10-26 19:49:54,288 [INFO] __main__: [TEMPO] Fase 2 concluída em 59.71s (links extraídos: 62)
+2025-10-26 19:53:03,307 [INFO] __main__: [TEMPO] Fase 3 concluída em 189.01s (jogos raspados: 97)
+2025-10-26 19:53:03,366 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (22 linhas).
+2025-10-26 19:53:03,450 [INFO] __main__: Exportado histórico para dados_redscore.csv (10401 linhas)
+2025-10-26 19:53:03,450 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.6 MB).
+2025-10-26 19:53:03,460 [INFO] __main__: [DB] VACUUM concluído.
+2025-10-26 19:53:04,010 [INFO] __main__: --- Rotina concluída em 270.02s ---
