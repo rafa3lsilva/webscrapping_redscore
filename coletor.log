@@ -18615,3 +18615,76 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-26 19:53:03,450 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.6 MB).
 2025-10-26 19:53:03,460 [INFO] __main__: [DB] VACUUM concluído.
 2025-10-26 19:53:04,010 [INFO] __main__: --- Rotina concluída em 270.02s ---
+2025-10-27 20:39:10,313 [INFO] __main__: Coletor iniciado
+2025-10-27 20:39:10,315 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-27 20:39:34,102 [INFO] [ODDS] Odds para Lecce vs Napoli: 6.5, 3.9, 1.53
+2025-10-27 20:39:34,102 [INFO] coletor: [ODDS] Odds para Lecce vs Napoli: 6.5, 3.9, 1.53
+2025-10-27 20:39:34,102 [INFO] [ODDS] Odds para Atalanta vs Milan: 2.6, 3.3, 2.7
+2025-10-27 20:39:34,102 [INFO] coletor: [ODDS] Odds para Atalanta vs Milan: 2.6, 3.3, 2.7
+2025-10-27 20:39:34,103 [INFO] [ODDS] Odds para Charlotte vs New York City: 2.8, 3.4, 2.5
+2025-10-27 20:39:34,103 [INFO] coletor: [ODDS] Odds para Charlotte vs New York City: 2.8, 3.4, 2.5
+2025-10-27 20:39:34,104 [INFO] [ODDS] Odds para Bradford City vs Lincoln: 2.2, 3.3, 3.3
+2025-10-27 20:39:34,104 [INFO] coletor: [ODDS] Odds para Bradford City vs Lincoln: 2.2, 3.3, 3.3
+2025-10-27 20:39:34,104 [INFO] [ODDS] Odds para Mansfield vs Plymouth: 2.2, 3.4, 3.2
+2025-10-27 20:39:34,104 [INFO] coletor: [ODDS] Odds para Mansfield vs Plymouth: 2.2, 3.4, 3.2
+2025-10-27 20:39:34,105 [INFO] [ODDS] Odds para Accrington vs Tranmere: 2.3, 3.4, 3.0
+2025-10-27 20:39:34,105 [INFO] coletor: [ODDS] Odds para Accrington vs Tranmere: 2.3, 3.4, 3.0
+2025-10-27 20:39:34,105 [INFO] [ODDS] Odds para Empoli vs Sampdoria: 2.35, 3.0, 3.2
+2025-10-27 20:39:34,105 [INFO] coletor: [ODDS] Odds para Empoli vs Sampdoria: 2.35, 3.0, 3.2
+2025-10-27 20:39:34,105 [INFO] [ODDS] Odds para Pescara vs Avellino: 2.9, 3.2, 2.45
+2025-10-27 20:39:34,105 [INFO] coletor: [ODDS] Odds para Pescara vs Avellino: 2.9, 3.2, 2.45
+2025-10-27 20:39:34,106 [INFO] [ODDS] Odds para Reggiana vs Modena: 4.5, 3.3, 1.85
+2025-10-27 20:39:34,106 [INFO] coletor: [ODDS] Odds para Reggiana vs Modena: 4.5, 3.3, 1.85
+2025-10-27 20:39:34,106 [INFO] [ODDS] Odds para Palermo vs Monza: 2.15, 3.0, 3.75
+2025-10-27 20:39:34,106 [INFO] coletor: [ODDS] Odds para Palermo vs Monza: 2.15, 3.0, 3.75
+2025-10-27 20:39:34,107 [INFO] [ODDS] Odds para Cesena vs Carrarese: 2.0, 3.2, 4.0
+2025-10-27 20:39:34,107 [INFO] coletor: [ODDS] Odds para Cesena vs Carrarese: 2.0, 3.2, 4.0
+2025-10-27 20:39:34,107 [INFO] [ODDS] Odds para Frosinone vs Virtus Entella: 2.15, 3.2, 3.5
+2025-10-27 20:39:34,107 [INFO] coletor: [ODDS] Odds para Frosinone vs Virtus Entella: 2.15, 3.2, 3.5
+2025-10-27 20:39:34,107 [INFO] [ODDS] Odds para Clermont vs Montpellier: 3.1, 3.4, 2.15
+2025-10-27 20:39:34,107 [INFO] coletor: [ODDS] Odds para Clermont vs Montpellier: 3.1, 3.4, 2.15
+2025-10-27 20:39:34,108 [INFO] [ODDS] Odds para Grenoble vs Guingamp: 2.87, 3.1, 2.45
+2025-10-27 20:39:34,108 [INFO] coletor: [ODDS] Odds para Grenoble vs Guingamp: 2.87, 3.1, 2.45
+2025-10-27 20:39:34,108 [INFO] [ODDS] Odds para Nancy vs Bastia: 2.3, 2.9, 3.2
+2025-10-27 20:39:34,108 [INFO] coletor: [ODDS] Odds para Nancy vs Bastia: 2.3, 2.9, 3.2
+2025-10-27 20:39:34,109 [INFO] [ODDS] Odds para Laval vs Le Mans: 2.75, 3.2, 2.5
+2025-10-27 20:39:34,109 [INFO] coletor: [ODDS] Odds para Laval vs Le Mans: 2.75, 3.2, 2.5
+2025-10-27 20:39:34,109 [INFO] [ODDS] Odds para Rodez vs Annecy: 2.15, 3.4, 3.3
+2025-10-27 20:39:34,109 [INFO] coletor: [ODDS] Odds para Rodez vs Annecy: 2.15, 3.4, 3.3
+2025-10-27 20:39:34,110 [INFO] [ODDS] Odds para Saint-Étienne vs Pau: 1.66, 3.8, 4.75
+2025-10-27 20:39:34,110 [INFO] coletor: [ODDS] Odds para Saint-Étienne vs Pau: 1.66, 3.8, 4.75
+2025-10-27 20:39:34,110 [INFO] [ODDS] Odds para Troyes vs Amiens: 1.48, 4.5, 5.75
+2025-10-27 20:39:34,110 [INFO] coletor: [ODDS] Odds para Troyes vs Amiens: 1.48, 4.5, 5.75
+2025-10-27 20:39:34,110 [INFO] [ODDS] Odds para Dunkerque vs Red Star: 2.4, 3.1, 3.0
+2025-10-27 20:39:34,110 [INFO] coletor: [ODDS] Odds para Dunkerque vs Red Star: 2.4, 3.1, 3.0
+2025-10-27 20:39:34,111 [INFO] [ODDS] Odds para Boulogne vs Reims: 3.7, 3.4, 1.9
+2025-10-27 20:39:34,111 [INFO] coletor: [ODDS] Odds para Boulogne vs Reims: 3.7, 3.4, 1.9
+2025-10-27 20:39:34,111 [INFO] [ODDS] Odds para Sion vs St. Gallen: 2.2, 3.5, 3.1
+2025-10-27 20:39:34,111 [INFO] coletor: [ODDS] Odds para Sion vs St. Gallen: 2.2, 3.5, 3.1
+2025-10-27 20:39:34,112 [INFO] [ODDS] Odds para Thun vs Winterthur: 1.48, 4.5, 6.0
+2025-10-27 20:39:34,112 [INFO] coletor: [ODDS] Odds para Thun vs Winterthur: 1.48, 4.5, 6.0
+2025-10-27 20:39:34,112 [INFO] [ODDS] Odds para Bylis Ballsh vs Vora: 2.0, 3.1, 3.4
+2025-10-27 20:39:34,112 [INFO] coletor: [ODDS] Odds para Bylis Ballsh vs Vora: 2.0, 3.1, 3.4
+2025-10-27 20:39:34,112 [INFO] [ODDS] Odds para Egnatia Rrogozhinë vs Teuta Durrës: 1.85, 3.25, 3.75
+2025-10-27 20:39:34,112 [INFO] coletor: [ODDS] Odds para Egnatia Rrogozhinë vs Teuta Durrës: 1.85, 3.25, 3.75
+2025-10-27 20:39:34,113 [INFO] [ODDS] Odds para Rionegro Águilas vs Envigado: 1.66, 3.6, 5.5
+2025-10-27 20:39:34,113 [INFO] coletor: [ODDS] Odds para Rionegro Águilas vs Envigado: 1.66, 3.6, 5.5
+2025-10-27 20:39:34,113 [INFO] [ODDS] Odds para Deportivo Cali vs Alianza Petrolera: 1.9, 3.25, 4.2
+2025-10-27 20:39:34,113 [INFO] coletor: [ODDS] Odds para Deportivo Cali vs Alianza Petrolera: 1.9, 3.25, 4.2
+2025-10-27 20:39:34,114 [WARNING] [ODDS] Odds não encontradas para Bray Wanderers vs UCD. Motivo: could not convert string to float: '-'
+2025-10-27 20:39:34,114 [WARNING] coletor: [ODDS] Odds não encontradas para Bray Wanderers vs UCD. Motivo: could not convert string to float: '-'
+2025-10-27 20:39:34,114 [WARNING] [ODDS] Odds não encontradas para Cobh Ramblers vs Treaty United. Motivo: could not convert string to float: '-'
+2025-10-27 20:39:34,114 [WARNING] coletor: [ODDS] Odds não encontradas para Cobh Ramblers vs Treaty United. Motivo: could not convert string to float: '-'
+2025-10-27 20:39:34,114 [INFO] [ODDS] Odds para Coleraine vs Linfield: 1.85, 3.4, 3.7
+2025-10-27 20:39:34,114 [INFO] coletor: [ODDS] Odds para Coleraine vs Linfield: 1.85, 3.4, 3.7
+2025-10-27 20:39:34,115 [WARNING] [ODDS] Odds não encontradas para Felgueiras 1932 vs Farense. Motivo: could not convert string to float: '-'
+2025-10-27 20:39:34,115 [WARNING] coletor: [ODDS] Odds não encontradas para Felgueiras 1932 vs Farense. Motivo: could not convert string to float: '-'
+2025-10-27 20:39:34,115 [INFO] [AGENDA] Válidos=31, Incompletos=0, Filtrados=78, Duplicados=0
+2025-10-27 20:39:34,115 [INFO] coletor: [AGENDA] Válidos=31, Incompletos=0, Filtrados=78, Duplicados=0
+2025-10-27 20:39:34,115 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.01s
+2025-10-27 20:39:34,120 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-28.csv (31 linhas).
+2025-10-27 20:39:50,193 [INFO] __main__: [TEMPO] Fase 2 concluída em 16.07s (links extraídos: 62)
+2025-10-27 20:44:16,607 [INFO] __main__: [TEMPO] Fase 3 concluída em 266.41s (jogos raspados: 69)
+2025-10-27 20:44:16,704 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (42 linhas).
+2025-10-27 20:44:16,876 [INFO] __main__: Exportado histórico para dados_redscore.csv (10443 linhas)
+2025-10-27 20:44:17,385 [INFO] __main__: --- Rotina concluída em 307.07s ---
