@@ -18688,3 +18688,126 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-10-27 20:44:16,704 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (42 linhas).
 2025-10-27 20:44:16,876 [INFO] __main__: Exportado histórico para dados_redscore.csv (10443 linhas)
 2025-10-27 20:44:17,385 [INFO] __main__: --- Rotina concluída em 307.07s ---
+2025-10-28 19:25:25,532 [INFO] __main__: Coletor iniciado
+2025-10-28 19:25:25,533 [INFO] __main__: --- Rotina diária iniciada ---
+2025-10-28 19:25:51,536 [INFO] [ODDS] Odds para Como vs Hellas Verona: 1.57, 3.7, 6.5
+2025-10-28 19:25:51,536 [INFO] coletor: [ODDS] Odds para Como vs Hellas Verona: 1.57, 3.7, 6.5
+2025-10-28 19:25:51,536 [INFO] [ODDS] Odds para Juventus vs Udinese: 1.48, 4.1, 8.0
+2025-10-28 19:25:51,536 [INFO] coletor: [ODDS] Odds para Juventus vs Udinese: 1.48, 4.1, 8.0
+2025-10-28 19:25:51,537 [INFO] [ODDS] Odds para Roma vs Parma: 1.55, 3.7, 7.0
+2025-10-28 19:25:51,537 [INFO] coletor: [ODDS] Odds para Roma vs Parma: 1.55, 3.7, 7.0
+2025-10-28 19:25:51,537 [INFO] [ODDS] Odds para Bologna vs Torino: 1.75, 3.5, 5.0
+2025-10-28 19:25:51,537 [INFO] coletor: [ODDS] Odds para Bologna vs Torino: 1.75, 3.5, 5.0
+2025-10-28 19:25:51,538 [INFO] [ODDS] Odds para Inter vs Fiorentina: 1.42, 4.5, 8.0
+2025-10-28 19:25:51,538 [INFO] coletor: [ODDS] Odds para Inter vs Fiorentina: 1.42, 4.5, 8.0
+2025-10-28 19:25:51,538 [INFO] [ODDS] Odds para Genoa vs Cremonese: 1.85, 3.25, 4.75
+2025-10-28 19:25:51,538 [INFO] coletor: [ODDS] Odds para Genoa vs Cremonese: 1.85, 3.25, 4.75
+2025-10-28 19:25:51,538 [INFO] [ODDS] Odds para Lorient vs PSG: 9.5, 6.5, 1.25
+2025-10-28 19:25:51,538 [INFO] coletor: [ODDS] Odds para Lorient vs PSG: 9.5, 6.5, 1.25
+2025-10-28 19:25:51,539 [INFO] [ODDS] Odds para Nice vs LOSC Lille: 3.1, 3.5, 2.25
+2025-10-28 19:25:51,539 [INFO] coletor: [ODDS] Odds para Nice vs LOSC Lille: 3.1, 3.5, 2.25
+2025-10-28 19:25:51,539 [INFO] [ODDS] Odds para Metz vs Lens: 6.25, 4.5, 1.5
+2025-10-28 19:25:51,539 [INFO] coletor: [ODDS] Odds para Metz vs Lens: 6.25, 4.5, 1.5
+2025-10-28 19:25:51,540 [INFO] [ODDS] Odds para Le Havre vs Brest: 2.55, 3.2, 2.9
+2025-10-28 19:25:51,540 [INFO] coletor: [ODDS] Odds para Le Havre vs Brest: 2.55, 3.2, 2.9
+2025-10-28 19:25:51,540 [INFO] [ODDS] Odds para Toulouse vs Rennes: 2.15, 3.5, 3.3
+2025-10-28 19:25:51,540 [INFO] coletor: [ODDS] Odds para Toulouse vs Rennes: 2.15, 3.5, 3.3
+2025-10-28 19:25:51,540 [INFO] [ODDS] Odds para Strasbourg vs Auxerre: 1.7, 3.9, 4.75
+2025-10-28 19:25:51,540 [INFO] coletor: [ODDS] Odds para Strasbourg vs Auxerre: 1.7, 3.9, 4.75
+2025-10-28 19:25:51,541 [INFO] [ODDS] Odds para Nantes vs Monaco: 4.75, 4.0, 1.7
+2025-10-28 19:25:51,541 [INFO] coletor: [ODDS] Odds para Nantes vs Monaco: 4.75, 4.0, 1.7
+2025-10-28 19:25:51,541 [INFO] [ODDS] Odds para Paris vs Lyon: 2.62, 3.5, 2.55
+2025-10-28 19:25:51,541 [INFO] coletor: [ODDS] Odds para Paris vs Lyon: 2.62, 3.5, 2.55
+2025-10-28 19:25:51,542 [INFO] [ODDS] Odds para Marseille vs Angers: 1.25, 6.0, 12.0
+2025-10-28 19:25:51,542 [INFO] coletor: [ODDS] Odds para Marseille vs Angers: 1.25, 6.0, 12.0
+2025-10-28 19:25:51,542 [INFO] [ODDS] Odds para Fluminense vs Ceará: 1.55, 3.9, 6.5
+2025-10-28 19:25:51,542 [INFO] coletor: [ODDS] Odds para Fluminense vs Ceará: 1.55, 3.9, 6.5
+2025-10-28 19:25:51,543 [WARNING] [ODDS] Odds não encontradas para Los Angeles FC vs Austin. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,543 [WARNING] coletor: [ODDS] Odds não encontradas para Los Angeles FC vs Austin. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,543 [INFO] [ODDS] Odds para Motherwell vs Dundee United: 2.15, 3.75, 3.0
+2025-10-28 19:25:51,543 [INFO] coletor: [ODDS] Odds para Motherwell vs Dundee United: 2.15, 3.75, 3.0
+2025-10-28 19:25:51,543 [INFO] [ODDS] Odds para Hibernian vs Rangers: 2.8, 3.7, 2.3
+2025-10-28 19:25:51,543 [INFO] coletor: [ODDS] Odds para Hibernian vs Rangers: 2.8, 3.7, 2.3
+2025-10-28 19:25:51,544 [INFO] [ODDS] Odds para Celtic vs Falkirk: 1.18, 8.0, 13.0
+2025-10-28 19:25:51,544 [INFO] coletor: [ODDS] Odds para Celtic vs Falkirk: 1.18, 8.0, 13.0
+2025-10-28 19:25:51,544 [INFO] [ODDS] Odds para Kilmarnock vs Aberdeen: 2.7, 3.3, 2.55
+2025-10-28 19:25:51,544 [INFO] coletor: [ODDS] Odds para Kilmarnock vs Aberdeen: 2.7, 3.3, 2.55
+2025-10-28 19:25:51,545 [INFO] [ODDS] Odds para St. Mirren vs Hearts: 4.33, 3.7, 1.75
+2025-10-28 19:25:51,545 [INFO] coletor: [ODDS] Odds para St. Mirren vs Hearts: 4.33, 3.7, 1.75
+2025-10-28 19:25:51,545 [WARNING] [ODDS] Odds não encontradas para Hibernian vs Rangers. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,545 [WARNING] coletor: [ODDS] Odds não encontradas para Hibernian vs Rangers. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,545 [WARNING] [ODDS] Odds não encontradas para Motherwell vs Dundee United. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,545 [WARNING] coletor: [ODDS] Odds não encontradas para Motherwell vs Dundee United. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,546 [WARNING] [ODDS] Odds não encontradas para Dundee vs Livingston. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,546 [WARNING] coletor: [ODDS] Odds não encontradas para Dundee vs Livingston. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,546 [WARNING] [ODDS] Odds não encontradas para Celtic vs Falkirk. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,546 [WARNING] coletor: [ODDS] Odds não encontradas para Celtic vs Falkirk. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,547 [WARNING] [ODDS] Odds não encontradas para St. Mirren vs Hearts. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,547 [WARNING] coletor: [ODDS] Odds não encontradas para St. Mirren vs Hearts. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,547 [WARNING] [ODDS] Odds não encontradas para Kilmarnock vs Aberdeen. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,547 [WARNING] coletor: [ODDS] Odds não encontradas para Kilmarnock vs Aberdeen. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,548 [INFO] [ODDS] Odds para Mantova vs Catanzaro: 2.5, 3.25, 2.8
+2025-10-28 19:25:51,548 [INFO] coletor: [ODDS] Odds para Mantova vs Catanzaro: 2.5, 3.25, 2.8
+2025-10-28 19:25:51,548 [INFO] [ODDS] Odds para Spezia vs Calcio Padova: 1.85, 3.3, 4.5
+2025-10-28 19:25:51,548 [INFO] coletor: [ODDS] Odds para Spezia vs Calcio Padova: 1.85, 3.3, 4.5
+2025-10-28 19:25:51,548 [INFO] [ODDS] Odds para Juve Stabia vs Bari 1908: 2.0, 3.3, 4.0
+2025-10-28 19:25:51,548 [INFO] coletor: [ODDS] Odds para Juve Stabia vs Bari 1908: 2.0, 3.3, 4.0
+2025-10-28 19:25:51,549 [INFO] [ODDS] Odds para Venezia vs Südtirol: 1.75, 3.9, 4.2
+2025-10-28 19:25:51,549 [INFO] coletor: [ODDS] Odds para Venezia vs Südtirol: 1.75, 3.9, 4.2
+2025-10-28 19:25:51,549 [INFO] [ODDS] Odds para Basel vs Zürich: 1.65, 4.5, 4.33
+2025-10-28 19:25:51,549 [INFO] coletor: [ODDS] Odds para Basel vs Zürich: 1.65, 4.5, 4.33
+2025-10-28 19:25:51,550 [INFO] [ODDS] Odds para Lausanne Sport vs Servette: 2.2, 3.6, 3.0
+2025-10-28 19:25:51,550 [INFO] coletor: [ODDS] Odds para Lausanne Sport vs Servette: 2.2, 3.6, 3.0
+2025-10-28 19:25:51,550 [INFO] [ODDS] Odds para Brann vs Bodø / Glimt: 3.4, 3.9, 1.95
+2025-10-28 19:25:51,550 [INFO] coletor: [ODDS] Odds para Brann vs Bodø / Glimt: 3.4, 3.9, 1.95
+2025-10-28 19:25:51,550 [INFO] [ODDS] Odds para Rosenborg vs Sandefjord: 1.95, 3.9, 3.4
+2025-10-28 19:25:51,550 [INFO] coletor: [ODDS] Odds para Rosenborg vs Sandefjord: 1.95, 3.9, 3.4
+2025-10-28 19:25:51,551 [INFO] [ODDS] Odds para Flamurtari vs Vllaznia Shkodër: 4.33, 3.2, 1.75
+2025-10-28 19:25:51,551 [INFO] coletor: [ODDS] Odds para Flamurtari vs Vllaznia Shkodër: 4.33, 3.2, 1.75
+2025-10-28 19:25:51,551 [INFO] [ODDS] Odds para Tirana vs AF Elbasani: 2.6, 2.9, 2.6
+2025-10-28 19:25:51,551 [INFO] coletor: [ODDS] Odds para Tirana vs AF Elbasani: 2.6, 2.9, 2.6
+2025-10-28 19:25:51,552 [WARNING] [ODDS] Odds não encontradas para Dinamo Tirana vs Partizani Tirana. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,552 [WARNING] coletor: [ODDS] Odds não encontradas para Dinamo Tirana vs Partizani Tirana. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,552 [INFO] [ODDS] Odds para JS Saoura vs JS Kabylie: 2.2, 2.87, 3.25
+2025-10-28 19:25:51,552 [INFO] coletor: [ODDS] Odds para JS Saoura vs JS Kabylie: 2.2, 2.87, 3.25
+2025-10-28 19:25:51,552 [INFO] [ODDS] Odds para ASO Chlef vs CR Belouizdad: 3.0, 2.9, 2.3
+2025-10-28 19:25:51,552 [INFO] coletor: [ODDS] Odds para ASO Chlef vs CR Belouizdad: 3.0, 2.9, 2.3
+2025-10-28 19:25:51,553 [INFO] [ODDS] Odds para ES Sétif vs USM Alger: 2.2, 2.8, 3.3
+2025-10-28 19:25:51,553 [INFO] coletor: [ODDS] Odds para ES Sétif vs USM Alger: 2.2, 2.8, 3.3
+2025-10-28 19:25:51,553 [INFO] [ODDS] Odds para Bolívar vs Aurora: 1.45, 5.25, 5.5
+2025-10-28 19:25:51,553 [INFO] coletor: [ODDS] Odds para Bolívar vs Aurora: 1.45, 5.25, 5.5
+2025-10-28 19:25:51,554 [INFO] [ODDS] Odds para La Equidad vs Fortaleza CEIF: 4.1, 3.3, 1.9
+2025-10-28 19:25:51,554 [INFO] coletor: [ODDS] Odds para La Equidad vs Fortaleza CEIF: 4.1, 3.3, 1.9
+2025-10-28 19:25:51,554 [INFO] [ODDS] Odds para Junior FC vs Santa Fe: 1.8, 3.5, 4.5
+2025-10-28 19:25:51,554 [INFO] coletor: [ODDS] Odds para Junior FC vs Santa Fe: 1.8, 3.5, 4.5
+2025-10-28 19:25:51,554 [INFO] [ODDS] Odds para Independiente Medellín vs Atlético Bucaramanga: 1.83, 3.6, 4.2
+2025-10-28 19:25:51,554 [INFO] coletor: [ODDS] Odds para Independiente Medellín vs Atlético Bucaramanga: 1.83, 3.6, 4.2
+2025-10-28 19:25:51,555 [WARNING] [ODDS] Odds não encontradas para Millonarios vs Once Caldas. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,555 [WARNING] coletor: [ODDS] Odds não encontradas para Millonarios vs Once Caldas. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,555 [INFO] [ODDS] Odds para ENPPI vs Pyramids FC: 7.0, 3.6, 1.5
+2025-10-28 19:25:51,555 [INFO] coletor: [ODDS] Odds para ENPPI vs Pyramids FC: 7.0, 3.6, 1.5
+2025-10-28 19:25:51,556 [INFO] [ODDS] Odds para Petrojet vs Al Ahly: 8.0, 4.1, 1.4
+2025-10-28 19:25:51,556 [INFO] coletor: [ODDS] Odds para Petrojet vs Al Ahly: 8.0, 4.1, 1.4
+2025-10-28 19:25:51,556 [INFO] [ODDS] Odds para Komárno vs Slovan Bratislava: 4.0, 4.2, 1.61
+2025-10-28 19:25:51,556 [INFO] coletor: [ODDS] Odds para Komárno vs Slovan Bratislava: 4.0, 4.2, 1.61
+2025-10-28 19:25:51,557 [INFO] [ODDS] Odds para Spartak Trnava vs FK Košice: 1.53, 4.33, 5.0
+2025-10-28 19:25:51,557 [INFO] coletor: [ODDS] Odds para Spartak Trnava vs FK Košice: 1.53, 4.33, 5.0
+2025-10-28 19:25:51,557 [INFO] [ODDS] Odds para Shamrock Rovers vs Galway United: 1.85, 3.4, 3.9
+2025-10-28 19:25:51,557 [INFO] coletor: [ODDS] Odds para Shamrock Rovers vs Galway United: 1.85, 3.4, 3.9
+2025-10-28 19:25:51,557 [WARNING] [ODDS] Odds não encontradas para Shamrock Rovers vs Galway United. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,557 [WARNING] coletor: [ODDS] Odds não encontradas para Shamrock Rovers vs Galway United. Motivo: could not convert string to float: '-'
+2025-10-28 19:25:51,558 [INFO] [ODDS] Odds para Mjøndalen vs Stabæk: 4.75, 4.2, 1.61
+2025-10-28 19:25:51,558 [INFO] coletor: [ODDS] Odds para Mjøndalen vs Stabæk: 4.75, 4.2, 1.61
+2025-10-28 19:25:51,558 [INFO] [ODDS] Odds para Lusitania FC Lourosa vs Vizela: 3.1, 3.1, 2.37
+2025-10-28 19:25:51,558 [INFO] coletor: [ODDS] Odds para Lusitania FC Lourosa vs Vizela: 3.1, 3.1, 2.37
+2025-10-28 19:25:51,559 [INFO] [ODDS] Odds para UD Oliveirense vs Porto II: 3.1, 3.2, 2.3
+2025-10-28 19:25:51,559 [INFO] coletor: [ODDS] Odds para UD Oliveirense vs Porto II: 3.1, 3.2, 2.3
+2025-10-28 19:25:51,559 [INFO] [AGENDA] Válidos=56, Incompletos=0, Filtrados=97, Duplicados=0
+2025-10-28 19:25:51,559 [INFO] coletor: [AGENDA] Válidos=56, Incompletos=0, Filtrados=97, Duplicados=0
+2025-10-28 19:25:51,559 [INFO] __main__: [TEMPO] Fase 1 concluída em 5.76s
+2025-10-28 19:25:51,629 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-10-29.csv (50 linhas).
+2025-10-28 19:26:21,313 [INFO] __main__: [TEMPO] Fase 2 concluída em 29.68s (links extraídos: 100)
+2025-10-28 19:32:10,798 [INFO] __main__: [TEMPO] Fase 3 concluída em 349.48s (jogos raspados: 154)
+2025-10-28 19:32:10,949 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (53 linhas).
+2025-10-28 19:32:11,109 [INFO] __main__: Exportado histórico para dados_redscore.csv (10496 linhas)
+2025-10-28 19:32:11,723 [INFO] __main__: --- Rotina concluída em 406.19s ---
