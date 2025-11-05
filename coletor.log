@@ -20176,3 +20176,48 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-04 19:31:13,713 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (21 linhas).
 2025-11-04 19:31:13,894 [INFO] __main__: Exportado histórico para dados_redscore.csv (11089 linhas)
 2025-11-04 19:31:14,500 [INFO] __main__: --- Rotina concluída em 235.94s ---
+2025-11-05 19:38:46,074 [INFO] __main__: Coletor iniciado
+2025-11-05 19:38:46,075 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-05 19:39:12,396 [INFO] [ODDS] Odds para Fluminense vs Mirassol: 1.9, 3.3, 4.5
+2025-11-05 19:39:12,396 [INFO] coletor: [ODDS] Odds para Fluminense vs Mirassol: 1.9, 3.3, 4.5
+2025-11-05 19:39:12,397 [INFO] [ODDS] Odds para Ceará vs Fortaleza: 2.4, 3.2, 3.1
+2025-11-05 19:39:12,397 [INFO] coletor: [ODDS] Odds para Ceará vs Fortaleza: 2.4, 3.2, 3.1
+2025-11-05 19:39:12,397 [WARNING] [ODDS] Odds não encontradas para Palmeiras vs Santos. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,397 [WARNING] coletor: [ODDS] Odds não encontradas para Palmeiras vs Santos. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,398 [INFO] [ODDS] Odds para Reading vs Stevenage: 2.87, 3.3, 2.45
+2025-11-05 19:39:12,398 [INFO] coletor: [ODDS] Odds para Reading vs Stevenage: 2.87, 3.3, 2.45
+2025-11-05 19:39:12,398 [INFO] [ODDS] Odds para Al Hazm vs Al Khaleej: 3.0, 3.3, 2.05
+2025-11-05 19:39:12,398 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Khaleej: 3.0, 3.3, 2.05
+2025-11-05 19:39:12,399 [INFO] [ODDS] Odds para Al Riyadh vs Damac: 2.0, 3.2, 3.3
+2025-11-05 19:39:12,399 [INFO] coletor: [ODDS] Odds para Al Riyadh vs Damac: 2.0, 3.2, 3.3
+2025-11-05 19:39:12,399 [INFO] [ODDS] Odds para Al Quadisiya vs Al Kholood: 1.44, 4.0, 5.75
+2025-11-05 19:39:12,399 [INFO] coletor: [ODDS] Odds para Al Quadisiya vs Al Kholood: 1.44, 4.0, 5.75
+2025-11-05 19:39:12,400 [WARNING] [ODDS] Odds não encontradas para MC Oran vs ES Sétif. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,400 [WARNING] coletor: [ODDS] Odds não encontradas para MC Oran vs ES Sétif. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,400 [WARNING] [ODDS] Odds não encontradas para JS Kabylie vs MB Rouisset. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,400 [WARNING] coletor: [ODDS] Odds não encontradas para JS Kabylie vs MB Rouisset. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,400 [WARNING] [ODDS] Odds não encontradas para USM Khenchela vs JS Saoura. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,400 [WARNING] coletor: [ODDS] Odds não encontradas para USM Khenchela vs JS Saoura. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,401 [WARNING] [ODDS] Odds não encontradas para Mostaganem vs USM Alger. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,401 [WARNING] coletor: [ODDS] Odds não encontradas para Mostaganem vs USM Alger. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,401 [WARNING] [ODDS] Odds não encontradas para Ben Aknoun vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,401 [WARNING] coletor: [ODDS] Odds não encontradas para Ben Aknoun vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,402 [WARNING] [ODDS] Odds não encontradas para MC Alger vs CS Constantine. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,402 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs CS Constantine. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,402 [WARNING] [ODDS] Odds não encontradas para Oued Akbou vs ASO Chlef. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,402 [WARNING] coletor: [ODDS] Odds não encontradas para Oued Akbou vs ASO Chlef. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,402 [WARNING] [ODDS] Odds não encontradas para Paradou AC vs El Bayadh. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,402 [WARNING] coletor: [ODDS] Odds não encontradas para Paradou AC vs El Bayadh. Motivo: could not convert string to float: '-'
+2025-11-05 19:39:12,403 [INFO] [ODDS] Odds para Bolívar vs Aurora: 1.3, 5.25, 8.5
+2025-11-05 19:39:12,403 [INFO] coletor: [ODDS] Odds para Bolívar vs Aurora: 1.3, 5.25, 8.5
+2025-11-05 19:39:12,403 [INFO] [ODDS] Odds para Boyacá Chicó vs América de Cali: 5.0, 3.75, 1.65
+2025-11-05 19:39:12,403 [INFO] coletor: [ODDS] Odds para Boyacá Chicó vs América de Cali: 5.0, 3.75, 1.65
+2025-11-05 19:39:12,403 [INFO] [AGENDA] Válidos=17, Incompletos=0, Filtrados=35, Duplicados=0
+2025-11-05 19:39:12,403 [INFO] coletor: [AGENDA] Válidos=17, Incompletos=0, Filtrados=35, Duplicados=0
+2025-11-05 19:39:12,403 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.11s
+2025-11-05 19:39:12,408 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-06.csv (17 linhas).
+2025-11-05 19:39:21,584 [INFO] __main__: [TEMPO] Fase 2 concluída em 9.18s (links extraídos: 34)
+2025-11-05 19:41:24,893 [INFO] __main__: [TEMPO] Fase 3 concluída em 123.31s (jogos raspados: 87)
+2025-11-05 19:41:24,995 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
+2025-11-05 19:41:25,159 [INFO] __main__: Exportado histórico para dados_redscore.csv (11108 linhas)
+2025-11-05 19:41:25,773 [INFO] __main__: --- Rotina concluída em 159.70s ---
