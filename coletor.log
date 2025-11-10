@@ -21321,3 +21321,18 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-09 21:05:10,168 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.7 MB).
 2025-11-09 21:05:10,179 [INFO] __main__: [DB] VACUUM concluído.
 2025-11-09 21:05:11,035 [INFO] __main__: --- Rotina concluída em 112.22s ---
+2025-11-10 19:24:52,139 [INFO] __main__: Coletor iniciado
+2025-11-10 19:24:52,140 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-10 19:25:13,664 [INFO] [ODDS] Odds para York City vs Rochdale: 1.9, 3.6, 3.5
+2025-11-10 19:25:13,664 [INFO] coletor: [ODDS] Odds para York City vs Rochdale: 1.9, 3.6, 3.5
+2025-11-10 19:25:13,665 [INFO] [ODDS] Odds para Forest Green vs Tamworth: 1.5, 3.8, 5.75
+2025-11-10 19:25:13,665 [INFO] coletor: [ODDS] Odds para Forest Green vs Tamworth: 1.5, 3.8, 5.75
+2025-11-10 19:25:13,665 [INFO] [AGENDA] Válidos=2, Incompletos=0, Filtrados=32, Duplicados=0
+2025-11-10 19:25:13,665 [INFO] coletor: [AGENDA] Válidos=2, Incompletos=0, Filtrados=32, Duplicados=0
+2025-11-10 19:25:13,666 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.30s
+2025-11-10 19:25:13,674 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-11.csv (2 linhas).
+2025-11-10 19:25:15,311 [INFO] __main__: [TEMPO] Fase 2 concluída em 1.64s (links extraídos: 4)
+2025-11-10 19:25:29,992 [INFO] __main__: [TEMPO] Fase 3 concluída em 14.68s (jogos raspados: 4)
+2025-11-10 19:25:30,045 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (4 linhas).
+2025-11-10 19:25:30,273 [INFO] __main__: Exportado histórico para dados_redscore.csv (11615 linhas)
+2025-11-10 19:25:31,761 [INFO] __main__: --- Rotina concluída em 39.62s ---
