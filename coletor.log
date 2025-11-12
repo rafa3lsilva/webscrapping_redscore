@@ -21353,3 +21353,47 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-11 21:20:31,961 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
 2025-11-11 21:20:32,165 [INFO] __main__: Exportado histórico para dados_redscore.csv (11621 linhas)
 2025-11-11 21:20:33,317 [INFO] __main__: --- Rotina concluída em 38.92s ---
+2025-11-12 19:18:58,707 [INFO] __main__: Coletor iniciado
+2025-11-12 19:18:58,708 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-12 19:20:06,495 [WARNING] [ODDS] Odds não encontradas para USM Alger vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,495 [WARNING] coletor: [ODDS] Odds não encontradas para USM Alger vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,496 [WARNING] [ODDS] Odds não encontradas para ES Sétif vs JS Kabylie. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,496 [WARNING] coletor: [ODDS] Odds não encontradas para ES Sétif vs JS Kabylie. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,496 [WARNING] [ODDS] Odds não encontradas para CS Constantine vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,496 [WARNING] coletor: [ODDS] Odds não encontradas para CS Constantine vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,497 [WARNING] [ODDS] Odds não encontradas para JS Saoura vs Mostaganem. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,497 [WARNING] coletor: [ODDS] Odds não encontradas para JS Saoura vs Mostaganem. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,497 [WARNING] [ODDS] Odds não encontradas para MB Rouisset vs MC Alger. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,497 [WARNING] coletor: [ODDS] Odds não encontradas para MB Rouisset vs MC Alger. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,498 [WARNING] [ODDS] Odds não encontradas para ASO Chlef vs MC Oran. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,498 [WARNING] coletor: [ODDS] Odds não encontradas para ASO Chlef vs MC Oran. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,498 [WARNING] [ODDS] Odds não encontradas para El Bayadh vs USM Khenchela. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,498 [WARNING] coletor: [ODDS] Odds não encontradas para El Bayadh vs USM Khenchela. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,499 [WARNING] [ODDS] Odds não encontradas para CR Belouizdad vs Oued Akbou. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,499 [WARNING] coletor: [ODDS] Odds não encontradas para CR Belouizdad vs Oued Akbou. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,499 [INFO] [ODDS] Odds para Llaneros vs Envigado: 2.62, 2.8, 3.1
+2025-11-12 19:20:06,499 [INFO] coletor: [ODDS] Odds para Llaneros vs Envigado: 2.62, 2.8, 3.1
+2025-11-12 19:20:06,500 [WARNING] [ODDS] Odds não encontradas para Rionegro Águilas vs Deportes Tolima. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,500 [WARNING] coletor: [ODDS] Odds não encontradas para Rionegro Águilas vs Deportes Tolima. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,500 [WARNING] [ODDS] Odds não encontradas para Unión Magdalena vs Fortaleza CEIF. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,500 [WARNING] coletor: [ODDS] Odds não encontradas para Unión Magdalena vs Fortaleza CEIF. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,500 [INFO] [ODDS] Odds para Deportivo Cali vs Once Caldas: 2.05, 3.1, 3.6
+2025-11-12 19:20:06,500 [INFO] coletor: [ODDS] Odds para Deportivo Cali vs Once Caldas: 2.05, 3.1, 3.6
+2025-11-12 19:20:06,501 [WARNING] [ODDS] Odds não encontradas para Santa Fe vs Alianza Petrolera. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,501 [WARNING] coletor: [ODDS] Odds não encontradas para Santa Fe vs Alianza Petrolera. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,501 [WARNING] [ODDS] Odds não encontradas para Independiente Medellín vs América de Cali. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,501 [WARNING] coletor: [ODDS] Odds não encontradas para Independiente Medellín vs América de Cali. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,502 [WARNING] [ODDS] Odds não encontradas para Deportivo Pasto vs Atlético Bucaramanga. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,502 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Pasto vs Atlético Bucaramanga. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,502 [WARNING] [ODDS] Odds não encontradas para Junior FC vs Atlético Nacional. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,502 [WARNING] coletor: [ODDS] Odds não encontradas para Junior FC vs Atlético Nacional. Motivo: could not convert string to float: '-'
+2025-11-12 19:20:06,502 [INFO] [AGENDA] Válidos=16, Incompletos=0, Filtrados=19, Duplicados=0
+2025-11-12 19:20:06,502 [INFO] coletor: [AGENDA] Válidos=16, Incompletos=0, Filtrados=19, Duplicados=0
+2025-11-12 19:20:06,503 [INFO] __main__: [TEMPO] Fase 1 concluída em 22.42s
+2025-11-12 19:20:06,508 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-13.csv (16 linhas).
+2025-11-12 19:20:27,476 [INFO] __main__: [F2] 8 confrontos requerem fallback com Selenium (sequencial).
+2025-11-12 19:20:52,782 [INFO] __main__: [TEMPO] Fase 2 concluída em 46.27s (links extraídos: 32)
+2025-11-12 19:23:47,054 [INFO] __main__: [TEMPO] Fase 3 concluída em 174.27s (jogos raspados: 94)
+2025-11-12 19:23:47,192 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
+2025-11-12 19:23:47,350 [INFO] __main__: Exportado histórico para dados_redscore.csv (11628 linhas)
+2025-11-12 19:23:47,889 [INFO] __main__: --- Rotina concluída em 289.18s ---
