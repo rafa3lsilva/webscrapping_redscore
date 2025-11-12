@@ -21336,3 +21336,20 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-10 19:25:30,045 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (4 linhas).
 2025-11-10 19:25:30,273 [INFO] __main__: Exportado histórico para dados_redscore.csv (11615 linhas)
 2025-11-10 19:25:31,761 [INFO] __main__: --- Rotina concluída em 39.62s ---
+2025-11-11 21:19:54,398 [INFO] __main__: Coletor iniciado
+2025-11-11 21:19:54,399 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-11 21:20:11,014 [INFO] [ODDS] Odds para Atlético Mineiro vs Fortaleza: 1.66, 3.6, 5.5
+2025-11-11 21:20:11,014 [INFO] coletor: [ODDS] Odds para Atlético Mineiro vs Fortaleza: 1.66, 3.6, 5.5
+2025-11-11 21:20:11,016 [WARNING] [ODDS] Odds não encontradas para La Equidad vs Deportivo Pereira. Motivo: could not convert string to float: '-'
+2025-11-11 21:20:11,016 [WARNING] coletor: [ODDS] Odds não encontradas para La Equidad vs Deportivo Pereira. Motivo: could not convert string to float: '-'
+2025-11-11 21:20:11,017 [INFO] [ODDS] Odds para Boyacá Chicó vs Millonarios: 4.2, 3.6, 1.75
+2025-11-11 21:20:11,017 [INFO] coletor: [ODDS] Odds para Boyacá Chicó vs Millonarios: 4.2, 3.6, 1.75
+2025-11-11 21:20:11,017 [INFO] [AGENDA] Válidos=3, Incompletos=0, Filtrados=48, Duplicados=0
+2025-11-11 21:20:11,017 [INFO] coletor: [AGENDA] Válidos=3, Incompletos=0, Filtrados=48, Duplicados=0
+2025-11-11 21:20:11,017 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.01s
+2025-11-11 21:20:11,023 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-12.csv (3 linhas).
+2025-11-11 21:20:12,966 [INFO] __main__: [TEMPO] Fase 2 concluída em 1.94s (links extraídos: 6)
+2025-11-11 21:20:31,888 [INFO] __main__: [TEMPO] Fase 3 concluída em 18.92s (jogos raspados: 11)
+2025-11-11 21:20:31,961 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
+2025-11-11 21:20:32,165 [INFO] __main__: Exportado histórico para dados_redscore.csv (11621 linhas)
+2025-11-11 21:20:33,317 [INFO] __main__: --- Rotina concluída em 38.92s ---
