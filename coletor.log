@@ -21397,3 +21397,26 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-12 19:23:47,192 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
 2025-11-12 19:23:47,350 [INFO] __main__: Exportado histórico para dados_redscore.csv (11628 linhas)
 2025-11-12 19:23:47,889 [INFO] __main__: --- Rotina concluída em 289.18s ---
+2025-11-13 23:35:22,341 [INFO] __main__: Coletor iniciado
+2025-11-13 23:35:22,342 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-13 23:35:37,888 [INFO] [ODDS] Odds para Valladolid vs Las Palmas: 2.35, 3.0, 3.4
+2025-11-13 23:35:37,888 [INFO] coletor: [ODDS] Odds para Valladolid vs Las Palmas: 2.35, 3.0, 3.4
+2025-11-13 23:35:37,888 [INFO] [ODDS] Odds para Lanús vs Atlético Tucumán: 1.9, 3.3, 4.5
+2025-11-13 23:35:37,888 [INFO] coletor: [ODDS] Odds para Lanús vs Atlético Tucumán: 1.9, 3.3, 4.5
+2025-11-13 23:35:37,888 [INFO] [ODDS] Odds para Paysandu vs Amazonas: 2.8, 3.25, 2.5
+2025-11-13 23:35:37,888 [INFO] coletor: [ODDS] Odds para Paysandu vs Amazonas: 2.8, 3.25, 2.5
+2025-11-13 23:35:37,888 [INFO] [ODDS] Odds para Glentoran vs Carrick Rangers: 1.53, 3.9, 5.75
+2025-11-13 23:35:37,888 [INFO] coletor: [ODDS] Odds para Glentoran vs Carrick Rangers: 1.53, 3.9, 5.75
+2025-11-13 23:35:37,889 [INFO] [ODDS] Odds para Flint Town United vs The New Saints: 9.0, 5.5, 1.25
+2025-11-13 23:35:37,889 [INFO] coletor: [ODDS] Odds para Flint Town United vs The New Saints: 9.0, 5.5, 1.25
+2025-11-13 23:35:37,889 [INFO] [ODDS] Odds para Cardiff MU vs Briton Ferry: 1.6, 4.0, 4.75
+2025-11-13 23:35:37,889 [INFO] coletor: [ODDS] Odds para Cardiff MU vs Briton Ferry: 1.6, 4.0, 4.75
+2025-11-13 23:35:37,889 [INFO] [AGENDA] Válidos=6, Incompletos=0, Filtrados=91, Duplicados=0
+2025-11-13 23:35:37,889 [INFO] coletor: [AGENDA] Válidos=6, Incompletos=0, Filtrados=91, Duplicados=0
+2025-11-13 23:35:37,889 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.19s
+2025-11-13 23:35:37,892 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-14.csv (6 linhas).
+2025-11-13 23:35:39,867 [INFO] __main__: [TEMPO] Fase 2 concluída em 1.97s (links extraídos: 12)
+2025-11-13 23:36:12,653 [INFO] __main__: [TEMPO] Fase 3 concluída em 32.79s (jogos raspados: 18)
+2025-11-13 23:36:12,743 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
+2025-11-13 23:36:12,859 [INFO] __main__: Exportado histórico para dados_redscore.csv (11639 linhas)
+2025-11-13 23:36:13,690 [INFO] __main__: --- Rotina concluída em 51.35s ---
