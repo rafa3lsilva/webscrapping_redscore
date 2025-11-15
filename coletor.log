@@ -21420,3 +21420,160 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-13 23:36:12,743 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
 2025-11-13 23:36:12,859 [INFO] __main__: Exportado histórico para dados_redscore.csv (11639 linhas)
 2025-11-13 23:36:13,690 [INFO] __main__: --- Rotina concluída em 51.35s ---
+2025-11-14 22:40:09,408 [INFO] __main__: Coletor iniciado
+2025-11-14 22:40:09,409 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-14 22:40:29,140 [INFO] [ODDS] Odds para Sport Recife vs Flamengo: 9.5, 5.0, 1.33
+2025-11-14 22:40:29,140 [INFO] coletor: [ODDS] Odds para Sport Recife vs Flamengo: 9.5, 5.0, 1.33
+2025-11-14 22:40:29,141 [INFO] [ODDS] Odds para Santos vs Palmeiras: 3.3, 3.4, 2.2
+2025-11-14 22:40:29,141 [INFO] coletor: [ODDS] Odds para Santos vs Palmeiras: 3.3, 3.4, 2.2
+2025-11-14 22:40:29,141 [INFO] [ODDS] Odds para Lincoln vs Doncaster: 2.05, 3.25, 3.6
+2025-11-14 22:40:29,141 [INFO] coletor: [ODDS] Odds para Lincoln vs Doncaster: 2.05, 3.25, 3.6
+2025-11-14 22:40:29,142 [INFO] [ODDS] Odds para Port Vale vs Wycombe: 2.7, 3.3, 2.45
+2025-11-14 22:40:29,142 [INFO] coletor: [ODDS] Odds para Port Vale vs Wycombe: 2.7, 3.3, 2.45
+2025-11-14 22:40:29,142 [WARNING] [ODDS] Odds não encontradas para Stevenage vs Bolton. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,142 [WARNING] coletor: [ODDS] Odds não encontradas para Stevenage vs Bolton. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,143 [WARNING] [ODDS] Odds não encontradas para Wigan vs Reading. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,143 [WARNING] coletor: [ODDS] Odds não encontradas para Wigan vs Reading. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,143 [INFO] [ODDS] Odds para Burton vs Blackpool: 2.35, 3.5, 2.8
+2025-11-14 22:40:29,143 [INFO] coletor: [ODDS] Odds para Burton vs Blackpool: 2.35, 3.5, 2.8
+2025-11-14 22:40:29,143 [WARNING] [ODDS] Odds não encontradas para Wimbledon vs Stockport County. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,143 [WARNING] coletor: [ODDS] Odds não encontradas para Wimbledon vs Stockport County. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,144 [WARNING] [ODDS] Odds não encontradas para Barnsley vs Northampton. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,144 [WARNING] coletor: [ODDS] Odds não encontradas para Barnsley vs Northampton. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,144 [INFO] [ODDS] Odds para Leyton Orient vs Exeter: 1.8, 3.75, 4.0
+2025-11-14 22:40:29,144 [INFO] coletor: [ODDS] Odds para Leyton Orient vs Exeter: 1.8, 3.75, 4.0
+2025-11-14 22:40:29,145 [INFO] [ODDS] Odds para Luton vs Rotherham: 1.53, 3.9, 5.75
+2025-11-14 22:40:29,145 [INFO] coletor: [ODDS] Odds para Luton vs Rotherham: 1.53, 3.9, 5.75
+2025-11-14 22:40:29,145 [WARNING] [ODDS] Odds não encontradas para Mansfield vs Peterborough. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,145 [WARNING] coletor: [ODDS] Odds não encontradas para Mansfield vs Peterborough. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,146 [INFO] [ODDS] Odds para Cambridge vs Barnet: 2.7, 3.2, 2.55
+2025-11-14 22:40:29,146 [INFO] coletor: [ODDS] Odds para Cambridge vs Barnet: 2.7, 3.2, 2.55
+2025-11-14 22:40:29,146 [INFO] [ODDS] Odds para Grimsby Town vs Chesterfield: 2.1, 3.4, 3.25
+2025-11-14 22:40:29,146 [INFO] coletor: [ODDS] Odds para Grimsby Town vs Chesterfield: 2.1, 3.4, 3.25
+2025-11-14 22:40:29,146 [INFO] [ODDS] Odds para Notts County vs Harrogate: 1.45, 4.1, 7.0
+2025-11-14 22:40:29,146 [INFO] coletor: [ODDS] Odds para Notts County vs Harrogate: 1.45, 4.1, 7.0
+2025-11-14 22:40:29,147 [INFO] [ODDS] Odds para Walsall vs Colchester: 2.2, 3.4, 3.1
+2025-11-14 22:40:29,147 [INFO] coletor: [ODDS] Odds para Walsall vs Colchester: 2.2, 3.4, 3.1
+2025-11-14 22:40:29,147 [INFO] [ODDS] Odds para Oldham vs Crewe: 2.25, 3.3, 3.1
+2025-11-14 22:40:29,147 [INFO] coletor: [ODDS] Odds para Oldham vs Crewe: 2.25, 3.3, 3.1
+2025-11-14 22:40:29,148 [INFO] [ODDS] Odds para Shrewsbury vs Newport: 1.85, 3.25, 4.33
+2025-11-14 22:40:29,148 [INFO] coletor: [ODDS] Odds para Shrewsbury vs Newport: 1.85, 3.25, 4.33
+2025-11-14 22:40:29,148 [INFO] [ODDS] Odds para MK Dons vs Salford: 2.15, 3.6, 3.0
+2025-11-14 22:40:29,148 [INFO] coletor: [ODDS] Odds para MK Dons vs Salford: 2.15, 3.6, 3.0
+2025-11-14 22:40:29,148 [INFO] [ODDS] Odds para Bromley vs Barrow: 1.7, 3.6, 4.75
+2025-11-14 22:40:29,148 [INFO] coletor: [ODDS] Odds para Bromley vs Barrow: 1.7, 3.6, 4.75
+2025-11-14 22:40:29,149 [INFO] [ODDS] Odds para Accrington vs Bristol Rovers: 2.37, 3.3, 2.87
+2025-11-14 22:40:29,149 [INFO] coletor: [ODDS] Odds para Accrington vs Bristol Rovers: 2.37, 3.3, 2.87
+2025-11-14 22:40:29,149 [INFO] [ODDS] Odds para Fleetwood vs Swindon: 2.4, 3.4, 2.7
+2025-11-14 22:40:29,149 [INFO] coletor: [ODDS] Odds para Fleetwood vs Swindon: 2.4, 3.4, 2.7
+2025-11-14 22:40:29,150 [INFO] [ODDS] Odds para Tranmere vs Cheltenham: 1.7, 3.6, 4.75
+2025-11-14 22:40:29,150 [INFO] coletor: [ODDS] Odds para Tranmere vs Cheltenham: 1.7, 3.6, 4.75
+2025-11-14 22:40:29,150 [INFO] [ODDS] Odds para Gillingham vs Crawley: 1.75, 3.75, 4.2
+2025-11-14 22:40:29,150 [INFO] coletor: [ODDS] Odds para Gillingham vs Crawley: 1.75, 3.75, 4.2
+2025-11-14 22:40:29,150 [INFO] [ODDS] Odds para Castellón vs R. Sociedad II: 1.45, 4.33, 7.0
+2025-11-14 22:40:29,150 [INFO] coletor: [ODDS] Odds para Castellón vs R. Sociedad II: 1.45, 4.33, 7.0
+2025-11-14 22:40:29,151 [INFO] [ODDS] Odds para Albacete vs FC Andorra: 2.0, 3.6, 3.5
+2025-11-14 22:40:29,151 [INFO] coletor: [ODDS] Odds para Albacete vs FC Andorra: 2.0, 3.6, 3.5
+2025-11-14 22:40:29,151 [INFO] [ODDS] Odds para Racing Santander vs Granada: 1.85, 3.75, 3.8
+2025-11-14 22:40:29,151 [INFO] coletor: [ODDS] Odds para Racing Santander vs Granada: 1.85, 3.75, 3.8
+2025-11-14 22:40:29,152 [INFO] [ODDS] Odds para Eindhoven vs Cambuur: 4.5, 4.33, 1.65
+2025-11-14 22:40:29,152 [INFO] coletor: [ODDS] Odds para Eindhoven vs Cambuur: 4.5, 4.33, 1.65
+2025-11-14 22:40:29,152 [INFO] [ODDS] Odds para Willem II vs FC Emmen: 1.9, 4.2, 3.25
+2025-11-14 22:40:29,152 [INFO] coletor: [ODDS] Odds para Willem II vs FC Emmen: 1.9, 4.2, 3.25
+2025-11-14 22:40:29,153 [INFO] [ODDS] Odds para Aldosivi vs San Martín San Juan: 2.55, 2.87, 3.25
+2025-11-14 22:40:29,153 [INFO] coletor: [ODDS] Odds para Aldosivi vs San Martín San Juan: 2.55, 2.87, 3.25
+2025-11-14 22:40:29,153 [INFO] [ODDS] Odds para Godoy Cruz vs Deportivo Riestra: 1.85, 3.0, 5.5
+2025-11-14 22:40:29,153 [INFO] coletor: [ODDS] Odds para Godoy Cruz vs Deportivo Riestra: 1.85, 3.0, 5.5
+2025-11-14 22:40:29,153 [INFO] [ODDS] Odds para San Lorenzo vs Sarmiento: 1.75, 3.0, 6.25
+2025-11-14 22:40:29,153 [INFO] coletor: [ODDS] Odds para San Lorenzo vs Sarmiento: 1.75, 3.0, 6.25
+2025-11-14 22:40:29,154 [INFO] [ODDS] Odds para Independiente vs Rosario Central: 1.85, 3.2, 5.0
+2025-11-14 22:40:29,154 [INFO] coletor: [ODDS] Odds para Independiente vs Rosario Central: 1.85, 3.2, 5.0
+2025-11-14 22:40:29,154 [INFO] [ODDS] Odds para Volta Redonda vs Chapecoense: 6.5, 3.8, 1.55
+2025-11-14 22:40:29,154 [INFO] coletor: [ODDS] Odds para Volta Redonda vs Chapecoense: 6.5, 3.8, 1.55
+2025-11-14 22:40:29,155 [INFO] [ODDS] Odds para CRB vs Vila Nova: 1.66, 3.75, 5.25
+2025-11-14 22:40:29,155 [INFO] coletor: [ODDS] Odds para CRB vs Vila Nova: 1.66, 3.75, 5.25
+2025-11-14 22:40:29,155 [INFO] [ODDS] Odds para Avaí vs Remo: 3.5, 3.7, 1.95
+2025-11-14 22:40:29,155 [INFO] coletor: [ODDS] Odds para Avaí vs Remo: 3.5, 3.7, 1.95
+2025-11-14 22:40:29,155 [INFO] [ODDS] Odds para Atlético GO vs Operário PR: 2.05, 3.0, 4.2
+2025-11-14 22:40:29,155 [INFO] coletor: [ODDS] Odds para Atlético GO vs Operário PR: 2.05, 3.0, 4.2
+2025-11-14 22:40:29,156 [INFO] [ODDS] Odds para Coritiba vs Athletic Club: 1.61, 3.4, 6.5
+2025-11-14 22:40:29,156 [INFO] coletor: [ODDS] Odds para Coritiba vs Athletic Club: 1.61, 3.4, 6.5
+2025-11-14 22:40:29,156 [INFO] [ODDS] Odds para Ross County vs Greenock Morton: 1.8, 3.4, 3.8
+2025-11-14 22:40:29,156 [INFO] coletor: [ODDS] Odds para Ross County vs Greenock Morton: 1.8, 3.4, 3.8
+2025-11-14 22:40:29,157 [INFO] [ODDS] Odds para St. Johnstone vs Queen's Park: 1.22, 5.25, 11.0
+2025-11-14 22:40:29,157 [INFO] coletor: [ODDS] Odds para St. Johnstone vs Queen's Park: 1.22, 5.25, 11.0
+2025-11-14 22:40:29,157 [INFO] [ODDS] Odds para Ayr United vs Arbroath: 1.66, 3.4, 4.5
+2025-11-14 22:40:29,157 [INFO] coletor: [ODDS] Odds para Ayr United vs Arbroath: 1.66, 3.4, 4.5
+2025-11-14 22:40:29,157 [INFO] [ODDS] Odds para Raith Rovers vs Airdrieonians: 1.5, 3.7, 5.75
+2025-11-14 22:40:29,157 [INFO] coletor: [ODDS] Odds para Raith Rovers vs Airdrieonians: 1.5, 3.7, 5.75
+2025-11-14 22:40:29,158 [INFO] [ODDS] Odds para Peterhead vs Montrose: 1.7, 3.6, 4.1
+2025-11-14 22:40:29,158 [INFO] coletor: [ODDS] Odds para Peterhead vs Montrose: 1.7, 3.6, 4.1
+2025-11-14 22:40:29,158 [INFO] [ODDS] Odds para Kelty Hearts vs Queen of the South: 4.0, 3.5, 1.72
+2025-11-14 22:40:29,158 [INFO] coletor: [ODDS] Odds para Kelty Hearts vs Queen of the South: 4.0, 3.5, 1.72
+2025-11-14 22:40:29,159 [INFO] [ODDS] Odds para Cove Rangers vs Hamilton Academical: 3.9, 3.4, 1.75
+2025-11-14 22:40:29,159 [INFO] coletor: [ODDS] Odds para Cove Rangers vs Hamilton Academical: 3.9, 3.4, 1.75
+2025-11-14 22:40:29,159 [INFO] [ODDS] Odds para East Fife vs Stenhousemuir: 2.0, 3.3, 3.2
+2025-11-14 22:40:29,159 [INFO] coletor: [ODDS] Odds para East Fife vs Stenhousemuir: 2.0, 3.3, 3.2
+2025-11-14 22:40:29,160 [INFO] [ODDS] Odds para Stranraer vs East Kilbride: 3.5, 3.4, 1.85
+2025-11-14 22:40:29,160 [INFO] coletor: [ODDS] Odds para Stranraer vs East Kilbride: 3.5, 3.4, 1.85
+2025-11-14 22:40:29,160 [INFO] [ODDS] Odds para Stirling Albion vs Forfar Athletic: 2.5, 3.2, 2.5
+2025-11-14 22:40:29,160 [INFO] coletor: [ODDS] Odds para Stirling Albion vs Forfar Athletic: 2.5, 3.2, 2.5
+2025-11-14 22:40:29,160 [INFO] [ODDS] Odds para Elgin City vs Dumbarton: 2.0, 3.5, 3.1
+2025-11-14 22:40:29,160 [INFO] coletor: [ODDS] Odds para Elgin City vs Dumbarton: 2.0, 3.5, 3.1
+2025-11-14 22:40:29,161 [INFO] [ODDS] Odds para Annan Athletic vs Edinburgh City: 2.2, 3.5, 2.7
+2025-11-14 22:40:29,161 [INFO] coletor: [ODDS] Odds para Annan Athletic vs Edinburgh City: 2.2, 3.5, 2.7
+2025-11-14 22:40:29,161 [INFO] [ODDS] Odds para Spartans vs Clyde: 1.75, 3.5, 3.9
+2025-11-14 22:40:29,161 [INFO] coletor: [ODDS] Odds para Spartans vs Clyde: 1.75, 3.5, 3.9
+2025-11-14 22:40:29,162 [INFO] [ODDS] Odds para York City vs Morecambe: 1.18, 6.5, 10.0
+2025-11-14 22:40:29,162 [INFO] coletor: [ODDS] Odds para York City vs Morecambe: 1.18, 6.5, 10.0
+2025-11-14 22:40:29,162 [INFO] [ODDS] Odds para Carlisle vs Eastleigh: 1.42, 4.1, 7.0
+2025-11-14 22:40:29,162 [INFO] coletor: [ODDS] Odds para Carlisle vs Eastleigh: 1.42, 4.1, 7.0
+2025-11-14 22:40:29,162 [INFO] [ODDS] Odds para Woking vs Boston United: 2.0, 3.25, 3.6
+2025-11-14 22:40:29,162 [INFO] coletor: [ODDS] Odds para Woking vs Boston United: 2.0, 3.25, 3.6
+2025-11-14 22:40:29,163 [INFO] [ODDS] Odds para Hartlepool vs Wealdstone: 1.95, 3.6, 3.25
+2025-11-14 22:40:29,163 [INFO] coletor: [ODDS] Odds para Hartlepool vs Wealdstone: 1.95, 3.6, 3.25
+2025-11-14 22:40:29,163 [INFO] [ODDS] Odds para Forest Green vs Gateshead: 1.33, 4.75, 7.5
+2025-11-14 22:40:29,163 [INFO] coletor: [ODDS] Odds para Forest Green vs Gateshead: 1.33, 4.75, 7.5
+2025-11-14 22:40:29,164 [INFO] [ODDS] Odds para Braintree Town vs Truro City: 2.15, 3.3, 3.0
+2025-11-14 22:40:29,164 [INFO] coletor: [ODDS] Odds para Braintree Town vs Truro City: 2.15, 3.3, 3.0
+2025-11-14 22:40:29,164 [INFO] [ODDS] Odds para Altrincham vs Brackley Town: 2.25, 3.25, 2.9
+2025-11-14 22:40:29,164 [INFO] coletor: [ODDS] Odds para Altrincham vs Brackley Town: 2.25, 3.25, 2.9
+2025-11-14 22:40:29,164 [INFO] [ODDS] Odds para Solihull Moors vs Scunthorpe: 3.1, 3.3, 2.15
+2025-11-14 22:40:29,164 [INFO] coletor: [ODDS] Odds para Solihull Moors vs Scunthorpe: 3.1, 3.3, 2.15
+2025-11-14 22:40:29,165 [INFO] [ODDS] Odds para Yeovil Town vs Southend United: 5.0, 3.5, 1.61
+2025-11-14 22:40:29,165 [INFO] coletor: [ODDS] Odds para Yeovil Town vs Southend United: 5.0, 3.5, 1.61
+2025-11-14 22:40:29,165 [INFO] [ODDS] Odds para Boreham Wood vs Tamworth: 1.45, 4.1, 6.0
+2025-11-14 22:40:29,165 [INFO] coletor: [ODDS] Odds para Boreham Wood vs Tamworth: 1.45, 4.1, 6.0
+2025-11-14 22:40:29,166 [INFO] [ODDS] Odds para Sutton vs Halifax Town: 2.5, 3.4, 2.45
+2025-11-14 22:40:29,166 [INFO] coletor: [ODDS] Odds para Sutton vs Halifax Town: 2.5, 3.4, 2.45
+2025-11-14 22:40:29,166 [INFO] [ODDS] Odds para Rochdale vs Aldershot Town: 1.33, 4.75, 8.0
+2025-11-14 22:40:29,166 [INFO] coletor: [ODDS] Odds para Rochdale vs Aldershot Town: 1.33, 4.75, 8.0
+2025-11-14 22:40:29,166 [WARNING] [ODDS] Odds não encontradas para Ballymena United vs Cliftonville. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,166 [WARNING] coletor: [ODDS] Odds não encontradas para Ballymena United vs Cliftonville. Motivo: could not convert string to float: '-'
+2025-11-14 22:40:29,167 [INFO] [ODDS] Odds para Portadown vs Bangor: 2.25, 3.3, 2.9
+2025-11-14 22:40:29,167 [INFO] coletor: [ODDS] Odds para Portadown vs Bangor: 2.25, 3.3, 2.9
+2025-11-14 22:40:29,167 [INFO] [ODDS] Odds para Crusaders vs Glenavon: 1.95, 3.5, 3.5
+2025-11-14 22:40:29,167 [INFO] coletor: [ODDS] Odds para Crusaders vs Glenavon: 1.95, 3.5, 3.5
+2025-11-14 22:40:29,168 [INFO] [ODDS] Odds para Dungannon Swifts vs Linfield: 4.5, 3.75, 1.65
+2025-11-14 22:40:29,168 [INFO] coletor: [ODDS] Odds para Dungannon Swifts vs Linfield: 4.5, 3.75, 1.65
+2025-11-14 22:40:29,168 [INFO] [ODDS] Odds para Connah's Quay vs Barry Town United: 1.53, 3.9, 5.25
+2025-11-14 22:40:29,168 [INFO] coletor: [ODDS] Odds para Connah's Quay vs Barry Town United: 1.53, 3.9, 5.25
+2025-11-14 22:40:29,168 [INFO] [ODDS] Odds para Llanelli Town vs Caernarfon Town: 8.5, 5.25, 1.28
+2025-11-14 22:40:29,168 [INFO] coletor: [ODDS] Odds para Llanelli Town vs Caernarfon Town: 8.5, 5.25, 1.28
+2025-11-14 22:40:29,169 [INFO] [ODDS] Odds para Haverfordwest County vs Colwyn Bay: 2.3, 3.5, 2.62
+2025-11-14 22:40:29,169 [INFO] coletor: [ODDS] Odds para Haverfordwest County vs Colwyn Bay: 2.3, 3.5, 2.62
+2025-11-14 22:40:29,169 [INFO] [ODDS] Odds para Penybont vs Bala Town: 1.4, 4.33, 7.5
+2025-11-14 22:40:29,169 [INFO] coletor: [ODDS] Odds para Penybont vs Bala Town: 1.4, 4.33, 7.5
+2025-11-14 22:40:29,170 [INFO] [AGENDA] Válidos=71, Incompletos=0, Filtrados=266, Duplicados=0
+2025-11-14 22:40:29,170 [INFO] coletor: [AGENDA] Válidos=71, Incompletos=0, Filtrados=266, Duplicados=0
+2025-11-14 22:40:29,170 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.98s
+2025-11-14 22:40:29,175 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-15.csv (71 linhas).
+2025-11-14 22:41:00,049 [INFO] __main__: [TEMPO] Fase 2 concluída em 30.87s (links extraídos: 142)
+2025-11-14 22:43:12,115 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/sport-recife/2352: HTTPConnectionPool(host='localhost', port=56597): Read timed out. (read timeout=120)
+2025-11-14 22:43:12,115 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/sport-recife/2352: HTTPConnectionPool(host='localhost', port=56597): Read timed out. (read timeout=120)
+2025-11-14 22:45:13,029 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/flamengo/1024: HTTPConnectionPool(host='localhost', port=56597): Read timed out. (read timeout=120)
+2025-11-14 22:45:13,029 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/flamengo/1024: HTTPConnectionPool(host='localhost', port=56597): Read timed out. (read timeout=120)
+2025-11-14 22:53:04,693 [INFO] __main__: [TEMPO] Fase 3 concluída em 724.64s (jogos raspados: 193)
+2025-11-14 22:53:04,833 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (77 linhas).
+2025-11-14 22:53:05,056 [INFO] __main__: Exportado histórico para dados_redscore.csv (11716 linhas)
+2025-11-14 22:53:05,736 [INFO] __main__: --- Rotina concluída em 776.33s ---
