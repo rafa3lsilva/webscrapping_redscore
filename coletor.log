@@ -21653,3 +21653,16 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-16 22:37:05,950 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.7 MB).
 2025-11-16 22:37:05,966 [INFO] __main__: [DB] VACUUM concluído.
 2025-11-16 22:37:07,069 [INFO] __main__: --- Rotina concluída em 59.72s ---
+2025-11-17 19:53:54,484 [INFO] __main__: Coletor iniciado
+2025-11-17 19:53:54,485 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-17 19:54:17,231 [INFO] [ODDS] Odds para Morecambe vs Brackley Town: 2.0, 3.6, 3.1
+2025-11-17 19:54:17,231 [INFO] coletor: [ODDS] Odds para Morecambe vs Brackley Town: 2.0, 3.6, 3.1
+2025-11-17 19:54:17,231 [INFO] [AGENDA] Válidos=1, Incompletos=0, Filtrados=33, Duplicados=0
+2025-11-17 19:54:17,231 [INFO] coletor: [AGENDA] Válidos=1, Incompletos=0, Filtrados=33, Duplicados=0
+2025-11-17 19:54:17,231 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.42s
+2025-11-17 19:54:17,236 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-18.csv (1 linhas).
+2025-11-17 19:54:18,659 [INFO] __main__: [TEMPO] Fase 2 concluída em 1.42s (links extraídos: 2)
+2025-11-17 19:54:25,947 [INFO] __main__: [TEMPO] Fase 3 concluída em 7.29s (jogos raspados: 2)
+2025-11-17 19:54:26,010 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
+2025-11-17 19:54:26,209 [INFO] __main__: Exportado histórico para dados_redscore.csv (11737 linhas)
+2025-11-17 19:54:27,764 [INFO] __main__: --- Rotina concluída em 33.28s ---
