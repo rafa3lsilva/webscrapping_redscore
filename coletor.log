@@ -21681,3 +21681,41 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-18 19:48:58,056 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (3 linhas).
 2025-11-18 19:48:58,300 [INFO] __main__: Exportado histórico para dados_redscore.csv (11740 linhas)
 2025-11-18 19:48:59,727 [INFO] __main__: --- Rotina concluída em 44.64s ---
+2025-11-18 19:50:33,111 [INFO] __main__: Coletor iniciado
+2025-11-18 19:50:33,112 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-18 19:50:48,913 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Element <button class="btn-submit wide" name="loginSend" type="submit"> is not clickable at point (677,595) because another element <div id="clever-86072-2002495-stickySponsorClick-shadow"> obscures it; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+ElementClickInterceptedError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:354:5
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:175:11
+interaction.clickElement@chrome://remote/content/marionette/interaction.sys.mjs:134:11
+clickElement@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:327:29
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.sys.mjs:210:31
+
+2025-11-18 19:50:48,913 [INFO] __main__: --- Rotina concluída em 15.80s ---
+2025-11-18 19:51:17,891 [INFO] __main__: Coletor iniciado
+2025-11-18 19:51:17,892 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-18 19:51:41,960 [WARNING] [ODDS] Odds não encontradas para Atlético Mineiro vs Palmeiras. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,960 [WARNING] coletor: [ODDS] Odds não encontradas para Atlético Mineiro vs Palmeiras. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,961 [WARNING] [ODDS] Odds não encontradas para Bragantino vs Vitória. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,961 [WARNING] coletor: [ODDS] Odds não encontradas para Bragantino vs Vitória. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,961 [INFO] [ODDS] Odds para Palmeiras vs Vitória: 1.33, 5.0, 9.0
+2025-11-18 19:51:41,961 [INFO] coletor: [ODDS] Odds para Palmeiras vs Vitória: 1.33, 5.0, 9.0
+2025-11-18 19:51:41,962 [WARNING] [ODDS] Odds não encontradas para Fluminense vs Flamengo. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,962 [WARNING] coletor: [ODDS] Odds não encontradas para Fluminense vs Flamengo. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,962 [WARNING] [ODDS] Odds não encontradas para Santos vs Mirassol. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,962 [WARNING] coletor: [ODDS] Odds não encontradas para Santos vs Mirassol. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,962 [WARNING] [ODDS] Odds não encontradas para Grêmio vs Vasco da Gama. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,962 [WARNING] coletor: [ODDS] Odds não encontradas para Grêmio vs Vasco da Gama. Motivo: could not convert string to float: '-'
+2025-11-18 19:51:41,963 [INFO] [ODDS] Odds para Vila Nova vs Volta Redonda: 1.83, 3.2, 4.75
+2025-11-18 19:51:41,963 [INFO] coletor: [ODDS] Odds para Vila Nova vs Volta Redonda: 1.83, 3.2, 4.75
+2025-11-18 19:51:41,963 [INFO] [AGENDA] Válidos=7, Incompletos=0, Filtrados=33, Duplicados=0
+2025-11-18 19:51:41,963 [INFO] coletor: [AGENDA] Válidos=7, Incompletos=0, Filtrados=33, Duplicados=0
+2025-11-18 19:51:41,963 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.23s
+2025-11-18 19:51:41,966 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-19.csv (7 linhas).
+2025-11-18 19:51:46,533 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.57s (links extraídos: 12)
+2025-11-18 19:52:30,996 [INFO] __main__: [TEMPO] Fase 3 concluída em 44.46s (jogos raspados: 18)
+2025-11-18 19:52:31,059 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
+2025-11-18 19:52:31,299 [INFO] __main__: Exportado histórico para dados_redscore.csv (11746 linhas)
+2025-11-18 19:52:32,591 [INFO] __main__: --- Rotina concluída em 74.70s ---
