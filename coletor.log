@@ -21666,3 +21666,18 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-17 19:54:26,010 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (2 linhas).
 2025-11-17 19:54:26,209 [INFO] __main__: Exportado histórico para dados_redscore.csv (11737 linhas)
 2025-11-17 19:54:27,764 [INFO] __main__: --- Rotina concluída em 33.28s ---
+2025-11-18 19:48:15,088 [INFO] __main__: Coletor iniciado
+2025-11-18 19:48:15,090 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-18 19:48:42,060 [INFO] [ODDS] Odds para Botafogo vs Sport Recife: 1.2, 7.0, 13.0
+2025-11-18 19:48:42,060 [INFO] coletor: [ODDS] Odds para Botafogo vs Sport Recife: 1.2, 7.0, 13.0
+2025-11-18 19:48:42,061 [INFO] [ODDS] Odds para Morecambe vs Brackley Town: 2.0, 3.6, 3.1
+2025-11-18 19:48:42,061 [INFO] coletor: [ODDS] Odds para Morecambe vs Brackley Town: 2.0, 3.6, 3.1
+2025-11-18 19:48:42,061 [INFO] [AGENDA] Válidos=2, Incompletos=0, Filtrados=33, Duplicados=0
+2025-11-18 19:48:42,061 [INFO] coletor: [AGENDA] Válidos=2, Incompletos=0, Filtrados=33, Duplicados=0
+2025-11-18 19:48:42,061 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.17s
+2025-11-18 19:48:42,066 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-19.csv (2 linhas).
+2025-11-18 19:48:43,897 [INFO] __main__: [TEMPO] Fase 2 concluída em 1.83s (links extraídos: 4)
+2025-11-18 19:48:57,990 [INFO] __main__: [TEMPO] Fase 3 concluída em 14.09s (jogos raspados: 5)
+2025-11-18 19:48:58,056 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (3 linhas).
+2025-11-18 19:48:58,300 [INFO] __main__: Exportado histórico para dados_redscore.csv (11740 linhas)
+2025-11-18 19:48:59,727 [INFO] __main__: --- Rotina concluída em 44.64s ---
