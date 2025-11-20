@@ -21719,3 +21719,50 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-18 19:52:31,059 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
 2025-11-18 19:52:31,299 [INFO] __main__: Exportado histórico para dados_redscore.csv (11746 linhas)
 2025-11-18 19:52:32,591 [INFO] __main__: --- Rotina concluída em 74.70s ---
+2025-11-19 22:46:47,077 [INFO] __main__: Coletor iniciado
+2025-11-19 22:46:47,079 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-19 22:47:08,600 [INFO] [ODDS] Odds para Juventude vs Cruzeiro: 4.33, 3.75, 1.8
+2025-11-19 22:47:08,600 [INFO] coletor: [ODDS] Odds para Juventude vs Cruzeiro: 4.33, 3.75, 1.8
+2025-11-19 22:47:08,601 [INFO] [ODDS] Odds para Bahia vs Fortaleza: 1.5, 4.5, 6.0
+2025-11-19 22:47:08,601 [INFO] coletor: [ODDS] Odds para Bahia vs Fortaleza: 1.5, 4.5, 6.0
+2025-11-19 22:47:08,602 [INFO] [ODDS] Odds para Corinthians vs São Paulo: 2.4, 2.87, 3.4
+2025-11-19 22:47:08,602 [INFO] coletor: [ODDS] Odds para Corinthians vs São Paulo: 2.4, 2.87, 3.4
+2025-11-19 22:47:08,603 [INFO] [ODDS] Odds para Ceará vs Internacional: 2.25, 3.1, 3.5
+2025-11-19 22:47:08,603 [INFO] coletor: [ODDS] Odds para Ceará vs Internacional: 2.25, 3.1, 3.5
+2025-11-19 22:47:08,604 [INFO] [ODDS] Odds para Peterborough vs Stockport County: 3.2, 3.5, 2.1
+2025-11-19 22:47:08,604 [INFO] coletor: [ODDS] Odds para Peterborough vs Stockport County: 3.2, 3.5, 2.1
+2025-11-19 22:47:08,605 [INFO] [ODDS] Odds para Paradou AC vs El Bayadh: 1.65, 3.1, 5.75
+2025-11-19 22:47:08,605 [INFO] coletor: [ODDS] Odds para Paradou AC vs El Bayadh: 1.65, 3.1, 5.75
+2025-11-19 22:47:08,606 [WARNING] [ODDS] Odds não encontradas para Oued Akbou vs USM Alger. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,606 [WARNING] coletor: [ODDS] Odds não encontradas para Oued Akbou vs USM Alger. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,607 [WARNING] [ODDS] Odds não encontradas para JS Saoura vs El Bayadh. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,607 [WARNING] coletor: [ODDS] Odds não encontradas para JS Saoura vs El Bayadh. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,608 [WARNING] [ODDS] Odds não encontradas para Mostaganem vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,608 [WARNING] coletor: [ODDS] Odds não encontradas para Mostaganem vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,609 [WARNING] [ODDS] Odds não encontradas para MC Oran vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,609 [WARNING] coletor: [ODDS] Odds não encontradas para MC Oran vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,610 [WARNING] [ODDS] Odds não encontradas para Paradou AC vs MB Rouisset. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,610 [WARNING] coletor: [ODDS] Odds não encontradas para Paradou AC vs MB Rouisset. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,612 [WARNING] [ODDS] Odds não encontradas para JS Kabylie vs ASO Chlef. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,612 [WARNING] coletor: [ODDS] Odds não encontradas para JS Kabylie vs ASO Chlef. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,613 [WARNING] [ODDS] Odds não encontradas para USM Khenchela vs CS Constantine. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,613 [WARNING] coletor: [ODDS] Odds não encontradas para USM Khenchela vs CS Constantine. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,614 [WARNING] [ODDS] Odds não encontradas para MC Alger vs ES Sétif. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,614 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs ES Sétif. Motivo: could not convert string to float: '-'
+2025-11-19 22:47:08,616 [INFO] [ODDS] Odds para MC Oran vs ES Sétif: 1.57, 3.2, 6.25
+2025-11-19 22:47:08,616 [INFO] coletor: [ODDS] Odds para MC Oran vs ES Sétif: 1.57, 3.2, 6.25
+2025-11-19 22:47:08,617 [INFO] [ODDS] Odds para Hobro vs Hvidovre: 3.0, 3.5, 2.2
+2025-11-19 22:47:08,617 [INFO] coletor: [ODDS] Odds para Hobro vs Hvidovre: 3.0, 3.5, 2.2
+2025-11-19 22:47:08,619 [INFO] [ODDS] Odds para Sportivo Trinidense vs Atlético Tembetary: 1.48, 3.6, 6.25
+2025-11-19 22:47:08,619 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs Atlético Tembetary: 1.48, 3.6, 6.25
+2025-11-19 22:47:08,620 [INFO] [ODDS] Odds para Nacional Asunción vs Sportivo Ameliano: 1.85, 3.2, 4.0
+2025-11-19 22:47:08,620 [INFO] coletor: [ODDS] Odds para Nacional Asunción vs Sportivo Ameliano: 1.85, 3.2, 4.0
+2025-11-19 22:47:08,621 [INFO] [AGENDA] Válidos=18, Incompletos=0, Filtrados=28, Duplicados=0
+2025-11-19 22:47:08,621 [INFO] coletor: [AGENDA] Válidos=18, Incompletos=0, Filtrados=28, Duplicados=0
+2025-11-19 22:47:08,621 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.13s
+2025-11-19 22:47:08,629 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-20.csv (18 linhas).
+2025-11-19 22:47:16,612 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.98s (links extraídos: 32)
+2025-11-19 22:48:46,056 [INFO] __main__: [TEMPO] Fase 3 concluída em 89.44s (jogos raspados: 87)
+2025-11-19 22:48:46,182 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (8 linhas).
+2025-11-19 22:48:46,361 [INFO] __main__: Exportado histórico para dados_redscore.csv (11754 linhas)
+2025-11-19 22:48:47,487 [INFO] __main__: --- Rotina concluída em 120.41s ---
