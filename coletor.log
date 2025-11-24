@@ -22651,3 +22651,64 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-22 22:34:39,977 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (78 linhas).
 2025-11-22 22:34:40,074 [INFO] __main__: Exportado histórico para dados_redscore.csv (12158 linhas)
 2025-11-22 22:34:40,956 [INFO] __main__: --- Rotina concluída em 1133.92s ---
+2025-11-23 21:49:32,897 [INFO] __main__: Coletor iniciado
+2025-11-23 21:49:32,898 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-23 21:49:59,423 [INFO] [ODDS] Odds para Manchester United vs Everton: 1.75, 4.0, 4.33
+2025-11-23 21:49:59,423 [INFO] coletor: [ODDS] Odds para Manchester United vs Everton: 1.75, 4.0, 4.33
+2025-11-23 21:49:59,424 [INFO] [ODDS] Odds para Espanyol vs Sevilla: 2.0, 3.4, 3.75
+2025-11-23 21:49:59,424 [INFO] coletor: [ODDS] Odds para Espanyol vs Sevilla: 2.0, 3.4, 3.75
+2025-11-23 21:49:59,425 [INFO] [ODDS] Odds para Torino vs Como: 3.4, 3.2, 2.25
+2025-11-23 21:49:59,425 [INFO] coletor: [ODDS] Odds para Torino vs Como: 3.4, 3.2, 2.25
+2025-11-23 21:49:59,425 [INFO] [ODDS] Odds para Sassuolo vs Pisa: 2.05, 3.2, 4.0
+2025-11-23 21:49:59,425 [INFO] coletor: [ODDS] Odds para Sassuolo vs Pisa: 2.05, 3.2, 4.0
+2025-11-23 21:49:59,426 [INFO] [ODDS] Odds para Başakşehir vs Trabzonspor: 2.4, 3.4, 2.8
+2025-11-23 21:49:59,426 [INFO] coletor: [ODDS] Odds para Başakşehir vs Trabzonspor: 2.4, 3.4, 2.8
+2025-11-23 21:49:59,426 [INFO] [ODDS] Odds para Konyaspor vs Antalyaspor: 1.75, 3.5, 4.75
+2025-11-23 21:49:59,426 [INFO] coletor: [ODDS] Odds para Konyaspor vs Antalyaspor: 1.75, 3.5, 4.75
+2025-11-23 21:49:59,426 [INFO] [ODDS] Odds para Mirassol vs Ceará: 1.66, 3.7, 5.5
+2025-11-23 21:49:59,426 [INFO] coletor: [ODDS] Odds para Mirassol vs Ceará: 1.66, 3.7, 5.5
+2025-11-23 21:49:59,427 [INFO] [ODDS] Odds para Internacional vs Santos: 2.2, 3.2, 3.5
+2025-11-23 21:49:59,427 [INFO] coletor: [ODDS] Odds para Internacional vs Santos: 2.2, 3.2, 3.5
+2025-11-23 21:49:59,427 [INFO] [ODDS] Odds para R. Sociedad II vs Valladolid: 3.75, 3.1, 2.1
+2025-11-23 21:49:59,427 [INFO] coletor: [ODDS] Odds para R. Sociedad II vs Valladolid: 3.75, 3.1, 2.1
+2025-11-23 21:49:59,428 [INFO] [ODDS] Odds para Sampdoria vs Juve Stabia: 2.7, 3.0, 2.8
+2025-11-23 21:49:59,428 [INFO] coletor: [ODDS] Odds para Sampdoria vs Juve Stabia: 2.7, 3.0, 2.8
+2025-11-23 21:49:59,428 [INFO] [ODDS] Odds para Reims vs Montpellier: 2.0, 3.0, 3.4
+2025-11-23 21:49:59,428 [INFO] coletor: [ODDS] Odds para Reims vs Montpellier: 2.0, 3.0, 3.4
+2025-11-23 21:49:59,428 [INFO] [ODDS] Odds para Jong AZ vs TOP Oss: 1.95, 3.75, 3.5
+2025-11-23 21:49:59,428 [INFO] coletor: [ODDS] Odds para Jong AZ vs TOP Oss: 1.95, 3.75, 3.5
+2025-11-23 21:49:59,429 [INFO] [ODDS] Odds para Helmond vs Jong Ajax: 1.61, 4.1, 5.0
+2025-11-23 21:49:59,429 [INFO] coletor: [ODDS] Odds para Helmond vs Jong Ajax: 1.61, 4.1, 5.0
+2025-11-23 21:49:59,429 [INFO] [ODDS] Odds para Jong Utrecht vs Den Bosch: 2.45, 3.8, 2.55
+2025-11-23 21:49:59,429 [INFO] coletor: [ODDS] Odds para Jong Utrecht vs Den Bosch: 2.45, 3.8, 2.55
+2025-11-23 21:49:59,430 [INFO] [ODDS] Odds para Almere City vs Venlo: 1.8, 4.0, 3.9
+2025-11-23 21:49:59,430 [INFO] coletor: [ODDS] Odds para Almere City vs Venlo: 1.8, 4.0, 3.9
+2025-11-23 21:49:59,430 [INFO] [ODDS] Odds para Randers vs OB: 2.25, 3.5, 3.0
+2025-11-23 21:49:59,430 [INFO] coletor: [ODDS] Odds para Randers vs OB: 2.25, 3.5, 3.0
+2025-11-23 21:49:59,431 [INFO] [ODDS] Odds para Volos NFC vs Levadiakos: 3.2, 3.3, 2.25
+2025-11-23 21:49:59,431 [INFO] coletor: [ODDS] Odds para Volos NFC vs Levadiakos: 3.2, 3.3, 2.25
+2025-11-23 21:49:59,431 [INFO] [ODDS] Odds para Larissa vs OFI: 2.25, 3.25, 3.25
+2025-11-23 21:49:59,431 [INFO] coletor: [ODDS] Odds para Larissa vs OFI: 2.25, 3.25, 3.25
+2025-11-23 21:49:59,431 [INFO] [ODDS] Odds para Ñublense vs Huachipato: 2.05, 3.2, 3.5
+2025-11-23 21:49:59,431 [INFO] coletor: [ODDS] Odds para Ñublense vs Huachipato: 2.05, 3.2, 3.5
+2025-11-23 21:49:59,432 [INFO] [ODDS] Odds para Bravo vs Radomlje: 1.6, 3.7, 4.75
+2025-11-23 21:49:59,432 [INFO] coletor: [ODDS] Odds para Bravo vs Radomlje: 1.6, 3.7, 4.75
+2025-11-23 21:49:59,432 [INFO] [ODDS] Odds para Pogoń Szczecin vs Zagłębie Lubin: 1.8, 3.6, 3.9
+2025-11-23 21:49:59,432 [INFO] coletor: [ODDS] Odds para Pogoń Szczecin vs Zagłębie Lubin: 1.8, 3.6, 3.9
+2025-11-23 21:49:59,433 [INFO] [ODDS] Odds para Metaloglobus vs Hermannstadt: 3.3, 3.0, 2.05
+2025-11-23 21:49:59,433 [INFO] coletor: [ODDS] Odds para Metaloglobus vs Hermannstadt: 3.3, 3.0, 2.05
+2025-11-23 21:49:59,433 [INFO] [ODDS] Odds para Botoşani vs Dinamo Bucureşti: 2.7, 3.1, 2.35
+2025-11-23 21:49:59,433 [INFO] coletor: [ODDS] Odds para Botoşani vs Dinamo Bucureşti: 2.7, 3.1, 2.35
+2025-11-23 21:49:59,433 [INFO] [ODDS] Odds para Botev Vratsa vs Slavia Sofia: 2.4, 3.0, 3.1
+2025-11-23 21:49:59,433 [INFO] coletor: [ODDS] Odds para Botev Vratsa vs Slavia Sofia: 2.4, 3.0, 3.1
+2025-11-23 21:49:59,434 [INFO] [AGENDA] Válidos=24, Incompletos=0, Filtrados=28, Duplicados=0
+2025-11-23 21:49:59,434 [INFO] coletor: [AGENDA] Válidos=24, Incompletos=0, Filtrados=28, Duplicados=0
+2025-11-23 21:49:59,434 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.06s
+2025-11-23 21:49:59,439 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-24.csv (24 linhas).
+2025-11-23 21:50:19,763 [INFO] __main__: [TEMPO] Fase 2 concluída em 20.32s (links extraídos: 48)
+2025-11-23 21:52:32,871 [INFO] __main__: [TEMPO] Fase 3 concluída em 133.11s (jogos raspados: 51)
+2025-11-23 21:52:32,971 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (9 linhas).
+2025-11-23 21:52:33,169 [INFO] __main__: Exportado histórico para dados_redscore.csv (12167 linhas)
+2025-11-23 21:52:33,170 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.8 MB).
+2025-11-23 21:52:33,186 [INFO] __main__: [DB] VACUUM concluído.
+2025-11-23 21:52:33,751 [INFO] __main__: --- Rotina concluída em 180.85s ---
