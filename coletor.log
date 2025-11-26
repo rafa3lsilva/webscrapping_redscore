@@ -22813,3 +22813,41 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-25 19:46:58,160 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
 2025-11-25 19:46:58,410 [INFO] __main__: Exportado histórico para dados_redscore.csv (12206 linhas)
 2025-11-25 19:46:59,706 [INFO] __main__: --- Rotina concluída em 122.21s ---
+2025-11-26 19:22:21,467 [INFO] __main__: Coletor iniciado
+2025-11-26 19:22:21,468 [INFO] __main__: --- Rotina diária iniciada ---
+2025-11-26 19:22:48,332 [INFO] [ODDS] Odds para Fluminense vs São Paulo: 1.72, 3.3, 5.5
+2025-11-26 19:22:48,332 [INFO] coletor: [ODDS] Odds para Fluminense vs São Paulo: 1.72, 3.3, 5.5
+2025-11-26 19:22:48,333 [INFO] [ODDS] Odds para Grimsby Town vs Tranmere: 1.72, 3.8, 4.33
+2025-11-26 19:22:48,333 [INFO] coletor: [ODDS] Odds para Grimsby Town vs Tranmere: 1.72, 3.8, 4.33
+2025-11-26 19:22:48,333 [WARNING] [ODDS] Odds não encontradas para ES Sétif vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,333 [WARNING] coletor: [ODDS] Odds não encontradas para ES Sétif vs Paradou AC. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,334 [WARNING] [ODDS] Odds não encontradas para MB Rouisset vs USM Khenchela. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,334 [WARNING] coletor: [ODDS] Odds não encontradas para MB Rouisset vs USM Khenchela. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,334 [WARNING] [ODDS] Odds não encontradas para CS Constantine vs JS Saoura. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,334 [WARNING] coletor: [ODDS] Odds não encontradas para CS Constantine vs JS Saoura. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,334 [WARNING] [ODDS] Odds não encontradas para ASO Chlef vs MC Alger. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,334 [WARNING] coletor: [ODDS] Odds não encontradas para ASO Chlef vs MC Alger. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,335 [WARNING] [ODDS] Odds não encontradas para Ben Aknoun vs Oued Akbou. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,335 [WARNING] coletor: [ODDS] Odds não encontradas para Ben Aknoun vs Oued Akbou. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,335 [WARNING] [ODDS] Odds não encontradas para El Bayadh vs Mostaganem. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,335 [WARNING] coletor: [ODDS] Odds não encontradas para El Bayadh vs Mostaganem. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,336 [WARNING] [ODDS] Odds não encontradas para USM Alger vs MC Oran. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,336 [WARNING] coletor: [ODDS] Odds não encontradas para USM Alger vs MC Oran. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,336 [WARNING] [ODDS] Odds não encontradas para CR Belouizdad vs JS Kabylie. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,336 [WARNING] coletor: [ODDS] Odds não encontradas para CR Belouizdad vs JS Kabylie. Motivo: could not convert string to float: '-'
+2025-11-26 19:22:48,336 [INFO] [ODDS] Odds para 4th position vs 5th position: 2.0, 3.3, 3.3
+2025-11-26 19:22:48,336 [INFO] coletor: [ODDS] Odds para 4th position vs 5th position: 2.0, 3.3, 3.3
+2025-11-26 19:22:48,337 [INFO] [ODDS] Odds para Libertad vs General Caballero JLM: 1.75, 3.1, 4.33
+2025-11-26 19:22:48,337 [INFO] coletor: [ODDS] Odds para Libertad vs General Caballero JLM: 1.75, 3.1, 4.33
+2025-11-26 19:22:48,337 [INFO] [ODDS] Odds para Deportivo Recoleta vs Nacional Asunción: 3.8, 3.2, 1.95
+2025-11-26 19:22:48,337 [INFO] coletor: [ODDS] Odds para Deportivo Recoleta vs Nacional Asunción: 3.8, 3.2, 1.95
+2025-11-26 19:22:48,337 [INFO] [AGENDA] Válidos=13, Incompletos=0, Filtrados=17, Duplicados=0
+2025-11-26 19:22:48,337 [INFO] coletor: [AGENDA] Válidos=13, Incompletos=0, Filtrados=17, Duplicados=0
+2025-11-26 19:22:48,338 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.92s
+2025-11-26 19:22:48,343 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-11-27.csv (13 linhas).
+2025-11-26 19:22:53,976 [INFO] __main__: [F2] 1 confrontos requerem fallback com Selenium (sequencial).
+2025-11-26 19:22:56,404 [INFO] __main__: [TEMPO] Fase 2 concluída em 8.06s (links extraídos: 26)
+2025-11-26 19:24:28,763 [INFO] __main__: [TEMPO] Fase 3 concluída em 92.36s (jogos raspados: 79)
+2025-11-26 19:24:28,873 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (9 linhas).
+2025-11-26 19:24:29,093 [INFO] __main__: Exportado histórico para dados_redscore.csv (12215 linhas)
+2025-11-26 19:24:29,951 [INFO] __main__: --- Rotina concluída em 128.48s ---
