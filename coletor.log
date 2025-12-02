@@ -23702,3 +23702,56 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-11-30 21:37:57,361 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.9 MB).
 2025-11-30 21:37:57,383 [INFO] __main__: [DB] VACUUM concluído.
 2025-11-30 21:37:58,112 [INFO] __main__: --- Rotina concluída em 131.48s ---
+2025-12-01 21:45:08,546 [INFO] __main__: Coletor iniciado
+2025-12-01 21:45:08,546 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-01 21:45:28,159 [INFO] [ODDS] Odds para Bournemouth vs Everton: 2.1, 3.3, 3.6
+2025-12-01 21:45:28,159 [INFO] coletor: [ODDS] Odds para Bournemouth vs Everton: 2.1, 3.3, 3.6
+2025-12-01 21:45:28,159 [INFO] [ODDS] Odds para Fulham vs Man City: 5.0, 4.2, 1.61
+2025-12-01 21:45:28,159 [INFO] coletor: [ODDS] Odds para Fulham vs Man City: 5.0, 4.2, 1.61
+2025-12-01 21:45:28,160 [INFO] [ODDS] Odds para Newcastle vs Tottenham: 1.72, 4.0, 4.5
+2025-12-01 21:45:28,160 [INFO] coletor: [ODDS] Odds para Newcastle vs Tottenham: 1.72, 4.0, 4.5
+2025-12-01 21:45:28,160 [INFO] [ODDS] Odds para Barcelona vs Atlético Madrid: 1.8, 4.2, 3.8
+2025-12-01 21:45:28,160 [INFO] coletor: [ODDS] Odds para Barcelona vs Atlético Madrid: 1.8, 4.2, 3.8
+2025-12-01 21:45:28,160 [INFO] [ODDS] Odds para Ajax vs Groningen: 1.7, 4.0, 4.33
+2025-12-01 21:45:28,160 [INFO] coletor: [ODDS] Odds para Ajax vs Groningen: 1.7, 4.0, 4.33
+2025-12-01 21:45:28,160 [INFO] [ODDS] Odds para Vasco da Gama vs Mirassol: 2.05, 3.5, 3.5
+2025-12-01 21:45:28,160 [INFO] coletor: [ODDS] Odds para Vasco da Gama vs Mirassol: 2.05, 3.5, 3.5
+2025-12-01 21:45:28,161 [INFO] [ODDS] Odds para Grêmio vs Fluminense: 2.87, 3.25, 2.5
+2025-12-01 21:45:28,161 [INFO] coletor: [ODDS] Odds para Grêmio vs Fluminense: 2.87, 3.25, 2.5
+2025-12-01 21:45:28,161 [INFO] [ODDS] Odds para Blackburn vs Ipswich: 3.75, 3.5, 2.0
+2025-12-01 21:45:28,161 [INFO] coletor: [ODDS] Odds para Blackburn vs Ipswich: 3.75, 3.5, 2.0
+2025-12-01 21:45:28,161 [INFO] [ODDS] Odds para Wigan vs Burton: 1.75, 3.6, 4.33
+2025-12-01 21:45:28,161 [INFO] coletor: [ODDS] Odds para Wigan vs Burton: 1.75, 3.6, 4.33
+2025-12-01 21:45:28,161 [INFO] [ODDS] Odds para Orlando Pirates vs Richards Bay: 1.33, 3.8, 9.0
+2025-12-01 21:45:28,161 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Richards Bay: 1.33, 3.8, 9.0
+2025-12-01 21:45:28,162 [INFO] [ODDS] Odds para Golden Arrows vs AmaZulu: 2.5, 2.9, 2.75
+2025-12-01 21:45:28,162 [INFO] coletor: [ODDS] Odds para Golden Arrows vs AmaZulu: 2.5, 2.9, 2.75
+2025-12-01 21:45:28,162 [WARNING] [ODDS] Odds não encontradas para Van vs Noah. Motivo: could not convert string to float: '-'
+2025-12-01 21:45:28,162 [WARNING] coletor: [ODDS] Odds não encontradas para Van vs Noah. Motivo: could not convert string to float: '-'
+2025-12-01 21:45:28,162 [WARNING] [ODDS] Odds não encontradas para Gualberto Villarroel SJ vs San Antonio Bulo Bulo. Motivo: could not convert string to float: '-'
+2025-12-01 21:45:28,162 [WARNING] coletor: [ODDS] Odds não encontradas para Gualberto Villarroel SJ vs San Antonio Bulo Bulo. Motivo: could not convert string to float: '-'
+2025-12-01 21:45:28,163 [INFO] [ODDS] Odds para Independiente Petrolero vs Guabirá: 1.95, 3.6, 3.4
+2025-12-01 21:45:28,163 [INFO] coletor: [ODDS] Odds para Independiente Petrolero vs Guabirá: 1.95, 3.6, 3.4
+2025-12-01 21:45:28,163 [INFO] [ODDS] Odds para Universidad Chile vs Coquimbo Unido: 2.4, 3.6, 2.62
+2025-12-01 21:45:28,163 [INFO] coletor: [ODDS] Odds para Universidad Chile vs Coquimbo Unido: 2.4, 3.6, 2.62
+2025-12-01 21:45:28,163 [INFO] [ODDS] Odds para Bnei Sakhnin vs Ironi Kiryat Shmona: 2.8, 3.1, 2.25
+2025-12-01 21:45:28,163 [INFO] coletor: [ODDS] Odds para Bnei Sakhnin vs Ironi Kiryat Shmona: 2.8, 3.1, 2.25
+2025-12-01 21:45:28,163 [INFO] [ODDS] Odds para Hapoel Katamon vs Maccabi Bnei Raina: 2.05, 3.1, 3.1
+2025-12-01 21:45:28,163 [INFO] coletor: [ODDS] Odds para Hapoel Katamon vs Maccabi Bnei Raina: 2.05, 3.1, 3.1
+2025-12-01 21:45:28,163 [INFO] [ODDS] Odds para Hapoel Petah Tikva vs Hapoel Be'er Sheva: 5.5, 3.7, 1.5
+2025-12-01 21:45:28,163 [INFO] coletor: [ODDS] Odds para Hapoel Petah Tikva vs Hapoel Be'er Sheva: 5.5, 3.7, 1.5
+2025-12-01 21:45:28,164 [INFO] [ODDS] Odds para Maccabi Haifa vs Hapoel Tel Aviv: 2.1, 3.4, 2.9
+2025-12-01 21:45:28,164 [INFO] coletor: [ODDS] Odds para Maccabi Haifa vs Hapoel Tel Aviv: 2.1, 3.4, 2.9
+2025-12-01 21:45:28,164 [INFO] [ODDS] Odds para Montana vs Lokomotiv Sofia 1929: 3.5, 3.1, 2.15
+2025-12-01 21:45:28,164 [INFO] coletor: [ODDS] Odds para Montana vs Lokomotiv Sofia 1929: 3.5, 3.1, 2.15
+2025-12-01 21:45:28,164 [INFO] [ODDS] Odds para Arda vs Botev Plovdiv: 2.1, 3.25, 3.5
+2025-12-01 21:45:28,164 [INFO] coletor: [ODDS] Odds para Arda vs Botev Plovdiv: 2.1, 3.25, 3.5
+2025-12-01 21:45:28,164 [INFO] [AGENDA] Válidos=21, Incompletos=0, Filtrados=38, Duplicados=0
+2025-12-01 21:45:28,164 [INFO] coletor: [AGENDA] Válidos=21, Incompletos=0, Filtrados=38, Duplicados=0
+2025-12-01 21:45:28,164 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.81s
+2025-12-01 21:45:28,169 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-02.csv (21 linhas).
+2025-12-01 21:45:35,813 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.64s (links extraídos: 42)
+2025-12-01 21:47:23,432 [INFO] __main__: [TEMPO] Fase 3 concluída em 107.62s (jogos raspados: 60)
+2025-12-01 21:47:23,513 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (27 linhas).
+2025-12-01 21:47:23,621 [INFO] __main__: Exportado histórico para dados_redscore.csv (12617 linhas)
+2025-12-01 21:47:23,975 [INFO] __main__: --- Rotina concluída em 135.43s ---
