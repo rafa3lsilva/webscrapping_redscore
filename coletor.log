@@ -23755,3 +23755,110 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-01 21:47:23,513 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (27 linhas).
 2025-12-01 21:47:23,621 [INFO] __main__: Exportado histórico para dados_redscore.csv (12617 linhas)
 2025-12-01 21:47:23,975 [INFO] __main__: --- Rotina concluída em 135.43s ---
+2025-12-02 19:49:18,243 [INFO] __main__: Coletor iniciado
+2025-12-02 19:49:18,245 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-02 19:49:46,017 [INFO] [ODDS] Odds para Arsenal vs Brentford: 1.36, 5.0, 8.5
+2025-12-02 19:49:46,017 [INFO] coletor: [ODDS] Odds para Arsenal vs Brentford: 1.36, 5.0, 8.5
+2025-12-02 19:49:46,018 [INFO] [ODDS] Odds para Brighton vs Aston Villa: 2.1, 3.4, 3.5
+2025-12-02 19:49:46,018 [INFO] coletor: [ODDS] Odds para Brighton vs Aston Villa: 2.1, 3.4, 3.5
+2025-12-02 19:49:46,018 [INFO] [ODDS] Odds para Burnley vs Crystal Palace: 4.5, 3.9, 1.72
+2025-12-02 19:49:46,018 [INFO] coletor: [ODDS] Odds para Burnley vs Crystal Palace: 4.5, 3.9, 1.72
+2025-12-02 19:49:46,019 [INFO] [ODDS] Odds para Wolves vs Nottingham: 3.2, 3.3, 2.3
+2025-12-02 19:49:46,019 [INFO] coletor: [ODDS] Odds para Wolves vs Nottingham: 3.2, 3.3, 2.3
+2025-12-02 19:49:46,019 [INFO] [ODDS] Odds para Leeds vs Chelsea: 4.0, 3.9, 1.83
+2025-12-02 19:49:46,019 [INFO] coletor: [ODDS] Odds para Leeds vs Chelsea: 4.0, 3.9, 1.83
+2025-12-02 19:49:46,019 [INFO] [ODDS] Odds para Liverpool vs Sunderland: 1.36, 5.5, 7.0
+2025-12-02 19:49:46,019 [INFO] coletor: [ODDS] Odds para Liverpool vs Sunderland: 1.36, 5.5, 7.0
+2025-12-02 19:49:46,020 [INFO] [ODDS] Odds para Athletic Club vs Real Madrid: 4.33, 3.9, 1.75
+2025-12-02 19:49:46,020 [INFO] coletor: [ODDS] Odds para Athletic Club vs Real Madrid: 4.33, 3.9, 1.75
+2025-12-02 19:49:46,020 [INFO] [ODDS] Odds para Fortaleza vs Corinthians: 1.8, 3.5, 4.75
+2025-12-02 19:49:46,020 [INFO] coletor: [ODDS] Odds para Fortaleza vs Corinthians: 1.8, 3.5, 4.75
+2025-12-02 19:49:46,021 [INFO] [ODDS] Odds para Bragantino vs Vitória: 1.95, 3.4, 4.1
+2025-12-02 19:49:46,021 [INFO] coletor: [ODDS] Odds para Bragantino vs Vitória: 1.95, 3.4, 4.1
+2025-12-02 19:49:46,021 [INFO] [ODDS] Odds para Juventude vs Santos: 5.0, 3.7, 1.72
+2025-12-02 19:49:46,021 [INFO] coletor: [ODDS] Odds para Juventude vs Santos: 5.0, 3.7, 1.72
+2025-12-02 19:49:46,021 [INFO] [ODDS] Odds para São Paulo vs Internacional: 2.75, 3.1, 2.75
+2025-12-02 19:49:46,021 [INFO] coletor: [ODDS] Odds para São Paulo vs Internacional: 2.75, 3.1, 2.75
+2025-12-02 19:49:46,022 [INFO] [ODDS] Odds para Bahia vs Sport Recife: 1.22, 6.5, 12.0
+2025-12-02 19:49:46,022 [INFO] coletor: [ODDS] Odds para Bahia vs Sport Recife: 1.22, 6.5, 12.0
+2025-12-02 19:49:46,022 [WARNING] [ODDS] Odds não encontradas para Atlético Mineiro vs Palmeiras. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,022 [WARNING] coletor: [ODDS] Odds não encontradas para Atlético Mineiro vs Palmeiras. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,023 [WARNING] [ODDS] Odds não encontradas para Flamengo vs Ceará. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,023 [WARNING] coletor: [ODDS] Odds não encontradas para Flamengo vs Ceará. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,023 [INFO] [ODDS] Odds para Dundee United vs Rangers: 4.1, 3.8, 1.8
+2025-12-02 19:49:46,023 [INFO] coletor: [ODDS] Odds para Dundee United vs Rangers: 4.1, 3.8, 1.8
+2025-12-02 19:49:46,024 [INFO] [ODDS] Odds para Celtic vs Dundee: 1.11, 9.5, 19.0
+2025-12-02 19:49:46,024 [INFO] coletor: [ODDS] Odds para Celtic vs Dundee: 1.11, 9.5, 19.0
+2025-12-02 19:49:46,024 [INFO] [ODDS] Odds para Aberdeen vs St. Mirren: 2.2, 3.3, 3.25
+2025-12-02 19:49:46,024 [INFO] coletor: [ODDS] Odds para Aberdeen vs St. Mirren: 2.2, 3.3, 3.25
+2025-12-02 19:49:46,024 [INFO] [ODDS] Odds para Hearts vs Kilmarnock: 1.4, 4.33, 8.0
+2025-12-02 19:49:46,024 [INFO] coletor: [ODDS] Odds para Hearts vs Kilmarnock: 1.4, 4.33, 8.0
+2025-12-02 19:49:46,025 [INFO] [ODDS] Odds para Falkirk vs Motherwell: 2.62, 3.3, 2.62
+2025-12-02 19:49:46,025 [INFO] coletor: [ODDS] Odds para Falkirk vs Motherwell: 2.62, 3.3, 2.62
+2025-12-02 19:49:46,025 [WARNING] [ODDS] Odds não encontradas para Hearts vs Kilmarnock. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,025 [WARNING] coletor: [ODDS] Odds não encontradas para Hearts vs Kilmarnock. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,026 [WARNING] [ODDS] Odds não encontradas para Celtic vs Dundee. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,026 [WARNING] coletor: [ODDS] Odds não encontradas para Celtic vs Dundee. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,026 [WARNING] [ODDS] Odds não encontradas para Aberdeen vs St. Mirren. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,026 [WARNING] coletor: [ODDS] Odds não encontradas para Aberdeen vs St. Mirren. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,027 [WARNING] [ODDS] Odds não encontradas para Livingston vs Hibernian. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,027 [WARNING] coletor: [ODDS] Odds não encontradas para Livingston vs Hibernian. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,027 [WARNING] [ODDS] Odds não encontradas para Dundee United vs Rangers. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,027 [WARNING] coletor: [ODDS] Odds não encontradas para Dundee United vs Rangers. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,027 [WARNING] [ODDS] Odds não encontradas para Falkirk vs Motherwell. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,027 [WARNING] coletor: [ODDS] Odds não encontradas para Falkirk vs Motherwell. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,028 [INFO] [ODDS] Odds para Sturm Graz vs WSG Tirol: 1.65, 3.75, 5.25
+2025-12-02 19:49:46,028 [INFO] coletor: [ODDS] Odds para Sturm Graz vs WSG Tirol: 1.65, 3.75, 5.25
+2025-12-02 19:49:46,028 [INFO] [ODDS] Odds para TS Galaxy vs Marumo Gallants FC: 1.9, 3.0, 3.9
+2025-12-02 19:49:46,028 [INFO] coletor: [ODDS] Odds para TS Galaxy vs Marumo Gallants FC: 1.9, 3.0, 3.9
+2025-12-02 19:49:46,029 [INFO] [ODDS] Odds para Magesi vs Sekhukhune United: 3.0, 2.75, 2.4
+2025-12-02 19:49:46,029 [INFO] coletor: [ODDS] Odds para Magesi vs Sekhukhune United: 3.0, 2.75, 2.4
+2025-12-02 19:49:46,029 [INFO] [ODDS] Odds para Stellenbosch vs Polokwane City: 1.8, 2.8, 5.0
+2025-12-02 19:49:46,029 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Polokwane City: 1.8, 2.8, 5.0
+2025-12-02 19:49:46,029 [INFO] [ODDS] Odds para Siwelele vs Mamelodi Sundowns: 6.5, 3.1, 1.55
+2025-12-02 19:49:46,029 [INFO] coletor: [ODDS] Odds para Siwelele vs Mamelodi Sundowns: 6.5, 3.1, 1.55
+2025-12-02 19:49:46,030 [INFO] [ODDS] Odds para Orbit College vs Durban City: 3.1, 2.7, 2.35
+2025-12-02 19:49:46,030 [INFO] coletor: [ODDS] Odds para Orbit College vs Durban City: 3.1, 2.7, 2.35
+2025-12-02 19:49:46,030 [INFO] [ODDS] Odds para Chippa United vs Kaizer Chiefs: 4.75, 3.0, 1.75
+2025-12-02 19:49:46,030 [INFO] coletor: [ODDS] Odds para Chippa United vs Kaizer Chiefs: 4.75, 3.0, 1.75
+2025-12-02 19:49:46,031 [INFO] [ODDS] Odds para Teuta Durrës vs AF Elbasani: 2.25, 2.9, 3.0
+2025-12-02 19:49:46,031 [INFO] coletor: [ODDS] Odds para Teuta Durrës vs AF Elbasani: 2.25, 2.9, 3.0
+2025-12-02 19:49:46,031 [INFO] [ODDS] Odds para Partizani Tirana vs Bylis Ballsh: 2.1, 3.1, 3.25
+2025-12-02 19:49:46,031 [INFO] coletor: [ODDS] Odds para Partizani Tirana vs Bylis Ballsh: 2.1, 3.1, 3.25
+2025-12-02 19:49:46,032 [INFO] [ODDS] Odds para Dinamo Tirana vs Tirana: 1.61, 3.4, 5.0
+2025-12-02 19:49:46,032 [INFO] coletor: [ODDS] Odds para Dinamo Tirana vs Tirana: 1.61, 3.4, 5.0
+2025-12-02 19:49:46,032 [INFO] [ODDS] Odds para Blooming vs ABB: 1.22, 5.5, 11.0
+2025-12-02 19:49:46,032 [INFO] coletor: [ODDS] Odds para Blooming vs ABB: 1.22, 5.5, 11.0
+2025-12-02 19:49:46,032 [INFO] [ODDS] Odds para Real Tomayapo vs Oriente Petrolero: 2.45, 3.5, 2.55
+2025-12-02 19:49:46,032 [INFO] coletor: [ODDS] Odds para Real Tomayapo vs Oriente Petrolero: 2.45, 3.5, 2.55
+2025-12-02 19:49:46,033 [WARNING] [ODDS] Odds não encontradas para Wilstermann vs Real Oruro. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,033 [WARNING] coletor: [ODDS] Odds não encontradas para Wilstermann vs Real Oruro. Motivo: could not convert string to float: '-'
+2025-12-02 19:49:46,033 [INFO] [ODDS] Odds para Kahraba Ismailia vs Pyramids FC: 9.5, 4.2, 1.3
+2025-12-02 19:49:46,033 [INFO] coletor: [ODDS] Odds para Kahraba Ismailia vs Pyramids FC: 9.5, 4.2, 1.3
+2025-12-02 19:49:46,034 [INFO] [ODDS] Odds para Podbrezová vs Spartak Trnava: 3.3, 3.6, 2.05
+2025-12-02 19:49:46,034 [INFO] coletor: [ODDS] Odds para Podbrezová vs Spartak Trnava: 3.3, 3.6, 2.05
+2025-12-02 19:49:46,034 [INFO] [ODDS] Odds para Slovan Bratislava vs Ružomberok: 1.42, 4.5, 7.0
+2025-12-02 19:49:46,034 [INFO] coletor: [ODDS] Odds para Slovan Bratislava vs Ružomberok: 1.42, 4.5, 7.0
+2025-12-02 19:49:46,035 [INFO] [ODDS] Odds para Kazincbarcika vs Győri ETO: 6.5, 4.1, 1.38
+2025-12-02 19:49:46,035 [INFO] coletor: [ODDS] Odds para Kazincbarcika vs Győri ETO: 6.5, 4.1, 1.38
+2025-12-02 19:49:46,035 [INFO] [ODDS] Odds para Maccabi Netanya vs Ashdod: 1.95, 3.3, 3.2
+2025-12-02 19:49:46,035 [INFO] coletor: [ODDS] Odds para Maccabi Netanya vs Ashdod: 1.95, 3.3, 3.2
+2025-12-02 19:49:46,036 [INFO] [ODDS] Odds para Ironi Tiberias vs Beitar Jerusalem: 5.5, 3.75, 1.48
+2025-12-02 19:49:46,036 [INFO] coletor: [ODDS] Odds para Ironi Tiberias vs Beitar Jerusalem: 5.5, 3.75, 1.48
+2025-12-02 19:49:46,036 [INFO] [ODDS] Odds para Maccabi Tel Aviv vs Hapoel Haifa: 1.3, 4.5, 8.0
+2025-12-02 19:49:46,036 [INFO] coletor: [ODDS] Odds para Maccabi Tel Aviv vs Hapoel Haifa: 1.3, 4.5, 8.0
+2025-12-02 19:49:46,036 [INFO] [ODDS] Odds para Septemvri Sofia vs CSKA 1948 Sofia: 5.75, 4.0, 1.55
+2025-12-02 19:49:46,036 [INFO] coletor: [ODDS] Odds para Septemvri Sofia vs CSKA 1948 Sofia: 5.75, 4.0, 1.55
+2025-12-02 19:49:46,037 [INFO] [ODDS] Odds para Beroe vs Cherno More: 4.75, 3.5, 1.75
+2025-12-02 19:49:46,037 [INFO] coletor: [ODDS] Odds para Beroe vs Cherno More: 4.75, 3.5, 1.75
+2025-12-02 19:49:46,037 [INFO] [ODDS] Odds para CSKA Sofia vs Lokomotiv Plovdiv: 1.42, 4.33, 7.5
+2025-12-02 19:49:46,037 [INFO] coletor: [ODDS] Odds para CSKA Sofia vs Lokomotiv Plovdiv: 1.42, 4.33, 7.5
+2025-12-02 19:49:46,038 [INFO] [AGENDA] Válidos=48, Incompletos=0, Filtrados=38, Duplicados=0
+2025-12-02 19:49:46,038 [INFO] coletor: [AGENDA] Válidos=48, Incompletos=0, Filtrados=38, Duplicados=0
+2025-12-02 19:49:46,038 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.33s
+2025-12-02 19:49:46,042 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-03.csv (43 linhas).
+2025-12-02 19:50:06,140 [INFO] __main__: [TEMPO] Fase 2 concluída em 20.10s (links extraídos: 86)
+2025-12-02 19:55:07,217 [INFO] __main__: [TEMPO] Fase 3 concluída em 301.08s (jogos raspados: 116)
+2025-12-02 19:55:07,350 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (45 linhas).
+2025-12-02 19:55:07,533 [INFO] __main__: Exportado histórico para dados_redscore.csv (12662 linhas)
+2025-12-02 19:55:08,114 [INFO] __main__: --- Rotina concluída em 349.87s ---
