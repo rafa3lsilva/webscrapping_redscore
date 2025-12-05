@@ -12675,3 +12675,76 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2025-11-30,Ludogorets,Botev Vratsa,Bulgária - Parva Liga,2,0,1,0,15,2,6,1,85,21,11,0,1.28,4.75,12.0
 2025-11-30,OFK Beograd,Crvena Zvezda,Sérvia - Super Liga,3,4,2,2,6,36,4,11,9,93,1,13,19.0,10.0,1.09
 2025-11-28,Čukarički,IMT Novi Beograd,Sérvia - Super Liga,1,1,1,0,5,15,1,3,43,85,1,8,1.61,3.5,4.75
+2025-11-29,Mallorca,Osasuna,Espanha - La Liga,2,2,0,0,7,14,4,2,39,57,2,8,2.45,3.1,3.1
+2025-11-30,Strasbourg,Brest,França - Ligue 1,1,2,1,0,14,7,6,4,40,31,5,0,1.8,3.8,4.33
+2025-11-29,Monaco,PSG,França - Ligue 1,1,0,0,0,10,17,5,4,37,38,4,4,4.5,4.33,1.66
+2025-12-01,Fenerbahçe,Galatasaray,Turquia - Super Lig,1,1,0,1,17,6,2,2,53,29,7,3,2.25,3.5,3.0
+2025-12-01,Samsunspor,Alanyaspor,Turquia - Super Lig,1,1,1,0,7,10,1,4,30,32,3,1,1.75,3.5,4.75
+2025-11-29,Nacional,Benfica,Portugal - Primeira Liga,1,2,0,0,6,31,2,8,25,108,2,11,8.0,5.0,1.36
+2025-11-30,Sporting,Estrela Amadora,Portugal - Primeira Liga,4,0,3,0,19,5,6,3,41,21,5,1,1.14,7.5,15.0
+2025-11-29,Excelsior,NAC Breda,Países Baixos - Eredivisie,1,0,1,0,5,22,2,3,20,48,1,6,2.45,3.5,2.7
+2025-12-02,Ajax,Groningen,Países Baixos - Eredivisie,2,0,1,0,13,17,6,7,51,46,3,5,1.7,4.0,4.33
+2025-11-30,Le Havre,LOSC Lille,França - Ligue 1,0,1,0,0,14,8,7,2,58,46,6,2,4.5,3.7,1.8
+2025-11-29,Marseille,Toulouse,França - Ligue 1,2,2,0,1,20,6,5,4,83,21,9,1,1.66,3.9,4.75
+2025-11-29,Charleroi,La Louvière,Bélgica - Pro League,0,0,0,0,17,6,5,0,66,38,6,5,2.05,3.1,3.5
+2025-11-29,Dender,Westerlo,Bélgica - Pro League,2,2,1,0,8,19,4,5,43,62,2,4,2.7,3.6,2.25
+2025-11-30,Freiburg,Mainz,Alemanha - Bundesliga,4,0,2,0,23,1,10,1,55,7,6,2,1.7,3.75,4.75
+2025-11-28,M'Gladbach,RB Leipzig,Alemanha - Bundesliga,0,0,0,0,7,20,0,4,27,56,5,6,2.8,3.75,2.25
+2025-11-29,Stoke,Hull,Inglaterra - Championship,1,2,1,0,12,11,7,6,47,29,7,8,1.72,3.6,5.0
+2025-11-29,Middlesbrough,Derby,Inglaterra - Championship,2,1,0,1,21,6,4,1,61,33,9,8,1.95,3.4,3.8
+2025-11-30,Bielefeld,Preußen Münster,Alemanha - 2. Bundesliga,1,2,1,1,17,12,2,6,70,36,13,2,1.7,3.9,4.33
+2025-11-28,Hannover,Karlsruher,Alemanha - 2. Bundesliga,3,0,0,0,18,9,7,2,45,27,4,1,1.42,5.0,6.0
+2025-11-30,Dynamo Dresden,Düsseldorf,Alemanha - 2. Bundesliga,2,1,1,0,16,13,4,2,35,43,4,0,2.2,3.5,3.1
+2025-11-28,Schalke,Paderborn,Alemanha - 2. Bundesliga,2,1,1,1,14,8,5,1,54,30,3,3,2.45,3.2,2.9
+2025-11-21,Pau,Le Mans,França - Ligue 2,1,2,1,2,11,4,2,2,62,26,7,2,2.8,3.1,2.25
+2025-11-25,Bastia,Laval,França - Ligue 2,0,2,0,1,9,12,2,7,31,35,6,2,2.25,2.87,3.1
+2025-11-22,Red Star,Clermont,França - Ligue 2,2,2,1,2,14,7,3,3,47,19,2,3,1.72,3.25,4.5
+2025-11-21,Boulogne,Grenoble,França - Ligue 2,3,1,0,1,19,13,7,7,70,70,6,6,2.15,3.0,3.2
+2025-11-22,Saint-Étienne,Nancy,França - Ligue 2,2,1,1,0,9,11,2,3,49,25,4,2,1.5,3.7,5.5
+2025-11-28,Den Bosch,Willem II,Países Baixos - Eerste Divisie,2,1,2,1,17,18,5,6,31,47,3,9,2.45,3.7,2.6
+2025-11-29,TOP Oss,Almere City,Países Baixos - Eerste Divisie,1,2,1,1,13,18,4,9,48,70,5,4,3.5,3.6,2.0
+2025-11-22,Amiens,Guingamp,França - Ligue 2,1,2,1,2,14,17,4,4,21,33,8,9,3.8,3.3,1.8
+2025-11-28,Cambuur,Helmond,Países Baixos - Eerste Divisie,0,0,0,0,10,13,2,1,70,21,8,1,1.44,4.75,6.5
+2025-11-28,Venlo,Den Haag,Países Baixos - Eerste Divisie,0,3,0,1,12,13,2,5,32,37,4,6,5.75,4.2,1.53
+2025-11-30,Maastricht,Roda Kerkrade,Países Baixos - Eerste Divisie,0,0,0,0,16,14,5,3,39,53,1,3,3.9,3.9,1.8
+2025-11-28,FC Emmen,Jong AZ,Países Baixos - Eerste Divisie,4,2,2,1,17,5,8,3,48,32,5,5,1.75,3.9,4.1
+2025-11-29,Saarbrücken,Rot-Weiss Essen,Alemanha - 3. Liga,2,3,0,0,5,8,5,5,81,59,5,2,2.5,3.4,2.35
+2025-11-30,Stuttgart II,Havelse,Alemanha - 3. Liga,2,1,1,0,18,10,11,5,77,60,8,3,1.45,4.2,5.25
+2025-11-30,Seraing,Club Brugge II,Bélgica - First Division B,1,0,1,0,10,5,2,2,36,54,4,3,0.0,0.0,0.0
+2025-11-28,Eupen,Lommel United,Bélgica - First Division B,1,2,1,1,9,20,1,8,22,50,4,8,2.5,3.3,2.4
+2025-12-01,Jong PSV,Waalwijk,Países Baixos - Eerste Divisie,3,1,1,0,11,13,6,2,42,41,4,3,3.6,4.1,1.83
+2025-12-01,Brøndby,Fredericia,Dinamarca - Superliga,1,3,1,2,20,11,4,5,114,24,8,3,1.27,6.5,8.0
+2025-11-30,OB,Vejle,Dinamarca - Superliga,3,0,2,0,10,12,6,5,59,38,4,5,1.8,3.75,4.2
+2025-11-29,Western Sydney Wanderers,Sydney,Austrália - A-League,1,0,0,0,15,20,5,6,39,50,7,4,3.0,3.6,2.2
+2025-11-30,KRC Genk II,Olympic Charleroi,Bélgica - First Division B,3,4,2,1,6,18,4,11,43,80,3,8,2.45,3.25,2.5
+2025-11-29,Patro Eisden,Jong Gent,Bélgica - First Division B,2,1,0,0,17,9,9,1,42,39,10,1,1.75,3.4,4.0
+2025-11-30,Macarthur,Perth Glory,Austrália - A-League,0,2,0,0,9,15,3,5,47,50,7,4,1.95,3.9,3.4
+2025-11-28,Brisbane Roar,Melbourne Victory,Austrália - A-League,1,0,1,0,11,11,2,6,45,51,8,3,2.4,3.5,2.87
+2025-11-29,Istra 1961,Slaven Koprivnica,Croácia - 1. Hnl,1,1,0,1,10,17,3,2,53,55,4,2,2.6,3.0,2.6
+2025-12-01,Gorica,Dinamo Zagreb,Croácia - 1. Hnl,0,2,0,1,7,12,2,2,61,72,3,4,5.75,4.0,1.44
+2025-11-29,La Serena,Palestino,Chile - Primera Division,0,3,0,0,14,10,4,5,32,55,4,8,3.2,3.4,2.15
+2025-11-29,Huachipato,Universidad Católica,Chile - Primera Division,0,0,0,0,15,9,3,4,44,41,5,5,3.2,3.4,2.2
+2025-11-30,Celje,Koper,Eslovênia - 1. Snl,1,1,1,1,25,10,8,3,78,51,10,6,1.53,4.2,4.75
+2025-11-30,Domžale,Bravo,Eslovênia - 1. Snl,1,0,1,0,7,10,3,2,51,87,3,4,3.7,3.7,1.85
+2025-11-30,Aucas,Deportivo Cuenca,Equador - Liga Pro,2,1,0,1,0,0,0,0,0,0,0,0,2.1,3.3,3.4
+2025-11-21,Deportivo Cuenca,El Nacional,Equador - Liga Pro,5,0,1,0,0,0,0,0,0,0,0,0,1.55,3.7,5.5
+2025-11-07,Deportivo Cuenca,Macará,Equador - Liga Pro,0,2,0,1,20,7,6,4,35,24,13,1,2.05,3.0,4.0
+2025-11-30,Delfin,Emelec,Equador - Liga Pro,0,1,0,0,0,0,0,0,0,0,0,0,4.2,3.4,1.85
+2025-11-23,Macará,Delfin,Equador - Liga Pro,3,0,2,0,0,0,0,0,0,0,0,0,1.38,4.33,7.5
+2025-11-10,Aucas,Delfin,Equador - Liga Pro,8,0,4,0,16,6,11,1,19,13,2,2,1.33,4.75,8.5
+2025-11-28,Barry Town United,Haverfordwest County,País De Gales - Premier League,4,0,2,0,8,9,4,1,57,40,8,1,1.72,3.6,4.33
+2025-11-22,Negeri Sembilan,Terengganu,Malásia - Super League,1,1,1,0,7,4,1,2,55,32,8,6,2.7,4.0,2.0
+2025-11-22,Kuching FA,DPMM FC,Malásia - Super League,1,0,0,0,19,6,6,2,85,29,10,2,0.0,0.0,0.0
+2025-11-29,Colwyn Bay,Penybont,País De Gales - Premier League,5,4,4,2,7,15,6,10,36,51,2,3,2.9,3.4,2.2
+2025-11-28,The New Saints,Caernarfon Town,País De Gales - Premier League,2,0,0,0,24,3,10,2,101,48,8,2,1.16,7.0,12.0
+2025-11-29,Briton Ferry,Flint Town United,País De Gales - Premier League,2,2,2,2,3,13,3,4,37,69,1,11,2.9,3.7,2.1
+2025-11-29,Dungannon Swifts,Larne,Irlanda Do Norte - Premiership,1,2,1,1,8,8,4,3,71,78,6,8,3.9,3.25,1.8
+2025-11-29,Linfield,Carrick Rangers,Irlanda Do Norte - Premiership,3,1,1,0,14,9,6,3,40,38,6,7,1.3,4.5,8.0
+2025-11-29,Bala Town,Cardiff MU,País De Gales - Premier League,2,2,1,2,11,16,3,6,52,84,8,2,3.0,3.2,2.25
+2025-11-29,Llanelli Town,Connah's Quay,País De Gales - Premier League,1,2,1,1,1,9,1,4,22,79,1,4,11.0,6.5,1.18
+2025-11-29,Academico Viseu,Penafiel,Portugal - Segunda Liga,2,0,0,0,16,5,9,2,72,43,9,3,1.66,3.3,4.75
+2025-11-30,União de Leiria,Benfica II,Portugal - Segunda Liga,2,2,1,1,14,13,6,4,31,39,3,7,2.25,3.1,2.87
+2025-11-29,Lechia Gdańsk,Nieciecza,Polônia - Ekstraklasa,5,1,2,1,16,4,9,3,62,40,4,2,1.6,3.9,5.0
+2025-11-28,Radomiak Radom,Górnik Zabrze,Polônia - Ekstraklasa,4,0,2,0,19,9,8,2,55,46,4,0,2.3,3.3,2.8
+2025-11-29,Dinamo Bucureşti,Otelul,Romênia - Liga 1,1,0,1,0,5,10,1,3,26,44,3,4,1.8,3.25,4.33
+2025-11-30,Unirea Slobozia,Botoşani,Romênia - Liga 1,0,1,0,1,9,5,3,2,39,55,2,6,3.6,3.25,1.95
