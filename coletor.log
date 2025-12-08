@@ -24699,3 +24699,78 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-07 21:23:34,959 [INFO] __main__: [DB] Executando VACUUM (tamanho=1.9 MB).
 2025-12-07 21:23:34,979 [INFO] __main__: [DB] VACUUM concluído.
 2025-12-07 21:23:35,583 [INFO] __main__: --- Rotina concluída em 599.57s ---
+2025-12-08 20:30:42,077 [INFO] __main__: Coletor iniciado
+2025-12-08 20:30:42,078 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-08 20:31:07,775 [INFO] [ODDS] Odds para Southampton vs West Brom: 1.8, 3.6, 4.2
+2025-12-08 20:31:07,775 [INFO] coletor: [ODDS] Odds para Southampton vs West Brom: 1.8, 3.6, 4.2
+2025-12-08 20:31:07,776 [INFO] [ODDS] Odds para Preston vs Coventry: 3.6, 3.6, 1.95
+2025-12-08 20:31:07,776 [INFO] coletor: [ODDS] Odds para Preston vs Coventry: 3.6, 3.6, 1.95
+2025-12-08 20:31:07,776 [INFO] [ODDS] Odds para Watford vs Sheffield Wed: 1.53, 4.2, 5.75
+2025-12-08 20:31:07,776 [INFO] coletor: [ODDS] Odds para Watford vs Sheffield Wed: 1.53, 4.2, 5.75
+2025-12-08 20:31:07,777 [INFO] [ODDS] Odds para Blackburn vs Oxford Utd: 1.8, 3.5, 4.5
+2025-12-08 20:31:07,777 [INFO] coletor: [ODDS] Odds para Blackburn vs Oxford Utd: 1.8, 3.5, 4.5
+2025-12-08 20:31:07,777 [INFO] [ODDS] Odds para Sheffield Utd vs Norwich: 1.66, 3.7, 5.25
+2025-12-08 20:31:07,777 [INFO] coletor: [ODDS] Odds para Sheffield Utd vs Norwich: 1.66, 3.7, 5.25
+2025-12-08 20:31:07,778 [INFO] [ODDS] Odds para Swansea vs Portsmouth: 2.2, 3.2, 3.5
+2025-12-08 20:31:07,778 [INFO] coletor: [ODDS] Odds para Swansea vs Portsmouth: 2.2, 3.2, 3.5
+2025-12-08 20:31:07,778 [INFO] [ODDS] Odds para Charlton vs Middlesbrough: 3.3, 3.2, 2.2
+2025-12-08 20:31:07,778 [INFO] coletor: [ODDS] Odds para Charlton vs Middlesbrough: 3.3, 3.2, 2.2
+2025-12-08 20:31:07,779 [INFO] [ODDS] Odds para QPR vs Birmingham: 2.8, 3.25, 2.5
+2025-12-08 20:31:07,779 [INFO] coletor: [ODDS] Odds para QPR vs Birmingham: 2.8, 3.25, 2.5
+2025-12-08 20:31:07,779 [INFO] [ODDS] Odds para Lincoln vs Barnsley: 2.1, 3.5, 3.2
+2025-12-08 20:31:07,779 [INFO] coletor: [ODDS] Odds para Lincoln vs Barnsley: 2.1, 3.5, 3.2
+2025-12-08 20:31:07,779 [INFO] [ODDS] Odds para Mansfield vs Bolton: 3.6, 3.5, 1.95
+2025-12-08 20:31:07,779 [INFO] coletor: [ODDS] Odds para Mansfield vs Bolton: 3.6, 3.5, 1.95
+2025-12-08 20:31:07,780 [INFO] [ODDS] Odds para Port Vale vs Bradford City: 2.55, 3.25, 2.7
+2025-12-08 20:31:07,780 [INFO] coletor: [ODDS] Odds para Port Vale vs Bradford City: 2.55, 3.25, 2.7
+2025-12-08 20:31:07,780 [INFO] [ODDS] Odds para Exeter vs Wimbledon: 2.25, 3.3, 3.1
+2025-12-08 20:31:07,780 [INFO] coletor: [ODDS] Odds para Exeter vs Wimbledon: 2.25, 3.3, 3.1
+2025-12-08 20:31:07,781 [INFO] [ODDS] Odds para Wycombe vs Plymouth: 1.7, 3.7, 4.5
+2025-12-08 20:31:07,781 [INFO] coletor: [ODDS] Odds para Wycombe vs Plymouth: 1.7, 3.7, 4.5
+2025-12-08 20:31:07,781 [INFO] [ODDS] Odds para Doncaster vs Stockport County: 2.37, 3.25, 2.9
+2025-12-08 20:31:07,781 [INFO] coletor: [ODDS] Odds para Doncaster vs Stockport County: 2.37, 3.25, 2.9
+2025-12-08 20:31:07,781 [INFO] [ODDS] Odds para Leyton Orient vs Luton: 2.87, 3.25, 2.37
+2025-12-08 20:31:07,781 [INFO] coletor: [ODDS] Odds para Leyton Orient vs Luton: 2.87, 3.25, 2.37
+2025-12-08 20:31:07,782 [INFO] [ODDS] Odds para Stevenage vs Cardiff: 2.62, 3.2, 2.6
+2025-12-08 20:31:07,782 [INFO] coletor: [ODDS] Odds para Stevenage vs Cardiff: 2.62, 3.2, 2.6
+2025-12-08 20:31:07,782 [INFO] [ODDS] Odds para Northampton vs Huddersfield: 3.2, 3.3, 2.2
+2025-12-08 20:31:07,782 [INFO] coletor: [ODDS] Odds para Northampton vs Huddersfield: 3.2, 3.3, 2.2
+2025-12-08 20:31:07,783 [INFO] [ODDS] Odds para Reading vs Peterborough: 2.2, 3.4, 3.1
+2025-12-08 20:31:07,783 [INFO] coletor: [ODDS] Odds para Reading vs Peterborough: 2.2, 3.4, 3.1
+2025-12-08 20:31:07,783 [INFO] [ODDS] Odds para Barrow vs Tranmere: 2.62, 3.1, 2.62
+2025-12-08 20:31:07,783 [INFO] coletor: [ODDS] Odds para Barrow vs Tranmere: 2.62, 3.1, 2.62
+2025-12-08 20:31:07,783 [INFO] [ODDS] Odds para Shrewsbury vs Grimsby Town: 3.1, 3.25, 2.25
+2025-12-08 20:31:07,783 [INFO] coletor: [ODDS] Odds para Shrewsbury vs Grimsby Town: 3.1, 3.25, 2.25
+2025-12-08 20:31:07,784 [INFO] [ODDS] Odds para Fleetwood vs Salford: 2.8, 3.5, 2.25
+2025-12-08 20:31:07,784 [INFO] coletor: [ODDS] Odds para Fleetwood vs Salford: 2.8, 3.5, 2.25
+2025-12-08 20:31:07,784 [INFO] [ODDS] Odds para Notts County vs MK Dons: 2.55, 3.25, 2.7
+2025-12-08 20:31:07,784 [INFO] coletor: [ODDS] Odds para Notts County vs MK Dons: 2.55, 3.25, 2.7
+2025-12-08 20:31:07,785 [INFO] [ODDS] Odds para Swindon vs Cheltenham: 1.42, 4.33, 7.0
+2025-12-08 20:31:07,785 [INFO] coletor: [ODDS] Odds para Swindon vs Cheltenham: 1.42, 4.33, 7.0
+2025-12-08 20:31:07,785 [INFO] [ODDS] Odds para Barnet vs Bristol Rovers: 1.57, 3.75, 5.75
+2025-12-08 20:31:07,785 [INFO] coletor: [ODDS] Odds para Barnet vs Bristol Rovers: 1.57, 3.75, 5.75
+2025-12-08 20:31:07,786 [INFO] [ODDS] Odds para Bromley vs Crawley: 1.8, 3.8, 3.9
+2025-12-08 20:31:07,786 [INFO] coletor: [ODDS] Odds para Bromley vs Crawley: 1.8, 3.8, 3.9
+2025-12-08 20:31:07,786 [INFO] [ODDS] Odds para Harrogate vs Accrington: 3.4, 3.2, 2.15
+2025-12-08 20:31:07,786 [INFO] coletor: [ODDS] Odds para Harrogate vs Accrington: 3.4, 3.2, 2.15
+2025-12-08 20:31:07,786 [INFO] [ODDS] Odds para Cambridge vs Chesterfield: 2.0, 3.2, 3.75
+2025-12-08 20:31:07,786 [INFO] coletor: [ODDS] Odds para Cambridge vs Chesterfield: 2.0, 3.2, 3.75
+2025-12-08 20:31:07,787 [INFO] [ODDS] Odds para KRC Genk II vs RSC Anderlecht II: 2.25, 3.6, 2.55
+2025-12-08 20:31:07,787 [INFO] coletor: [ODDS] Odds para KRC Genk II vs RSC Anderlecht II: 2.25, 3.6, 2.55
+2025-12-08 20:31:07,787 [INFO] [ODDS] Odds para Crusaders vs Cliftonville: 3.25, 3.3, 2.0
+2025-12-08 20:31:07,787 [INFO] coletor: [ODDS] Odds para Crusaders vs Cliftonville: 3.25, 3.3, 2.0
+2025-12-08 20:31:07,788 [INFO] [ODDS] Odds para Penybont vs Barry Town United: 1.72, 3.75, 3.75
+2025-12-08 20:31:07,788 [INFO] coletor: [ODDS] Odds para Penybont vs Barry Town United: 1.72, 3.75, 3.75
+2025-12-08 20:31:07,788 [INFO] [ODDS] Odds para Briton Ferry vs The New Saints: 15.0, 9.0, 1.12
+2025-12-08 20:31:07,788 [INFO] coletor: [ODDS] Odds para Briton Ferry vs The New Saints: 15.0, 9.0, 1.12
+2025-12-08 20:31:07,788 [INFO] [ODDS] Odds para Botev Vratsa vs Montana: 1.75, 3.3, 5.25
+2025-12-08 20:31:07,788 [INFO] coletor: [ODDS] Odds para Botev Vratsa vs Montana: 1.75, 3.3, 5.25
+2025-12-08 20:31:07,789 [INFO] [AGENDA] Válidos=32, Incompletos=0, Filtrados=38, Duplicados=0
+2025-12-08 20:31:07,789 [INFO] coletor: [AGENDA] Válidos=32, Incompletos=0, Filtrados=38, Duplicados=0
+2025-12-08 20:31:07,789 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.57s
+2025-12-08 20:31:07,793 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-09.csv (32 linhas).
+2025-12-08 20:31:23,669 [INFO] __main__: [TEMPO] Fase 2 concluída em 15.88s (links extraídos: 64)
+2025-12-08 20:35:05,516 [INFO] __main__: [TEMPO] Fase 3 concluída em 221.85s (jogos raspados: 70)
+2025-12-08 20:35:05,635 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (30 linhas).
+2025-12-08 20:35:05,836 [INFO] __main__: Exportado histórico para dados_redscore.csv (13106 linhas)
+2025-12-08 20:35:06,869 [INFO] __main__: --- Rotina concluída em 264.79s ---
