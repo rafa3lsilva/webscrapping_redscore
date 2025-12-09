@@ -24774,3 +24774,34 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-08 20:35:05,635 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (30 linhas).
 2025-12-08 20:35:05,836 [INFO] __main__: Exportado histórico para dados_redscore.csv (13106 linhas)
 2025-12-08 20:35:06,869 [INFO] __main__: --- Rotina concluída em 264.79s ---
+2025-12-09 20:40:29,185 [INFO] __main__: Coletor iniciado
+2025-12-09 20:40:29,186 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-09 20:41:34,507 [INFO] [ODDS] Odds para Bristol City vs Leicester: 2.3, 3.25, 3.1
+2025-12-09 20:41:34,507 [INFO] coletor: [ODDS] Odds para Bristol City vs Leicester: 2.3, 3.25, 3.1
+2025-12-09 20:41:34,509 [INFO] [ODDS] Odds para Derby vs Millwall: 2.45, 3.0, 3.0
+2025-12-09 20:41:34,509 [INFO] coletor: [ODDS] Odds para Derby vs Millwall: 2.45, 3.0, 3.0
+2025-12-09 20:41:34,510 [INFO] [ODDS] Odds para Ipswich vs Stoke: 1.61, 3.9, 5.25
+2025-12-09 20:41:34,510 [INFO] coletor: [ODDS] Odds para Ipswich vs Stoke: 1.61, 3.9, 5.25
+2025-12-09 20:41:34,511 [INFO] [ODDS] Odds para Hull vs Wrexham: 2.3, 3.3, 3.0
+2025-12-09 20:41:34,511 [INFO] coletor: [ODDS] Odds para Hull vs Wrexham: 2.3, 3.3, 3.0
+2025-12-09 20:41:34,512 [INFO] [ODDS] Odds para Rotherham vs Blackpool: 2.3, 3.1, 3.1
+2025-12-09 20:41:34,512 [INFO] coletor: [ODDS] Odds para Rotherham vs Blackpool: 2.3, 3.1, 3.1
+2025-12-09 20:41:34,513 [INFO] [ODDS] Odds para Oldham vs Walsall: 2.6, 3.1, 2.7
+2025-12-09 20:41:34,513 [INFO] coletor: [ODDS] Odds para Oldham vs Walsall: 2.6, 3.1, 2.7
+2025-12-09 20:41:34,514 [INFO] [ODDS] Odds para Crewe vs Newport: 1.6, 3.9, 5.25
+2025-12-09 20:41:34,514 [INFO] coletor: [ODDS] Odds para Crewe vs Newport: 1.6, 3.9, 5.25
+2025-12-09 20:41:34,515 [INFO] [ODDS] Odds para Vitesse vs Waalwijk: 2.7, 3.75, 2.35
+2025-12-09 20:41:34,515 [INFO] coletor: [ODDS] Odds para Vitesse vs Waalwijk: 2.7, 3.75, 2.35
+2025-12-09 20:41:34,516 [INFO] [ODDS] Odds para Independiente del Valle vs LDU Quito: 2.4, 3.25, 2.8
+2025-12-09 20:41:34,516 [INFO] coletor: [ODDS] Odds para Independiente del Valle vs LDU Quito: 2.4, 3.25, 2.8
+2025-12-09 20:41:34,517 [INFO] [ODDS] Odds para Carlisle vs Woking: 1.45, 4.0, 6.25
+2025-12-09 20:41:34,517 [INFO] coletor: [ODDS] Odds para Carlisle vs Woking: 1.45, 4.0, 6.25
+2025-12-09 20:41:34,517 [INFO] [AGENDA] Válidos=10, Incompletos=0, Filtrados=49, Duplicados=0
+2025-12-09 20:41:34,517 [INFO] coletor: [AGENDA] Válidos=10, Incompletos=0, Filtrados=49, Duplicados=0
+2025-12-09 20:41:34,518 [INFO] __main__: [TEMPO] Fase 1 concluída em 8.74s
+2025-12-09 20:41:34,527 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-10.csv (10 linhas).
+2025-12-09 20:41:41,585 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.06s (links extraídos: 20)
+2025-12-09 20:43:16,987 [INFO] __main__: [TEMPO] Fase 3 concluída em 95.40s (jogos raspados: 19)
+2025-12-09 20:43:17,089 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
+2025-12-09 20:43:17,338 [INFO] __main__: Exportado histórico para dados_redscore.csv (13113 linhas)
+2025-12-09 20:43:18,195 [INFO] __main__: --- Rotina concluída em 169.01s ---
