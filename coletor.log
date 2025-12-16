@@ -25507,3 +25507,32 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-14 21:32:32,176 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.0 MB).
 2025-12-14 21:32:32,201 [INFO] __main__: [DB] VACUUM concluído.
 2025-12-14 21:32:32,741 [INFO] __main__: --- Rotina concluída em 163.69s ---
+2025-12-15 21:17:10,132 [INFO] __main__: Coletor iniciado
+2025-12-15 21:17:10,134 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-15 21:17:33,407 [INFO] [ODDS] Odds para Winterthur vs Thun: 3.7, 3.9, 1.85
+2025-12-15 21:17:33,407 [INFO] coletor: [ODDS] Odds para Winterthur vs Thun: 3.7, 3.9, 1.85
+2025-12-15 21:17:33,407 [INFO] [ODDS] Odds para St. Gallen vs Sion: 2.3, 3.7, 2.8
+2025-12-15 21:17:33,407 [INFO] coletor: [ODDS] Odds para St. Gallen vs Sion: 2.3, 3.7, 2.8
+2025-12-15 21:17:33,408 [INFO] [ODDS] Odds para Olympic Charleroi vs Lommel United: 3.6, 3.4, 1.85
+2025-12-15 21:17:33,408 [INFO] coletor: [ODDS] Odds para Olympic Charleroi vs Lommel United: 3.6, 3.4, 1.85
+2025-12-15 21:17:33,408 [INFO] [ODDS] Odds para Beerschot vs Jong Gent: 1.53, 3.7, 5.0
+2025-12-15 21:17:33,408 [INFO] coletor: [ODDS] Odds para Beerschot vs Jong Gent: 1.53, 3.7, 5.0
+2025-12-15 21:17:33,409 [WARNING] [ODDS] Odds não encontradas para Lierse Kempenzonen vs Kortrijk. Motivo: could not convert string to float: '-'
+2025-12-15 21:17:33,409 [WARNING] coletor: [ODDS] Odds não encontradas para Lierse Kempenzonen vs Kortrijk. Motivo: could not convert string to float: '-'
+2025-12-15 21:17:33,409 [INFO] [ODDS] Odds para Deportes Tolima vs Junior FC: 1.85, 3.4, 4.33
+2025-12-15 21:17:33,409 [INFO] coletor: [ODDS] Odds para Deportes Tolima vs Junior FC: 1.85, 3.4, 4.33
+2025-12-15 21:17:33,410 [INFO] [ODDS] Odds para Truro City vs Wealdstone: 2.62, 3.25, 2.45
+2025-12-15 21:17:33,410 [INFO] coletor: [ODDS] Odds para Truro City vs Wealdstone: 2.62, 3.25, 2.45
+2025-12-15 21:17:33,410 [INFO] [ODDS] Odds para Cardiff MU vs Briton Ferry: 1.66, 3.5, 4.1
+2025-12-15 21:17:33,410 [INFO] coletor: [ODDS] Odds para Cardiff MU vs Briton Ferry: 1.66, 3.5, 4.1
+2025-12-15 21:17:33,411 [INFO] [ODDS] Odds para Marítimo vs Benfica II: 1.8, 3.3, 3.9
+2025-12-15 21:17:33,411 [INFO] coletor: [ODDS] Odds para Marítimo vs Benfica II: 1.8, 3.3, 3.9
+2025-12-15 21:17:33,411 [INFO] [AGENDA] Válidos=9, Incompletos=0, Filtrados=60, Duplicados=0
+2025-12-15 21:17:33,411 [INFO] coletor: [AGENDA] Válidos=9, Incompletos=0, Filtrados=60, Duplicados=0
+2025-12-15 21:17:33,411 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.07s
+2025-12-15 21:17:33,416 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-16.csv (9 linhas).
+2025-12-15 21:17:38,127 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.71s (links extraídos: 18)
+2025-12-15 21:18:33,942 [INFO] __main__: [TEMPO] Fase 3 concluída em 55.82s (jogos raspados: 36)
+2025-12-15 21:18:34,064 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
+2025-12-15 21:18:34,309 [INFO] __main__: Exportado histórico para dados_redscore.csv (13464 linhas)
+2025-12-15 21:18:35,712 [INFO] __main__: --- Rotina concluída em 85.58s ---
