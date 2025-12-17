@@ -25536,3 +25536,32 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-15 21:18:34,064 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
 2025-12-15 21:18:34,309 [INFO] __main__: Exportado histórico para dados_redscore.csv (13464 linhas)
 2025-12-15 21:18:35,712 [INFO] __main__: --- Rotina concluída em 85.58s ---
+2025-12-16 21:24:22,281 [INFO] __main__: Coletor iniciado
+2025-12-16 21:24:22,283 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-16 21:24:44,332 [INFO] [ODDS] Odds para Dundee United vs Celtic: 5.5, 4.2, 1.5
+2025-12-16 21:24:44,332 [INFO] coletor: [ODDS] Odds para Dundee United vs Celtic: 5.5, 4.2, 1.5
+2025-12-16 21:24:44,332 [INFO] [ODDS] Odds para Zürich vs Lugano: 2.6, 3.6, 2.5
+2025-12-16 21:24:44,332 [INFO] coletor: [ODDS] Odds para Zürich vs Lugano: 2.6, 3.6, 2.5
+2025-12-16 21:24:44,333 [INFO] [ODDS] Odds para Luzern vs Basel: 3.5, 3.6, 2.0
+2025-12-16 21:24:44,333 [INFO] coletor: [ODDS] Odds para Luzern vs Basel: 3.5, 3.6, 2.0
+2025-12-16 21:24:44,333 [INFO] [ODDS] Odds para Young Boys vs Grasshopper: 1.5, 4.75, 5.5
+2025-12-16 21:24:44,333 [INFO] coletor: [ODDS] Odds para Young Boys vs Grasshopper: 1.5, 4.75, 5.5
+2025-12-16 21:24:44,333 [INFO] [ODDS] Odds para KRC Genk II vs Waasland-Beveren: 6.5, 4.5, 1.38
+2025-12-16 21:24:44,333 [INFO] coletor: [ODDS] Odds para KRC Genk II vs Waasland-Beveren: 6.5, 4.5, 1.38
+2025-12-16 21:24:44,334 [INFO] [ODDS] Odds para RSC Anderlecht II vs Francs Borains: 2.6, 3.4, 2.35
+2025-12-16 21:24:44,334 [INFO] coletor: [ODDS] Odds para RSC Anderlecht II vs Francs Borains: 2.6, 3.4, 2.35
+2025-12-16 21:24:44,334 [INFO] [ODDS] Odds para Club Brugge II vs RWDM: 3.25, 3.5, 2.0
+2025-12-16 21:24:44,334 [INFO] coletor: [ODDS] Odds para Club Brugge II vs RWDM: 3.25, 3.5, 2.0
+2025-12-16 21:24:44,335 [INFO] [ODDS] Odds para Kuala Lumpur vs Johor Darul Ta'zim: 17.0, 8.0, 1.11
+2025-12-16 21:24:44,335 [INFO] coletor: [ODDS] Odds para Kuala Lumpur vs Johor Darul Ta'zim: 17.0, 8.0, 1.11
+2025-12-16 21:24:44,335 [INFO] [ODDS] Odds para Radnički Kragujevac vs Čukarički: 2.55, 3.3, 2.7
+2025-12-16 21:24:44,335 [INFO] coletor: [ODDS] Odds para Radnički Kragujevac vs Čukarički: 2.55, 3.3, 2.7
+2025-12-16 21:24:44,335 [INFO] [AGENDA] Válidos=9, Incompletos=0, Filtrados=72, Duplicados=0
+2025-12-16 21:24:44,335 [INFO] coletor: [AGENDA] Válidos=9, Incompletos=0, Filtrados=72, Duplicados=0
+2025-12-16 21:24:44,335 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.43s
+2025-12-16 21:24:44,340 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-17.csv (9 linhas).
+2025-12-16 21:24:48,176 [INFO] __main__: [TEMPO] Fase 2 concluída em 3.84s (links extraídos: 18)
+2025-12-16 21:25:41,787 [INFO] __main__: [TEMPO] Fase 3 concluída em 53.61s (jogos raspados: 32)
+2025-12-16 21:25:41,868 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (9 linhas).
+2025-12-16 21:25:42,083 [INFO] __main__: Exportado histórico para dados_redscore.csv (13473 linhas)
+2025-12-16 21:25:43,158 [INFO] __main__: --- Rotina concluída em 80.87s ---
