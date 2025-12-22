@@ -26228,3 +26228,30 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-21 21:40:14,617 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.0 MB).
 2025-12-21 21:40:14,635 [INFO] __main__: [DB] VACUUM concluído.
 2025-12-21 21:40:15,353 [INFO] __main__: --- Rotina concluída em 108.94s ---
+2025-12-22 20:10:10,581 [INFO] __main__: Coletor iniciado
+2025-12-22 20:10:10,582 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-22 20:10:36,212 [INFO] [ODDS] Odds para Guimaraes vs Sporting: 6.5, 4.5, 1.42
+2025-12-22 20:10:36,212 [INFO] coletor: [ODDS] Odds para Guimaraes vs Sporting: 6.5, 4.5, 1.42
+2025-12-22 20:10:36,213 [WARNING] [ODDS] Odds não encontradas para Partizani Tirana vs Dinamo Tirana. Motivo: could not convert string to float: '-'
+2025-12-22 20:10:36,213 [WARNING] coletor: [ODDS] Odds não encontradas para Partizani Tirana vs Dinamo Tirana. Motivo: could not convert string to float: '-'
+2025-12-22 20:10:36,213 [INFO] [ODDS] Odds para Teuta Durrës vs Egnatia Rrogozhinë: 2.9, 2.87, 2.3
+2025-12-22 20:10:36,213 [INFO] coletor: [ODDS] Odds para Teuta Durrës vs Egnatia Rrogozhinë: 2.9, 2.87, 2.3
+2025-12-22 20:10:36,214 [INFO] [ODDS] Odds para MC Alger vs Ben Aknoun: 1.38, 3.7, 8.5
+2025-12-22 20:10:36,214 [INFO] coletor: [ODDS] Odds para MC Alger vs Ben Aknoun: 1.38, 3.7, 8.5
+2025-12-22 20:10:36,214 [INFO] [ODDS] Odds para Melbourne City vs Macarthur: 1.66, 4.0, 5.0
+2025-12-22 20:10:36,214 [INFO] coletor: [ODDS] Odds para Melbourne City vs Macarthur: 1.66, 4.0, 5.0
+2025-12-22 20:10:36,214 [WARNING] [ODDS] Odds não encontradas para DPMM FC vs Pulau Pinang. Motivo: could not convert string to float: '-'
+2025-12-22 20:10:36,214 [WARNING] coletor: [ODDS] Odds não encontradas para DPMM FC vs Pulau Pinang. Motivo: could not convert string to float: '-'
+2025-12-22 20:10:36,215 [INFO] [ODDS] Odds para PDRM vs Selangor: 7.5, 5.0, 1.33
+2025-12-22 20:10:36,215 [INFO] coletor: [ODDS] Odds para PDRM vs Selangor: 7.5, 5.0, 1.33
+2025-12-22 20:10:36,215 [WARNING] [ODDS] Odds não encontradas para Terengganu vs Sabah. Motivo: could not convert string to float: '-'
+2025-12-22 20:10:36,215 [WARNING] coletor: [ODDS] Odds não encontradas para Terengganu vs Sabah. Motivo: could not convert string to float: '-'
+2025-12-22 20:10:36,216 [INFO] [AGENDA] Válidos=8, Incompletos=0, Filtrados=37, Duplicados=0
+2025-12-22 20:10:36,216 [INFO] coletor: [AGENDA] Válidos=8, Incompletos=0, Filtrados=37, Duplicados=0
+2025-12-22 20:10:36,216 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.16s
+2025-12-22 20:10:36,222 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-23.csv (8 linhas).
+2025-12-22 20:10:40,609 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.39s (links extraídos: 16)
+2025-12-22 20:11:26,671 [INFO] __main__: [TEMPO] Fase 3 concluída em 46.06s (jogos raspados: 31)
+2025-12-22 20:11:26,757 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (8 linhas).
+2025-12-22 20:11:26,972 [INFO] __main__: Exportado histórico para dados_redscore.csv (13770 linhas)
+2025-12-22 20:11:28,110 [INFO] __main__: --- Rotina concluída em 77.53s ---
