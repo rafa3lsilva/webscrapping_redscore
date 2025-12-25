@@ -26278,3 +26278,22 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-23 21:03:43,013 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (5 linhas).
 2025-12-23 21:03:43,262 [INFO] __main__: Exportado histórico para dados_redscore.csv (13775 linhas)
 2025-12-23 21:03:44,585 [INFO] __main__: --- Rotina concluída em 68.50s ---
+2025-12-24 22:37:01,006 [INFO] __main__: Coletor iniciado
+2025-12-24 22:37:01,007 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-24 22:37:25,622 [INFO] [ODDS] Odds para Al Feiha vs Al Hazm: 1.8, 3.4, 4.0
+2025-12-24 22:37:25,622 [INFO] coletor: [ODDS] Odds para Al Feiha vs Al Hazm: 1.8, 3.4, 4.0
+2025-12-24 22:37:25,623 [INFO] [ODDS] Odds para Al Suqoor vs Al Najma: 1.4, 4.2, 6.5
+2025-12-24 22:37:25,623 [INFO] coletor: [ODDS] Odds para Al Suqoor vs Al Najma: 1.4, 4.2, 6.5
+2025-12-24 22:37:25,624 [INFO] [ODDS] Odds para Al Riyadh vs Al Ettifaq: 3.0, 3.3, 2.2
+2025-12-24 22:37:25,624 [INFO] coletor: [ODDS] Odds para Al Riyadh vs Al Ettifaq: 3.0, 3.3, 2.2
+2025-12-24 22:37:25,624 [INFO] [ODDS] Odds para CR Belouizdad vs ES Sétif: 1.61, 3.1, 5.5
+2025-12-24 22:37:25,624 [INFO] coletor: [ODDS] Odds para CR Belouizdad vs ES Sétif: 1.61, 3.1, 5.5
+2025-12-24 22:37:25,624 [INFO] [AGENDA] Válidos=4, Incompletos=0, Filtrados=22, Duplicados=0
+2025-12-24 22:37:25,624 [INFO] coletor: [AGENDA] Válidos=4, Incompletos=0, Filtrados=22, Duplicados=0
+2025-12-24 22:37:25,625 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.11s
+2025-12-24 22:37:25,630 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-25.csv (4 linhas).
+2025-12-24 22:37:28,534 [INFO] __main__: [TEMPO] Fase 2 concluída em 2.90s (links extraídos: 8)
+2025-12-24 22:37:52,490 [INFO] __main__: [TEMPO] Fase 3 concluída em 23.96s (jogos raspados: 11)
+2025-12-24 22:37:52,585 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
+2025-12-24 22:37:52,815 [INFO] __main__: Exportado histórico para dados_redscore.csv (13782 linhas)
+2025-12-24 22:37:53,896 [INFO] __main__: --- Rotina concluída em 52.89s ---
