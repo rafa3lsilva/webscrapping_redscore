@@ -26589,3 +26589,42 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-26 21:08:11,513 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (50 linhas).
 2025-12-26 21:08:11,769 [INFO] __main__: Exportado histórico para dados_redscore.csv (13909 linhas)
 2025-12-26 21:08:12,620 [INFO] __main__: --- Rotina concluída em 399.12s ---
+2025-12-27 22:00:26,550 [INFO] __main__: Coletor iniciado
+2025-12-27 22:00:26,551 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-27 22:00:49,990 [INFO] [ODDS] Odds para Sunderland vs Leeds: 2.7, 3.2, 2.8
+2025-12-27 22:00:49,990 [INFO] coletor: [ODDS] Odds para Sunderland vs Leeds: 2.7, 3.2, 2.8
+2025-12-27 22:00:49,990 [INFO] [ODDS] Odds para Crystal Palace vs Tottenham: 2.15, 3.4, 3.4
+2025-12-27 22:00:49,990 [INFO] coletor: [ODDS] Odds para Crystal Palace vs Tottenham: 2.15, 3.4, 3.4
+2025-12-27 22:00:49,991 [INFO] [ODDS] Odds para Milan vs Hellas Verona: 1.38, 5.0, 7.5
+2025-12-27 22:00:49,991 [INFO] coletor: [ODDS] Odds para Milan vs Hellas Verona: 1.38, 5.0, 7.5
+2025-12-27 22:00:49,991 [INFO] [ODDS] Odds para Cremonese vs Napoli: 6.5, 3.75, 1.57
+2025-12-27 22:00:49,991 [INFO] coletor: [ODDS] Odds para Cremonese vs Napoli: 6.5, 3.75, 1.57
+2025-12-27 22:00:49,992 [INFO] [ODDS] Odds para Bologna vs Sassuolo: 1.8, 3.5, 4.75
+2025-12-27 22:00:49,992 [INFO] coletor: [ODDS] Odds para Bologna vs Sassuolo: 1.8, 3.5, 4.75
+2025-12-27 22:00:49,992 [INFO] [ODDS] Odds para Atalanta vs Inter: 3.75, 3.5, 2.0
+2025-12-27 22:00:49,992 [INFO] coletor: [ODDS] Odds para Atalanta vs Inter: 3.75, 3.5, 2.0
+2025-12-27 22:00:49,993 [INFO] [ODDS] Odds para Arouca vs Gil Vicente: 4.2, 3.2, 1.95
+2025-12-27 22:00:49,993 [INFO] coletor: [ODDS] Odds para Arouca vs Gil Vicente: 4.2, 3.2, 1.95
+2025-12-27 22:00:49,993 [INFO] [ODDS] Odds para Casa Pia vs Guimaraes: 3.2, 3.0, 2.45
+2025-12-27 22:00:49,993 [INFO] coletor: [ODDS] Odds para Casa Pia vs Guimaraes: 3.2, 3.0, 2.45
+2025-12-27 22:00:49,993 [INFO] [ODDS] Odds para Braga vs Benfica: 3.5, 3.25, 2.1
+2025-12-27 22:00:49,993 [INFO] coletor: [ODDS] Odds para Braga vs Benfica: 3.5, 3.25, 2.1
+2025-12-27 22:00:49,994 [INFO] [ODDS] Odds para Sporting vs Rio Ave: 1.14, 7.5, 19.0
+2025-12-27 22:00:49,994 [INFO] coletor: [ODDS] Odds para Sporting vs Rio Ave: 1.14, 7.5, 19.0
+2025-12-27 22:00:49,994 [INFO] [ODDS] Odds para Melbourne City vs Perth Glory: 1.6, 4.2, 5.25
+2025-12-27 22:00:49,994 [INFO] coletor: [ODDS] Odds para Melbourne City vs Perth Glory: 1.6, 4.2, 5.25
+2025-12-27 22:00:49,995 [INFO] [ODDS] Odds para Selangor vs Melaka: 1.16, 6.5, 12.0
+2025-12-27 22:00:49,995 [INFO] coletor: [ODDS] Odds para Selangor vs Melaka: 1.16, 6.5, 12.0
+2025-12-27 22:00:49,995 [INFO] [ODDS] Odds para Academico Viseu vs Benfica II: 1.75, 3.3, 4.0
+2025-12-27 22:00:49,995 [INFO] coletor: [ODDS] Odds para Academico Viseu vs Benfica II: 1.75, 3.3, 4.0
+2025-12-27 22:00:49,996 [INFO] [ODDS] Odds para Ferreira vs Farense: 3.3, 3.2, 2.0
+2025-12-27 22:00:49,996 [INFO] coletor: [ODDS] Odds para Ferreira vs Farense: 3.3, 3.2, 2.0
+2025-12-27 22:00:49,996 [INFO] [AGENDA] Válidos=14, Incompletos=0, Filtrados=54, Duplicados=0
+2025-12-27 22:00:49,996 [INFO] coletor: [AGENDA] Válidos=14, Incompletos=0, Filtrados=54, Duplicados=0
+2025-12-27 22:00:49,996 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.02s
+2025-12-27 22:00:50,000 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-28.csv (14 linhas).
+2025-12-27 22:00:57,781 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.78s (links extraídos: 28)
+2025-12-27 22:02:21,617 [INFO] __main__: [TEMPO] Fase 3 concluída em 83.84s (jogos raspados: 26)
+2025-12-27 22:02:21,716 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (12 linhas).
+2025-12-27 22:02:21,968 [INFO] __main__: Exportado histórico para dados_redscore.csv (13921 linhas)
+2025-12-27 22:02:23,060 [INFO] __main__: --- Rotina concluída em 116.51s ---
