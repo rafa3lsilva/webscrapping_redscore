@@ -26828,3 +26828,34 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-29 22:09:07,181 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (44 linhas).
 2025-12-29 22:09:07,385 [INFO] __main__: Exportado histórico para dados_redscore.csv (14011 linhas)
 2025-12-29 22:09:07,960 [INFO] __main__: --- Rotina concluída em 271.93s ---
+2025-12-30 20:37:20,738 [INFO] __main__: Coletor iniciado
+2025-12-30 20:37:20,739 [INFO] __main__: --- Rotina diária iniciada ---
+2025-12-30 20:37:44,822 [INFO] [ODDS] Odds para Al Suqoor vs Al Ittihad: 3.0, 3.9, 1.95
+2025-12-30 20:37:44,822 [INFO] coletor: [ODDS] Odds para Al Suqoor vs Al Ittihad: 3.0, 3.9, 1.95
+2025-12-30 20:37:44,822 [INFO] [ODDS] Odds para Al Kholood vs Al Hilal: 10.0, 6.5, 1.2
+2025-12-30 20:37:44,822 [INFO] coletor: [ODDS] Odds para Al Kholood vs Al Hilal: 10.0, 6.5, 1.2
+2025-12-30 20:37:44,822 [INFO] [ODDS] Odds para Al Shabab vs Al Quadisiya: 4.75, 3.8, 1.57
+2025-12-30 20:37:44,822 [INFO] coletor: [ODDS] Odds para Al Shabab vs Al Quadisiya: 4.75, 3.8, 1.57
+2025-12-30 20:37:44,823 [INFO] [ODDS] Odds para Central Coast Mariners vs Brisbane Roar: 3.6, 3.6, 2.0
+2025-12-30 20:37:44,823 [INFO] coletor: [ODDS] Odds para Central Coast Mariners vs Brisbane Roar: 3.6, 3.6, 2.0
+2025-12-30 20:37:44,823 [INFO] [ODDS] Odds para Maccabi Netanya vs Hapoel Petah Tikva: 1.9, 3.6, 3.3
+2025-12-30 20:37:44,823 [INFO] coletor: [ODDS] Odds para Maccabi Netanya vs Hapoel Petah Tikva: 1.9, 3.6, 3.3
+2025-12-30 20:37:44,824 [INFO] [ODDS] Odds para Ashdod vs Maccabi Haifa: 4.5, 3.75, 1.57
+2025-12-30 20:37:44,824 [INFO] coletor: [ODDS] Odds para Ashdod vs Maccabi Haifa: 4.5, 3.75, 1.57
+2025-12-30 20:37:44,824 [INFO] [ODDS] Odds para Hapoel Be'er Sheva vs Hapoel Katamon: 1.25, 5.0, 9.0
+2025-12-30 20:37:44,824 [INFO] coletor: [ODDS] Odds para Hapoel Be'er Sheva vs Hapoel Katamon: 1.25, 5.0, 9.0
+2025-12-30 20:37:44,825 [INFO] [ODDS] Odds para Briton Ferry vs Barry Town United: 3.0, 3.4, 2.05
+2025-12-30 20:37:44,825 [INFO] coletor: [ODDS] Odds para Briton Ferry vs Barry Town United: 3.0, 3.4, 2.05
+2025-12-30 20:37:44,825 [INFO] [ODDS] Odds para Bala Town vs Caernarfon Town: 3.6, 3.25, 1.9
+2025-12-30 20:37:44,825 [INFO] coletor: [ODDS] Odds para Bala Town vs Caernarfon Town: 3.6, 3.25, 1.9
+2025-12-30 20:37:44,826 [INFO] [ODDS] Odds para Connah's Quay vs The New Saints: 6.5, 4.1, 1.38
+2025-12-30 20:37:44,826 [INFO] coletor: [ODDS] Odds para Connah's Quay vs The New Saints: 6.5, 4.1, 1.38
+2025-12-30 20:37:44,826 [INFO] [AGENDA] Válidos=10, Incompletos=0, Filtrados=18, Duplicados=0
+2025-12-30 20:37:44,826 [INFO] coletor: [AGENDA] Válidos=10, Incompletos=0, Filtrados=18, Duplicados=0
+2025-12-30 20:37:44,826 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.46s
+2025-12-30 20:37:44,831 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2025-12-31.csv (10 linhas).
+2025-12-30 20:37:49,073 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.24s (links extraídos: 20)
+2025-12-30 20:38:51,649 [INFO] __main__: [TEMPO] Fase 3 concluída em 62.58s (jogos raspados: 19)
+2025-12-30 20:38:51,725 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (5 linhas).
+2025-12-30 20:38:51,940 [INFO] __main__: Exportado histórico para dados_redscore.csv (14016 linhas)
+2025-12-30 20:38:53,004 [INFO] __main__: --- Rotina concluída em 92.26s ---
