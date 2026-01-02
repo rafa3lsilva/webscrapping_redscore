@@ -26960,3 +26960,40 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2025-12-31 18:10:59,314 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (40 linhas).
 2025-12-31 18:10:59,420 [INFO] __main__: Exportado histórico para dados_redscore.csv (14056 linhas)
 2025-12-31 18:10:59,759 [INFO] __main__: --- Rotina concluída em 275.10s ---
+2026-01-01 21:28:11,165 [INFO] __main__: Coletor iniciado
+2026-01-01 21:28:11,166 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-01 21:28:32,333 [INFO] [ODDS] Odds para Rayo Vallecano vs Getafe: 2.1, 2.9, 4.33
+2026-01-01 21:28:32,333 [INFO] coletor: [ODDS] Odds para Rayo Vallecano vs Getafe: 2.1, 2.9, 4.33
+2026-01-01 21:28:32,333 [INFO] [ODDS] Odds para Cagliari vs Milan: 6.0, 4.2, 1.53
+2026-01-01 21:28:32,333 [INFO] coletor: [ODDS] Odds para Cagliari vs Milan: 6.0, 4.2, 1.53
+2026-01-01 21:28:32,333 [INFO] [ODDS] Odds para Toulouse vs Lens: 2.6, 3.3, 2.7
+2026-01-01 21:28:32,333 [INFO] coletor: [ODDS] Odds para Toulouse vs Lens: 2.6, 3.3, 2.7
+2026-01-01 21:28:32,334 [INFO] [ODDS] Odds para Gil Vicente vs Sporting: 7.5, 4.0, 1.48
+2026-01-01 21:28:32,334 [INFO] coletor: [ODDS] Odds para Gil Vicente vs Sporting: 7.5, 4.0, 1.48
+2026-01-01 21:28:32,334 [INFO] [ODDS] Odds para Guimaraes vs Nacional: 1.8, 3.3, 4.75
+2026-01-01 21:28:32,334 [INFO] coletor: [ODDS] Odds para Guimaraes vs Nacional: 1.8, 3.3, 4.75
+2026-01-01 21:28:32,334 [INFO] [ODDS] Odds para Eibar vs Mirandés: 1.66, 3.4, 5.75
+2026-01-01 21:28:32,334 [INFO] coletor: [ODDS] Odds para Eibar vs Mirandés: 1.66, 3.4, 5.75
+2026-01-01 21:28:32,334 [INFO] [ODDS] Odds para Al Najma vs Al Khaleej: 3.9, 3.6, 1.8
+2026-01-01 21:28:32,334 [INFO] coletor: [ODDS] Odds para Al Najma vs Al Khaleej: 3.9, 3.6, 1.8
+2026-01-01 21:28:32,335 [INFO] [ODDS] Odds para Al Ettifaq vs Al Akhdoud: 1.45, 4.1, 6.0
+2026-01-01 21:28:32,335 [INFO] coletor: [ODDS] Odds para Al Ettifaq vs Al Akhdoud: 1.45, 4.1, 6.0
+2026-01-01 21:28:32,335 [INFO] [ODDS] Odds para Al Ahli vs Al Nassr: 3.9, 4.1, 1.66
+2026-01-01 21:28:32,335 [INFO] coletor: [ODDS] Odds para Al Ahli vs Al Nassr: 3.9, 4.1, 1.66
+2026-01-01 21:28:32,335 [INFO] [ODDS] Odds para JS Kabylie vs MC Alger: 2.3, 2.87, 3.0
+2026-01-01 21:28:32,335 [INFO] coletor: [ODDS] Odds para JS Kabylie vs MC Alger: 2.3, 2.87, 3.0
+2026-01-01 21:28:32,335 [INFO] [ODDS] Odds para Melbourne Victory vs Perth Glory: 1.75, 3.8, 4.5
+2026-01-01 21:28:32,335 [INFO] coletor: [ODDS] Odds para Melbourne Victory vs Perth Glory: 1.75, 3.8, 4.5
+2026-01-01 21:28:32,336 [INFO] [ODDS] Odds para Larne vs Coleraine: 2.3, 3.1, 3.0
+2026-01-01 21:28:32,336 [INFO] coletor: [ODDS] Odds para Larne vs Coleraine: 2.3, 3.1, 3.0
+2026-01-01 21:28:32,336 [WARNING] [ODDS] Odds não encontradas para Kelantan United vs Kuching FA. Motivo: could not convert string to float: '-'
+2026-01-01 21:28:32,336 [WARNING] coletor: [ODDS] Odds não encontradas para Kelantan United vs Kuching FA. Motivo: could not convert string to float: '-'
+2026-01-01 21:28:32,336 [INFO] [AGENDA] Válidos=13, Incompletos=0, Filtrados=29, Duplicados=0
+2026-01-01 21:28:32,336 [INFO] coletor: [AGENDA] Válidos=13, Incompletos=0, Filtrados=29, Duplicados=0
+2026-01-01 21:28:32,336 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.84s
+2026-01-01 21:28:32,340 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-02.csv (13 linhas).
+2026-01-01 21:28:36,561 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.22s (links extraídos: 26)
+2026-01-01 21:29:48,412 [INFO] __main__: [TEMPO] Fase 3 concluída em 71.85s (jogos raspados: 37)
+2026-01-01 21:29:48,461 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (24 linhas).
+2026-01-01 21:29:48,584 [INFO] __main__: Exportado histórico para dados_redscore.csv (14080 linhas)
+2026-01-01 21:29:49,280 [INFO] __main__: --- Rotina concluída em 98.11s ---
