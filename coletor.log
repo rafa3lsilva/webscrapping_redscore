@@ -27196,3 +27196,160 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-02 21:32:29,943 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (98 linhas).
 2026-01-02 21:32:30,096 [INFO] __main__: Exportado histórico para dados_redscore.csv (14178 linhas)
 2026-01-02 21:32:30,656 [INFO] __main__: --- Rotina concluída em 531.19s ---
+2026-01-03 11:45:51,609 [INFO] __main__: Coletor iniciado
+2026-01-03 11:45:51,610 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-03 11:46:17,013 [INFO] [ODDS] Odds para Leeds vs Manchester United: 2.55, 3.3, 2.75
+2026-01-03 11:46:17,013 [INFO] coletor: [ODDS] Odds para Leeds vs Manchester United: 2.55, 3.3, 2.75
+2026-01-03 11:46:17,013 [INFO] [ODDS] Odds para Everton vs Brentford: 2.3, 3.25, 3.25
+2026-01-03 11:46:17,013 [INFO] coletor: [ODDS] Odds para Everton vs Brentford: 2.3, 3.25, 3.25
+2026-01-03 11:46:17,014 [INFO] [ODDS] Odds para Fulham vs Liverpool: 3.6, 3.6, 2.0
+2026-01-03 11:46:17,014 [INFO] coletor: [ODDS] Odds para Fulham vs Liverpool: 3.6, 3.6, 2.0
+2026-01-03 11:46:17,014 [INFO] [ODDS] Odds para Newcastle vs Crystal Palace: 1.66, 4.0, 5.0
+2026-01-03 11:46:17,014 [INFO] coletor: [ODDS] Odds para Newcastle vs Crystal Palace: 1.66, 4.0, 5.0
+2026-01-03 11:46:17,014 [INFO] [ODDS] Odds para Tottenham vs Sunderland: 1.8, 3.6, 4.5
+2026-01-03 11:46:17,014 [INFO] coletor: [ODDS] Odds para Tottenham vs Sunderland: 1.8, 3.6, 4.5
+2026-01-03 11:46:17,015 [INFO] [ODDS] Odds para Man City vs Chelsea: 1.65, 4.5, 4.5
+2026-01-03 11:46:17,015 [INFO] coletor: [ODDS] Odds para Man City vs Chelsea: 1.65, 4.5, 4.5
+2026-01-03 11:46:17,015 [INFO] [ODDS] Odds para Sevilla vs Levante: 1.75, 3.6, 4.75
+2026-01-03 11:46:17,015 [INFO] coletor: [ODDS] Odds para Sevilla vs Levante: 1.75, 3.6, 4.75
+2026-01-03 11:46:17,016 [INFO] [ODDS] Odds para Real Madrid vs Betis: 1.45, 4.75, 6.25
+2026-01-03 11:46:17,016 [INFO] coletor: [ODDS] Odds para Real Madrid vs Betis: 1.45, 4.75, 6.25
+2026-01-03 11:46:17,016 [INFO] [ODDS] Odds para Mallorca vs Girona: 2.2, 3.2, 3.5
+2026-01-03 11:46:17,016 [INFO] coletor: [ODDS] Odds para Mallorca vs Girona: 2.2, 3.2, 3.5
+2026-01-03 11:46:17,016 [INFO] [ODDS] Odds para Alavés vs R. Oviedo: 1.9, 3.0, 5.25
+2026-01-03 11:46:17,016 [INFO] coletor: [ODDS] Odds para Alavés vs R. Oviedo: 1.9, 3.0, 5.25
+2026-01-03 11:46:17,017 [INFO] [ODDS] Odds para Real Sociedad vs Atlético Madrid: 3.9, 3.6, 1.9
+2026-01-03 11:46:17,017 [INFO] coletor: [ODDS] Odds para Real Sociedad vs Atlético Madrid: 3.9, 3.6, 1.9
+2026-01-03 11:46:17,017 [INFO] [ODDS] Odds para Lazio vs Napoli: 3.4, 3.1, 2.3
+2026-01-03 11:46:17,017 [INFO] coletor: [ODDS] Odds para Lazio vs Napoli: 3.4, 3.1, 2.3
+2026-01-03 11:46:17,018 [INFO] [ODDS] Odds para Fiorentina vs Cremonese: 1.72, 3.5, 5.25
+2026-01-03 11:46:17,018 [INFO] coletor: [ODDS] Odds para Fiorentina vs Cremonese: 1.72, 3.5, 5.25
+2026-01-03 11:46:17,018 [INFO] [ODDS] Odds para Hellas Verona vs Torino: 2.62, 3.0, 2.9
+2026-01-03 11:46:17,018 [INFO] coletor: [ODDS] Odds para Hellas Verona vs Torino: 2.62, 3.0, 2.9
+2026-01-03 11:46:17,019 [INFO] [ODDS] Odds para Inter vs Bologna: 1.42, 4.75, 7.0
+2026-01-03 11:46:17,019 [INFO] coletor: [ODDS] Odds para Inter vs Bologna: 1.42, 4.75, 7.0
+2026-01-03 11:46:17,019 [INFO] [ODDS] Odds para Marseille vs Nantes: 1.22, 6.5, 12.0
+2026-01-03 11:46:17,019 [INFO] coletor: [ODDS] Odds para Marseille vs Nantes: 1.22, 6.5, 12.0
+2026-01-03 11:46:17,019 [INFO] [ODDS] Odds para Brest vs Auxerre: 1.9, 3.4, 4.2
+2026-01-03 11:46:17,019 [INFO] coletor: [ODDS] Odds para Brest vs Auxerre: 1.9, 3.4, 4.2
+2026-01-03 11:46:17,020 [INFO] [ODDS] Odds para Lorient vs Metz: 1.8, 3.5, 4.75
+2026-01-03 11:46:17,020 [INFO] coletor: [ODDS] Odds para Lorient vs Metz: 1.8, 3.5, 4.75
+2026-01-03 11:46:17,020 [INFO] [ODDS] Odds para Le Havre vs Angers: 2.1, 3.3, 3.6
+2026-01-03 11:46:17,020 [INFO] coletor: [ODDS] Odds para Le Havre vs Angers: 2.1, 3.3, 3.6
+2026-01-03 11:46:17,021 [INFO] [ODDS] Odds para PSG vs Paris: 1.16, 7.5, 17.0
+2026-01-03 11:46:17,021 [INFO] coletor: [ODDS] Odds para PSG vs Paris: 1.16, 7.5, 17.0
+2026-01-03 11:46:17,021 [INFO] [ODDS] Odds para Rio Ave vs Casa Pia: 2.37, 3.1, 3.1
+2026-01-03 11:46:17,021 [INFO] coletor: [ODDS] Odds para Rio Ave vs Casa Pia: 2.37, 3.1, 3.1
+2026-01-03 11:46:17,021 [INFO] [ODDS] Odds para Santa Clara vs Porto: 8.0, 4.0, 1.44
+2026-01-03 11:46:17,021 [INFO] coletor: [ODDS] Odds para Santa Clara vs Porto: 8.0, 4.0, 1.44
+2026-01-03 11:46:17,022 [INFO] [ODDS] Odds para Alverca vs Famalicão: 3.6, 3.25, 2.05
+2026-01-03 11:46:17,022 [INFO] coletor: [ODDS] Odds para Alverca vs Famalicão: 3.6, 3.25, 2.05
+2026-01-03 11:46:17,023 [INFO] [ODDS] Odds para Birmingham vs Coventry: 2.6, 3.4, 2.62
+2026-01-03 11:46:17,023 [INFO] coletor: [ODDS] Odds para Birmingham vs Coventry: 2.6, 3.4, 2.62
+2026-01-03 11:46:17,023 [INFO] [ODDS] Odds para QPR vs Sheffield Wed: 1.42, 4.75, 6.5
+2026-01-03 11:46:17,023 [INFO] coletor: [ODDS] Odds para QPR vs Sheffield Wed: 1.42, 4.75, 6.5
+2026-01-03 11:46:17,024 [INFO] [ODDS] Odds para Sheffield Utd vs Oxford Utd: 1.44, 4.33, 7.5
+2026-01-03 11:46:17,024 [INFO] coletor: [ODDS] Odds para Sheffield Utd vs Oxford Utd: 1.44, 4.33, 7.5
+2026-01-03 11:46:17,024 [INFO] [ODDS] Odds para Bristol City vs Preston: 1.85, 3.6, 4.0
+2026-01-03 11:46:17,024 [INFO] coletor: [ODDS] Odds para Bristol City vs Preston: 1.85, 3.6, 4.0
+2026-01-03 11:46:17,025 [INFO] [ODDS] Odds para Derby vs Wrexham: 2.3, 3.25, 3.1
+2026-01-03 11:46:17,025 [INFO] coletor: [ODDS] Odds para Derby vs Wrexham: 2.3, 3.25, 3.1
+2026-01-03 11:46:17,025 [INFO] [ODDS] Odds para Hull vs Watford: 2.8, 3.3, 2.5
+2026-01-03 11:46:17,025 [INFO] coletor: [ODDS] Odds para Hull vs Watford: 2.8, 3.3, 2.5
+2026-01-03 11:46:17,025 [INFO] [ODDS] Odds para Portsmouth vs Ipswich: 5.75, 3.7, 1.65
+2026-01-03 11:46:17,025 [INFO] coletor: [ODDS] Odds para Portsmouth vs Ipswich: 5.75, 3.7, 1.65
+2026-01-03 11:46:17,026 [INFO] [ODDS] Odds para Millwall vs Swansea: 2.05, 3.25, 3.8
+2026-01-03 11:46:17,026 [INFO] coletor: [ODDS] Odds para Millwall vs Swansea: 2.05, 3.25, 3.8
+2026-01-03 11:46:17,026 [INFO] [ODDS] Odds para Blackburn vs Charlton: 2.05, 3.2, 3.9
+2026-01-03 11:46:17,026 [INFO] coletor: [ODDS] Odds para Blackburn vs Charlton: 2.05, 3.2, 3.9
+2026-01-03 11:46:17,027 [INFO] [ODDS] Odds para Middlesbrough vs Southampton: 2.15, 3.5, 3.2
+2026-01-03 11:46:17,027 [INFO] coletor: [ODDS] Odds para Middlesbrough vs Southampton: 2.15, 3.5, 3.2
+2026-01-03 11:46:17,027 [INFO] [ODDS] Odds para Norwich vs Stoke: 2.15, 3.5, 3.2
+2026-01-03 11:46:17,027 [INFO] coletor: [ODDS] Odds para Norwich vs Stoke: 2.15, 3.5, 3.2
+2026-01-03 11:46:17,027 [INFO] [ODDS] Odds para Bolton vs Northampton: 1.38, 4.75, 8.0
+2026-01-03 11:46:17,027 [INFO] coletor: [ODDS] Odds para Bolton vs Northampton: 1.38, 4.75, 8.0
+2026-01-03 11:46:17,028 [INFO] [ODDS] Odds para Lincoln vs Peterborough: 1.9, 3.5, 3.75
+2026-01-03 11:46:17,028 [INFO] coletor: [ODDS] Odds para Lincoln vs Peterborough: 1.9, 3.5, 3.75
+2026-01-03 11:46:17,028 [INFO] [ODDS] Odds para Cardiff vs Wigan: 1.7, 3.7, 5.0
+2026-01-03 11:46:17,028 [INFO] coletor: [ODDS] Odds para Cardiff vs Wigan: 1.7, 3.7, 5.0
+2026-01-03 11:46:17,029 [INFO] [ODDS] Odds para Plymouth vs Burton: 2.15, 3.3, 3.2
+2026-01-03 11:46:17,029 [INFO] coletor: [ODDS] Odds para Plymouth vs Burton: 2.15, 3.3, 3.2
+2026-01-03 11:46:17,029 [INFO] [ODDS] Odds para Port Vale vs Barnsley: 2.6, 3.3, 2.6
+2026-01-03 11:46:17,029 [INFO] coletor: [ODDS] Odds para Port Vale vs Barnsley: 2.6, 3.3, 2.6
+2026-01-03 11:46:17,029 [INFO] [ODDS] Odds para Doncaster vs Luton: 3.1, 3.3, 2.25
+2026-01-03 11:46:17,029 [INFO] coletor: [ODDS] Odds para Doncaster vs Luton: 3.1, 3.3, 2.25
+2026-01-03 11:46:17,030 [INFO] [ODDS] Odds para Rotherham vs Mansfield: 2.87, 3.1, 2.45
+2026-01-03 11:46:17,030 [INFO] coletor: [ODDS] Odds para Rotherham vs Mansfield: 2.87, 3.1, 2.45
+2026-01-03 11:46:17,030 [INFO] [ODDS] Odds para Huddersfield vs Exeter: 1.66, 3.5, 5.25
+2026-01-03 11:46:17,030 [INFO] coletor: [ODDS] Odds para Huddersfield vs Exeter: 1.66, 3.5, 5.25
+2026-01-03 11:46:17,031 [INFO] [ODDS] Odds para Reading vs Stockport County: 2.5, 3.3, 2.7
+2026-01-03 11:46:17,031 [INFO] coletor: [ODDS] Odds para Reading vs Stockport County: 2.5, 3.3, 2.7
+2026-01-03 11:46:17,031 [INFO] [ODDS] Odds para Stevenage vs Leyton Orient: 2.1, 3.1, 3.7
+2026-01-03 11:46:17,031 [INFO] coletor: [ODDS] Odds para Stevenage vs Leyton Orient: 2.1, 3.1, 3.7
+2026-01-03 11:46:17,031 [INFO] [ODDS] Odds para Wycombe vs Wimbledon: 1.85, 3.3, 4.33
+2026-01-03 11:46:17,031 [INFO] coletor: [ODDS] Odds para Wycombe vs Wimbledon: 1.85, 3.3, 4.33
+2026-01-03 11:46:17,032 [INFO] [ODDS] Odds para Blackpool vs Bradford City: 2.7, 3.1, 2.6
+2026-01-03 11:46:17,032 [INFO] coletor: [ODDS] Odds para Blackpool vs Bradford City: 2.7, 3.1, 2.6
+2026-01-03 11:46:17,032 [INFO] [ODDS] Odds para Cheltenham vs Crawley: 2.6, 3.5, 2.5
+2026-01-03 11:46:17,032 [INFO] coletor: [ODDS] Odds para Cheltenham vs Crawley: 2.6, 3.5, 2.5
+2026-01-03 11:46:17,033 [INFO] [ODDS] Odds para MK Dons vs Chesterfield: 1.8, 3.5, 4.5
+2026-01-03 11:46:17,033 [INFO] coletor: [ODDS] Odds para MK Dons vs Chesterfield: 1.8, 3.5, 4.5
+2026-01-03 11:46:17,033 [INFO] [ODDS] Odds para Walsall vs Fleetwood: 1.8, 3.4, 4.5
+2026-01-03 11:46:17,033 [INFO] coletor: [ODDS] Odds para Walsall vs Fleetwood: 1.8, 3.4, 4.5
+2026-01-03 11:46:17,033 [INFO] [ODDS] Odds para Salford vs Shrewsbury: 1.45, 4.2, 7.0
+2026-01-03 11:46:17,033 [INFO] coletor: [ODDS] Odds para Salford vs Shrewsbury: 1.45, 4.2, 7.0
+2026-01-03 11:46:17,034 [INFO] [ODDS] Odds para Bromley vs Oldham: 1.9, 3.25, 4.2
+2026-01-03 11:46:17,034 [INFO] coletor: [ODDS] Odds para Bromley vs Oldham: 1.9, 3.25, 4.2
+2026-01-03 11:46:17,034 [INFO] [ODDS] Odds para Harrogate vs Swindon: 5.0, 4.0, 1.61
+2026-01-03 11:46:17,034 [INFO] coletor: [ODDS] Odds para Harrogate vs Swindon: 5.0, 4.0, 1.61
+2026-01-03 11:46:17,035 [INFO] [ODDS] Odds para Cambridge vs Grimsby Town: 2.2, 3.25, 3.25
+2026-01-03 11:46:17,035 [INFO] coletor: [ODDS] Odds para Cambridge vs Grimsby Town: 2.2, 3.25, 3.25
+2026-01-03 11:46:17,035 [INFO] [ODDS] Odds para Barnet vs Crewe: 1.66, 3.8, 4.75
+2026-01-03 11:46:17,035 [INFO] coletor: [ODDS] Odds para Barnet vs Crewe: 1.66, 3.8, 4.75
+2026-01-03 11:46:17,035 [INFO] [ODDS] Odds para Barrow vs Bristol Rovers: 2.62, 3.25, 2.62
+2026-01-03 11:46:17,035 [INFO] coletor: [ODDS] Odds para Barrow vs Bristol Rovers: 2.62, 3.25, 2.62
+2026-01-03 11:46:17,036 [INFO] [ODDS] Odds para Colchester vs Accrington: 1.8, 3.6, 4.1
+2026-01-03 11:46:17,036 [INFO] coletor: [ODDS] Odds para Colchester vs Accrington: 1.8, 3.6, 4.1
+2026-01-03 11:46:17,036 [INFO] [ODDS] Odds para Newport vs Tranmere: 3.2, 3.4, 2.15
+2026-01-03 11:46:17,036 [INFO] coletor: [ODDS] Odds para Newport vs Tranmere: 3.2, 3.4, 2.15
+2026-01-03 11:46:17,037 [INFO] [ODDS] Odds para Notts County vs Gillingham: 1.95, 3.4, 3.75
+2026-01-03 11:46:17,037 [INFO] coletor: [ODDS] Odds para Notts County vs Gillingham: 1.95, 3.4, 3.75
+2026-01-03 11:46:17,037 [INFO] [ODDS] Odds para Gijón vs Málaga: 1.95, 3.2, 4.2
+2026-01-03 11:46:17,037 [INFO] coletor: [ODDS] Odds para Gijón vs Málaga: 1.95, 3.2, 4.2
+2026-01-03 11:46:17,037 [INFO] [ODDS] Odds para Ceuta vs FC Andorra: 1.95, 3.4, 3.9
+2026-01-03 11:46:17,037 [INFO] coletor: [ODDS] Odds para Ceuta vs FC Andorra: 1.95, 3.4, 3.9
+2026-01-03 11:46:17,038 [INFO] [ODDS] Odds para Albacete vs Leganés: 2.4, 3.1, 3.0
+2026-01-03 11:46:17,038 [INFO] coletor: [ODDS] Odds para Albacete vs Leganés: 2.4, 3.1, 3.0
+2026-01-03 11:46:17,038 [INFO] [ODDS] Odds para Zaragoza vs Las Palmas: 3.0, 2.9, 2.55
+2026-01-03 11:46:17,038 [INFO] coletor: [ODDS] Odds para Zaragoza vs Las Palmas: 3.0, 2.9, 2.55
+2026-01-03 11:46:17,039 [INFO] [ODDS] Odds para Deportivo La Coruña vs Cádiz: 1.72, 3.5, 4.75
+2026-01-03 11:46:17,039 [INFO] coletor: [ODDS] Odds para Deportivo La Coruña vs Cádiz: 1.72, 3.5, 4.75
+2026-01-03 11:46:17,039 [INFO] [ODDS] Odds para Al Hazm vs Al Suqoor: 3.3, 3.4, 1.95
+2026-01-03 11:46:17,039 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Suqoor: 3.3, 3.4, 1.95
+2026-01-03 11:46:17,039 [INFO] [ODDS] Odds para Damac vs Al Hilal: 10.0, 5.25, 1.2
+2026-01-03 11:46:17,039 [INFO] coletor: [ODDS] Odds para Damac vs Al Hilal: 10.0, 5.25, 1.2
+2026-01-03 11:46:17,040 [INFO] [ODDS] Odds para Al Quadisiya vs Al Riyadh: 1.28, 4.5, 8.0
+2026-01-03 11:46:17,040 [INFO] coletor: [ODDS] Odds para Al Quadisiya vs Al Riyadh: 1.28, 4.5, 8.0
+2026-01-03 11:46:17,040 [INFO] [ODDS] Odds para Adelaide United vs Central Coast Mariners: 1.65, 4.33, 4.5
+2026-01-03 11:46:17,040 [INFO] coletor: [ODDS] Odds para Adelaide United vs Central Coast Mariners: 1.65, 4.33, 4.5
+2026-01-03 11:46:17,041 [INFO] [ODDS] Odds para Hapoel Tel Aviv vs Ashdod: 1.48, 4.0, 5.5
+2026-01-03 11:46:17,041 [INFO] coletor: [ODDS] Odds para Hapoel Tel Aviv vs Ashdod: 1.48, 4.0, 5.5
+2026-01-03 11:46:17,041 [INFO] [ODDS] Odds para Ironi Kiryat Shmona vs Beitar Jerusalem: 5.0, 3.75, 1.55
+2026-01-03 11:46:17,041 [INFO] coletor: [ODDS] Odds para Ironi Kiryat Shmona vs Beitar Jerusalem: 5.0, 3.75, 1.55
+2026-01-03 11:46:17,042 [INFO] [ODDS] Odds para Kuala Lumpur vs Imigresen: 1.27, 5.25, 7.5
+2026-01-03 11:46:17,042 [INFO] coletor: [ODDS] Odds para Kuala Lumpur vs Imigresen: 1.27, 5.25, 7.5
+2026-01-03 11:46:17,042 [INFO] [ODDS] Odds para Selangor vs Johor Darul Ta'zim: 8.5, 5.75, 1.22
+2026-01-03 11:46:17,042 [INFO] coletor: [ODDS] Odds para Selangor vs Johor Darul Ta'zim: 8.5, 5.75, 1.22
+2026-01-03 11:46:17,042 [INFO] [ODDS] Odds para Sporting CP II vs Academico Viseu: 2.6, 3.0, 2.8
+2026-01-03 11:46:17,042 [INFO] coletor: [ODDS] Odds para Sporting CP II vs Academico Viseu: 2.6, 3.0, 2.8
+2026-01-03 11:46:17,043 [INFO] [ODDS] Odds para Penafiel vs Ferreira: 2.05, 3.2, 3.75
+2026-01-03 11:46:17,043 [INFO] coletor: [ODDS] Odds para Penafiel vs Ferreira: 2.05, 3.2, 3.75
+2026-01-03 11:46:17,043 [INFO] [AGENDA] Válidos=73, Incompletos=0, Filtrados=100, Duplicados=0
+2026-01-03 11:46:17,043 [INFO] coletor: [AGENDA] Válidos=73, Incompletos=0, Filtrados=100, Duplicados=0
+2026-01-03 11:46:17,043 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.88s
+2026-01-03 11:46:17,048 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-04.csv (73 linhas).
+2026-01-03 11:47:24,707 [INFO] __main__: [TEMPO] Fase 2 concluída em 67.66s (links extraídos: 146)
+2026-01-03 11:55:18,768 [INFO] __main__: [TEMPO] Fase 3 concluída em 474.04s (jogos raspados: 144)
+2026-01-03 11:55:18,899 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (53 linhas).
+2026-01-03 11:55:19,171 [INFO] __main__: Exportado histórico para dados_redscore.csv (14231 linhas)
+2026-01-03 11:55:19,928 [INFO] __main__: --- Rotina concluída em 568.32s ---
