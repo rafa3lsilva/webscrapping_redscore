@@ -79,6 +79,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
 
     try:
         driver.get("https://redscores.com/pt-br/futebol/amanha")
+        #driver.get("https://redscores.com/pt-br/")
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, "body"))
         )

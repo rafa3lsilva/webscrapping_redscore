@@ -27353,3 +27353,30 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-03 11:55:18,899 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (53 linhas).
 2026-01-03 11:55:19,171 [INFO] __main__: Exportado histórico para dados_redscore.csv (14231 linhas)
 2026-01-03 11:55:19,928 [INFO] __main__: --- Rotina concluída em 568.32s ---
+2026-01-05 07:45:08,035 [INFO] __main__: Coletor iniciado
+2026-01-05 07:45:08,036 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-05 07:45:29,285 [INFO] [ODDS] Odds para Leicester vs West Brom: 2.7, 3.2, 2.6
+2026-01-05 07:45:29,285 [INFO] coletor: [ODDS] Odds para Leicester vs West Brom: 2.7, 3.2, 2.6
+2026-01-05 07:45:29,285 [INFO] [ODDS] Odds para Montpellier vs Dunkerque: 2.25, 3.2, 3.0
+2026-01-05 07:45:29,285 [INFO] coletor: [ODDS] Odds para Montpellier vs Dunkerque: 2.25, 3.2, 3.0
+2026-01-05 07:45:29,286 [INFO] [ODDS] Odds para JS Kabylie vs MB Rouisset: 1.4, 3.7, 7.5
+2026-01-05 07:45:29,286 [INFO] coletor: [ODDS] Odds para JS Kabylie vs MB Rouisset: 1.4, 3.7, 7.5
+2026-01-05 07:45:29,286 [INFO] [ODDS] Odds para MC Alger vs CS Constantine: 1.65, 3.1, 5.5
+2026-01-05 07:45:29,286 [INFO] coletor: [ODDS] Odds para MC Alger vs CS Constantine: 1.65, 3.1, 5.5
+2026-01-05 07:45:29,287 [INFO] [ODDS] Odds para Macarthur vs Auckland: 3.5, 3.9, 1.9
+2026-01-05 07:45:29,287 [INFO] coletor: [ODDS] Odds para Macarthur vs Auckland: 3.5, 3.9, 1.9
+2026-01-05 07:45:29,287 [INFO] [ODDS] Odds para Maccabi Haifa vs Hapoel Haifa: 1.36, 4.33, 6.25
+2026-01-05 07:45:29,287 [INFO] coletor: [ODDS] Odds para Maccabi Haifa vs Hapoel Haifa: 1.36, 4.33, 6.25
+2026-01-05 07:45:29,288 [INFO] [ODDS] Odds para Benfica II vs Porto II: 1.83, 3.6, 3.75
+2026-01-05 07:45:29,288 [INFO] coletor: [ODDS] Odds para Benfica II vs Porto II: 1.83, 3.6, 3.75
+2026-01-05 07:45:29,289 [INFO] [ODDS] Odds para Vizela vs Torreense: 1.9, 3.25, 3.8
+2026-01-05 07:45:29,289 [INFO] coletor: [ODDS] Odds para Vizela vs Torreense: 1.9, 3.25, 3.8
+2026-01-05 07:45:29,289 [INFO] [AGENDA] Válidos=8, Incompletos=0, Filtrados=36, Duplicados=0
+2026-01-05 07:45:29,289 [INFO] coletor: [AGENDA] Válidos=8, Incompletos=0, Filtrados=36, Duplicados=0
+2026-01-05 07:45:29,289 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.99s
+2026-01-05 07:45:29,298 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-06.csv (8 linhas).
+2026-01-05 07:45:33,989 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.69s (links extraídos: 16)
+2026-01-05 07:46:23,550 [INFO] __main__: [TEMPO] Fase 3 concluída em 49.56s (jogos raspados: 34)
+2026-01-05 07:46:23,640 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
+2026-01-05 07:46:23,850 [INFO] __main__: Exportado histórico para dados_redscore.csv (14238 linhas)
+2026-01-05 07:46:25,101 [INFO] __main__: --- Rotina concluída em 77.06s ---
