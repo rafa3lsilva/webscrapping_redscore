@@ -27380,3 +27380,28 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-05 07:46:23,640 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (7 linhas).
 2026-01-05 07:46:23,850 [INFO] __main__: Exportado histórico para dados_redscore.csv (14238 linhas)
 2026-01-05 07:46:25,101 [INFO] __main__: --- Rotina concluída em 77.06s ---
+2026-01-05 20:43:06,244 [INFO] __main__: Coletor iniciado
+2026-01-05 20:43:06,246 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-05 20:43:28,221 [INFO] [ODDS] Odds para West Ham vs Nottingham: 3.2, 3.4, 2.25
+2026-01-05 20:43:28,221 [INFO] coletor: [ODDS] Odds para West Ham vs Nottingham: 3.2, 3.4, 2.25
+2026-01-05 20:43:28,222 [INFO] [ODDS] Odds para Pisa vs Como: 5.25, 3.4, 1.75
+2026-01-05 20:43:28,222 [INFO] coletor: [ODDS] Odds para Pisa vs Como: 5.25, 3.4, 1.75
+2026-01-05 20:43:28,222 [INFO] [ODDS] Odds para Lecce vs Roma: 5.25, 3.4, 1.75
+2026-01-05 20:43:28,222 [INFO] coletor: [ODDS] Odds para Lecce vs Roma: 5.25, 3.4, 1.75
+2026-01-05 20:43:28,223 [INFO] [ODDS] Odds para Sassuolo vs Juventus: 5.0, 3.8, 1.7
+2026-01-05 20:43:28,223 [INFO] coletor: [ODDS] Odds para Sassuolo vs Juventus: 5.0, 3.8, 1.7
+2026-01-05 20:43:28,223 [INFO] [ODDS] Odds para Livingston vs St. Mirren: 2.75, 3.2, 2.6
+2026-01-05 20:43:28,223 [INFO] coletor: [ODDS] Odds para Livingston vs St. Mirren: 2.75, 3.2, 2.6
+2026-01-05 20:43:28,224 [INFO] [ODDS] Odds para Rangers vs Aberdeen: 1.53, 4.0, 6.25
+2026-01-05 20:43:28,224 [INFO] coletor: [ODDS] Odds para Rangers vs Aberdeen: 1.53, 4.0, 6.25
+2026-01-05 20:43:28,224 [INFO] [ODDS] Odds para Melbourne City vs Brisbane Roar: 1.8, 3.6, 4.5
+2026-01-05 20:43:28,224 [INFO] coletor: [ODDS] Odds para Melbourne City vs Brisbane Roar: 1.8, 3.6, 4.5
+2026-01-05 20:43:28,224 [INFO] [AGENDA] Válidos=7, Incompletos=0, Filtrados=59, Duplicados=0
+2026-01-05 20:43:28,224 [INFO] coletor: [AGENDA] Válidos=7, Incompletos=0, Filtrados=59, Duplicados=0
+2026-01-05 20:43:28,224 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.23s
+2026-01-05 20:43:28,230 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-06.csv (7 linhas).
+2026-01-05 20:43:31,447 [INFO] __main__: [TEMPO] Fase 2 concluída em 3.22s (links extraídos: 14)
+2026-01-05 20:44:14,166 [INFO] __main__: [TEMPO] Fase 3 concluída em 42.72s (jogos raspados: 14)
+2026-01-05 20:44:14,250 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (13 linhas).
+2026-01-05 20:44:14,506 [INFO] __main__: Exportado histórico para dados_redscore.csv (14251 linhas)
+2026-01-05 20:44:15,641 [INFO] __main__: --- Rotina concluída em 69.40s ---
