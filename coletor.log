@@ -27405,3 +27405,40 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-05 20:44:14,250 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (13 linhas).
 2026-01-05 20:44:14,506 [INFO] __main__: Exportado histórico para dados_redscore.csv (14251 linhas)
 2026-01-05 20:44:15,641 [INFO] __main__: --- Rotina concluída em 69.40s ---
+2026-01-06 21:14:52,797 [INFO] __main__: Coletor iniciado
+2026-01-06 21:14:52,799 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-06 21:15:15,106 [INFO] [ODDS] Odds para Brentford vs Sunderland: 1.83, 3.6, 4.5
+2026-01-06 21:15:15,106 [INFO] coletor: [ODDS] Odds para Brentford vs Sunderland: 1.83, 3.6, 4.5
+2026-01-06 21:15:15,106 [INFO] [ODDS] Odds para Crystal Palace vs Aston Villa: 3.2, 3.3, 2.25
+2026-01-06 21:15:15,106 [INFO] coletor: [ODDS] Odds para Crystal Palace vs Aston Villa: 3.2, 3.3, 2.25
+2026-01-06 21:15:15,107 [INFO] [ODDS] Odds para Fulham vs Chelsea: 3.4, 3.6, 2.05
+2026-01-06 21:15:15,107 [INFO] coletor: [ODDS] Odds para Fulham vs Chelsea: 3.4, 3.6, 2.05
+2026-01-06 21:15:15,107 [INFO] [ODDS] Odds para Everton vs Wolves: 1.75, 3.5, 5.0
+2026-01-06 21:15:15,107 [INFO] coletor: [ODDS] Odds para Everton vs Wolves: 1.75, 3.5, 5.0
+2026-01-06 21:15:15,108 [INFO] [ODDS] Odds para Man City vs Brighton: 1.42, 5.0, 6.25
+2026-01-06 21:15:15,108 [INFO] coletor: [ODDS] Odds para Man City vs Brighton: 1.42, 5.0, 6.25
+2026-01-06 21:15:15,108 [INFO] [ODDS] Odds para Bournemouth vs Tottenham: 2.15, 3.5, 3.25
+2026-01-06 21:15:15,108 [INFO] coletor: [ODDS] Odds para Bournemouth vs Tottenham: 2.15, 3.5, 3.25
+2026-01-06 21:15:15,108 [INFO] [ODDS] Odds para Burnley vs Manchester United: 5.0, 4.1, 1.65
+2026-01-06 21:15:15,108 [INFO] coletor: [ODDS] Odds para Burnley vs Manchester United: 5.0, 4.1, 1.65
+2026-01-06 21:15:15,109 [INFO] [ODDS] Odds para Newcastle vs Leeds: 1.7, 3.75, 5.0
+2026-01-06 21:15:15,109 [INFO] coletor: [ODDS] Odds para Newcastle vs Leeds: 1.7, 3.75, 5.0
+2026-01-06 21:15:15,110 [INFO] [ODDS] Odds para Bologna vs Atalanta: 3.0, 3.3, 2.4
+2026-01-06 21:15:15,110 [INFO] coletor: [ODDS] Odds para Bologna vs Atalanta: 3.0, 3.3, 2.4
+2026-01-06 21:15:15,110 [INFO] [ODDS] Odds para Napoli vs Hellas Verona: 1.36, 5.0, 8.0
+2026-01-06 21:15:15,110 [INFO] coletor: [ODDS] Odds para Napoli vs Hellas Verona: 1.36, 5.0, 8.0
+2026-01-06 21:15:15,110 [INFO] [ODDS] Odds para Torino vs Udinese: 2.3, 3.0, 3.4
+2026-01-06 21:15:15,110 [INFO] coletor: [ODDS] Odds para Torino vs Udinese: 2.3, 3.0, 3.4
+2026-01-06 21:15:15,111 [INFO] [ODDS] Odds para Lazio vs Fiorentina: 2.45, 3.0, 3.2
+2026-01-06 21:15:15,111 [INFO] coletor: [ODDS] Odds para Lazio vs Fiorentina: 2.45, 3.0, 3.2
+2026-01-06 21:15:15,111 [INFO] [ODDS] Odds para Parma vs Inter: 7.5, 5.0, 1.38
+2026-01-06 21:15:15,111 [INFO] coletor: [ODDS] Odds para Parma vs Inter: 7.5, 5.0, 1.38
+2026-01-06 21:15:15,111 [INFO] [AGENDA] Válidos=13, Incompletos=0, Filtrados=52, Duplicados=0
+2026-01-06 21:15:15,111 [INFO] coletor: [AGENDA] Válidos=13, Incompletos=0, Filtrados=52, Duplicados=0
+2026-01-06 21:15:15,112 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.48s
+2026-01-06 21:15:15,116 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-07.csv (13 linhas).
+2026-01-06 21:15:21,516 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.40s (links extraídos: 26)
+2026-01-06 21:16:45,790 [INFO] __main__: [TEMPO] Fase 3 concluída em 84.27s (jogos raspados: 21)
+2026-01-06 21:16:45,872 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (12 linhas).
+2026-01-06 21:16:46,091 [INFO] __main__: Exportado histórico para dados_redscore.csv (14263 linhas)
+2026-01-06 21:16:47,348 [INFO] __main__: --- Rotina concluída em 114.55s ---
