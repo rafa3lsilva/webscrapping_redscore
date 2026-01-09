@@ -27475,3 +27475,68 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-07 21:22:06,634 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
 2026-01-07 21:22:06,858 [INFO] __main__: Exportado histórico para dados_redscore.csv (14274 linhas)
 2026-01-07 21:22:08,318 [INFO] __main__: --- Rotina concluída em 103.57s ---
+2026-01-08 21:28:58,236 [INFO] __main__: Coletor iniciado
+2026-01-08 21:28:58,237 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-08 21:29:25,559 [INFO] [ODDS] Odds para Getafe vs Real Sociedad: 3.3, 3.0, 2.37
+2026-01-08 21:29:25,559 [INFO] coletor: [ODDS] Odds para Getafe vs Real Sociedad: 3.3, 3.0, 2.37
+2026-01-08 21:29:25,560 [INFO] [ODDS] Odds para Frankfurt vs Dortmund: 3.4, 3.7, 2.05
+2026-01-08 21:29:25,560 [INFO] coletor: [ODDS] Odds para Frankfurt vs Dortmund: 3.4, 3.7, 2.05
+2026-01-08 21:29:25,560 [INFO] [ODDS] Odds para Nijmegen vs Utrecht: 2.0, 3.8, 3.4
+2026-01-08 21:29:25,560 [INFO] coletor: [ODDS] Odds para Nijmegen vs Utrecht: 2.0, 3.8, 3.4
+2026-01-08 21:29:25,561 [INFO] [ODDS] Odds para Cádiz vs Gijón: 2.55, 3.1, 2.87
+2026-01-08 21:29:25,561 [INFO] coletor: [ODDS] Odds para Cádiz vs Gijón: 2.55, 3.1, 2.87
+2026-01-08 21:29:25,561 [INFO] [ODDS] Odds para FC Emmen vs Cambuur: 3.1, 3.8, 2.1
+2026-01-08 21:29:25,561 [INFO] coletor: [ODDS] Odds para FC Emmen vs Cambuur: 3.1, 3.8, 2.1
+2026-01-08 21:29:25,561 [INFO] [ODDS] Odds para Maastricht vs Almere City: 4.33, 4.0, 1.7
+2026-01-08 21:29:25,561 [INFO] coletor: [ODDS] Odds para Maastricht vs Almere City: 4.33, 4.0, 1.7
+2026-01-08 21:29:25,562 [INFO] [ODDS] Odds para Dordrecht vs Helmond: 2.0, 3.75, 3.25
+2026-01-08 21:29:25,562 [INFO] coletor: [ODDS] Odds para Dordrecht vs Helmond: 2.0, 3.75, 3.25
+2026-01-08 21:29:25,562 [INFO] [ODDS] Odds para Willem II vs Den Haag: 4.0, 4.0, 1.75
+2026-01-08 21:29:25,562 [INFO] coletor: [ODDS] Odds para Willem II vs Den Haag: 4.0, 4.0, 1.75
+2026-01-08 21:29:25,563 [INFO] [ODDS] Odds para Vitesse vs Eindhoven: 1.9, 3.6, 3.9
+2026-01-08 21:29:25,563 [INFO] coletor: [ODDS] Odds para Vitesse vs Eindhoven: 1.9, 3.6, 3.9
+2026-01-08 21:29:25,563 [INFO] [ODDS] Odds para Al Khaleej vs Damac: 1.72, 3.5, 4.0
+2026-01-08 21:29:25,563 [INFO] coletor: [ODDS] Odds para Al Khaleej vs Damac: 1.72, 3.5, 4.0
+2026-01-08 21:29:25,564 [INFO] [ODDS] Odds para Al Taawoun vs Al Shabab: 1.75, 3.3, 4.0
+2026-01-08 21:29:25,564 [INFO] coletor: [ODDS] Odds para Al Taawoun vs Al Shabab: 1.75, 3.3, 4.0
+2026-01-08 21:29:25,564 [INFO] [ODDS] Odds para Al Kholood vs Al Ittihad: 6.25, 4.1, 1.4
+2026-01-08 21:29:25,564 [INFO] coletor: [ODDS] Odds para Al Kholood vs Al Ittihad: 6.25, 4.1, 1.4
+2026-01-08 21:29:25,565 [INFO] [ODDS] Odds para MB Rouisset vs USM Khenchela: 2.3, 2.75, 3.2
+2026-01-08 21:29:25,565 [INFO] coletor: [ODDS] Odds para MB Rouisset vs USM Khenchela: 2.3, 2.75, 3.2
+2026-01-08 21:29:25,565 [INFO] [ODDS] Odds para CS Constantine vs JS Saoura: 1.65, 3.1, 5.25
+2026-01-08 21:29:25,565 [INFO] coletor: [ODDS] Odds para CS Constantine vs JS Saoura: 1.65, 3.1, 5.25
+2026-01-08 21:29:25,565 [INFO] [ODDS] Odds para ASO Chlef vs MC Alger: 3.8, 2.75, 2.0
+2026-01-08 21:29:25,565 [INFO] coletor: [ODDS] Odds para ASO Chlef vs MC Alger: 3.8, 2.75, 2.0
+2026-01-08 21:29:25,566 [INFO] [ODDS] Odds para CR Belouizdad vs JS Kabylie: 1.9, 2.75, 4.5
+2026-01-08 21:29:25,566 [INFO] coletor: [ODDS] Odds para CR Belouizdad vs JS Kabylie: 1.9, 2.75, 4.5
+2026-01-08 21:29:25,566 [INFO] [ODDS] Odds para Brisbane Roar vs Auckland: 3.4, 3.5, 2.1
+2026-01-08 21:29:25,566 [INFO] coletor: [ODDS] Odds para Brisbane Roar vs Auckland: 3.4, 3.5, 2.1
+2026-01-08 21:29:25,567 [INFO] [ODDS] Odds para Ross County vs Partick Thistle: 3.0, 3.3, 2.05
+2026-01-08 21:29:25,567 [INFO] coletor: [ODDS] Odds para Ross County vs Partick Thistle: 3.0, 3.3, 2.05
+2026-01-08 21:29:25,568 [INFO] [ODDS] Odds para Maccabi Netanya vs Hapoel Katamon: 1.65, 3.8, 4.5
+2026-01-08 21:29:25,568 [INFO] coletor: [ODDS] Odds para Maccabi Netanya vs Hapoel Katamon: 1.65, 3.8, 4.5
+2026-01-08 21:29:25,568 [INFO] [ODDS] Odds para Sabah vs Kuala Lumpur: 3.5, 3.7, 1.8
+2026-01-08 21:29:25,568 [INFO] coletor: [ODDS] Odds para Sabah vs Kuala Lumpur: 3.5, 3.7, 1.8
+2026-01-08 21:29:25,569 [INFO] [ODDS] Odds para Negeri Sembilan vs Johor Darul Ta'zim: 19.0, 9.5, 1.09
+2026-01-08 21:29:25,569 [INFO] coletor: [ODDS] Odds para Negeri Sembilan vs Johor Darul Ta'zim: 19.0, 9.5, 1.09
+2026-01-08 21:29:25,569 [INFO] [ODDS] Odds para Penybont vs Cardiff MU: 1.61, 3.6, 4.75
+2026-01-08 21:29:25,569 [INFO] coletor: [ODDS] Odds para Penybont vs Cardiff MU: 1.61, 3.6, 4.75
+2026-01-08 21:29:25,569 [INFO] [ODDS] Odds para Haverfordwest County vs Briton Ferry: 1.72, 3.6, 3.8
+2026-01-08 21:29:25,569 [INFO] coletor: [ODDS] Odds para Haverfordwest County vs Briton Ferry: 1.72, 3.6, 3.8
+2026-01-08 21:29:25,570 [INFO] [ODDS] Odds para Flint Town United vs Bala Town: 1.9, 3.3, 3.5
+2026-01-08 21:29:25,570 [INFO] coletor: [ODDS] Odds para Flint Town United vs Bala Town: 1.9, 3.3, 3.5
+2026-01-08 21:29:25,570 [WARNING] [ODDS] Odds não encontradas para Barry Town United vs Llanelli Town. Motivo: could not convert string to float: '-'
+2026-01-08 21:29:25,570 [WARNING] coletor: [ODDS] Odds não encontradas para Barry Town United vs Llanelli Town. Motivo: could not convert string to float: '-'
+2026-01-08 21:29:25,571 [INFO] [ODDS] Odds para The New Saints vs Colwyn Bay: 1.22, 5.75, 10.0
+2026-01-08 21:29:25,571 [INFO] coletor: [ODDS] Odds para The New Saints vs Colwyn Bay: 1.22, 5.75, 10.0
+2026-01-08 21:29:25,571 [INFO] [ODDS] Odds para Caernarfon Town vs Connah's Quay: 2.62, 3.5, 2.25
+2026-01-08 21:29:25,571 [INFO] coletor: [ODDS] Odds para Caernarfon Town vs Connah's Quay: 2.62, 3.5, 2.25
+2026-01-08 21:29:25,571 [INFO] [AGENDA] Válidos=27, Incompletos=0, Filtrados=80, Duplicados=0
+2026-01-08 21:29:25,571 [INFO] coletor: [AGENDA] Válidos=27, Incompletos=0, Filtrados=80, Duplicados=0
+2026-01-08 21:29:25,571 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.20s
+2026-01-08 21:29:25,576 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-09.csv (27 linhas).
+2026-01-08 21:29:39,172 [INFO] __main__: [TEMPO] Fase 2 concluída em 13.60s (links extraídos: 54)
+2026-01-08 21:32:22,285 [INFO] __main__: [TEMPO] Fase 3 concluída em 163.11s (jogos raspados: 113)
+2026-01-08 21:32:22,396 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (31 linhas).
+2026-01-08 21:32:22,587 [INFO] __main__: Exportado histórico para dados_redscore.csv (14305 linhas)
+2026-01-08 21:32:23,108 [INFO] __main__: --- Rotina concluída em 204.87s ---
