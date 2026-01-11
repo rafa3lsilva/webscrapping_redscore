@@ -27749,3 +27749,88 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-09 22:18:01,894 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (86 linhas).
 2026-01-09 22:18:02,148 [INFO] __main__: Exportado histórico para dados_redscore.csv (14391 linhas)
 2026-01-09 22:18:02,873 [INFO] __main__: --- Rotina concluída em 716.23s ---
+2026-01-10 21:48:40,107 [INFO] __main__: Coletor iniciado
+2026-01-10 21:48:40,109 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-10 21:49:05,327 [INFO] [ODDS] Odds para Rayo Vallecano vs Mallorca: 1.9, 3.3, 4.33
+2026-01-10 21:49:05,327 [INFO] coletor: [ODDS] Odds para Rayo Vallecano vs Mallorca: 1.9, 3.3, 4.33
+2026-01-10 21:49:05,327 [INFO] [ODDS] Odds para Levante vs Espanyol: 3.2, 3.3, 2.3
+2026-01-10 21:49:05,327 [INFO] coletor: [ODDS] Odds para Levante vs Espanyol: 3.2, 3.3, 2.3
+2026-01-10 21:49:05,328 [INFO] [ODDS] Odds para M'Gladbach vs Augsburg: 1.85, 3.8, 4.0
+2026-01-10 21:49:05,328 [INFO] coletor: [ODDS] Odds para M'Gladbach vs Augsburg: 1.85, 3.8, 4.0
+2026-01-10 21:49:05,328 [INFO] [ODDS] Odds para Bayern vs Wolfsburg: 1.11, 10.0, 17.0
+2026-01-10 21:49:05,328 [INFO] coletor: [ODDS] Odds para Bayern vs Wolfsburg: 1.11, 10.0, 17.0
+2026-01-10 21:49:05,328 [INFO] [ODDS] Odds para Lecce vs Parma: 2.75, 2.9, 2.87
+2026-01-10 21:49:05,328 [INFO] coletor: [ODDS] Odds para Lecce vs Parma: 2.75, 2.9, 2.87
+2026-01-10 21:49:05,329 [INFO] [ODDS] Odds para Fiorentina vs Milan: 3.7, 3.2, 2.1
+2026-01-10 21:49:05,329 [INFO] coletor: [ODDS] Odds para Fiorentina vs Milan: 3.7, 3.2, 2.1
+2026-01-10 21:49:05,330 [INFO] [ODDS] Odds para Hellas Verona vs Lazio: 3.4, 2.9, 2.4
+2026-01-10 21:49:05,330 [INFO] coletor: [ODDS] Odds para Hellas Verona vs Lazio: 3.4, 2.9, 2.4
+2026-01-10 21:49:05,330 [INFO] [ODDS] Odds para Inter vs Napoli: 1.7, 3.6, 5.0
+2026-01-10 21:49:05,330 [INFO] coletor: [ODDS] Odds para Inter vs Napoli: 1.7, 3.6, 5.0
+2026-01-10 21:49:05,331 [INFO] [ODDS] Odds para Heerenveen vs Feyenoord: 2.9, 3.8, 2.25
+2026-01-10 21:49:05,331 [INFO] coletor: [ODDS] Odds para Heerenveen vs Feyenoord: 2.9, 3.8, 2.25
+2026-01-10 21:49:05,331 [INFO] [ODDS] Odds para Telstar vs Ajax: 4.0, 4.1, 1.8
+2026-01-10 21:49:05,331 [INFO] coletor: [ODDS] Odds para Telstar vs Ajax: 4.0, 4.1, 1.8
+2026-01-10 21:49:05,331 [INFO] [ODDS] Odds para G. A. Eagle vs Fortuna Sittard: 2.1, 3.75, 3.2
+2026-01-10 21:49:05,331 [INFO] coletor: [ODDS] Odds para G. A. Eagle vs Fortuna Sittard: 2.1, 3.75, 3.2
+2026-01-10 21:49:05,332 [INFO] [ODDS] Odds para Sparta Rotterdam vs Heracles Almelo: 1.8, 3.8, 4.33
+2026-01-10 21:49:05,332 [INFO] coletor: [ODDS] Odds para Sparta Rotterdam vs Heracles Almelo: 1.8, 3.8, 4.33
+2026-01-10 21:49:05,332 [INFO] [ODDS] Odds para Nacional vs Santa Clara: 2.7, 3.0, 2.8
+2026-01-10 21:49:05,332 [INFO] coletor: [ODDS] Odds para Nacional vs Santa Clara: 2.7, 3.0, 2.8
+2026-01-10 21:49:05,333 [INFO] [ODDS] Odds para Moreirense vs Tondela: 2.0, 3.2, 4.0
+2026-01-10 21:49:05,333 [INFO] coletor: [ODDS] Odds para Moreirense vs Tondela: 2.0, 3.2, 4.0
+2026-01-10 21:49:05,333 [INFO] [ODDS] Odds para Dundee vs Hearts: 8.0, 4.0, 1.48
+2026-01-10 21:49:05,333 [INFO] coletor: [ODDS] Odds para Dundee vs Hearts: 8.0, 4.0, 1.48
+2026-01-10 21:49:05,333 [INFO] [ODDS] Odds para Aberdeen vs Rangers: 4.75, 3.7, 1.72
+2026-01-10 21:49:05,333 [INFO] coletor: [ODDS] Odds para Aberdeen vs Rangers: 4.75, 3.7, 1.72
+2026-01-10 21:49:05,334 [INFO] [ODDS] Odds para Leganés vs Valladolid: 2.55, 3.1, 2.9
+2026-01-10 21:49:05,334 [INFO] coletor: [ODDS] Odds para Leganés vs Valladolid: 2.55, 3.1, 2.9
+2026-01-10 21:49:05,334 [INFO] [ODDS] Odds para Granada vs Castellón: 3.1, 3.3, 2.3
+2026-01-10 21:49:05,334 [INFO] coletor: [ODDS] Odds para Granada vs Castellón: 3.1, 3.3, 2.3
+2026-01-10 21:49:05,335 [INFO] [ODDS] Odds para Málaga vs Ceuta: 2.1, 3.4, 3.4
+2026-01-10 21:49:05,335 [INFO] coletor: [ODDS] Odds para Málaga vs Ceuta: 2.1, 3.4, 3.4
+2026-01-10 21:49:05,335 [INFO] [ODDS] Odds para Mantova vs Palermo: 3.6, 3.4, 2.05
+2026-01-10 21:49:05,335 [INFO] coletor: [ODDS] Odds para Mantova vs Palermo: 3.6, 3.4, 2.05
+2026-01-10 21:49:05,336 [INFO] [ODDS] Odds para Calcio Padova vs Modena: 4.5, 3.1, 1.9
+2026-01-10 21:49:05,336 [INFO] coletor: [ODDS] Odds para Calcio Padova vs Modena: 4.5, 3.1, 1.9
+2026-01-10 21:49:05,336 [INFO] [ODDS] Odds para Roda Kerkrade vs Venlo: 1.85, 3.6, 4.1
+2026-01-10 21:49:05,336 [INFO] coletor: [ODDS] Odds para Roda Kerkrade vs Venlo: 1.85, 3.6, 4.1
+2026-01-10 21:49:05,336 [INFO] [ODDS] Odds para De Graafschap vs Den Bosch: 1.72, 4.75, 3.7
+2026-01-10 21:49:05,336 [INFO] coletor: [ODDS] Odds para De Graafschap vs Den Bosch: 1.72, 4.75, 3.7
+2026-01-10 21:49:05,337 [INFO] [ODDS] Odds para Monterrey vs Toluca: 1.95, 3.6, 3.6
+2026-01-10 21:49:05,337 [INFO] coletor: [ODDS] Odds para Monterrey vs Toluca: 1.95, 3.6, 3.6
+2026-01-10 21:49:05,337 [INFO] [ODDS] Odds para Pumas UNAM vs Querétaro: 1.45, 4.2, 7.5
+2026-01-10 21:49:05,337 [INFO] coletor: [ODDS] Odds para Pumas UNAM vs Querétaro: 1.45, 4.2, 7.5
+2026-01-10 21:49:05,338 [INFO] [ODDS] Odds para Atlético San Luis vs Tigres UANL: 4.2, 3.6, 1.85
+2026-01-10 21:49:05,338 [INFO] coletor: [ODDS] Odds para Atlético San Luis vs Tigres UANL: 4.2, 3.6, 1.85
+2026-01-10 21:49:05,338 [INFO] [ODDS] Odds para Levadiakos vs Volos NFC: 1.65, 3.8, 5.25
+2026-01-10 21:49:05,338 [INFO] coletor: [ODDS] Odds para Levadiakos vs Volos NFC: 1.65, 3.8, 5.25
+2026-01-10 21:49:05,338 [INFO] [ODDS] Odds para OFI vs Asteras Tripolis: 3.1, 3.0, 2.45
+2026-01-10 21:49:05,338 [INFO] coletor: [ODDS] Odds para OFI vs Asteras Tripolis: 3.1, 3.0, 2.45
+2026-01-10 21:49:05,339 [INFO] [ODDS] Odds para Aris vs AEK Athens: 4.75, 3.5, 1.8
+2026-01-10 21:49:05,339 [INFO] coletor: [ODDS] Odds para Aris vs AEK Athens: 4.75, 3.5, 1.8
+2026-01-10 21:49:05,339 [INFO] [ODDS] Odds para Panathinaikos vs Panserraikos: 1.16, 8.0, 12.0
+2026-01-10 21:49:05,339 [INFO] coletor: [ODDS] Odds para Panathinaikos vs Panserraikos: 1.16, 8.0, 12.0
+2026-01-10 21:49:05,340 [INFO] [ODDS] Odds para Melbourne City vs Newcastle Jets: 1.72, 4.5, 4.1
+2026-01-10 21:49:05,340 [INFO] coletor: [ODDS] Odds para Melbourne City vs Newcastle Jets: 1.72, 4.5, 4.1
+2026-01-10 21:49:05,340 [INFO] [ODDS] Odds para Ashdod vs Ironi Kiryat Shmona: 2.7, 3.25, 2.4
+2026-01-10 21:49:05,340 [INFO] coletor: [ODDS] Odds para Ashdod vs Ironi Kiryat Shmona: 2.7, 3.25, 2.4
+2026-01-10 21:49:05,340 [INFO] [ODDS] Odds para Pulau Pinang vs Melaka: 1.38, 4.5, 6.0
+2026-01-10 21:49:05,340 [INFO] coletor: [ODDS] Odds para Pulau Pinang vs Melaka: 1.38, 4.5, 6.0
+2026-01-10 21:49:05,341 [INFO] [ODDS] Odds para Portimonense vs Felgueiras 1932: 3.1, 3.3, 2.05
+2026-01-10 21:49:05,341 [INFO] coletor: [ODDS] Odds para Portimonense vs Felgueiras 1932: 3.1, 3.3, 2.05
+2026-01-10 21:49:05,341 [INFO] [ODDS] Odds para Chaves vs Marítimo: 2.55, 3.0, 2.55
+2026-01-10 21:49:05,341 [INFO] coletor: [ODDS] Odds para Chaves vs Marítimo: 2.55, 3.0, 2.55
+2026-01-10 21:49:05,342 [INFO] [ODDS] Odds para Porto II vs Sporting CP II: 3.0, 3.2, 2.15
+2026-01-10 21:49:05,342 [INFO] coletor: [ODDS] Odds para Porto II vs Sporting CP II: 3.0, 3.2, 2.15
+2026-01-10 21:49:05,342 [INFO] [ODDS] Odds para UD Oliveirense vs Feirense: 2.75, 3.1, 2.3
+2026-01-10 21:49:05,342 [INFO] coletor: [ODDS] Odds para UD Oliveirense vs Feirense: 2.75, 3.1, 2.3
+2026-01-10 21:49:05,342 [INFO] [AGENDA] Válidos=37, Incompletos=0, Filtrados=218, Duplicados=0
+2026-01-10 21:49:05,342 [INFO] coletor: [AGENDA] Válidos=37, Incompletos=0, Filtrados=218, Duplicados=0
+2026-01-10 21:49:05,343 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.73s
+2026-01-10 21:49:05,347 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-11.csv (37 linhas).
+2026-01-10 21:49:31,857 [INFO] __main__: [TEMPO] Fase 2 concluída em 26.51s (links extraídos: 74)
+2026-01-10 21:53:17,712 [INFO] __main__: [TEMPO] Fase 3 concluída em 225.86s (jogos raspados: 92)
+2026-01-10 21:53:17,844 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (23 linhas).
+2026-01-10 21:53:18,072 [INFO] __main__: Exportado histórico para dados_redscore.csv (14414 linhas)
+2026-01-10 21:53:18,644 [INFO] __main__: --- Rotina concluída em 278.54s ---
