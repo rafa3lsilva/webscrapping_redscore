@@ -27834,3 +27834,34 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-10 21:53:17,844 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (23 linhas).
 2026-01-10 21:53:18,072 [INFO] __main__: Exportado histórico para dados_redscore.csv (14414 linhas)
 2026-01-10 21:53:18,644 [INFO] __main__: --- Rotina concluída em 278.54s ---
+2026-01-11 23:52:28,646 [INFO] __main__: Coletor iniciado
+2026-01-11 23:52:28,647 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-11 23:52:53,029 [INFO] [ODDS] Odds para Sevilla vs Celta Vigo: 2.75, 3.25, 2.62
+2026-01-11 23:52:53,029 [INFO] coletor: [ODDS] Odds para Sevilla vs Celta Vigo: 2.75, 3.25, 2.62
+2026-01-11 23:52:53,030 [INFO] [ODDS] Odds para Genoa vs Cagliari: 2.05, 3.0, 4.33
+2026-01-11 23:52:53,030 [INFO] coletor: [ODDS] Odds para Genoa vs Cagliari: 2.05, 3.0, 4.33
+2026-01-11 23:52:53,030 [INFO] [ODDS] Odds para Juventus vs Cremonese: 1.22, 6.5, 13.0
+2026-01-11 23:52:53,030 [INFO] coletor: [ODDS] Odds para Juventus vs Cremonese: 1.22, 6.5, 13.0
+2026-01-11 23:52:53,031 [INFO] [ODDS] Odds para Huesca vs Córdoba: 2.87, 2.9, 2.7
+2026-01-11 23:52:53,031 [INFO] coletor: [ODDS] Odds para Huesca vs Córdoba: 2.87, 2.9, 2.7
+2026-01-11 23:52:53,031 [INFO] [ODDS] Odds para Jong AZ vs Jong Ajax: 1.75, 4.2, 4.0
+2026-01-11 23:52:53,031 [INFO] coletor: [ODDS] Odds para Jong AZ vs Jong Ajax: 1.75, 4.2, 4.0
+2026-01-11 23:52:53,031 [INFO] [ODDS] Odds para Jong PSV vs TOP Oss: 2.05, 3.9, 3.1
+2026-01-11 23:52:53,031 [INFO] coletor: [ODDS] Odds para Jong PSV vs TOP Oss: 2.05, 3.9, 3.1
+2026-01-11 23:52:53,032 [INFO] [ODDS] Odds para Al Hazm vs Al Najma: 1.72, 3.4, 4.1
+2026-01-11 23:52:53,032 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Najma: 1.72, 3.4, 4.1
+2026-01-11 23:52:53,032 [INFO] [ODDS] Odds para Al Ettifaq vs Al Khaleej: 2.0, 3.6, 3.0
+2026-01-11 23:52:53,032 [INFO] coletor: [ODDS] Odds para Al Ettifaq vs Al Khaleej: 2.0, 3.6, 3.0
+2026-01-11 23:52:53,033 [INFO] [ODDS] Odds para Al Hilal vs Al Nassr: 2.05, 3.9, 2.7
+2026-01-11 23:52:53,033 [INFO] coletor: [ODDS] Odds para Al Hilal vs Al Nassr: 2.05, 3.9, 2.7
+2026-01-11 23:52:53,033 [INFO] [AGENDA] Válidos=9, Incompletos=0, Filtrados=51, Duplicados=0
+2026-01-11 23:52:53,033 [INFO] coletor: [AGENDA] Válidos=9, Incompletos=0, Filtrados=51, Duplicados=0
+2026-01-11 23:52:53,033 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.33s
+2026-01-11 23:52:53,037 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-12.csv (9 linhas).
+2026-01-11 23:52:59,108 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.07s (links extraídos: 18)
+2026-01-11 23:53:55,150 [INFO] __main__: [TEMPO] Fase 3 concluída em 56.04s (jogos raspados: 22)
+2026-01-11 23:53:55,229 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (5 linhas).
+2026-01-11 23:53:55,454 [INFO] __main__: Exportado histórico para dados_redscore.csv (14419 linhas)
+2026-01-11 23:53:55,456 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.1 MB).
+2026-01-11 23:53:55,482 [INFO] __main__: [DB] VACUUM concluído.
+2026-01-11 23:53:56,520 [INFO] __main__: --- Rotina concluída em 87.87s ---
