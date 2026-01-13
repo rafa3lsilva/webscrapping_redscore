@@ -27865,3 +27865,60 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-11 23:53:55,456 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.1 MB).
 2026-01-11 23:53:55,482 [INFO] __main__: [DB] VACUUM concluído.
 2026-01-11 23:53:56,520 [INFO] __main__: --- Rotina concluída em 87.87s ---
+2026-01-12 21:53:47,869 [INFO] __main__: Coletor iniciado
+2026-01-12 21:53:47,870 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-12 21:54:12,924 [INFO] [ODDS] Odds para Stuttgart vs Frankfurt: 1.75, 4.0, 4.2
+2026-01-12 21:54:12,924 [INFO] coletor: [ODDS] Odds para Stuttgart vs Frankfurt: 1.75, 4.0, 4.2
+2026-01-12 21:54:12,925 [INFO] [ODDS] Odds para Hamburger vs Leverkusen: 3.3, 3.7, 2.05
+2026-01-12 21:54:12,925 [INFO] coletor: [ODDS] Odds para Hamburger vs Leverkusen: 3.3, 3.7, 2.05
+2026-01-12 21:54:12,925 [INFO] [ODDS] Odds para Mainz vs Heidenheim: 1.7, 3.6, 5.25
+2026-01-12 21:54:12,925 [INFO] coletor: [ODDS] Odds para Mainz vs Heidenheim: 1.7, 3.6, 5.25
+2026-01-12 21:54:12,926 [INFO] [ODDS] Odds para Dortmund vs Werder Bremen: 1.36, 5.25, 7.5
+2026-01-12 21:54:12,926 [INFO] coletor: [ODDS] Odds para Dortmund vs Werder Bremen: 1.36, 5.25, 7.5
+2026-01-12 21:54:12,926 [INFO] [ODDS] Odds para Pachuca vs León: 1.61, 4.0, 5.5
+2026-01-12 21:54:12,926 [INFO] coletor: [ODDS] Odds para Pachuca vs León: 1.61, 4.0, 5.5
+2026-01-12 21:54:12,927 [WARNING] [ODDS] Odds não encontradas para Puebla vs Mazatlán. Motivo: could not convert string to float: '-'
+2026-01-12 21:54:12,927 [WARNING] coletor: [ODDS] Odds não encontradas para Puebla vs Mazatlán. Motivo: could not convert string to float: '-'
+2026-01-12 21:54:12,927 [INFO] [ODDS] Odds para Necaxa vs Monterrey: 2.6, 3.5, 2.6
+2026-01-12 21:54:12,927 [INFO] coletor: [ODDS] Odds para Necaxa vs Monterrey: 2.6, 3.5, 2.6
+2026-01-12 21:54:12,928 [INFO] [ODDS] Odds para Al Akhdoud vs Al Kholood: 2.7, 3.2, 2.35
+2026-01-12 21:54:12,928 [INFO] coletor: [ODDS] Odds para Al Akhdoud vs Al Kholood: 2.7, 3.2, 2.35
+2026-01-12 21:54:12,928 [INFO] [ODDS] Odds para Al Fateh vs Al Riyadh: 1.72, 3.5, 3.9
+2026-01-12 21:54:12,928 [INFO] coletor: [ODDS] Odds para Al Fateh vs Al Riyadh: 1.72, 3.5, 3.9
+2026-01-12 21:54:12,928 [INFO] [ODDS] Odds para Damac vs Al Ittihad: 8.5, 5.0, 1.25
+2026-01-12 21:54:12,928 [INFO] coletor: [ODDS] Odds para Damac vs Al Ittihad: 8.5, 5.0, 1.25
+2026-01-12 21:54:12,929 [INFO] [ODDS] Odds para Southend United vs Gateshead: 1.18, 6.5, 11.0
+2026-01-12 21:54:12,929 [INFO] coletor: [ODDS] Odds para Southend United vs Gateshead: 1.18, 6.5, 11.0
+2026-01-12 21:54:12,929 [INFO] [ODDS] Odds para Eastleigh vs Brackley Town: 2.0, 3.25, 3.5
+2026-01-12 21:54:12,929 [INFO] coletor: [ODDS] Odds para Eastleigh vs Brackley Town: 2.0, 3.25, 3.5
+2026-01-12 21:54:12,930 [INFO] [ODDS] Odds para Carrick Rangers vs Linfield: 4.75, 3.7, 1.6
+2026-01-12 21:54:12,930 [INFO] coletor: [ODDS] Odds para Carrick Rangers vs Linfield: 4.75, 3.7, 1.6
+2026-01-12 21:54:12,930 [INFO] [ODDS] Odds para Glentoran vs Larne: 2.15, 3.0, 3.2
+2026-01-12 21:54:12,930 [INFO] coletor: [ODDS] Odds para Glentoran vs Larne: 2.15, 3.0, 3.2
+2026-01-12 21:54:12,931 [INFO] [ODDS] Odds para Ballymena United vs Cliftonville: 3.6, 3.4, 1.85
+2026-01-12 21:54:12,931 [INFO] coletor: [ODDS] Odds para Ballymena United vs Cliftonville: 3.6, 3.4, 1.85
+2026-01-12 21:54:12,931 [WARNING] [ODDS] Odds não encontradas para Kelantan United vs Sabah. Motivo: could not convert string to float: '-'
+2026-01-12 21:54:12,931 [WARNING] coletor: [ODDS] Odds não encontradas para Kelantan United vs Sabah. Motivo: could not convert string to float: '-'
+2026-01-12 21:54:12,932 [INFO] [ODDS] Odds para Terengganu vs DPMM FC: 1.44, 4.5, 5.0
+2026-01-12 21:54:12,932 [INFO] coletor: [ODDS] Odds para Terengganu vs DPMM FC: 1.44, 4.5, 5.0
+2026-01-12 21:54:12,932 [INFO] [ODDS] Odds para Penybont vs Cardiff MU: 1.61, 3.5, 4.5
+2026-01-12 21:54:12,932 [INFO] coletor: [ODDS] Odds para Penybont vs Cardiff MU: 1.61, 3.5, 4.5
+2026-01-12 21:54:12,933 [INFO] [ODDS] Odds para Haverfordwest County vs Briton Ferry: 1.8, 3.5, 3.7
+2026-01-12 21:54:12,933 [INFO] coletor: [ODDS] Odds para Haverfordwest County vs Briton Ferry: 1.8, 3.5, 3.7
+2026-01-12 21:54:12,933 [INFO] [ODDS] Odds para Flint Town United vs Bala Town: 1.7, 3.6, 4.1
+2026-01-12 21:54:12,933 [INFO] coletor: [ODDS] Odds para Flint Town United vs Bala Town: 1.7, 3.6, 4.1
+2026-01-12 21:54:12,933 [INFO] [ODDS] Odds para Barry Town United vs Llanelli Town: 1.16, 6.0, 12.0
+2026-01-12 21:54:12,933 [INFO] coletor: [ODDS] Odds para Barry Town United vs Llanelli Town: 1.16, 6.0, 12.0
+2026-01-12 21:54:12,934 [INFO] [ODDS] Odds para The New Saints vs Colwyn Bay: 1.25, 5.25, 8.5
+2026-01-12 21:54:12,934 [INFO] coletor: [ODDS] Odds para The New Saints vs Colwyn Bay: 1.25, 5.25, 8.5
+2026-01-12 21:54:12,934 [INFO] [ODDS] Odds para Caernarfon Town vs Connah's Quay: 2.75, 3.5, 2.1
+2026-01-12 21:54:12,934 [INFO] coletor: [ODDS] Odds para Caernarfon Town vs Connah's Quay: 2.75, 3.5, 2.1
+2026-01-12 21:54:12,935 [INFO] [AGENDA] Válidos=23, Incompletos=0, Filtrados=78, Duplicados=0
+2026-01-12 21:54:12,935 [INFO] coletor: [AGENDA] Válidos=23, Incompletos=0, Filtrados=78, Duplicados=0
+2026-01-12 21:54:12,935 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.04s
+2026-01-12 21:54:12,940 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-13.csv (23 linhas).
+2026-01-12 21:54:24,353 [INFO] __main__: [TEMPO] Fase 2 concluída em 11.41s (links extraídos: 46)
+2026-01-12 21:56:50,353 [INFO] __main__: [TEMPO] Fase 3 concluída em 146.00s (jogos raspados: 62)
+2026-01-12 21:56:50,473 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (23 linhas).
+2026-01-12 21:56:50,840 [INFO] __main__: Exportado histórico para dados_redscore.csv (14442 linhas)
+2026-01-12 21:56:51,587 [INFO] __main__: --- Rotina concluída em 183.72s ---
