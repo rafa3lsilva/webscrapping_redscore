@@ -27981,3 +27981,31 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-13 21:53:54,166 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
 2026-01-13 21:53:54,299 [INFO] __main__: Exportado histórico para dados_redscore.csv (14461 linhas)
 2026-01-13 21:53:54,790 [INFO] __main__: --- Rotina concluída em 174.85s ---
+2026-01-14 22:09:06,731 [INFO] __main__: Coletor iniciado
+2026-01-14 22:09:06,732 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-14 22:10:13,024 [INFO] [ODDS] Odds para Augsburg vs Union Berlin: 2.7, 3.2, 2.75
+2026-01-14 22:10:13,024 [INFO] coletor: [ODDS] Odds para Augsburg vs Union Berlin: 2.7, 3.2, 2.75
+2026-01-14 22:10:13,025 [INFO] [ODDS] Odds para Hellas Verona vs Bologna: 3.6, 3.1, 2.2
+2026-01-14 22:10:13,025 [INFO] coletor: [ODDS] Odds para Hellas Verona vs Bologna: 3.6, 3.1, 2.2
+2026-01-14 22:10:13,026 [INFO] [ODDS] Odds para Como vs Milan: 2.9, 3.25, 2.5
+2026-01-14 22:10:13,026 [INFO] coletor: [ODDS] Odds para Como vs Milan: 2.9, 3.25, 2.5
+2026-01-14 22:10:13,027 [INFO] [ODDS] Odds para Tigres UANL vs Pumas UNAM: 1.65, 3.6, 6.0
+2026-01-14 22:10:13,027 [INFO] coletor: [ODDS] Odds para Tigres UANL vs Pumas UNAM: 1.65, 3.6, 6.0
+2026-01-14 22:10:13,028 [INFO] [ODDS] Odds para Toluca vs Santos Laguna: 1.22, 7.0, 10.0
+2026-01-14 22:10:13,028 [INFO] coletor: [ODDS] Odds para Toluca vs Santos Laguna: 1.22, 7.0, 10.0
+2026-01-14 22:10:13,029 [WARNING] [ODDS] Odds não encontradas para Partizani Tirana vs Vora. Motivo: could not convert string to float: '-'
+2026-01-14 22:10:13,029 [WARNING] coletor: [ODDS] Odds não encontradas para Partizani Tirana vs Vora. Motivo: could not convert string to float: '-'
+2026-01-14 22:10:13,030 [INFO] [ODDS] Odds para Teuta Durrës vs Dinamo Tirana: 2.75, 3.0, 2.4
+2026-01-14 22:10:13,030 [INFO] coletor: [ODDS] Odds para Teuta Durrës vs Dinamo Tirana: 2.75, 3.0, 2.4
+2026-01-14 22:10:13,030 [INFO] [ODDS] Odds para Vizela vs Ferreira: 1.57, 3.5, 5.25
+2026-01-14 22:10:13,030 [INFO] coletor: [ODDS] Odds para Vizela vs Ferreira: 1.57, 3.5, 5.25
+2026-01-14 22:10:13,031 [INFO] [AGENDA] Válidos=8, Incompletos=0, Filtrados=58, Duplicados=0
+2026-01-14 22:10:13,031 [INFO] coletor: [AGENDA] Válidos=8, Incompletos=0, Filtrados=58, Duplicados=0
+2026-01-14 22:10:13,031 [INFO] __main__: [TEMPO] Fase 1 concluída em 10.07s
+2026-01-14 22:10:13,038 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-15.csv (8 linhas).
+2026-01-14 22:10:18,811 [INFO] __main__: [F2] 1 confrontos requerem fallback com Selenium (sequencial).
+2026-01-14 22:10:21,578 [INFO] __main__: [TEMPO] Fase 2 concluída em 8.54s (links extraídos: 16)
+2026-01-14 22:12:13,880 [INFO] __main__: [TEMPO] Fase 3 concluída em 112.30s (jogos raspados: 25)
+2026-01-14 22:12:13,981 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
+2026-01-14 22:12:14,191 [INFO] __main__: Exportado histórico para dados_redscore.csv (14467 linhas)
+2026-01-14 22:12:15,219 [INFO] __main__: --- Rotina concluída em 188.49s ---
