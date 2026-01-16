@@ -28009,3 +28009,84 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-14 22:12:13,981 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
 2026-01-14 22:12:14,191 [INFO] __main__: Exportado histórico para dados_redscore.csv (14467 linhas)
 2026-01-14 22:12:15,219 [INFO] __main__: --- Rotina concluída em 188.49s ---
+2026-01-15 21:46:05,837 [INFO] __main__: Coletor iniciado
+2026-01-15 21:46:05,838 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-15 21:46:29,426 [INFO] [ODDS] Odds para Espanyol vs Girona: 1.9, 3.4, 4.33
+2026-01-15 21:46:29,426 [INFO] coletor: [ODDS] Odds para Espanyol vs Girona: 1.9, 3.4, 4.33
+2026-01-15 21:46:29,427 [INFO] [ODDS] Odds para Werder Bremen vs Frankfurt: 2.62, 3.6, 2.55
+2026-01-15 21:46:29,427 [INFO] coletor: [ODDS] Odds para Werder Bremen vs Frankfurt: 2.62, 3.6, 2.55
+2026-01-15 21:46:29,428 [INFO] [ODDS] Odds para Pisa vs Atalanta: 6.25, 3.8, 1.6
+2026-01-15 21:46:29,428 [INFO] coletor: [ODDS] Odds para Pisa vs Atalanta: 6.25, 3.8, 1.6
+2026-01-15 21:46:29,428 [INFO] [ODDS] Odds para Monaco vs Lorient: 1.65, 4.2, 4.75
+2026-01-15 21:46:29,428 [INFO] coletor: [ODDS] Odds para Monaco vs Lorient: 1.65, 4.2, 4.75
+2026-01-15 21:46:29,429 [INFO] [ODDS] Odds para PSG vs LOSC Lille: 1.4, 5.25, 6.5
+2026-01-15 21:46:29,429 [INFO] coletor: [ODDS] Odds para PSG vs LOSC Lille: 1.4, 5.25, 6.5
+2026-01-15 21:46:29,430 [INFO] [ODDS] Odds para Sporting vs Casa Pia: 1.14, 7.5, 15.0
+2026-01-15 21:46:29,430 [INFO] coletor: [ODDS] Odds para Sporting vs Casa Pia: 1.14, 7.5, 15.0
+2026-01-15 21:46:29,431 [INFO] [ODDS] Odds para Club Brugge vs La Louvière: 1.3, 5.25, 8.5
+2026-01-15 21:46:29,431 [INFO] coletor: [ODDS] Odds para Club Brugge vs La Louvière: 1.3, 5.25, 8.5
+2026-01-15 21:46:29,432 [INFO] [ODDS] Odds para West Brom vs Middlesbrough: 2.45, 3.3, 2.8
+2026-01-15 21:46:29,432 [INFO] coletor: [ODDS] Odds para West Brom vs Middlesbrough: 2.45, 3.3, 2.8
+2026-01-15 21:46:29,432 [INFO] [ODDS] Odds para Castellón vs Leganés: 1.72, 3.9, 4.33
+2026-01-15 21:46:29,432 [INFO] coletor: [ODDS] Odds para Castellón vs Leganés: 1.72, 3.9, 4.33
+2026-01-15 21:46:29,433 [INFO] [ODDS] Odds para Sampdoria vs Virtus Entella: 2.0, 3.1, 4.2
+2026-01-15 21:46:29,433 [INFO] coletor: [ODDS] Odds para Sampdoria vs Virtus Entella: 2.0, 3.1, 4.2
+2026-01-15 21:46:29,434 [INFO] [ODDS] Odds para Düsseldorf vs Bielefeld: 2.45, 3.6, 2.62
+2026-01-15 21:46:29,434 [INFO] coletor: [ODDS] Odds para Düsseldorf vs Bielefeld: 2.45, 3.6, 2.62
+2026-01-15 21:46:29,435 [INFO] [ODDS] Odds para Eintracht Braunschweig vs Magdeburg: 2.62, 3.6, 2.4
+2026-01-15 21:46:29,435 [INFO] coletor: [ODDS] Odds para Eintracht Braunschweig vs Magdeburg: 2.62, 3.6, 2.4
+2026-01-15 21:46:29,436 [INFO] [ODDS] Odds para Annecy vs Amiens: 1.7, 3.25, 4.75
+2026-01-15 21:46:29,436 [INFO] coletor: [ODDS] Odds para Annecy vs Amiens: 1.7, 3.25, 4.75
+2026-01-15 21:46:29,436 [INFO] [ODDS] Odds para Rodez vs Le Mans: 2.87, 3.1, 2.25
+2026-01-15 21:46:29,436 [INFO] coletor: [ODDS] Odds para Rodez vs Le Mans: 2.87, 3.1, 2.25
+2026-01-15 21:46:29,437 [INFO] [ODDS] Odds para Laval vs Bastia: 2.25, 2.87, 3.1
+2026-01-15 21:46:29,437 [INFO] coletor: [ODDS] Odds para Laval vs Bastia: 2.25, 2.87, 3.1
+2026-01-15 21:46:29,438 [INFO] [ODDS] Odds para Dunkerque vs Pau: 1.8, 3.4, 3.8
+2026-01-15 21:46:29,438 [INFO] coletor: [ODDS] Odds para Dunkerque vs Pau: 1.8, 3.4, 3.8
+2026-01-15 21:46:29,439 [INFO] [ODDS] Odds para Boulogne vs Montpellier: 2.9, 3.0, 2.25
+2026-01-15 21:46:29,439 [INFO] coletor: [ODDS] Odds para Boulogne vs Montpellier: 2.9, 3.0, 2.25
+2026-01-15 21:46:29,440 [INFO] [ODDS] Odds para Den Haag vs Cambuur: 1.7, 4.2, 4.2
+2026-01-15 21:46:29,440 [INFO] coletor: [ODDS] Odds para Den Haag vs Cambuur: 1.7, 4.2, 4.2
+2026-01-15 21:46:29,440 [INFO] [ODDS] Odds para Venlo vs Jong AZ: 2.0, 3.5, 3.6
+2026-01-15 21:46:29,440 [INFO] coletor: [ODDS] Odds para Venlo vs Jong AZ: 2.0, 3.5, 3.6
+2026-01-15 21:46:29,441 [INFO] [ODDS] Odds para Helmond vs Vitesse: 2.3, 3.75, 2.75
+2026-01-15 21:46:29,441 [INFO] coletor: [ODDS] Odds para Helmond vs Vitesse: 2.3, 3.75, 2.75
+2026-01-15 21:46:29,442 [INFO] [ODDS] Odds para Regensburg vs Ingolstadt: 2.2, 3.6, 2.62
+2026-01-15 21:46:29,442 [INFO] coletor: [ODDS] Odds para Regensburg vs Ingolstadt: 2.2, 3.6, 2.62
+2026-01-15 21:46:29,443 [INFO] [ODDS] Odds para Al Najma vs Al Fateh: 3.5, 3.5, 1.85
+2026-01-15 21:46:29,443 [INFO] coletor: [ODDS] Odds para Al Najma vs Al Fateh: 3.5, 3.5, 1.85
+2026-01-15 21:46:29,443 [INFO] [ODDS] Odds para Al Khaleej vs Al Akhdoud: 1.53, 3.8, 5.0
+2026-01-15 21:46:29,443 [INFO] coletor: [ODDS] Odds para Al Khaleej vs Al Akhdoud: 1.53, 3.8, 5.0
+2026-01-15 21:46:29,444 [INFO] [ODDS] Odds para Al Ittihad vs Al Ettifaq: 1.33, 4.5, 7.0
+2026-01-15 21:46:29,444 [INFO] coletor: [ODDS] Odds para Al Ittihad vs Al Ettifaq: 1.33, 4.5, 7.0
+2026-01-15 21:46:29,445 [INFO] [ODDS] Odds para Melbourne City vs Auckland: 2.45, 3.25, 2.7
+2026-01-15 21:46:29,445 [INFO] coletor: [ODDS] Odds para Melbourne City vs Auckland: 2.45, 3.25, 2.7
+2026-01-15 21:46:29,446 [INFO] [ODDS] Odds para Perth Glory vs Brisbane Roar: 2.05, 3.6, 3.5
+2026-01-15 21:46:29,446 [INFO] coletor: [ODDS] Odds para Perth Glory vs Brisbane Roar: 2.05, 3.6, 3.5
+2026-01-15 21:46:29,447 [INFO] [ODDS] Odds para KRC Genk II vs Lommel United: 3.7, 3.6, 1.75
+2026-01-15 21:46:29,447 [INFO] coletor: [ODDS] Odds para KRC Genk II vs Lommel United: 3.7, 3.6, 1.75
+2026-01-15 21:46:29,447 [INFO] [ODDS] Odds para Seraing vs RWDM: 2.87, 3.25, 2.15
+2026-01-15 21:46:29,447 [INFO] coletor: [ODDS] Odds para Seraing vs RWDM: 2.87, 3.25, 2.15
+2026-01-15 21:46:29,448 [INFO] [ODDS] Odds para Deportivo Pereira vs Llaneros: 2.55, 3.3, 2.7
+2026-01-15 21:46:29,448 [INFO] coletor: [ODDS] Odds para Deportivo Pereira vs Llaneros: 2.55, 3.3, 2.7
+2026-01-15 21:46:29,449 [WARNING] [ODDS] Odds não encontradas para Fortaleza CEIF vs Alianza Petrolera. Motivo: could not convert string to float: '-'
+2026-01-15 21:46:29,449 [WARNING] coletor: [ODDS] Odds não encontradas para Fortaleza CEIF vs Alianza Petrolera. Motivo: could not convert string to float: '-'
+2026-01-15 21:46:29,450 [INFO] [ODDS] Odds para Linfield vs Larne: 2.3, 3.0, 2.9
+2026-01-15 21:46:29,450 [INFO] coletor: [ODDS] Odds para Linfield vs Larne: 2.3, 3.0, 2.9
+2026-01-15 21:46:29,450 [INFO] [ODDS] Odds para Academico Viseu vs União de Leiria: 1.83, 3.1, 3.9
+2026-01-15 21:46:29,450 [INFO] coletor: [ODDS] Odds para Academico Viseu vs União de Leiria: 1.83, 3.1, 3.9
+2026-01-15 21:46:29,451 [INFO] [ODDS] Odds para Argeş vs FCSB: 3.4, 3.1, 2.15
+2026-01-15 21:46:29,451 [INFO] coletor: [ODDS] Odds para Argeş vs FCSB: 3.4, 3.1, 2.15
+2026-01-15 21:46:29,452 [INFO] [AGENDA] Válidos=33, Incompletos=0, Filtrados=97, Duplicados=0
+2026-01-15 21:46:29,452 [INFO] coletor: [AGENDA] Válidos=33, Incompletos=0, Filtrados=97, Duplicados=0
+2026-01-15 21:46:29,452 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.79s
+2026-01-15 21:46:29,459 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-16.csv (33 linhas).
+2026-01-15 21:46:48,932 [INFO] __main__: [TEMPO] Fase 2 concluída em 19.47s (links extraídos: 66)
+2026-01-15 21:50:35,379 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/dunkerque/1281: HTTPConnectionPool(host='localhost', port=33783): Read timed out. (read timeout=120)
+2026-01-15 21:50:35,379 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/dunkerque/1281: HTTPConnectionPool(host='localhost', port=33783): Read timed out. (read timeout=120)
+2026-01-15 21:52:36,394 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/pau/1838: HTTPConnectionPool(host='localhost', port=33783): Read timed out. (read timeout=120)
+2026-01-15 21:52:36,394 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/pau/1838: HTTPConnectionPool(host='localhost', port=33783): Read timed out. (read timeout=120)
+2026-01-15 21:55:10,341 [INFO] __main__: [TEMPO] Fase 3 concluída em 501.41s (jogos raspados: 92)
+2026-01-15 21:55:10,465 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (57 linhas).
+2026-01-15 21:55:10,678 [INFO] __main__: Exportado histórico para dados_redscore.csv (14524 linhas)
+2026-01-15 21:55:11,251 [INFO] __main__: --- Rotina concluída em 545.41s ---
