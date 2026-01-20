@@ -28629,3 +28629,66 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-18 22:13:22,383 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.2 MB).
 2026-01-18 22:13:22,407 [INFO] __main__: [DB] VACUUM concluído.
 2026-01-18 22:13:22,942 [INFO] __main__: --- Rotina concluída em 195.28s ---
+2026-01-19 22:35:09,033 [INFO] __main__: Coletor iniciado
+2026-01-19 22:35:09,034 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-19 22:35:31,707 [INFO] [ODDS] Odds para Livingston vs St. Mirren: 2.8, 3.3, 2.45
+2026-01-19 22:35:31,707 [INFO] coletor: [ODDS] Odds para Livingston vs St. Mirren: 2.8, 3.3, 2.45
+2026-01-19 22:35:31,708 [INFO] [ODDS] Odds para West Brom vs Norwich: 1.95, 3.7, 3.6
+2026-01-19 22:35:31,708 [INFO] coletor: [ODDS] Odds para West Brom vs Norwich: 1.95, 3.7, 3.6
+2026-01-19 22:35:31,708 [INFO] [ODDS] Odds para Charlton vs Derby: 2.7, 3.0, 2.8
+2026-01-19 22:35:31,708 [INFO] coletor: [ODDS] Odds para Charlton vs Derby: 2.7, 3.0, 2.8
+2026-01-19 22:35:31,709 [INFO] [ODDS] Odds para Ipswich vs Bristol City: 1.66, 3.75, 5.0
+2026-01-19 22:35:31,709 [INFO] coletor: [ODDS] Odds para Ipswich vs Bristol City: 1.66, 3.75, 5.0
+2026-01-19 22:35:31,709 [INFO] [ODDS] Odds para Oxford Utd vs QPR: 2.7, 3.3, 2.55
+2026-01-19 22:35:31,709 [INFO] coletor: [ODDS] Odds para Oxford Utd vs QPR: 2.7, 3.3, 2.55
+2026-01-19 22:35:31,710 [INFO] [ODDS] Odds para Sheffield Wed vs Birmingham: 6.25, 4.1, 1.5
+2026-01-19 22:35:31,710 [INFO] coletor: [ODDS] Odds para Sheffield Wed vs Birmingham: 6.25, 4.1, 1.5
+2026-01-19 22:35:31,710 [INFO] [ODDS] Odds para Swansea vs Blackburn: 2.2, 3.2, 3.4
+2026-01-19 22:35:31,710 [INFO] coletor: [ODDS] Odds para Swansea vs Blackburn: 2.2, 3.2, 3.4
+2026-01-19 22:35:31,711 [INFO] [ODDS] Odds para Coventry vs Millwall: 1.72, 3.7, 4.75
+2026-01-19 22:35:31,711 [INFO] coletor: [ODDS] Odds para Coventry vs Millwall: 1.72, 3.7, 4.75
+2026-01-19 22:35:31,711 [INFO] [ODDS] Odds para Preston vs Hull: 2.15, 3.4, 3.3
+2026-01-19 22:35:31,711 [INFO] coletor: [ODDS] Odds para Preston vs Hull: 2.15, 3.4, 3.3
+2026-01-19 22:35:31,711 [INFO] [ODDS] Odds para Wrexham vs Leicester: 2.2, 3.5, 3.1
+2026-01-19 22:35:31,711 [INFO] coletor: [ODDS] Odds para Wrexham vs Leicester: 2.2, 3.5, 3.1
+2026-01-19 22:35:31,712 [INFO] [ODDS] Odds para Stevenage vs Bolton: 3.5, 3.3, 2.05
+2026-01-19 22:35:31,712 [INFO] coletor: [ODDS] Odds para Stevenage vs Bolton: 3.5, 3.3, 2.05
+2026-01-19 22:35:31,712 [WARNING] [ODDS] Odds não encontradas para Grimsby Town vs Salford. Motivo: could not convert string to float: '-'
+2026-01-19 22:35:31,712 [WARNING] coletor: [ODDS] Odds não encontradas para Grimsby Town vs Salford. Motivo: could not convert string to float: '-'
+2026-01-19 22:35:31,713 [INFO] [ODDS] Odds para Kaizer Chiefs vs Golden Arrows: 1.48, 3.8, 6.5
+2026-01-19 22:35:31,713 [INFO] coletor: [ODDS] Odds para Kaizer Chiefs vs Golden Arrows: 1.48, 3.8, 6.5
+2026-01-19 22:35:31,713 [INFO] [ODDS] Odds para Sekhukhune United vs Stellenbosch: 2.2, 2.8, 3.4
+2026-01-19 22:35:31,713 [INFO] coletor: [ODDS] Odds para Sekhukhune United vs Stellenbosch: 2.2, 2.8, 3.4
+2026-01-19 22:35:31,714 [INFO] [ODDS] Odds para Al Shabab vs Al Najma: 1.5, 3.9, 5.5
+2026-01-19 22:35:31,714 [INFO] coletor: [ODDS] Odds para Al Shabab vs Al Najma: 1.5, 3.9, 5.5
+2026-01-19 22:35:31,714 [INFO] [ODDS] Odds para Al Fateh vs Al Kholood: 1.85, 3.5, 3.6
+2026-01-19 22:35:31,714 [INFO] coletor: [ODDS] Odds para Al Fateh vs Al Kholood: 1.85, 3.5, 3.6
+2026-01-19 22:35:31,715 [INFO] [ODDS] Odds para Al Ahli vs Al Khaleej: 1.5, 4.2, 5.25
+2026-01-19 22:35:31,715 [INFO] coletor: [ODDS] Odds para Al Ahli vs Al Khaleej: 1.5, 4.2, 5.25
+2026-01-19 22:35:31,715 [INFO] [ODDS] Odds para Istra 1961 vs Rijeka: 3.6, 3.2, 2.0
+2026-01-19 22:35:31,715 [INFO] coletor: [ODDS] Odds para Istra 1961 vs Rijeka: 3.6, 3.2, 2.0
+2026-01-19 22:35:31,715 [INFO] [ODDS] Odds para Alloa Athletic vs Montrose: 1.85, 3.3, 3.6
+2026-01-19 22:35:31,715 [INFO] coletor: [ODDS] Odds para Alloa Athletic vs Montrose: 1.85, 3.3, 3.6
+2026-01-19 22:35:31,716 [INFO] [ODDS] Odds para East Fife vs Inverness CT: 5.75, 3.8, 1.48
+2026-01-19 22:35:31,716 [INFO] coletor: [ODDS] Odds para East Fife vs Inverness CT: 5.75, 3.8, 1.48
+2026-01-19 22:35:31,716 [INFO] [ODDS] Odds para Yeovil Town vs Aldershot Town: 2.75, 3.4, 2.25
+2026-01-19 22:35:31,716 [INFO] coletor: [ODDS] Odds para Yeovil Town vs Aldershot Town: 2.75, 3.4, 2.25
+2026-01-19 22:35:31,717 [INFO] [ODDS] Odds para Truro City vs Brackley Town: 2.3, 3.1, 2.9
+2026-01-19 22:35:31,717 [INFO] coletor: [ODDS] Odds para Truro City vs Brackley Town: 2.3, 3.1, 2.9
+2026-01-19 22:35:31,717 [INFO] [ODDS] Odds para Sutton vs Woking: 2.3, 3.3, 2.8
+2026-01-19 22:35:31,717 [INFO] coletor: [ODDS] Odds para Sutton vs Woking: 2.3, 3.3, 2.8
+2026-01-19 22:35:31,717 [INFO] [ODDS] Odds para Hartlepool vs Gateshead: 1.5, 4.0, 5.25
+2026-01-19 22:35:31,717 [INFO] coletor: [ODDS] Odds para Hartlepool vs Gateshead: 1.5, 4.0, 5.25
+2026-01-19 22:35:31,718 [INFO] [ODDS] Odds para Southend United vs Eastleigh: 1.36, 4.33, 8.0
+2026-01-19 22:35:31,718 [INFO] coletor: [ODDS] Odds para Southend United vs Eastleigh: 1.36, 4.33, 8.0
+2026-01-19 22:35:31,718 [INFO] [ODDS] Odds para Boreham Wood vs Scunthorpe: 1.66, 3.7, 4.75
+2026-01-19 22:35:31,718 [INFO] coletor: [ODDS] Odds para Boreham Wood vs Scunthorpe: 1.66, 3.7, 4.75
+2026-01-19 22:35:31,718 [INFO] [AGENDA] Válidos=26, Incompletos=0, Filtrados=83, Duplicados=0
+2026-01-19 22:35:31,718 [INFO] coletor: [AGENDA] Válidos=26, Incompletos=0, Filtrados=83, Duplicados=0
+2026-01-19 22:35:31,719 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.71s
+2026-01-19 22:35:31,724 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-20.csv (26 linhas).
+2026-01-19 22:35:44,381 [INFO] __main__: [TEMPO] Fase 2 concluída em 12.66s (links extraídos: 52)
+2026-01-19 22:38:33,423 [INFO] __main__: [TEMPO] Fase 3 concluída em 169.04s (jogos raspados: 65)
+2026-01-19 22:38:33,532 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (41 linhas).
+2026-01-19 22:38:33,756 [INFO] __main__: Exportado histórico para dados_redscore.csv (14751 linhas)
+2026-01-19 22:38:34,256 [INFO] __main__: --- Rotina concluída em 205.22s ---
