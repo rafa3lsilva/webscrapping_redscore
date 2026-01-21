@@ -28692,3 +28692,46 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-19 22:38:33,532 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (41 linhas).
 2026-01-19 22:38:33,756 [INFO] __main__: Exportado histórico para dados_redscore.csv (14751 linhas)
 2026-01-19 22:38:34,256 [INFO] __main__: --- Rotina concluída em 205.22s ---
+2026-01-20 21:56:54,043 [INFO] __main__: Coletor iniciado
+2026-01-20 21:56:54,044 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-20 21:57:20,120 [INFO] [ODDS] Odds para AZ vs Excelsior: 1.33, 5.75, 7.5
+2026-01-20 21:57:20,120 [INFO] coletor: [ODDS] Odds para AZ vs Excelsior: 1.33, 5.75, 7.5
+2026-01-20 21:57:20,121 [INFO] [ODDS] Odds para Southampton vs Sheffield Utd: 2.3, 3.8, 2.7
+2026-01-20 21:57:20,121 [INFO] coletor: [ODDS] Odds para Southampton vs Sheffield Utd: 2.3, 3.8, 2.7
+2026-01-20 21:57:20,121 [INFO] [ODDS] Odds para Watford vs Portsmouth: 1.72, 3.75, 4.75
+2026-01-20 21:57:20,121 [INFO] coletor: [ODDS] Odds para Watford vs Portsmouth: 1.72, 3.75, 4.75
+2026-01-20 21:57:20,122 [INFO] [ODDS] Odds para Stoke vs Middlesbrough: 3.0, 3.3, 2.35
+2026-01-20 21:57:20,122 [INFO] coletor: [ODDS] Odds para Stoke vs Middlesbrough: 3.0, 3.3, 2.35
+2026-01-20 21:57:20,122 [INFO] [ODDS] Odds para TS Galaxy vs Marumo Gallants FC: 2.0, 2.8, 3.8
+2026-01-20 21:57:20,122 [INFO] coletor: [ODDS] Odds para TS Galaxy vs Marumo Gallants FC: 2.0, 2.8, 3.8
+2026-01-20 21:57:20,123 [INFO] [ODDS] Odds para Al Akhdoud vs Al Riyadh: 2.4, 2.9, 2.75
+2026-01-20 21:57:20,123 [INFO] coletor: [ODDS] Odds para Al Akhdoud vs Al Riyadh: 2.4, 2.9, 2.75
+2026-01-20 21:57:20,124 [INFO] [ODDS] Odds para Al Ettifaq vs Al Suqoor: 2.45, 3.3, 2.45
+2026-01-20 21:57:20,124 [INFO] coletor: [ODDS] Odds para Al Ettifaq vs Al Suqoor: 2.45, 3.3, 2.45
+2026-01-20 21:57:20,125 [INFO] [ODDS] Odds para Damac vs Al Nassr: 12.0, 6.0, 1.18
+2026-01-20 21:57:20,125 [INFO] coletor: [ODDS] Odds para Damac vs Al Nassr: 12.0, 6.0, 1.18
+2026-01-20 21:57:20,125 [INFO] [ODDS] Odds para Ceramica Cleopatra vs Al Ittihad: 1.83, 3.0, 4.2
+2026-01-20 21:57:20,125 [INFO] coletor: [ODDS] Odds para Ceramica Cleopatra vs Al Ittihad: 1.83, 3.0, 4.2
+2026-01-20 21:57:20,126 [INFO] [ODDS] Odds para Smouha vs Pharco: 1.9, 2.7, 4.5
+2026-01-20 21:57:20,126 [INFO] coletor: [ODDS] Odds para Smouha vs Pharco: 1.9, 2.7, 4.5
+2026-01-20 21:57:20,126 [INFO] [ODDS] Odds para Forest Green vs Altrincham: 1.4, 4.33, 7.0
+2026-01-20 21:57:20,126 [INFO] coletor: [ODDS] Odds para Forest Green vs Altrincham: 1.4, 4.33, 7.0
+2026-01-20 21:57:20,127 [INFO] [ODDS] Odds para Wealdstone vs Tamworth: 2.2, 3.4, 2.9
+2026-01-20 21:57:20,127 [INFO] coletor: [ODDS] Odds para Wealdstone vs Tamworth: 2.2, 3.4, 2.9
+2026-01-20 21:57:20,127 [INFO] [ODDS] Odds para Halifax Town vs Morecambe: 2.1, 3.4, 3.1
+2026-01-20 21:57:20,127 [INFO] coletor: [ODDS] Odds para Halifax Town vs Morecambe: 2.1, 3.4, 3.1
+2026-01-20 21:57:20,128 [INFO] [ODDS] Odds para Carlisle vs York City: 3.0, 3.5, 2.15
+2026-01-20 21:57:20,128 [INFO] coletor: [ODDS] Odds para Carlisle vs York City: 3.0, 3.5, 2.15
+2026-01-20 21:57:20,128 [INFO] [ODDS] Odds para Solihull Moors vs Rochdale: 3.6, 3.5, 1.9
+2026-01-20 21:57:20,128 [INFO] coletor: [ODDS] Odds para Solihull Moors vs Rochdale: 3.6, 3.5, 1.9
+2026-01-20 21:57:20,129 [INFO] [ODDS] Odds para União de Leiria vs Vizela: 2.5, 3.0, 2.62
+2026-01-20 21:57:20,129 [INFO] coletor: [ODDS] Odds para União de Leiria vs Vizela: 2.5, 3.0, 2.62
+2026-01-20 21:57:20,129 [INFO] [AGENDA] Válidos=16, Incompletos=0, Filtrados=86, Duplicados=0
+2026-01-20 21:57:20,129 [INFO] coletor: [AGENDA] Válidos=16, Incompletos=0, Filtrados=86, Duplicados=0
+2026-01-20 21:57:20,130 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.14s
+2026-01-20 21:57:20,135 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-21.csv (16 linhas).
+2026-01-20 21:57:31,079 [INFO] __main__: [TEMPO] Fase 2 concluída em 10.94s (links extraídos: 32)
+2026-01-20 21:59:31,392 [INFO] __main__: [TEMPO] Fase 3 concluída em 120.31s (jogos raspados: 28)
+2026-01-20 21:59:31,493 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
+2026-01-20 21:59:31,863 [INFO] __main__: Exportado histórico para dados_redscore.csv (14761 linhas)
+2026-01-20 21:59:33,360 [INFO] __main__: --- Rotina concluída em 159.32s ---
