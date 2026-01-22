@@ -28735,3 +28735,42 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-20 21:59:31,493 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
 2026-01-20 21:59:31,863 [INFO] __main__: Exportado histórico para dados_redscore.csv (14761 linhas)
 2026-01-20 21:59:33,360 [INFO] __main__: --- Rotina concluída em 159.32s ---
+2026-01-21 23:14:59,818 [INFO] __main__: Coletor iniciado
+2026-01-21 23:14:59,822 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-21 23:15:25,626 [INFO] [ODDS] Odds para Lincoln vs Burton: 1.57, 3.7, 6.25
+2026-01-21 23:15:25,626 [INFO] coletor: [ODDS] Odds para Lincoln vs Burton: 1.57, 3.7, 6.25
+2026-01-21 23:15:25,627 [INFO] [ODDS] Odds para Aldosivi vs Defensa y Justicia: 2.7, 2.8, 3.1
+2026-01-21 23:15:25,627 [INFO] coletor: [ODDS] Odds para Aldosivi vs Defensa y Justicia: 2.7, 2.8, 3.1
+2026-01-21 23:15:25,628 [INFO] [ODDS] Odds para Unión Santa Fe vs Platense: 2.05, 2.87, 4.5
+2026-01-21 23:15:25,628 [INFO] coletor: [ODDS] Odds para Unión Santa Fe vs Platense: 2.05, 2.87, 4.5
+2026-01-21 23:15:25,629 [INFO] [ODDS] Odds para Banfield vs Huracán: 2.9, 2.7, 2.9
+2026-01-21 23:15:25,629 [INFO] coletor: [ODDS] Odds para Banfield vs Huracán: 2.9, 2.7, 2.9
+2026-01-21 23:15:25,629 [INFO] [ODDS] Odds para Central Cordoba vs Gimnasia Mendoza: 2.05, 3.1, 4.0
+2026-01-21 23:15:25,629 [INFO] coletor: [ODDS] Odds para Central Cordoba vs Gimnasia Mendoza: 2.05, 3.1, 4.0
+2026-01-21 23:15:25,630 [INFO] [ODDS] Odds para Instituto vs Vélez Sarsfield: 2.75, 2.87, 2.87
+2026-01-21 23:15:25,630 [INFO] coletor: [ODDS] Odds para Instituto vs Vélez Sarsfield: 2.75, 2.87, 2.87
+2026-01-21 23:15:25,631 [INFO] [ODDS] Odds para Al Taawoun vs Al Hazm: 1.66, 3.4, 4.5
+2026-01-21 23:15:25,631 [INFO] coletor: [ODDS] Odds para Al Taawoun vs Al Hazm: 1.66, 3.4, 4.5
+2026-01-21 23:15:25,631 [INFO] [ODDS] Odds para Al Quadisiya vs Al Ittihad: 2.25, 3.6, 2.7
+2026-01-21 23:15:25,631 [INFO] coletor: [ODDS] Odds para Al Quadisiya vs Al Ittihad: 2.25, 3.6, 2.7
+2026-01-21 23:15:25,631 [INFO] [ODDS] Odds para Al Hilal vs Al Feiha: 1.18, 6.0, 12.0
+2026-01-21 23:15:25,631 [INFO] coletor: [ODDS] Odds para Al Hilal vs Al Feiha: 1.18, 6.0, 12.0
+2026-01-21 23:15:25,632 [WARNING] [ODDS] Odds não encontradas para CR Belouizdad vs MC Alger. Motivo: could not convert string to float: '-'
+2026-01-21 23:15:25,632 [WARNING] coletor: [ODDS] Odds não encontradas para CR Belouizdad vs MC Alger. Motivo: could not convert string to float: '-'
+2026-01-21 23:15:25,632 [WARNING] [ODDS] Odds não encontradas para USM Alger vs JS Kabylie. Motivo: could not convert string to float: '-'
+2026-01-21 23:15:25,632 [WARNING] coletor: [ODDS] Odds não encontradas para USM Alger vs JS Kabylie. Motivo: could not convert string to float: '-'
+2026-01-21 23:15:25,633 [INFO] [ODDS] Odds para Haras El Hodood vs Kahraba Ismailia: 2.7, 3.0, 2.75
+2026-01-21 23:15:25,633 [INFO] coletor: [ODDS] Odds para Haras El Hodood vs Kahraba Ismailia: 2.7, 3.0, 2.75
+2026-01-21 23:15:25,633 [INFO] [ODDS] Odds para Wadi Degla vs Ghazl El Mehalla: 1.83, 2.9, 4.33
+2026-01-21 23:15:25,633 [INFO] coletor: [ODDS] Odds para Wadi Degla vs Ghazl El Mehalla: 1.83, 2.9, 4.33
+2026-01-21 23:15:25,634 [INFO] [ODDS] Odds para Ismaily vs Al Mokawloon: 3.75, 2.87, 2.2
+2026-01-21 23:15:25,634 [INFO] coletor: [ODDS] Odds para Ismaily vs Al Mokawloon: 3.75, 2.87, 2.2
+2026-01-21 23:15:25,634 [INFO] [AGENDA] Válidos=14, Incompletos=0, Filtrados=57, Duplicados=0
+2026-01-21 23:15:25,634 [INFO] coletor: [AGENDA] Válidos=14, Incompletos=0, Filtrados=57, Duplicados=0
+2026-01-21 23:15:25,634 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.17s
+2026-01-21 23:15:25,640 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-22.csv (14 linhas).
+2026-01-21 23:15:32,836 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.20s (links extraídos: 28)
+2026-01-21 23:17:04,108 [INFO] __main__: [TEMPO] Fase 3 concluída em 91.27s (jogos raspados: 37)
+2026-01-21 23:17:04,160 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (17 linhas).
+2026-01-21 23:17:04,354 [INFO] __main__: Exportado histórico para dados_redscore.csv (14778 linhas)
+2026-01-21 23:17:05,637 [INFO] __main__: --- Rotina concluída em 125.81s ---
