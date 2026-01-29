@@ -29688,3 +29688,54 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-27 20:59:04,470 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (21 linhas).
 2026-01-27 20:59:04,687 [INFO] __main__: Exportado histórico para dados_redscore.csv (15178 linhas)
 2026-01-27 20:59:05,192 [INFO] __main__: --- Rotina concluída em 213.34s ---
+2026-01-28 21:09:50,005 [INFO] __main__: Coletor iniciado
+2026-01-28 21:09:50,007 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-28 21:10:16,645 [INFO] [ODDS] Odds para Mirassol vs Vasco da Gama: 1.85, 3.4, 4.5
+2026-01-28 21:10:16,645 [INFO] coletor: [ODDS] Odds para Mirassol vs Vasco da Gama: 1.85, 3.4, 4.5
+2026-01-28 21:10:16,646 [INFO] [ODDS] Odds para Botafogo vs Cruzeiro: 2.7, 2.9, 3.0
+2026-01-28 21:10:16,646 [INFO] coletor: [ODDS] Odds para Botafogo vs Cruzeiro: 2.7, 2.9, 3.0
+2026-01-28 21:10:16,647 [INFO] [ODDS] Odds para Deportivo Riestra vs Defensa y Justicia: 2.62, 2.8, 3.2
+2026-01-28 21:10:16,647 [INFO] coletor: [ODDS] Odds para Deportivo Riestra vs Defensa y Justicia: 2.62, 2.8, 3.2
+2026-01-28 21:10:16,647 [INFO] [ODDS] Odds para Belgrano vs Tigre: 2.15, 2.87, 4.2
+2026-01-28 21:10:16,647 [INFO] coletor: [ODDS] Odds para Belgrano vs Tigre: 2.15, 2.87, 4.2
+2026-01-28 21:10:16,647 [INFO] [ODDS] Odds para Lanús vs Unión Santa Fe: 2.05, 2.9, 4.5
+2026-01-28 21:10:16,647 [INFO] coletor: [ODDS] Odds para Lanús vs Unión Santa Fe: 2.05, 2.9, 4.5
+2026-01-28 21:10:16,648 [INFO] [ODDS] Odds para Sarmiento vs Banfield: 2.87, 2.8, 2.87
+2026-01-28 21:10:16,648 [INFO] coletor: [ODDS] Odds para Sarmiento vs Banfield: 2.87, 2.8, 2.87
+2026-01-28 21:10:16,648 [INFO] [ODDS] Odds para Estudiantes Río Cuarto vs Argentinos Juniors: 4.2, 3.0, 2.05
+2026-01-28 21:10:16,648 [INFO] coletor: [ODDS] Odds para Estudiantes Río Cuarto vs Argentinos Juniors: 4.2, 3.0, 2.05
+2026-01-28 21:10:16,649 [INFO] [ODDS] Odds para Al Fateh vs Al Ittihad: 5.0, 4.2, 1.48
+2026-01-28 21:10:16,649 [INFO] coletor: [ODDS] Odds para Al Fateh vs Al Ittihad: 5.0, 4.2, 1.48
+2026-01-28 21:10:16,649 [INFO] [ODDS] Odds para Al Quadisiya vs Al Hilal: 2.87, 3.75, 2.05
+2026-01-28 21:10:16,649 [INFO] coletor: [ODDS] Odds para Al Quadisiya vs Al Hilal: 2.87, 3.75, 2.05
+2026-01-28 21:10:16,649 [INFO] [ODDS] Odds para Al Hazm vs Al Shabab: 3.0, 3.5, 2.0
+2026-01-28 21:10:16,649 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Shabab: 3.0, 3.5, 2.0
+2026-01-28 21:10:16,650 [INFO] [ODDS] Odds para Rionegro Águilas vs Deportivo Cali: 2.3, 3.0, 3.3
+2026-01-28 21:10:16,650 [INFO] coletor: [ODDS] Odds para Rionegro Águilas vs Deportivo Cali: 2.3, 3.0, 3.3
+2026-01-28 21:10:16,650 [INFO] [ODDS] Odds para Jaguares de Córdoba vs La Equidad: 1.85, 3.25, 4.75
+2026-01-28 21:10:16,650 [INFO] coletor: [ODDS] Odds para Jaguares de Córdoba vs La Equidad: 1.85, 3.25, 4.75
+2026-01-28 21:10:16,651 [INFO] [ODDS] Odds para América de Cali vs Once Caldas: 2.1, 3.0, 4.0
+2026-01-28 21:10:16,651 [INFO] coletor: [ODDS] Odds para América de Cali vs Once Caldas: 2.1, 3.0, 4.0
+2026-01-28 21:10:16,651 [INFO] [ODDS] Odds para ENPPI vs Smouha: 3.0, 2.75, 2.45
+2026-01-28 21:10:16,651 [INFO] coletor: [ODDS] Odds para ENPPI vs Smouha: 3.0, 2.75, 2.45
+2026-01-28 21:10:16,651 [INFO] [ODDS] Odds para Ghazl El Mehalla vs El Geish: 2.5, 2.7, 3.0
+2026-01-28 21:10:16,651 [INFO] coletor: [ODDS] Odds para Ghazl El Mehalla vs El Geish: 2.5, 2.7, 3.0
+2026-01-28 21:10:16,652 [INFO] [ODDS] Odds para Future FC vs Ismaily: 2.0, 2.7, 4.33
+2026-01-28 21:10:16,652 [INFO] coletor: [ODDS] Odds para Future FC vs Ismaily: 2.0, 2.7, 4.33
+2026-01-28 21:10:16,652 [INFO] [ODDS] Odds para Sportivo Trinidense vs Guaraní: 2.8, 3.0, 2.3
+2026-01-28 21:10:16,652 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs Guaraní: 2.8, 3.0, 2.3
+2026-01-28 21:10:16,653 [INFO] [ODDS] Odds para Rubio Ñú vs Deportivo Recoleta: 2.62, 3.1, 2.55
+2026-01-28 21:10:16,653 [INFO] coletor: [ODDS] Odds para Rubio Ñú vs Deportivo Recoleta: 2.62, 3.1, 2.55
+2026-01-28 21:10:16,653 [INFO] [ODDS] Odds para Benfica II vs Lusitania FC Lourosa: 2.0, 3.2, 3.3
+2026-01-28 21:10:16,653 [INFO] coletor: [ODDS] Odds para Benfica II vs Lusitania FC Lourosa: 2.0, 3.2, 3.3
+2026-01-28 21:10:16,654 [INFO] [ODDS] Odds para Deportivo Táchira vs Academia Anzoátegui: 1.4, 3.9, 7.0
+2026-01-28 21:10:16,654 [INFO] coletor: [ODDS] Odds para Deportivo Táchira vs Academia Anzoátegui: 1.4, 3.9, 7.0
+2026-01-28 21:10:16,655 [INFO] [AGENDA] Válidos=20, Incompletos=0, Filtrados=53, Duplicados=0
+2026-01-28 21:10:16,655 [INFO] coletor: [AGENDA] Válidos=20, Incompletos=0, Filtrados=53, Duplicados=0
+2026-01-28 21:10:16,655 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.33s
+2026-01-28 21:10:16,659 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-29.csv (20 linhas).
+2026-01-28 21:10:31,271 [INFO] __main__: [TEMPO] Fase 2 concluída em 14.61s (links extraídos: 40)
+2026-01-28 21:12:49,441 [INFO] __main__: [TEMPO] Fase 3 concluída em 138.17s (jogos raspados: 36)
+2026-01-28 21:12:49,550 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
+2026-01-28 21:12:49,846 [INFO] __main__: Exportado histórico para dados_redscore.csv (15189 linhas)
+2026-01-28 21:12:50,585 [INFO] __main__: --- Rotina concluída em 180.58s ---
