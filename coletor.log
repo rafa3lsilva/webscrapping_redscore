@@ -29739,3 +29739,128 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-01-28 21:12:49,550 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
 2026-01-28 21:12:49,846 [INFO] __main__: Exportado histórico para dados_redscore.csv (15189 linhas)
 2026-01-28 21:12:50,585 [INFO] __main__: --- Rotina concluída em 180.58s ---
+2026-01-29 21:11:21,463 [INFO] __main__: Coletor iniciado
+2026-01-29 21:11:21,465 [INFO] __main__: --- Rotina diária iniciada ---
+2026-01-29 21:11:45,410 [INFO] [ODDS] Odds para Espanyol vs Alavés: 1.95, 3.1, 4.5
+2026-01-29 21:11:45,410 [INFO] coletor: [ODDS] Odds para Espanyol vs Alavés: 1.95, 3.1, 4.5
+2026-01-29 21:11:45,410 [INFO] [ODDS] Odds para FC Köln vs Wolfsburg: 2.05, 3.7, 3.3
+2026-01-29 21:11:45,410 [INFO] coletor: [ODDS] Odds para FC Köln vs Wolfsburg: 2.05, 3.7, 3.3
+2026-01-29 21:11:45,411 [INFO] [ODDS] Odds para Lazio vs Genoa: 2.05, 3.0, 4.2
+2026-01-29 21:11:45,411 [INFO] coletor: [ODDS] Odds para Lazio vs Genoa: 2.05, 3.0, 4.2
+2026-01-29 21:11:45,411 [INFO] [ODDS] Odds para Lens vs Le Havre: 1.42, 4.75, 7.0
+2026-01-29 21:11:45,411 [INFO] coletor: [ODDS] Odds para Lens vs Le Havre: 1.42, 4.75, 7.0
+2026-01-29 21:11:45,412 [INFO] [ODDS] Odds para NAC Breda vs Twente: 3.9, 3.6, 1.9
+2026-01-29 21:11:45,412 [INFO] coletor: [ODDS] Odds para NAC Breda vs Twente: 3.9, 3.6, 1.9
+2026-01-29 21:11:45,412 [INFO] [ODDS] Odds para Guimaraes vs Moreirense: 1.95, 3.25, 4.0
+2026-01-29 21:11:45,412 [INFO] coletor: [ODDS] Odds para Guimaraes vs Moreirense: 1.95, 3.25, 4.0
+2026-01-29 21:11:45,413 [INFO] [ODDS] Odds para Antalyaspor vs Trabzonspor: 4.0, 3.6, 1.85
+2026-01-29 21:11:45,413 [INFO] coletor: [ODDS] Odds para Antalyaspor vs Trabzonspor: 4.0, 3.6, 1.85
+2026-01-29 21:11:45,413 [INFO] [ODDS] Odds para Kasımpaşa vs Samsunspor: 3.3, 3.1, 2.25
+2026-01-29 21:11:45,413 [INFO] coletor: [ODDS] Odds para Kasımpaşa vs Samsunspor: 3.3, 3.1, 2.25
+2026-01-29 21:11:45,413 [INFO] [ODDS] Odds para La Louvière vs Gent: 2.5, 3.2, 2.6
+2026-01-29 21:11:45,413 [INFO] coletor: [ODDS] Odds para La Louvière vs Gent: 2.5, 3.2, 2.6
+2026-01-29 21:11:45,414 [INFO] [ODDS] Odds para Bristol City vs Derby: 2.0, 3.4, 3.75
+2026-01-29 21:11:45,414 [INFO] coletor: [ODDS] Odds para Bristol City vs Derby: 2.0, 3.4, 3.75
+2026-01-29 21:11:45,414 [INFO] [ODDS] Odds para R. Sociedad II vs Las Palmas: 3.4, 3.2, 2.2
+2026-01-29 21:11:45,414 [INFO] coletor: [ODDS] Odds para R. Sociedad II vs Las Palmas: 3.4, 3.2, 2.2
+2026-01-29 21:11:45,415 [INFO] [ODDS] Odds para Bari 1908 vs Palermo: 4.5, 3.5, 1.8
+2026-01-29 21:11:45,415 [INFO] coletor: [ODDS] Odds para Bari 1908 vs Palermo: 4.5, 3.5, 1.8
+2026-01-29 21:11:45,415 [INFO] [ODDS] Odds para Nürnberg vs Preußen Münster: 1.9, 3.5, 3.9
+2026-01-29 21:11:45,415 [INFO] coletor: [ODDS] Odds para Nürnberg vs Preußen Münster: 1.9, 3.5, 3.9
+2026-01-29 21:11:45,415 [INFO] [ODDS] Odds para Magdeburg vs Hannover: 2.7, 3.6, 2.45
+2026-01-29 21:11:45,415 [INFO] coletor: [ODDS] Odds para Magdeburg vs Hannover: 2.7, 3.6, 2.45
+2026-01-29 21:11:45,416 [INFO] [ODDS] Odds para Bastia vs Nancy: 2.25, 2.9, 3.0
+2026-01-29 21:11:45,416 [INFO] coletor: [ODDS] Odds para Bastia vs Nancy: 2.25, 2.9, 3.0
+2026-01-29 21:11:45,416 [INFO] [ODDS] Odds para Clermont vs Reims: 3.75, 3.3, 1.83
+2026-01-29 21:11:45,416 [INFO] coletor: [ODDS] Odds para Clermont vs Reims: 3.75, 3.3, 1.83
+2026-01-29 21:11:45,417 [INFO] [ODDS] Odds para Grenoble vs Amiens: 1.9, 3.1, 3.7
+2026-01-29 21:11:45,417 [INFO] coletor: [ODDS] Odds para Grenoble vs Amiens: 1.9, 3.1, 3.7
+2026-01-29 21:11:45,417 [INFO] [ODDS] Odds para Montpellier vs Guingamp: 2.15, 3.1, 3.0
+2026-01-29 21:11:45,417 [INFO] coletor: [ODDS] Odds para Montpellier vs Guingamp: 2.15, 3.1, 3.0
+2026-01-29 21:11:45,417 [INFO] [ODDS] Odds para Rodez vs Red Star: 2.7, 3.2, 2.3
+2026-01-29 21:11:45,417 [INFO] coletor: [ODDS] Odds para Rodez vs Red Star: 2.7, 3.2, 2.3
+2026-01-29 21:11:45,418 [INFO] [ODDS] Odds para Laval vs Pau: 3.25, 2.9, 2.15
+2026-01-29 21:11:45,418 [INFO] coletor: [ODDS] Odds para Laval vs Pau: 3.25, 2.9, 2.15
+2026-01-29 21:11:45,418 [INFO] [ODDS] Odds para Den Haag vs Jong AZ: 1.28, 5.75, 9.0
+2026-01-29 21:11:45,418 [INFO] coletor: [ODDS] Odds para Den Haag vs Jong AZ: 1.28, 5.75, 9.0
+2026-01-29 21:11:45,419 [INFO] [ODDS] Odds para Almere City vs Roda Kerkrade: 1.75, 4.0, 4.0
+2026-01-29 21:11:45,419 [INFO] coletor: [ODDS] Odds para Almere City vs Roda Kerkrade: 1.75, 4.0, 4.0
+2026-01-29 21:11:45,419 [INFO] [ODDS] Odds para Den Bosch vs FC Emmen: 2.05, 3.8, 3.2
+2026-01-29 21:11:45,419 [INFO] coletor: [ODDS] Odds para Den Bosch vs FC Emmen: 2.05, 3.8, 3.2
+2026-01-29 21:11:45,419 [INFO] [ODDS] Odds para Eindhoven vs Maastricht: 1.8, 3.8, 4.1
+2026-01-29 21:11:45,419 [INFO] coletor: [ODDS] Odds para Eindhoven vs Maastricht: 1.8, 3.8, 4.1
+2026-01-29 21:11:45,420 [INFO] [ODDS] Odds para Waalwijk vs TOP Oss: 1.72, 4.0, 4.33
+2026-01-29 21:11:45,420 [INFO] coletor: [ODDS] Odds para Waalwijk vs TOP Oss: 1.72, 4.0, 4.33
+2026-01-29 21:11:45,420 [INFO] [ODDS] Odds para Vitesse vs Dordrecht: 2.05, 3.75, 3.2
+2026-01-29 21:11:45,420 [INFO] coletor: [ODDS] Odds para Vitesse vs Dordrecht: 2.05, 3.75, 3.2
+2026-01-29 21:11:45,421 [INFO] [ODDS] Odds para Puebla vs Toluca: 5.0, 4.0, 1.66
+2026-01-29 21:11:45,421 [INFO] coletor: [ODDS] Odds para Puebla vs Toluca: 5.0, 4.0, 1.66
+2026-01-29 21:11:45,421 [INFO] [ODDS] Odds para Richards Bay vs Golden Arrows: 1.9, 2.87, 4.1
+2026-01-29 21:11:45,421 [INFO] coletor: [ODDS] Odds para Richards Bay vs Golden Arrows: 1.9, 2.87, 4.1
+2026-01-29 21:11:45,421 [INFO] [ODDS] Odds para Havelse vs Aue: 2.5, 3.4, 2.35
+2026-01-29 21:11:45,421 [INFO] coletor: [ODDS] Odds para Havelse vs Aue: 2.5, 3.4, 2.35
+2026-01-29 21:11:45,422 [INFO] [ODDS] Odds para Al Taawoun vs Al Akhdoud: 1.53, 3.75, 5.0
+2026-01-29 21:11:45,422 [INFO] coletor: [ODDS] Odds para Al Taawoun vs Al Akhdoud: 1.53, 3.75, 5.0
+2026-01-29 21:11:45,422 [INFO] [ODDS] Odds para Al Suqoor vs Damac: 1.61, 3.6, 4.75
+2026-01-29 21:11:45,422 [INFO] coletor: [ODDS] Odds para Al Suqoor vs Damac: 1.61, 3.6, 4.75
+2026-01-29 21:11:45,423 [INFO] [ODDS] Odds para Al Kholood vs Al Nassr: 8.0, 7.0, 1.25
+2026-01-29 21:11:45,423 [INFO] coletor: [ODDS] Odds para Al Kholood vs Al Nassr: 8.0, 7.0, 1.25
+2026-01-29 21:11:45,423 [INFO] [ODDS] Odds para USM Khenchela vs ASO Chlef: 1.72, 3.1, 4.75
+2026-01-29 21:11:45,423 [INFO] coletor: [ODDS] Odds para USM Khenchela vs ASO Chlef: 1.72, 3.1, 4.75
+2026-01-29 21:11:45,423 [INFO] [ODDS] Odds para CS Constantine vs Mostaganem: 1.42, 3.5, 7.5
+2026-01-29 21:11:45,423 [INFO] coletor: [ODDS] Odds para CS Constantine vs Mostaganem: 1.42, 3.5, 7.5
+2026-01-29 21:11:45,424 [INFO] [ODDS] Odds para MC Oran vs Oued Akbou: 1.85, 2.87, 4.33
+2026-01-29 21:11:45,424 [INFO] coletor: [ODDS] Odds para MC Oran vs Oued Akbou: 1.85, 2.87, 4.33
+2026-01-29 21:11:45,424 [INFO] [ODDS] Odds para Wellington Phoenix vs Melbourne City: 3.3, 4.0, 2.0
+2026-01-29 21:11:45,424 [INFO] coletor: [ODDS] Odds para Wellington Phoenix vs Melbourne City: 3.3, 4.0, 2.0
+2026-01-29 21:11:45,425 [INFO] [ODDS] Odds para Adelaide United vs Macarthur: 2.55, 3.8, 2.5
+2026-01-29 21:11:45,425 [INFO] coletor: [ODDS] Odds para Adelaide United vs Macarthur: 2.55, 3.8, 2.5
+2026-01-29 21:11:45,425 [WARNING] [ODDS] Odds não encontradas para Club Brugge II vs Seraing. Motivo: could not convert string to float: '-'
+2026-01-29 21:11:45,425 [WARNING] coletor: [ODDS] Odds não encontradas para Club Brugge II vs Seraing. Motivo: could not convert string to float: '-'
+2026-01-29 21:11:45,425 [INFO] [ODDS] Odds para KRC Genk II vs Eupen: 3.4, 3.5, 1.95
+2026-01-29 21:11:45,425 [INFO] coletor: [ODDS] Odds para KRC Genk II vs Eupen: 3.4, 3.5, 1.95
+2026-01-29 21:11:45,426 [INFO] [ODDS] Odds para Universidad Chile vs Audax Italiano: 1.44, 4.5, 6.25
+2026-01-29 21:11:45,426 [INFO] coletor: [ODDS] Odds para Universidad Chile vs Audax Italiano: 1.44, 4.5, 6.25
+2026-01-29 21:11:45,426 [WARNING] [ODDS] Odds não encontradas para Junior FC vs Atlético Nacional. Motivo: could not convert string to float: '-'
+2026-01-29 21:11:45,426 [WARNING] coletor: [ODDS] Odds não encontradas para Junior FC vs Atlético Nacional. Motivo: could not convert string to float: '-'
+2026-01-29 21:11:45,427 [INFO] [ODDS] Odds para Istra 1961 vs Lokomotiva Zagreb: 2.2, 3.2, 3.0
+2026-01-29 21:11:45,427 [INFO] coletor: [ODDS] Odds para Istra 1961 vs Lokomotiva Zagreb: 2.2, 3.2, 3.0
+2026-01-29 21:11:45,427 [INFO] [ODDS] Odds para Pharco vs ZED FC: 4.2, 2.6, 2.05
+2026-01-29 21:11:45,427 [INFO] coletor: [ODDS] Odds para Pharco vs ZED FC: 4.2, 2.6, 2.05
+2026-01-29 21:11:45,428 [INFO] [ODDS] Odds para Al Ittihad vs Haras El Hodood: 1.95, 2.87, 4.33
+2026-01-29 21:11:45,428 [INFO] coletor: [ODDS] Odds para Al Ittihad vs Haras El Hodood: 1.95, 2.87, 4.33
+2026-01-29 21:11:45,428 [INFO] [ODDS] Odds para Al Mokawloon vs National Bank of Egypt: 3.2, 2.8, 2.35
+2026-01-29 21:11:45,428 [INFO] coletor: [ODDS] Odds para Al Mokawloon vs National Bank of Egypt: 3.2, 2.8, 2.35
+2026-01-29 21:11:45,428 [INFO] [ODDS] Odds para St. Johnstone vs Partick Thistle: 1.75, 3.3, 4.1
+2026-01-29 21:11:45,428 [INFO] coletor: [ODDS] Odds para St. Johnstone vs Partick Thistle: 1.75, 3.3, 4.1
+2026-01-29 21:11:45,429 [INFO] [ODDS] Odds para Radomlje vs Aluminij: 1.85, 3.6, 3.6
+2026-01-29 21:11:45,429 [INFO] coletor: [ODDS] Odds para Radomlje vs Aluminij: 1.85, 3.6, 3.6
+2026-01-29 21:11:45,429 [INFO] [ODDS] Odds para Primorje vs Domžale: 1.66, 3.7, 4.5
+2026-01-29 21:11:45,429 [INFO] coletor: [ODDS] Odds para Primorje vs Domžale: 1.66, 3.7, 4.5
+2026-01-29 21:11:45,430 [INFO] [ODDS] Odds para PDRM vs Kuala Lumpur: 13.0, 7.5, 1.14
+2026-01-29 21:11:45,430 [INFO] coletor: [ODDS] Odds para PDRM vs Kuala Lumpur: 13.0, 7.5, 1.14
+2026-01-29 21:11:45,430 [INFO] [ODDS] Odds para Sport Huancayo vs Alianza Lima: 2.9, 3.3, 2.35
+2026-01-29 21:11:45,430 [INFO] coletor: [ODDS] Odds para Sport Huancayo vs Alianza Lima: 2.9, 3.3, 2.35
+2026-01-29 21:11:45,430 [INFO] [ODDS] Odds para UTC Cajamarca vs Atlético Grau: 2.25, 3.25, 3.1
+2026-01-29 21:11:45,430 [INFO] coletor: [ODDS] Odds para UTC Cajamarca vs Atlético Grau: 2.25, 3.25, 3.1
+2026-01-29 21:11:45,431 [INFO] [ODDS] Odds para Zagłębie Lubin vs Katowice: 2.25, 3.3, 2.87
+2026-01-29 21:11:45,431 [INFO] coletor: [ODDS] Odds para Zagłębie Lubin vs Katowice: 2.25, 3.3, 2.87
+2026-01-29 21:11:45,431 [INFO] [ODDS] Odds para Radomiak Radom vs Arka Gdynia: 1.85, 3.3, 3.9
+2026-01-29 21:11:45,431 [INFO] coletor: [ODDS] Odds para Radomiak Radom vs Arka Gdynia: 1.85, 3.3, 3.9
+2026-01-29 21:11:45,432 [INFO] [ODDS] Odds para Penafiel vs Leixões: 2.37, 3.1, 2.8
+2026-01-29 21:11:45,432 [INFO] coletor: [ODDS] Odds para Penafiel vs Leixões: 2.37, 3.1, 2.8
+2026-01-29 21:11:45,432 [INFO] [ODDS] Odds para CFR Cluj vs Metaloglobus: 1.25, 4.5, 9.5
+2026-01-29 21:11:45,432 [INFO] coletor: [ODDS] Odds para CFR Cluj vs Metaloglobus: 1.25, 4.5, 9.5
+2026-01-29 21:11:45,432 [INFO] [ODDS] Odds para Dinamo Bucureşti vs Petrolul 52: 1.5, 3.8, 6.5
+2026-01-29 21:11:45,432 [INFO] coletor: [ODDS] Odds para Dinamo Bucureşti vs Petrolul 52: 1.5, 3.8, 6.5
+2026-01-29 21:11:45,433 [INFO] [ODDS] Odds para Academia Puerto Cabello vs Metropolitanos: 1.75, 3.3, 3.9
+2026-01-29 21:11:45,433 [INFO] coletor: [ODDS] Odds para Academia Puerto Cabello vs Metropolitanos: 1.75, 3.3, 3.9
+2026-01-29 21:11:45,433 [INFO] [AGENDA] Válidos=57, Incompletos=0, Filtrados=107, Duplicados=0
+2026-01-29 21:11:45,433 [INFO] coletor: [AGENDA] Válidos=57, Incompletos=0, Filtrados=107, Duplicados=0
+2026-01-29 21:11:45,433 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.45s
+2026-01-29 21:11:45,438 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-01-30.csv (57 linhas).
+2026-01-29 21:12:10,988 [INFO] __main__: [TEMPO] Fase 2 concluída em 25.55s (links extraídos: 114)
+2026-01-29 21:18:14,361 [INFO] __main__: [TEMPO] Fase 3 concluída em 363.37s (jogos raspados: 181)
+2026-01-29 21:18:14,506 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (81 linhas).
+2026-01-29 21:18:14,737 [INFO] __main__: Exportado histórico para dados_redscore.csv (15270 linhas)
+2026-01-29 21:18:15,308 [INFO] __main__: --- Rotina concluída em 413.84s ---
