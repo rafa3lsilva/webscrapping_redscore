@@ -30577,3 +30577,84 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-02-01 21:12:54,808 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.3 MB).
 2026-02-01 21:12:54,832 [INFO] __main__: [DB] VACUUM concluído.
 2026-02-01 21:12:55,471 [INFO] __main__: --- Rotina concluída em 250.31s ---
+2026-02-02 22:06:26,132 [INFO] __main__: Coletor iniciado
+2026-02-02 22:06:26,133 [INFO] __main__: --- Rotina diária iniciada ---
+2026-02-02 22:06:58,414 [INFO] [ODDS] Odds para Bologna vs Milan: 3.0, 3.3, 2.35
+2026-02-02 22:06:58,414 [INFO] coletor: [ODDS] Odds para Bologna vs Milan: 3.0, 3.3, 2.35
+2026-02-02 22:06:58,414 [INFO] [ODDS] Odds para St. Mirren vs Hearts: 4.1, 3.6, 1.83
+2026-02-02 22:06:58,414 [INFO] coletor: [ODDS] Odds para St. Mirren vs Hearts: 4.1, 3.6, 1.83
+2026-02-02 22:06:58,414 [INFO] [ODDS] Odds para Blackburn vs Sheffield Wed: 1.36, 4.75, 9.0
+2026-02-02 22:06:58,414 [INFO] coletor: [ODDS] Odds para Blackburn vs Sheffield Wed: 1.36, 4.75, 9.0
+2026-02-02 22:06:58,415 [INFO] [ODDS] Odds para Hull vs Watford: 2.2, 3.5, 3.1
+2026-02-02 22:06:58,415 [INFO] coletor: [ODDS] Odds para Hull vs Watford: 2.2, 3.5, 3.1
+2026-02-02 22:06:58,415 [INFO] [ODDS] Odds para Portsmouth vs Ipswich: 4.0, 3.6, 1.85
+2026-02-02 22:06:58,415 [INFO] coletor: [ODDS] Odds para Portsmouth vs Ipswich: 4.0, 3.6, 1.85
+2026-02-02 22:06:58,415 [INFO] [ODDS] Odds para Sheffield Utd vs Oxford Utd: 1.42, 4.33, 7.0
+2026-02-02 22:06:58,415 [INFO] coletor: [ODDS] Odds para Sheffield Utd vs Oxford Utd: 1.42, 4.33, 7.0
+2026-02-02 22:06:58,415 [INFO] [ODDS] Odds para Port Vale vs Wimbledon: 2.0, 3.25, 3.7
+2026-02-02 22:06:58,415 [INFO] coletor: [ODDS] Odds para Port Vale vs Wimbledon: 2.0, 3.25, 3.7
+2026-02-02 22:06:58,415 [INFO] [ODDS] Odds para Barnsley vs Northampton: 1.75, 3.6, 4.33
+2026-02-02 22:06:58,415 [INFO] coletor: [ODDS] Odds para Barnsley vs Northampton: 1.75, 3.6, 4.33
+2026-02-02 22:06:58,416 [INFO] [ODDS] Odds para Burton vs Doncaster: 2.9, 3.25, 2.37
+2026-02-02 22:06:58,416 [INFO] coletor: [ODDS] Odds para Burton vs Doncaster: 2.9, 3.25, 2.37
+2026-02-02 22:06:58,416 [INFO] [ODDS] Odds para Harrogate vs Swindon: 4.5, 3.6, 1.72
+2026-02-02 22:06:58,416 [INFO] coletor: [ODDS] Odds para Harrogate vs Swindon: 4.5, 3.6, 1.72
+2026-02-02 22:06:58,416 [INFO] [ODDS] Odds para Barnet vs Crewe: 1.66, 3.75, 4.75
+2026-02-02 22:06:58,416 [INFO] coletor: [ODDS] Odds para Barnet vs Crewe: 1.66, 3.75, 4.75
+2026-02-02 22:06:58,416 [INFO] [ODDS] Odds para Bristol Rovers vs Walsall: 2.6, 3.1, 2.7
+2026-02-02 22:06:58,416 [INFO] coletor: [ODDS] Odds para Bristol Rovers vs Walsall: 2.6, 3.1, 2.7
+2026-02-02 22:06:58,417 [INFO] [ODDS] Odds para Notts County vs Gillingham: 1.85, 3.3, 4.33
+2026-02-02 22:06:58,417 [INFO] coletor: [ODDS] Odds para Notts County vs Gillingham: 1.85, 3.3, 4.33
+2026-02-02 22:06:58,417 [INFO] [ODDS] Odds para Dordrecht vs Helmond: 1.8, 4.0, 3.9
+2026-02-02 22:06:58,417 [INFO] coletor: [ODDS] Odds para Dordrecht vs Helmond: 1.8, 4.0, 3.9
+2026-02-02 22:06:58,417 [INFO] [ODDS] Odds para Banfield vs Estudiantes Río Cuarto: 1.85, 3.1, 5.0
+2026-02-02 22:06:58,417 [INFO] coletor: [ODDS] Odds para Banfield vs Estudiantes Río Cuarto: 1.85, 3.1, 5.0
+2026-02-02 22:06:58,417 [INFO] [ODDS] Odds para Instituto vs Lanús: 2.9, 2.9, 2.75
+2026-02-02 22:06:58,417 [INFO] coletor: [ODDS] Odds para Instituto vs Lanús: 2.9, 2.9, 2.75
+2026-02-02 22:06:58,418 [INFO] [ODDS] Odds para Independiente Rivadavia vs Sarmiento: 1.9, 3.1, 4.75
+2026-02-02 22:06:58,418 [INFO] coletor: [ODDS] Odds para Independiente Rivadavia vs Sarmiento: 1.9, 3.1, 4.75
+2026-02-02 22:06:58,418 [INFO] [ODDS] Odds para AmaZulu vs Orlando Pirates: 5.0, 3.1, 1.66
+2026-02-02 22:06:58,418 [INFO] coletor: [ODDS] Odds para AmaZulu vs Orlando Pirates: 5.0, 3.1, 1.66
+2026-02-02 22:06:58,418 [INFO] [ODDS] Odds para Damac vs Al Kholood: 2.8, 3.3, 2.4
+2026-02-02 22:06:58,418 [INFO] coletor: [ODDS] Odds para Damac vs Al Kholood: 2.8, 3.3, 2.4
+2026-02-02 22:06:58,418 [INFO] [ODDS] Odds para Al Khaleej vs Al Quadisiya: 4.5, 4.2, 1.57
+2026-02-02 22:06:58,418 [INFO] coletor: [ODDS] Odds para Al Khaleej vs Al Quadisiya: 4.5, 4.2, 1.57
+2026-02-02 22:06:58,419 [INFO] [ODDS] Odds para Al Ettifaq vs Al Taawoun: 2.45, 3.4, 2.7
+2026-02-02 22:06:58,419 [INFO] coletor: [ODDS] Odds para Al Ettifaq vs Al Taawoun: 2.45, 3.4, 2.7
+2026-02-02 22:06:58,419 [INFO] [ODDS] Odds para CS Constantine vs Mostaganem: 1.42, 3.5, 7.5
+2026-02-02 22:06:58,419 [INFO] coletor: [ODDS] Odds para CS Constantine vs Mostaganem: 1.42, 3.5, 7.5
+2026-02-02 22:06:58,419 [INFO] [ODDS] Odds para MC Oran vs Oued Akbou: 1.85, 2.87, 4.33
+2026-02-02 22:06:58,419 [INFO] coletor: [ODDS] Odds para MC Oran vs Oued Akbou: 1.85, 2.87, 4.33
+2026-02-02 22:06:58,419 [INFO] [ODDS] Odds para National Bank of Egypt vs Al Ahly: 4.1, 3.1, 1.83
+2026-02-02 22:06:58,419 [INFO] coletor: [ODDS] Odds para National Bank of Egypt vs Al Ahly: 4.1, 3.1, 1.83
+2026-02-02 22:06:58,419 [INFO] [ODDS] Odds para Queen's Park vs Ross County: 3.1, 3.1, 2.15
+2026-02-02 22:06:58,419 [INFO] coletor: [ODDS] Odds para Queen's Park vs Ross County: 3.1, 3.1, 2.15
+2026-02-02 22:06:58,420 [INFO] [ODDS] Odds para Koper vs Primorje: 1.4, 4.5, 6.5
+2026-02-02 22:06:58,420 [INFO] coletor: [ODDS] Odds para Koper vs Primorje: 1.4, 4.5, 6.5
+2026-02-02 22:06:58,420 [INFO] [ODDS] Odds para Bravo vs Mura: 1.85, 3.6, 3.75
+2026-02-02 22:06:58,420 [INFO] coletor: [ODDS] Odds para Bravo vs Mura: 1.85, 3.6, 3.75
+2026-02-02 22:06:58,420 [INFO] [ODDS] Odds para Rochdale vs Boreham Wood: 1.85, 3.5, 3.75
+2026-02-02 22:06:58,420 [INFO] coletor: [ODDS] Odds para Rochdale vs Boreham Wood: 1.85, 3.5, 3.75
+2026-02-02 22:06:58,420 [INFO] [ODDS] Odds para Altrincham vs Morecambe: 2.15, 3.4, 3.0
+2026-02-02 22:06:58,420 [INFO] coletor: [ODDS] Odds para Altrincham vs Morecambe: 2.15, 3.4, 3.0
+2026-02-02 22:06:58,421 [INFO] [ODDS] Odds para Forest Green vs Woking: 1.5, 3.75, 6.25
+2026-02-02 22:06:58,421 [INFO] coletor: [ODDS] Odds para Forest Green vs Woking: 1.5, 3.75, 6.25
+2026-02-02 22:06:58,421 [INFO] [ODDS] Odds para Carrick Rangers vs Bangor: 1.66, 3.5, 4.1
+2026-02-02 22:06:58,421 [INFO] coletor: [ODDS] Odds para Carrick Rangers vs Bangor: 1.66, 3.5, 4.1
+2026-02-02 22:06:58,421 [INFO] [ODDS] Odds para Piast Gliwice vs Lech Poznań: 2.62, 3.3, 2.4
+2026-02-02 22:06:58,421 [INFO] coletor: [ODDS] Odds para Piast Gliwice vs Lech Poznań: 2.62, 3.3, 2.4
+2026-02-02 22:06:58,421 [INFO] [ODDS] Odds para Petrolul 52 vs Unirea Slobozia: 1.66, 3.2, 4.75
+2026-02-02 22:06:58,421 [INFO] coletor: [ODDS] Odds para Petrolul 52 vs Unirea Slobozia: 1.66, 3.2, 4.75
+2026-02-02 22:06:58,422 [INFO] [ODDS] Odds para Universitatea Cluj vs Argeş: 2.2, 2.75, 3.4
+2026-02-02 22:06:58,422 [INFO] coletor: [ODDS] Odds para Universitatea Cluj vs Argeş: 2.2, 2.75, 3.4
+2026-02-02 22:06:58,422 [INFO] [ODDS] Odds para Hermannstadt vs Rapid Bucuresti: 3.25, 3.1, 2.05
+2026-02-02 22:06:58,422 [INFO] coletor: [ODDS] Odds para Hermannstadt vs Rapid Bucuresti: 3.25, 3.1, 2.05
+2026-02-02 22:06:58,422 [INFO] [AGENDA] Válidos=35, Incompletos=0, Filtrados=80, Duplicados=0
+2026-02-02 22:06:58,422 [INFO] coletor: [AGENDA] Válidos=35, Incompletos=0, Filtrados=80, Duplicados=0
+2026-02-02 22:06:58,422 [INFO] __main__: [TEMPO] Fase 1 concluída em 9.60s
+2026-02-02 22:06:58,426 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-02-03.csv (35 linhas).
+2026-02-02 22:07:08,668 [INFO] __main__: [TEMPO] Fase 2 concluída em 10.24s (links extraídos: 70)
+2026-02-02 22:10:59,384 [INFO] __main__: [TEMPO] Fase 3 concluída em 230.72s (jogos raspados: 76)
+2026-02-02 22:10:59,454 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (44 linhas).
+2026-02-02 22:10:59,584 [INFO] __main__: Exportado histórico para dados_redscore.csv (15614 linhas)
+2026-02-02 22:10:59,923 [INFO] __main__: --- Rotina concluída em 273.79s ---
