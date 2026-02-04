@@ -30658,3 +30658,76 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-02-02 22:10:59,454 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (44 linhas).
 2026-02-02 22:10:59,584 [INFO] __main__: Exportado histórico para dados_redscore.csv (15614 linhas)
 2026-02-02 22:10:59,923 [INFO] __main__: --- Rotina concluída em 273.79s ---
+2026-02-03 22:17:49,354 [INFO] __main__: Coletor iniciado
+2026-02-03 22:17:49,355 [INFO] __main__: --- Rotina diária iniciada ---
+2026-02-03 22:18:10,885 [INFO] [ODDS] Odds para Bragantino vs Atlético Mineiro: 2.2, 3.3, 3.4
+2026-02-03 22:18:10,885 [INFO] coletor: [ODDS] Odds para Bragantino vs Atlético Mineiro: 2.2, 3.3, 3.4
+2026-02-03 22:18:10,885 [INFO] [ODDS] Odds para Flamengo vs Internacional: 1.44, 4.5, 7.0
+2026-02-03 22:18:10,885 [INFO] coletor: [ODDS] Odds para Flamengo vs Internacional: 1.44, 4.5, 7.0
+2026-02-03 22:18:10,885 [INFO] [ODDS] Odds para Santos vs São Paulo: 2.2, 3.25, 3.3
+2026-02-03 22:18:10,885 [INFO] coletor: [ODDS] Odds para Santos vs São Paulo: 2.2, 3.25, 3.3
+2026-02-03 22:18:10,886 [INFO] [ODDS] Odds para Remo vs Mirassol: 2.75, 3.1, 2.7
+2026-02-03 22:18:10,886 [INFO] coletor: [ODDS] Odds para Remo vs Mirassol: 2.75, 3.1, 2.7
+2026-02-03 22:18:10,886 [INFO] [ODDS] Odds para Palmeiras vs Vitória: 1.36, 5.0, 8.5
+2026-02-03 22:18:10,886 [INFO] coletor: [ODDS] Odds para Palmeiras vs Vitória: 1.36, 5.0, 8.5
+2026-02-03 22:18:10,886 [INFO] [ODDS] Odds para Grêmio vs Botafogo: 2.3, 3.2, 3.3
+2026-02-03 22:18:10,886 [INFO] coletor: [ODDS] Odds para Grêmio vs Botafogo: 2.3, 3.2, 3.3
+2026-02-03 22:18:10,887 [INFO] [ODDS] Odds para Livingston vs Falkirk: 3.5, 3.4, 2.05
+2026-02-03 22:18:10,887 [INFO] coletor: [ODDS] Odds para Livingston vs Falkirk: 3.5, 3.4, 2.05
+2026-02-03 22:18:10,887 [INFO] [ODDS] Odds para Dundee vs Motherwell: 3.8, 3.3, 2.0
+2026-02-03 22:18:10,887 [INFO] coletor: [ODDS] Odds para Dundee vs Motherwell: 3.8, 3.3, 2.0
+2026-02-03 22:18:10,887 [INFO] [ODDS] Odds para Rangers vs Kilmarnock: 1.3, 5.0, 10.0
+2026-02-03 22:18:10,887 [INFO] coletor: [ODDS] Odds para Rangers vs Kilmarnock: 1.3, 5.0, 10.0
+2026-02-03 22:18:10,888 [INFO] [ODDS] Odds para Hibernian vs Dundee United: 1.55, 3.9, 5.75
+2026-02-03 22:18:10,888 [INFO] coletor: [ODDS] Odds para Hibernian vs Dundee United: 1.55, 3.9, 5.75
+2026-02-03 22:18:10,888 [WARNING] [ODDS] Odds não encontradas para St. Mirren vs Hearts. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,888 [WARNING] coletor: [ODDS] Odds não encontradas para St. Mirren vs Hearts. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,888 [WARNING] [ODDS] Odds não encontradas para Aberdeen vs Celtic. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,888 [WARNING] coletor: [ODDS] Odds não encontradas para Aberdeen vs Celtic. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,889 [WARNING] [ODDS] Odds não encontradas para Dundee vs Motherwell. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,889 [WARNING] coletor: [ODDS] Odds não encontradas para Dundee vs Motherwell. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,889 [WARNING] [ODDS] Odds não encontradas para Rangers vs Kilmarnock. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,889 [WARNING] coletor: [ODDS] Odds não encontradas para Rangers vs Kilmarnock. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,889 [WARNING] [ODDS] Odds não encontradas para Hibernian vs Dundee United. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,889 [WARNING] coletor: [ODDS] Odds não encontradas para Hibernian vs Dundee United. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,890 [WARNING] [ODDS] Odds não encontradas para Livingston vs Falkirk. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,890 [WARNING] coletor: [ODDS] Odds não encontradas para Livingston vs Falkirk. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,890 [INFO] [ODDS] Odds para Aberdeen vs Celtic: 6.25, 4.33, 1.45
+2026-02-03 22:18:10,890 [INFO] coletor: [ODDS] Odds para Aberdeen vs Celtic: 6.25, 4.33, 1.45
+2026-02-03 22:18:10,890 [INFO] [ODDS] Odds para Asteras Tripolis vs Olympiakos: 9.5, 4.33, 1.4
+2026-02-03 22:18:10,890 [INFO] coletor: [ODDS] Odds para Asteras Tripolis vs Olympiakos: 9.5, 4.33, 1.4
+2026-02-03 22:18:10,890 [INFO] [ODDS] Odds para USM Khenchela vs ASO Chlef: 1.85, 3.0, 4.2
+2026-02-03 22:18:10,890 [INFO] coletor: [ODDS] Odds para USM Khenchela vs ASO Chlef: 1.85, 3.0, 4.2
+2026-02-03 22:18:10,891 [INFO] [ODDS] Odds para El Bayadh vs MB Rouisset: 2.4, 2.8, 3.0
+2026-02-03 22:18:10,891 [INFO] coletor: [ODDS] Odds para El Bayadh vs MB Rouisset: 2.4, 2.8, 3.0
+2026-02-03 22:18:10,891 [WARNING] [ODDS] Odds não encontradas para JS Saoura vs ES Sétif. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,891 [WARNING] coletor: [ODDS] Odds não encontradas para JS Saoura vs ES Sétif. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,891 [WARNING] [ODDS] Odds não encontradas para Atlético Nacional vs América de Cali. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,891 [WARNING] coletor: [ODDS] Odds não encontradas para Atlético Nacional vs América de Cali. Motivo: could not convert string to float: '-'
+2026-02-03 22:18:10,892 [INFO] [ODDS] Odds para Smouha vs Pyramids FC: 3.4, 2.8, 2.15
+2026-02-03 22:18:10,892 [INFO] coletor: [ODDS] Odds para Smouha vs Pyramids FC: 3.4, 2.8, 2.15
+2026-02-03 22:18:10,892 [INFO] [ODDS] Odds para ZED FC vs Al Masry: 2.6, 2.9, 2.7
+2026-02-03 22:18:10,892 [INFO] coletor: [ODDS] Odds para ZED FC vs Al Masry: 2.6, 2.9, 2.7
+2026-02-03 22:18:10,892 [INFO] [ODDS] Odds para Kahraba Ismailia vs Zamalek: 4.2, 3.0, 1.9
+2026-02-03 22:18:10,892 [INFO] coletor: [ODDS] Odds para Kahraba Ismailia vs Zamalek: 4.2, 3.0, 1.9
+2026-02-03 22:18:10,892 [INFO] [ODDS] Odds para Domžale vs Maribor: 4.1, 3.75, 1.72
+2026-02-03 22:18:10,892 [INFO] coletor: [ODDS] Odds para Domžale vs Maribor: 4.1, 3.75, 1.72
+2026-02-03 22:18:10,893 [INFO] [ODDS] Odds para Celje vs Radomlje: 1.3, 5.5, 7.5
+2026-02-03 22:18:10,893 [INFO] coletor: [ODDS] Odds para Celje vs Radomlje: 1.3, 5.5, 7.5
+2026-02-03 22:18:10,893 [INFO] [ODDS] Odds para Jagiellonia Białystok vs Katowice: 1.61, 4.33, 4.1
+2026-02-03 22:18:10,893 [INFO] coletor: [ODDS] Odds para Jagiellonia Białystok vs Katowice: 1.61, 4.33, 4.1
+2026-02-03 22:18:10,893 [INFO] [ODDS] Odds para Metaloglobus vs Csikszereda: 2.62, 3.1, 2.4
+2026-02-03 22:18:10,893 [INFO] coletor: [ODDS] Odds para Metaloglobus vs Csikszereda: 2.62, 3.1, 2.4
+2026-02-03 22:18:10,894 [INFO] [ODDS] Odds para UTA Arad vs CFR Cluj: 2.8, 3.0, 2.37
+2026-02-03 22:18:10,894 [INFO] coletor: [ODDS] Odds para UTA Arad vs CFR Cluj: 2.8, 3.0, 2.37
+2026-02-03 22:18:10,894 [INFO] [ODDS] Odds para SSC Farul vs Dinamo Bucureşti: 3.3, 3.2, 2.0
+2026-02-03 22:18:10,894 [INFO] coletor: [ODDS] Odds para SSC Farul vs Dinamo Bucureşti: 3.3, 3.2, 2.0
+2026-02-03 22:18:10,894 [INFO] [AGENDA] Válidos=31, Incompletos=0, Filtrados=88, Duplicados=0
+2026-02-03 22:18:10,894 [INFO] coletor: [AGENDA] Válidos=31, Incompletos=0, Filtrados=88, Duplicados=0
+2026-02-03 22:18:10,894 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.89s
+2026-02-03 22:18:10,898 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-02-04.csv (27 linhas).
+2026-02-03 22:18:19,119 [INFO] __main__: [TEMPO] Fase 2 concluída em 8.22s (links extraídos: 52)
+2026-02-03 22:20:37,034 [INFO] __main__: [TEMPO] Fase 3 concluída em 137.92s (jogos raspados: 80)
+2026-02-03 22:20:37,110 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (28 linhas).
+2026-02-03 22:20:37,271 [INFO] __main__: Exportado histórico para dados_redscore.csv (15642 linhas)
+2026-02-03 22:20:37,632 [INFO] __main__: --- Rotina concluída em 168.28s ---
