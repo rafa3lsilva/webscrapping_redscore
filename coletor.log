@@ -30731,3 +30731,42 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-02-03 22:20:37,110 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (28 linhas).
 2026-02-03 22:20:37,271 [INFO] __main__: Exportado histórico para dados_redscore.csv (15642 linhas)
 2026-02-03 22:20:37,632 [INFO] __main__: --- Rotina concluída em 168.28s ---
+2026-02-04 22:44:19,483 [INFO] __main__: Coletor iniciado
+2026-02-04 22:44:19,484 [INFO] __main__: --- Rotina diária iniciada ---
+2026-02-04 22:44:43,849 [INFO] [ODDS] Odds para Bahia vs Fluminense: 2.2, 3.3, 3.4
+2026-02-04 22:44:43,849 [INFO] coletor: [ODDS] Odds para Bahia vs Fluminense: 2.2, 3.3, 3.4
+2026-02-04 22:44:43,849 [INFO] [ODDS] Odds para Vasco da Gama vs Chapecoense: 1.65, 3.6, 5.75
+2026-02-04 22:44:43,849 [INFO] coletor: [ODDS] Odds para Vasco da Gama vs Chapecoense: 1.65, 3.6, 5.75
+2026-02-04 22:44:43,850 [INFO] [ODDS] Odds para Cruzeiro vs Coritiba: 1.42, 4.33, 8.5
+2026-02-04 22:44:43,850 [INFO] coletor: [ODDS] Odds para Cruzeiro vs Coritiba: 1.42, 4.33, 8.5
+2026-02-04 22:44:43,850 [INFO] [ODDS] Odds para Accrington vs Salford: 3.1, 3.3, 2.25
+2026-02-04 22:44:43,850 [INFO] coletor: [ODDS] Odds para Accrington vs Salford: 3.1, 3.3, 2.25
+2026-02-04 22:44:43,851 [INFO] [ODDS] Odds para Al Feiha vs Al Najma: 1.7, 3.6, 4.33
+2026-02-04 22:44:43,851 [INFO] coletor: [ODDS] Odds para Al Feiha vs Al Najma: 1.7, 3.6, 4.33
+2026-02-04 22:44:43,851 [INFO] [ODDS] Odds para Al Akhdoud vs Al Hilal: 13.0, 6.25, 1.16
+2026-02-04 22:44:43,851 [INFO] coletor: [ODDS] Odds para Al Akhdoud vs Al Hilal: 13.0, 6.25, 1.16
+2026-02-04 22:44:43,852 [INFO] [ODDS] Odds para Al Ahli vs Al Hazm: 1.2, 5.5, 10.0
+2026-02-04 22:44:43,852 [INFO] coletor: [ODDS] Odds para Al Ahli vs Al Hazm: 1.2, 5.5, 10.0
+2026-02-04 22:44:43,852 [INFO] [ODDS] Odds para Millonarios vs Deportivo Pereira: 1.48, 4.1, 7.0
+2026-02-04 22:44:43,852 [INFO] coletor: [ODDS] Odds para Millonarios vs Deportivo Pereira: 1.48, 4.1, 7.0
+2026-02-04 22:44:43,852 [INFO] [ODDS] Odds para Haras El Hodood vs Pharco: 2.7, 2.75, 2.8
+2026-02-04 22:44:43,852 [INFO] coletor: [ODDS] Odds para Haras El Hodood vs Pharco: 2.7, 2.75, 2.8
+2026-02-04 22:44:43,853 [INFO] [ODDS] Odds para Ceramica Cleopatra vs Ghazl El Mehalla: 1.72, 3.2, 5.0
+2026-02-04 22:44:43,853 [INFO] coletor: [ODDS] Odds para Ceramica Cleopatra vs Ghazl El Mehalla: 1.72, 3.2, 5.0
+2026-02-04 22:44:43,853 [INFO] [ODDS] Odds para Wadi Degla vs Al Mokawloon: 2.62, 2.7, 2.9
+2026-02-04 22:44:43,853 [INFO] coletor: [ODDS] Odds para Wadi Degla vs Al Mokawloon: 2.62, 2.7, 2.9
+2026-02-04 22:44:43,854 [WARNING] [ODDS] Odds não encontradas para Aluminij vs Olimpija. Motivo: could not convert string to float: '-'
+2026-02-04 22:44:43,854 [WARNING] coletor: [ODDS] Odds não encontradas para Aluminij vs Olimpija. Motivo: could not convert string to float: '-'
+2026-02-04 22:44:43,854 [INFO] [ODDS] Odds para Universitatea Craiova vs Otelul: 1.66, 3.3, 4.5
+2026-02-04 22:44:43,854 [INFO] coletor: [ODDS] Odds para Universitatea Craiova vs Otelul: 1.66, 3.3, 4.5
+2026-02-04 22:44:43,854 [INFO] [ODDS] Odds para FCSB vs Botoşani: 1.61, 3.6, 5.0
+2026-02-04 22:44:43,854 [INFO] coletor: [ODDS] Odds para FCSB vs Botoşani: 1.61, 3.6, 5.0
+2026-02-04 22:44:43,855 [INFO] [AGENDA] Válidos=14, Incompletos=0, Filtrados=60, Duplicados=0
+2026-02-04 22:44:43,855 [INFO] coletor: [AGENDA] Válidos=14, Incompletos=0, Filtrados=60, Duplicados=0
+2026-02-04 22:44:43,855 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.65s
+2026-02-04 22:44:43,859 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-02-05.csv (14 linhas).
+2026-02-04 22:44:50,893 [INFO] __main__: [TEMPO] Fase 2 concluída em 7.03s (links extraídos: 28)
+2026-02-04 22:46:12,720 [INFO] __main__: [TEMPO] Fase 3 concluída em 81.83s (jogos raspados: 26)
+2026-02-04 22:46:12,802 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (13 linhas).
+2026-02-04 22:46:13,038 [INFO] __main__: Exportado histórico para dados_redscore.csv (15655 linhas)
+2026-02-04 22:46:14,105 [INFO] __main__: --- Rotina concluída em 114.62s ---
