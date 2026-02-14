@@ -16466,3 +16466,60 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-02-06,CSKA Sofia,Arda,Bulgária - Parva Liga,3,1,1,1,21,10,4,5,70,39,6,5,1.55,3.6,7.0
 2026-02-08,Slavia Sofia,Lokomotiv Plovdiv,Bulgária - Parva Liga,0,2,0,1,10,17,3,5,61,62,4,3,2.8,3.0,2.7
 2026-02-07,Caracas,Academia Puerto Cabello,Venezuela - Primera Division,1,1,1,1,9,8,3,2,29,38,4,1,3.0,3.0,2.25
+2026-02-07,Barcelona,Mallorca,Espanha - La Liga,3,0,1,0,24,9,7,4,61,19,12,3,1.14,9.0,13.0
+2026-02-08,Bologna,Parma,Itália - Serie A,0,1,0,0,16,5,2,1,64,41,4,5,1.61,4.0,5.5
+2026-02-08,Atlético Madrid,Betis,Espanha - La Liga,0,1,0,1,10,8,5,4,75,11,7,3,1.5,4.75,5.75
+2026-02-08,Athletic Club,Levante,Espanha - La Liga,4,2,2,0,22,6,7,3,42,21,4,3,1.6,4.0,5.75
+2026-02-08,Lecce,Udinese,Itália - Serie A,2,1,1,1,16,6,5,1,53,28,7,0,2.9,2.8,2.9
+2026-02-07,Genoa,Napoli,Itália - Serie A,2,3,1,2,12,14,3,5,47,22,4,3,4.33,3.0,2.05
+2026-02-09,Roma,Cagliari,Itália - Serie A,2,0,1,0,15,3,5,1,70,28,7,1,1.48,4.1,7.5
+2026-02-08,Angers,Toulouse,França - Ligue 1,1,0,0,0,12,12,4,5,26,61,3,5,3.6,3.1,2.15
+2026-02-11,G. A. Eagle,Heerenveen,Países Baixos - Eredivisie,1,3,0,0,13,19,6,10,41,38,8,4,2.6,3.75,2.5
+2026-02-09,Porto,Sporting,Portugal - Primeira Liga,1,1,0,0,8,11,1,3,29,45,1,8,2.55,3.1,2.87
+2026-02-09,Famalicão,AVS,Portugal - Primeira Liga,3,1,0,0,14,7,6,1,54,31,7,2,1.48,4.33,6.5
+2026-02-09,Gaziantep,Kasımpaşa,Turquia - Super Lig,2,1,2,1,4,9,2,1,28,49,1,7,2.15,3.4,3.3
+2026-02-09,Kayserispor,Kocaelispor,Turquia - Super Lig,1,2,0,0,20,10,3,4,59,27,8,2,3.4,3.1,2.2
+2026-02-06,Westerlo,St. Truiden,Bélgica - Pro League,0,4,0,3,8,17,1,6,56,37,6,5,2.3,3.6,2.7
+2026-02-11,Südtirol,Monza,Itália - Serie B,0,0,0,0,10,7,2,1,59,29,5,3,3.5,3.1,2.25
+2026-02-09,Racing Santander,Mirandés,Espanha - La Liga 2,1,0,0,0,19,8,7,2,50,41,7,3,1.61,4.1,5.0
+2026-02-08,Gijón,Huesca,Espanha - La Liga 2,2,1,0,0,12,9,5,4,47,40,6,4,1.85,3.25,4.5
+2026-02-08,Deportivo La Coruña,Albacete,Espanha - La Liga 2,2,1,2,0,12,16,1,4,38,48,4,1,1.66,3.9,4.75
+2026-02-11,Bari 1908,Spezia,Itália - Serie B,0,0,0,0,21,18,7,6,39,48,5,10,2.9,2.87,2.7
+2026-02-11,Empoli,Juve Stabia,Itália - Serie B,1,2,1,0,12,9,2,3,48,31,5,3,2.35,2.9,3.4
+2026-02-11,Avellino,Frosinone,Itália - Serie B,1,3,0,2,15,16,6,5,53,35,6,4,3.5,3.2,2.2
+2026-02-08,Wolfsberger,Grazer,Áustria - Tipico Bundesliga,2,2,1,1,8,16,3,10,38,51,4,6,2.35,3.2,3.1
+2026-02-06,Salzburg,Austria Wien,Áustria - Tipico Bundesliga,0,2,0,2,16,7,3,3,64,24,6,2,1.57,4.33,5.0
+2026-02-12,Thun,Lausanne Sport,Suíça - Super League,5,1,2,1,17,22,7,4,69,52,9,3,1.85,3.8,3.7
+2026-02-12,Sion,Basel,Suíça - Super League,2,0,1,0,20,15,7,5,55,54,6,7,2.25,3.4,3.0
+2026-02-11,Lugano,Servette,Suíça - Super League,1,1,1,0,3,11,1,2,24,62,1,5,2.3,3.0,3.4
+2026-02-09,AGF,OB,Dinamarca - Superliga,2,1,0,1,17,4,9,3,325,81,9,1,1.66,4.1,4.5
+2026-02-08,Silkeborg,Viborg,Dinamarca - Superliga,0,1,0,0,11,14,1,4,35,68,4,11,3.1,3.6,2.15
+2026-02-09,Estudiantes,Deportivo Riestra,Argentina - Superliga,1,0,0,0,16,8,6,3,73,37,4,5,1.85,3.0,5.25
+2026-02-09,Barracas Central,Gimnasia La Plata,Argentina - Superliga,2,0,1,0,13,12,6,4,37,71,2,7,2.8,2.9,2.8
+2026-02-07,Kifisia,Atromitos,Grécia - Super League,0,1,0,0,11,7,2,4,46,36,4,4,2.8,3.1,2.6
+2026-02-06,Tigres UANL,Santos Laguna,México - Liga Mx,5,1,2,1,20,8,7,3,62,16,4,1,1.28,6.25,9.5
+2026-02-07,Mazatlán,Guadalajara,México - Liga Mx,1,2,0,2,6,14,3,6,32,36,1,2,7.5,4.5,1.42
+2026-02-08,Panserraikos,AEK Athens,Grécia - Super League,0,4,0,0,2,20,1,6,9,92,0,9,11.0,6.0,1.25
+2026-02-07,Tirana,Dinamo Tirana,Albânia - Superliga,1,1,1,0,6,16,2,3,33,99,0,7,3.3,3.1,2.05
+2026-02-06,Waldhof Mannheim,Ulm,Alemanha - 3. Liga,2,1,2,0,7,14,3,4,38,67,3,10,2.05,3.4,3.1
+2026-02-07,Ingolstadt,Energie Cottbus,Alemanha - 3. Liga,0,0,0,0,12,13,1,4,33,47,4,10,2.4,3.6,2.35
+2025-10-05,Almirante Brown,Talleres Remedios,Argentina - Primera B Nacional,2,1,1,0,5,13,4,6,20,33,2,7,1.85,3.1,5.0
+2026-02-06,Audax Italiano,Univ. Concepción,Chile - Primera Division,3,0,2,0,13,17,5,3,15,24,3,7,2.2,3.25,3.3
+2026-02-10,Atlético Bucaramanga,Deportes Tolima,Colômbia - Liga Betplay,0,0,0,0,9,8,0,2,25,26,3,5,1.83,3.1,5.0
+2026-02-12,Once Caldas,Junior FC,Colômbia - Liga Betplay,2,1,2,1,16,13,5,5,14,26,4,4,1.95,3.4,4.0
+2026-02-12,Atlético Nacional,Fortaleza CEIF,Colômbia - Liga Betplay,4,1,1,0,16,8,8,1,32,16,3,2,1.38,4.5,7.5
+2026-02-12,Boyacá Chicó,Jaguares de Córdoba,Colômbia - Liga Betplay,5,0,3,0,13,4,6,0,36,18,4,1,2.05,3.0,4.1
+2026-02-08,Žilina,Komárno,Eslováquia - Fortuna Liga,1,0,1,0,12,8,7,2,43,28,4,5,1.65,4.2,4.75
+2026-02-07,Primorje,Bravo,Eslovênia - 1. Snl,3,2,3,0,7,12,5,2,66,70,2,5,2.8,3.4,2.3
+2026-02-08,Maribor,Koper,Eslovênia - 1. Snl,2,0,1,0,17,7,5,1,62,57,6,6,1.9,3.6,3.2
+2026-02-06,Várda SE,Kazincbarcika,Hungria - Otp Bank Liga,1,0,0,0,16,12,6,3,61,37,6,2,1.66,3.75,4.75
+2026-02-08,Pogoń Szczecin,Nieciecza,Polônia - Ekstraklasa,1,1,1,0,17,20,6,8,57,70,7,5,1.53,4.2,5.0
+2026-02-07,Górnik Zabrze,Lech Poznań,Polônia - Ekstraklasa,0,1,0,1,17,13,4,4,80,50,7,3,2.25,3.5,2.8
+2026-02-08,Torreense,União de Leiria,Portugal - Segunda Liga,3,1,1,1,19,10,8,2,66,34,5,3,2.35,3.1,2.87
+2026-02-10,Ferreira,Sporting CP II,Portugal - Segunda Liga,0,3,0,3,18,14,3,7,63,43,6,2,3.2,3.1,2.1
+2026-02-07,Unirea Slobozia,SSC Farul,Romênia - Liga 1,2,1,1,1,19,10,4,4,53,43,5,4,3.4,3.0,2.1
+2026-02-09,Dinamo Bucureşti,Universitatea Craiova,Romênia - Liga 1,1,1,0,0,4,11,2,4,25,32,0,2,2.7,2.87,2.7
+2026-02-07,Javor Ivanjica,Bačka Topola,Sérvia - Super Liga,0,0,0,0,10,11,7,1,79,91,4,5,2.4,3.2,3.0
+2026-02-09,Cerro,Danubio,Uruguai - Primera Division,0,1,0,0,6,8,1,3,64,43,1,1,3.8,2.75,2.25
+2026-02-08,Botev Plovdiv,Beroe,Bulgária - Parva Liga,0,0,0,0,24,7,7,3,107,49,12,1,1.53,4.0,6.25
+2026-02-07,Peñarol,Torque,Uruguai - Primera Division,3,1,3,0,5,11,4,5,12,16,2,3,1.8,3.1,4.75
