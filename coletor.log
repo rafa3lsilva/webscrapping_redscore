@@ -32878,3 +32878,34 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-02-16 21:40:53,500 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (42 linhas).
 2026-02-16 21:40:53,740 [INFO] __main__: Exportado histórico para dados_redscore.csv (16573 linhas)
 2026-02-16 21:40:54,755 [INFO] __main__: --- Rotina concluída em 327.92s ---
+2026-02-17 20:00:33,568 [INFO] __main__: Coletor iniciado
+2026-02-17 20:00:33,569 [INFO] __main__: --- Rotina diária iniciada ---
+2026-02-17 20:00:54,080 [INFO] [ODDS] Odds para Wolves vs Arsenal: 11.0, 5.25, 1.28
+2026-02-17 20:00:54,080 [INFO] coletor: [ODDS] Odds para Wolves vs Arsenal: 11.0, 5.25, 1.28
+2026-02-17 20:00:54,081 [INFO] [ODDS] Odds para Levante vs Villarreal: 4.0, 4.0, 1.8
+2026-02-17 20:00:54,081 [INFO] coletor: [ODDS] Odds para Levante vs Villarreal: 4.0, 4.0, 1.8
+2026-02-17 20:00:54,081 [INFO] [ODDS] Odds para Milan vs Como: 2.35, 3.2, 3.25
+2026-02-17 20:00:54,081 [INFO] coletor: [ODDS] Odds para Milan vs Como: 2.35, 3.2, 3.25
+2026-02-17 20:00:54,081 [INFO] [ODDS] Odds para Wigan vs Luton: 2.87, 3.25, 2.5
+2026-02-17 20:00:54,081 [INFO] coletor: [ODDS] Odds para Wigan vs Luton: 2.87, 3.25, 2.5
+2026-02-17 20:00:54,082 [INFO] [ODDS] Odds para Grimsby Town vs Walsall: 1.95, 3.2, 3.9
+2026-02-17 20:00:54,082 [INFO] coletor: [ODDS] Odds para Grimsby Town vs Walsall: 1.95, 3.2, 3.9
+2026-02-17 20:00:54,082 [INFO] [ODDS] Odds para Winterthur vs St. Gallen: 4.5, 4.0, 1.7
+2026-02-17 20:00:54,082 [INFO] coletor: [ODDS] Odds para Winterthur vs St. Gallen: 4.5, 4.0, 1.7
+2026-02-17 20:00:54,082 [INFO] [ODDS] Odds para Siwelele vs Kaizer Chiefs: 3.4, 2.8, 2.15
+2026-02-17 20:00:54,082 [INFO] coletor: [ODDS] Odds para Siwelele vs Kaizer Chiefs: 3.4, 2.8, 2.15
+2026-02-17 20:00:54,082 [INFO] [ODDS] Odds para Stellenbosch vs Magesi: 1.9, 2.9, 4.5
+2026-02-17 20:00:54,082 [INFO] coletor: [ODDS] Odds para Stellenbosch vs Magesi: 1.9, 2.9, 4.5
+2026-02-17 20:00:54,082 [INFO] [ODDS] Odds para Orlando Pirates vs Mamelodi Sundowns: 2.75, 2.62, 2.75
+2026-02-17 20:00:54,082 [INFO] coletor: [ODDS] Odds para Orlando Pirates vs Mamelodi Sundowns: 2.75, 2.62, 2.75
+2026-02-17 20:00:54,083 [INFO] [ODDS] Odds para Junior FC vs América de Cali: 1.95, 3.2, 4.0
+2026-02-17 20:00:54,083 [INFO] coletor: [ODDS] Odds para Junior FC vs América de Cali: 1.95, 3.2, 4.0
+2026-02-17 20:00:54,083 [INFO] [AGENDA] Válidos=10, Incompletos=0, Filtrados=83, Duplicados=0
+2026-02-17 20:00:54,083 [INFO] coletor: [AGENDA] Válidos=10, Incompletos=0, Filtrados=83, Duplicados=0
+2026-02-17 20:00:54,083 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.04s
+2026-02-17 20:00:54,088 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-02-18.csv (10 linhas).
+2026-02-17 20:00:58,292 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.20s (links extraídos: 20)
+2026-02-17 20:01:55,291 [INFO] __main__: [TEMPO] Fase 3 concluída em 57.00s (jogos raspados: 26)
+2026-02-17 20:01:55,357 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
+2026-02-17 20:01:55,482 [INFO] __main__: Exportado histórico para dados_redscore.csv (16584 linhas)
+2026-02-17 20:01:56,369 [INFO] __main__: --- Rotina concluída em 82.80s ---
