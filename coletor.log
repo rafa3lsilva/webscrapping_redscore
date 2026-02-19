@@ -32909,3 +32909,40 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-02-17 20:01:55,357 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
 2026-02-17 20:01:55,482 [INFO] __main__: Exportado histórico para dados_redscore.csv (16584 linhas)
 2026-02-17 20:01:56,369 [INFO] __main__: --- Rotina concluída em 82.80s ---
+2026-02-18 21:41:47,177 [INFO] __main__: Coletor iniciado
+2026-02-18 21:41:47,179 [INFO] __main__: --- Rotina diária iniciada ---
+2026-02-18 21:42:11,077 [INFO] [ODDS] Odds para Athletico PR vs Corinthians: 2.55, 2.9, 3.1
+2026-02-18 21:42:11,077 [INFO] coletor: [ODDS] Odds para Athletico PR vs Corinthians: 2.55, 2.9, 3.1
+2026-02-18 21:42:11,078 [INFO] [ODDS] Odds para San Lorenzo vs Estudiantes Río Cuarto: 1.61, 3.25, 7.5
+2026-02-18 21:42:11,078 [INFO] coletor: [ODDS] Odds para San Lorenzo vs Estudiantes Río Cuarto: 1.61, 3.25, 7.5
+2026-02-18 21:42:11,078 [INFO] [ODDS] Odds para Defensa y Justicia vs Belgrano: 2.87, 2.9, 2.75
+2026-02-18 21:42:11,078 [INFO] coletor: [ODDS] Odds para Defensa y Justicia vs Belgrano: 2.87, 2.9, 2.75
+2026-02-18 21:42:11,079 [INFO] [ODDS] Odds para Instituto vs Atlético Tucumán: 2.0, 3.1, 4.33
+2026-02-18 21:42:11,079 [INFO] coletor: [ODDS] Odds para Instituto vs Atlético Tucumán: 2.0, 3.1, 4.33
+2026-02-18 21:42:11,079 [INFO] [ODDS] Odds para Independiente Rivadavia vs Independiente: 2.7, 2.75, 3.1
+2026-02-18 21:42:11,079 [INFO] coletor: [ODDS] Odds para Independiente Rivadavia vs Independiente: 2.7, 2.75, 3.1
+2026-02-18 21:42:11,079 [INFO] [ODDS] Odds para Al Kholood vs Al Riyadh: 1.95, 3.4, 3.5
+2026-02-18 21:42:11,079 [INFO] coletor: [ODDS] Odds para Al Kholood vs Al Riyadh: 1.95, 3.4, 3.5
+2026-02-18 21:42:11,080 [INFO] [ODDS] Odds para Al Ahli vs Al Najma: 1.12, 8.5, 17.0
+2026-02-18 21:42:11,080 [INFO] coletor: [ODDS] Odds para Al Ahli vs Al Najma: 1.12, 8.5, 17.0
+2026-02-18 21:42:11,080 [INFO] [ODDS] Odds para Al Ettifaq vs Al Fateh: 2.2, 3.4, 2.75
+2026-02-18 21:42:11,080 [INFO] coletor: [ODDS] Odds para Al Ettifaq vs Al Fateh: 2.2, 3.4, 2.75
+2026-02-18 21:42:11,081 [INFO] [ODDS] Odds para Pharco vs Petrojet: 3.25, 3.0, 2.25
+2026-02-18 21:42:11,081 [INFO] coletor: [ODDS] Odds para Pharco vs Petrojet: 3.25, 3.0, 2.25
+2026-02-18 21:42:11,081 [INFO] [ODDS] Odds para Al Mokawloon vs Al Masry: 2.9, 3.0, 2.35
+2026-02-18 21:42:11,081 [INFO] coletor: [ODDS] Odds para Al Mokawloon vs Al Masry: 2.9, 3.0, 2.35
+2026-02-18 21:42:11,081 [INFO] [ODDS] Odds para Al Ahly vs El Gounah: 1.28, 4.75, 10.0
+2026-02-18 21:42:11,081 [INFO] coletor: [ODDS] Odds para Al Ahly vs El Gounah: 1.28, 4.75, 10.0
+2026-02-18 21:42:11,082 [INFO] [ODDS] Odds para Sportivo San Lorenzo vs Sportivo Trinidense: 2.87, 3.0, 2.25
+2026-02-18 21:42:11,082 [INFO] coletor: [ODDS] Odds para Sportivo San Lorenzo vs Sportivo Trinidense: 2.87, 3.0, 2.25
+2026-02-18 21:42:11,082 [INFO] [ODDS] Odds para Nacional Asunción vs Sportivo Ameliano: 1.9, 3.0, 4.0
+2026-02-18 21:42:11,082 [INFO] coletor: [ODDS] Odds para Nacional Asunción vs Sportivo Ameliano: 1.9, 3.0, 4.0
+2026-02-18 21:42:11,082 [INFO] [AGENDA] Válidos=13, Incompletos=0, Filtrados=61, Duplicados=0
+2026-02-18 21:42:11,082 [INFO] coletor: [AGENDA] Válidos=13, Incompletos=0, Filtrados=61, Duplicados=0
+2026-02-18 21:42:11,082 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.01s
+2026-02-18 21:42:11,087 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-02-19.csv (13 linhas).
+2026-02-18 21:42:17,493 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.41s (links extraídos: 26)
+2026-02-18 21:43:36,650 [INFO] __main__: [TEMPO] Fase 3 concluída em 79.16s (jogos raspados: 37)
+2026-02-18 21:43:36,750 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (20 linhas).
+2026-02-18 21:43:36,995 [INFO] __main__: Exportado histórico para dados_redscore.csv (16604 linhas)
+2026-02-18 21:43:38,099 [INFO] __main__: --- Rotina concluída em 110.92s ---
