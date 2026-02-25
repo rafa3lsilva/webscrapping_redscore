@@ -34117,3 +34117,80 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild
 2026-02-23 21:18:25,302 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (72 linhas).
 2026-02-23 21:18:25,552 [INFO] __main__: Exportado histórico para dados_redscore.csv (17126 linhas)
 2026-02-23 21:18:26,179 [INFO] __main__: --- Rotina concluída em 369.51s ---
+2026-02-24 21:05:08,418 [INFO] __main__: Coletor iniciado
+2026-02-24 21:05:08,420 [INFO] __main__: --- Rotina diária iniciada ---
+2026-02-24 21:05:34,377 [INFO] [ODDS] Odds para Botafogo vs Vitória: 1.66, 3.6, 5.25
+2026-02-24 21:05:34,377 [INFO] coletor: [ODDS] Odds para Botafogo vs Vitória: 1.66, 3.6, 5.25
+2026-02-24 21:05:34,377 [INFO] [ODDS] Odds para Flamengo vs Mirassol: 1.4, 4.2, 8.5
+2026-02-24 21:05:34,377 [INFO] coletor: [ODDS] Odds para Flamengo vs Mirassol: 1.4, 4.2, 8.5
+2026-02-24 21:05:34,378 [INFO] [ODDS] Odds para Remo vs Internacional: 3.2, 3.25, 2.3
+2026-02-24 21:05:34,378 [INFO] coletor: [ODDS] Odds para Remo vs Internacional: 3.2, 3.25, 2.3
+2026-02-24 21:05:34,378 [INFO] [ODDS] Odds para Bragantino vs Athletico PR: 1.66, 3.4, 4.5
+2026-02-24 21:05:34,378 [INFO] coletor: [ODDS] Odds para Bragantino vs Athletico PR: 1.66, 3.4, 4.5
+2026-02-24 21:05:34,378 [INFO] [ODDS] Odds para Coritiba vs São Paulo: 3.1, 3.1, 2.45
+2026-02-24 21:05:34,378 [INFO] coletor: [ODDS] Odds para Coritiba vs São Paulo: 3.1, 3.1, 2.45
+2026-02-24 21:05:34,379 [INFO] [ODDS] Odds para Cruzeiro vs Corinthians: 1.85, 3.4, 4.5
+2026-02-24 21:05:34,379 [INFO] coletor: [ODDS] Odds para Cruzeiro vs Corinthians: 1.85, 3.4, 4.5
+2026-02-24 21:05:34,380 [INFO] [ODDS] Odds para Palmeiras vs Fluminense: 1.85, 3.6, 4.1
+2026-02-24 21:05:34,380 [INFO] coletor: [ODDS] Odds para Palmeiras vs Fluminense: 1.85, 3.6, 4.1
+2026-02-24 21:05:34,380 [INFO] [ODDS] Odds para Grêmio vs Atlético Mineiro: 2.15, 3.4, 3.3
+2026-02-24 21:05:34,380 [INFO] coletor: [ODDS] Odds para Grêmio vs Atlético Mineiro: 2.15, 3.4, 3.3
+2026-02-24 21:05:34,381 [INFO] [ODDS] Odds para Millwall vs Birmingham: 2.45, 3.3, 2.87
+2026-02-24 21:05:34,381 [INFO] coletor: [ODDS] Odds para Millwall vs Birmingham: 2.45, 3.3, 2.87
+2026-02-24 21:05:34,381 [INFO] [ODDS] Odds para Sheffield Utd vs Coventry: 2.5, 3.4, 2.75
+2026-02-24 21:05:34,381 [INFO] coletor: [ODDS] Odds para Sheffield Utd vs Coventry: 2.5, 3.4, 2.75
+2026-02-24 21:05:34,381 [INFO] [ODDS] Odds para Norwich vs Sheffield Wed: 1.2, 6.25, 15.0
+2026-02-24 21:05:34,381 [INFO] coletor: [ODDS] Odds para Norwich vs Sheffield Wed: 1.2, 6.25, 15.0
+2026-02-24 21:05:34,382 [INFO] [ODDS] Odds para Stoke vs Oxford Utd: 1.85, 3.5, 4.33
+2026-02-24 21:05:34,382 [INFO] coletor: [ODDS] Odds para Stoke vs Oxford Utd: 1.85, 3.5, 4.33
+2026-02-24 21:05:34,382 [INFO] [ODDS] Odds para Ceuta vs Córdoba: 2.87, 3.0, 2.62
+2026-02-24 21:05:34,382 [INFO] coletor: [ODDS] Odds para Ceuta vs Córdoba: 2.87, 3.0, 2.62
+2026-02-24 21:05:34,383 [INFO] [ODDS] Odds para Winterthur vs Thun: 6.5, 5.25, 1.38
+2026-02-24 21:05:34,383 [INFO] coletor: [ODDS] Odds para Winterthur vs Thun: 6.5, 5.25, 1.38
+2026-02-24 21:05:34,383 [INFO] [ODDS] Odds para Barracas Central vs Tigre: 3.4, 2.8, 2.5
+2026-02-24 21:05:34,383 [INFO] coletor: [ODDS] Odds para Barracas Central vs Tigre: 3.4, 2.8, 2.5
+2026-02-24 21:05:34,384 [INFO] [ODDS] Odds para Gimnasia La Plata vs Rosario Central: 3.1, 2.55, 2.87
+2026-02-24 21:05:34,384 [INFO] coletor: [ODDS] Odds para Gimnasia La Plata vs Rosario Central: 3.1, 2.55, 2.87
+2026-02-24 21:05:34,384 [INFO] [ODDS] Odds para Vélez Sarsfield vs Deportivo Riestra: 1.85, 3.1, 5.25
+2026-02-24 21:05:34,384 [INFO] coletor: [ODDS] Odds para Vélez Sarsfield vs Deportivo Riestra: 1.85, 3.1, 5.25
+2026-02-24 21:05:34,384 [INFO] [ODDS] Odds para Newell's Old Boys vs Estudiantes: 3.25, 2.87, 2.55
+2026-02-24 21:05:34,384 [INFO] coletor: [ODDS] Odds para Newell's Old Boys vs Estudiantes: 3.25, 2.87, 2.55
+2026-02-24 21:05:34,385 [INFO] [ODDS] Odds para Al Feiha vs Al Suqoor: 2.55, 3.2, 2.45
+2026-02-24 21:05:34,385 [INFO] coletor: [ODDS] Odds para Al Feiha vs Al Suqoor: 2.55, 3.2, 2.45
+2026-02-24 21:05:34,385 [INFO] [ODDS] Odds para Al Najma vs Al Nassr: 13.0, 7.0, 1.14
+2026-02-24 21:05:34,385 [INFO] coletor: [ODDS] Odds para Al Najma vs Al Nassr: 13.0, 7.0, 1.14
+2026-02-24 21:05:34,386 [INFO] [ODDS] Odds para Santa Fe vs Atlético Nacional: 2.9, 3.1, 2.45
+2026-02-24 21:05:34,386 [INFO] coletor: [ODDS] Odds para Santa Fe vs Atlético Nacional: 2.9, 3.1, 2.45
+2026-02-24 21:05:34,386 [INFO] [ODDS] Odds para Petrojet vs Al Ittihad: 2.1, 2.87, 3.3
+2026-02-24 21:05:34,386 [INFO] coletor: [ODDS] Odds para Petrojet vs Al Ittihad: 2.1, 2.87, 3.3
+2026-02-24 21:05:34,386 [INFO] [ODDS] Odds para National Bank of Egypt vs Pharco: 1.55, 3.2, 6.0
+2026-02-24 21:05:34,386 [INFO] coletor: [ODDS] Odds para National Bank of Egypt vs Pharco: 1.55, 3.2, 6.0
+2026-02-24 21:05:34,387 [INFO] [ODDS] Odds para Al Masry vs Future FC: 2.0, 3.1, 3.25
+2026-02-24 21:05:34,387 [INFO] coletor: [ODDS] Odds para Al Masry vs Future FC: 2.0, 3.1, 3.25
+2026-02-24 21:05:34,387 [INFO] [ODDS] Odds para Yeovil Town vs Sutton: 2.3, 3.25, 2.75
+2026-02-24 21:05:34,387 [INFO] coletor: [ODDS] Odds para Yeovil Town vs Sutton: 2.3, 3.25, 2.75
+2026-02-24 21:05:34,388 [INFO] [ODDS] Odds para Woking vs Solihull Moors: 2.2, 3.4, 2.9
+2026-02-24 21:05:34,388 [INFO] coletor: [ODDS] Odds para Woking vs Solihull Moors: 2.2, 3.4, 2.9
+2026-02-24 21:05:34,388 [INFO] [ODDS] Odds para Eastleigh vs Truro City: 2.05, 3.25, 3.3
+2026-02-24 21:05:34,388 [INFO] coletor: [ODDS] Odds para Eastleigh vs Truro City: 2.05, 3.25, 3.3
+2026-02-24 21:05:34,388 [INFO] [ODDS] Odds para Braintree Town vs Aldershot Town: 3.8, 3.75, 1.8
+2026-02-24 21:05:34,388 [INFO] coletor: [ODDS] Odds para Braintree Town vs Aldershot Town: 3.8, 3.75, 1.8
+2026-02-24 21:05:34,389 [INFO] [ODDS] Odds para Gateshead vs Morecambe: 2.3, 3.6, 2.62
+2026-02-24 21:05:34,389 [INFO] coletor: [ODDS] Odds para Gateshead vs Morecambe: 2.3, 3.6, 2.62
+2026-02-24 21:05:34,389 [INFO] [ODDS] Odds para Hartlepool vs Carlisle: 3.1, 3.4, 2.1
+2026-02-24 21:05:34,389 [INFO] coletor: [ODDS] Odds para Hartlepool vs Carlisle: 3.1, 3.4, 2.1
+2026-02-24 21:05:34,390 [INFO] [ODDS] Odds para Sportivo Ameliano vs Cerro Porteño: 3.7, 3.0, 1.95
+2026-02-24 21:05:34,390 [INFO] coletor: [ODDS] Odds para Sportivo Ameliano vs Cerro Porteño: 3.7, 3.0, 1.95
+2026-02-24 21:05:34,390 [INFO] [ODDS] Odds para Olimpia vs Libertad: 2.15, 3.0, 3.2
+2026-02-24 21:05:34,390 [INFO] coletor: [ODDS] Odds para Olimpia vs Libertad: 2.15, 3.0, 3.2
+2026-02-24 21:05:34,391 [INFO] [ODDS] Odds para Sportivo Trinidense vs Sportivo Luqueño: 2.3, 3.1, 3.1
+2026-02-24 21:05:34,391 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs Sportivo Luqueño: 2.3, 3.1, 3.1
+2026-02-24 21:05:34,391 [INFO] [AGENDA] Válidos=33, Incompletos=0, Filtrados=107, Duplicados=0
+2026-02-24 21:05:34,391 [INFO] coletor: [AGENDA] Válidos=33, Incompletos=0, Filtrados=107, Duplicados=0
+2026-02-24 21:05:34,391 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.42s
+2026-02-24 21:05:34,397 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-02-25.csv (33 linhas).
+2026-02-24 21:05:51,572 [INFO] __main__: [TEMPO] Fase 2 concluída em 17.18s (links extraídos: 66)
+2026-02-24 21:09:16,805 [INFO] __main__: [TEMPO] Fase 3 concluída em 205.23s (jogos raspados: 62)
+2026-02-24 21:09:16,877 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (24 linhas).
+2026-02-24 21:09:17,195 [INFO] __main__: Exportado histórico para dados_redscore.csv (17150 linhas)
+2026-02-24 21:09:17,684 [INFO] __main__: --- Rotina concluída em 249.26s ---
