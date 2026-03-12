@@ -36792,3 +36792,44 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-10 21:26:47,212 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
 2026-03-10 21:26:47,496 [INFO] __main__: Exportado histórico para dados_redscore.csv (18312 linhas)
 2026-03-10 21:26:48,161 [INFO] __main__: --- Rotina concluída em 196.89s ---
+2026-03-11 21:37:09,460 [INFO] __main__: Coletor iniciado
+2026-03-11 21:37:09,462 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-11 21:37:32,999 [INFO] [ODDS] Odds para Remo vs Fluminense: 3.5, 3.7, 2.0
+2026-03-11 21:37:32,999 [INFO] coletor: [ODDS] Odds para Remo vs Fluminense: 3.5, 3.7, 2.0
+2026-03-11 21:37:33,000 [INFO] [ODDS] Odds para Vasco da Gama vs Palmeiras: 3.1, 3.4, 2.3
+2026-03-11 21:37:33,000 [INFO] coletor: [ODDS] Odds para Vasco da Gama vs Palmeiras: 3.1, 3.4, 2.3
+2026-03-11 21:37:33,000 [INFO] [ODDS] Odds para São Paulo vs Chapecoense: 1.4, 4.5, 8.5
+2026-03-11 21:37:33,000 [INFO] coletor: [ODDS] Odds para São Paulo vs Chapecoense: 1.4, 4.5, 8.5
+2026-03-11 21:37:33,001 [INFO] [ODDS] Odds para Grêmio vs Bragantino: 2.0, 3.6, 3.6
+2026-03-11 21:37:33,001 [INFO] coletor: [ODDS] Odds para Grêmio vs Bragantino: 2.0, 3.6, 3.6
+2026-03-11 21:37:33,001 [INFO] [ODDS] Odds para Deportivo Riestra vs Gimnasia Mendoza: 2.25, 2.75, 4.2
+2026-03-11 21:37:33,001 [INFO] coletor: [ODDS] Odds para Deportivo Riestra vs Gimnasia Mendoza: 2.25, 2.75, 4.2
+2026-03-11 21:37:33,001 [INFO] [ODDS] Odds para Defensa y Justicia vs Central Cordoba: 1.95, 3.1, 4.5
+2026-03-11 21:37:33,001 [INFO] coletor: [ODDS] Odds para Defensa y Justicia vs Central Cordoba: 1.95, 3.1, 4.5
+2026-03-11 21:37:33,002 [INFO] [ODDS] Odds para Estudiantes Río Cuarto vs Belgrano: 3.5, 3.0, 2.3
+2026-03-11 21:37:33,002 [INFO] coletor: [ODDS] Odds para Estudiantes Río Cuarto vs Belgrano: 3.5, 3.0, 2.3
+2026-03-11 21:37:33,002 [INFO] [ODDS] Odds para Talleres Córdoba vs Instituto: 2.2, 3.0, 3.75
+2026-03-11 21:37:33,002 [INFO] coletor: [ODDS] Odds para Talleres Córdoba vs Instituto: 2.2, 3.0, 3.75
+2026-03-11 21:37:33,003 [INFO] [ODDS] Odds para Huracán vs River Plate: 3.2, 2.9, 2.5
+2026-03-11 21:37:33,003 [INFO] coletor: [ODDS] Odds para Huracán vs River Plate: 3.2, 2.9, 2.5
+2026-03-11 21:37:33,003 [INFO] [ODDS] Odds para Al Hazm vs Al Kholood: 2.55, 3.25, 2.45
+2026-03-11 21:37:33,003 [INFO] coletor: [ODDS] Odds para Al Hazm vs Al Kholood: 2.55, 3.25, 2.45
+2026-03-11 21:37:33,004 [INFO] [ODDS] Odds para Al Najma vs Damac: 2.87, 3.1, 2.25
+2026-03-11 21:37:33,004 [INFO] coletor: [ODDS] Odds para Al Najma vs Damac: 2.87, 3.1, 2.25
+2026-03-11 21:37:33,004 [INFO] [ODDS] Odds para Al Suqoor vs Al Taawoun: 2.2, 3.2, 2.87
+2026-03-11 21:37:33,004 [INFO] coletor: [ODDS] Odds para Al Suqoor vs Al Taawoun: 2.2, 3.2, 2.87
+2026-03-11 21:37:33,004 [WARNING] [ODDS] Odds não encontradas para ES Sétif vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2026-03-11 21:37:33,004 [WARNING] coletor: [ODDS] Odds não encontradas para ES Sétif vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2026-03-11 21:37:33,005 [WARNING] [ODDS] Odds não encontradas para MB Rouisset vs USM Alger. Motivo: could not convert string to float: '-'
+2026-03-11 21:37:33,005 [WARNING] coletor: [ODDS] Odds não encontradas para MB Rouisset vs USM Alger. Motivo: could not convert string to float: '-'
+2026-03-11 21:37:33,005 [INFO] [ODDS] Odds para Francs Borains vs Lokeren-Temse: 2.5, 3.3, 2.5
+2026-03-11 21:37:33,005 [INFO] coletor: [ODDS] Odds para Francs Borains vs Lokeren-Temse: 2.5, 3.3, 2.5
+2026-03-11 21:37:33,005 [INFO] [AGENDA] Válidos=15, Incompletos=0, Filtrados=73, Duplicados=0
+2026-03-11 21:37:33,005 [INFO] coletor: [AGENDA] Válidos=15, Incompletos=0, Filtrados=73, Duplicados=0
+2026-03-11 21:37:33,006 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.80s
+2026-03-11 21:37:33,010 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-12.csv (15 linhas).
+2026-03-11 21:37:41,843 [INFO] __main__: [TEMPO] Fase 2 concluída em 8.83s (links extraídos: 30)
+2026-03-11 21:39:14,981 [INFO] __main__: [TEMPO] Fase 3 concluída em 93.14s (jogos raspados: 36)
+2026-03-11 21:39:15,082 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
+2026-03-11 21:39:15,350 [INFO] __main__: Exportado histórico para dados_redscore.csv (18323 linhas)
+2026-03-11 21:39:15,997 [INFO] __main__: --- Rotina concluída em 126.54s ---
