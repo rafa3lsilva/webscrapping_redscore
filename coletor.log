@@ -37894,3 +37894,108 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-14 21:47:09,517 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (80 linhas).
 2026-03-14 21:47:09,663 [INFO] __main__: Exportado histórico para dados_redscore.csv (18790 linhas)
 2026-03-14 21:47:10,132 [INFO] __main__: --- Rotina concluída em 1317.46s ---
+2026-03-15 21:07:05,922 [INFO] __main__: Coletor iniciado
+2026-03-15 21:07:05,924 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-15 21:07:32,373 [INFO] [ODDS] Odds para Brentford vs Wolves: 1.57, 4.33, 5.25
+2026-03-15 21:07:32,373 [INFO] coletor: [ODDS] Odds para Brentford vs Wolves: 1.57, 4.33, 5.25
+2026-03-15 21:07:32,373 [INFO] [ODDS] Odds para Rayo Vallecano vs Levante: 1.7, 3.75, 5.0
+2026-03-15 21:07:32,373 [INFO] coletor: [ODDS] Odds para Rayo Vallecano vs Levante: 1.7, 3.75, 5.0
+2026-03-15 21:07:32,374 [INFO] [ODDS] Odds para Cremonese vs Fiorentina: 3.9, 3.6, 1.9
+2026-03-15 21:07:32,374 [INFO] coletor: [ODDS] Odds para Cremonese vs Fiorentina: 3.9, 3.6, 1.9
+2026-03-15 21:07:32,374 [INFO] [ODDS] Odds para Chapecoense vs Grêmio: 2.87, 3.2, 2.55
+2026-03-15 21:07:32,374 [INFO] coletor: [ODDS] Odds para Chapecoense vs Grêmio: 2.87, 3.2, 2.55
+2026-03-15 21:07:32,374 [INFO] [ODDS] Odds para Portsmouth vs Derby: 2.2, 3.2, 3.5
+2026-03-15 21:07:32,374 [INFO] coletor: [ODDS] Odds para Portsmouth vs Derby: 2.2, 3.2, 3.5
+2026-03-15 21:07:32,375 [INFO] [ODDS] Odds para Albacete vs Las Palmas: 3.0, 3.1, 2.55
+2026-03-15 21:07:32,375 [INFO] coletor: [ODDS] Odds para Albacete vs Las Palmas: 3.0, 3.1, 2.55
+2026-03-15 21:07:32,375 [INFO] [ODDS] Odds para Annecy vs Troyes: 2.7, 3.1, 2.4
+2026-03-15 21:07:32,375 [INFO] coletor: [ODDS] Odds para Annecy vs Troyes: 2.7, 3.1, 2.4
+2026-03-15 21:07:32,376 [INFO] [ODDS] Odds para Den Bosch vs Jong PSV: 1.8, 4.2, 3.7
+2026-03-15 21:07:32,376 [INFO] coletor: [ODDS] Odds para Den Bosch vs Jong PSV: 1.8, 4.2, 3.7
+2026-03-15 21:07:32,376 [INFO] [ODDS] Odds para Helmond vs Cambuur: 4.1, 4.0, 1.75
+2026-03-15 21:07:32,376 [INFO] coletor: [ODDS] Odds para Helmond vs Cambuur: 4.1, 4.0, 1.75
+2026-03-15 21:07:32,377 [INFO] [ODDS] Odds para Jong AZ vs Maastricht: 1.57, 4.33, 5.0
+2026-03-15 21:07:32,377 [INFO] coletor: [ODDS] Odds para Jong AZ vs Maastricht: 1.57, 4.33, 5.0
+2026-03-15 21:07:32,378 [INFO] [ODDS] Odds para Roda Kerkrade vs Vitesse: 1.9, 3.75, 3.6
+2026-03-15 21:07:32,378 [INFO] coletor: [ODDS] Odds para Roda Kerkrade vs Vitesse: 1.9, 3.75, 3.6
+2026-03-15 21:07:32,379 [INFO] [ODDS] Odds para Silkeborg vs Vejle: 2.15, 3.5, 3.1
+2026-03-15 21:07:32,379 [INFO] coletor: [ODDS] Odds para Silkeborg vs Vejle: 2.15, 3.5, 3.1
+2026-03-15 21:07:32,380 [INFO] [ODDS] Odds para Barracas Central vs Atlético Tucumán: 2.8, 2.9, 2.8
+2026-03-15 21:07:32,380 [INFO] coletor: [ODDS] Odds para Barracas Central vs Atlético Tucumán: 2.8, 2.9, 2.8
+2026-03-15 21:07:32,381 [INFO] [ODDS] Odds para Aldosivi vs Huracán: 3.1, 2.87, 2.55
+2026-03-15 21:07:32,381 [INFO] coletor: [ODDS] Odds para Aldosivi vs Huracán: 3.1, 2.87, 2.55
+2026-03-15 21:07:32,382 [INFO] [ODDS] Odds para San Lorenzo vs Defensa y Justicia: 2.2, 2.8, 4.0
+2026-03-15 21:07:32,382 [INFO] coletor: [ODDS] Odds para San Lorenzo vs Defensa y Justicia: 2.2, 2.8, 4.0
+2026-03-15 21:07:32,383 [INFO] [ODDS] Odds para Racing Club vs Estudiantes Río Cuarto: 1.42, 4.1, 9.0
+2026-03-15 21:07:32,383 [INFO] coletor: [ODDS] Odds para Racing Club vs Estudiantes Río Cuarto: 1.42, 4.1, 9.0
+2026-03-15 21:07:32,384 [WARNING] [ODDS] Odds não encontradas para Instituto vs Independiente. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,384 [WARNING] coletor: [ODDS] Odds não encontradas para Instituto vs Independiente. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,385 [INFO] [ODDS] Odds para Atlanta vs Deportivo Maipú: 2.0, 2.8, 5.0
+2026-03-15 21:07:32,385 [INFO] coletor: [ODDS] Odds para Atlanta vs Deportivo Maipú: 2.0, 2.8, 5.0
+2026-03-15 21:07:32,386 [INFO] [ODDS] Odds para Ararat-Armenia vs Van: 1.33, 4.75, 7.0
+2026-03-15 21:07:32,386 [INFO] coletor: [ODDS] Odds para Ararat-Armenia vs Van: 1.33, 4.75, 7.0
+2026-03-15 21:07:32,387 [WARNING] [ODDS] Odds não encontradas para Shirak vs Noah. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,387 [WARNING] coletor: [ODDS] Odds não encontradas para Shirak vs Noah. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,388 [INFO] [ODDS] Odds para Unión La Calera vs O'Higgins: 2.62, 3.1, 2.62
+2026-03-15 21:07:32,388 [INFO] coletor: [ODDS] Odds para Unión La Calera vs O'Higgins: 2.62, 3.1, 2.62
+2026-03-15 21:07:32,389 [INFO] [ODDS] Odds para Colo-Colo vs Huachipato: 1.6, 3.7, 5.5
+2026-03-15 21:07:32,389 [INFO] coletor: [ODDS] Odds para Colo-Colo vs Huachipato: 1.6, 3.7, 5.5
+2026-03-15 21:07:32,390 [INFO] [ODDS] Odds para Ferencváros vs Puskás: 1.4, 4.2, 7.5
+2026-03-15 21:07:32,390 [INFO] coletor: [ODDS] Odds para Ferencváros vs Puskás: 1.4, 4.2, 7.5
+2026-03-15 21:07:32,391 [INFO] [ODDS] Odds para St Patrick's vs Derry City: 2.05, 3.1, 3.4
+2026-03-15 21:07:32,391 [INFO] coletor: [ODDS] Odds para St Patrick's vs Derry City: 2.05, 3.1, 3.4
+2026-03-15 21:07:32,392 [INFO] [ODDS] Odds para Dundalk vs Sligo Rovers: 1.57, 3.75, 5.25
+2026-03-15 21:07:32,392 [INFO] coletor: [ODDS] Odds para Dundalk vs Sligo Rovers: 1.57, 3.75, 5.25
+2026-03-15 21:07:32,393 [INFO] [ODDS] Odds para Shelbourne vs Bohemians: 2.5, 2.8, 2.9
+2026-03-15 21:07:32,393 [INFO] coletor: [ODDS] Odds para Shelbourne vs Bohemians: 2.5, 2.8, 2.9
+2026-03-15 21:07:32,394 [INFO] [ODDS] Odds para Drogheda United vs Shamrock Rovers: 4.0, 3.25, 1.85
+2026-03-15 21:07:32,394 [INFO] coletor: [ODDS] Odds para Drogheda United vs Shamrock Rovers: 4.0, 3.25, 1.85
+2026-03-15 21:07:32,395 [INFO] [ODDS] Odds para Galway United vs Waterford United: 1.8, 3.5, 4.1
+2026-03-15 21:07:32,395 [INFO] coletor: [ODDS] Odds para Galway United vs Waterford United: 1.8, 3.5, 4.1
+2026-03-15 21:07:32,396 [INFO] [ODDS] Odds para Žalgiris vs TransINVEST Vilnius: 1.57, 3.8, 5.0
+2026-03-15 21:07:32,396 [INFO] coletor: [ODDS] Odds para Žalgiris vs TransINVEST Vilnius: 1.57, 3.8, 5.0
+2026-03-15 21:07:32,397 [INFO] [ODDS] Odds para Cardiff MU vs Briton Ferry: 2.15, 3.3, 2.9
+2026-03-15 21:07:32,397 [INFO] coletor: [ODDS] Odds para Cardiff MU vs Briton Ferry: 2.15, 3.3, 2.9
+2026-03-15 21:07:32,399 [INFO] [ODDS] Odds para Pogoń Szczecin vs Korona Kielce: 1.95, 3.4, 3.4
+2026-03-15 21:07:32,399 [INFO] coletor: [ODDS] Odds para Pogoń Szczecin vs Korona Kielce: 1.95, 3.4, 3.4
+2026-03-15 21:07:32,400 [INFO] [ODDS] Odds para Porto II vs UD Oliveirense: 1.9, 3.3, 3.75
+2026-03-15 21:07:32,400 [INFO] coletor: [ODDS] Odds para Porto II vs UD Oliveirense: 1.9, 3.3, 3.75
+2026-03-15 21:07:32,401 [INFO] [ODDS] Odds para Torreense vs Portimonense: 1.75, 3.3, 4.5
+2026-03-15 21:07:32,401 [INFO] coletor: [ODDS] Odds para Torreense vs Portimonense: 1.75, 3.3, 4.5
+2026-03-15 21:07:32,402 [INFO] [ODDS] Odds para Botoşani vs Unirea Slobozia: 1.53, 3.5, 5.5
+2026-03-15 21:07:32,402 [INFO] coletor: [ODDS] Odds para Botoşani vs Unirea Slobozia: 1.53, 3.5, 5.5
+2026-03-15 21:07:32,403 [INFO] [ODDS] Odds para Universitatea Cluj vs CFR Cluj: 2.3, 3.0, 2.8
+2026-03-15 21:07:32,403 [INFO] coletor: [ODDS] Odds para Universitatea Cluj vs CFR Cluj: 2.3, 3.0, 2.8
+2026-03-15 21:07:32,404 [INFO] [ODDS] Odds para Napredak vs OFK Beograd: 3.8, 3.5, 1.9
+2026-03-15 21:07:32,404 [INFO] coletor: [ODDS] Odds para Napredak vs OFK Beograd: 3.8, 3.5, 1.9
+2026-03-15 21:07:32,405 [INFO] [ODDS] Odds para Danubio vs Juventud: 2.05, 3.0, 3.4
+2026-03-15 21:07:32,405 [INFO] coletor: [ODDS] Odds para Danubio vs Juventud: 2.05, 3.0, 3.4
+2026-03-15 21:07:32,406 [INFO] [ODDS] Odds para Liverpool vs Torque: 2.2, 3.3, 2.9
+2026-03-15 21:07:32,406 [INFO] coletor: [ODDS] Odds para Liverpool vs Torque: 2.2, 3.3, 2.9
+2026-03-15 21:07:32,407 [WARNING] [ODDS] Odds não encontradas para Metropolitanos vs Monagas. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,407 [WARNING] coletor: [ODDS] Odds não encontradas para Metropolitanos vs Monagas. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,408 [WARNING] [ODDS] Odds não encontradas para Rayo Zuliano vs Deportivo Táchira. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,408 [WARNING] coletor: [ODDS] Odds não encontradas para Rayo Zuliano vs Deportivo Táchira. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,410 [WARNING] [ODDS] Odds não encontradas para Academia Puerto Cabello vs UCV. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,410 [WARNING] coletor: [ODDS] Odds não encontradas para Academia Puerto Cabello vs UCV. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,411 [WARNING] [ODDS] Odds não encontradas para Zamora Fútbol Club vs Portuguesa. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,411 [WARNING] coletor: [ODDS] Odds não encontradas para Zamora Fútbol Club vs Portuguesa. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,412 [WARNING] [ODDS] Odds não encontradas para Academia Anzoátegui vs Deportivo La Guaira. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,412 [WARNING] coletor: [ODDS] Odds não encontradas para Academia Anzoátegui vs Deportivo La Guaira. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,413 [WARNING] [ODDS] Odds não encontradas para Caracas vs Trujillanos. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,413 [WARNING] coletor: [ODDS] Odds não encontradas para Caracas vs Trujillanos. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,415 [WARNING] [ODDS] Odds não encontradas para Estudiantes Mérida vs Carabobo. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,415 [WARNING] coletor: [ODDS] Odds não encontradas para Estudiantes Mérida vs Carabobo. Motivo: could not convert string to float: '-'
+2026-03-15 21:07:32,416 [INFO] [ODDS] Odds para Arda vs Dobrudzha 1919: 1.72, 3.5, 5.25
+2026-03-15 21:07:32,416 [INFO] coletor: [ODDS] Odds para Arda vs Dobrudzha 1919: 1.72, 3.5, 5.25
+2026-03-15 21:07:32,417 [INFO] [AGENDA] Válidos=46, Incompletos=0, Filtrados=64, Duplicados=0
+2026-03-15 21:07:32,417 [INFO] coletor: [AGENDA] Válidos=46, Incompletos=0, Filtrados=64, Duplicados=0
+2026-03-15 21:07:32,417 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.92s
+2026-03-15 21:07:32,427 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-16.csv (46 linhas).
+2026-03-15 21:08:22,809 [INFO] __main__: [TEMPO] Fase 2 concluída em 50.38s (links extraídos: 92)
+2026-03-15 21:12:57,626 [INFO] __main__: [TEMPO] Fase 3 concluída em 274.82s (jogos raspados: 113)
+2026-03-15 21:12:57,710 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (23 linhas).
+2026-03-15 21:12:57,970 [INFO] __main__: Exportado histórico para dados_redscore.csv (18813 linhas)
+2026-03-15 21:12:57,972 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.8 MB).
+2026-03-15 21:12:58,013 [INFO] __main__: [DB] VACUUM concluído.
+2026-03-15 21:12:58,734 [INFO] __main__: --- Rotina concluída em 352.81s ---
