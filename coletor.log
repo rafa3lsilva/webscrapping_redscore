@@ -38241,3 +38241,44 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-17 20:43:23,625 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (36 linhas).
 2026-03-17 20:43:23,791 [INFO] __main__: Exportado histórico para dados_redscore.csv (18930 linhas)
 2026-03-17 20:43:24,154 [INFO] __main__: --- Rotina concluída em 275.65s ---
+2026-03-18 21:19:27,513 [INFO] __main__: Coletor iniciado
+2026-03-18 21:19:27,514 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-18 21:19:52,824 [INFO] [ODDS] Odds para Kayserispor vs Karagümrük: 1.95, 3.5, 3.7
+2026-03-18 21:19:52,824 [INFO] coletor: [ODDS] Odds para Kayserispor vs Karagümrük: 1.95, 3.5, 3.7
+2026-03-18 21:19:52,825 [INFO] [ODDS] Odds para Konyaspor vs Gençlerbirliği: 1.8, 3.5, 4.5
+2026-03-18 21:19:52,825 [INFO] coletor: [ODDS] Odds para Konyaspor vs Gençlerbirliği: 1.8, 3.5, 4.5
+2026-03-18 21:19:52,825 [INFO] [ODDS] Odds para Beşiktaş vs Kasımpaşa: 1.36, 4.75, 8.5
+2026-03-18 21:19:52,825 [INFO] coletor: [ODDS] Odds para Beşiktaş vs Kasımpaşa: 1.36, 4.75, 8.5
+2026-03-18 21:19:52,825 [INFO] [ODDS] Odds para Grêmio vs Vitória: 1.83, 3.4, 4.33
+2026-03-18 21:19:52,825 [INFO] coletor: [ODDS] Odds para Grêmio vs Vitória: 1.83, 3.4, 4.33
+2026-03-18 21:19:52,826 [INFO] [ODDS] Odds para Flamengo vs Remo: 1.18, 7.0, 15.0
+2026-03-18 21:19:52,826 [INFO] coletor: [ODDS] Odds para Flamengo vs Remo: 1.18, 7.0, 15.0
+2026-03-18 21:19:52,826 [INFO] [ODDS] Odds para Chapecoense vs Corinthians: 3.5, 3.1, 2.25
+2026-03-18 21:19:52,826 [INFO] coletor: [ODDS] Odds para Chapecoense vs Corinthians: 3.5, 3.1, 2.25
+2026-03-18 21:19:52,827 [INFO] [ODDS] Odds para Alianza Petrolera vs Jaguares de Córdoba: 1.85, 3.6, 4.1
+2026-03-18 21:19:52,827 [INFO] coletor: [ODDS] Odds para Alianza Petrolera vs Jaguares de Córdoba: 1.85, 3.6, 4.1
+2026-03-18 21:19:52,828 [INFO] [ODDS] Odds para Deportes Tolima vs Fortaleza CEIF: 1.7, 3.6, 5.25
+2026-03-18 21:19:52,828 [INFO] coletor: [ODDS] Odds para Deportes Tolima vs Fortaleza CEIF: 1.7, 3.6, 5.25
+2026-03-18 21:19:52,828 [INFO] [ODDS] Odds para Independiente Medellín vs Junior FC: 2.0, 3.5, 3.6
+2026-03-18 21:19:52,828 [INFO] coletor: [ODDS] Odds para Independiente Medellín vs Junior FC: 2.0, 3.5, 3.6
+2026-03-18 21:19:52,828 [INFO] [ODDS] Odds para Aucas vs Técnico Universitario: 1.75, 3.4, 4.5
+2026-03-18 21:19:52,828 [INFO] coletor: [ODDS] Odds para Aucas vs Técnico Universitario: 1.75, 3.4, 4.5
+2026-03-18 21:19:52,829 [INFO] [ODDS] Odds para Orense vs Mushuc Runa: 1.9, 3.3, 4.0
+2026-03-18 21:19:52,829 [INFO] coletor: [ODDS] Odds para Orense vs Mushuc Runa: 1.9, 3.3, 4.0
+2026-03-18 21:19:52,829 [INFO] [ODDS] Odds para Emelec vs Independiente del Valle: 3.75, 3.2, 2.0
+2026-03-18 21:19:52,829 [INFO] coletor: [ODDS] Odds para Emelec vs Independiente del Valle: 3.75, 3.2, 2.0
+2026-03-18 21:19:52,830 [INFO] [ODDS] Odds para Sportivo Trinidense vs Sportivo Ameliano: 2.55, 2.9, 2.6
+2026-03-18 21:19:52,830 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs Sportivo Ameliano: 2.55, 2.9, 2.6
+2026-03-18 21:19:52,830 [INFO] [ODDS] Odds para Dinamo Bucureşti vs Universitatea Craiova: 2.62, 3.0, 2.5
+2026-03-18 21:19:52,830 [INFO] coletor: [ODDS] Odds para Dinamo Bucureşti vs Universitatea Craiova: 2.62, 3.0, 2.5
+2026-03-18 21:19:52,830 [INFO] [ODDS] Odds para Spartak Varna vs Ludogorets: 11.0, 6.0, 1.22
+2026-03-18 21:19:52,830 [INFO] coletor: [ODDS] Odds para Spartak Varna vs Ludogorets: 11.0, 6.0, 1.22
+2026-03-18 21:19:52,831 [INFO] [AGENDA] Válidos=15, Incompletos=0, Filtrados=70, Duplicados=0
+2026-03-18 21:19:52,831 [INFO] coletor: [AGENDA] Válidos=15, Incompletos=0, Filtrados=70, Duplicados=0
+2026-03-18 21:19:52,831 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.24s
+2026-03-18 21:19:52,836 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-19.csv (15 linhas).
+2026-03-18 21:20:03,489 [INFO] __main__: [TEMPO] Fase 2 concluída em 10.65s (links extraídos: 30)
+2026-03-18 21:21:38,219 [INFO] __main__: [TEMPO] Fase 3 concluída em 94.73s (jogos raspados: 38)
+2026-03-18 21:21:38,320 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (11 linhas).
+2026-03-18 21:21:38,640 [INFO] __main__: Exportado histórico para dados_redscore.csv (18941 linhas)
+2026-03-18 21:21:39,219 [INFO] __main__: --- Rotina concluída em 131.71s ---
