@@ -39317,3 +39317,44 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-21 22:05:25,793 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (80 linhas).
 2026-03-21 22:05:26,084 [INFO] __main__: Exportado histórico para dados_redscore.csv (19412 linhas)
 2026-03-21 22:05:26,795 [INFO] __main__: --- Rotina concluída em 1333.48s ---
+2026-03-22 21:16:08,208 [INFO] __main__: Coletor iniciado
+2026-03-22 21:16:08,209 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-22 21:16:31,758 [INFO] [ODDS] Odds para Castellón vs Cultural Leonesa: 1.4, 4.5, 8.0
+2026-03-22 21:16:31,758 [INFO] coletor: [ODDS] Odds para Castellón vs Cultural Leonesa: 1.4, 4.5, 8.0
+2026-03-22 21:16:31,759 [INFO] [ODDS] Odds para Estudiantes vs Central Cordoba: 1.53, 3.7, 7.5
+2026-03-22 21:16:31,759 [INFO] coletor: [ODDS] Odds para Estudiantes vs Central Cordoba: 1.53, 3.7, 7.5
+2026-03-22 21:16:31,760 [INFO] [ODDS] Odds para Huracán vs Barracas Central: 1.75, 3.0, 6.25
+2026-03-22 21:16:31,760 [INFO] coletor: [ODDS] Odds para Huracán vs Barracas Central: 1.75, 3.0, 6.25
+2026-03-22 21:16:31,760 [INFO] [ODDS] Odds para Nueva Chicago vs Gimnasia y Tiro: 3.6, 2.7, 2.4
+2026-03-22 21:16:31,760 [INFO] coletor: [ODDS] Odds para Nueva Chicago vs Gimnasia y Tiro: 3.6, 2.7, 2.4
+2026-03-22 21:16:31,761 [INFO] [ODDS] Odds para Boyacá Chicó vs Deportes Tolima: 4.5, 3.5, 1.8
+2026-03-22 21:16:31,761 [INFO] coletor: [ODDS] Odds para Boyacá Chicó vs Deportes Tolima: 4.5, 3.5, 1.8
+2026-03-22 21:16:31,761 [INFO] [ODDS] Odds para Santa Fe vs Independiente Medellín: 2.25, 3.2, 3.3
+2026-03-22 21:16:31,761 [INFO] coletor: [ODDS] Odds para Santa Fe vs Independiente Medellín: 2.25, 3.2, 3.3
+2026-03-22 21:16:31,762 [INFO] [ODDS] Odds para Jaguares de Córdoba vs Rionegro Águilas: 3.0, 3.0, 2.55
+2026-03-22 21:16:31,762 [INFO] coletor: [ODDS] Odds para Jaguares de Córdoba vs Rionegro Águilas: 3.0, 3.0, 2.55
+2026-03-22 21:16:31,762 [INFO] [ODDS] Odds para Guayaquil City vs Leones del Norte: 2.1, 3.1, 3.5
+2026-03-22 21:16:31,762 [INFO] coletor: [ODDS] Odds para Guayaquil City vs Leones del Norte: 2.1, 3.1, 3.5
+2026-03-22 21:16:31,763 [INFO] [ODDS] Odds para Aucas vs Orense: 1.6, 3.6, 5.25
+2026-03-22 21:16:31,763 [INFO] coletor: [ODDS] Odds para Aucas vs Orense: 1.6, 3.6, 5.25
+2026-03-22 21:16:31,763 [INFO] [ODDS] Odds para Sportivo Trinidense vs Deportivo Recoleta: 2.05, 3.0, 3.3
+2026-03-22 21:16:31,763 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs Deportivo Recoleta: 2.05, 3.0, 3.3
+2026-03-22 21:16:31,764 [INFO] [ODDS] Odds para Rubio Ñú vs Sportivo Ameliano: 2.8, 2.9, 2.45
+2026-03-22 21:16:31,764 [INFO] coletor: [ODDS] Odds para Rubio Ñú vs Sportivo Ameliano: 2.8, 2.9, 2.45
+2026-03-22 21:16:31,764 [INFO] [ODDS] Odds para Unirea Slobozia vs Otelul: 3.4, 3.2, 2.0
+2026-03-22 21:16:31,764 [INFO] coletor: [ODDS] Odds para Unirea Slobozia vs Otelul: 3.4, 3.2, 2.0
+2026-03-22 21:16:31,765 [INFO] [ODDS] Odds para Carabobo vs Academia Puerto Cabello: 2.15, 3.1, 3.1
+2026-03-22 21:16:31,765 [INFO] coletor: [ODDS] Odds para Carabobo vs Academia Puerto Cabello: 2.15, 3.1, 3.1
+2026-03-22 21:16:31,765 [INFO] [ODDS] Odds para Metropolitanos vs Academia Anzoátegui: 1.83, 3.25, 4.1
+2026-03-22 21:16:31,765 [INFO] coletor: [ODDS] Odds para Metropolitanos vs Academia Anzoátegui: 1.83, 3.25, 4.1
+2026-03-22 21:16:31,766 [INFO] [AGENDA] Válidos=14, Incompletos=0, Filtrados=55, Duplicados=0
+2026-03-22 21:16:31,766 [INFO] coletor: [AGENDA] Válidos=14, Incompletos=0, Filtrados=55, Duplicados=0
+2026-03-22 21:16:31,766 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.28s
+2026-03-22 21:16:31,778 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-23.csv (14 linhas).
+2026-03-22 21:16:40,000 [INFO] __main__: [TEMPO] Fase 2 concluída em 8.22s (links extraídos: 28)
+2026-03-22 21:17:57,031 [INFO] __main__: [TEMPO] Fase 3 concluída em 77.03s (jogos raspados: 36)
+2026-03-22 21:17:57,091 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (6 linhas).
+2026-03-22 21:17:57,243 [INFO] __main__: Exportado histórico para dados_redscore.csv (19418 linhas)
+2026-03-22 21:17:57,245 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.8 MB).
+2026-03-22 21:17:57,271 [INFO] __main__: [DB] VACUUM concluído.
+2026-03-22 21:18:03,006 [INFO] __main__: --- Rotina concluída em 114.80s ---
