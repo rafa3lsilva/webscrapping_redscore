@@ -39407,3 +39407,42 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-23 21:29:31,965 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (27 linhas).
 2026-03-23 21:29:32,282 [INFO] __main__: Exportado histórico para dados_redscore.csv (19445 linhas)
 2026-03-23 21:29:33,737 [INFO] __main__: --- Rotina concluída em 159.24s ---
+2026-03-24 19:52:04,160 [INFO] __main__: Coletor iniciado
+2026-03-24 19:52:04,162 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-24 19:52:33,651 [INFO] [ODDS] Odds para Deportivo Riestra vs San Lorenzo: 2.55, 2.7, 3.5
+2026-03-24 19:52:33,651 [INFO] coletor: [ODDS] Odds para Deportivo Riestra vs San Lorenzo: 2.55, 2.7, 3.5
+2026-03-24 19:52:33,652 [INFO] [ODDS] Odds para CR Belouizdad vs MC Alger: 2.5, 2.8, 2.8
+2026-03-24 19:52:33,652 [INFO] coletor: [ODDS] Odds para CR Belouizdad vs MC Alger: 2.5, 2.8, 2.8
+2026-03-24 19:52:33,653 [INFO] [ODDS] Odds para USM Alger vs JS Kabylie: 1.83, 3.0, 4.2
+2026-03-24 19:52:33,653 [INFO] coletor: [ODDS] Odds para USM Alger vs JS Kabylie: 1.83, 3.0, 4.2
+2026-03-24 19:52:33,654 [INFO] [ODDS] Odds para América de Cali vs Llaneros: 1.57, 3.6, 6.5
+2026-03-24 19:52:33,654 [INFO] coletor: [ODDS] Odds para América de Cali vs Llaneros: 1.57, 3.6, 6.5
+2026-03-24 19:52:33,655 [INFO] [ODDS] Odds para Morecambe vs Hartlepool: 2.9, 3.5, 2.15
+2026-03-24 19:52:33,655 [INFO] coletor: [ODDS] Odds para Morecambe vs Hartlepool: 2.9, 3.5, 2.15
+2026-03-24 19:52:33,655 [INFO] [ODDS] Odds para Tamworth vs Forest Green: 3.5, 3.6, 1.9
+2026-03-24 19:52:33,655 [INFO] coletor: [ODDS] Odds para Tamworth vs Forest Green: 3.5, 3.6, 1.9
+2026-03-24 19:52:33,656 [INFO] [ODDS] Odds para Wealdstone vs Yeovil Town: 1.83, 3.3, 4.0
+2026-03-24 19:52:33,656 [INFO] coletor: [ODDS] Odds para Wealdstone vs Yeovil Town: 1.83, 3.3, 4.0
+2026-03-24 19:52:33,656 [INFO] [ODDS] Odds para Truro City vs Solihull Moors: 2.7, 3.2, 2.4
+2026-03-24 19:52:33,656 [INFO] coletor: [ODDS] Odds para Truro City vs Solihull Moors: 2.7, 3.2, 2.4
+2026-03-24 19:52:33,657 [INFO] [ODDS] Odds para Scunthorpe vs Rochdale: 3.25, 3.4, 2.05
+2026-03-24 19:52:33,657 [INFO] coletor: [ODDS] Odds para Scunthorpe vs Rochdale: 3.25, 3.4, 2.05
+2026-03-24 19:52:33,657 [INFO] [ODDS] Odds para Southend United vs Woking: 1.6, 3.7, 5.0
+2026-03-24 19:52:33,657 [INFO] coletor: [ODDS] Odds para Southend United vs Woking: 1.6, 3.7, 5.0
+2026-03-24 19:52:33,657 [INFO] [ODDS] Odds para Guaraní vs 2 de Mayo: 1.83, 3.25, 4.2
+2026-03-24 19:52:33,657 [INFO] coletor: [ODDS] Odds para Guaraní vs 2 de Mayo: 1.83, 3.25, 4.2
+2026-03-24 19:52:33,658 [INFO] [ODDS] Odds para Albion vs Wanderers: 2.37, 2.8, 2.9
+2026-03-24 19:52:33,658 [INFO] coletor: [ODDS] Odds para Albion vs Wanderers: 2.37, 2.8, 2.9
+2026-03-24 19:52:33,658 [INFO] [ODDS] Odds para Cerro vs Juventud: 2.8, 2.87, 2.45
+2026-03-24 19:52:33,658 [INFO] coletor: [ODDS] Odds para Cerro vs Juventud: 2.8, 2.87, 2.45
+2026-03-24 19:52:33,659 [INFO] [ODDS] Odds para Boston River vs Peñarol: 6.0, 3.4, 1.53
+2026-03-24 19:52:33,659 [INFO] coletor: [ODDS] Odds para Boston River vs Peñarol: 6.0, 3.4, 1.53
+2026-03-24 19:52:33,660 [INFO] [AGENDA] Válidos=14, Incompletos=0, Filtrados=119, Duplicados=0
+2026-03-24 19:52:33,660 [INFO] coletor: [AGENDA] Válidos=14, Incompletos=0, Filtrados=119, Duplicados=0
+2026-03-24 19:52:33,660 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.87s
+2026-03-24 19:52:33,668 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-25.csv (14 linhas).
+2026-03-24 19:52:41,964 [INFO] __main__: [TEMPO] Fase 2 concluída em 8.30s (links extraídos: 28)
+2026-03-24 19:54:09,025 [INFO] __main__: [TEMPO] Fase 3 concluída em 87.06s (jogos raspados: 37)
+2026-03-24 19:54:09,098 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (13 linhas).
+2026-03-24 19:54:09,367 [INFO] __main__: Exportado histórico para dados_redscore.csv (19458 linhas)
+2026-03-24 19:54:10,549 [INFO] __main__: --- Rotina concluída em 126.39s ---
