@@ -39446,3 +39446,40 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-24 19:54:09,098 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (13 linhas).
 2026-03-24 19:54:09,367 [INFO] __main__: Exportado histórico para dados_redscore.csv (19458 linhas)
 2026-03-24 19:54:10,549 [INFO] __main__: --- Rotina concluída em 126.39s ---
+2026-03-25 21:08:40,063 [INFO] __main__: Coletor iniciado
+2026-03-25 21:08:40,064 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-25 21:09:06,090 [INFO] [ODDS] Odds para Argentinos Juniors vs Lanús: 1.9, 3.2, 4.75
+2026-03-25 21:09:06,090 [INFO] coletor: [ODDS] Odds para Argentinos Juniors vs Lanús: 1.9, 3.2, 4.75
+2026-03-25 21:09:06,091 [INFO] [ODDS] Odds para Deportivo Recoleta vs Rubio Ñú: 2.35, 3.2, 2.8
+2026-03-25 21:09:06,091 [INFO] coletor: [ODDS] Odds para Deportivo Recoleta vs Rubio Ñú: 2.35, 3.2, 2.8
+2026-03-25 21:09:06,091 [INFO] [ODDS] Odds para Racing vs Progreso: 1.66, 3.25, 5.5
+2026-03-25 21:09:06,091 [INFO] coletor: [ODDS] Odds para Racing vs Progreso: 1.66, 3.25, 5.5
+2026-03-25 21:09:06,091 [INFO] [ODDS] Odds para Danubio vs Defensor Sporting: 2.45, 2.9, 2.75
+2026-03-25 21:09:06,091 [INFO] coletor: [ODDS] Odds para Danubio vs Defensor Sporting: 2.45, 2.9, 2.75
+2026-03-25 21:09:06,092 [INFO] [AGENDA] Válidos=4, Incompletos=0, Filtrados=55, Duplicados=0
+2026-03-25 21:09:06,092 [INFO] coletor: [AGENDA] Válidos=4, Incompletos=0, Filtrados=55, Duplicados=0
+2026-03-25 21:09:06,093 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.97s
+2026-03-25 21:09:06,104 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-26.csv (4 linhas).
+2026-03-25 21:09:48,173 [INFO] __main__: [TEMPO] Fase 2 concluída em 42.07s (links extraídos: 8)
+2026-03-25 21:10:12,022 [INFO] __main__: [TEMPO] Fase 3 concluída em 23.85s (jogos raspados: 7)
+2026-03-25 21:10:12,095 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (4 linhas).
+2026-03-25 21:10:12,355 [INFO] __main__: Exportado histórico para dados_redscore.csv (19462 linhas)
+2026-03-25 21:10:13,446 [INFO] __main__: --- Rotina concluída em 93.38s ---
+2026-03-25 21:14:36,215 [INFO] __main__: Coletor iniciado
+2026-03-25 21:14:36,216 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-25 21:14:57,917 [INFO] [ODDS] Odds para Argentinos Juniors vs Lanús: 1.9, 3.2, 4.75
+2026-03-25 21:14:57,917 [INFO] coletor: [ODDS] Odds para Argentinos Juniors vs Lanús: 1.9, 3.2, 4.75
+2026-03-25 21:14:57,918 [INFO] [ODDS] Odds para Deportivo Recoleta vs Rubio Ñú: 2.35, 3.2, 2.8
+2026-03-25 21:14:57,918 [INFO] coletor: [ODDS] Odds para Deportivo Recoleta vs Rubio Ñú: 2.35, 3.2, 2.8
+2026-03-25 21:14:57,918 [INFO] [ODDS] Odds para Racing vs Progreso: 1.66, 3.25, 5.5
+2026-03-25 21:14:57,918 [INFO] coletor: [ODDS] Odds para Racing vs Progreso: 1.66, 3.25, 5.5
+2026-03-25 21:14:57,918 [INFO] [ODDS] Odds para Danubio vs Defensor Sporting: 2.45, 2.9, 2.75
+2026-03-25 21:14:57,918 [INFO] coletor: [ODDS] Odds para Danubio vs Defensor Sporting: 2.45, 2.9, 2.75
+2026-03-25 21:14:57,919 [INFO] [AGENDA] Válidos=4, Incompletos=0, Filtrados=55, Duplicados=0
+2026-03-25 21:14:57,919 [INFO] coletor: [AGENDA] Válidos=4, Incompletos=0, Filtrados=55, Duplicados=0
+2026-03-25 21:14:57,919 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.76s
+2026-03-25 21:14:57,924 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-26.csv (4 linhas).
+2026-03-25 21:14:59,614 [INFO] __main__: [TEMPO] Fase 2 concluída em 1.69s (links extraídos: 8)
+2026-03-25 21:15:21,134 [INFO] __main__: [TEMPO] Fase 3 concluída em 21.52s (jogos raspados: 3)
+2026-03-25 21:15:21,356 [INFO] __main__: Exportado histórico para dados_redscore.csv (19462 linhas)
+2026-03-25 21:15:22,294 [INFO] __main__: --- Rotina concluída em 46.08s ---

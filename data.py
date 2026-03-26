@@ -11,6 +11,7 @@ import unicodedata
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from datetime import date, timedelta, datetime
 
 # ==========================
 # Logger
@@ -22,6 +23,7 @@ if not log.handlers:
     formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
     handler.setFormatter(formatter)
     log.addHandler(handler)
+dia = date.today() + timedelta(days=1)
 
 # ==========================
 # Utilitários
@@ -149,6 +151,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
                     log.warning(f"[ODDS] Odds não encontradas para {home} vs {away}. Motivo: {e}")
 
                 jogos.append({
+                    "data": dia,
                     "liga": nome_liga,
                     "hora": hora_texto,
                     "home": home,
