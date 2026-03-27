@@ -39483,3 +39483,74 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-25 21:15:21,134 [INFO] __main__: [TEMPO] Fase 3 concluída em 21.52s (jogos raspados: 3)
 2026-03-25 21:15:21,356 [INFO] __main__: Exportado histórico para dados_redscore.csv (19462 linhas)
 2026-03-25 21:15:22,294 [INFO] __main__: --- Rotina concluída em 46.08s ---
+2026-03-26 23:06:28,615 [INFO] __main__: Coletor iniciado
+2026-03-26 23:06:28,616 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-26 23:06:57,393 [INFO] [ODDS] Odds para Córdoba vs Mirandés: 1.61, 3.8, 5.0
+2026-03-26 23:06:57,393 [INFO] coletor: [ODDS] Odds para Córdoba vs Mirandés: 1.61, 3.8, 5.0
+2026-03-26 23:06:57,394 [INFO] [ODDS] Odds para Ciudad de Bolívar vs Agropecuario: 2.5, 3.0, 3.0
+2026-03-26 23:06:57,394 [INFO] coletor: [ODDS] Odds para Ciudad de Bolívar vs Agropecuario: 2.5, 3.0, 3.0
+2026-03-26 23:06:57,395 [WARNING] [ODDS] Odds não encontradas para Deportivo Morón vs San Telmo. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,395 [WARNING] coletor: [ODDS] Odds não encontradas para Deportivo Morón vs San Telmo. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,395 [WARNING] [ODDS] Odds não encontradas para Godoy Cruz vs Acassuso. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,395 [WARNING] coletor: [ODDS] Odds não encontradas para Godoy Cruz vs Acassuso. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,396 [WARNING] [ODDS] Odds não encontradas para Midland vs Temperley. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,396 [WARNING] coletor: [ODDS] Odds não encontradas para Midland vs Temperley. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,397 [WARNING] [ODDS] Odds não encontradas para Colegiales vs Almagro. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,397 [WARNING] coletor: [ODDS] Odds não encontradas para Colegiales vs Almagro. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,398 [WARNING] [ODDS] Odds não encontradas para Agropecuario vs Tristán Suárez. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,398 [WARNING] coletor: [ODDS] Odds não encontradas para Agropecuario vs Tristán Suárez. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,399 [WARNING] [ODDS] Odds não encontradas para Gimnasia Jujuy vs Patronato. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,399 [WARNING] coletor: [ODDS] Odds não encontradas para Gimnasia Jujuy vs Patronato. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,399 [WARNING] [ODDS] Odds não encontradas para Colón vs San Miguel. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,399 [WARNING] coletor: [ODDS] Odds não encontradas para Colón vs San Miguel. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,400 [WARNING] [ODDS] Odds não encontradas para Atlético Rafaela vs Club Atlético Güemes. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,400 [WARNING] coletor: [ODDS] Odds não encontradas para Atlético Rafaela vs Club Atlético Güemes. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,401 [WARNING] [ODDS] Odds não encontradas para Estudiantes Caseros vs Central Norte. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,401 [WARNING] coletor: [ODDS] Odds não encontradas para Estudiantes Caseros vs Central Norte. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,402 [WARNING] [ODDS] Odds não encontradas para Almirante Brown vs Defensores de Belgrano. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,402 [WARNING] coletor: [ODDS] Odds não encontradas para Almirante Brown vs Defensores de Belgrano. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,403 [WARNING] [ODDS] Odds não encontradas para Los Andes vs Chaco For Ever. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,403 [WARNING] coletor: [ODDS] Odds não encontradas para Los Andes vs Chaco For Ever. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,403 [WARNING] [ODDS] Odds não encontradas para Atletico Mitre vs Deportivo Madryn. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,403 [WARNING] coletor: [ODDS] Odds não encontradas para Atletico Mitre vs Deportivo Madryn. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,404 [WARNING] [ODDS] Odds não encontradas para Gimnasia y Tiro vs San Martín San Juan. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,404 [WARNING] coletor: [ODDS] Odds não encontradas para Gimnasia y Tiro vs San Martín San Juan. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,405 [WARNING] [ODDS] Odds não encontradas para San Martín Tucumán vs Chacarita Juniors. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,405 [WARNING] coletor: [ODDS] Odds não encontradas para San Martín Tucumán vs Chacarita Juniors. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,406 [WARNING] [ODDS] Odds não encontradas para Atlanta vs Nueva Chicago. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,406 [WARNING] coletor: [ODDS] Odds não encontradas para Atlanta vs Nueva Chicago. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,407 [WARNING] [ODDS] Odds não encontradas para Quilmes vs Deportivo Maipú. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,407 [WARNING] coletor: [ODDS] Odds não encontradas para Quilmes vs Deportivo Maipú. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,408 [WARNING] [ODDS] Odds não encontradas para All Boys vs Ferro Carril Oeste. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,408 [WARNING] coletor: [ODDS] Odds não encontradas para All Boys vs Ferro Carril Oeste. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,408 [WARNING] [ODDS] Odds não encontradas para Racing Córdoba vs Ciudad de Bolívar. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,408 [WARNING] coletor: [ODDS] Odds não encontradas para Racing Córdoba vs Ciudad de Bolívar. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,409 [INFO] [ODDS] Odds para Chaco For Ever vs Gimnasia Jujuy: 2.5, 2.75, 3.4
+2026-03-26 23:06:57,409 [INFO] coletor: [ODDS] Odds para Chaco For Ever vs Gimnasia Jujuy: 2.5, 2.75, 3.4
+2026-03-26 23:06:57,410 [WARNING] [ODDS] Odds não encontradas para San Martín San Juan vs Racing Córdoba. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,410 [WARNING] coletor: [ODDS] Odds não encontradas para San Martín San Juan vs Racing Córdoba. Motivo: could not convert string to float: '-'
+2026-03-26 23:06:57,411 [INFO] [ODDS] Odds para Rionegro Águilas vs Alianza Petrolera: 2.1, 3.0, 3.9
+2026-03-26 23:06:57,411 [INFO] coletor: [ODDS] Odds para Rionegro Águilas vs Alianza Petrolera: 2.1, 3.0, 3.9
+2026-03-26 23:06:57,412 [INFO] [ODDS] Odds para Atlético Bucaramanga vs Santa Fe: 1.95, 3.3, 4.2
+2026-03-26 23:06:57,412 [INFO] coletor: [ODDS] Odds para Atlético Bucaramanga vs Santa Fe: 1.95, 3.3, 4.2
+2026-03-26 23:06:57,413 [INFO] [ODDS] Odds para Partick Thistle vs Ross County: 1.66, 3.3, 4.5
+2026-03-26 23:06:57,413 [INFO] coletor: [ODDS] Odds para Partick Thistle vs Ross County: 1.66, 3.3, 4.5
+2026-03-26 23:06:57,414 [INFO] [ODDS] Odds para Raith Rovers vs Ayr United: 2.3, 3.0, 2.87
+2026-03-26 23:06:57,414 [INFO] coletor: [ODDS] Odds para Raith Rovers vs Ayr United: 2.3, 3.0, 2.87
+2026-03-26 23:06:57,415 [INFO] [ODDS] Odds para Inverness CT vs Queen of the South: 1.44, 3.9, 6.0
+2026-03-26 23:06:57,415 [INFO] coletor: [ODDS] Odds para Inverness CT vs Queen of the South: 1.44, 3.9, 6.0
+2026-03-26 23:06:57,416 [INFO] [ODDS] Odds para Caernarfon Town vs The New Saints: 4.33, 4.0, 1.6
+2026-03-26 23:06:57,416 [INFO] coletor: [ODDS] Odds para Caernarfon Town vs The New Saints: 4.33, 4.0, 1.6
+2026-03-26 23:06:57,417 [INFO] [ODDS] Odds para Nacional Asunción vs Sportivo Luqueño: 1.9, 2.9, 3.9
+2026-03-26 23:06:57,417 [INFO] coletor: [ODDS] Odds para Nacional Asunción vs Sportivo Luqueño: 1.9, 2.9, 3.9
+2026-03-26 23:06:57,418 [INFO] [ODDS] Odds para Sportivo Ameliano vs Libertad: 3.0, 3.0, 2.2
+2026-03-26 23:06:57,418 [INFO] coletor: [ODDS] Odds para Sportivo Ameliano vs Libertad: 3.0, 3.0, 2.2
+2026-03-26 23:06:57,419 [INFO] [AGENDA] Válidos=30, Incompletos=0, Filtrados=178, Duplicados=0
+2026-03-26 23:06:57,419 [INFO] coletor: [AGENDA] Válidos=30, Incompletos=0, Filtrados=178, Duplicados=0
+2026-03-26 23:06:57,420 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.62s
+2026-03-26 23:06:57,428 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-27.csv (30 linhas).
+2026-03-26 23:07:17,209 [INFO] __main__: [TEMPO] Fase 2 concluída em 19.78s (links extraídos: 54)
+2026-03-26 23:09:57,932 [INFO] __main__: [TEMPO] Fase 3 concluída em 160.72s (jogos raspados: 94)
+2026-03-26 23:09:58,056 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (33 linhas).
+2026-03-26 23:09:58,339 [INFO] __main__: Exportado histórico para dados_redscore.csv (19495 linhas)
+2026-03-26 23:09:58,873 [INFO] __main__: --- Rotina concluída em 210.26s ---

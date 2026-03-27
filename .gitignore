@@ -14,6 +14,7 @@
 auth_redscore.py
 login_redscore.py
 migrar_banco.py
+arquivos.py
 
 # Perfil temporário do Firefox (criado pelo script)
 firefox_profile/
