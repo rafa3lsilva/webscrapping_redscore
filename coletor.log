@@ -39701,3 +39701,68 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-27 20:22:44,182 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (75 linhas).
 2026-03-27 20:22:44,365 [INFO] __main__: Exportado histórico para dados_redscore.csv (19570 linhas)
 2026-03-27 20:22:44,716 [INFO] __main__: --- Rotina concluída em 450.51s ---
+2026-03-28 17:52:47,302 [INFO] __main__: Coletor iniciado
+2026-03-28 17:52:47,303 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-28 17:53:20,330 [INFO] [ODDS] Odds para Athletico PR vs Botafogo: 2.0, 3.2, 4.0
+2026-03-28 17:53:20,330 [INFO] coletor: [ODDS] Odds para Athletico PR vs Botafogo: 2.0, 3.2, 4.0
+2026-03-28 17:53:20,331 [INFO] [ODDS] Odds para Eibar vs Las Palmas: 2.45, 2.9, 3.0
+2026-03-28 17:53:20,331 [INFO] coletor: [ODDS] Odds para Eibar vs Las Palmas: 2.45, 2.9, 3.0
+2026-03-28 17:53:20,331 [INFO] [ODDS] Odds para Cultural Leonesa vs FC Andorra: 2.4, 3.3, 2.8
+2026-03-28 17:53:20,331 [INFO] coletor: [ODDS] Odds para Cultural Leonesa vs FC Andorra: 2.4, 3.3, 2.8
+2026-03-28 17:53:20,332 [INFO] [ODDS] Odds para Zaragoza vs Racing Santander: 2.8, 3.3, 2.5
+2026-03-28 17:53:20,332 [INFO] coletor: [ODDS] Odds para Zaragoza vs Racing Santander: 2.8, 3.3, 2.5
+2026-03-28 17:53:20,332 [INFO] [ODDS] Odds para Almería vs R. Sociedad II: 1.55, 4.0, 5.5
+2026-03-28 17:53:20,332 [INFO] coletor: [ODDS] Odds para Almería vs R. Sociedad II: 1.55, 4.0, 5.5
+2026-03-28 17:53:20,333 [INFO] [ODDS] Odds para Los Andes vs Temperley: 2.35, 2.7, 3.6
+2026-03-28 17:53:20,333 [INFO] coletor: [ODDS] Odds para Los Andes vs Temperley: 2.35, 2.7, 3.6
+2026-03-28 17:53:20,333 [INFO] [ODDS] Odds para Nueva Chicago vs All Boys: 2.5, 2.55, 3.7
+2026-03-28 17:53:20,333 [INFO] coletor: [ODDS] Odds para Nueva Chicago vs All Boys: 2.5, 2.55, 3.7
+2026-03-28 17:53:20,334 [INFO] [ODDS] Odds para Chacarita Juniors vs Estudiantes Caseros: 2.3, 2.8, 3.6
+2026-03-28 17:53:20,334 [INFO] coletor: [ODDS] Odds para Chacarita Juniors vs Estudiantes Caseros: 2.3, 2.8, 3.6
+2026-03-28 17:53:20,334 [INFO] [ODDS] Odds para Deportivo Madryn vs San Martín Tucumán: 2.45, 2.75, 3.4
+2026-03-28 17:53:20,334 [INFO] coletor: [ODDS] Odds para Deportivo Madryn vs San Martín Tucumán: 2.45, 2.75, 3.4
+2026-03-28 17:53:20,334 [INFO] [ODDS] Odds para San Telmo vs Quilmes: 2.87, 2.62, 3.0
+2026-03-28 17:53:20,334 [INFO] coletor: [ODDS] Odds para San Telmo vs Quilmes: 2.87, 2.62, 3.0
+2026-03-28 17:53:20,335 [INFO] [ODDS] Odds para Patronato vs Colón: 2.2, 2.8, 4.0
+2026-03-28 17:53:20,335 [INFO] coletor: [ODDS] Odds para Patronato vs Colón: 2.2, 2.8, 4.0
+2026-03-28 17:53:20,335 [INFO] [ODDS] Odds para Club Atlético Güemes vs Atletico Mitre: 2.4, 2.75, 3.5
+2026-03-28 17:53:20,335 [INFO] coletor: [ODDS] Odds para Club Atlético Güemes vs Atletico Mitre: 2.4, 2.75, 3.5
+2026-03-28 17:53:20,336 [INFO] [ODDS] Odds para Deportivo Maipú vs Godoy Cruz: 2.75, 2.9, 2.87
+2026-03-28 17:53:20,336 [INFO] coletor: [ODDS] Odds para Deportivo Maipú vs Godoy Cruz: 2.75, 2.9, 2.87
+2026-03-28 17:53:20,336 [INFO] [ODDS] Odds para Gimnasia y Tiro vs Central Norte: 1.66, 3.1, 7.0
+2026-03-28 17:53:20,336 [INFO] coletor: [ODDS] Odds para Gimnasia y Tiro vs Central Norte: 1.66, 3.1, 7.0
+2026-03-28 17:53:20,337 [INFO] [ODDS] Odds para La Equidad vs Junior FC: 2.6, 3.2, 2.7
+2026-03-28 17:53:20,337 [INFO] coletor: [ODDS] Odds para La Equidad vs Junior FC: 2.6, 3.2, 2.7
+2026-03-28 17:53:20,337 [INFO] [ODDS] Odds para Deportivo Pasto vs Atlético Nacional: 3.3, 3.2, 2.25
+2026-03-28 17:53:20,337 [INFO] coletor: [ODDS] Odds para Deportivo Pasto vs Atlético Nacional: 3.3, 3.2, 2.25
+2026-03-28 17:53:20,337 [INFO] [ODDS] Odds para Llaneros vs Once Caldas: 2.8, 3.25, 2.5
+2026-03-28 17:53:20,337 [INFO] coletor: [ODDS] Odds para Llaneros vs Once Caldas: 2.8, 3.25, 2.5
+2026-03-28 17:53:20,338 [INFO] [ODDS] Odds para Cheongju vs Busan I'Park: 4.2, 3.1, 1.9
+2026-03-28 17:53:20,338 [INFO] coletor: [ODDS] Odds para Cheongju vs Busan I'Park: 4.2, 3.1, 1.9
+2026-03-28 17:53:20,338 [INFO] [ODDS] Odds para Suwon vs Paju Citizen: 1.57, 3.7, 4.75
+2026-03-28 17:53:20,338 [INFO] coletor: [ODDS] Odds para Suwon vs Paju Citizen: 1.57, 3.7, 4.75
+2026-03-28 17:53:20,339 [INFO] [ODDS] Odds para Daegu vs Seoul E.: 2.05, 3.3, 3.1
+2026-03-28 17:53:20,339 [INFO] coletor: [ODDS] Odds para Daegu vs Seoul E.: 2.05, 3.3, 3.1
+2026-03-28 17:53:20,339 [INFO] [ODDS] Odds para Connah's Quay vs Barry Town United: 1.72, 3.5, 4.1
+2026-03-28 17:53:20,339 [INFO] coletor: [ODDS] Odds para Connah's Quay vs Barry Town United: 1.72, 3.5, 4.1
+2026-03-28 17:53:20,340 [INFO] [ODDS] Odds para Guaraní vs Sportivo Trinidense: 1.95, 3.1, 3.5
+2026-03-28 17:53:20,340 [INFO] coletor: [ODDS] Odds para Guaraní vs Sportivo Trinidense: 1.95, 3.1, 3.5
+2026-03-28 17:53:20,340 [INFO] [ODDS] Odds para União de Leiria vs Ferreira: 1.7, 3.3, 4.5
+2026-03-28 17:53:20,340 [INFO] coletor: [ODDS] Odds para União de Leiria vs Ferreira: 1.7, 3.3, 4.5
+2026-03-28 17:53:20,340 [INFO] [ODDS] Odds para Progreso vs Liverpool: 3.6, 3.1, 1.95
+2026-03-28 17:53:20,340 [INFO] coletor: [ODDS] Odds para Progreso vs Liverpool: 3.6, 3.1, 1.95
+2026-03-28 17:53:20,341 [INFO] [ODDS] Odds para Juventud vs Boston River: 2.2, 3.1, 3.0
+2026-03-28 17:53:20,341 [INFO] coletor: [ODDS] Odds para Juventud vs Boston River: 2.2, 3.1, 3.0
+2026-03-28 17:53:20,341 [INFO] [ODDS] Odds para Defensor Sporting vs Albion: 2.05, 2.9, 3.4
+2026-03-28 17:53:20,341 [INFO] coletor: [ODDS] Odds para Defensor Sporting vs Albion: 2.05, 2.9, 3.4
+2026-03-28 17:53:20,342 [INFO] [ODDS] Odds para Peñarol vs Racing: 1.57, 3.4, 5.5
+2026-03-28 17:53:20,342 [INFO] coletor: [ODDS] Odds para Peñarol vs Racing: 1.57, 3.4, 5.5
+2026-03-28 17:53:20,342 [INFO] [AGENDA] Válidos=27, Incompletos=0, Filtrados=335, Duplicados=0
+2026-03-28 17:53:20,342 [INFO] coletor: [AGENDA] Válidos=27, Incompletos=0, Filtrados=335, Duplicados=0
+2026-03-28 17:53:20,342 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.49s
+2026-03-28 17:53:20,349 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-29.csv (27 linhas).
+2026-03-28 17:54:02,381 [INFO] __main__: [TEMPO] Fase 2 concluída em 42.03s (links extraídos: 54)
+2026-03-28 17:56:40,680 [INFO] __main__: [TEMPO] Fase 3 concluída em 158.30s (jogos raspados: 69)
+2026-03-28 17:56:40,819 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (14 linhas).
+2026-03-28 17:56:41,136 [INFO] __main__: Exportado histórico para dados_redscore.csv (19584 linhas)
+2026-03-28 17:56:41,941 [INFO] __main__: --- Rotina concluída em 234.64s ---
