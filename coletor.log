@@ -39797,3 +39797,44 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-29 18:29:26,629 [INFO] __main__: [DB] Executando VACUUM (tamanho=2.9 MB).
 2026-03-29 18:29:26,667 [INFO] __main__: [DB] VACUUM concluído.
 2026-03-29 18:29:27,974 [INFO] __main__: --- Rotina concluída em 88.18s ---
+2026-03-30 18:28:30,497 [INFO] __main__: Coletor iniciado
+2026-03-30 18:28:30,498 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-30 18:28:56,271 [INFO] [ODDS] Odds para Mirandés vs Albacete: 2.7, 3.25, 2.62
+2026-03-30 18:28:56,271 [INFO] coletor: [ODDS] Odds para Mirandés vs Albacete: 2.7, 3.25, 2.62
+2026-03-30 18:28:56,271 [INFO] [ODDS] Odds para Deportivo La Coruña vs Córdoba: 2.0, 3.6, 3.5
+2026-03-30 18:28:56,271 [INFO] coletor: [ODDS] Odds para Deportivo La Coruña vs Córdoba: 2.0, 3.6, 3.5
+2026-03-30 18:28:56,272 [INFO] [ODDS] Odds para Valladolid vs Cádiz: 1.7, 3.75, 5.0
+2026-03-30 18:28:56,272 [INFO] coletor: [ODDS] Odds para Valladolid vs Cádiz: 1.7, 3.75, 5.0
+2026-03-30 18:28:56,272 [INFO] [ODDS] Odds para Aldosivi vs Argentinos Juniors: 4.75, 3.0, 1.95
+2026-03-30 18:28:56,272 [INFO] coletor: [ODDS] Odds para Aldosivi vs Argentinos Juniors: 4.75, 3.0, 1.95
+2026-03-30 18:28:56,272 [INFO] [ODDS] Odds para Juventude vs Novorizontino: 2.15, 3.2, 3.5
+2026-03-30 18:28:56,272 [INFO] coletor: [ODDS] Odds para Juventude vs Novorizontino: 2.15, 3.2, 3.5
+2026-03-30 18:28:56,273 [INFO] [ODDS] Odds para Fortaleza vs Cuiabá: 1.66, 3.5, 6.0
+2026-03-30 18:28:56,273 [INFO] coletor: [ODDS] Odds para Fortaleza vs Cuiabá: 1.66, 3.5, 6.0
+2026-03-30 18:28:56,273 [INFO] [ODDS] Odds para Deportes Tolima vs Rionegro Águilas: 1.7, 3.5, 5.25
+2026-03-30 18:28:56,273 [INFO] coletor: [ODDS] Odds para Deportes Tolima vs Rionegro Águilas: 1.7, 3.5, 5.25
+2026-03-30 18:28:56,274 [INFO] [ODDS] Odds para Woking vs Altrincham: 1.9, 3.4, 3.5
+2026-03-30 18:28:56,274 [INFO] coletor: [ODDS] Odds para Woking vs Altrincham: 1.9, 3.4, 3.5
+2026-03-30 18:28:56,274 [INFO] [ODDS] Odds para Wealdstone vs Hartlepool: 2.4, 3.4, 2.62
+2026-03-30 18:28:56,274 [INFO] coletor: [ODDS] Odds para Wealdstone vs Hartlepool: 2.4, 3.4, 2.62
+2026-03-30 18:28:56,274 [INFO] [ODDS] Odds para Southend United vs Yeovil Town: 1.33, 4.5, 8.0
+2026-03-30 18:28:56,274 [INFO] coletor: [ODDS] Odds para Southend United vs Yeovil Town: 1.33, 4.5, 8.0
+2026-03-30 18:28:56,275 [INFO] [ODDS] Odds para 2 de Mayo vs Nacional Asunción: 3.2, 3.0, 2.15
+2026-03-30 18:28:56,275 [INFO] coletor: [ODDS] Odds para 2 de Mayo vs Nacional Asunción: 3.2, 3.0, 2.15
+2026-03-30 18:28:56,275 [INFO] [ODDS] Odds para Sportivo San Lorenzo vs Sportivo Ameliano: 3.3, 3.0, 2.05
+2026-03-30 18:28:56,275 [INFO] coletor: [ODDS] Odds para Sportivo San Lorenzo vs Sportivo Ameliano: 3.3, 3.0, 2.05
+2026-03-30 18:28:56,276 [INFO] [ODDS] Odds para Sportivo Luqueño vs Cerro Porteño: 3.9, 3.2, 1.85
+2026-03-30 18:28:56,276 [INFO] coletor: [ODDS] Odds para Sportivo Luqueño vs Cerro Porteño: 3.9, 3.2, 1.85
+2026-03-30 18:28:56,276 [INFO] [ODDS] Odds para Progreso vs Liverpool: 3.4, 3.1, 2.0
+2026-03-30 18:28:56,276 [INFO] coletor: [ODDS] Odds para Progreso vs Liverpool: 3.4, 3.1, 2.0
+2026-03-30 18:28:56,276 [INFO] [ODDS] Odds para Defensor Sporting vs Albion: 2.2, 2.8, 3.3
+2026-03-30 18:28:56,276 [INFO] coletor: [ODDS] Odds para Defensor Sporting vs Albion: 2.2, 2.8, 3.3
+2026-03-30 18:28:56,277 [INFO] [AGENDA] Válidos=15, Incompletos=0, Filtrados=71, Duplicados=0
+2026-03-30 18:28:56,277 [INFO] coletor: [AGENDA] Válidos=15, Incompletos=0, Filtrados=71, Duplicados=0
+2026-03-30 18:28:56,277 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.17s
+2026-03-30 18:28:56,282 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-03-31.csv (15 linhas).
+2026-03-30 18:29:02,871 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.59s (links extraídos: 30)
+2026-03-30 18:30:34,568 [INFO] __main__: [TEMPO] Fase 3 concluída em 91.70s (jogos raspados: 35)
+2026-03-30 18:30:34,685 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
+2026-03-30 18:30:35,072 [INFO] __main__: Exportado histórico para dados_redscore.csv (19609 linhas)
+2026-03-30 18:30:35,973 [INFO] __main__: --- Rotina concluída em 125.47s ---
