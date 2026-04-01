@@ -39838,3 +39838,66 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-03-30 18:30:34,685 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (19 linhas).
 2026-03-30 18:30:35,072 [INFO] __main__: Exportado histórico para dados_redscore.csv (19609 linhas)
 2026-03-30 18:30:35,973 [INFO] __main__: --- Rotina concluída em 125.47s ---
+2026-03-31 23:41:30,719 [INFO] __main__: Coletor iniciado
+2026-03-31 23:41:30,720 [INFO] __main__: --- Rotina diária iniciada ---
+2026-03-31 23:41:54,656 [INFO] [ODDS] Odds para Botafogo vs Mirassol: 2.2, 3.5, 3.2
+2026-03-31 23:41:54,656 [INFO] coletor: [ODDS] Odds para Botafogo vs Mirassol: 2.2, 3.5, 3.2
+2026-03-31 23:41:54,657 [INFO] [ODDS] Odds para Internacional vs São Paulo: 2.25, 3.0, 3.6
+2026-03-31 23:41:54,657 [INFO] coletor: [ODDS] Odds para Internacional vs São Paulo: 2.25, 3.0, 3.6
+2026-03-31 23:41:54,658 [INFO] [ODDS] Odds para Cruzeiro vs Vitória: 1.55, 3.9, 6.5
+2026-03-31 23:41:54,658 [INFO] coletor: [ODDS] Odds para Cruzeiro vs Vitória: 1.55, 3.9, 6.5
+2026-03-31 23:41:54,659 [INFO] [ODDS] Odds para Bahia vs Athletico PR: 1.8, 3.6, 4.5
+2026-03-31 23:41:54,659 [INFO] coletor: [ODDS] Odds para Bahia vs Athletico PR: 1.8, 3.6, 4.5
+2026-03-31 23:41:54,660 [INFO] [ODDS] Odds para Coritiba vs Vasco da Gama: 2.6, 3.2, 2.87
+2026-03-31 23:41:54,660 [INFO] coletor: [ODDS] Odds para Coritiba vs Vasco da Gama: 2.6, 3.2, 2.87
+2026-03-31 23:41:54,660 [INFO] [ODDS] Odds para Fluminense vs Corinthians: 1.9, 3.3, 4.33
+2026-03-31 23:41:54,660 [INFO] coletor: [ODDS] Odds para Fluminense vs Corinthians: 1.9, 3.3, 4.33
+2026-03-31 23:41:54,661 [INFO] [ODDS] Odds para FC Andorra vs Málaga: 2.35, 3.4, 2.9
+2026-03-31 23:41:54,661 [INFO] coletor: [ODDS] Odds para FC Andorra vs Málaga: 2.35, 3.4, 2.9
+2026-03-31 23:41:54,662 [INFO] [ODDS] Odds para Burgos vs Ceuta: 1.8, 3.1, 4.75
+2026-03-31 23:41:54,662 [INFO] coletor: [ODDS] Odds para Burgos vs Ceuta: 1.8, 3.1, 4.75
+2026-03-31 23:41:54,663 [INFO] [ODDS] Odds para Huesca vs Cultural Leonesa: 2.0, 3.2, 4.0
+2026-03-31 23:41:54,663 [INFO] coletor: [ODDS] Odds para Huesca vs Cultural Leonesa: 2.0, 3.2, 4.0
+2026-03-31 23:41:54,664 [INFO] [ODDS] Odds para Racing Santander vs Gijón: 1.95, 3.5, 3.8
+2026-03-31 23:41:54,664 [INFO] coletor: [ODDS] Odds para Racing Santander vs Gijón: 1.95, 3.5, 3.8
+2026-03-31 23:41:54,665 [INFO] [ODDS] Odds para Lanús vs Platense: 1.95, 3.1, 4.5
+2026-03-31 23:41:54,665 [INFO] coletor: [ODDS] Odds para Lanús vs Platense: 1.95, 3.1, 4.5
+2026-03-31 23:41:54,666 [INFO] [ODDS] Odds para Paradou AC vs CR Belouizdad: 4.33, 2.8, 1.85
+2026-03-31 23:41:54,666 [INFO] coletor: [ODDS] Odds para Paradou AC vs CR Belouizdad: 4.33, 2.8, 1.85
+2026-03-31 23:41:54,666 [INFO] [ODDS] Odds para MC Alger vs USM Alger: 1.75, 2.8, 5.25
+2026-03-31 23:41:54,666 [INFO] coletor: [ODDS] Odds para MC Alger vs USM Alger: 1.75, 2.8, 5.25
+2026-03-31 23:41:54,667 [INFO] [ODDS] Odds para JS Kabylie vs Ben Aknoun: 1.61, 3.1, 6.0
+2026-03-31 23:41:54,667 [INFO] coletor: [ODDS] Odds para JS Kabylie vs Ben Aknoun: 1.61, 3.1, 6.0
+2026-03-31 23:41:54,668 [INFO] [ODDS] Odds para América Mineiro vs Botafogo SP: 1.9, 3.4, 3.8
+2026-03-31 23:41:54,668 [INFO] coletor: [ODDS] Odds para América Mineiro vs Botafogo SP: 1.9, 3.4, 3.8
+2026-03-31 23:41:54,669 [INFO] [ODDS] Odds para Sport Recife vs Vila Nova: 1.83, 3.3, 4.5
+2026-03-31 23:41:54,669 [INFO] coletor: [ODDS] Odds para Sport Recife vs Vila Nova: 1.83, 3.3, 4.5
+2026-03-31 23:41:54,670 [INFO] [ODDS] Odds para Atlético GO vs Náutico: 2.0, 3.1, 4.2
+2026-03-31 23:41:54,670 [INFO] coletor: [ODDS] Odds para Atlético GO vs Náutico: 2.0, 3.1, 4.2
+2026-03-31 23:41:54,670 [INFO] [ODDS] Odds para Londrina vs Goiás: 2.4, 3.0, 3.2
+2026-03-31 23:41:54,670 [INFO] coletor: [ODDS] Odds para Londrina vs Goiás: 2.4, 3.0, 3.2
+2026-03-31 23:41:54,671 [INFO] [ODDS] Odds para Ponte Preta vs Ceará: 3.9, 3.1, 2.05
+2026-03-31 23:41:54,671 [INFO] coletor: [ODDS] Odds para Ponte Preta vs Ceará: 3.9, 3.1, 2.05
+2026-03-31 23:41:54,672 [INFO] [ODDS] Odds para Criciúma vs Athletic Club: 1.66, 3.6, 5.5
+2026-03-31 23:41:54,672 [INFO] coletor: [ODDS] Odds para Criciúma vs Athletic Club: 1.66, 3.6, 5.5
+2026-03-31 23:41:54,673 [INFO] [ODDS] Odds para CRB vs Avaí: 1.8, 3.4, 4.75
+2026-03-31 23:41:54,673 [INFO] coletor: [ODDS] Odds para CRB vs Avaí: 1.8, 3.4, 4.75
+2026-03-31 23:41:54,674 [INFO] [ODDS] Odds para Alianza Petrolera vs Deportivo Pasto: 2.8, 2.9, 2.7
+2026-03-31 23:41:54,674 [INFO] coletor: [ODDS] Odds para Alianza Petrolera vs Deportivo Pasto: 2.8, 2.9, 2.7
+2026-03-31 23:41:54,674 [INFO] [ODDS] Odds para Santa Fe vs Llaneros: 1.6, 3.6, 6.0
+2026-03-31 23:41:54,674 [INFO] coletor: [ODDS] Odds para Santa Fe vs Llaneros: 1.6, 3.6, 6.0
+2026-03-31 23:41:54,675 [INFO] [ODDS] Odds para Atlético Nacional vs Cúcuta Deportivo: 1.25, 6.0, 12.0
+2026-03-31 23:41:54,675 [INFO] coletor: [ODDS] Odds para Atlético Nacional vs Cúcuta Deportivo: 1.25, 6.0, 12.0
+2026-03-31 23:41:54,676 [INFO] [ODDS] Odds para Rubio Ñú vs Guaraní: 3.3, 2.9, 2.1
+2026-03-31 23:41:54,676 [INFO] coletor: [ODDS] Odds para Rubio Ñú vs Guaraní: 3.3, 2.9, 2.1
+2026-03-31 23:41:54,677 [INFO] [ODDS] Odds para Sportivo Trinidense vs Olimpia: 4.0, 3.1, 1.85
+2026-03-31 23:41:54,677 [INFO] coletor: [ODDS] Odds para Sportivo Trinidense vs Olimpia: 4.0, 3.1, 1.85
+2026-03-31 23:41:54,677 [INFO] [AGENDA] Válidos=26, Incompletos=0, Filtrados=144, Duplicados=0
+2026-03-31 23:41:54,677 [INFO] coletor: [AGENDA] Válidos=26, Incompletos=0, Filtrados=144, Duplicados=0
+2026-03-31 23:41:54,677 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.83s
+2026-03-31 23:41:54,684 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-01.csv (26 linhas).
+2026-03-31 23:42:08,218 [INFO] __main__: [TEMPO] Fase 2 concluída em 13.53s (links extraídos: 52)
+2026-03-31 23:44:42,287 [INFO] __main__: [TEMPO] Fase 3 concluída em 154.07s (jogos raspados: 88)
+2026-03-31 23:44:42,394 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (24 linhas).
+2026-03-31 23:44:42,685 [INFO] __main__: Exportado histórico para dados_redscore.csv (19633 linhas)
+2026-03-31 23:44:43,196 [INFO] __main__: --- Rotina concluída em 192.48s ---
