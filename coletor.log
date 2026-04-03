@@ -40215,3 +40215,466 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-02 22:29:37,501 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (147 linhas).
 2026-04-02 22:29:37,782 [INFO] __main__: Exportado histórico para dados_redscore.csv (19801 linhas)
 2026-04-02 22:29:38,609 [INFO] __main__: --- Rotina concluída em 894.79s ---
+2026-04-03 19:46:45,267 [INFO] __main__: Coletor iniciado
+2026-04-03 19:46:45,269 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-03 19:47:15,789 [INFO] [ODDS] Odds para Real Sociedad vs Levante: 1.57, 4.2, 5.5
+2026-04-03 19:47:15,789 [INFO] coletor: [ODDS] Odds para Real Sociedad vs Levante: 1.57, 4.2, 5.5
+2026-04-03 19:47:15,791 [INFO] [ODDS] Odds para Mallorca vs Real Madrid: 5.5, 4.33, 1.57
+2026-04-03 19:47:15,791 [INFO] coletor: [ODDS] Odds para Mallorca vs Real Madrid: 5.5, 4.33, 1.57
+2026-04-03 19:47:15,791 [INFO] [ODDS] Odds para Betis vs Espanyol: 1.7, 3.9, 4.75
+2026-04-03 19:47:15,791 [INFO] coletor: [ODDS] Odds para Betis vs Espanyol: 1.7, 3.9, 4.75
+2026-04-03 19:47:15,792 [INFO] [ODDS] Odds para Atlético Madrid vs Barcelona: 3.1, 3.8, 2.15
+2026-04-03 19:47:15,792 [INFO] coletor: [ODDS] Odds para Atlético Madrid vs Barcelona: 3.1, 3.8, 2.15
+2026-04-03 19:47:15,792 [INFO] [ODDS] Odds para Hoffenheim vs Mainz: 1.7, 4.0, 4.75
+2026-04-03 19:47:15,792 [INFO] coletor: [ODDS] Odds para Hoffenheim vs Mainz: 1.7, 4.0, 4.75
+2026-04-03 19:47:15,793 [INFO] [ODDS] Odds para Werder Bremen vs RB Leipzig: 3.6, 4.0, 1.9
+2026-04-03 19:47:15,793 [INFO] coletor: [ODDS] Odds para Werder Bremen vs RB Leipzig: 3.6, 4.0, 1.9
+2026-04-03 19:47:15,793 [INFO] [ODDS] Odds para Freiburg vs Bayern: 6.0, 5.25, 1.44
+2026-04-03 19:47:15,793 [INFO] coletor: [ODDS] Odds para Freiburg vs Bayern: 6.0, 5.25, 1.44
+2026-04-03 19:47:15,793 [INFO] [ODDS] Odds para Hamburger vs Augsburg: 2.25, 3.5, 3.1
+2026-04-03 19:47:15,793 [INFO] coletor: [ODDS] Odds para Hamburger vs Augsburg: 2.25, 3.5, 3.1
+2026-04-03 19:47:15,794 [INFO] [ODDS] Odds para M'Gladbach vs Heidenheim: 1.57, 4.33, 5.25
+2026-04-03 19:47:15,794 [INFO] coletor: [ODDS] Odds para M'Gladbach vs Heidenheim: 1.57, 4.33, 5.25
+2026-04-03 19:47:15,794 [INFO] [ODDS] Odds para Leverkusen vs Wolfsburg: 1.42, 5.0, 6.5
+2026-04-03 19:47:15,794 [INFO] coletor: [ODDS] Odds para Leverkusen vs Wolfsburg: 1.42, 5.0, 6.5
+2026-04-03 19:47:15,795 [INFO] [ODDS] Odds para Stuttgart vs Dortmund: 2.3, 3.9, 2.8
+2026-04-03 19:47:15,795 [INFO] coletor: [ODDS] Odds para Stuttgart vs Dortmund: 2.3, 3.9, 2.8
+2026-04-03 19:47:15,795 [INFO] [ODDS] Odds para Sassuolo vs Cagliari: 2.0, 3.1, 4.2
+2026-04-03 19:47:15,795 [INFO] coletor: [ODDS] Odds para Sassuolo vs Cagliari: 2.0, 3.1, 4.2
+2026-04-03 19:47:15,795 [INFO] [ODDS] Odds para Hellas Verona vs Fiorentina: 4.1, 3.5, 1.9
+2026-04-03 19:47:15,795 [INFO] coletor: [ODDS] Odds para Hellas Verona vs Fiorentina: 4.1, 3.5, 1.9
+2026-04-03 19:47:15,796 [INFO] [ODDS] Odds para Lazio vs Parma: 1.75, 3.5, 5.25
+2026-04-03 19:47:15,796 [INFO] coletor: [ODDS] Odds para Lazio vs Parma: 1.75, 3.5, 5.25
+2026-04-03 19:47:15,796 [INFO] [ODDS] Odds para Strasbourg vs Nice: 1.9, 3.7, 4.0
+2026-04-03 19:47:15,796 [INFO] coletor: [ODDS] Odds para Strasbourg vs Nice: 1.9, 3.7, 4.0
+2026-04-03 19:47:15,797 [INFO] [ODDS] Odds para Brest vs Rennes: 3.0, 3.5, 2.3
+2026-04-03 19:47:15,797 [INFO] coletor: [ODDS] Odds para Brest vs Rennes: 3.0, 3.5, 2.3
+2026-04-03 19:47:15,797 [INFO] [ODDS] Odds para LOSC Lille vs Lens: 2.75, 3.4, 2.55
+2026-04-03 19:47:15,797 [INFO] coletor: [ODDS] Odds para LOSC Lille vs Lens: 2.75, 3.4, 2.55
+2026-04-03 19:47:15,797 [INFO] [ODDS] Odds para PSV vs Utrecht: 1.53, 4.5, 5.25
+2026-04-03 19:47:15,797 [INFO] coletor: [ODDS] Odds para PSV vs Utrecht: 1.53, 4.5, 5.25
+2026-04-03 19:47:15,798 [INFO] [ODDS] Odds para AZ vs Fortuna Sittard: 1.33, 5.25, 9.0
+2026-04-03 19:47:15,798 [INFO] coletor: [ODDS] Odds para AZ vs Fortuna Sittard: 1.33, 5.25, 9.0
+2026-04-03 19:47:15,798 [INFO] [ODDS] Odds para Telstar vs Groningen: 2.62, 3.6, 2.55
+2026-04-03 19:47:15,798 [INFO] coletor: [ODDS] Odds para Telstar vs Groningen: 2.62, 3.6, 2.55
+2026-04-03 19:47:15,799 [INFO] [ODDS] Odds para Excelsior vs Nijmegen: 3.6, 4.0, 1.9
+2026-04-03 19:47:15,799 [INFO] coletor: [ODDS] Odds para Excelsior vs Nijmegen: 3.6, 4.0, 1.9
+2026-04-03 19:47:15,799 [INFO] [ODDS] Odds para Ajax vs Twente: 2.3, 3.75, 2.87
+2026-04-03 19:47:15,799 [INFO] coletor: [ODDS] Odds para Ajax vs Twente: 2.3, 3.75, 2.87
+2026-04-03 19:47:15,800 [INFO] [ODDS] Odds para Nacional vs Estrela Amadora: 2.1, 3.3, 3.5
+2026-04-03 19:47:15,800 [INFO] coletor: [ODDS] Odds para Nacional vs Estrela Amadora: 2.1, 3.3, 3.5
+2026-04-03 19:47:15,800 [INFO] [ODDS] Odds para Moreirense vs Braga: 6.25, 3.9, 1.55
+2026-04-03 19:47:15,800 [INFO] coletor: [ODDS] Odds para Moreirense vs Braga: 6.25, 3.9, 1.55
+2026-04-03 19:47:15,801 [INFO] [ODDS] Odds para Rio Ave vs Alverca: 2.55, 3.3, 2.75
+2026-04-03 19:47:15,801 [INFO] coletor: [ODDS] Odds para Rio Ave vs Alverca: 2.55, 3.3, 2.75
+2026-04-03 19:47:15,801 [INFO] [ODDS] Odds para Porto vs Famalicão: 1.38, 4.5, 8.5
+2026-04-03 19:47:15,801 [INFO] coletor: [ODDS] Odds para Porto vs Famalicão: 1.38, 4.5, 8.5
+2026-04-03 19:47:15,801 [INFO] [ODDS] Odds para Gençlerbirliği vs Göztepe: 3.5, 3.0, 2.25
+2026-04-03 19:47:15,801 [INFO] coletor: [ODDS] Odds para Gençlerbirliği vs Göztepe: 3.5, 3.0, 2.25
+2026-04-03 19:47:15,802 [INFO] [ODDS] Odds para Kasımpaşa vs Kayserispor: 2.2, 3.4, 3.2
+2026-04-03 19:47:15,802 [INFO] coletor: [ODDS] Odds para Kasımpaşa vs Kayserispor: 2.2, 3.4, 3.2
+2026-04-03 19:47:15,802 [INFO] [ODDS] Odds para Gaziantep vs Alanyaspor: 2.87, 3.5, 2.35
+2026-04-03 19:47:15,802 [INFO] coletor: [ODDS] Odds para Gaziantep vs Alanyaspor: 2.87, 3.5, 2.35
+2026-04-03 19:47:15,803 [INFO] [ODDS] Odds para Trabzonspor vs Galatasaray: 3.3, 3.6, 2.1
+2026-04-03 19:47:15,803 [INFO] coletor: [ODDS] Odds para Trabzonspor vs Galatasaray: 3.3, 3.6, 2.1
+2026-04-03 19:47:15,803 [INFO] [ODDS] Odds para São Paulo vs Cruzeiro: 2.2, 3.2, 3.5
+2026-04-03 19:47:15,803 [INFO] coletor: [ODDS] Odds para São Paulo vs Cruzeiro: 2.2, 3.2, 3.5
+2026-04-03 19:47:15,804 [INFO] [ODDS] Odds para Coritiba vs Fluminense: 3.3, 3.1, 2.35
+2026-04-03 19:47:15,804 [INFO] coletor: [ODDS] Odds para Coritiba vs Fluminense: 3.3, 3.1, 2.35
+2026-04-03 19:47:15,804 [INFO] [ODDS] Odds para Vasco da Gama vs Botafogo: 2.05, 3.4, 3.7
+2026-04-03 19:47:15,804 [INFO] coletor: [ODDS] Odds para Vasco da Gama vs Botafogo: 2.05, 3.4, 3.7
+2026-04-03 19:47:15,804 [INFO] [ODDS] Odds para Toronto vs Colorado Rapids: 2.0, 3.75, 3.5
+2026-04-03 19:47:15,804 [INFO] coletor: [ODDS] Odds para Toronto vs Colorado Rapids: 2.0, 3.75, 3.5
+2026-04-03 19:47:15,805 [INFO] [ODDS] Odds para Real Salt Lake vs Sporting KC: 1.42, 5.0, 7.0
+2026-04-03 19:47:15,805 [INFO] coletor: [ODDS] Odds para Real Salt Lake vs Sporting KC: 1.42, 5.0, 7.0
+2026-04-03 19:47:15,805 [INFO] [ODDS] Odds para New England vs CF Montréal: 1.95, 3.75, 3.75
+2026-04-03 19:47:15,805 [INFO] coletor: [ODDS] Odds para New England vs CF Montréal: 1.95, 3.75, 3.75
+2026-04-03 19:47:15,806 [INFO] [ODDS] Odds para Charlotte vs Philadelphia Union: 2.05, 3.6, 3.6
+2026-04-03 19:47:15,806 [INFO] coletor: [ODDS] Odds para Charlotte vs Philadelphia Union: 2.05, 3.6, 3.6
+2026-04-03 19:47:15,806 [INFO] [ODDS] Odds para New York RB vs Cincinnati: 2.0, 3.9, 3.4
+2026-04-03 19:47:15,806 [INFO] coletor: [ODDS] Odds para New York RB vs Cincinnati: 2.0, 3.9, 3.4
+2026-04-03 19:47:15,807 [INFO] [ODDS] Odds para DC United vs Dallas: 2.2, 3.5, 3.2
+2026-04-03 19:47:15,807 [INFO] coletor: [ODDS] Odds para DC United vs Dallas: 2.2, 3.5, 3.2
+2026-04-03 19:47:15,807 [INFO] [ODDS] Odds para Inter Miami vs Austin: 1.36, 5.0, 8.0
+2026-04-03 19:47:15,807 [INFO] coletor: [ODDS] Odds para Inter Miami vs Austin: 1.36, 5.0, 8.0
+2026-04-03 19:47:15,807 [INFO] [ODDS] Odds para Atlanta United vs Columbus Crew: 2.87, 3.6, 2.35
+2026-04-03 19:47:15,807 [INFO] coletor: [ODDS] Odds para Atlanta United vs Columbus Crew: 2.87, 3.6, 2.35
+2026-04-03 19:47:15,808 [INFO] [ODDS] Odds para New York City vs St. Louis City: 1.7, 4.0, 4.75
+2026-04-03 19:47:15,808 [INFO] coletor: [ODDS] Odds para New York City vs St. Louis City: 1.7, 4.0, 4.75
+2026-04-03 19:47:15,808 [INFO] [ODDS] Odds para Chicago Fire vs Nashville SC: 2.4, 3.0, 3.1
+2026-04-03 19:47:15,808 [INFO] coletor: [ODDS] Odds para Chicago Fire vs Nashville SC: 2.4, 3.0, 3.1
+2026-04-03 19:47:15,809 [WARNING] [ODDS] Odds não encontradas para Houston Dynamo vs Seattle Sounders. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,809 [WARNING] coletor: [ODDS] Odds não encontradas para Houston Dynamo vs Seattle Sounders. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,809 [WARNING] [ODDS] Odds não encontradas para Los Angeles FC vs Orlando City. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,809 [WARNING] coletor: [ODDS] Odds não encontradas para Los Angeles FC vs Orlando City. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,810 [INFO] [ODDS] Odds para Vancouver Whitecaps vs Portland Timbers: 1.36, 5.0, 8.5
+2026-04-03 19:47:15,810 [INFO] coletor: [ODDS] Odds para Vancouver Whitecaps vs Portland Timbers: 1.36, 5.0, 8.5
+2026-04-03 19:47:15,810 [WARNING] [ODDS] Odds não encontradas para SJ Earthquakes vs San Diego. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,810 [WARNING] coletor: [ODDS] Odds não encontradas para SJ Earthquakes vs San Diego. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,810 [WARNING] [ODDS] Odds não encontradas para LA Galaxy vs Minnesota United. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,810 [WARNING] coletor: [ODDS] Odds não encontradas para LA Galaxy vs Minnesota United. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,811 [INFO] [ODDS] Odds para Zulte-Waregem vs Cercle Brugge: 2.4, 3.4, 2.55
+2026-04-03 19:47:15,811 [INFO] coletor: [ODDS] Odds para Zulte-Waregem vs Cercle Brugge: 2.4, 3.4, 2.55
+2026-04-03 19:47:15,811 [INFO] [ODDS] Odds para OH Leuven vs St. Liège: 2.05, 3.2, 3.5
+2026-04-03 19:47:15,811 [INFO] coletor: [ODDS] Odds para OH Leuven vs St. Liège: 2.05, 3.2, 3.5
+2026-04-03 19:47:15,812 [INFO] [ODDS] Odds para Union Saint-Gilloise vs St. Truiden: 1.7, 3.5, 4.5
+2026-04-03 19:47:15,812 [INFO] coletor: [ODDS] Odds para Union Saint-Gilloise vs St. Truiden: 1.7, 3.5, 4.5
+2026-04-03 19:47:15,812 [INFO] [ODDS] Odds para Rangers vs Dundee United: 1.25, 6.5, 11.0
+2026-04-03 19:47:15,812 [INFO] coletor: [ODDS] Odds para Rangers vs Dundee United: 1.25, 6.5, 11.0
+2026-04-03 19:47:15,812 [INFO] [ODDS] Odds para Motherwell vs Falkirk: 1.8, 3.7, 4.33
+2026-04-03 19:47:15,812 [INFO] coletor: [ODDS] Odds para Motherwell vs Falkirk: 1.8, 3.7, 4.33
+2026-04-03 19:47:15,813 [INFO] [ODDS] Odds para St. Mirren vs Aberdeen: 2.2, 3.25, 3.3
+2026-04-03 19:47:15,813 [INFO] coletor: [ODDS] Odds para St. Mirren vs Aberdeen: 2.2, 3.25, 3.3
+2026-04-03 19:47:15,813 [INFO] [ODDS] Odds para Hibernian vs Kilmarnock: 1.53, 4.2, 6.25
+2026-04-03 19:47:15,813 [INFO] coletor: [ODDS] Odds para Hibernian vs Kilmarnock: 1.53, 4.2, 6.25
+2026-04-03 19:47:15,814 [WARNING] [ODDS] Odds não encontradas para Dundee vs Celtic. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,814 [WARNING] coletor: [ODDS] Odds não encontradas para Dundee vs Celtic. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,814 [WARNING] [ODDS] Odds não encontradas para Hibernian vs Kilmarnock. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,814 [WARNING] coletor: [ODDS] Odds não encontradas para Hibernian vs Kilmarnock. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,814 [WARNING] [ODDS] Odds não encontradas para Motherwell vs Falkirk. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,814 [WARNING] coletor: [ODDS] Odds não encontradas para Motherwell vs Falkirk. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,815 [WARNING] [ODDS] Odds não encontradas para Rangers vs Dundee United. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,815 [WARNING] coletor: [ODDS] Odds não encontradas para Rangers vs Dundee United. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,815 [WARNING] [ODDS] Odds não encontradas para Livingston vs Hearts. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,815 [WARNING] coletor: [ODDS] Odds não encontradas para Livingston vs Hearts. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,816 [WARNING] [ODDS] Odds não encontradas para St. Mirren vs Aberdeen. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,816 [WARNING] coletor: [ODDS] Odds não encontradas para St. Mirren vs Aberdeen. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,816 [INFO] [ODDS] Odds para Cádiz vs Córdoba: 3.0, 3.5, 2.25
+2026-04-03 19:47:15,816 [INFO] coletor: [ODDS] Odds para Cádiz vs Córdoba: 3.0, 3.5, 2.25
+2026-04-03 19:47:15,816 [INFO] [ODDS] Odds para Albacete vs Burgos: 2.4, 3.1, 3.1
+2026-04-03 19:47:15,816 [INFO] coletor: [ODDS] Odds para Albacete vs Burgos: 2.4, 3.1, 3.1
+2026-04-03 19:47:15,817 [INFO] [ODDS] Odds para Cultural Leonesa vs Valladolid: 2.8, 3.3, 2.5
+2026-04-03 19:47:15,817 [INFO] coletor: [ODDS] Odds para Cultural Leonesa vs Valladolid: 2.8, 3.3, 2.5
+2026-04-03 19:47:15,817 [INFO] [ODDS] Odds para Deportivo La Coruña vs Málaga: 1.9, 3.6, 3.7
+2026-04-03 19:47:15,817 [INFO] coletor: [ODDS] Odds para Deportivo La Coruña vs Málaga: 1.9, 3.6, 3.7
+2026-04-03 19:47:15,818 [INFO] [ODDS] Odds para Magdeburg vs Bochum: 2.1, 3.6, 3.25
+2026-04-03 19:47:15,818 [INFO] coletor: [ODDS] Odds para Magdeburg vs Bochum: 2.1, 3.6, 3.25
+2026-04-03 19:47:15,818 [INFO] [ODDS] Odds para Bielefeld vs Darmstadt: 2.25, 3.75, 2.87
+2026-04-03 19:47:15,818 [INFO] coletor: [ODDS] Odds para Bielefeld vs Darmstadt: 2.25, 3.75, 2.87
+2026-04-03 19:47:15,819 [INFO] [ODDS] Odds para Kaiserslautern vs Düsseldorf: 2.45, 3.6, 2.62
+2026-04-03 19:47:15,819 [INFO] coletor: [ODDS] Odds para Kaiserslautern vs Düsseldorf: 2.45, 3.6, 2.62
+2026-04-03 19:47:15,819 [INFO] [ODDS] Odds para Dynamo Dresden vs Hertha: 2.62, 3.5, 2.55
+2026-04-03 19:47:15,819 [INFO] coletor: [ODDS] Odds para Dynamo Dresden vs Hertha: 2.62, 3.5, 2.55
+2026-04-03 19:47:15,819 [INFO] [ODDS] Odds para Montpellier vs Troyes: 2.62, 3.2, 2.37
+2026-04-03 19:47:15,819 [INFO] coletor: [ODDS] Odds para Montpellier vs Troyes: 2.62, 3.2, 2.37
+2026-04-03 19:47:15,820 [INFO] [ODDS] Odds para Reims vs Boulogne: 1.5, 3.6, 5.75
+2026-04-03 19:47:15,820 [INFO] coletor: [ODDS] Odds para Reims vs Boulogne: 1.5, 3.6, 5.75
+2026-04-03 19:47:15,820 [INFO] [ODDS] Odds para Nancy vs Saint-Étienne: 3.6, 3.25, 1.85
+2026-04-03 19:47:15,820 [INFO] coletor: [ODDS] Odds para Nancy vs Saint-Étienne: 3.6, 3.25, 1.85
+2026-04-03 19:47:15,821 [INFO] [ODDS] Odds para WSG Tirol vs Wolfsberger: 2.7, 3.4, 2.5
+2026-04-03 19:47:15,821 [INFO] coletor: [ODDS] Odds para WSG Tirol vs Wolfsberger: 2.7, 3.4, 2.5
+2026-04-03 19:47:15,821 [INFO] [ODDS] Odds para Grazer vs BW Linz: 2.4, 3.2, 3.0
+2026-04-03 19:47:15,821 [INFO] coletor: [ODDS] Odds para Grazer vs BW Linz: 2.4, 3.2, 3.0
+2026-04-03 19:47:15,822 [INFO] [ODDS] Odds para Lugano vs Thun: 2.8, 3.6, 2.3
+2026-04-03 19:47:15,822 [INFO] coletor: [ODDS] Odds para Lugano vs Thun: 2.8, 3.6, 2.3
+2026-04-03 19:47:15,822 [INFO] [ODDS] Odds para Lausanne Sport vs Winterthur: 1.45, 4.33, 7.0
+2026-04-03 19:47:15,822 [INFO] coletor: [ODDS] Odds para Lausanne Sport vs Winterthur: 1.45, 4.33, 7.0
+2026-04-03 19:47:15,822 [INFO] [ODDS] Odds para Basel vs Young Boys: 2.5, 3.75, 2.55
+2026-04-03 19:47:15,822 [INFO] coletor: [ODDS] Odds para Basel vs Young Boys: 2.5, 3.75, 2.55
+2026-04-03 19:47:15,823 [INFO] [ODDS] Odds para Midtjylland vs SønderjyskE: 1.48, 4.75, 6.0
+2026-04-03 19:47:15,823 [INFO] coletor: [ODDS] Odds para Midtjylland vs SønderjyskE: 1.48, 4.75, 6.0
+2026-04-03 19:47:15,823 [INFO] [ODDS] Odds para Degerfors vs Sirius: 3.5, 3.5, 2.05
+2026-04-03 19:47:15,823 [INFO] coletor: [ODDS] Odds para Degerfors vs Sirius: 3.5, 3.5, 2.05
+2026-04-03 19:47:15,824 [INFO] [ODDS] Odds para Hammarby vs Mjällby: 2.1, 3.5, 3.3
+2026-04-03 19:47:15,824 [INFO] coletor: [ODDS] Odds para Hammarby vs Mjällby: 2.1, 3.5, 3.3
+2026-04-03 19:47:15,824 [INFO] [ODDS] Odds para Inter Turku vs VPS: 1.4, 4.2, 7.0
+2026-04-03 19:47:15,824 [INFO] coletor: [ODDS] Odds para Inter Turku vs VPS: 1.4, 4.2, 7.0
+2026-04-03 19:47:15,825 [INFO] [ODDS] Odds para HJK vs SJK: 1.57, 4.2, 4.5
+2026-04-03 19:47:15,825 [INFO] coletor: [ODDS] Odds para HJK vs SJK: 1.57, 4.2, 4.5
+2026-04-03 19:47:15,825 [INFO] [ODDS] Odds para Mariehamn vs TPS: 1.8, 3.6, 3.8
+2026-04-03 19:47:15,825 [INFO] coletor: [ODDS] Odds para Mariehamn vs TPS: 1.8, 3.6, 3.8
+2026-04-03 19:47:15,826 [INFO] [ODDS] Odds para Ilves vs KuPS: 2.1, 3.4, 3.0
+2026-04-03 19:47:15,826 [INFO] coletor: [ODDS] Odds para Ilves vs KuPS: 2.1, 3.4, 3.0
+2026-04-03 19:47:15,826 [INFO] [ODDS] Odds para Jaro vs Lahti: 2.45, 3.3, 2.6
+2026-04-03 19:47:15,826 [INFO] coletor: [ODDS] Odds para Jaro vs Lahti: 2.45, 3.3, 2.6
+2026-04-03 19:47:15,826 [INFO] [ODDS] Odds para Gnistan vs Oulu: 2.7, 3.6, 2.2
+2026-04-03 19:47:15,826 [INFO] coletor: [ODDS] Odds para Gnistan vs Oulu: 2.7, 3.6, 2.2
+2026-04-03 19:47:15,827 [INFO] [ODDS] Odds para Aldosivi vs Estudiantes Río Cuarto: 2.1, 3.0, 4.2
+2026-04-03 19:47:15,827 [INFO] coletor: [ODDS] Odds para Aldosivi vs Estudiantes Río Cuarto: 2.1, 3.0, 4.2
+2026-04-03 19:47:15,827 [INFO] [ODDS] Odds para Independiente vs Racing Club: 2.6, 3.0, 2.9
+2026-04-03 19:47:15,827 [INFO] coletor: [ODDS] Odds para Independiente vs Racing Club: 2.6, 3.0, 2.9
+2026-04-03 19:47:15,828 [INFO] [ODDS] Odds para Rosario Central vs Atlético Tucumán: 1.72, 3.5, 5.25
+2026-04-03 19:47:15,828 [INFO] coletor: [ODDS] Odds para Rosario Central vs Atlético Tucumán: 1.72, 3.5, 5.25
+2026-04-03 19:47:15,828 [INFO] [ODDS] Odds para Necaxa vs Mazatlán: 1.61, 4.1, 5.25
+2026-04-03 19:47:15,828 [INFO] coletor: [ODDS] Odds para Necaxa vs Mazatlán: 1.61, 4.1, 5.25
+2026-04-03 19:47:15,829 [INFO] [ODDS] Odds para Tijuana vs Tigres UANL: 4.2, 3.6, 1.9
+2026-04-03 19:47:15,829 [INFO] coletor: [ODDS] Odds para Tijuana vs Tigres UANL: 4.2, 3.6, 1.9
+2026-04-03 19:47:15,829 [INFO] [ODDS] Odds para Monterrey vs Atlético San Luis: 1.57, 4.33, 5.25
+2026-04-03 19:47:15,829 [INFO] coletor: [ODDS] Odds para Monterrey vs Atlético San Luis: 1.57, 4.33, 5.25
+2026-04-03 19:47:15,830 [INFO] [ODDS] Odds para Querétaro vs Toluca: 6.0, 4.2, 1.55
+2026-04-03 19:47:15,830 [INFO] coletor: [ODDS] Odds para Querétaro vs Toluca: 6.0, 4.2, 1.55
+2026-04-03 19:47:15,830 [INFO] [ODDS] Odds para León vs Atlas: 2.25, 3.5, 3.1
+2026-04-03 19:47:15,830 [INFO] coletor: [ODDS] Odds para León vs Atlas: 2.25, 3.5, 3.1
+2026-04-03 19:47:15,830 [INFO] [ODDS] Odds para Cruz Azul vs Pachuca: 1.65, 4.2, 4.75
+2026-04-03 19:47:15,830 [INFO] coletor: [ODDS] Odds para Cruz Azul vs Pachuca: 1.65, 4.2, 4.75
+2026-04-03 19:47:15,831 [INFO] [ODDS] Odds para Kifisia vs Panserraikos: 1.65, 4.0, 4.75
+2026-04-03 19:47:15,831 [INFO] coletor: [ODDS] Odds para Kifisia vs Panserraikos: 1.65, 4.0, 4.75
+2026-04-03 19:47:15,831 [INFO] [ODDS] Odds para Asteras Tripolis vs Larissa: 2.55, 3.1, 3.0
+2026-04-03 19:47:15,831 [INFO] coletor: [ODDS] Odds para Asteras Tripolis vs Larissa: 2.55, 3.1, 3.0
+2026-04-03 19:47:15,832 [INFO] [ODDS] Odds para Panaitolikos vs Atromitos: 2.75, 3.1, 2.62
+2026-04-03 19:47:15,832 [INFO] coletor: [ODDS] Odds para Panaitolikos vs Atromitos: 2.75, 3.1, 2.62
+2026-04-03 19:47:15,832 [INFO] [ODDS] Odds para Qingdao Hainiu vs Henan Songshan Longmen: 4.5, 3.8, 1.75
+2026-04-03 19:47:15,832 [INFO] coletor: [ODDS] Odds para Qingdao Hainiu vs Henan Songshan Longmen: 4.5, 3.8, 1.75
+2026-04-03 19:47:15,833 [INFO] [ODDS] Odds para Shenyang Urban vs Beijing Guoan: 3.4, 3.75, 2.0
+2026-04-03 19:47:15,833 [INFO] coletor: [ODDS] Odds para Shenyang Urban vs Beijing Guoan: 3.4, 3.75, 2.0
+2026-04-03 19:47:15,833 [INFO] [ODDS] Odds para Shandong Taishan vs Dalian Zhixing: 1.45, 4.5, 6.5
+2026-04-03 19:47:15,833 [INFO] coletor: [ODDS] Odds para Shandong Taishan vs Dalian Zhixing: 1.45, 4.5, 6.5
+2026-04-03 19:47:15,833 [INFO] [ODDS] Odds para Shanghai Port vs Yunnan Yukun: 1.66, 4.33, 4.33
+2026-04-03 19:47:15,833 [INFO] coletor: [ODDS] Odds para Shanghai Port vs Yunnan Yukun: 1.66, 4.33, 4.33
+2026-04-03 19:47:15,834 [INFO] [ODDS] Odds para Partizani Tirana vs Vllaznia Shkodër: 3.4, 3.1, 2.0
+2026-04-03 19:47:15,834 [INFO] coletor: [ODDS] Odds para Partizani Tirana vs Vllaznia Shkodër: 3.4, 3.1, 2.0
+2026-04-03 19:47:15,834 [INFO] [ODDS] Odds para Egnatia Rrogozhinë vs Bylis Ballsh: 1.33, 4.0, 8.0
+2026-04-03 19:47:15,834 [INFO] coletor: [ODDS] Odds para Egnatia Rrogozhinë vs Bylis Ballsh: 1.33, 4.0, 8.0
+2026-04-03 19:47:15,835 [INFO] [ODDS] Odds para Dinamo Tirana vs AF Elbasani: 2.25, 3.0, 3.0
+2026-04-03 19:47:15,835 [INFO] coletor: [ODDS] Odds para Dinamo Tirana vs AF Elbasani: 2.25, 3.0, 3.0
+2026-04-03 19:47:15,835 [INFO] [ODDS] Odds para Aue vs Hoffenheim II: 2.25, 3.5, 2.8
+2026-04-03 19:47:15,835 [INFO] coletor: [ODDS] Odds para Aue vs Hoffenheim II: 2.25, 3.5, 2.8
+2026-04-03 19:47:15,836 [INFO] [ODDS] Odds para Osnabrück vs Schweinfurt: 1.3, 4.5, 8.0
+2026-04-03 19:47:15,836 [INFO] coletor: [ODDS] Odds para Osnabrück vs Schweinfurt: 1.3, 4.5, 8.0
+2026-04-03 19:47:15,836 [INFO] [ODDS] Odds para Hansa Rostock vs Viktoria Köln: 1.61, 3.8, 4.5
+2026-04-03 19:47:15,836 [INFO] coletor: [ODDS] Odds para Hansa Rostock vs Viktoria Köln: 1.61, 3.8, 4.5
+2026-04-03 19:47:15,837 [INFO] [ODDS] Odds para 1860 München vs Waldhof Mannheim: 1.9, 3.5, 3.5
+2026-04-03 19:47:15,837 [INFO] coletor: [ODDS] Odds para 1860 München vs Waldhof Mannheim: 1.9, 3.5, 3.5
+2026-04-03 19:47:15,837 [INFO] [ODDS] Odds para Havelse vs Energie Cottbus: 5.25, 4.75, 1.44
+2026-04-03 19:47:15,837 [INFO] coletor: [ODDS] Odds para Havelse vs Energie Cottbus: 5.25, 4.75, 1.44
+2026-04-03 19:47:15,837 [INFO] [ODDS] Odds para Rot-Weiss Essen vs MSV Duisburg: 1.83, 3.7, 3.6
+2026-04-03 19:47:15,837 [INFO] coletor: [ODDS] Odds para Rot-Weiss Essen vs MSV Duisburg: 1.83, 3.7, 3.6
+2026-04-03 19:47:15,838 [INFO] [ODDS] Odds para Stuttgart II vs Regensburg: 2.2, 3.6, 2.8
+2026-04-03 19:47:15,838 [INFO] coletor: [ODDS] Odds para Stuttgart II vs Regensburg: 2.2, 3.6, 2.8
+2026-04-03 19:47:15,838 [INFO] [ODDS] Odds para Al Ahli vs Damac: 1.22, 6.0, 9.5
+2026-04-03 19:47:15,838 [INFO] coletor: [ODDS] Odds para Al Ahli vs Damac: 1.22, 6.0, 9.5
+2026-04-03 19:47:15,839 [INFO] [ODDS] Odds para Al Suqoor vs Al Feiha: 1.95, 3.25, 3.7
+2026-04-03 19:47:15,839 [INFO] coletor: [ODDS] Odds para Al Suqoor vs Al Feiha: 1.95, 3.25, 3.7
+2026-04-03 19:47:15,839 [INFO] [ODDS] Odds para Al Hilal vs Al Taawoun: 1.2, 5.5, 11.0
+2026-04-03 19:47:15,839 [INFO] coletor: [ODDS] Odds para Al Hilal vs Al Taawoun: 1.2, 5.5, 11.0
+2026-04-03 19:47:15,839 [INFO] [ODDS] Odds para All Boys vs Ferro Carril Oeste: 2.15, 2.8, 4.1
+2026-04-03 19:47:15,839 [INFO] coletor: [ODDS] Odds para All Boys vs Ferro Carril Oeste: 2.15, 2.8, 4.1
+2026-04-03 19:47:15,840 [INFO] [ODDS] Odds para Midland vs Temperley: 2.0, 2.87, 4.75
+2026-04-03 19:47:15,840 [INFO] coletor: [ODDS] Odds para Midland vs Temperley: 2.0, 2.87, 4.75
+2026-04-03 19:47:15,840 [INFO] [ODDS] Odds para Colegiales vs Almagro: 2.3, 2.7, 3.6
+2026-04-03 19:47:15,840 [INFO] coletor: [ODDS] Odds para Colegiales vs Almagro: 2.3, 2.7, 3.6
+2026-04-03 19:47:15,841 [INFO] [ODDS] Odds para Agropecuario vs Tristán Suárez: 2.05, 2.9, 4.33
+2026-04-03 19:47:15,841 [INFO] coletor: [ODDS] Odds para Agropecuario vs Tristán Suárez: 2.05, 2.9, 4.33
+2026-04-03 19:47:15,841 [INFO] [ODDS] Odds para Estudiantes Caseros vs Central Norte: 1.83, 3.0, 5.5
+2026-04-03 19:47:15,841 [INFO] coletor: [ODDS] Odds para Estudiantes Caseros vs Central Norte: 1.83, 3.0, 5.5
+2026-04-03 19:47:15,842 [INFO] [ODDS] Odds para Godoy Cruz vs Acassuso: 1.57, 3.75, 6.5
+2026-04-03 19:47:15,842 [INFO] coletor: [ODDS] Odds para Godoy Cruz vs Acassuso: 1.57, 3.75, 6.5
+2026-04-03 19:47:15,842 [INFO] [ODDS] Odds para San Martín Tucumán vs Chacarita Juniors: 1.85, 3.0, 5.25
+2026-04-03 19:47:15,842 [INFO] coletor: [ODDS] Odds para San Martín Tucumán vs Chacarita Juniors: 1.85, 3.0, 5.25
+2026-04-03 19:47:15,843 [WARNING] [ODDS] Odds não encontradas para Colón vs San Miguel. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,843 [WARNING] coletor: [ODDS] Odds não encontradas para Colón vs San Miguel. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,843 [INFO] [ODDS] Odds para Ararat vs Van: 2.25, 3.3, 2.7
+2026-04-03 19:47:15,843 [INFO] coletor: [ODDS] Odds para Ararat vs Van: 2.25, 3.3, 2.7
+2026-04-03 19:47:15,843 [INFO] [ODDS] Odds para Central Coast Mariners vs Perth Glory: 2.5, 3.5, 2.7
+2026-04-03 19:47:15,843 [INFO] coletor: [ODDS] Odds para Central Coast Mariners vs Perth Glory: 2.5, 3.5, 2.7
+2026-04-03 19:47:15,844 [INFO] [ODDS] Odds para Melbourne City vs Western Sydney Wanderers: 1.9, 3.8, 3.7
+2026-04-03 19:47:15,844 [INFO] coletor: [ODDS] Odds para Melbourne City vs Western Sydney Wanderers: 1.9, 3.8, 3.7
+2026-04-03 19:47:15,844 [WARNING] [ODDS] Odds não encontradas para RSC Anderlecht II vs Waasland-Beveren. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,844 [WARNING] coletor: [ODDS] Odds não encontradas para RSC Anderlecht II vs Waasland-Beveren. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,845 [INFO] [ODDS] Odds para Lommel United vs RWDM: 1.65, 3.7, 4.33
+2026-04-03 19:47:15,845 [INFO] coletor: [ODDS] Odds para Lommel United vs RWDM: 1.65, 3.7, 4.33
+2026-04-03 19:47:15,845 [WARNING] [ODDS] Odds não encontradas para Lierse Kempenzonen vs Francs Borains. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,845 [WARNING] coletor: [ODDS] Odds não encontradas para Lierse Kempenzonen vs Francs Borains. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,846 [INFO] [ODDS] Odds para Club Brugge II vs Eupen: 3.4, 3.4, 1.9
+2026-04-03 19:47:15,846 [INFO] coletor: [ODDS] Odds para Club Brugge II vs Eupen: 3.4, 3.4, 1.9
+2026-04-03 19:47:15,846 [INFO] [ODDS] Odds para Always Ready vs Real Tomayapo: 1.14, 7.0, 13.0
+2026-04-03 19:47:15,846 [INFO] coletor: [ODDS] Odds para Always Ready vs Real Tomayapo: 1.14, 7.0, 13.0
+2026-04-03 19:47:15,846 [INFO] [ODDS] Odds para Real Potosí vs Aurora: 1.95, 3.3, 3.5
+2026-04-03 19:47:15,846 [INFO] coletor: [ODDS] Odds para Real Potosí vs Aurora: 1.95, 3.3, 3.5
+2026-04-03 19:47:15,847 [INFO] [ODDS] Odds para San Antonio Bulo Bulo vs Oriente Petrolero: 1.7, 4.0, 4.0
+2026-04-03 19:47:15,847 [INFO] coletor: [ODDS] Odds para San Antonio Bulo Bulo vs Oriente Petrolero: 1.7, 4.0, 4.0
+2026-04-03 19:47:15,847 [INFO] [ODDS] Odds para Fortaleza vs Juventude: 1.8, 3.3, 4.75
+2026-04-03 19:47:15,847 [INFO] coletor: [ODDS] Odds para Fortaleza vs Juventude: 1.8, 3.3, 4.75
+2026-04-03 19:47:15,848 [INFO] [ODDS] Odds para Cuiabá vs Ceará: 2.87, 3.1, 2.55
+2026-04-03 19:47:15,848 [INFO] coletor: [ODDS] Odds para Cuiabá vs Ceará: 2.87, 3.1, 2.55
+2026-04-03 19:47:15,848 [INFO] [ODDS] Odds para Náutico vs Ponte Preta: 1.72, 3.4, 5.25
+2026-04-03 19:47:15,848 [INFO] coletor: [ODDS] Odds para Náutico vs Ponte Preta: 1.72, 3.4, 5.25
+2026-04-03 19:47:15,849 [INFO] [ODDS] Odds para Vila Nova vs Atlético GO: 2.1, 3.1, 3.75
+2026-04-03 19:47:15,849 [INFO] coletor: [ODDS] Odds para Vila Nova vs Atlético GO: 2.1, 3.1, 3.75
+2026-04-03 19:47:15,849 [INFO] [ODDS] Odds para Londrina vs Sport Recife: 2.35, 3.1, 3.2
+2026-04-03 19:47:15,849 [INFO] coletor: [ODDS] Odds para Londrina vs Sport Recife: 2.35, 3.1, 3.2
+2026-04-03 19:47:15,849 [INFO] [ODDS] Odds para Maranhão vs Guarani: 2.9, 3.4, 2.1
+2026-04-03 19:47:15,849 [INFO] coletor: [ODDS] Odds para Maranhão vs Guarani: 2.9, 3.4, 2.1
+2026-04-03 19:47:15,850 [INFO] [ODDS] Odds para Brusque vs Caxias: 2.3, 2.87, 3.0
+2026-04-03 19:47:15,850 [INFO] coletor: [ODDS] Odds para Brusque vs Caxias: 2.3, 2.87, 3.0
+2026-04-03 19:47:15,850 [INFO] [ODDS] Odds para Botafogo PB vs Barra FC: 2.4, 3.1, 2.7
+2026-04-03 19:47:15,850 [INFO] coletor: [ODDS] Odds para Botafogo PB vs Barra FC: 2.4, 3.1, 2.7
+2026-04-03 19:47:15,851 [INFO] [ODDS] Odds para Maringá vs Ferroviária: 1.48, 3.6, 6.25
+2026-04-03 19:47:15,851 [INFO] coletor: [ODDS] Odds para Maringá vs Ferroviária: 1.48, 3.6, 6.25
+2026-04-03 19:47:15,851 [INFO] [ODDS] Odds para Arda vs Montana: 1.45, 3.9, 8.0
+2026-04-03 19:47:15,851 [INFO] coletor: [ODDS] Odds para Arda vs Montana: 1.45, 3.9, 8.0
+2026-04-03 19:47:15,852 [INFO] [ODDS] Odds para Botev Plovdiv vs Spartak Varna: 1.42, 4.2, 8.5
+2026-04-03 19:47:15,852 [INFO] coletor: [ODDS] Odds para Botev Plovdiv vs Spartak Varna: 1.42, 4.2, 8.5
+2026-04-03 19:47:15,852 [INFO] [ODDS] Odds para Beroe vs CSKA Sofia: 10.0, 4.33, 1.36
+2026-04-03 19:47:15,852 [INFO] coletor: [ODDS] Odds para Beroe vs CSKA Sofia: 10.0, 4.33, 1.36
+2026-04-03 19:47:15,852 [INFO] [ODDS] Odds para Deportes Limache vs Unión La Calera: 1.85, 3.5, 3.75
+2026-04-03 19:47:15,852 [INFO] coletor: [ODDS] Odds para Deportes Limache vs Unión La Calera: 1.85, 3.5, 3.75
+2026-04-03 19:47:15,853 [INFO] [ODDS] Odds para Everton vs Ñublense: 2.6, 3.2, 2.62
+2026-04-03 19:47:15,853 [INFO] coletor: [ODDS] Odds para Everton vs Ñublense: 2.6, 3.2, 2.62
+2026-04-03 19:47:15,853 [INFO] [ODDS] Odds para Deportes Tolima vs Santa Fe: 1.95, 3.1, 4.2
+2026-04-03 19:47:15,853 [INFO] coletor: [ODDS] Odds para Deportes Tolima vs Santa Fe: 1.95, 3.1, 4.2
+2026-04-03 19:47:15,854 [INFO] [ODDS] Odds para Jeju United vs Bucheon 1995: 2.25, 3.2, 3.2
+2026-04-03 19:47:15,854 [INFO] coletor: [ODDS] Odds para Jeju United vs Bucheon 1995: 2.25, 3.2, 3.2
+2026-04-03 19:47:15,854 [INFO] [ODDS] Odds para Jeonbuk Motors vs Ulsan: 2.1, 3.3, 3.4
+2026-04-03 19:47:15,854 [INFO] coletor: [ODDS] Odds para Jeonbuk Motors vs Ulsan: 2.1, 3.3, 3.4
+2026-04-03 19:47:15,854 [INFO] [ODDS] Odds para Pohang Steelers vs Daejeon Citizen: 2.8, 3.0, 2.45
+2026-04-03 19:47:15,854 [INFO] coletor: [ODDS] Odds para Pohang Steelers vs Daejeon Citizen: 2.8, 3.0, 2.45
+2026-04-03 19:47:15,855 [INFO] [ODDS] Odds para Gangwon vs Gwangju: 1.57, 3.4, 6.25
+2026-04-03 19:47:15,855 [INFO] coletor: [ODDS] Odds para Gangwon vs Gwangju: 1.57, 3.4, 6.25
+2026-04-03 19:47:15,855 [INFO] [ODDS] Odds para Seoul E. vs Suwon: 2.62, 3.1, 2.4
+2026-04-03 19:47:15,855 [INFO] coletor: [ODDS] Odds para Seoul E. vs Suwon: 2.62, 3.1, 2.4
+2026-04-03 19:47:15,856 [INFO] [ODDS] Odds para Yongin City vs Jeonnam Dragons: 3.3, 3.2, 1.95
+2026-04-03 19:47:15,856 [INFO] coletor: [ODDS] Odds para Yongin City vs Jeonnam Dragons: 3.3, 3.2, 1.95
+2026-04-03 19:47:15,856 [INFO] [ODDS] Odds para Hwaseong vs Seongnam: 2.87, 2.75, 2.45
+2026-04-03 19:47:15,856 [INFO] coletor: [ODDS] Odds para Hwaseong vs Seongnam: 2.87, 2.75, 2.45
+2026-04-03 19:47:15,856 [INFO] [ODDS] Odds para Gyeongnam vs Busan I'Park: 3.8, 3.0, 1.9
+2026-04-03 19:47:15,856 [INFO] coletor: [ODDS] Odds para Gyeongnam vs Busan I'Park: 3.8, 3.0, 1.9
+2026-04-03 19:47:15,857 [INFO] [ODDS] Odds para Dinamo Zagreb vs Osijek: 1.2, 6.0, 10.0
+2026-04-03 19:47:15,857 [INFO] coletor: [ODDS] Odds para Dinamo Zagreb vs Osijek: 1.2, 6.0, 10.0
+2026-04-03 19:47:15,857 [INFO] [ODDS] Odds para Slaven Koprivnica vs Rijeka: 3.0, 3.0, 2.25
+2026-04-03 19:47:15,857 [INFO] coletor: [ODDS] Odds para Slaven Koprivnica vs Rijeka: 3.0, 3.0, 2.25
+2026-04-03 19:47:15,858 [INFO] [ODDS] Odds para Middelfart vs AaB: 4.33, 3.8, 1.72
+2026-04-03 19:47:15,858 [INFO] coletor: [ODDS] Odds para Middelfart vs AaB: 4.33, 3.8, 1.72
+2026-04-03 19:47:15,858 [INFO] [ODDS] Odds para Horsens vs Lyngby: 3.2, 3.25, 2.2
+2026-04-03 19:47:15,858 [INFO] coletor: [ODDS] Odds para Horsens vs Lyngby: 3.2, 3.25, 2.2
+2026-04-03 19:47:15,859 [INFO] [ODDS] Odds para Pharco vs Ghazl El Mehalla: 2.5, 2.7, 2.9
+2026-04-03 19:47:15,859 [INFO] coletor: [ODDS] Odds para Pharco vs Ghazl El Mehalla: 2.5, 2.7, 2.9
+2026-04-03 19:47:15,859 [INFO] [ODDS] Odds para El Gounah vs Al Ittihad: 2.7, 2.62, 2.7
+2026-04-03 19:47:15,859 [INFO] coletor: [ODDS] Odds para El Gounah vs Al Ittihad: 2.7, 2.62, 2.7
+2026-04-03 19:47:15,859 [INFO] [ODDS] Odds para Future FC vs Wadi Degla: 2.62, 2.8, 2.62
+2026-04-03 19:47:15,859 [INFO] coletor: [ODDS] Odds para Future FC vs Wadi Degla: 2.62, 2.8, 2.62
+2026-04-03 19:47:15,860 [INFO] [ODDS] Odds para Independiente del Valle vs Orense: 1.28, 4.75, 10.0
+2026-04-03 19:47:15,860 [INFO] coletor: [ODDS] Odds para Independiente del Valle vs Orense: 1.28, 4.75, 10.0
+2026-04-03 19:47:15,860 [INFO] [ODDS] Odds para Universidad Católica vs Guayaquil City: 1.4, 4.33, 7.5
+2026-04-03 19:47:15,860 [INFO] coletor: [ODDS] Odds para Universidad Católica vs Guayaquil City: 1.4, 4.33, 7.5
+2026-04-03 19:47:15,861 [INFO] [ODDS] Odds para Emelec vs Deportivo Cuenca: 1.83, 3.3, 4.1
+2026-04-03 19:47:15,861 [INFO] coletor: [ODDS] Odds para Emelec vs Deportivo Cuenca: 1.83, 3.3, 4.1
+2026-04-03 19:47:15,861 [INFO] [ODDS] Odds para Ross County vs Airdrieonians: 1.8, 3.3, 3.9
+2026-04-03 19:47:15,861 [INFO] coletor: [ODDS] Odds para Ross County vs Airdrieonians: 1.8, 3.3, 3.9
+2026-04-03 19:47:15,861 [INFO] [ODDS] Odds para Dunfermline Athletic vs Greenock Morton: 1.8, 3.25, 4.2
+2026-04-03 19:47:15,861 [INFO] coletor: [ODDS] Odds para Dunfermline Athletic vs Greenock Morton: 1.8, 3.25, 4.2
+2026-04-03 19:47:15,862 [INFO] [ODDS] Odds para Arbroath vs St. Johnstone: 4.5, 3.3, 1.7
+2026-04-03 19:47:15,862 [INFO] coletor: [ODDS] Odds para Arbroath vs St. Johnstone: 4.5, 3.3, 1.7
+2026-04-03 19:47:15,862 [INFO] [ODDS] Odds para Ayr United vs Partick Thistle: 2.8, 3.3, 2.15
+2026-04-03 19:47:15,862 [INFO] coletor: [ODDS] Odds para Ayr United vs Partick Thistle: 2.8, 3.3, 2.15
+2026-04-03 19:47:15,863 [INFO] [ODDS] Odds para Stenhousemuir vs Hamilton Academical: 1.61, 3.6, 4.75
+2026-04-03 19:47:15,863 [INFO] coletor: [ODDS] Odds para Stenhousemuir vs Hamilton Academical: 1.61, 3.6, 4.75
+2026-04-03 19:47:15,863 [INFO] [ODDS] Odds para Montrose vs East Fife: 1.75, 3.75, 3.7
+2026-04-03 19:47:15,863 [INFO] coletor: [ODDS] Odds para Montrose vs East Fife: 1.75, 3.75, 3.7
+2026-04-03 19:47:15,864 [INFO] [ODDS] Odds para Cove Rangers vs Alloa Athletic: 2.4, 3.25, 2.55
+2026-04-03 19:47:15,864 [INFO] coletor: [ODDS] Odds para Cove Rangers vs Alloa Athletic: 2.4, 3.25, 2.55
+2026-04-03 19:47:15,864 [INFO] [ODDS] Odds para Kelty Hearts vs Queen of the South: 4.5, 3.6, 1.65
+2026-04-03 19:47:15,864 [INFO] coletor: [ODDS] Odds para Kelty Hearts vs Queen of the South: 4.5, 3.6, 1.65
+2026-04-03 19:47:15,864 [INFO] [ODDS] Odds para East Kilbride vs Annan Athletic: 1.66, 3.9, 3.8
+2026-04-03 19:47:15,864 [INFO] coletor: [ODDS] Odds para East Kilbride vs Annan Athletic: 1.66, 3.9, 3.8
+2026-04-03 19:47:15,865 [INFO] [ODDS] Odds para Forfar Athletic vs Elgin City: 2.25, 3.25, 2.75
+2026-04-03 19:47:15,865 [INFO] coletor: [ODDS] Odds para Forfar Athletic vs Elgin City: 2.25, 3.25, 2.75
+2026-04-03 19:47:15,865 [INFO] [ODDS] Odds para Edinburgh City vs Spartans: 4.75, 3.7, 1.57
+2026-04-03 19:47:15,865 [INFO] coletor: [ODDS] Odds para Edinburgh City vs Spartans: 4.75, 3.7, 1.57
+2026-04-03 19:47:15,866 [INFO] [ODDS] Odds para Clyde vs Stirling Albion: 1.5, 4.0, 5.0
+2026-04-03 19:47:15,866 [INFO] coletor: [ODDS] Odds para Clyde vs Stirling Albion: 1.5, 4.0, 5.0
+2026-04-03 19:47:15,866 [INFO] [ODDS] Odds para Stranraer vs Dumbarton: 2.15, 3.4, 2.8
+2026-04-03 19:47:15,866 [INFO] coletor: [ODDS] Odds para Stranraer vs Dumbarton: 2.15, 3.4, 2.8
+2026-04-03 19:47:15,867 [INFO] [ODDS] Odds para Zemplín Michalovce vs Žilina: 3.7, 3.9, 1.9
+2026-04-03 19:47:15,867 [INFO] coletor: [ODDS] Odds para Zemplín Michalovce vs Žilina: 3.7, 3.9, 1.9
+2026-04-03 19:47:15,867 [INFO] [ODDS] Odds para Tatran Prešov vs Ružomberok: 2.0, 3.4, 3.75
+2026-04-03 19:47:15,867 [INFO] coletor: [ODDS] Odds para Tatran Prešov vs Ružomberok: 2.0, 3.4, 3.75
+2026-04-03 19:47:15,867 [INFO] [ODDS] Odds para FK Košice vs Skalica: 1.8, 3.6, 4.33
+2026-04-03 19:47:15,867 [INFO] coletor: [ODDS] Odds para FK Košice vs Skalica: 1.8, 3.6, 4.33
+2026-04-03 19:47:15,868 [INFO] [ODDS] Odds para Dunajská Streda vs Slovan Bratislava: 2.35, 3.3, 3.0
+2026-04-03 19:47:15,868 [INFO] coletor: [ODDS] Odds para Dunajská Streda vs Slovan Bratislava: 2.35, 3.3, 3.0
+2026-04-03 19:47:15,868 [INFO] [ODDS] Odds para Mura vs Olimpija: 3.7, 3.25, 1.9
+2026-04-03 19:47:15,868 [INFO] coletor: [ODDS] Odds para Mura vs Olimpija: 3.7, 3.25, 1.9
+2026-04-03 19:47:15,869 [INFO] [ODDS] Odds para Bravo vs Koper: 3.0, 3.6, 2.0
+2026-04-03 19:47:15,869 [INFO] coletor: [ODDS] Odds para Bravo vs Koper: 3.0, 3.6, 2.0
+2026-04-03 19:47:15,869 [INFO] [ODDS] Odds para Celje vs Maribor: 2.0, 3.7, 2.9
+2026-04-03 19:47:15,869 [INFO] coletor: [ODDS] Odds para Celje vs Maribor: 2.0, 3.7, 2.9
+2026-04-03 19:47:15,869 [INFO] [ODDS] Odds para Levadia vs Nõmme United: 1.16, 7.0, 12.0
+2026-04-03 19:47:15,869 [INFO] coletor: [ODDS] Odds para Levadia vs Nõmme United: 1.16, 7.0, 12.0
+2026-04-03 19:47:15,870 [INFO] [ODDS] Odds para Vaprus vs Harju Jalgpallikool: 2.3, 3.6, 2.5
+2026-04-03 19:47:15,870 [INFO] coletor: [ODDS] Odds para Vaprus vs Harju Jalgpallikool: 2.3, 3.6, 2.5
+2026-04-03 19:47:15,870 [INFO] [ODDS] Odds para Zalaegerszegi TE vs Várda SE: 1.95, 3.2, 3.4
+2026-04-03 19:47:15,870 [INFO] coletor: [ODDS] Odds para Zalaegerszegi TE vs Várda SE: 1.95, 3.2, 3.4
+2026-04-03 19:47:15,871 [INFO] [ODDS] Odds para Paksi SE vs Kazincbarcika: 1.3, 4.5, 7.0
+2026-04-03 19:47:15,871 [INFO] coletor: [ODDS] Odds para Paksi SE vs Kazincbarcika: 1.3, 4.5, 7.0
+2026-04-03 19:47:15,871 [INFO] [ODDS] Odds para Újpest vs MTK: 2.0, 3.3, 3.1
+2026-04-03 19:47:15,871 [INFO] coletor: [ODDS] Odds para Újpest vs MTK: 2.0, 3.3, 3.1
+2026-04-03 19:47:15,872 [INFO] [ODDS] Odds para Glenavon vs Portadown: 2.25, 3.0, 3.0
+2026-04-03 19:47:15,872 [INFO] coletor: [ODDS] Odds para Glenavon vs Portadown: 2.25, 3.0, 3.0
+2026-04-03 19:47:15,872 [INFO] [ODDS] Odds para Ballymena United vs Bangor: 1.72, 3.5, 3.9
+2026-04-03 19:47:15,872 [INFO] coletor: [ODDS] Odds para Ballymena United vs Bangor: 1.72, 3.5, 3.9
+2026-04-03 19:47:15,872 [INFO] [ODDS] Odds para Maccabi Bnei Raina vs Hapoel Katamon: 3.6, 3.2, 2.0
+2026-04-03 19:47:15,872 [INFO] coletor: [ODDS] Odds para Maccabi Bnei Raina vs Hapoel Katamon: 3.6, 3.2, 2.0
+2026-04-03 19:47:15,873 [INFO] [ODDS] Odds para Ironi Kiryat Shmona vs Bnei Sakhnin: 2.05, 3.2, 3.4
+2026-04-03 19:47:15,873 [INFO] coletor: [ODDS] Odds para Ironi Kiryat Shmona vs Bnei Sakhnin: 2.05, 3.2, 3.4
+2026-04-03 19:47:15,873 [INFO] [ODDS] Odds para Hapoel Be'er Sheva vs Hapoel Petah Tikva: 1.3, 5.0, 8.0
+2026-04-03 19:47:15,873 [INFO] coletor: [ODDS] Odds para Hapoel Be'er Sheva vs Hapoel Petah Tikva: 1.3, 5.0, 8.0
+2026-04-03 19:47:15,874 [INFO] [ODDS] Odds para Beitar Jerusalem vs Ironi Tiberias: 1.28, 5.0, 9.0
+2026-04-03 19:47:15,874 [INFO] coletor: [ODDS] Odds para Beitar Jerusalem vs Ironi Tiberias: 1.28, 5.0, 9.0
+2026-04-03 19:47:15,874 [INFO] [ODDS] Odds para Hegelmann Litauen vs TransINVEST Vilnius: 2.9, 3.2, 2.2
+2026-04-03 19:47:15,874 [INFO] coletor: [ODDS] Odds para Hegelmann Litauen vs TransINVEST Vilnius: 2.9, 3.2, 2.2
+2026-04-03 19:47:15,874 [INFO] [ODDS] Odds para FA Šiauliai vs Banga: 2.7, 3.1, 2.37
+2026-04-03 19:47:15,874 [INFO] coletor: [ODDS] Odds para FA Šiauliai vs Banga: 2.7, 3.1, 2.37
+2026-04-03 19:47:15,875 [INFO] [ODDS] Odds para Olimpia vs Nacional Asunción: 1.95, 3.1, 3.7
+2026-04-03 19:47:15,875 [INFO] coletor: [ODDS] Odds para Olimpia vs Nacional Asunción: 1.95, 3.1, 3.7
+2026-04-03 19:47:15,875 [INFO] [ODDS] Odds para Cerro Porteño vs 2 de Mayo: 1.5, 3.6, 7.0
+2026-04-03 19:47:15,875 [INFO] coletor: [ODDS] Odds para Cerro Porteño vs 2 de Mayo: 1.5, 3.6, 7.0
+2026-04-03 19:47:15,876 [INFO] [ODDS] Odds para Deportivo Recoleta vs Sportivo San Lorenzo: 2.05, 3.2, 3.5
+2026-04-03 19:47:15,876 [INFO] coletor: [ODDS] Odds para Deportivo Recoleta vs Sportivo San Lorenzo: 2.05, 3.2, 3.5
+2026-04-03 19:47:15,876 [INFO] [ODDS] Odds para Deportivo Garcilaso vs Sport Boys: 1.57, 3.5, 6.0
+2026-04-03 19:47:15,876 [INFO] coletor: [ODDS] Odds para Deportivo Garcilaso vs Sport Boys: 1.57, 3.5, 6.0
+2026-04-03 19:47:15,877 [INFO] [ODDS] Odds para Melgar vs Cusco FC: 1.7, 3.6, 4.5
+2026-04-03 19:47:15,877 [INFO] coletor: [ODDS] Odds para Melgar vs Cusco FC: 1.7, 3.6, 4.5
+2026-04-03 19:47:15,877 [INFO] [ODDS] Odds para Universitario vs Alianza Lima: 2.1, 2.9, 3.4
+2026-04-03 19:47:15,877 [INFO] coletor: [ODDS] Odds para Universitario vs Alianza Lima: 2.1, 2.9, 3.4
+2026-04-03 19:47:15,877 [INFO] [ODDS] Odds para Katowice vs Wisła Płock: 1.85, 3.4, 3.75
+2026-04-03 19:47:15,877 [INFO] coletor: [ODDS] Odds para Katowice vs Wisła Płock: 1.85, 3.4, 3.75
+2026-04-03 19:47:15,878 [INFO] [ODDS] Odds para Raków Częstochowa vs Widzew Lodz: 2.05, 3.1, 3.5
+2026-04-03 19:47:15,878 [INFO] coletor: [ODDS] Odds para Raków Częstochowa vs Widzew Lodz: 2.05, 3.1, 3.5
+2026-04-03 19:47:15,878 [INFO] [ODDS] Odds para Górnik Zabrze vs Cracovia Kraków: 1.85, 3.2, 4.2
+2026-04-03 19:47:15,878 [INFO] coletor: [ODDS] Odds para Górnik Zabrze vs Cracovia Kraków: 1.85, 3.2, 4.2
+2026-04-03 19:47:15,879 [INFO] [ODDS] Odds para Jagiellonia Białystok vs Lech Poznań: 2.5, 3.6, 2.5
+2026-04-03 19:47:15,879 [INFO] coletor: [ODDS] Odds para Jagiellonia Białystok vs Lech Poznań: 2.5, 3.6, 2.5
+2026-04-03 19:47:15,879 [INFO] [ODDS] Odds para Farense vs Feirense: 2.05, 2.9, 3.6
+2026-04-03 19:47:15,879 [INFO] coletor: [ODDS] Odds para Farense vs Feirense: 2.05, 2.9, 3.6
+2026-04-03 19:47:15,880 [INFO] [ODDS] Odds para Sporting CP II vs Penafiel: 2.05, 3.2, 3.2
+2026-04-03 19:47:15,880 [INFO] coletor: [ODDS] Odds para Sporting CP II vs Penafiel: 2.05, 3.2, 3.2
+2026-04-03 19:47:15,880 [INFO] [ODDS] Odds para Ferreira vs Marítimo: 4.33, 3.1, 1.75
+2026-04-03 19:47:15,880 [INFO] coletor: [ODDS] Odds para Ferreira vs Marítimo: 4.33, 3.1, 1.75
+2026-04-03 19:47:15,880 [INFO] [ODDS] Odds para Academico Viseu vs Felgueiras 1932: 1.9, 3.2, 3.6
+2026-04-03 19:47:15,880 [INFO] coletor: [ODDS] Odds para Academico Viseu vs Felgueiras 1932: 1.9, 3.2, 3.6
+2026-04-03 19:47:15,881 [INFO] [ODDS] Odds para Otelul vs Hermannstadt: 2.45, 3.1, 2.62
+2026-04-03 19:47:15,881 [INFO] coletor: [ODDS] Odds para Otelul vs Hermannstadt: 2.45, 3.1, 2.62
+2026-04-03 19:47:15,881 [INFO] [ODDS] Odds para Argeş vs Dinamo Bucureşti: 3.1, 2.75, 2.3
+2026-04-03 19:47:15,881 [INFO] coletor: [ODDS] Odds para Argeş vs Dinamo Bucureşti: 3.1, 2.75, 2.3
+2026-04-03 19:47:15,882 [INFO] [ODDS] Odds para Železničar Pančevo vs Novi Pazar: 2.25, 3.3, 3.0
+2026-04-03 19:47:15,882 [INFO] coletor: [ODDS] Odds para Železničar Pančevo vs Novi Pazar: 2.25, 3.3, 3.0
+2026-04-03 19:47:15,882 [INFO] [ODDS] Odds para Radnički Kragujevac vs Mladost Lučani: 1.7, 3.6, 4.75
+2026-04-03 19:47:15,882 [INFO] coletor: [ODDS] Odds para Radnički Kragujevac vs Mladost Lučani: 1.7, 3.6, 4.75
+2026-04-03 19:47:15,883 [INFO] [ODDS] Odds para Spartak Subotica vs Javor Ivanjica: 2.62, 3.0, 2.75
+2026-04-03 19:47:15,883 [INFO] coletor: [ODDS] Odds para Spartak Subotica vs Javor Ivanjica: 2.62, 3.0, 2.75
+2026-04-03 19:47:15,883 [INFO] [ODDS] Odds para IMT Novi Beograd vs Vojvodina: 4.5, 4.0, 1.66
+2026-04-03 19:47:15,883 [INFO] coletor: [ODDS] Odds para IMT Novi Beograd vs Vojvodina: 4.5, 4.0, 1.66
+2026-04-03 19:47:15,883 [INFO] [ODDS] Odds para Norrköping vs Värnamo: 2.0, 3.6, 3.1
+2026-04-03 19:47:15,883 [INFO] coletor: [ODDS] Odds para Norrköping vs Värnamo: 2.0, 3.6, 3.1
+2026-04-03 19:47:15,884 [INFO] [ODDS] Odds para Racing vs Juventud: 1.8, 3.1, 4.0
+2026-04-03 19:47:15,884 [INFO] coletor: [ODDS] Odds para Racing vs Juventud: 1.8, 3.1, 4.0
+2026-04-03 19:47:15,884 [INFO] [ODDS] Odds para Danubio vs Torque: 2.62, 2.9, 2.45
+2026-04-03 19:47:15,884 [INFO] coletor: [ODDS] Odds para Danubio vs Torque: 2.62, 2.9, 2.45
+2026-04-03 19:47:15,885 [INFO] [ODDS] Odds para Progreso vs Peñarol: 7.0, 3.6, 1.42
+2026-04-03 19:47:15,885 [INFO] coletor: [ODDS] Odds para Progreso vs Peñarol: 7.0, 3.6, 1.42
+2026-04-03 19:47:15,885 [INFO] [ODDS] Odds para Rayo Zuliano vs Trujillanos: 1.9, 3.5, 3.3
+2026-04-03 19:47:15,885 [INFO] coletor: [ODDS] Odds para Rayo Zuliano vs Trujillanos: 1.9, 3.5, 3.3
+2026-04-03 19:47:15,886 [INFO] [ODDS] Odds para Zamora Fútbol Club vs Monagas: 1.95, 3.3, 3.3
+2026-04-03 19:47:15,886 [INFO] coletor: [ODDS] Odds para Zamora Fútbol Club vs Monagas: 1.95, 3.3, 3.3
+2026-04-03 19:47:15,886 [WARNING] [ODDS] Odds não encontradas para Academia Puerto Cabello vs Deportivo Táchira. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,886 [WARNING] coletor: [ODDS] Odds não encontradas para Academia Puerto Cabello vs Deportivo Táchira. Motivo: could not convert string to float: '-'
+2026-04-03 19:47:15,888 [INFO] [AGENDA] Válidos=226, Incompletos=0, Filtrados=375, Duplicados=0
+2026-04-03 19:47:15,888 [INFO] coletor: [AGENDA] Válidos=226, Incompletos=0, Filtrados=375, Duplicados=0
+2026-04-03 19:47:15,888 [INFO] __main__: [TEMPO] Fase 1 concluída em 7.04s
+2026-04-03 19:47:15,906 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-04.csv (222 linhas).
+2026-04-03 19:51:16,104 [INFO] __main__: [TEMPO] Fase 2 concluída em 240.20s (links extraídos: 444)
+2026-04-03 20:14:02,116 [INFO] __main__: [TEMPO] Fase 3 concluída em 1366.01s (jogos raspados: 657)
+2026-04-03 20:14:02,408 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (253 linhas).
+2026-04-03 20:14:02,687 [INFO] __main__: Exportado histórico para dados_redscore.csv (20054 linhas)
+2026-04-03 20:14:03,638 [INFO] __main__: --- Rotina concluída em 1638.37s ---

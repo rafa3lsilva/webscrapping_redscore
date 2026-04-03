@@ -19800,3 +19800,256 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-03-28,Wanderers,Cerro,Uruguai - Primera Division,3,0,1,0,11,15,6,1,54,53,7,8,2.05,2.87,3.5
 2026-03-22,Monagas,Caracas,Venezuela - Primera Division,1,1,1,0,6,14,1,5,11,10,0,7,1.9,3.4,3.5
 2026-03-23,Metropolitanos,Academia Anzoátegui,Venezuela - Primera Division,2,0,0,0,14,7,5,2,42,12,8,2,1.75,3.3,4.2
+2026-03-22,Athletic Club,Betis,Espanha - La Liga,2,1,2,0,11,11,6,3,61,44,6,5,2.0,3.6,3.6
+2026-03-21,Espanyol,Getafe,Espanha - La Liga,1,2,0,2,15,10,5,5,50,27,12,9,2.4,3.0,3.25
+2026-03-21,Wolfsburg,Werder Bremen,Alemanha - Bundesliga,0,1,0,0,11,8,4,3,49,34,8,4,2.37,3.7,2.75
+2026-03-20,RB Leipzig,Hoffenheim,Alemanha - Bundesliga,5,0,4,0,14,8,9,2,35,52,1,3,1.95,4.0,3.5
+2026-03-22,Mainz,Frankfurt,Alemanha - Bundesliga,2,1,1,1,8,12,5,4,38,36,5,3,2.15,3.6,3.25
+2026-03-22,St. Pauli,Freiburg,Alemanha - Bundesliga,1,2,1,0,12,15,5,6,52,31,3,2,2.62,3.1,2.9
+2026-03-21,Bayern,Union Berlin,Alemanha - Bundesliga,4,0,2,0,31,5,9,1,65,33,12,1,1.14,9.0,13.0
+2026-03-21,FC Köln,M'Gladbach,Alemanha - Bundesliga,3,3,2,2,12,9,5,3,52,28,5,3,2.3,3.4,3.1
+2026-03-21,Heidenheim,Leverkusen,Alemanha - Bundesliga,3,3,0,2,9,14,5,5,31,60,2,5,5.0,4.5,1.57
+2026-03-22,Augsburg,Stuttgart,Alemanha - Bundesliga,2,5,0,3,13,13,7,8,48,35,2,5,3.5,3.8,2.0
+2026-03-21,Dortmund,Hamburger,Alemanha - Bundesliga,3,2,0,2,24,4,8,4,98,5,11,3,1.44,4.75,7.0
+2026-03-22,Real Madrid,Atlético Madrid,Espanha - La Liga,3,2,0,1,17,13,10,7,51,43,4,1,2.0,3.8,3.4
+2026-03-20,Villarreal,Real Sociedad,Espanha - La Liga,3,1,3,0,21,11,10,4,27,79,4,5,1.95,3.6,3.8
+2026-03-21,Levante,R. Oviedo,Espanha - La Liga,4,2,2,2,20,10,8,2,43,37,3,1,2.2,3.3,3.4
+2026-03-22,Bologna,Lazio,Itália - Serie A,0,2,0,0,15,9,4,5,44,23,2,1,2.25,3.1,3.4
+2026-03-21,Parma,Cremonese,Itália - Serie A,0,2,0,0,8,7,1,4,42,11,3,1,2.25,3.1,3.5
+2026-03-21,Juventus,Sassuolo,Itália - Serie A,1,1,1,0,18,7,8,1,93,33,9,4,1.27,5.75,11.0
+2026-03-20,Cagliari,Napoli,Itália - Serie A,0,1,0,1,7,17,0,5,27,53,2,7,5.25,3.4,1.75
+2026-03-22,Atalanta,Hellas Verona,Itália - Serie A,1,0,1,0,11,12,3,3,59,47,2,4,1.4,4.5,8.5
+2026-03-22,Fiorentina,Inter,Itália - Serie A,1,1,0,1,16,12,6,4,33,49,3,5,5.25,4.2,1.61
+2026-03-22,Nantes,Strasbourg,França - Ligue 1,2,3,1,1,13,13,9,9,31,40,3,6,3.5,3.4,2.1
+2026-03-20,Heracles Almelo,Excelsior,Países Baixos - Eredivisie,1,1,1,0,13,15,4,4,34,34,6,1,2.7,3.4,2.6
+2026-03-22,Nijmegen,Heerenveen,Países Baixos - Eredivisie,2,2,1,2,22,11,10,5,77,32,6,2,1.61,4.5,4.5
+2026-03-22,Marseille,LOSC Lille,França - Ligue 1,1,2,1,0,14,11,3,4,51,33,6,4,1.9,3.75,3.9
+2026-03-20,Lens,Angers,França - Ligue 1,5,1,3,0,26,16,9,5,61,38,7,3,1.2,6.5,12.0
+2026-03-22,Utrecht,G. A. Eagle,Países Baixos - Eredivisie,2,0,2,0,22,11,10,6,44,46,2,5,1.7,3.8,5.25
+2026-03-21,Auxerre,Brest,França - Ligue 1,3,0,1,0,11,9,7,2,25,46,6,3,2.25,3.1,3.5
+2026-03-22,Rennes,Metz,França - Ligue 1,0,0,0,0,25,7,8,2,80,23,8,2,1.3,5.75,9.0
+2026-03-22,Telstar,PSV,Países Baixos - Eredivisie,3,1,1,0,13,18,8,8,35,63,1,12,5.25,5.5,1.5
+2026-03-22,Groningen,AZ,Países Baixos - Eredivisie,3,0,1,0,14,16,5,7,36,58,2,7,2.7,3.8,2.37
+2026-03-21,Moreirense,Arouca,Portugal - Primeira Liga,0,1,0,0,7,14,2,2,34,27,3,7,2.7,3.2,2.62
+2026-03-22,Feyenoord,Ajax,Países Baixos - Eredivisie,1,1,0,0,14,5,5,2,55,18,5,1,1.9,4.1,3.5
+2026-03-21,Fortuna Sittard,Twente,Países Baixos - Eredivisie,1,2,1,0,11,9,5,2,41,43,7,6,5.5,4.1,1.45
+2026-03-20,Estrela Amadora,Casa Pia,Portugal - Primeira Liga,4,0,3,0,23,8,8,2,39,23,6,1,2.62,3.0,2.9
+2026-03-22,Estoril,Rio Ave,Portugal - Primeira Liga,1,2,1,0,13,13,4,8,46,41,11,7,1.7,3.8,4.5
+2026-03-22,Braga,Porto,Portugal - Primeira Liga,1,2,0,0,6,12,1,3,28,28,3,5,3.1,3.1,2.37
+2026-03-21,Famalicão,Nacional,Portugal - Primeira Liga,1,0,0,0,14,9,4,6,41,39,7,6,1.53,4.0,6.0
+2026-03-17,Fenerbahçe,Gaziantep,Turquia - Super Lig,4,1,1,0,19,11,8,4,56,28,11,7,1.28,5.75,7.0
+2026-03-18,Alanyaspor,Kocaelispor,Turquia - Super Lig,5,0,2,0,10,6,6,1,32,41,3,3,1.95,3.25,4.0
+2026-03-19,Konyaspor,Gençlerbirliği,Turquia - Super Lig,1,0,0,0,14,3,6,1,66,29,7,3,1.75,3.5,4.75
+2026-03-18,Eyüpspor,Trabzonspor,Turquia - Super Lig,0,1,0,0,7,10,1,3,26,41,1,5,5.5,4.0,1.57
+2026-04-01,Internacional,São Paulo,Brasil - Serie A,1,1,1,0,6,15,4,3,27,60,2,11,2.2,3.1,3.6
+2026-04-01,Cruzeiro,Vitória,Brasil - Serie A,3,0,3,0,11,4,6,1,56,45,5,6,1.53,4.0,6.5
+2026-03-19,Beşiktaş,Kasımpaşa,Turquia - Super Lig,2,1,2,0,14,6,6,1,42,27,2,3,1.33,4.75,8.5
+2026-03-19,Kayserispor,Karagümrük,Turquia - Super Lig,1,0,0,0,16,6,5,1,52,33,3,1,2.1,3.4,3.3
+2026-04-01,Fluminense,Corinthians,Brasil - Serie A,3,1,2,0,20,12,10,4,49,32,8,10,1.85,3.3,5.0
+2026-04-01,Coritiba,Vasco da Gama,Brasil - Serie A,1,1,0,1,18,11,4,2,44,29,3,4,2.8,3.0,2.8
+2026-04-01,Botafogo,Mirassol,Brasil - Serie A,3,2,2,1,11,19,5,4,23,64,2,8,2.35,3.3,3.1
+2026-03-21,Sporting KC,Colorado Rapids,Eua - Major League Soccer,1,4,1,2,8,17,3,9,35,50,6,4,0.0,0.0,0.0
+2026-03-21,Charlotte,New York RB,Eua - Major League Soccer,6,1,1,0,15,22,10,7,3,11,2,8,2.05,3.5,3.6
+2026-03-22,Cincinnati,CF Montréal,Eua - Major League Soccer,4,3,1,2,15,19,8,7,27,54,2,2,1.7,4.0,4.33
+2026-03-21,Toronto,Columbus Crew,Eua - Major League Soccer,2,1,0,1,12,8,7,4,32,29,10,7,3.4,3.5,2.15
+2026-03-21,St. Louis City,New England,Eua - Major League Soccer,3,1,2,1,11,8,6,2,42,40,6,3,0.0,0.0,0.0
+2026-03-21,Atlanta United,DC United,Eua - Major League Soccer,0,0,0,0,7,4,3,1,15,2,3,4,2.15,3.4,3.4
+2026-03-22,New York City,Inter Miami,Eua - Major League Soccer,2,3,1,1,11,22,5,8,38,36,7,7,2.2,3.5,3.2
+2026-03-21,Philadelphia Union,Chicago Fire,Eua - Major League Soccer,1,2,1,1,12,11,3,4,48,32,6,2,2.55,3.25,2.8
+2026-03-21,Dallas,Houston Dynamo,Eua - Major League Soccer,4,3,2,3,16,10,6,4,52,39,6,8,2.45,3.4,2.8
+2026-03-21,Austin,Los Angeles FC,Eua - Major League Soccer,0,0,0,0,10,12,1,1,63,29,5,4,0.0,0.0,0.0
+2026-03-21,Nashville SC,Orlando City,Eua - Major League Soccer,5,0,2,0,19,9,8,1,34,25,5,5,1.48,4.75,6.25
+2026-03-21,Vancouver Whitecaps,SJ Earthquakes,Eua - Major League Soccer,0,1,0,1,12,6,6,3,58,39,3,5,0.0,0.0,0.0
+2026-03-22,San Diego,Real Salt Lake,Eua - Major League Soccer,2,2,1,1,15,21,6,8,21,14,7,8,1.75,4.1,4.0
+2026-03-22,St. Liège,Westerlo,Bélgica - Pro League,0,0,0,0,7,21,1,3,42,42,6,9,2.35,3.1,2.87
+2026-03-22,Zulte-Waregem,Charleroi,Bélgica - Pro League,1,0,1,0,10,12,3,4,41,57,4,10,2.3,3.4,2.9
+2026-03-22,Anderlecht,Cercle Brugge,Bélgica - Pro League,2,3,1,3,16,14,8,5,78,34,8,7,2.0,3.4,3.25
+2026-03-22,St. Truiden,Union Saint-Gilloise,Bélgica - Pro League,1,3,0,2,9,18,2,8,66,55,5,5,2.75,3.2,2.45
+2026-03-21,Falkirk,St. Mirren,Escócia - Premiership,1,2,1,1,11,11,2,4,52,35,7,4,1.75,3.6,4.75
+2026-03-21,Rangers,Aberdeen,Escócia - Premiership,4,1,1,0,18,6,7,1,61,13,2,4,1.27,5.75,9.5
+2026-03-22,Portland Timbers,LA Galaxy,Eua - Major League Soccer,1,1,1,1,8,22,2,7,36,82,2,9,2.6,3.7,2.5
+2026-03-22,Minnesota United,Seattle Sounders,Eua - Major League Soccer,0,0,0,0,8,11,3,2,25,75,4,7,2.45,3.4,3.0
+2026-03-22,Dundee United,Celtic,Escócia - Premiership,2,0,0,0,19,13,8,3,32,59,7,6,5.0,4.75,1.55
+2026-03-21,Hearts,Dundee,Escócia - Premiership,1,0,0,0,16,8,6,1,53,30,4,7,1.38,5.0,7.5
+2026-04-01,FC Andorra,Málaga,Espanha - La Liga 2,3,3,0,2,19,12,8,6,65,28,8,5,1.95,3.5,3.6
+2026-03-21,Motherwell,Hibernian,Escócia - Premiership,0,0,0,0,6,7,3,1,41,45,2,4,1.9,3.5,3.8
+2026-03-21,Kilmarnock,Livingston,Escócia - Premiership,2,0,1,0,17,10,4,1,43,37,3,4,1.83,3.7,4.0
+2026-04-01,Huesca,Cultural Leonesa,Espanha - La Liga 2,1,1,1,1,9,18,2,6,38,55,5,5,2.05,3.0,3.5
+2026-03-31,Mirandés,Albacete,Espanha - La Liga 2,1,1,1,0,13,9,5,3,58,46,9,3,2.25,3.3,3.1
+2026-04-01,Burgos,Ceuta,Espanha - La Liga 2,1,1,1,1,8,5,3,1,57,51,8,3,1.9,3.0,4.5
+2026-03-31,Valladolid,Cádiz,Espanha - La Liga 2,3,0,2,0,13,8,6,1,51,19,7,2,1.5,4.33,6.25
+2026-03-31,Deportivo La Coruña,Córdoba,Espanha - La Liga 2,2,0,2,0,11,13,4,2,37,54,2,8,1.9,3.5,4.0
+2026-03-21,Elversberg,Bielefeld,Alemanha - 2. Bundesliga,3,1,1,0,28,4,10,2,77,24,9,1,2.05,3.75,3.2
+2026-03-21,Darmstadt,Schalke,Alemanha - 2. Bundesliga,1,1,1,1,10,16,4,7,38,38,11,5,2.55,3.3,2.7
+2026-03-21,Paderborn,Dynamo Dresden,Alemanha - 2. Bundesliga,2,1,0,1,22,16,4,8,70,21,4,5,1.75,3.75,4.33
+2026-03-21,Nürnberg,Kaiserslautern,Alemanha - 2. Bundesliga,3,0,1,0,21,6,5,2,63,31,11,1,2.1,3.5,3.2
+2026-03-22,Düsseldorf,Hertha,Alemanha - 2. Bundesliga,2,5,1,4,16,12,5,9,38,28,6,1,2.25,3.3,2.7
+2026-03-22,Preußen Münster,Magdeburg,Alemanha - 2. Bundesliga,1,3,0,1,15,8,2,6,54,51,6,3,3.1,3.6,2.15
+2026-03-22,Bochum,Kiel,Alemanha - 2. Bundesliga,2,3,1,2,20,10,11,4,50,32,2,3,1.75,3.8,4.33
+2026-03-20,Pau,Montpellier,França - Ligue 2,0,0,0,0,18,3,1,1,49,33,4,3,2.7,3.3,2.25
+2026-03-20,Boulogne,Nancy,França - Ligue 2,0,0,0,0,4,12,1,3,41,39,2,6,2.45,2.9,2.8
+2026-03-21,Zürich,Thun,Suíça - Super League,2,1,1,1,8,21,5,7,21,65,2,9,5.5,4.1,1.57
+2026-03-21,WSG Tirol,Grazer,Áustria - Tipico Bundesliga,1,5,1,2,5,17,2,9,13,30,0,4,2.45,3.0,3.1
+2026-03-22,Viborg,Midtjylland,Dinamarca - Superliga,1,1,0,0,9,17,2,4,38,52,5,6,3.2,3.6,2.1
+2026-03-22,Nordsjælland,SønderjyskE,Dinamarca - Superliga,2,0,0,0,17,14,6,5,49,49,6,2,2.1,3.7,3.2
+2026-03-22,Luzern,Lausanne Sport,Suíça - Super League,4,0,2,0,12,13,5,0,91,105,3,8,1.72,4.1,4.1
+2026-03-22,Winterthur,Basel,Suíça - Super League,0,2,0,1,17,5,6,3,40,41,5,3,4.2,4.1,1.72
+2026-03-22,Young Boys,Lugano,Suíça - Super League,1,1,1,0,16,15,8,4,79,53,6,4,1.8,3.9,3.9
+2025-10-18,VPS,Jaro,Finlândia - Veikkausliiga,1,3,1,2,16,8,2,3,70,32,8,3,2.4,3.4,2.62
+2025-11-09,HJK,KuPS,Finlândia - Veikkausliiga,0,2,0,1,12,8,4,3,46,38,8,3,2.25,3.75,2.62
+2025-11-09,Inter Turku,Ilves,Finlândia - Veikkausliiga,2,0,2,0,11,9,7,4,36,64,6,6,2.1,3.6,3.0
+2025-10-18,Mariehamn,Oulu,Finlândia - Veikkausliiga,2,0,0,0,11,6,3,3,0,0,7,2,3.4,3.4,1.95
+2026-03-31,Aldosivi,Argentinos Juniors,Argentina - Superliga,0,2,0,2,11,5,5,4,34,47,2,6,5.0,3.25,1.83
+2026-03-22,Estudiantes Río Cuarto,River Plate,Argentina - Superliga,0,2,0,0,7,9,1,3,46,59,5,7,9.0,3.5,1.53
+2026-03-20,Atlético Tucumán,Gimnasia La Plata,Argentina - Superliga,1,0,1,0,16,10,2,1,58,57,6,4,2.05,3.25,3.9
+2026-03-20,Necaxa,Tijuana,México - Liga Mx,3,0,1,0,19,9,8,2,57,25,6,1,2.1,3.4,3.4
+2026-03-21,Mazatlán,Cruz Azul,México - Liga Mx,1,1,0,0,11,21,3,6,22,73,3,9,5.25,4.33,1.57
+2026-03-21,Monterrey,Guadalajara,México - Liga Mx,2,3,0,1,22,12,8,5,51,24,9,4,3.8,3.6,1.95
+2026-03-21,Atlético San Luis,León,México - Liga Mx,1,2,1,1,8,20,4,9,37,36,5,2,2.2,3.7,3.1
+2026-03-21,Belgrano,Racing Club,Argentina - Superliga,1,2,0,1,13,7,5,4,51,42,8,2,2.9,3.0,2.62
+2026-03-22,AEK Athens,Kifisia,Grécia - Super League,3,0,3,0,12,14,5,4,26,41,3,5,1.22,6.0,12.0
+2026-03-21,Atlas,Querétaro,México - Liga Mx,0,0,0,0,17,13,3,2,21,21,3,7,1.95,3.4,4.1
+2026-03-22,Pachuca,Toluca,México - Liga Mx,1,1,0,1,16,8,4,2,20,20,9,1,3.9,3.7,1.9
+2026-03-22,Asteras Tripolis,Panathinaikos,Grécia - Super League,1,2,0,2,8,12,2,5,25,47,2,5,6.0,3.6,1.6
+2026-03-22,Olympiakos,Larissa,Grécia - Super League,0,0,0,0,35,3,7,2,127,11,10,0,1.08,10.0,26.0
+2026-03-20,Qingdao Hainiu,Zhejiang,China - Super League,1,4,1,0,14,15,3,8,60,50,7,5,4.5,3.5,1.75
+2026-03-21,Henan Songshan Longmen,Wuhan Three Towns,China - Super League,1,1,0,0,19,7,4,2,70,29,13,6,1.42,4.75,7.0
+2026-03-21,Shenyang Urban,Tianjin Jinmen Tiger,China - Super League,3,0,1,0,15,10,5,2,32,42,6,9,2.3,3.1,3.3
+2026-03-21,Beijing Guoan,Shanghai Shenhua,China - Super League,1,1,1,0,12,6,3,1,55,34,9,4,2.05,3.75,3.2
+2026-03-22,Panaitolikos,Panserraikos,Grécia - Super League,0,0,0,0,22,9,3,1,62,27,9,1,1.85,3.25,4.5
+2026-03-22,Levadiakos,Atromitos,Grécia - Super League,1,0,0,0,10,13,3,4,48,54,3,4,2.05,3.2,3.8
+2026-03-21,Teuta Durrës,Partizani Tirana,Albânia - Superliga,2,2,1,1,9,8,5,4,69,55,4,4,2.25,2.8,3.2
+2026-03-21,Vllaznia Shkodër,Dinamo Tirana,Albânia - Superliga,0,0,0,0,9,12,1,2,59,35,5,5,2.05,2.9,3.5
+2026-03-21,Yunnan Yukun,Shandong Taishan,China - Super League,4,0,3,0,17,6,8,1,38,41,10,5,3.1,3.6,2.2
+2026-03-20,Dalian Zhixing,Shanghai Port,China - Super League,1,0,0,0,10,8,1,1,40,46,6,6,2.7,4.2,2.15
+2026-03-20,AF Elbasani,Egnatia Rrogozhinë,Albânia - Superliga,0,0,0,0,9,8,2,3,53,49,6,3,2.1,2.87,3.6
+2026-03-20,Wehen Wiesbaden,Hansa Rostock,Alemanha - 3. Liga,0,1,0,1,23,4,3,1,85,31,7,3,2.9,3.3,2.15
+2026-03-22,Hoffenheim II,Osnabrück,Alemanha - 3. Liga,0,1,0,1,8,18,3,5,48,60,2,9,2.9,3.6,2.05
+2026-03-21,Waldhof Mannheim,Aue,Alemanha - 3. Liga,2,1,0,1,17,11,5,2,55,56,4,5,2.05,3.4,3.0
+2026-03-22,Viktoria Köln,Rot-Weiss Essen,Alemanha - 3. Liga,1,2,0,2,9,8,3,3,61,41,6,2,2.7,3.4,2.2
+2026-03-22,MSV Duisburg,1860 München,Alemanha - 3. Liga,2,1,0,0,11,13,6,3,59,67,4,6,2.15,3.25,3.0
+2026-03-13,Al Feiha,Al Ettifaq,Arábia Saudita - Pro League,1,0,1,0,10,12,2,3,23,49,1,7,2.25,3.2,2.9
+2026-03-13,Al Quadisiya,Al Ahli,Arábia Saudita - Pro League,3,2,0,2,10,12,3,5,63,38,5,4,2.25,3.3,2.62
+2026-03-21,Energie Cottbus,Ulm,Alemanha - 3. Liga,1,1,0,1,14,6,2,2,69,55,9,7,1.55,3.8,4.5
+2026-03-21,Schweinfurt,Stuttgart II,Alemanha - 3. Liga,3,1,0,0,22,9,10,4,59,55,8,4,4.75,4.0,1.55
+2026-03-21,Regensburg,Havelse,Alemanha - 3. Liga,5,2,2,0,10,14,6,5,61,65,1,5,1.44,4.1,5.5
+2026-03-14,Al Fateh,Al Hilal,Arábia Saudita - Pro League,0,1,0,0,12,17,4,5,56,100,3,7,10.0,6.25,1.18
+2026-03-12,Al Suqoor,Al Taawoun,Arábia Saudita - Pro League,2,2,1,0,17,14,7,6,46,70,5,2,2.37,3.2,2.6
+2026-03-29,Los Andes,Temperley,Argentina - Primera B Nacional,0,1,0,0,15,10,6,3,72,63,4,1,2.45,2.62,3.6
+2026-03-28,Almagro,Deportivo Morón,Argentina - Primera B Nacional,2,0,1,0,7,18,3,5,13,16,7,5,4.0,2.5,2.37
+2026-03-29,Nueva Chicago,All Boys,Argentina - Primera B Nacional,0,0,0,0,12,14,4,2,70,81,4,7,2.7,2.5,3.4
+2026-03-28,Atlanta,Ferro Carril Oeste,Argentina - Primera B Nacional,0,1,0,0,7,5,1,1,65,41,4,1,2.15,2.8,4.0
+2026-03-21,Gandzasar,Ararat,Armênia - Premier League,2,1,2,1,10,12,3,6,45,37,3,5,1.83,3.4,3.7
+2026-03-20,Van,Ararat-Armenia,Armênia - Premier League,2,2,1,0,4,20,1,7,14,71,4,9,8.0,4.75,1.27
+2026-03-29,Deportivo Maipú,Godoy Cruz,Argentina - Primera B Nacional,0,1,0,0,6,14,0,2,50,91,0,10,3.3,3.0,2.37
+2026-03-29,Patronato,Colón,Argentina - Primera B Nacional,0,2,0,0,6,15,0,7,58,51,4,7,2.62,2.7,3.2
+2026-03-28,Colegiales,San Miguel,Argentina - Primera B Nacional,0,0,0,0,16,13,5,5,16,10,6,3,2.8,2.7,3.0
+2026-03-21,Melbourne Victory,Central Coast Mariners,Austrália - A-League,4,1,0,1,34,13,12,5,78,25,8,4,1.44,4.75,6.5
+2026-03-27,Ciudad de Bolívar,Agropecuario,Argentina - Primera B Nacional,0,0,0,0,15,13,2,5,63,57,5,3,2.8,2.7,2.9
+2026-03-28,Almirante Brown,Tristán Suárez,Argentina - Primera B Nacional,0,1,0,1,12,8,4,2,97,51,5,3,2.4,2.7,3.6
+2026-03-29,Deportivo Madryn,San Martín Tucumán,Argentina - Primera B Nacional,1,1,1,1,7,6,4,3,62,39,2,2,2.62,2.7,3.2
+2026-03-29,Chacarita Juniors,Estudiantes Caseros,Argentina - Primera B Nacional,0,3,0,2,5,4,0,3,59,45,3,2,2.35,2.75,3.6
+2026-03-22,Perth Glory,Melbourne City,Austrália - A-League,1,1,0,1,13,20,6,6,42,34,2,7,4.1,3.6,1.85
+2026-03-21,Waasland-Beveren,Liège,Bélgica - First Division B,4,0,3,0,18,4,6,1,70,34,4,2,1.4,3.9,7.0
+2026-03-21,RWDM,Lierse Kempenzonen,Bélgica - First Division B,1,1,1,0,15,9,6,4,41,44,2,8,1.83,3.4,3.7
+2026-03-20,Eupen,Seraing,Bélgica - First Division B,0,0,0,0,4,13,1,6,32,50,3,7,1.72,3.4,4.1
+2025-12-14,Oriente Petrolero,Bolívar,Bolívia - Liga De Futbol Prof,1,3,0,2,17,12,5,7,52,14,12,3,2.9,4.5,1.83
+2025-12-14,Nacional Potosí,Real Tomayapo,Bolívia - Liga De Futbol Prof,1,0,0,0,28,4,8,2,51,20,5,3,1.3,6.5,7.0
+2025-12-15,Aurora,ABB,Bolívia - Liga De Futbol Prof,3,2,2,0,23,11,9,2,29,8,8,2,1.22,7.0,9.0
+2026-03-31,Juventude,Novorizontino,Brasil - Serie B,0,0,0,0,13,9,4,0,41,35,4,8,2.1,3.1,3.8
+2026-03-31,Fortaleza,Cuiabá,Brasil - Serie B,0,0,0,0,15,4,2,0,29,7,4,0,1.61,3.6,6.25
+2026-04-01,Ponte Preta,Ceará,Brasil - Serie B,1,1,0,0,9,14,4,4,47,48,4,6,3.5,3.1,2.2
+2026-04-01,Londrina,Goiás,Brasil - Serie B,2,2,1,1,8,14,5,3,24,31,6,6,2.7,2.9,2.87
+2026-04-01,Sport Recife,Vila Nova,Brasil - Serie B,1,1,0,0,10,16,7,2,21,45,6,3,1.83,3.3,4.5
+2026-04-01,Atlético GO,Náutico,Brasil - Serie B,1,2,1,0,11,9,2,4,37,36,7,1,2.25,3.0,3.6
+2026-03-21,Septemvri Sofia,Arda,Bulgária - Parva Liga,1,4,1,1,7,11,6,6,86,85,0,3,5.25,3.3,1.72
+2026-03-20,Slavia Sofia,Botev Plovdiv,Bulgária - Parva Liga,0,1,0,0,10,20,4,5,78,97,6,7,2.37,3.2,3.1
+2026-03-19,Spartak Varna,Ludogorets,Bulgária - Parva Liga,1,5,0,1,6,14,2,7,32,73,1,7,9.0,5.5,1.27
+2026-03-22,Montana,Beroe,Bulgária - Parva Liga,0,1,0,0,10,9,4,3,73,45,7,2,2.35,2.8,3.5
+2026-03-22,CSKA Sofia,Dobrudzha 1919,Bulgária - Parva Liga,2,0,1,0,9,6,4,4,99,70,6,4,1.25,5.25,13.0
+2026-03-31,Deportes Tolima,Rionegro Águilas,Colômbia - Liga Betplay,4,1,1,1,19,6,8,1,34,28,2,3,1.7,3.5,5.25
+2026-04-01,Santa Fe,Llaneros,Colômbia - Liga Betplay,0,1,0,0,11,7,3,4,55,22,12,4,1.45,4.0,7.5
+2026-03-15,Ñublense,La Serena,Chile - Primera Division,2,2,1,0,18,12,5,3,29,9,9,3,1.95,3.3,3.7
+2026-03-21,Daejeon Citizen,Jeonbuk Motors,Coréia Do Sul - K-League 1,0,1,0,1,9,12,3,7,72,55,2,6,2.55,3.2,2.55
+2026-03-22,Ulsan,Sangju Sangmu,Coréia Do Sul - K-League 1,0,0,0,0,19,10,4,1,71,62,4,2,2.15,3.25,3.1
+2026-03-28,Pohang Steelers,Gangwon,Coréia Do Sul - K-League 1,1,0,0,0,14,6,6,1,78,74,8,7,3.0,3.0,2.37
+2026-03-22,Seoul,Gwangju,Coréia Do Sul - K-League 1,5,0,1,0,12,8,6,1,52,40,2,3,1.4,4.1,7.5
+2026-03-29,Daegu,Seoul E.,Coréia Do Sul - K League 2,1,3,1,2,20,13,4,7,84,50,4,4,2.1,3.25,3.1
+2026-03-29,Suwon,Paju Citizen,Coréia Do Sul - K League 2,2,1,2,1,12,4,3,2,66,53,9,3,1.5,3.9,5.25
+2026-03-28,Chungnam Asan,Hwaseong,Coréia Do Sul - K League 2,1,0,1,0,9,6,3,2,50,75,4,3,2.15,3.2,3.2
+2026-03-28,Seongnam,Gimpo,Coréia Do Sul - K League 2,0,0,0,0,4,9,2,3,63,68,3,4,2.8,3.0,2.7
+2026-03-28,Ansan Greeners,Gyeongnam,Coréia Do Sul - K League 2,1,1,1,1,7,15,2,3,28,57,2,0,3.25,3.3,2.15
+2026-03-29,Cheongju,Busan I'Park,Coréia Do Sul - K League 2,1,2,0,1,20,14,5,6,74,49,7,3,5.25,3.2,1.66
+2026-03-28,Yongin City,Suwon Bluewings,Coréia Do Sul - K League 2,0,1,0,1,4,16,2,7,49,64,5,3,5.75,3.75,1.48
+2026-03-28,Cheonan City,Jeonnam Dragons,Coréia Do Sul - K League 2,1,0,1,0,8,14,2,3,55,83,2,11,3.4,3.2,2.05
+2026-03-21,Lokomotiva Zagreb,Dinamo Zagreb,Croácia - 1. Hnl,0,5,0,3,2,21,0,11,38,79,3,7,6.5,4.5,1.4
+2026-03-22,Slaven Koprivnica,Osijek,Croácia - 1. Hnl,0,0,0,0,8,11,2,2,40,46,6,3,2.3,2.9,3.2
+2026-03-21,Ghazl El Mehalla,National Bank of Egypt,Egito - Premier League,1,1,1,0,8,19,4,7,46,71,4,5,3.5,2.75,2.1
+2026-03-21,HB Køge,Lyngby,Dinamarca - First Division,3,3,2,1,15,12,9,4,41,59,3,4,5.5,4.0,1.55
+2026-03-22,Técnico Universitario,Independiente del Valle,Equador - Liga Pro,1,2,1,1,13,17,4,5,43,48,3,4,4.75,3.3,1.75
+2026-03-23,Aucas,Orense,Equador - Liga Pro,3,2,2,0,16,15,6,4,33,28,3,3,1.72,3.5,4.5
+2026-03-22,Al Ittihad,Pharco,Egito - Premier League,1,1,0,0,9,13,4,3,41,44,3,7,1.9,2.8,4.2
+2026-03-22,Kahraba Ismailia,Future FC,Egito - Premier League,1,1,0,0,11,10,4,3,53,60,4,7,3.1,3.1,2.15
+2026-03-20,Wadi Degla,El Gounah,Egito - Premier League,0,0,0,0,14,9,1,3,63,31,8,1,2.1,2.75,3.6
+2026-03-23,Guayaquil City,Leones del Norte,Equador - Liga Pro,0,0,0,0,16,8,3,1,58,26,6,1,1.95,3.2,3.8
+2026-03-22,Mushuc Runa,Emelec,Equador - Liga Pro,2,0,1,0,17,8,6,1,12,16,6,3,2.15,3.1,3.4
+2026-03-21,Deportivo Cuenca,Macará,Equador - Liga Pro,1,1,1,0,6,16,1,6,33,42,6,3,2.2,3.0,3.4
+2026-03-28,Greenock Morton,Arbroath,Escócia - Championship,2,1,2,1,11,15,3,5,42,67,1,4,2.4,2.9,2.75
+2026-03-28,St. Johnstone,Queen's Park,Escócia - Championship,1,1,0,1,16,3,3,2,66,29,8,2,1.27,4.75,9.0
+2026-03-28,East Fife,Stenhousemuir,Escócia - League One,2,2,0,1,9,7,5,2,58,45,4,10,4.33,3.5,1.66
+2026-03-27,Raith Rovers,Ayr United,Escócia - Championship,3,0,1,0,11,7,6,1,55,61,5,4,2.3,3.0,2.87
+2026-03-27,Partick Thistle,Ross County,Escócia - Championship,3,1,3,1,9,7,4,2,49,40,8,2,1.7,3.3,4.33
+2026-03-28,Alloa Athletic,Peterhead,Escócia - League One,1,2,1,0,7,5,2,3,50,33,8,6,1.75,3.5,3.8
+2026-03-28,Hamilton Academical,Kelty Hearts,Escócia - League One,1,2,1,1,9,6,3,3,47,30,11,6,1.72,3.4,4.1
+2026-03-27,Inverness CT,Queen of the South,Escócia - League One,1,1,0,1,13,5,5,2,91,51,2,2,1.42,4.1,6.25
+2026-03-28,Elgin City,Clyde,Escócia - League Two,2,0,1,0,7,12,3,4,22,41,4,9,2.25,3.4,2.7
+2026-03-28,Stirling Albion,Edinburgh City,Escócia - League Two,1,0,0,0,12,9,4,3,40,34,7,6,2.2,3.4,2.75
+2026-03-28,Spartans,East Kilbride,Escócia - League Two,1,1,0,0,8,10,5,3,36,39,6,4,2.45,3.5,2.37
+2026-03-28,Annan Athletic,Stranraer,Escócia - League Two,1,0,1,0,10,9,2,2,45,53,6,6,2.15,3.25,2.87
+2026-03-28,Dumbarton,Forfar Athletic,Escócia - League Two,2,2,0,2,10,10,4,4,39,44,6,2,2.45,3.2,2.62
+2026-03-21,Zemplín Michalovce,Spartak Trnava,Eslováquia - Fortuna Liga,1,0,1,0,13,17,2,5,47,50,4,6,3.2,3.5,2.15
+2026-03-22,Skalica,Komárno,Eslováquia - Fortuna Liga,2,1,1,0,9,17,3,2,40,89,0,5,2.4,3.1,3.1
+2026-03-21,FK Košice,Tatran Prešov,Eslováquia - Fortuna Liga,2,1,1,0,16,5,8,2,45,51,5,5,1.75,3.6,4.5
+2026-03-21,Trenčín,Ružomberok,Eslováquia - Fortuna Liga,3,1,1,1,10,9,5,2,48,34,8,5,2.75,3.1,2.55
+2026-03-21,Žilina,Dunajská Streda,Eslováquia - Fortuna Liga,3,1,2,0,18,11,5,3,44,36,4,1,2.45,3.2,2.9
+2026-03-22,Slovan Bratislava,Podbrezová,Eslováquia - Fortuna Liga,2,0,1,0,9,14,4,4,25,57,4,7,1.6,4.2,5.0
+2026-03-21,Olimpija,Bravo,Eslovênia - 1. Snl,1,2,1,0,10,12,2,4,69,39,4,2,1.8,3.5,4.1
+2026-03-22,Várda SE,Ferencváros,Hungria - Otp Bank Liga,1,1,0,1,10,11,4,3,48,60,5,7,5.5,3.6,1.53
+2026-03-21,Zalaegerszegi TE,Újpest,Hungria - Otp Bank Liga,2,0,0,0,20,12,5,5,38,23,6,3,2.2,3.2,2.8
+2026-03-20,MTK,Paksi SE,Hungria - Otp Bank Liga,0,2,0,1,13,7,6,2,49,67,6,3,2.75,3.7,2.05
+2026-03-22,Kazincbarcika,Győri ETO,Hungria - Otp Bank Liga,1,3,1,1,9,24,3,8,30,84,2,10,7.0,4.75,1.3
+2026-03-22,Hegelmann Litauen,Žalgiris,Lituânia - A Lyga,0,0,0,0,10,22,2,6,40,87,3,13,3.9,3.3,1.8
+2026-03-22,TransINVEST Vilnius,Džiugas Telšiai,Lituânia - A Lyga,0,0,0,0,9,13,2,3,47,66,4,11,1.53,3.4,5.5
+2026-03-21,Banga,Panevėžys,Lituânia - A Lyga,0,1,0,0,14,11,4,3,34,38,5,1,2.1,3.2,3.1
+2026-03-22,Sport Boys,Sport Huancayo,Peru - Primera Division,3,0,2,0,14,12,4,3,14,14,7,2,1.85,3.4,4.0
+2026-03-31,Sportivo Luqueño,Cerro Porteño,Paraguai - Division 1,2,3,2,3,14,16,4,7,20,42,2,5,4.75,3.4,1.65
+2026-04-01,Sportivo Trinidense,Olimpia,Paraguai - Division 1,2,1,1,0,11,14,5,4,28,51,3,4,4.0,3.2,1.83
+2026-03-31,2 de Mayo,Nacional Asunción,Paraguai - Division 1,1,1,1,0,6,14,1,5,40,32,4,3,3.3,3.1,2.05
+2026-03-21,Comerciantes Unidos,Universitario,Peru - Primera Division,0,0,0,0,12,23,2,7,35,54,2,9,4.5,3.1,1.8
+2026-03-21,Alianza Lima,Juan Pablo II College,Peru - Primera Division,2,0,0,0,15,2,5,0,11,3,5,1,1.22,5.25,11.0
+2026-03-30,Libertad,Deportivo Recoleta,Paraguai - Division 1,1,0,0,0,24,9,7,1,54,34,8,5,1.8,2.9,5.25
+2026-03-31,Sportivo San Lorenzo,Sportivo Ameliano,Paraguai - Division 1,1,2,1,2,11,20,3,5,44,34,4,8,3.6,3.0,1.95
+2026-03-22,Legia,Raków Częstochowa,Polônia - Ekstraklasa,1,1,0,1,17,11,2,4,54,34,7,3,2.05,3.3,3.25
+2026-03-22,Widzew Lodz,Górnik Zabrze,Polônia - Ekstraklasa,0,0,0,0,5,8,0,2,54,54,1,2,2.3,3.0,3.0
+2026-03-21,Cracovia Kraków,Katowice,Polônia - Ekstraklasa,1,0,0,0,9,17,2,4,40,52,6,3,2.2,3.0,3.2
+2026-03-21,Jagiellonia Białystok,Wisła Płock,Polônia - Ekstraklasa,1,2,1,2,25,6,8,3,101,22,8,1,1.57,3.75,5.25
+2026-03-22,Lech Poznań,Nieciecza,Polônia - Ekstraklasa,4,1,3,0,26,9,9,4,56,39,6,5,1.28,5.0,8.0
+2026-03-21,Penafiel,Vizela,Portugal - Segunda Liga,0,1,0,0,8,14,2,5,50,66,3,7,3.0,3.0,2.25
+2026-03-22,Benfica II,Farense,Portugal - Segunda Liga,1,0,0,0,9,10,5,4,42,55,3,3,2.37,3.2,2.7
+2026-03-22,Feirense,Sporting CP II,Portugal - Segunda Liga,1,2,1,1,10,9,4,5,49,48,2,5,2.4,3.1,2.75
+2026-03-29,União de Leiria,Ferreira,Portugal - Segunda Liga,2,0,1,0,17,9,6,2,37,30,4,3,1.53,3.7,5.5
+2026-03-21,Lusitania FC Lourosa,Academico Viseu,Portugal - Segunda Liga,0,3,0,1,17,10,4,5,54,29,7,2,3.1,3.2,2.15
+2026-03-22,Felgueiras 1932,Torreense,Portugal - Segunda Liga,0,3,0,1,14,13,5,7,70,44,7,4,2.25,3.1,2.87
+2026-03-21,Argeş,Universitatea Cluj,Romênia - Liga 1,0,1,0,0,8,7,1,1,37,32,4,3,2.9,2.87,2.35
+2026-03-19,Dinamo Bucureşti,Universitatea Craiova,Romênia - Liga 1,0,1,0,1,8,8,4,3,73,23,2,1,2.8,3.0,2.37
+2026-03-21,Mladost Lučani,Partizan,Sérvia - Super Liga,1,1,1,0,6,19,3,10,20,90,7,5,5.75,3.9,1.53
+2026-03-23,Unirea Slobozia,Otelul,Romênia - Liga 1,2,1,1,1,11,11,2,5,18,40,5,5,3.2,3.1,2.2
+2026-03-22,Čukarički,Železničar Pančevo,Sérvia - Super Liga,3,2,1,0,9,10,6,4,44,71,0,6,2.25,3.25,2.9
+2026-03-20,Spartak Subotica,Radnik Surdulica,Sérvia - Super Liga,1,3,0,1,9,17,4,7,53,49,3,5,2.75,2.7,2.6
+2026-03-21,Javor Ivanjica,Novi Pazar,Sérvia - Super Liga,0,0,0,0,7,19,1,3,64,84,2,4,2.55,3.1,2.62
+2026-03-31,Progreso,Liverpool,Uruguai - Primera Division,3,3,2,2,12,11,4,4,94,79,6,6,3.6,3.1,1.95
+2026-03-29,Peñarol,Racing,Uruguai - Primera Division,1,2,0,1,16,13,2,2,85,56,4,4,1.66,3.3,4.75
+2026-03-22,Portuguesa,Rayo Zuliano,Venezuela - Primera Division,1,1,0,0,14,8,6,2,28,17,17,3,1.57,3.7,4.75
+2026-03-30,Cerro Largo,Danubio,Uruguai - Primera Division,2,0,1,0,12,8,3,1,47,49,0,1,2.7,3.0,2.4
+2026-03-22,Deportivo Táchira,Estudiantes Mérida,Venezuela - Primera Division,1,0,1,0,6,6,2,4,55,29,4,3,1.42,4.0,6.0
+2026-03-22,Trujillanos,Zamora Fútbol Club,Venezuela - Primera Division,0,3,0,1,19,9,7,5,57,43,5,3,2.87,3.0,2.25
