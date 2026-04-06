@@ -20122,3 +20122,95 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-04-01,Rubio Ñú,Guaraní,Paraguai - Division 1,0,2,0,0,14,8,3,6,55,36,3,5,3.75,3.0,1.9
 2026-03-20,CFR Cluj,Rapid Bucuresti,Romênia - Liga 1,1,0,0,0,18,11,7,3,45,63,4,5,2.45,2.8,2.87
 2026-03-31,Defensor Sporting,Albion,Uruguai - Primera Division,1,1,1,1,8,17,2,6,56,56,6,4,2.2,2.87,3.4
+2026-03-20,Genoa,Udinese,Itália - Serie A,0,2,0,0,18,6,2,4,60,16,7,1,2.2,3.1,3.6
+2026-03-22,Dender,Gent,Bélgica - Pro League,1,3,1,1,15,12,4,8,48,65,6,3,3.0,3.4,2.25
+2026-03-22,Club Brugge,Mechelen,Bélgica - Pro League,4,1,3,0,24,5,9,1,54,32,15,2,1.25,6.0,9.0
+2026-04-03,Norwich,Portsmouth,Inglaterra - Championship,1,1,1,0,6,5,2,1,47,61,5,6,2.05,3.7,3.4
+2026-04-03,Leicester,Preston,Inglaterra - Championship,2,2,1,2,28,8,10,3,61,23,7,2,1.95,3.5,3.9
+2026-04-03,Stoke,Sheffield Wed,Inglaterra - Championship,2,0,1,0,12,16,6,2,42,47,7,2,1.44,4.2,7.5
+2026-04-03,Birmingham,Blackburn,Inglaterra - Championship,0,1,0,0,12,16,5,4,66,41,9,10,1.9,3.4,4.1
+2026-04-03,West Brom,Wrexham,Inglaterra - Championship,2,2,2,0,9,13,4,3,37,49,4,6,2.15,3.3,3.4
+2026-04-03,QPR,Watford,Inglaterra - Championship,2,1,1,0,15,7,8,3,39,50,2,3,2.5,3.3,2.8
+2026-04-03,Charlton,Bristol City,Inglaterra - Championship,1,2,1,1,13,17,4,8,50,30,7,3,2.35,3.2,3.1
+2026-04-03,Sheffield Utd,Swansea,Inglaterra - Championship,3,3,1,1,13,8,4,6,43,31,4,2,1.65,3.9,5.0
+2026-04-03,Middlesbrough,Millwall,Inglaterra - Championship,1,2,1,0,32,11,5,5,67,35,17,6,1.75,3.8,4.33
+2026-04-03,Oxford Utd,Hull,Inglaterra - Championship,1,1,1,1,16,9,4,2,38,42,1,5,2.37,3.4,2.87
+2026-04-03,Coventry,Derby,Inglaterra - Championship,3,2,1,1,13,7,7,3,45,40,6,1,1.61,4.0,5.25
+2026-04-02,Wigan,Leyton Orient,Inglaterra - League One,0,0,0,0,13,9,0,5,46,37,4,4,2.3,3.2,3.1
+2026-04-03,Luton,Peterborough,Inglaterra - League One,2,1,1,0,17,10,6,3,48,43,7,4,1.5,4.33,6.0
+2026-04-03,Huddersfield,Reading,Inglaterra - League One,1,1,0,1,13,4,6,2,41,20,4,2,1.72,3.6,4.5
+2026-04-03,Lincoln,Wimbledon,Inglaterra - League One,1,0,0,0,8,10,4,1,32,55,2,7,1.44,4.33,7.0
+2026-04-03,Doncaster,Mansfield,Inglaterra - League One,0,2,0,0,10,8,0,3,48,26,2,6,2.2,3.4,3.1
+2026-04-03,Burton,Barnsley,Inglaterra - League One,1,1,0,0,11,11,5,2,60,31,9,0,2.1,3.3,3.5
+2026-04-03,Plymouth,Bolton,Inglaterra - League One,1,2,0,0,14,9,4,2,68,32,4,4,2.3,3.4,2.87
+2026-04-03,Rotherham,Stevenage,Inglaterra - League One,0,0,0,0,10,11,1,3,46,43,4,4,4.0,3.1,1.95
+2026-04-03,Blackpool,Exeter,Inglaterra - League One,1,0,1,0,15,9,3,3,54,44,5,10,2.0,3.5,3.6
+2026-04-03,Stockport County,Wycombe,Inglaterra - League One,3,0,2,0,17,12,11,3,43,60,8,10,2.1,3.5,3.2
+2026-04-03,Bradford City,Northampton,Inglaterra - League One,1,0,1,0,18,11,7,1,76,37,5,6,1.4,4.33,8.0
+2026-04-03,Barnet,Bromley,Inglaterra - League Two,2,2,1,1,17,16,6,7,49,52,6,3,1.95,3.3,3.9
+2026-04-03,MK Dons,Barrow,Inglaterra - League Two,0,0,0,0,16,5,5,0,74,17,6,1,1.4,4.33,8.0
+2026-04-03,Shrewsbury,Tranmere,Inglaterra - League Two,1,0,0,0,20,6,5,1,44,32,5,5,2.25,3.1,3.3
+2026-04-03,Colchester,Oldham,Inglaterra - League Two,1,3,0,1,16,9,4,4,50,47,7,2,2.55,3.4,2.62
+2026-04-03,Newport,Crawley,Inglaterra - League Two,0,2,0,0,10,13,2,5,55,38,7,2,2.45,3.3,2.8
+2026-04-03,Salford,Notts County,Inglaterra - League Two,2,1,0,0,17,12,7,1,68,47,7,1,2.25,3.4,3.0
+2026-04-03,Grimsby Town,Harrogate,Inglaterra - League Two,1,3,1,2,19,6,6,3,67,22,8,2,1.53,4.1,5.75
+2026-04-03,Bristol Rovers,Fleetwood,Inglaterra - League Two,1,0,0,0,11,14,2,2,30,34,5,4,2.2,3.2,3.25
+2026-04-03,Accrington,Crewe,Inglaterra - League Two,2,0,0,0,14,4,3,1,30,55,4,7,3.3,3.3,2.15
+2026-04-03,Chesterfield,Cheltenham,Inglaterra - League Two,1,0,1,0,13,6,3,1,43,23,6,1,1.55,3.9,6.0
+2026-04-02,Cambridge,Swindon,Inglaterra - League Two,1,1,1,0,20,5,7,2,82,33,10,5,1.7,3.4,5.0
+2026-04-03,Walsall,Gillingham,Inglaterra - League Two,2,2,1,0,11,12,5,4,57,37,5,3,1.7,3.6,5.0
+2026-03-21,Cesena,Catanzaro,Itália - Serie B,3,1,0,1,18,16,6,3,42,45,7,5,2.37,3.5,2.8
+2026-03-21,Monza,Venezia,Itália - Serie B,1,1,0,1,18,8,2,2,46,23,10,1,2.87,3.1,2.6
+2026-03-21,Modena,Mantova,Itália - Serie B,2,1,1,0,9,8,4,2,24,60,1,4,1.57,3.8,6.0
+2026-03-22,Virtus Entella,Reggiana,Itália - Serie B,3,0,1,0,19,11,9,3,53,23,8,3,2.15,3.0,3.9
+2026-03-22,Bari 1908,Carrarese,Itália - Serie B,0,3,0,0,12,14,3,4,57,50,12,6,3.25,3.0,2.4
+2026-03-21,Juve Stabia,Spezia,Itália - Serie B,3,1,1,1,20,8,8,2,42,44,3,2,2.25,2.9,3.6
+2026-04-03,Jong AZ,Helmond,Países Baixos - Eerste Divisie,2,0,2,0,12,8,5,3,41,33,6,2,1.9,4.0,3.5
+2026-03-22,Empoli,Pescara,Itália - Serie B,4,2,2,1,24,13,9,6,59,34,6,9,2.05,3.4,3.5
+2026-04-03,Maastricht,Waalwijk,Países Baixos - Eerste Divisie,1,3,0,2,14,23,2,12,48,50,7,8,5.0,4.33,1.57
+2026-04-03,Eindhoven,De Graafschap,Países Baixos - Eerste Divisie,2,2,0,0,17,8,7,4,44,63,3,5,2.6,4.0,2.35
+2026-04-03,Dordrecht,Roda Kerkrade,Países Baixos - Eerste Divisie,0,3,0,2,20,9,4,4,48,22,9,3,2.55,3.6,2.55
+2026-04-03,Almere City,TOP Oss,Países Baixos - Eerste Divisie,3,2,1,1,20,13,4,3,58,33,7,3,1.36,5.25,7.0
+2026-04-03,Vitesse,FC Emmen,Países Baixos - Eerste Divisie,3,3,3,1,15,11,7,5,38,22,9,2,1.75,4.1,4.2
+2026-04-03,Den Haag,Jong Ajax,Países Baixos - Eerste Divisie,4,2,2,2,17,14,6,5,56,26,8,5,1.16,7.0,10.0
+2026-04-03,Willem II,Jong PSV,Países Baixos - Eerste Divisie,1,0,1,0,17,13,8,2,36,68,3,8,1.55,4.5,5.0
+2026-04-03,Venlo,Cambuur,Países Baixos - Eerste Divisie,3,0,1,0,14,8,6,1,21,35,6,5,3.4,3.5,1.85
+2026-03-21,Servette,Grasshopper,Suíça - Super League,5,0,4,0,19,10,8,5,51,34,5,4,1.8,3.5,4.5
+2026-03-21,Sion,St. Gallen,Suíça - Super League,1,1,1,1,13,19,6,7,38,36,8,12,2.25,3.5,3.0
+2026-03-22,AGF,Brøndby,Dinamarca - Superliga,0,0,0,0,15,11,6,2,38,56,7,5,1.72,3.8,4.5
+2026-03-20,Vejle,OB,Dinamarca - Superliga,1,1,0,1,6,11,1,3,40,68,2,7,3.2,3.4,2.2
+2026-03-22,Sandefjord,Sarpsborg 08,Noruega - Eliteserien,0,2,0,2,16,8,6,6,59,45,9,6,2.05,4.0,3.0
+2026-03-21,Start,Aalesund,Noruega - Eliteserien,1,1,0,1,15,11,4,3,71,25,11,2,2.25,3.4,3.1
+2026-03-22,Brann,Tromsø,Noruega - Eliteserien,1,2,1,1,10,13,3,6,54,39,6,9,1.9,3.5,4.0
+2026-03-22,Rosenborg,Vålerenga,Noruega - Eliteserien,0,2,0,0,12,10,1,6,75,26,16,6,2.2,3.4,3.2
+2026-03-21,Viking,Molde,Noruega - Eliteserien,4,1,3,1,12,12,6,5,30,38,3,9,1.66,3.75,5.0
+2026-03-21,Polokwane City,AmaZulu,África Do Sul - Premier League,0,1,0,0,15,4,4,2,82,53,5,4,2.35,2.62,3.1
+2026-03-22,Golden Arrows,Sekhukhune United,África Do Sul - Premier League,1,0,0,0,11,10,4,3,49,22,5,0,3.3,3.1,2.05
+2026-03-22,Siwelele,Orbit College,África Do Sul - Premier League,1,0,1,0,14,8,5,2,51,47,6,4,1.75,2.87,5.0
+2026-03-21,Kaizer Chiefs,Magesi,África Do Sul - Premier League,2,0,1,0,13,7,5,1,63,50,1,3,1.7,3.0,5.25
+2026-03-21,Alashkert,Pyunik,Armênia - Premier League,0,1,0,1,5,3,1,1,65,34,3,1,3.2,2.87,2.2
+2026-04-02,Boyacá Chicó,Deportivo Pereira,Colômbia - Liga Betplay,1,0,0,0,23,5,6,0,43,21,8,0,1.83,3.2,3.9
+2026-04-01,Alianza Petrolera,Deportivo Pasto,Colômbia - Liga Betplay,0,0,0,0,10,13,2,5,36,43,7,5,2.1,3.0,3.6
+2026-04-02,Jaguares de Córdoba,Millonarios,Colômbia - Liga Betplay,1,0,0,0,13,13,4,7,20,60,2,5,4.5,3.5,1.8
+2026-03-21,Al Mokawloon,Petrojet,Egito - Premier League,2,2,2,0,8,12,4,3,33,48,1,4,2.5,2.87,2.7
+2026-04-03,Rochdale,Morecambe,Inglaterra - National League,2,4,1,1,19,7,4,5,101,47,15,2,1.22,6.0,9.0
+2026-04-03,Southend United,Braintree Town,Inglaterra - National League,3,2,2,0,23,11,7,4,90,73,2,3,1.2,5.75,10.0
+2026-04-03,Altrincham,Halifax Town,Inglaterra - National League,0,1,0,0,12,11,3,2,55,70,5,7,2.62,3.5,2.37
+2026-04-03,Woking,Eastleigh,Inglaterra - National League,3,3,1,1,11,11,6,4,67,73,3,4,1.8,3.5,4.0
+2026-04-03,Yeovil Town,Truro City,Inglaterra - National League,1,0,0,0,7,12,4,3,46,59,3,4,2.1,3.2,3.25
+2026-04-03,Forest Green,Brackley Town,Inglaterra - National League,4,0,1,0,31,3,7,0,77,37,14,3,1.4,4.5,6.5
+2026-04-03,Boston United,York City,Inglaterra - National League,0,1,0,0,9,11,1,6,63,83,2,6,6.0,4.33,1.44
+2026-04-03,Aldershot Town,Sutton,Inglaterra - National League,2,2,2,1,10,7,3,6,53,33,9,2,2.25,3.4,3.1
+2026-04-03,Tamworth,Solihull Moors,Inglaterra - National League,1,0,0,0,10,7,2,1,62,55,7,6,2.1,3.4,3.0
+2026-04-03,Boreham Wood,Wealdstone,Inglaterra - National League,5,1,2,0,16,9,11,2,74,45,6,5,1.48,4.2,5.25
+2026-04-03,Carlisle,Gateshead,Inglaterra - National League,0,0,0,0,16,7,6,1,79,59,9,1,1.53,4.0,5.25
+2026-04-03,Scunthorpe,Hartlepool,Inglaterra - National League,0,0,0,0,19,5,2,0,87,32,11,1,1.66,3.75,4.33
+2026-04-03,St Patrick's,Sligo Rovers,Irlanda - Premier Division,4,1,2,1,24,7,14,5,66,30,7,3,1.27,4.5,11.0
+2026-04-03,Drogheda United,Bohemians,Irlanda - Premier Division,0,0,0,0,13,14,3,2,34,46,5,5,4.2,3.1,1.85
+2026-04-03,Galway United,Derry City,Irlanda - Premier Division,2,1,1,0,18,12,5,4,40,64,8,6,2.62,2.87,2.62
+2026-04-03,Waterford United,Shamrock Rovers,Irlanda - Premier Division,1,1,0,0,5,18,3,3,13,82,0,9,6.0,4.0,1.45
+2026-04-03,Shelbourne,Dundalk,Irlanda - Premier Division,2,3,0,2,12,19,4,8,41,45,5,6,1.7,3.5,4.5
+2026-03-20,Motor Lublin,Zagłębie Lubin,Polônia - Ekstraklasa,1,0,0,0,9,9,1,1,29,55,4,5,1.9,3.5,3.4
+2026-03-20,Piast Gliwice,Radomiak Radom,Polônia - Ekstraklasa,3,1,1,0,20,6,9,2,87,57,5,3,2.15,3.25,3.2
+2026-03-21,Lechia Gdańsk,Pogoń Szczecin,Polônia - Ekstraklasa,2,1,1,1,15,18,7,7,58,69,7,9,2.45,3.3,2.55
+2026-03-22,Korona Kielce,Arka Gdynia,Polônia - Ekstraklasa,3,0,3,0,25,10,4,5,40,23,7,3,2.0,3.0,4.0
