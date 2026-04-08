@@ -41346,3 +41346,68 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-06 21:57:06,017 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (27 linhas).
 2026-04-06 21:57:06,303 [INFO] __main__: Exportado histórico para dados_redscore.csv (20242 linhas)
 2026-04-06 21:57:06,876 [INFO] __main__: --- Rotina concluída em 302.78s ---
+2026-04-07 21:03:11,788 [INFO] __main__: Coletor iniciado
+2026-04-07 21:03:11,790 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-07 21:03:33,848 [INFO] [ODDS] Odds para Göztepe vs Galatasaray: 4.75, 3.6, 1.72
+2026-04-07 21:03:33,848 [INFO] coletor: [ODDS] Odds para Göztepe vs Galatasaray: 4.75, 3.6, 1.72
+2026-04-07 21:03:33,848 [INFO] [ODDS] Odds para Larissa vs Panaitolikos: 2.15, 3.3, 3.4
+2026-04-07 21:03:33,848 [INFO] coletor: [ODDS] Odds para Larissa vs Panaitolikos: 2.15, 3.3, 3.4
+2026-04-07 21:03:33,849 [INFO] [ODDS] Odds para Panserraikos vs Asteras Tripolis: 2.9, 3.2, 2.45
+2026-04-07 21:03:33,849 [INFO] coletor: [ODDS] Odds para Panserraikos vs Asteras Tripolis: 2.9, 3.2, 2.45
+2026-04-07 21:03:33,850 [INFO] [ODDS] Odds para Atromitos vs Kifisia: 1.95, 3.4, 3.9
+2026-04-07 21:03:33,850 [INFO] coletor: [ODDS] Odds para Atromitos vs Kifisia: 1.95, 3.4, 3.9
+2026-04-07 21:03:33,850 [INFO] [ODDS] Odds para TS Galaxy vs Polokwane City: 2.37, 2.75, 3.1
+2026-04-07 21:03:33,850 [INFO] coletor: [ODDS] Odds para TS Galaxy vs Polokwane City: 2.37, 2.75, 3.1
+2026-04-07 21:03:33,851 [INFO] [ODDS] Odds para Wehen Wiesbaden vs Havelse: 1.5, 3.9, 5.0
+2026-04-07 21:03:33,851 [INFO] coletor: [ODDS] Odds para Wehen Wiesbaden vs Havelse: 1.5, 3.9, 5.0
+2026-04-07 21:03:33,851 [INFO] [ODDS] Odds para Stuttgart II vs Ulm: 2.0, 3.5, 3.0
+2026-04-07 21:03:33,851 [INFO] coletor: [ODDS] Odds para Stuttgart II vs Ulm: 2.0, 3.5, 3.0
+2026-04-07 21:03:33,852 [INFO] [ODDS] Odds para Ingolstadt vs Viktoria Köln: 2.1, 3.5, 2.87
+2026-04-07 21:03:33,852 [INFO] coletor: [ODDS] Odds para Ingolstadt vs Viktoria Köln: 2.1, 3.5, 2.87
+2026-04-07 21:03:33,853 [INFO] [ODDS] Odds para Saarbrücken vs Alemannia Aachen: 2.15, 3.3, 2.87
+2026-04-07 21:03:33,853 [INFO] coletor: [ODDS] Odds para Saarbrücken vs Alemannia Aachen: 2.15, 3.3, 2.87
+2026-04-07 21:03:33,853 [INFO] [ODDS] Odds para Verl vs Hansa Rostock: 2.05, 3.5, 2.9
+2026-04-07 21:03:33,853 [INFO] coletor: [ODDS] Odds para Verl vs Hansa Rostock: 2.05, 3.5, 2.9
+2026-04-07 21:03:33,854 [INFO] [ODDS] Odds para Al Feiha vs Al Ahli: 5.75, 3.75, 1.45
+2026-04-07 21:03:33,854 [INFO] coletor: [ODDS] Odds para Al Feiha vs Al Ahli: 5.75, 3.75, 1.45
+2026-04-07 21:03:33,855 [INFO] [ODDS] Odds para Al Ittihad vs Al Suqoor: 1.61, 3.6, 4.5
+2026-04-07 21:03:33,855 [INFO] coletor: [ODDS] Odds para Al Ittihad vs Al Suqoor: 1.61, 3.6, 4.5
+2026-04-07 21:03:33,855 [INFO] [ODDS] Odds para Al Hilal vs Al Kholood: 1.18, 6.25, 12.0
+2026-04-07 21:03:33,855 [INFO] coletor: [ODDS] Odds para Al Hilal vs Al Kholood: 1.18, 6.25, 12.0
+2026-04-07 21:03:33,856 [INFO] [ODDS] Odds para Midland vs Acassuso: 1.65, 3.25, 6.25
+2026-04-07 21:03:33,856 [INFO] coletor: [ODDS] Odds para Midland vs Acassuso: 1.65, 3.25, 6.25
+2026-04-07 21:03:33,856 [INFO] [ODDS] Odds para Montana vs CSKA Sofia: 11.0, 4.75, 1.3
+2026-04-07 21:03:33,856 [INFO] coletor: [ODDS] Odds para Montana vs CSKA Sofia: 11.0, 4.75, 1.3
+2026-04-07 21:03:33,857 [INFO] [ODDS] Odds para Botev Plovdiv vs Lokomotiv Plovdiv: 1.83, 3.4, 4.5
+2026-04-07 21:03:33,857 [INFO] coletor: [ODDS] Odds para Botev Plovdiv vs Lokomotiv Plovdiv: 1.83, 3.4, 4.5
+2026-04-07 21:03:33,857 [INFO] [ODDS] Odds para Wadi Degla vs Pharco: 1.7, 3.2, 5.0
+2026-04-07 21:03:33,857 [INFO] coletor: [ODDS] Odds para Wadi Degla vs Pharco: 1.7, 3.2, 5.0
+2026-04-07 21:03:33,858 [INFO] [ODDS] Odds para Ghazl El Mehalla vs El Gounah: 2.75, 2.7, 2.62
+2026-04-07 21:03:33,858 [INFO] coletor: [ODDS] Odds para Ghazl El Mehalla vs El Gounah: 2.75, 2.7, 2.62
+2026-04-07 21:03:33,858 [INFO] [ODDS] Odds para Haras El Hodood vs Future FC: 5.0, 3.0, 1.72
+2026-04-07 21:03:33,858 [INFO] coletor: [ODDS] Odds para Haras El Hodood vs Future FC: 5.0, 3.0, 1.72
+2026-04-07 21:03:33,859 [INFO] [ODDS] Odds para Universidad Católica vs Emelec: 1.65, 3.6, 5.0
+2026-04-07 21:03:33,859 [INFO] coletor: [ODDS] Odds para Universidad Católica vs Emelec: 1.65, 3.6, 5.0
+2026-04-07 21:03:33,859 [INFO] [ODDS] Odds para Levadia vs Vaprus: 1.25, 5.25, 10.0
+2026-04-07 21:03:33,859 [INFO] coletor: [ODDS] Odds para Levadia vs Vaprus: 1.25, 5.25, 10.0
+2026-04-07 21:03:33,860 [INFO] [ODDS] Odds para Harju Jalgpallikool vs Nõmme Kalju: 5.5, 3.7, 1.5
+2026-04-07 21:03:33,860 [INFO] coletor: [ODDS] Odds para Harju Jalgpallikool vs Nõmme Kalju: 5.5, 3.7, 1.5
+2026-04-07 21:03:33,860 [INFO] [ODDS] Odds para Paide vs Nõmme United: 1.4, 5.0, 4.75
+2026-04-07 21:03:33,860 [INFO] coletor: [ODDS] Odds para Paide vs Nõmme United: 1.4, 5.0, 4.75
+2026-04-07 21:03:33,861 [INFO] [ODDS] Odds para Javor Ivanjica vs Železničar Pančevo: 2.7, 3.2, 2.6
+2026-04-07 21:03:33,861 [INFO] coletor: [ODDS] Odds para Javor Ivanjica vs Železničar Pančevo: 2.7, 3.2, 2.6
+2026-04-07 21:03:33,861 [INFO] [ODDS] Odds para Bačka Topola vs IMT Novi Beograd: 2.05, 3.25, 3.5
+2026-04-07 21:03:33,861 [INFO] coletor: [ODDS] Odds para Bačka Topola vs IMT Novi Beograd: 2.05, 3.25, 3.5
+2026-04-07 21:03:33,862 [INFO] [ODDS] Odds para Vojvodina vs Radnički Niš: 1.36, 4.75, 8.5
+2026-04-07 21:03:33,862 [INFO] coletor: [ODDS] Odds para Vojvodina vs Radnički Niš: 1.36, 4.75, 8.5
+2026-04-07 21:03:33,862 [INFO] [ODDS] Odds para Mladost Lučani vs Napredak: 1.53, 4.0, 6.0
+2026-04-07 21:03:33,862 [INFO] coletor: [ODDS] Odds para Mladost Lučani vs Napredak: 1.53, 4.0, 6.0
+2026-04-07 21:03:33,863 [INFO] [AGENDA] Válidos=27, Incompletos=0, Filtrados=138, Duplicados=0
+2026-04-07 21:03:33,863 [INFO] coletor: [AGENDA] Válidos=27, Incompletos=0, Filtrados=138, Duplicados=0
+2026-04-07 21:03:33,863 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.61s
+2026-04-07 21:03:33,870 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-08.csv (27 linhas).
+2026-04-07 21:03:43,854 [INFO] __main__: [TEMPO] Fase 2 concluída em 9.98s (links extraídos: 54)
+2026-04-07 21:06:24,695 [INFO] __main__: [TEMPO] Fase 3 concluída em 160.84s (jogos raspados: 89)
+2026-04-07 21:06:24,789 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (34 linhas).
+2026-04-07 21:06:25,004 [INFO] __main__: Exportado histórico para dados_redscore.csv (20276 linhas)
+2026-04-07 21:06:25,383 [INFO] __main__: --- Rotina concluída em 193.59s ---
