@@ -41411,3 +41411,48 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-07 21:06:24,789 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (34 linhas).
 2026-04-07 21:06:25,004 [INFO] __main__: Exportado histórico para dados_redscore.csv (20276 linhas)
 2026-04-07 21:06:25,383 [INFO] __main__: --- Rotina concluída em 193.59s ---
+2026-04-08 21:43:17,635 [INFO] __main__: Coletor iniciado
+2026-04-08 21:43:17,636 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-08 21:43:43,052 [INFO] [ODDS] Odds para Rizespor vs Samsunspor: 2.25, 3.25, 3.2
+2026-04-08 21:43:43,052 [INFO] coletor: [ODDS] Odds para Rizespor vs Samsunspor: 2.25, 3.25, 3.2
+2026-04-08 21:43:43,053 [INFO] [ODDS] Odds para Damac vs Al Quadisiya: 6.5, 4.2, 1.42
+2026-04-08 21:43:43,053 [INFO] coletor: [ODDS] Odds para Damac vs Al Quadisiya: 6.5, 4.2, 1.42
+2026-04-08 21:43:43,054 [INFO] [ODDS] Odds para Al Ettifaq vs Al Riyadh: 2.1, 3.25, 3.0
+2026-04-08 21:43:43,054 [INFO] coletor: [ODDS] Odds para Al Ettifaq vs Al Riyadh: 2.1, 3.25, 3.0
+2026-04-08 21:43:43,054 [WARNING] [ODDS] Odds não encontradas para MC Oran vs MB Rouisset. Motivo: could not convert string to float: '-'
+2026-04-08 21:43:43,054 [WARNING] coletor: [ODDS] Odds não encontradas para MC Oran vs MB Rouisset. Motivo: could not convert string to float: '-'
+2026-04-08 21:43:43,055 [WARNING] [ODDS] Odds não encontradas para MC Alger vs El Bayadh. Motivo: could not convert string to float: '-'
+2026-04-08 21:43:43,055 [WARNING] coletor: [ODDS] Odds não encontradas para MC Alger vs El Bayadh. Motivo: could not convert string to float: '-'
+2026-04-08 21:43:43,055 [WARNING] [ODDS] Odds não encontradas para USM Alger vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2026-04-08 21:43:43,055 [WARNING] coletor: [ODDS] Odds não encontradas para USM Alger vs CR Belouizdad. Motivo: could not convert string to float: '-'
+2026-04-08 21:43:43,056 [INFO] [ODDS] Odds para Lokomotiv Sofia 1929 vs Beroe: 1.53, 3.4, 6.0
+2026-04-08 21:43:43,056 [INFO] coletor: [ODDS] Odds para Lokomotiv Sofia 1929 vs Beroe: 1.53, 3.4, 6.0
+2026-04-08 21:43:43,056 [INFO] [ODDS] Odds para Ludogorets vs Cherno More: 1.3, 4.75, 12.0
+2026-04-08 21:43:43,056 [INFO] coletor: [ODDS] Odds para Ludogorets vs Cherno More: 1.3, 4.75, 12.0
+2026-04-08 21:43:43,057 [INFO] [ODDS] Odds para Levski Sofia vs Arda: 1.42, 3.6, 8.0
+2026-04-08 21:43:43,057 [INFO] coletor: [ODDS] Odds para Levski Sofia vs Arda: 1.42, 3.6, 8.0
+2026-04-08 21:43:43,057 [INFO] [ODDS] Odds para Kahraba Ismailia vs Al Ittihad: 2.87, 3.0, 2.35
+2026-04-08 21:43:43,057 [INFO] coletor: [ODDS] Odds para Kahraba Ismailia vs Al Ittihad: 2.87, 3.0, 2.35
+2026-04-08 21:43:43,058 [INFO] [ODDS] Odds para El Geish vs National Bank of Egypt: 3.0, 2.8, 2.35
+2026-04-08 21:43:43,058 [INFO] coletor: [ODDS] Odds para El Geish vs National Bank of Egypt: 3.0, 2.8, 2.35
+2026-04-08 21:43:43,058 [INFO] [ODDS] Odds para Petrojet vs ZED FC: 2.8, 2.75, 2.5
+2026-04-08 21:43:43,058 [INFO] coletor: [ODDS] Odds para Petrojet vs ZED FC: 2.8, 2.75, 2.5
+2026-04-08 21:43:43,059 [INFO] [ODDS] Odds para Al Mokawloon vs Ismaily: 1.9, 2.8, 4.2
+2026-04-08 21:43:43,059 [INFO] coletor: [ODDS] Odds para Al Mokawloon vs Ismaily: 1.9, 2.8, 4.2
+2026-04-08 21:43:43,059 [INFO] [ODDS] Odds para Novi Pazar vs Partizan: 3.0, 3.5, 2.2
+2026-04-08 21:43:43,059 [INFO] coletor: [ODDS] Odds para Novi Pazar vs Partizan: 3.0, 3.5, 2.2
+2026-04-08 21:43:43,059 [INFO] [ODDS] Odds para Crvena Zvezda vs Spartak Subotica: 1.05, 13.0, 29.0
+2026-04-08 21:43:43,059 [INFO] coletor: [ODDS] Odds para Crvena Zvezda vs Spartak Subotica: 1.05, 13.0, 29.0
+2026-04-08 21:43:43,060 [INFO] [ODDS] Odds para Čukarički vs Radnički Kragujevac: 2.15, 3.4, 3.2
+2026-04-08 21:43:43,060 [INFO] coletor: [ODDS] Odds para Čukarički vs Radnički Kragujevac: 2.15, 3.4, 3.2
+2026-04-08 21:43:43,060 [INFO] [ODDS] Odds para OFK Beograd vs Radnik Surdulica: 2.05, 3.4, 3.4
+2026-04-08 21:43:43,060 [INFO] coletor: [ODDS] Odds para OFK Beograd vs Radnik Surdulica: 2.05, 3.4, 3.4
+2026-04-08 21:43:43,060 [INFO] [AGENDA] Válidos=17, Incompletos=0, Filtrados=75, Duplicados=0
+2026-04-08 21:43:43,060 [INFO] coletor: [AGENDA] Válidos=17, Incompletos=0, Filtrados=75, Duplicados=0
+2026-04-08 21:43:43,061 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.27s
+2026-04-08 21:43:43,066 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-09.csv (17 linhas).
+2026-04-08 21:43:52,698 [INFO] __main__: [TEMPO] Fase 2 concluída em 9.63s (links extraídos: 34)
+2026-04-08 21:45:34,159 [INFO] __main__: [TEMPO] Fase 3 concluída em 101.46s (jogos raspados: 66)
+2026-04-08 21:45:34,308 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (18 linhas).
+2026-04-08 21:45:34,643 [INFO] __main__: Exportado histórico para dados_redscore.csv (20294 linhas)
+2026-04-08 21:45:35,397 [INFO] __main__: --- Rotina concluída em 137.76s ---
