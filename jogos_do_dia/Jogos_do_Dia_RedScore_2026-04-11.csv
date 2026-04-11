@@ -1,0 +1,279 @@
+data,liga,hora,home,away,Odd_H,Odd_D,Odd_A,link_confronto
+2026-04-11,Inglaterra - Premier League,08:30,Arsenal,Bournemouth,1.45,4.33,7.0,https://redscores.com/pt-br/match/arsenal-afc-bournemouth/Jx1
+2026-04-11,Inglaterra - Premier League,11:00,Brentford,Everton,2.1,3.3,3.6,https://redscores.com/pt-br/match/everton-brentford/Gx2B
+2026-04-11,Inglaterra - Premier League,11:00,Burnley,Brighton,4.75,4.0,1.7,https://redscores.com/pt-br/match/burnley-brighton-hove-albion/NxIA
+2026-04-11,Inglaterra - Premier League,13:30,Liverpool,Fulham,1.65,4.2,4.75,https://redscores.com/pt-br/match/liverpool-fulham/exF
+2026-04-11,Espanha - La Liga,09:00,Real Sociedad,Alavés,1.72,3.7,4.75,https://redscores.com/pt-br/match/real-sociedad-deportivo-alaves/WExyY
+2026-04-11,Espanha - La Liga,11:15,Elche,Valencia,2.5,3.3,2.87,https://redscores.com/pt-br/match/valencia-elche/PBxAj
+2026-04-11,Espanha - La Liga,13:30,Barcelona,Espanyol,1.3,6.0,8.5,https://redscores.com/pt-br/match/fc-barcelona-espanyol/lAxue
+2026-04-11,Espanha - La Liga,16:00,Sevilla,Atlético Madrid,2.55,3.2,2.87,https://redscores.com/pt-br/match/sevilla-atletico-madrid/CFxZeb
+2026-04-11,Alemanha - Bundesliga,10:30,Wolfsburg,Frankfurt,2.45,3.4,2.45,https://redscores.com/pt-br/match/eintracht-frankfurt-vfl-wolfsburg/adxle
+2026-04-11,Alemanha - Bundesliga,10:30,RB Leipzig,M'Gladbach,1.48,5.0,6.0,https://redscores.com/pt-br/match/rb-leipzig-borussia-monchengladbach/QcxgF
+2026-04-11,Alemanha - Bundesliga,10:30,Dortmund,Leverkusen,1.95,3.9,3.5,https://redscores.com/pt-br/match/borussia-dortmund-bayer-04-leverkusen/DAxN3
+2026-04-11,Alemanha - Bundesliga,10:30,Heidenheim,Union Berlin,2.9,3.6,2.3,https://redscores.com/pt-br/match/fc-union-berlin-heidenheim/vIxMX
+2026-04-11,Alemanha - Bundesliga,13:30,St. Pauli,Bayern,8.0,4.75,1.38,https://redscores.com/pt-br/match/st-pauli-fc-bayern-munchen/YCxHe
+2026-04-11,Itália - Serie A,10:00,Cagliari,Cremonese,2.15,3.1,3.6,https://redscores.com/pt-br/match/cagliari-cremonese/sExy2b
+2026-04-11,Itália - Serie A,10:00,Torino,Hellas Verona,1.9,3.3,4.33,https://redscores.com/pt-br/match/torino-hellas-verona/BfxMj
+2026-04-11,Itália - Serie A,13:00,Milan,Udinese,1.44,4.5,7.5,https://redscores.com/pt-br/match/milan-udinese/1AxUC
+2026-04-11,Itália - Serie A,15:45,Atalanta,Juventus,3.1,3.3,2.35,https://redscores.com/pt-br/match/juventus-atalanta/HfxSF
+2026-04-11,França - Ligue 1,14:00,Auxerre,Nantes,1.95,3.4,4.1,https://redscores.com/pt-br/match/nantes-auxerre/8xl9
+2026-04-11,França - Ligue 1,16:05,Rennes,Angers,1.36,4.75,8.5,https://redscores.com/pt-br/match/rennes-angers-sco/zExwg
+2026-04-11,Países Baixos - Eredivisie,11:30,Utrecht,Telstar,1.61,3.6,6.0,https://redscores.com/pt-br/match/fc-utrecht-telstar/jgxMM
+2026-04-11,Países Baixos - Eredivisie,13:45,Sparta Rotterdam,PSV,3.9,4.33,1.75,https://redscores.com/pt-br/match/psv-sparta-rotterdam/FFxcH
+2026-04-11,Países Baixos - Eredivisie,15:00,Groningen,G. A. Eagle,1.85,4.0,3.8,https://redscores.com/pt-br/match/go-ahead-eagles-fc-groningen/3fxNt
+2026-04-11,Países Baixos - Eredivisie,16:00,Heracles Almelo,Ajax,5.25,4.33,1.57,https://redscores.com/pt-br/match/ajax-heracles-almelo/JfxaL
+2026-04-11,Portugal - Primeira Liga,11:30,AVS,Guimaraes,5.0,3.7,1.7,https://redscores.com/pt-br/match/vitoria-sc-avs/SGxqKFA
+2026-04-11,Portugal - Primeira Liga,14:00,Santa Clara,Rio Ave,1.8,3.4,4.75,https://redscores.com/pt-br/match/santa-clara-rio-ave/CVxQVA
+2026-04-11,Portugal - Primeira Liga,16:30,Estrela Amadora,Sporting,12.0,6.0,1.22,https://redscores.com/pt-br/match/sporting-cp-estrela-amadora/7xGiB
+2026-04-11,Turquia - Super Lig,08:30,Başakşehir,Gençlerbirliği,1.57,4.0,5.5,https://redscores.com/pt-br/match/genclerbirligi-istanbul-basaksehir/vcxv9
+2026-04-11,Turquia - Super Lig,11:00,Alanyaspor,Trabzonspor,2.8,3.3,2.45,https://redscores.com/pt-br/match/alanyaspor-trabzonspor/vCxIF
+2026-04-11,Turquia - Super Lig,14:00,Kayserispor,Fenerbahçe,6.5,4.5,1.44,https://redscores.com/pt-br/match/fenerbahce-kayserispor/NAxQf
+2026-04-11,Brasil - Serie A,16:30,Vitória,São Paulo,3.2,3.1,2.4,https://redscores.com/pt-br/match/vitoria-sao-paulo/m5xJ6
+2026-04-11,Brasil - Serie A,16:30,Remo,Vasco da Gama,2.9,3.4,2.4,https://redscores.com/pt-br/match/vasco-da-gama-remo/MFxKdB
+2026-04-11,Brasil - Serie A,18:30,Fluminense,Flamengo,3.5,3.0,2.3,https://redscores.com/pt-br/match/flamengo-fluminense/Yix7I
+2026-04-11,Brasil - Serie A,18:30,Mirassol,Bahia,2.3,3.4,3.1,https://redscores.com/pt-br/match/bahia-mirassol/KFxm9b
+2026-04-11,Brasil - Serie A,20:00,Santos,Atlético Mineiro,2.25,3.2,3.3,https://redscores.com/pt-br/match/atletico-mineiro-santos/F5xm9
+2026-04-11,Brasil - Serie A,20:30,Internacional,Grêmio,1.85,3.6,4.1,https://redscores.com/pt-br/match/internacional-gremio/gwx7y
+2026-04-11,EUA - Major League Soccer,14:00,Toronto,Cincinnati,2.2,3.7,3.1,https://redscores.com/pt-br/match/toronto-cincinnati/ZAxS8
+2026-04-11,EUA - Major League Soccer,15:30,Austin,LA Galaxy,2.05,3.9,3.2,https://redscores.com/pt-br/match/la-galaxy-austin/ydxXjDA
+2026-04-11,EUA - Major League Soccer,15:30,CF Montréal,Philadelphia Union,2.6,3.5,2.6,https://redscores.com/pt-br/match/philadelphia-union-cf-montreal/PcxHaA
+2026-04-11,EUA - Major League Soccer,17:45,Portland Timbers,Los Angeles FC,4.1,4.1,1.75,https://redscores.com/pt-br/match/portland-timbers-los-angeles-fc/7Ex0UT
+2026-04-11,EUA - Major League Soccer,20:30,Vancouver Whitecaps,New York City,1.65,4.1,5.0,https://redscores.com/pt-br/match/vancouver-whitecaps-new-york-city/Ycxo8
+2026-04-11,EUA - Major League Soccer,20:30,Charlotte,Nashville SC,2.5,3.0,3.1,https://redscores.com/pt-br/match/nashville-sc-charlotte/AYTxH4eA
+2026-04-11,EUA - Major League Soccer,20:30,Inter Miami,New York RB,1.45,4.5,6.5,https://redscores.com/pt-br/match/new-york-rb-inter-miami/Idx3IBA
+2026-04-11,EUA - Major League Soccer,20:30,New England,DC United,1.9,3.4,4.1,https://redscores.com/pt-br/match/dc-united-new-england/9bxPf
+2026-04-11,EUA - Major League Soccer,21:30,Dallas,St. Louis City,2.0,3.8,3.4,https://redscores.com/pt-br/match/dallas-st-louis-city/rEx7ZfA
+2026-04-11,EUA - Major League Soccer,21:30,Chicago Fire,Atlanta United,1.6,4.33,5.0,https://redscores.com/pt-br/match/chicago-fire-atlanta-united/hAxX8
+2026-04-11,EUA - Major League Soccer,21:30,Sporting KC,SJ Earthquakes,,,,https://redscores.com/pt-br/match/sj-earthquakes-sporting-kc/VcxjC
+2026-04-11,EUA - Major League Soccer,22:30,Colorado Rapids,Houston Dynamo,2.3,3.2,3.3,https://redscores.com/pt-br/match/colorado-rapids-houston-dynamo/6bx0D
+2026-04-11,EUA - Major League Soccer,23:30,San Diego,Minnesota United,1.7,4.1,4.33,https://redscores.com/pt-br/match/minnesota-united-san-diego/u8x1cGA
+2026-04-11,Bélgica - Pro League,11:00,Cercle Brugge,La Louvière,1.85,3.5,3.75,https://redscores.com/pt-br/match/cercle-brugge-la-louviere/jVxgzA
+2026-04-11,Bélgica - Pro League,13:15,St. Liège,Westerlo,2.4,3.2,2.7,https://redscores.com/pt-br/match/westerlo-standard-liege/1CxOF
+2026-04-11,Bélgica - Pro League,15:45,St. Truiden,Club Brugge,3.6,3.75,1.83,https://redscores.com/pt-br/match/club-brugge-sint-truiden/RCxZC
+2026-04-11,Escócia - Premiership,11:00,Hearts,Motherwell,1.95,3.4,4.0,https://redscores.com/pt-br/match/motherwell-hearts/cCxEC
+2026-04-11,Escócia - Premiership,11:00,Kilmarnock,Dundee,2.15,3.5,3.25,https://redscores.com/pt-br/match/kilmarnock-dundee/7bxuc
+2026-04-11,Escócia - Premiership,11:00,Dundee United,Livingston,1.57,4.0,5.5,https://redscores.com/pt-br/match/livingston-dundee-united/hcxtc
+2026-04-11,Escócia - Premiership,11:00,Aberdeen,Hibernian,3.4,3.4,2.1,https://redscores.com/pt-br/match/hibernian-aberdeen/CAxOc
+2026-04-11,Escócia - Premiership,11:00,Celtic,St. Mirren,1.3,5.25,8.0,https://redscores.com/pt-br/match/celtic-st-mirren/2xee
+2026-04-11,Escócia - Premiership,11:00,Falkirk,Rangers,,,,https://redscores.com/pt-br/match/rangers-falkirk/AAxtg
+2026-04-11,Inglaterra - Championship,08:30,Coventry,Sheffield Wed,1.12,8.5,17.0,https://redscores.com/pt-br/match/sheffield-wednesday-coventry-city/5x5A
+2026-04-11,Inglaterra - Championship,08:30,Norwich,Ipswich,2.8,3.6,2.3,https://redscores.com/pt-br/match/norwich-city-ipswich-town/Qx4A
+2026-04-11,Inglaterra - Championship,08:30,QPR,Bristol City,2.15,3.4,3.25,https://redscores.com/pt-br/match/queens-park-rangers-bristol-city/yxab
+2026-04-11,Inglaterra - Championship,11:00,Southampton,Derby,1.7,3.9,4.5,https://redscores.com/pt-br/match/derby-county-southampton/mxcA
+2026-04-11,Inglaterra - Championship,11:00,Middlesbrough,Portsmouth,1.53,4.0,6.25,https://redscores.com/pt-br/match/portsmouth-middlesbrough/CxD
+2026-04-11,Inglaterra - Championship,11:00,Oxford Utd,Watford,2.4,3.2,3.0,https://redscores.com/pt-br/match/watford-oxford-united/Mx2c
+2026-04-11,Inglaterra - Championship,11:00,Charlton,Preston,2.1,3.3,3.5,https://redscores.com/pt-br/match/charlton-athletic-preston-north-end/cxtA
+2026-04-11,Inglaterra - Championship,11:00,Leicester,Swansea,2.15,3.5,3.25,https://redscores.com/pt-br/match/swansea-city-leicester-city/pxv
+2026-04-11,Inglaterra - Championship,11:00,Sheffield Utd,Hull,1.75,3.8,4.33,https://redscores.com/pt-br/match/sheffield-united-hull-city/Kxl
+2026-04-11,Inglaterra - Championship,11:00,Stoke,Blackburn,2.62,3.25,2.75,https://redscores.com/pt-br/match/blackburn-rovers-stoke-city/bxn
+2026-04-11,Inglaterra - League One,08:30,Lincoln,Leyton Orient,1.55,3.8,6.0,https://redscores.com/pt-br/match/leyton-orient-lincoln-city/ZcxaC
+2026-04-11,Inglaterra - League One,08:30,Cardiff,Bolton,1.75,4.0,4.0,https://redscores.com/pt-br/match/bolton-wanderers-cardiff-city/ixeA
+2026-04-11,Inglaterra - League One,08:30,Plymouth,Exeter,1.57,4.0,5.5,https://redscores.com/pt-br/match/plymouth-argyle-exeter-city/zAxbB
+2026-04-11,Inglaterra - League One,11:00,Wigan,Mansfield,2.45,3.3,2.87,https://redscores.com/pt-br/match/wigan-athletic-mansfield-town/IxvB
+2026-04-11,Inglaterra - League One,11:00,Blackpool,Peterborough,1.8,4.0,3.7,https://redscores.com/pt-br/match/blackpool-peterborough-united/oxfc
+2026-04-11,Inglaterra - League One,11:00,Bradford City,Stevenage,2.15,3.0,3.75,https://redscores.com/pt-br/match/bradford-city-stevenage/HbxVd
+2026-04-11,Inglaterra - League One,11:00,Rotherham,Barnsley,2.45,3.5,2.62,https://redscores.com/pt-br/match/barnsley-rotherham-united/3xib
+2026-04-11,Inglaterra - League One,11:00,Burton,Wimbledon,1.8,3.5,4.5,https://redscores.com/pt-br/match/burton-albion-afc-wimbledon/obx6c
+2026-04-11,Inglaterra - League One,11:00,Doncaster,Reading,1.95,3.6,3.5,https://redscores.com/pt-br/match/reading-doncaster-rovers/Lx1B
+2026-04-11,Inglaterra - League One,11:00,Huddersfield,Wycombe,2.25,3.3,3.1,https://redscores.com/pt-br/match/wycombe-wanderers-huddersfield-town/aBxDc
+2026-04-11,Inglaterra - League Two,08:30,Bristol Rovers,Crawley,1.95,3.3,3.9,https://redscores.com/pt-br/match/crawley-town-bristol-rovers/lBxyB
+2026-04-11,Inglaterra - League Two,08:30,MK Dons,Bromley,1.72,3.5,5.0,https://redscores.com/pt-br/match/bromley-milton-keynes-dons/1cxsC
+2026-04-11,Inglaterra - League Two,11:00,Accrington,Fleetwood,3.25,3.2,2.25,https://redscores.com/pt-br/match/fleetwood-town-accrington-stanley/gCxOd
+2026-04-11,Inglaterra - League Two,11:00,Barnet,Barrow,1.5,3.9,6.5,https://redscores.com/pt-br/match/barnet-barrow/GCxGd
+2026-04-11,Inglaterra - League Two,11:00,Shrewsbury,Oldham,3.7,3.3,2.0,https://redscores.com/pt-br/match/shrewsbury-town-oldham-athletic/qbxRB
+2026-04-11,Inglaterra - League Two,11:00,Cambridge,Notts County,1.85,3.3,4.33,https://redscores.com/pt-br/match/notts-county-cambridge-united/SAxzB
+2026-04-11,Inglaterra - League Two,11:00,Newport,Harrogate,2.25,3.3,3.1,https://redscores.com/pt-br/match/newport-county-harrogate-town/FAxid
+2026-04-11,Inglaterra - League Two,11:00,Salford,Gillingham,1.57,3.8,6.0,https://redscores.com/pt-br/match/salford-city-gillingham/DbxbC
+2026-04-11,Inglaterra - League Two,11:00,Walsall,Cheltenham,1.75,3.4,5.0,https://redscores.com/pt-br/match/walsall-cheltenham-town/HAxXC
+2026-04-11,Inglaterra - League Two,11:00,Chesterfield,Tranmere,1.48,4.1,6.5,https://redscores.com/pt-br/match/tranmere-rovers-chesterfield/jBxcc
+2026-04-11,Inglaterra - League Two,11:00,Grimsby Town,Crewe,1.7,3.8,4.5,https://redscores.com/pt-br/match/crewe-alexandra-grimsby-town/nAxHB
+2026-04-11,Espanha - La Liga 2,11:15,Burgos,Gijón,2.05,2.9,3.5,https://redscores.com/pt-br/match/sporting-gijon-burgos/TCxEHb
+2026-04-11,Espanha - La Liga 2,11:15,Leganés,Albacete,2.2,3.1,3.5,https://redscores.com/pt-br/match/leganes-albacete/0Gx70
+2026-04-11,Espanha - La Liga 2,13:30,Málaga,Las Palmas,2.3,3.2,3.2,https://redscores.com/pt-br/match/malaga-las-palmas/cbx3y
+2026-04-11,Espanha - La Liga 2,16:00,Córdoba,Zaragoza,1.9,3.5,4.0,https://redscores.com/pt-br/match/cordoba-real-zaragoza/iHxBcA
+2026-04-11,Itália - Serie B,10:00,Südtirol,Modena,2.9,3.1,2.5,https://redscores.com/pt-br/match/sudtirol-modena/3bxmi
+2026-04-11,Itália - Serie B,10:00,Virtus Entella,Venezia,5.0,3.8,1.66,https://redscores.com/pt-br/match/venezia-virtus-entella/Lcxfdb
+2026-04-11,Itália - Serie B,10:00,Pescara,Sampdoria,2.15,3.4,3.3,https://redscores.com/pt-br/match/sampdoria-pescara/rexAl
+2026-04-11,Itália - Serie B,10:00,Juve Stabia,Cesena,2.2,3.2,3.5,https://redscores.com/pt-br/match/cesena-juve-stabia/hkx31A
+2026-04-11,Itália - Serie B,12:15,Avellino,Catanzaro,2.7,3.25,2.62,https://redscores.com/pt-br/match/avellino-catanzaro/j1AxOab
+2026-04-11,Itália - Serie B,14:30,Monza,Bari 1908,1.33,5.0,9.0,https://redscores.com/pt-br/match/bari-1908-monza/jDxvn
+2026-04-11,Alemanha - 2. Bundesliga,08:00,Nürnberg,Dynamo Dresden,2.1,3.6,3.3,https://redscores.com/pt-br/match/nurnberg-dynamo-dresden/UHxuI
+2026-04-11,Alemanha - 2. Bundesliga,08:00,Hertha,Kaiserslautern,1.72,4.2,4.1,https://redscores.com/pt-br/match/kaiserslautern-hertha-bsc/1nxL3
+2026-04-11,Alemanha - 2. Bundesliga,08:00,Preußen Münster,Fürth,2.2,3.4,3.2,https://redscores.com/pt-br/match/spvgg-greuther-furth-preusen-munster/H5xY8
+2026-04-11,Alemanha - 2. Bundesliga,15:30,Darmstadt,Hannover,2.7,3.6,2.45,https://redscores.com/pt-br/match/darmstadt-98-hannover-96/4Dx2U
+2026-04-11,França - Ligue 2,09:00,Red Star,Bastia,2.2,2.9,3.2,https://redscores.com/pt-br/match/bastia-red-star/BDxXI
+2026-04-11,França - Ligue 2,09:00,Boulogne,Le Mans,3.2,3.0,2.15,https://redscores.com/pt-br/match/boulogne-le-mans/7LxFCb
+2026-04-11,França - Ligue 2,15:00,Saint-Étienne,Dunkerque,1.61,3.6,4.5,https://redscores.com/pt-br/match/saint-etienne-dunkerque/yAxaK
+2026-04-11,Países Baixos - Eerste Divisie,11:30,Venlo,De Graafschap,2.9,4.0,2.15,https://redscores.com/pt-br/match/de-graafschap-vvv-venlo/sIxaT
+2026-04-11,Áustria - Tipico Bundesliga,12:00,Wolfsberger,Ried,2.4,3.4,2.87,https://redscores.com/pt-br/match/ried-wolfsberger-ac/P7xCAA
+2026-04-11,Áustria - Tipico Bundesliga,12:00,Altach,Grazer,2.45,3.1,3.1,https://redscores.com/pt-br/match/rheindorf-altach-grazer-ak/WBAx0qA
+2026-04-11,Áustria - Tipico Bundesliga,14:30,BW Linz,WSG Tirol,2.2,3.4,3.2,https://redscores.com/pt-br/match/blau-weis-linz-wsg-tirol/d3x3CA
+2026-04-11,Suíça - Super League,13:00,Winterthur,Grasshopper,3.1,3.6,2.15,https://redscores.com/pt-br/match/grasshopper-winterthur/9XxY6
+2026-04-11,Suíça - Super League,13:00,Zürich,Lugano,3.1,3.75,2.1,https://redscores.com/pt-br/match/zurich-lugano/LdxZvB
+2026-04-11,Suíça - Super League,15:30,Thun,Basel,1.75,4.2,4.0,https://redscores.com/pt-br/match/basel-thun/UDxU1b
+2026-04-11,Noruega - Eliteserien,09:00,Lillestrøm,Start,1.5,4.5,5.5,https://redscores.com/pt-br/match/lillestrom-start/EUx0w
+2026-04-11,Noruega - Eliteserien,11:00,Tromsø,Kristiansund,1.33,5.25,8.0,https://redscores.com/pt-br/match/kristiansund-tromso/Hhxw6A
+2026-04-11,Noruega - Eliteserien,13:00,Viking,Bodø / Glimt,3.4,4.2,1.9,https://redscores.com/pt-br/match/viking-bodo-glimt/iCxKN
+2026-04-11,Suécia - Allsvenskan,10:00,Mjällby,Örgryte,1.33,5.25,7.5,https://redscores.com/pt-br/match/mjallby-orgryte/Wdxup
+2026-04-11,Suécia - Allsvenskan,10:00,Västerås SK,Elfsborg,2.7,3.3,2.5,https://redscores.com/pt-br/match/elfsborg-vasteras-sk/dkxEkb
+2026-04-11,Suécia - Allsvenskan,10:00,IFK Göteborg,Häcken,2.35,3.25,3.1,https://redscores.com/pt-br/match/ifk-goteborg-hacken/wexrU
+2026-04-11,Finlândia - Veikkausliiga,08:00,KuPS,Gnistan,1.38,4.33,7.0,https://redscores.com/pt-br/match/kups-gnistan/2EAxenb
+2026-04-11,Finlândia - Veikkausliiga,11:00,HJK,Oulu,1.61,3.9,4.75,https://redscores.com/pt-br/match/hjk-oulu/2FxLqA
+2026-04-11,Finlândia - Veikkausliiga,13:00,Inter Turku,Ilves,2.05,3.4,3.25,https://redscores.com/pt-br/match/inter-turku-ilves/JNx4v
+2026-04-11,Argentina - Superliga,15:00,Deportivo Riestra,Instituto,2.8,2.7,3.0,https://redscores.com/pt-br/match/instituto-deportivo-riestra/8ubx94B
+2026-04-11,Argentina - Superliga,15:30,Independiente Rivadavia,Argentinos Juniors,3.2,2.7,2.7,https://redscores.com/pt-br/match/independiente-rivadavia-argentinos-juniors/JGxt4
+2026-04-11,Argentina - Superliga,17:15,Estudiantes,Unión Santa Fe,2.3,2.75,3.8,https://redscores.com/pt-br/match/union-santa-fe-estudiantes/p6AxbPb
+2026-04-11,Argentina - Superliga,19:30,Boca Juniors,Independiente,2.35,3.0,3.4,https://redscores.com/pt-br/match/boca-juniors-independiente/tExV4b
+2026-04-11,Argentina - Superliga,21:45,Estudiantes Río Cuarto,Barracas Central,2.45,2.8,3.4,https://redscores.com/pt-br/match/barracas-central-estudiantes-rio-cuarto/3gbxyiB
+2026-04-11,México - Liga MX,00:06,Juárez,Tijuana,1.65,4.0,5.0,https://redscores.com/pt-br/match/juarez-tijuana/1vAxV7b
+2026-04-11,México - Liga MX,20:00,Querétaro,Necaxa,2.45,3.4,2.8,https://redscores.com/pt-br/match/queretaro-necaxa/ZexyBA
+2026-04-11,México - Liga MX,20:00,Tigres UANL,Guadalajara,2.7,3.4,2.55,https://redscores.com/pt-br/match/guadalajara-tigres-uanl/aDx9E
+2026-04-11,México - Liga MX,22:00,Pachuca,Santos Laguna,1.42,5.0,6.5,https://redscores.com/pt-br/match/santos-laguna-pachuca/tXxqvb
+2026-04-11,México - Liga MX,22:00,Atlas,Monterrey,3.0,3.6,2.25,https://redscores.com/pt-br/match/atlas-monterrey/EFxTV
+2026-04-11,China - Super League,08:00,Chongqing Tongliang Long,Wuhan Three Towns,1.83,3.25,5.25,https://redscores.com/pt-br/match/wuhan-three-towns-chongqing-tongliang-long/MhbAxtfFA
+2026-04-11,China - Super League,08:00,Qingdao Youth Island,Shenyang Urban,2.5,3.3,2.8,https://redscores.com/pt-br/match/shenyang-urban-qingdao-youth-island/KzjxqfeA
+2026-04-11,China - Super League,08:35,Shanghai Shenhua,Shanghai Port,1.9,3.4,4.33,https://redscores.com/pt-br/match/shanghai-port-shanghai-shenhua/IQAxDpb
+2026-04-11,China - Super League,08:35,Henan Songshan Longmen,Shandong Taishan,2.35,3.6,2.8,https://redscores.com/pt-br/match/shandong-taishan-henan-songshan-longmen/juxfib
+2026-04-11,África do Sul - Premier League,10:00,Siwelele,AmaZulu,2.25,2.87,3.3,https://redscores.com/pt-br/match/amazulu-siwelele/J2AxYqGA
+2026-04-11,África do Sul - Premier League,10:00,Golden Arrows,Durban City,3.0,2.9,2.35,https://redscores.com/pt-br/match/golden-arrows-durban-city/pMxOugA
+2026-04-11,África do Sul - Premier League,12:30,Sekhukhune United,Magesi,1.75,3.1,5.0,https://redscores.com/pt-br/match/magesi-sekhukhune-united/sJcxKTdA
+2026-04-11,África do Sul - Premier League,15:00,Chippa United,Polokwane City,2.75,2.7,2.75,https://redscores.com/pt-br/match/polokwane-city-chippa-united/hOBxCTB
+2026-04-11,Albânia - Superliga,14:00,Flamurtari,Vora,1.75,3.5,3.9,https://redscores.com/pt-br/match/flamurtari-vora/lmAxWmA
+2026-04-11,Alemanha - 3. Liga,09:00,Alemannia Aachen,Stuttgart II,1.9,3.5,3.25,https://redscores.com/pt-br/match/stuttgart-ii-alemannia-aachen/vLxr3
+2026-04-11,Alemanha - 3. Liga,09:00,Waldhof Mannheim,MSV Duisburg,2.5,3.4,2.4,https://redscores.com/pt-br/match/msv-duisburg-waldhof-mannheim/m3xp4
+2026-04-11,Alemanha - 3. Liga,09:00,Viktoria Köln,Wehen Wiesbaden,2.15,3.3,2.87,https://redscores.com/pt-br/match/viktoria-koln-wehen-wiesbaden/IXxv6
+2026-04-11,Alemanha - 3. Liga,09:00,Rot-Weiss Essen,Ingolstadt,1.66,3.8,3.8,https://redscores.com/pt-br/match/ingolstadt-rot-weiss-essen/mExqW
+2026-04-11,Alemanha - 3. Liga,09:00,Havelse,Saarbrücken,4.1,3.75,1.65,https://redscores.com/pt-br/match/saarbrucken-havelse/ZKx76
+2026-04-11,Alemanha - 3. Liga,11:30,Hansa Rostock,Ulm,1.57,3.75,4.75,https://redscores.com/pt-br/match/hansa-rostock-ulm/nExkG
+2026-04-11,Arábia Saudita - Pro League,POSTP,Al Khaleej,Al Hilal,,,,https://redscores.com/pt-br/match/al-hilal-al-khaleej/62AxiIB
+2026-04-11,Arábia Saudita - Pro League,13:00,Al Taawoun,Al Kholood,1.75,3.5,3.8,https://redscores.com/pt-br/match/al-taawoun-al-kholood/GTxOQAA
+2026-04-11,Arábia Saudita - Pro League,13:00,Al Najma,Al Suqoor,4.75,3.8,1.53,https://redscores.com/pt-br/match/al-najma-al-suqoor/0jBxuXc
+2026-04-11,Arábia Saudita - Pro League,13:05,Al Hazm,Al Feiha,2.5,3.1,2.5,https://redscores.com/pt-br/match/al-hazm-al-feiha/cXcxrXc
+2026-04-11,Arábia Saudita - Pro League,POSTP,Al Ahli,Al Fateh,,,,https://redscores.com/pt-br/match/al-fateh-al-ahli/RRAxnub
+2026-04-11,Arábia Saudita - Pro League,15:00,Al Akhdoud,Al Nassr,13.0,8.5,1.14,https://redscores.com/pt-br/match/al-nassr-al-akhdoud/CUxLQAA
+2026-04-11,Argélia - Ligue 1,11:00,Paradou AC,JS Saoura,4.2,3.25,1.8,https://redscores.com/pt-br/match/paradou-ac-js-saoura/ZkcxgKc
+2026-04-11,Argélia - Ligue 1,11:00,Oued Akbou,ES Sétif,1.57,3.1,6.25,https://redscores.com/pt-br/match/es-setif-oued-akbou/UdxdOAA
+2026-04-11,Argentina - Primera B Nacional,15:30,San Miguel,Deportivo Morón,3.0,2.7,2.8,https://redscores.com/pt-br/match/deportivo-moron-san-miguel/E5BxQ5B
+2026-04-11,Argentina - Primera B Nacional,15:30,San Telmo,Godoy Cruz,3.9,3.0,2.15,https://redscores.com/pt-br/match/godoy-cruz-san-telmo/D7bxA5B
+2026-04-11,Argentina - Primera B Nacional,15:30,Almagro,Patronato,2.25,2.8,3.75,https://redscores.com/pt-br/match/patronato-almagro/H2Ax34B
+2026-04-11,Argentina - Primera B Nacional,19:00,Colón,Racing Córdoba,1.8,3.1,5.5,https://redscores.com/pt-br/match/colon-racing-cordoba/nBAxC2B
+2026-04-11,Armênia - Premier League,POSTP,Ararat,Alashkert,5.5,4.0,1.5,https://redscores.com/pt-br/match/ararat-alashkert/BOAxCOA
+2026-04-11,Armênia - Premier League,10:30,Pyunik,Ararat-Armenia,2.3,3.25,2.6,https://redscores.com/pt-br/match/pyunik-ararat-armenia/hOAxRTR
+2026-04-11,Austrália - A-League,02:00,Auckland,Melbourne Victory,2.05,3.8,3.2,https://redscores.com/pt-br/match/melbourne-victory-auckland/VHx8PgA
+2026-04-11,Austrália - A-League,04:00,Newcastle Jets,Adelaide United,2.15,4.1,2.8,https://redscores.com/pt-br/match/newcastle-jets-adelaide-united/eExTY
+2026-04-11,Austrália - A-League,06:35,Western Sydney Wanderers,Sydney,2.55,3.6,2.6,https://redscores.com/pt-br/match/sydney-western-sydney-wanderers/Ecxwk
+2026-04-11,Bélgica - First Division B,11:00,RWDM,RSC Anderlecht II,,,,https://redscores.com/pt-br/match/rwdm-rsc-anderlecht-ii/Fhbx6jEA
+2026-04-11,Bélgica - First Division B,15:00,Waasland-Beveren,Kortrijk,2.05,3.2,3.1,https://redscores.com/pt-br/match/kortrijk-waasland-beveren/qjx1k
+2026-04-11,Bélgica - First Division B,15:00,Francs Borains,KRC Genk II,1.9,3.4,3.25,https://redscores.com/pt-br/match/francs-borains-krc-genk-ii/5BAx5jEA
+2026-04-11,Bélgica - First Division B,15:00,Olympic Charleroi,Lierse Kempenzonen,,,,https://redscores.com/pt-br/match/olympic-charleroi-lierse-kempenzonen/E4AxHiaA
+2026-04-11,Bélgica - First Division B,15:00,Lommel United,Club Brugge II,1.42,4.1,6.0,https://redscores.com/pt-br/match/lommel-united-club-brugge-ii/OvxRcbA
+2026-04-11,Bolívia - Liga De Futbol Prof,16:00,ABB,Bolívar,4.75,4.2,1.57,https://redscores.com/pt-br/match/bolivar-abb/MvAxyseA
+2026-04-11,Bolívia - Liga De Futbol Prof,18:15,Nacional Potosí,Universitario de Vinto,1.55,4.1,5.0,https://redscores.com/pt-br/match/nacional-potosi-universitario-de-vinto/NHbxvSeA
+2026-04-11,Bolívia - Liga De Futbol Prof,20:30,Aurora,Always Ready,2.62,3.75,2.3,https://redscores.com/pt-br/match/aurora-always-ready/H5BxJ7AA
+2026-04-11,Brasil - Serie B,16:00,Juventude,Goiás,2.3,3.25,3.1,https://redscores.com/pt-br/match/juventude-goias/Yx0pb
+2026-04-11,Brasil - Serie B,18:00,Ponte Preta,Vila Nova,2.75,2.87,2.87,https://redscores.com/pt-br/match/ponte-preta-vila-nova/NBAxXgB
+2026-04-11,Brasil - Serie B,18:00,Sport Recife,Avaí,1.8,3.3,4.75,https://redscores.com/pt-br/match/sport-recife-avai/rtxbWA
+2026-04-11,Brasil - Serie B,20:30,Ceará,Náutico,1.83,3.3,4.5,https://redscores.com/pt-br/match/nautico-ceara/jiBxkIB
+2026-04-11,Brasil - Serie C,17:00,Floresta,Santa Cruz,2.62,2.75,2.75,https://redscores.com/pt-br/match/floresta-santa-cruz/8dexwLe
+2026-04-11,Brasil - Serie C,20:00,Ferroviária,Botafogo PB,2.62,3.0,2.45,https://redscores.com/pt-br/match/ferroviaria-botafogo-pb/cUx3cb
+2026-04-11,Brasil - Serie C,20:00,Barra FC,Maranhão,1.65,3.2,5.5,https://redscores.com/pt-br/match/maranhao-barra-fc/iYbxChD
+2026-04-11,Chile - Primera Division,16:00,La Serena,Everton,2.15,3.2,3.25,https://redscores.com/pt-br/match/la-serena-everton/N5x7bc
+2026-04-11,Chile - Primera Division,18:30,Audax Italiano,Universidad Católica,3.5,3.4,2.05,https://redscores.com/pt-br/match/universidad-catolica-audax-italiano/nwx4Eb
+2026-04-11,Chile - Primera Division,21:00,Palestino,Deportes Limache,2.15,3.6,3.0,https://redscores.com/pt-br/match/palestino-deportes-limache/eubxbzW
+2026-04-11,Colômbia - Liga BetPlay,18:00,Rionegro Águilas,Junior FC,2.3,2.9,3.4,https://redscores.com/pt-br/match/rionegro-aguilas-junior-fc/ZbxWCb
+2026-04-11,Colômbia - Liga BetPlay,22:20,Independiente Medellín,Atlético Nacional,3.1,3.4,2.25,https://redscores.com/pt-br/match/independiente-medellin-atletico-nacional/NCxEyA
+2026-04-11,Coréia do Sul - K-League 1,02:00,Seoul,Jeonbuk Motors,2.15,3.2,3.1,https://redscores.com/pt-br/match/seoul-jeonbuk-motors/AFxW3
+2026-04-11,Coréia do Sul - K-League 1,02:00,Pohang Steelers,Jeju United,1.8,3.2,4.5,https://redscores.com/pt-br/match/pohang-steelers-jeju-united/vmxVEb
+2026-04-11,Coréia do Sul - K-League 1,04:30,Incheon United,Ulsan,2.55,3.2,2.62,https://redscores.com/pt-br/match/ulsan-incheon-united/wrAxO1A
+2026-04-11,Coréia do Sul - K-League 1,04:30,Gwangju,Bucheon 1995,2.7,2.9,2.62,https://redscores.com/pt-br/match/gwangju-bucheon-1995/TfAxU8A
+2026-04-11,Coréia do Sul - K League 2,02:00,Suwon,Daegu,2.15,3.4,2.75,https://redscores.com/pt-br/match/suwon-daegu/Zhxa2A
+2026-04-11,Coréia do Sul - K League 2,02:00,Busan I'Park,Yongin City,1.5,3.5,6.0,https://redscores.com/pt-br/match/busan-i-park-yongin-city/dwxd2c
+2026-04-11,Coréia do Sul - K League 2,04:30,Hwaseong,Jeonnam Dragons,2.6,3.0,2.5,https://redscores.com/pt-br/match/jeonnam-dragons-hwaseong/Uebx44c
+2026-04-11,Coréia do Sul - K League 2,04:30,Paju Citizen,Seoul E.,3.8,3.1,1.85,https://redscores.com/pt-br/match/seoul-e-paju-citizen/P7Bxw5c
+2026-04-11,Croácia - 1. HNL,11:00,Lokomotiva Zagreb,Istra 1961,2.0,3.25,3.2,https://redscores.com/pt-br/match/istra-1961-lokomotiva-zagreb/0gAx9NA
+2026-04-11,Dinamarca - First Division,07:30,Hillerød,Horsens,2.25,3.25,3.2,https://redscores.com/pt-br/match/horsens-hillerod/oBxtcd
+2026-04-11,Dinamarca - First Division,09:00,Aarhus Fremad,B 93,1.75,3.7,4.1,https://redscores.com/pt-br/match/b-93-aarhus-fremad/5kxAKb
+2026-04-11,Dinamarca - First Division,09:30,Lyngby,Kolding IF,1.72,3.5,4.5,https://redscores.com/pt-br/match/lyngby-kolding-if/NVxOJb
+2026-04-11,Egito - Premier League,12:00,Pyramids FC,Al Masry,1.53,3.6,5.5,https://redscores.com/pt-br/match/al-masry-pyramids-fc/9BAxnnc
+2026-04-11,Egito - Premier League,15:00,Al Ahly,Smouha,1.27,4.33,10.0,https://redscores.com/pt-br/match/al-ahly-smouha/QDxmQb
+2026-04-11,Egito - Premier League,15:00,ENPPI,Ceramica Cleopatra,3.25,2.9,2.15,https://redscores.com/pt-br/match/enppi-ceramica-cleopatra/aEAxUKdA
+2026-04-11,Equador - Liga Pro,16:00,Mushuc Runa,Manta,1.57,3.7,5.75,https://redscores.com/pt-br/match/mushuc-runa-manta/yTbxMfB
+2026-04-11,Equador - Liga Pro,21:00,Orense,Libertad,1.85,3.4,3.9,https://redscores.com/pt-br/match/orense-libertad/tGuxJDEA
+2026-04-11,Escócia - Championship,11:00,St. Johnstone,Airdrieonians,1.25,5.0,9.0,https://redscores.com/pt-br/match/st-johnstone-airdrieonians/bgx6l
+2026-04-11,Escócia - Championship,11:00,Raith Rovers,Greenock Morton,1.83,3.2,3.8,https://redscores.com/pt-br/match/raith-rovers-greenock-morton/DBxdd
+2026-04-11,Escócia - Championship,11:00,Ayr United,Arbroath,2.2,3.1,2.9,https://redscores.com/pt-br/match/ayr-united-arbroath/lbxTN
+2026-04-11,Escócia - Championship,11:00,Partick Thistle,Dunfermline Athletic,1.9,3.2,3.5,https://redscores.com/pt-br/match/dunfermline-athletic-partick-thistle/wcxrC
+2026-04-11,Escócia - League One,11:00,Queen of the South,Cove Rangers,1.66,3.6,4.2,https://redscores.com/pt-br/match/cove-rangers-queen-of-the-south/uBxPm
+2026-04-11,Escócia - League One,11:00,Hamilton Academical,Alloa Athletic,2.7,3.3,2.25,https://redscores.com/pt-br/match/alloa-athletic-hamilton-academical/ObxQC
+2026-04-11,Escócia - League One,11:00,Kelty Hearts,Montrose,2.55,3.3,2.35,https://redscores.com/pt-br/match/montrose-kelty-hearts/3mxC3d
+2026-04-11,Escócia - League One,11:00,East Fife,Peterhead,2.5,3.4,2.4,https://redscores.com/pt-br/match/east-fife-peterhead/qcx1m
+2026-04-11,Escócia - League One,13:30,Stenhousemuir,Inverness CT,3.6,3.3,1.85,https://redscores.com/pt-br/match/stenhousemuir-inverness-ct/UBxKc
+2026-04-11,Escócia - League Two,11:00,Edinburgh City,Clyde,4.0,3.5,1.72,https://redscores.com/pt-br/match/clyde-edinburgh-city/Txcd
+2026-04-11,Escócia - League Two,11:00,Dumbarton,Stirling Albion,1.55,3.8,4.75,https://redscores.com/pt-br/match/dumbarton-stirling-albion/qgxoJ
+2026-04-11,Escócia - League Two,11:00,Spartans,Stranraer,1.55,3.7,5.0,https://redscores.com/pt-br/match/stranraer-spartans/zoxQ0b
+2026-04-11,Escócia - League Two,11:00,Elgin City,Annan Athletic,2.1,3.4,2.87,https://redscores.com/pt-br/match/annan-athletic-elgin-city/3Bx3zb
+2026-04-11,Escócia - League Two,11:00,Forfar Athletic,East Kilbride,2.9,3.4,2.1,https://redscores.com/pt-br/match/forfar-athletic-east-kilbride/UGxP1
+2026-04-11,Eslováquia - Fortuna Liga,10:30,Podbrezová,Žilina,2.3,3.9,2.62,https://redscores.com/pt-br/match/podbrezova-zilina/2WxzRA
+2026-04-11,Eslováquia - Fortuna Liga,10:30,Trenčín,Tatran Prešov,2.2,3.3,3.2,https://redscores.com/pt-br/match/trencin-tatran-presov/hWxn0
+2026-04-11,Eslováquia - Fortuna Liga,10:30,Ružomberok,Skalica,2.35,3.2,3.1,https://redscores.com/pt-br/match/ruzomberok-skalica/NyAxZgb
+2026-04-11,Eslováquia - Fortuna Liga,13:00,Slovan Bratislava,Spartak Trnava,1.72,3.9,4.33,https://redscores.com/pt-br/match/slovan-bratislava-spartak-trnava/tTxZ2
+2026-04-11,Eslovênia - 1. SNL,10:00,Olimpija,Aluminij,1.5,3.75,5.25,https://redscores.com/pt-br/match/olimpija-aluminij/ZLx72
+2026-04-11,Eslovênia - 1. SNL,12:30,Mura,Bravo,2.55,3.2,2.45,https://redscores.com/pt-br/match/mura-bravo/k2bxXYM
+2026-04-11,Eslovênia - 1. SNL,15:15,Radomlje,Celje,5.75,4.2,1.4,https://redscores.com/pt-br/match/celje-radomlje/ijx49A
+2026-04-11,Estônia - Meistriliiga,08:30,Kuressaare,Harju Jalgpallikool,2.87,3.3,2.15,https://redscores.com/pt-br/match/kuressaare-harju-jalgpallikool/7lbxDzcA
+2026-04-11,Estônia - Meistriliiga,11:00,Nõmme United,Trans,2.4,3.6,2.35,https://redscores.com/pt-br/match/trans-nomme-united/TVAxJSbA
+2026-04-11,Hungria - OTP Bank Liga,10:15,Kazincbarcika,Újpest,4.33,3.5,1.66,https://redscores.com/pt-br/match/ujpest-kazincbarcika/0BAxEWb
+2026-04-11,Hungria - OTP Bank Liga,12:45,MTK,Zalaegerszegi TE,2.5,3.3,2.45,https://redscores.com/pt-br/match/mtk-zalaegerszegi-te/gYxvEA
+2026-04-11,Hungria - OTP Bank Liga,15:00,Nyíregyháza Spartacus,Paksi SE,2.55,3.5,2.25,https://redscores.com/pt-br/match/nyiregyhaza-spartacus-paksi-se/jexXW
+2026-04-11,Inglaterra - National League,08:30,Tamworth,York City,6.5,4.33,1.38,https://redscores.com/pt-br/match/york-city-tamworth/PAxVb
+2026-04-11,Inglaterra - National League,08:30,Boreham Wood,Hartlepool,1.5,4.0,5.25,https://redscores.com/pt-br/match/hartlepool-united-boreham-wood/CCxli
+2026-04-11,Inglaterra - National League,11:00,Altrincham,Eastleigh,2.2,3.5,2.87,https://redscores.com/pt-br/match/eastleigh-altrincham/NBxdj
+2026-04-11,Inglaterra - National League,11:00,Woking,Morecambe,1.75,3.8,3.75,https://redscores.com/pt-br/match/woking-morecambe/rdxug
+2026-04-11,Inglaterra - National League,11:00,Scunthorpe,Brackley Town,1.42,4.2,6.5,https://redscores.com/pt-br/match/scunthorpe-united-brackley-town/uAxkh
+2026-04-11,Inglaterra - National League,11:00,Yeovil Town,Halifax Town,3.2,3.4,2.05,https://redscores.com/pt-br/match/yeovil-town-halifax-town/IcxUf
+2026-04-11,Inglaterra - National League,11:00,Forest Green,Braintree Town,1.2,5.75,11.0,https://redscores.com/pt-br/match/forest-green-rovers-braintree-town/4bxRH
+2026-04-11,Inglaterra - National League,11:00,Carlisle,Sutton,1.57,4.1,5.0,https://redscores.com/pt-br/match/sutton-united-carlisle-united/BCxMC
+2026-04-11,Inglaterra - National League,11:00,Boston United,Truro City,1.7,3.5,4.5,https://redscores.com/pt-br/match/truro-city-boston-united/fbxAB
+2026-04-11,Inglaterra - National League,11:00,Southend United,Solihull Moors,1.42,4.33,6.5,https://redscores.com/pt-br/match/southend-united-solihull-moors/2Ax3i
+2026-04-11,Inglaterra - National League,11:00,Aldershot Town,Gateshead,1.9,3.8,3.2,https://redscores.com/pt-br/match/aldershot-town-gateshead/FBxJC
+2026-04-11,Inglaterra - National League,13:30,Rochdale,Wealdstone,1.3,4.75,8.5,https://redscores.com/pt-br/match/rochdale-wealdstone/6Bxec
+2026-04-11,Irlanda do Norte - Premiership,09:00,Linfield,Larne,2.6,3.2,2.5,https://redscores.com/pt-br/match/linfield-larne/icx9fB
+2026-04-11,Irlanda do Norte - Premiership,11:00,Coleraine,Cliftonville,1.38,4.0,6.5,https://redscores.com/pt-br/match/cliftonville-coleraine/GlxQZb
+2026-04-11,Irlanda do Norte - Premiership,11:00,Glentoran,Dungannon Swifts,1.28,4.5,8.5,https://redscores.com/pt-br/match/glentoran-dungannon-swifts/hgxch
+2026-04-11,Irlanda do Norte - Premiership,11:00,Crusaders,Portadown,2.7,3.3,2.3,https://redscores.com/pt-br/match/crusaders-portadown/0Oxa0b
+2026-04-11,Irlanda do Norte - Premiership,11:00,Bangor,Glenavon,2.7,3.2,2.4,https://redscores.com/pt-br/match/glenavon-bangor/inxg0b
+2026-04-11,Irlanda do Norte - Premiership,11:00,Carrick Rangers,Ballymena United,1.9,3.5,3.5,https://redscores.com/pt-br/match/ballymena-united-carrick-rangers/8JxDK
+2026-04-11,Israel - Ligat ha'Al,14:00,Maccabi Netanya,Hapoel Haifa,1.9,3.4,3.25,https://redscores.com/pt-br/match/hapoel-haifa-maccabi-netanya/4uxzdA
+2026-04-11,Israel - Ligat ha'Al,14:00,Bnei Sakhnin,Maccabi Bnei Raina,1.83,3.1,4.0,https://redscores.com/pt-br/match/bnei-sakhnin-maccabi-bnei-raina/VJbxKtaA
+2026-04-11,Israel - Ligat ha'Al,14:00,Hapoel Petah Tikva,Hapoel Tel Aviv,3.4,3.3,1.95,https://redscores.com/pt-br/match/hapoel-petah-tikva-hapoel-tel-aviv/D1AxE2A
+2026-04-11,Israel - Ligat ha'Al,14:00,Ironi Tiberias,Ashdod,2.7,3.2,2.35,https://redscores.com/pt-br/match/ashdod-ironi-tiberias/URAxTZA
+2026-04-11,Lituânia - A Lyga,08:15,Kauno Žalgiris,Hegelmann Litauen,1.36,4.0,7.0,https://redscores.com/pt-br/match/kauno-zalgiris-hegelmann-litauen/GHxhBB
+2026-04-11,Lituânia - A Lyga,10:30,Banga,Sūduva,2.87,3.0,2.35,https://redscores.com/pt-br/match/suduva-banga/lRAxyFb
+2026-04-11,Malásia - Super League,06:30,Johor Darul Ta'zim,Terengganu,1.1,9.5,17.0,https://redscores.com/pt-br/match/johor-darul-ta-zim-terengganu/JSxi2
+2026-04-11,Malásia - Super League,10:00,Imigresen,Pulau Pinang,2.5,3.6,2.3,https://redscores.com/pt-br/match/pulau-pinang-imigresen/XIBxmKEA
+2026-04-11,Malásia - Super League,10:00,Selangor,Sabah,1.2,6.0,9.0,https://redscores.com/pt-br/match/sabah-selangor/vUAx5Db
+2026-04-11,Noruega - Obos-Ligaen,09:00,Sogndal,Lyn,2.0,3.6,3.1,https://redscores.com/pt-br/match/sogndal-lyn/GLbxYFB
+2026-04-11,Noruega - Obos-Ligaen,09:00,Haugesund,Strømsgodset,2.6,3.4,2.45,https://redscores.com/pt-br/match/haugesund-stromsgodset/ncxeC
+2026-04-11,Noruega - Obos-Ligaen,09:00,Sandnes Ulf,Odd,2.9,3.7,2.05,https://redscores.com/pt-br/match/odd-sandnes-ulf/HHxukb
+2026-04-11,Noruega - Obos-Ligaen,09:00,Strømmen,Egersund,3.0,3.6,2.05,https://redscores.com/pt-br/match/strommen-egersund/lDAxFZb
+2026-04-11,Paraguai - Division 1,18:15,Sportivo Luqueño,Deportivo Recoleta,2.0,3.3,3.4,https://redscores.com/pt-br/match/sportivo-luqueno-deportivo-recoleta/PpAxZ4bA
+2026-04-11,Paraguai - Division 1,20:30,Nacional Asunción,Cerro Porteño,3.1,2.9,2.35,https://redscores.com/pt-br/match/cerro-porteno-nacional-asuncion/24xB6
+2026-04-11,Polônia - Ekstraklasa,09:45,Widzew Lodz,Nieciecza,1.55,3.9,5.25,https://redscores.com/pt-br/match/nieciecza-widzew-lodz/FUxtKb
+2026-04-11,Polônia - Ekstraklasa,12:30,Zagłębie Lubin,Radomiak Radom,2.35,3.3,2.75,https://redscores.com/pt-br/match/zaglebie-lubin-radomiak-radom/XkxJ1
+2026-04-11,Polônia - Ekstraklasa,15:15,Legia,Górnik Zabrze,2.1,3.3,3.3,https://redscores.com/pt-br/match/legia-warszawa-gornik-zabrze/wCx9aA
+2026-04-11,Portugal - Segunda Liga,07:00,Penafiel,Academico Viseu,3.1,3.0,2.15,https://redscores.com/pt-br/match/penafiel-academico-viseu/k2AxAhb
+2026-04-11,Portugal - Segunda Liga,10:00,Farense,Sporting CP II,2.15,3.1,3.0,https://redscores.com/pt-br/match/sporting-cp-ii-farense/jVAxi6A
+2026-04-11,Portugal - Segunda Liga,14:00,Chaves,Torreense,2.25,3.1,2.8,https://redscores.com/pt-br/match/chaves-torreense/gix13A
+2026-04-11,Portugal - Segunda Liga,14:00,Benfica II,União de Leiria,2.45,3.2,2.5,https://redscores.com/pt-br/match/benfica-ii-uniao-de-leiria/jYx8PA
+2026-04-11,Romênia - Liga 1,11:15,UTA Arad,Botoşani,2.15,3.2,3.0,https://redscores.com/pt-br/match/botosani-uta-arad/L1x5ib
+2026-04-11,Romênia - Liga 1,14:00,FCSB,Otelul,1.45,3.8,6.0,https://redscores.com/pt-br/match/otelul-fcsb/fGxo5
+2026-04-11,Suécia - Superettan,08:00,Ljungskile,Norrköping,3.3,3.7,1.85,https://redscores.com/pt-br/match/ljungskile-norrkoping/npxc8
+2026-04-11,Suécia - Superettan,08:00,Öster,Örebro,1.72,3.5,3.9,https://redscores.com/pt-br/match/orebro-oster/7KxEy
+2026-04-11,Suécia - Superettan,10:00,United Nordic,Helsingborg,2.7,3.1,2.35,https://redscores.com/pt-br/match/helsingborg-united-nordic/XexLADA
+2026-04-11,Suécia - Superettan,12:00,Östersunds FK,Norrby,2.0,3.1,3.3,https://redscores.com/pt-br/match/ostersunds-fk-norrby/2Mx4SB
+2026-04-11,Uruguai - Primera Division,10:00,Torque,Albion,2.15,3.0,3.2,https://redscores.com/pt-br/match/torque-albion/ZoAxQgu
+2026-04-11,Uruguai - Primera Division,15:30,Defensor Sporting,Boston River,1.9,3.0,3.8,https://redscores.com/pt-br/match/boston-river-defensor-sporting/yoAxmFb
+2026-04-11,Uruguai - Primera Division,19:00,Deportivo Maldonado,Nacional,3.5,3.0,2.0,https://redscores.com/pt-br/match/nacional-deportivo-maldonado/RGxyBb
+2026-04-11,Venezuela - Primera Division,18:00,Portuguesa,Academia Puerto Cabello,2.37,3.1,2.8,https://redscores.com/pt-br/match/portuguesa-academia-puerto-cabello/hIcxGjc
+2026-04-11,Venezuela - Primera Division,19:00,Monagas,Rayo Zuliano,1.55,4.1,4.33,https://redscores.com/pt-br/match/monagas-rayo-zuliano/vvbxl7DA
+2026-04-11,Venezuela - Primera Division,20:00,Metropolitanos,Zamora Fútbol Club,2.1,3.3,2.9,https://redscores.com/pt-br/match/zamora-futbol-club-metropolitanos/fqbxmBB
