@@ -43481,3 +43481,102 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-11 21:58:34,921 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (81 linhas).
 2026-04-11 21:58:35,194 [INFO] __main__: Exportado histórico para dados_redscore.csv (20830 linhas)
 2026-04-11 21:58:35,876 [INFO] __main__: --- Rotina concluída em 1500.03s ---
+2026-04-12 22:52:23,601 [INFO] __main__: Coletor iniciado
+2026-04-12 22:52:23,602 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-12 22:52:49,543 [INFO] [ODDS] Odds para Manchester United vs Leeds: 1.57, 4.1, 5.5
+2026-04-12 22:52:49,543 [INFO] coletor: [ODDS] Odds para Manchester United vs Leeds: 1.57, 4.1, 5.5
+2026-04-12 22:52:49,544 [INFO] [ODDS] Odds para Levante vs Getafe: 2.6, 3.0, 3.0
+2026-04-12 22:52:49,544 [INFO] coletor: [ODDS] Odds para Levante vs Getafe: 2.6, 3.0, 3.0
+2026-04-12 22:52:49,544 [INFO] [ODDS] Odds para Fiorentina vs Lazio: 2.35, 3.1, 3.3
+2026-04-12 22:52:49,544 [INFO] coletor: [ODDS] Odds para Fiorentina vs Lazio: 2.35, 3.1, 3.3
+2026-04-12 22:52:49,545 [INFO] [ODDS] Odds para Tondela vs Gil Vicente: 4.1, 3.2, 1.95
+2026-04-12 22:52:49,545 [INFO] coletor: [ODDS] Odds para Tondela vs Gil Vicente: 4.1, 3.2, 1.95
+2026-04-12 22:52:49,545 [INFO] [ODDS] Odds para Rizespor vs Gaziantep: 1.72, 3.7, 4.5
+2026-04-12 22:52:49,545 [INFO] coletor: [ODDS] Odds para Rizespor vs Gaziantep: 1.72, 3.7, 4.5
+2026-04-12 22:52:49,545 [INFO] [ODDS] Odds para Eyüpspor vs Samsunspor: 4.2, 3.4, 1.85
+2026-04-12 22:52:49,545 [INFO] coletor: [ODDS] Odds para Eyüpspor vs Samsunspor: 4.2, 3.4, 1.85
+2026-04-12 22:52:49,546 [INFO] [ODDS] Odds para Valladolid vs Eibar: 2.4, 3.0, 3.2
+2026-04-12 22:52:49,546 [INFO] coletor: [ODDS] Odds para Valladolid vs Eibar: 2.4, 3.0, 3.2
+2026-04-12 22:52:49,546 [INFO] [ODDS] Odds para Rodez vs Troyes: 3.2, 3.4, 1.95
+2026-04-12 22:52:49,546 [INFO] coletor: [ODDS] Odds para Rodez vs Troyes: 3.2, 3.4, 1.95
+2026-04-12 22:52:49,547 [INFO] [ODDS] Odds para Jong Ajax vs TOP Oss: 2.1, 3.75, 3.0
+2026-04-12 22:52:49,547 [INFO] coletor: [ODDS] Odds para Jong Ajax vs TOP Oss: 2.1, 3.75, 3.0
+2026-04-12 22:52:49,547 [INFO] [ODDS] Odds para Jong AZ vs Jong PSV: 1.8, 4.1, 3.75
+2026-04-12 22:52:49,547 [INFO] coletor: [ODDS] Odds para Jong AZ vs Jong PSV: 1.8, 4.1, 3.75
+2026-04-12 22:52:49,547 [INFO] [ODDS] Odds para Jong Utrecht vs Vitesse: 2.62, 3.75, 2.37
+2026-04-12 22:52:49,547 [INFO] coletor: [ODDS] Odds para Jong Utrecht vs Vitesse: 2.62, 3.75, 2.37
+2026-04-12 22:52:49,548 [INFO] [ODDS] Odds para Fredericia vs Vejle: 2.35, 3.6, 2.87
+2026-04-12 22:52:49,548 [INFO] coletor: [ODDS] Odds para Fredericia vs Vejle: 2.35, 3.6, 2.87
+2026-04-12 22:52:49,548 [INFO] [ODDS] Odds para Brommapojkarna vs AIK: 3.5, 3.9, 1.9
+2026-04-12 22:52:49,548 [INFO] coletor: [ODDS] Odds para Brommapojkarna vs AIK: 3.5, 3.9, 1.9
+2026-04-12 22:52:49,549 [INFO] [ODDS] Odds para Sirius vs Hammarby: 2.8, 3.5, 2.37
+2026-04-12 22:52:49,549 [INFO] coletor: [ODDS] Odds para Sirius vs Hammarby: 2.8, 3.5, 2.37
+2026-04-12 22:52:49,549 [INFO] [ODDS] Odds para Sarmiento vs Gimnasia La Plata: 2.4, 3.0, 3.3
+2026-04-12 22:52:49,549 [INFO] coletor: [ODDS] Odds para Sarmiento vs Gimnasia La Plata: 2.4, 3.0, 3.3
+2026-04-12 22:52:49,549 [WARNING] [ODDS] Odds não encontradas para Defensa y Justicia vs Talleres Córdoba. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,549 [WARNING] coletor: [ODDS] Odds não encontradas para Defensa y Justicia vs Talleres Córdoba. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,550 [INFO] [ODDS] Odds para Lanús vs Banfield: 1.85, 3.4, 4.5
+2026-04-12 22:52:49,550 [INFO] coletor: [ODDS] Odds para Lanús vs Banfield: 1.85, 3.4, 4.5
+2026-04-12 22:52:49,550 [INFO] [ODDS] Odds para Vélez Sarsfield vs Central Cordoba: 1.5, 3.8, 8.0
+2026-04-12 22:52:49,550 [INFO] coletor: [ODDS] Odds para Vélez Sarsfield vs Central Cordoba: 1.5, 3.8, 8.0
+2026-04-12 22:52:49,551 [WARNING] [ODDS] Odds não encontradas para Bylis Ballsh vs Dinamo Tirana. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,551 [WARNING] coletor: [ODDS] Odds não encontradas para Bylis Ballsh vs Dinamo Tirana. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,551 [INFO] [ODDS] Odds para AF Elbasani vs Partizani Tirana: 1.9, 3.2, 3.6
+2026-04-12 22:52:49,551 [INFO] coletor: [ODDS] Odds para AF Elbasani vs Partizani Tirana: 1.9, 3.2, 3.6
+2026-04-12 22:52:49,551 [INFO] [ODDS] Odds para Nueva Chicago vs Midland: 2.8, 2.5, 3.2
+2026-04-12 22:52:49,551 [INFO] coletor: [ODDS] Odds para Nueva Chicago vs Midland: 2.8, 2.5, 3.2
+2026-04-12 22:52:49,552 [INFO] [ODDS] Odds para Tristán Suárez vs Atlético Rafaela: 2.15, 2.8, 4.1
+2026-04-12 22:52:49,552 [INFO] coletor: [ODDS] Odds para Tristán Suárez vs Atlético Rafaela: 2.15, 2.8, 4.1
+2026-04-12 22:52:49,552 [WARNING] [ODDS] Odds não encontradas para San Martín San Juan vs Atlanta. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,552 [WARNING] coletor: [ODDS] Odds não encontradas para San Martín San Juan vs Atlanta. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,553 [INFO] [ODDS] Odds para Real Tomayapo vs Real Potosí: 1.61, 3.9, 4.75
+2026-04-12 22:52:49,553 [INFO] coletor: [ODDS] Odds para Real Tomayapo vs Real Potosí: 1.61, 3.9, 4.75
+2026-04-12 22:52:49,553 [WARNING] [ODDS] Odds não encontradas para Figueirense vs Maringá. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,553 [WARNING] coletor: [ODDS] Odds não encontradas para Figueirense vs Maringá. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,553 [INFO] [ODDS] Odds para CSKA Sofia vs Levski Sofia: 2.7, 2.75, 3.0
+2026-04-12 22:52:49,553 [INFO] coletor: [ODDS] Odds para CSKA Sofia vs Levski Sofia: 2.7, 2.75, 3.0
+2026-04-12 22:52:49,554 [INFO] [ODDS] Odds para Beroe vs Lokomotiv Plovdiv: 3.4, 3.1, 2.2
+2026-04-12 22:52:49,554 [INFO] coletor: [ODDS] Odds para Beroe vs Lokomotiv Plovdiv: 3.4, 3.1, 2.2
+2026-04-12 22:52:49,554 [INFO] [ODDS] Odds para Unión La Calera vs Concepcion: 2.15, 3.25, 3.2
+2026-04-12 22:52:49,554 [INFO] coletor: [ODDS] Odds para Unión La Calera vs Concepcion: 2.15, 3.25, 3.2
+2026-04-12 22:52:49,555 [WARNING] [ODDS] Odds não encontradas para La Equidad vs Alianza Petrolera. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,555 [WARNING] coletor: [ODDS] Odds não encontradas para La Equidad vs Alianza Petrolera. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,555 [WARNING] [ODDS] Odds não encontradas para Vukovar vs Dinamo Zagreb. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,555 [WARNING] coletor: [ODDS] Odds não encontradas para Vukovar vs Dinamo Zagreb. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,555 [INFO] [ODDS] Odds para Pharco vs Haras El Hodood: 2.37, 2.75, 3.0
+2026-04-12 22:52:49,555 [INFO] coletor: [ODDS] Odds para Pharco vs Haras El Hodood: 2.37, 2.75, 3.0
+2026-04-12 22:52:49,556 [INFO] [ODDS] Odds para Ghazl El Mehalla vs Wadi Degla: 3.9, 2.8, 2.0
+2026-04-12 22:52:49,556 [INFO] coletor: [ODDS] Odds para Ghazl El Mehalla vs Wadi Degla: 3.9, 2.8, 2.0
+2026-04-12 22:52:49,556 [INFO] [ODDS] Odds para El Geish vs Petrojet: 2.37, 2.87, 2.87
+2026-04-12 22:52:49,556 [INFO] coletor: [ODDS] Odds para El Geish vs Petrojet: 2.37, 2.87, 2.87
+2026-04-12 22:52:49,557 [INFO] [ODDS] Odds para National Bank of Egypt vs Al Mokawloon: 2.15, 2.9, 3.25
+2026-04-12 22:52:49,557 [INFO] coletor: [ODDS] Odds para National Bank of Egypt vs Al Mokawloon: 2.15, 2.9, 3.25
+2026-04-12 22:52:49,557 [INFO] [ODDS] Odds para Várda SE vs Debrecen: 2.8, 3.25, 2.25
+2026-04-12 22:52:49,557 [INFO] coletor: [ODDS] Odds para Várda SE vs Debrecen: 2.8, 3.25, 2.25
+2026-04-12 22:52:49,557 [INFO] [ODDS] Odds para Raufoss vs Kongsvinger: 3.9, 4.1, 1.7
+2026-04-12 22:52:49,557 [INFO] coletor: [ODDS] Odds para Raufoss vs Kongsvinger: 3.9, 4.1, 1.7
+2026-04-12 22:52:49,558 [INFO] [ODDS] Odds para Piast Gliwice vs Pogoń Szczecin: 2.15, 3.4, 2.9
+2026-04-12 22:52:49,558 [INFO] coletor: [ODDS] Odds para Piast Gliwice vs Pogoń Szczecin: 2.15, 3.4, 2.9
+2026-04-12 22:52:49,558 [INFO] [ODDS] Odds para Lusitania FC Lourosa vs Porto II: 2.15, 3.0, 3.1
+2026-04-12 22:52:49,558 [INFO] coletor: [ODDS] Odds para Lusitania FC Lourosa vs Porto II: 2.15, 3.0, 3.1
+2026-04-12 22:52:49,559 [INFO] [ODDS] Odds para Metaloglobus vs Csikszereda: 3.1, 3.1, 2.15
+2026-04-12 22:52:49,559 [INFO] coletor: [ODDS] Odds para Metaloglobus vs Csikszereda: 3.1, 3.1, 2.15
+2026-04-12 22:52:49,559 [INFO] [ODDS] Odds para Rapid Bucuresti vs Argeş: 1.83, 3.0, 4.1
+2026-04-12 22:52:49,559 [INFO] coletor: [ODDS] Odds para Rapid Bucuresti vs Argeş: 1.83, 3.0, 4.1
+2026-04-12 22:52:49,559 [INFO] [ODDS] Odds para Universitatea Cluj vs Universitatea Craiova: 2.8, 3.0, 2.4
+2026-04-12 22:52:49,559 [INFO] coletor: [ODDS] Odds para Universitatea Cluj vs Universitatea Craiova: 2.8, 3.0, 2.4
+2026-04-12 22:52:49,560 [WARNING] [ODDS] Odds não encontradas para Universitatea Craiova vs Universitatea Cluj. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,560 [WARNING] coletor: [ODDS] Odds não encontradas para Universitatea Craiova vs Universitatea Cluj. Motivo: could not convert string to float: '-'
+2026-04-12 22:52:49,560 [INFO] [ODDS] Odds para Peñarol vs Liverpool: 1.57, 3.3, 5.5
+2026-04-12 22:52:49,560 [INFO] coletor: [ODDS] Odds para Peñarol vs Liverpool: 1.57, 3.3, 5.5
+2026-04-12 22:52:49,560 [INFO] [AGENDA] Válidos=43, Incompletos=0, Filtrados=75, Duplicados=0
+2026-04-12 22:52:49,560 [INFO] coletor: [AGENDA] Válidos=43, Incompletos=0, Filtrados=75, Duplicados=0
+2026-04-12 22:52:49,560 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.12s
+2026-04-12 22:52:49,564 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-13.csv (43 linhas).
+2026-04-12 22:53:26,669 [INFO] __main__: [TEMPO] Fase 2 concluída em 37.11s (links extraídos: 84)
+2026-04-12 22:57:32,814 [INFO] __main__: [TEMPO] Fase 3 concluída em 246.14s (jogos raspados: 105)
+2026-04-12 22:57:32,898 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (17 linhas).
+2026-04-12 22:57:33,141 [INFO] __main__: Exportado histórico para dados_redscore.csv (20847 linhas)
+2026-04-12 22:57:33,143 [INFO] __main__: [DB] Executando VACUUM (tamanho=3.1 MB).
+2026-04-12 22:57:33,188 [INFO] __main__: [DB] VACUUM concluído.
+2026-04-12 22:57:33,696 [INFO] __main__: --- Rotina concluída em 310.09s ---
