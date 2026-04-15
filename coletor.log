@@ -43657,3 +43657,40 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-13 21:56:33,962 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (48 linhas).
 2026-04-13 21:56:34,117 [INFO] __main__: Exportado histórico para dados_redscore.csv (20895 linhas)
 2026-04-13 21:56:34,437 [INFO] __main__: --- Rotina concluída em 222.10s ---
+2026-04-14 21:26:48,487 [INFO] __main__: Coletor iniciado
+2026-04-14 21:26:48,488 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-14 21:27:11,421 [INFO] [ODDS] Odds para Wimbledon vs Stockport County: 3.75, 3.5, 1.9
+2026-04-14 21:27:11,421 [INFO] coletor: [ODDS] Odds para Wimbledon vs Stockport County: 3.75, 3.5, 1.9
+2026-04-14 21:27:11,421 [INFO] [ODDS] Odds para Luton vs Northampton: 1.3, 5.0, 8.5
+2026-04-14 21:27:11,421 [INFO] coletor: [ODDS] Odds para Luton vs Northampton: 1.3, 5.0, 8.5
+2026-04-14 21:27:11,422 [INFO] [ODDS] Odds para Tromsø vs Lillestrøm: 1.8, 3.75, 4.0
+2026-04-14 21:27:11,422 [INFO] coletor: [ODDS] Odds para Tromsø vs Lillestrøm: 1.8, 3.75, 4.0
+2026-04-14 21:27:11,422 [INFO] [ODDS] Odds para Sarpsborg 08 vs Bodø / Glimt: 7.0, 5.0, 1.4
+2026-04-14 21:27:11,422 [INFO] coletor: [ODDS] Odds para Sarpsborg 08 vs Bodø / Glimt: 7.0, 5.0, 1.4
+2026-04-14 21:27:11,423 [INFO] [ODDS] Odds para Magesi vs Kaizer Chiefs: 4.0, 3.0, 1.9
+2026-04-14 21:27:11,423 [INFO] coletor: [ODDS] Odds para Magesi vs Kaizer Chiefs: 4.0, 3.0, 1.9
+2026-04-14 21:27:11,423 [INFO] [ODDS] Odds para Al Nassr vs Al Ettifaq: 1.16, 7.0, 12.0
+2026-04-14 21:27:11,423 [INFO] coletor: [ODDS] Odds para Al Nassr vs Al Ettifaq: 1.16, 7.0, 12.0
+2026-04-14 21:27:11,423 [INFO] [ODDS] Odds para Cherno More vs CSKA 1948 Sofia: 2.55, 3.0, 2.55
+2026-04-14 21:27:11,423 [INFO] coletor: [ODDS] Odds para Cherno More vs CSKA 1948 Sofia: 2.55, 3.0, 2.55
+2026-04-14 21:27:11,424 [INFO] [ODDS] Odds para Arda vs Ludogorets: 7.5, 3.9, 1.5
+2026-04-14 21:27:11,424 [INFO] coletor: [ODDS] Odds para Arda vs Ludogorets: 7.5, 3.9, 1.5
+2026-04-14 21:27:11,424 [INFO] [ODDS] Odds para Ulsan vs Seoul: 2.62, 3.2, 2.45
+2026-04-14 21:27:11,424 [INFO] coletor: [ODDS] Odds para Ulsan vs Seoul: 2.62, 3.2, 2.45
+2026-04-14 21:27:11,425 [INFO] [ODDS] Odds para Bravo vs Primorje: 1.66, 3.7, 4.1
+2026-04-14 21:27:11,425 [INFO] coletor: [ODDS] Odds para Bravo vs Primorje: 1.66, 3.7, 4.1
+2026-04-14 21:27:11,425 [INFO] [ODDS] Odds para Celje vs Olimpija: 1.9, 3.4, 3.4
+2026-04-14 21:27:11,425 [INFO] coletor: [ODDS] Odds para Celje vs Olimpija: 1.9, 3.4, 3.4
+2026-04-14 21:27:11,425 [INFO] [ODDS] Odds para Ballymena United vs Bangor: 1.72, 3.5, 4.0
+2026-04-14 21:27:11,425 [INFO] coletor: [ODDS] Odds para Ballymena United vs Bangor: 1.72, 3.5, 4.0
+2026-04-14 21:27:11,426 [INFO] [ODDS] Odds para UTC Cajamarca vs Sport Huancayo: 2.0, 3.25, 3.5
+2026-04-14 21:27:11,426 [INFO] coletor: [ODDS] Odds para UTC Cajamarca vs Sport Huancayo: 2.0, 3.25, 3.5
+2026-04-14 21:27:11,427 [INFO] [AGENDA] Válidos=13, Incompletos=0, Filtrados=147, Duplicados=0
+2026-04-14 21:27:11,427 [INFO] coletor: [AGENDA] Válidos=13, Incompletos=0, Filtrados=147, Duplicados=0
+2026-04-14 21:27:11,427 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.33s
+2026-04-14 21:27:11,433 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-15.csv (13 linhas).
+2026-04-14 21:27:17,790 [INFO] __main__: [TEMPO] Fase 2 concluída em 6.36s (links extraídos: 26)
+2026-04-14 21:28:36,640 [INFO] __main__: [TEMPO] Fase 3 concluída em 78.85s (jogos raspados: 32)
+2026-04-14 21:28:36,707 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (15 linhas).
+2026-04-14 21:28:36,949 [INFO] __main__: Exportado histórico para dados_redscore.csv (20910 linhas)
+2026-04-14 21:28:38,061 [INFO] __main__: --- Rotina concluída em 109.57s ---
