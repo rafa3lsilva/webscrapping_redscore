@@ -43694,3 +43694,32 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-14 21:28:36,707 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (15 linhas).
 2026-04-14 21:28:36,949 [INFO] __main__: Exportado histórico para dados_redscore.csv (20910 linhas)
 2026-04-14 21:28:38,061 [INFO] __main__: --- Rotina concluída em 109.57s ---
+2026-04-15 21:54:48,630 [INFO] __main__: Coletor iniciado
+2026-04-15 21:54:48,631 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-15 21:55:11,001 [INFO] [ODDS] Odds para Peterborough vs Port Vale: 1.55, 4.2, 5.25
+2026-04-15 21:55:11,001 [INFO] coletor: [ODDS] Odds para Peterborough vs Port Vale: 1.55, 4.2, 5.25
+2026-04-15 21:55:11,001 [INFO] [ODDS] Odds para Bromley vs Cambridge: 3.0, 3.1, 2.35
+2026-04-15 21:55:11,001 [INFO] coletor: [ODDS] Odds para Bromley vs Cambridge: 3.0, 3.1, 2.35
+2026-04-15 21:55:11,002 [INFO] [ODDS] Odds para CS Constantine vs MC Alger: 2.37, 2.8, 3.0
+2026-04-15 21:55:11,002 [INFO] coletor: [ODDS] Odds para CS Constantine vs MC Alger: 2.37, 2.8, 3.0
+2026-04-15 21:55:11,002 [WARNING] [ODDS] Odds não encontradas para CR Belouizdad vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2026-04-15 21:55:11,002 [WARNING] coletor: [ODDS] Odds não encontradas para CR Belouizdad vs Ben Aknoun. Motivo: could not convert string to float: '-'
+2026-04-15 21:55:11,002 [WARNING] [ODDS] Odds não encontradas para USM Alger vs Mostaganem. Motivo: could not convert string to float: '-'
+2026-04-15 21:55:11,002 [WARNING] coletor: [ODDS] Odds não encontradas para USM Alger vs Mostaganem. Motivo: could not convert string to float: '-'
+2026-04-15 21:55:11,003 [WARNING] [ODDS] Odds não encontradas para Shirak vs BKMA. Motivo: could not convert string to float: '-'
+2026-04-15 21:55:11,003 [WARNING] coletor: [ODDS] Odds não encontradas para Shirak vs BKMA. Motivo: could not convert string to float: '-'
+2026-04-15 21:55:11,003 [INFO] [ODDS] Odds para Septemvri Sofia vs Spartak Varna: 1.9, 3.5, 3.9
+2026-04-15 21:55:11,003 [INFO] coletor: [ODDS] Odds para Septemvri Sofia vs Spartak Varna: 1.9, 3.5, 3.9
+2026-04-15 21:55:11,003 [INFO] [ODDS] Odds para Montana vs Slavia Sofia: 4.2, 3.5, 1.85
+2026-04-15 21:55:11,003 [INFO] coletor: [ODDS] Odds para Montana vs Slavia Sofia: 4.2, 3.5, 1.85
+2026-04-15 21:55:11,004 [INFO] [ODDS] Odds para Aluminij vs Mura: 2.45, 3.3, 2.45
+2026-04-15 21:55:11,004 [INFO] coletor: [ODDS] Odds para Aluminij vs Mura: 2.45, 3.3, 2.45
+2026-04-15 21:55:11,004 [INFO] [AGENDA] Válidos=9, Incompletos=0, Filtrados=72, Duplicados=0
+2026-04-15 21:55:11,004 [INFO] coletor: [AGENDA] Válidos=9, Incompletos=0, Filtrados=72, Duplicados=0
+2026-04-15 21:55:11,005 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.48s
+2026-04-15 21:55:11,010 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-16.csv (9 linhas).
+2026-04-15 21:55:15,935 [INFO] __main__: [TEMPO] Fase 2 concluída em 4.92s (links extraídos: 18)
+2026-04-15 21:56:52,450 [INFO] __main__: [TEMPO] Fase 3 concluída em 96.51s (jogos raspados: 40)
+2026-04-15 21:56:52,541 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
+2026-04-15 21:56:52,819 [INFO] __main__: Exportado histórico para dados_redscore.csv (20920 linhas)
+2026-04-15 21:56:58,359 [INFO] __main__: --- Rotina concluída em 129.73s ---
