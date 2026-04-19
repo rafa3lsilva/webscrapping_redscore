@@ -17,7 +17,6 @@ login_redscore.py
 migrar_banco.py
 arquivos.py
 executar_scraping.sh
-executar_scraping copy.sh
 
 # Perfil temporário do Firefox (criado pelo script)
 firefox_profile/
