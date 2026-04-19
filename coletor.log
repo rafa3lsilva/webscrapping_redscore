@@ -44784,3 +44784,188 @@ dom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:136:16
 2026-04-18 22:13:31,050 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (91 linhas).
 2026-04-18 22:13:31,214 [INFO] __main__: Exportado histórico para dados_redscore.csv (21429 linhas)
 2026-04-18 22:13:31,560 [INFO] __main__: --- Rotina concluída em 1888.64s ---
+2026-04-19 18:30:08,806 [INFO] __main__: Coletor iniciado
+2026-04-19 18:30:08,807 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-19 18:30:12,607 [ERROR] __main__: Um erro crítico ocorreu na rotina principal: Message: Reached error page: about:neterror?e=dnsNotFound&u=https%3A//redscores.com/pt-br/user/login&c=UTF-8&d=We%20can%E2%80%99t%20connect%20to%20the%20server%20at%20redscores.com.&a=
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:202:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:961:5
+checkReadyState@chrome://remote/content/marionette/navigate.sys.mjs:59:24
+onNavigation@chrome://remote/content/marionette/navigate.sys.mjs:351:39
+emit@resource://gre/modules/EventEmitter.sys.mjs:156:19
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.sys.mjs:33:25
+
+2026-04-19 18:30:12,607 [INFO] __main__: --- Rotina concluída em 3.80s ---
+2026-04-19 18:30:43,623 [INFO] __main__: Coletor iniciado
+2026-04-19 18:30:43,623 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-19 18:31:05,621 [INFO] [ODDS] Odds para Crystal Palace vs West Ham: 2.5, 3.3, 2.87
+2026-04-19 18:31:05,621 [INFO] coletor: [ODDS] Odds para Crystal Palace vs West Ham: 2.5, 3.3, 2.87
+2026-04-19 18:31:05,621 [INFO] [ODDS] Odds para Lecce vs Fiorentina: 3.3, 3.3, 2.25
+2026-04-19 18:31:05,621 [INFO] coletor: [ODDS] Odds para Lecce vs Fiorentina: 3.3, 3.3, 2.25
+2026-04-19 18:31:05,621 [INFO] [ODDS] Odds para Moreirense vs Estoril: 3.1, 3.4, 2.25
+2026-04-19 18:31:05,621 [INFO] coletor: [ODDS] Odds para Moreirense vs Estoril: 3.1, 3.4, 2.25
+2026-04-19 18:31:05,622 [INFO] [ODDS] Odds para Gaziantep vs Kayserispor: 2.25, 3.25, 3.1
+2026-04-19 18:31:05,622 [INFO] coletor: [ODDS] Odds para Gaziantep vs Kayserispor: 2.25, 3.25, 3.1
+2026-04-19 18:31:05,622 [INFO] [ODDS] Odds para Deportivo La Coruña vs Mirandés: 1.5, 4.0, 7.0
+2026-04-19 18:31:05,622 [INFO] coletor: [ODDS] Odds para Deportivo La Coruña vs Mirandés: 1.5, 4.0, 7.0
+2026-04-19 18:31:05,622 [INFO] [ODDS] Odds para Dunkerque vs Laval: 1.85, 3.3, 3.5
+2026-04-19 18:31:05,622 [INFO] coletor: [ODDS] Odds para Dunkerque vs Laval: 1.85, 3.3, 3.5
+2026-04-19 18:31:05,622 [INFO] [ODDS] Odds para Den Bosch vs Jong Utrecht: 1.85, 3.9, 3.7
+2026-04-19 18:31:05,622 [INFO] coletor: [ODDS] Odds para Den Bosch vs Jong Utrecht: 1.85, 3.9, 3.7
+2026-04-19 18:31:05,623 [INFO] [ODDS] Odds para Midtjylland vs AGF: 1.95, 3.4, 3.75
+2026-04-19 18:31:05,623 [INFO] coletor: [ODDS] Odds para Midtjylland vs AGF: 1.95, 3.4, 3.75
+2026-04-19 18:31:05,623 [INFO] [ODDS] Odds para Barracas Central vs Belgrano: 3.5, 3.1, 2.25
+2026-04-19 18:31:05,623 [INFO] coletor: [ODDS] Odds para Barracas Central vs Belgrano: 3.5, 3.1, 2.25
+2026-04-19 18:31:05,623 [INFO] [ODDS] Odds para Banfield vs Independiente Rivadavia: 2.9, 3.0, 2.7
+2026-04-19 18:31:05,623 [INFO] coletor: [ODDS] Odds para Banfield vs Independiente Rivadavia: 2.9, 3.0, 2.7
+2026-04-19 18:31:05,623 [WARNING] [ODDS] Odds não encontradas para Central Cordoba vs Platense. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,623 [WARNING] coletor: [ODDS] Odds não encontradas para Central Cordoba vs Platense. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,624 [INFO] [ODDS] Odds para San Lorenzo vs Vélez Sarsfield: 3.2, 2.9, 2.5
+2026-04-19 18:31:05,624 [INFO] coletor: [ODDS] Odds para San Lorenzo vs Vélez Sarsfield: 3.2, 2.9, 2.5
+2026-04-19 18:31:05,624 [INFO] [ODDS] Odds para Gimnasia Mendoza vs Lanús: 3.4, 2.9, 2.4
+2026-04-19 18:31:05,624 [INFO] coletor: [ODDS] Odds para Gimnasia Mendoza vs Lanús: 3.4, 2.9, 2.4
+2026-04-19 18:31:05,624 [WARNING] [ODDS] Odds não encontradas para Tigre vs Huracán. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,624 [WARNING] coletor: [ODDS] Odds não encontradas para Tigre vs Huracán. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,624 [INFO] [ODDS] Odds para Atlético Rafaela vs Agropecuario: 2.15, 3.0, 3.8
+2026-04-19 18:31:05,624 [INFO] coletor: [ODDS] Odds para Atlético Rafaela vs Agropecuario: 2.15, 3.0, 3.8
+2026-04-19 18:31:05,625 [INFO] [ODDS] Odds para Atlanta vs Chacarita Juniors: 2.0, 3.0, 4.33
+2026-04-19 18:31:05,625 [INFO] coletor: [ODDS] Odds para Atlanta vs Chacarita Juniors: 2.0, 3.0, 4.33
+2026-04-19 18:31:05,625 [WARNING] [ODDS] Odds não encontradas para Noah vs Van. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,625 [WARNING] coletor: [ODDS] Odds não encontradas para Noah vs Van. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,625 [INFO] [ODDS] Odds para Shirak vs Ararat-Armenia: 6.25, 4.1, 1.4
+2026-04-19 18:31:05,625 [INFO] coletor: [ODDS] Odds para Shirak vs Ararat-Armenia: 6.25, 4.1, 1.4
+2026-04-19 18:31:05,625 [WARNING] [ODDS] Odds não encontradas para Maringá vs Brusque. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,625 [WARNING] coletor: [ODDS] Odds não encontradas para Maringá vs Brusque. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,626 [WARNING] [ODDS] Odds não encontradas para Floresta vs Ferroviária. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,626 [WARNING] coletor: [ODDS] Odds não encontradas para Floresta vs Ferroviária. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,626 [INFO] [ODDS] Odds para Universidad Católica vs Unión La Calera: 1.48, 4.2, 6.25
+2026-04-19 18:31:05,626 [INFO] coletor: [ODDS] Odds para Universidad Católica vs Unión La Calera: 1.48, 4.2, 6.25
+2026-04-19 18:31:05,626 [WARNING] [ODDS] Odds não encontradas para Once Caldas vs La Equidad. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,626 [WARNING] coletor: [ODDS] Odds não encontradas para Once Caldas vs La Equidad. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,626 [WARNING] [ODDS] Odds não encontradas para Atlético Nacional vs Atlético Bucaramanga. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,626 [WARNING] coletor: [ODDS] Odds não encontradas para Atlético Nacional vs Atlético Bucaramanga. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,627 [INFO] [ODDS] Odds para Lyn vs Sandnes Ulf: 1.65, 4.5, 4.2
+2026-04-19 18:31:05,627 [INFO] coletor: [ODDS] Odds para Lyn vs Sandnes Ulf: 1.65, 4.5, 4.2
+2026-04-19 18:31:05,627 [INFO] [ODDS] Odds para Rubio Ñú vs Libertad: 4.5, 3.2, 1.72
+2026-04-19 18:31:05,627 [INFO] coletor: [ODDS] Odds para Rubio Ñú vs Libertad: 4.5, 3.2, 1.72
+2026-04-19 18:31:05,627 [INFO] [ODDS] Odds para Sportivo Ameliano vs Nacional Asunción: 2.55, 2.87, 2.7
+2026-04-19 18:31:05,627 [INFO] coletor: [ODDS] Odds para Sportivo Ameliano vs Nacional Asunción: 2.55, 2.87, 2.7
+2026-04-19 18:31:05,627 [INFO] [ODDS] Odds para Lechia Gdańsk vs Piast Gliwice: 2.1, 3.5, 3.0
+2026-04-19 18:31:05,627 [INFO] coletor: [ODDS] Odds para Lechia Gdańsk vs Piast Gliwice: 2.1, 3.5, 3.0
+2026-04-19 18:31:05,627 [INFO] [ODDS] Odds para Sporting CP II vs Felgueiras 1932: 2.62, 3.0, 2.45
+2026-04-19 18:31:05,627 [INFO] coletor: [ODDS] Odds para Sporting CP II vs Felgueiras 1932: 2.62, 3.0, 2.45
+2026-04-19 18:31:05,628 [INFO] [ODDS] Odds para Porto II vs Leixões: 2.5, 3.1, 2.55
+2026-04-19 18:31:05,628 [INFO] coletor: [ODDS] Odds para Porto II vs Leixões: 2.5, 3.1, 2.55
+2026-04-19 18:31:05,628 [INFO] [ODDS] Odds para Botoşani vs Metaloglobus: 1.36, 4.33, 6.5
+2026-04-19 18:31:05,628 [INFO] coletor: [ODDS] Odds para Botoşani vs Metaloglobus: 1.36, 4.33, 6.5
+2026-04-19 18:31:05,628 [INFO] [ODDS] Odds para SSC Farul vs FCSB: 4.33, 3.5, 1.7
+2026-04-19 18:31:05,628 [INFO] coletor: [ODDS] Odds para SSC Farul vs FCSB: 4.33, 3.5, 1.7
+2026-04-19 18:31:05,628 [INFO] [ODDS] Odds para Oddevold vs Öster: 2.45, 3.25, 2.62
+2026-04-19 18:31:05,628 [INFO] coletor: [ODDS] Odds para Oddevold vs Öster: 2.45, 3.25, 2.62
+2026-04-19 18:31:05,629 [INFO] [ODDS] Odds para GIF Sundsvall vs Brage: 2.55, 3.4, 2.45
+2026-04-19 18:31:05,629 [INFO] coletor: [ODDS] Odds para GIF Sundsvall vs Brage: 2.55, 3.4, 2.45
+2026-04-19 18:31:05,629 [INFO] [ODDS] Odds para Boston River vs Cerro Largo: 2.3, 2.87, 3.0
+2026-04-19 18:31:05,629 [INFO] coletor: [ODDS] Odds para Boston River vs Cerro Largo: 2.3, 2.87, 3.0
+2026-04-19 18:31:05,629 [INFO] [ODDS] Odds para Peñarol vs Juventud: 1.36, 4.0, 8.0
+2026-04-19 18:31:05,629 [INFO] coletor: [ODDS] Odds para Peñarol vs Juventud: 1.36, 4.0, 8.0
+2026-04-19 18:31:05,629 [WARNING] [ODDS] Odds não encontradas para Zamora Fútbol Club vs Caracas. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,629 [WARNING] coletor: [ODDS] Odds não encontradas para Zamora Fútbol Club vs Caracas. Motivo: could not convert string to float: '-'
+2026-04-19 18:31:05,630 [INFO] [ODDS] Odds para Carabobo vs Academia Anzoátegui: 1.48, 3.75, 6.25
+2026-04-19 18:31:05,630 [INFO] coletor: [ODDS] Odds para Carabobo vs Academia Anzoátegui: 1.48, 3.75, 6.25
+2026-04-19 18:31:05,630 [INFO] [ODDS] Odds para Deportivo La Guaira vs Portuguesa: 1.75, 3.4, 4.0
+2026-04-19 18:31:05,630 [INFO] coletor: [ODDS] Odds para Deportivo La Guaira vs Portuguesa: 1.75, 3.4, 4.0
+2026-04-19 18:31:05,630 [INFO] [AGENDA] Válidos=38, Incompletos=0, Filtrados=72, Duplicados=0
+2026-04-19 18:31:05,630 [INFO] coletor: [AGENDA] Válidos=38, Incompletos=0, Filtrados=72, Duplicados=0
+2026-04-19 18:31:05,630 [INFO] __main__: [TEMPO] Fase 1 concluída em 2.71s
+2026-04-19 18:31:05,633 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-20.csv (38 linhas).
+2026-04-19 18:31:27,556 [INFO] __main__: [TEMPO] Fase 2 concluída em 21.92s (links extraídos: 76)
+2026-04-19 18:39:18,716 [INFO] __main__: Coletor iniciado
+2026-04-19 18:39:18,717 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-19 18:39:41,448 [INFO] [ODDS] Odds para Crystal Palace vs West Ham: 2.5, 3.3, 2.87
+2026-04-19 18:39:41,448 [INFO] coletor: [ODDS] Odds para Crystal Palace vs West Ham: 2.5, 3.3, 2.87
+2026-04-19 18:39:41,449 [INFO] [ODDS] Odds para Lecce vs Fiorentina: 3.3, 3.3, 2.25
+2026-04-19 18:39:41,449 [INFO] coletor: [ODDS] Odds para Lecce vs Fiorentina: 3.3, 3.3, 2.25
+2026-04-19 18:39:41,449 [INFO] [ODDS] Odds para Moreirense vs Estoril: 3.1, 3.4, 2.25
+2026-04-19 18:39:41,449 [INFO] coletor: [ODDS] Odds para Moreirense vs Estoril: 3.1, 3.4, 2.25
+2026-04-19 18:39:41,449 [INFO] [ODDS] Odds para Gaziantep vs Kayserispor: 2.25, 3.25, 3.1
+2026-04-19 18:39:41,449 [INFO] coletor: [ODDS] Odds para Gaziantep vs Kayserispor: 2.25, 3.25, 3.1
+2026-04-19 18:39:41,449 [INFO] [ODDS] Odds para Deportivo La Coruña vs Mirandés: 1.55, 3.9, 6.25
+2026-04-19 18:39:41,449 [INFO] coletor: [ODDS] Odds para Deportivo La Coruña vs Mirandés: 1.55, 3.9, 6.25
+2026-04-19 18:39:41,450 [INFO] [ODDS] Odds para Dunkerque vs Laval: 1.85, 3.3, 3.5
+2026-04-19 18:39:41,450 [INFO] coletor: [ODDS] Odds para Dunkerque vs Laval: 1.85, 3.3, 3.5
+2026-04-19 18:39:41,450 [INFO] [ODDS] Odds para Den Bosch vs Jong Utrecht: 1.85, 3.9, 3.7
+2026-04-19 18:39:41,450 [INFO] coletor: [ODDS] Odds para Den Bosch vs Jong Utrecht: 1.85, 3.9, 3.7
+2026-04-19 18:39:41,450 [INFO] [ODDS] Odds para Midtjylland vs AGF: 1.95, 3.4, 3.75
+2026-04-19 18:39:41,450 [INFO] coletor: [ODDS] Odds para Midtjylland vs AGF: 1.95, 3.4, 3.75
+2026-04-19 18:39:41,450 [INFO] [ODDS] Odds para Barracas Central vs Belgrano: 3.5, 3.1, 2.25
+2026-04-19 18:39:41,450 [INFO] coletor: [ODDS] Odds para Barracas Central vs Belgrano: 3.5, 3.1, 2.25
+2026-04-19 18:39:41,451 [INFO] [ODDS] Odds para Banfield vs Independiente Rivadavia: 2.9, 3.0, 2.7
+2026-04-19 18:39:41,451 [INFO] coletor: [ODDS] Odds para Banfield vs Independiente Rivadavia: 2.9, 3.0, 2.7
+2026-04-19 18:39:41,451 [WARNING] [ODDS] Odds não encontradas para Central Cordoba vs Platense. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,451 [WARNING] coletor: [ODDS] Odds não encontradas para Central Cordoba vs Platense. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,451 [INFO] [ODDS] Odds para San Lorenzo vs Vélez Sarsfield: 3.2, 2.9, 2.5
+2026-04-19 18:39:41,451 [INFO] coletor: [ODDS] Odds para San Lorenzo vs Vélez Sarsfield: 3.2, 2.9, 2.5
+2026-04-19 18:39:41,452 [INFO] [ODDS] Odds para Gimnasia Mendoza vs Lanús: 3.4, 2.9, 2.4
+2026-04-19 18:39:41,452 [INFO] coletor: [ODDS] Odds para Gimnasia Mendoza vs Lanús: 3.4, 2.9, 2.4
+2026-04-19 18:39:41,452 [WARNING] [ODDS] Odds não encontradas para Tigre vs Huracán. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,452 [WARNING] coletor: [ODDS] Odds não encontradas para Tigre vs Huracán. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,452 [INFO] [ODDS] Odds para Atlético Rafaela vs Agropecuario: 2.15, 3.0, 3.8
+2026-04-19 18:39:41,452 [INFO] coletor: [ODDS] Odds para Atlético Rafaela vs Agropecuario: 2.15, 3.0, 3.8
+2026-04-19 18:39:41,452 [INFO] [ODDS] Odds para Atlanta vs Chacarita Juniors: 2.0, 3.0, 4.33
+2026-04-19 18:39:41,452 [INFO] coletor: [ODDS] Odds para Atlanta vs Chacarita Juniors: 2.0, 3.0, 4.33
+2026-04-19 18:39:41,453 [WARNING] [ODDS] Odds não encontradas para Noah vs Van. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,453 [WARNING] coletor: [ODDS] Odds não encontradas para Noah vs Van. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,453 [INFO] [ODDS] Odds para Shirak vs Ararat-Armenia: 5.5, 4.5, 1.4
+2026-04-19 18:39:41,453 [INFO] coletor: [ODDS] Odds para Shirak vs Ararat-Armenia: 5.5, 4.5, 1.4
+2026-04-19 18:39:41,453 [WARNING] [ODDS] Odds não encontradas para Maringá vs Brusque. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,453 [WARNING] coletor: [ODDS] Odds não encontradas para Maringá vs Brusque. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,453 [WARNING] [ODDS] Odds não encontradas para Floresta vs Ferroviária. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,453 [WARNING] coletor: [ODDS] Odds não encontradas para Floresta vs Ferroviária. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,454 [INFO] [ODDS] Odds para Universidad Católica vs Unión La Calera: 1.48, 4.2, 6.25
+2026-04-19 18:39:41,454 [INFO] coletor: [ODDS] Odds para Universidad Católica vs Unión La Calera: 1.48, 4.2, 6.25
+2026-04-19 18:39:41,454 [WARNING] [ODDS] Odds não encontradas para Once Caldas vs La Equidad. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,454 [WARNING] coletor: [ODDS] Odds não encontradas para Once Caldas vs La Equidad. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,454 [WARNING] [ODDS] Odds não encontradas para Atlético Nacional vs Atlético Bucaramanga. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,454 [WARNING] coletor: [ODDS] Odds não encontradas para Atlético Nacional vs Atlético Bucaramanga. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,454 [INFO] [ODDS] Odds para Lyn vs Sandnes Ulf: 1.65, 4.5, 4.2
+2026-04-19 18:39:41,454 [INFO] coletor: [ODDS] Odds para Lyn vs Sandnes Ulf: 1.65, 4.5, 4.2
+2026-04-19 18:39:41,455 [INFO] [ODDS] Odds para Rubio Ñú vs Libertad: 4.5, 3.2, 1.72
+2026-04-19 18:39:41,455 [INFO] coletor: [ODDS] Odds para Rubio Ñú vs Libertad: 4.5, 3.2, 1.72
+2026-04-19 18:39:41,455 [INFO] [ODDS] Odds para Sportivo Ameliano vs Nacional Asunción: 2.55, 2.87, 2.7
+2026-04-19 18:39:41,455 [INFO] coletor: [ODDS] Odds para Sportivo Ameliano vs Nacional Asunción: 2.55, 2.87, 2.7
+2026-04-19 18:39:41,455 [INFO] [ODDS] Odds para Lechia Gdańsk vs Piast Gliwice: 2.1, 3.5, 3.0
+2026-04-19 18:39:41,455 [INFO] coletor: [ODDS] Odds para Lechia Gdańsk vs Piast Gliwice: 2.1, 3.5, 3.0
+2026-04-19 18:39:41,455 [INFO] [ODDS] Odds para Sporting CP II vs Felgueiras 1932: 2.62, 3.0, 2.45
+2026-04-19 18:39:41,455 [INFO] coletor: [ODDS] Odds para Sporting CP II vs Felgueiras 1932: 2.62, 3.0, 2.45
+2026-04-19 18:39:41,455 [INFO] [ODDS] Odds para Porto II vs Leixões: 2.5, 3.1, 2.55
+2026-04-19 18:39:41,455 [INFO] coletor: [ODDS] Odds para Porto II vs Leixões: 2.5, 3.1, 2.55
+2026-04-19 18:39:41,456 [INFO] [ODDS] Odds para Botoşani vs Metaloglobus: 1.36, 4.33, 6.5
+2026-04-19 18:39:41,456 [INFO] coletor: [ODDS] Odds para Botoşani vs Metaloglobus: 1.36, 4.33, 6.5
+2026-04-19 18:39:41,456 [INFO] [ODDS] Odds para SSC Farul vs FCSB: 4.33, 3.5, 1.7
+2026-04-19 18:39:41,456 [INFO] coletor: [ODDS] Odds para SSC Farul vs FCSB: 4.33, 3.5, 1.7
+2026-04-19 18:39:41,456 [INFO] [ODDS] Odds para Oddevold vs Öster: 2.45, 3.25, 2.62
+2026-04-19 18:39:41,456 [INFO] coletor: [ODDS] Odds para Oddevold vs Öster: 2.45, 3.25, 2.62
+2026-04-19 18:39:41,456 [INFO] [ODDS] Odds para GIF Sundsvall vs Brage: 2.55, 3.4, 2.45
+2026-04-19 18:39:41,456 [INFO] coletor: [ODDS] Odds para GIF Sundsvall vs Brage: 2.55, 3.4, 2.45
+2026-04-19 18:39:41,457 [INFO] [ODDS] Odds para Boston River vs Cerro Largo: 2.3, 2.87, 3.0
+2026-04-19 18:39:41,457 [INFO] coletor: [ODDS] Odds para Boston River vs Cerro Largo: 2.3, 2.87, 3.0
+2026-04-19 18:39:41,457 [INFO] [ODDS] Odds para Peñarol vs Juventud: 1.36, 4.0, 8.0
+2026-04-19 18:39:41,457 [INFO] coletor: [ODDS] Odds para Peñarol vs Juventud: 1.36, 4.0, 8.0
+2026-04-19 18:39:41,457 [WARNING] [ODDS] Odds não encontradas para Zamora Fútbol Club vs Caracas. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,457 [WARNING] coletor: [ODDS] Odds não encontradas para Zamora Fútbol Club vs Caracas. Motivo: could not convert string to float: '-'
+2026-04-19 18:39:41,457 [INFO] [ODDS] Odds para Carabobo vs Academia Anzoátegui: 1.48, 3.75, 6.25
+2026-04-19 18:39:41,457 [INFO] coletor: [ODDS] Odds para Carabobo vs Academia Anzoátegui: 1.48, 3.75, 6.25
+2026-04-19 18:39:41,458 [INFO] [ODDS] Odds para Deportivo La Guaira vs Portuguesa: 1.75, 3.4, 4.0
+2026-04-19 18:39:41,458 [INFO] coletor: [ODDS] Odds para Deportivo La Guaira vs Portuguesa: 1.75, 3.4, 4.0
+2026-04-19 18:39:41,458 [INFO] [AGENDA] Válidos=38, Incompletos=0, Filtrados=72, Duplicados=0
+2026-04-19 18:39:41,458 [INFO] coletor: [AGENDA] Válidos=38, Incompletos=0, Filtrados=72, Duplicados=0
+2026-04-19 18:39:41,459 [INFO] __main__: [TEMPO] Fase 1 concluída em 1.83s
+2026-04-19 18:39:41,462 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-20.csv (38 linhas).
+2026-04-19 18:40:05,661 [INFO] __main__: [TEMPO] Fase 2 concluída em 24.20s (links extraídos: 76)
+2026-04-19 18:44:00,765 [INFO] __main__: [TEMPO] Fase 3 concluída em 235.10s (jogos raspados: 72)
+2026-04-19 18:44:00,825 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (10 linhas).
+2026-04-19 18:44:01,005 [INFO] __main__: Exportado histórico para dados_redscore.csv (21439 linhas)
+2026-04-19 18:44:01,006 [INFO] __main__: [DB] Executando VACUUM (tamanho=3.1 MB).
+2026-04-19 18:44:01,026 [INFO] __main__: [DB] VACUUM concluído.
+2026-04-19 18:44:01,363 [INFO] __main__: --- Rotina concluída em 282.65s ---
