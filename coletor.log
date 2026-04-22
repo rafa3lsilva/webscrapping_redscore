@@ -45495,3 +45495,110 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.
 2026-04-21 12:26:23,018 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (106 linhas).
 2026-04-21 12:26:23,276 [INFO] __main__: Exportado histórico para dados_redscore.csv (21612 linhas)
 2026-04-21 12:26:23,767 [INFO] __main__: --- Rotina concluída em 571.73s ---
+2026-04-22 12:29:50,697 [INFO] __main__: Coletor iniciado
+2026-04-22 12:29:50,698 [INFO] __main__: --- Rotina diária iniciada ---
+2026-04-22 12:30:19,182 [INFO] [ODDS] Odds para Levante vs Sevilla: 2.45, 3.25, 2.9
+2026-04-22 12:30:19,182 [INFO] coletor: [ODDS] Odds para Levante vs Sevilla: 2.45, 3.25, 2.9
+2026-04-22 12:30:19,183 [INFO] [ODDS] Odds para Rayo Vallecano vs Espanyol: 2.1, 3.25, 3.75
+2026-04-22 12:30:19,183 [INFO] coletor: [ODDS] Odds para Rayo Vallecano vs Espanyol: 2.1, 3.25, 3.75
+2026-04-22 12:30:19,183 [INFO] [ODDS] Odds para R. Oviedo vs Villarreal: 3.6, 3.4, 2.05
+2026-04-22 12:30:19,183 [INFO] coletor: [ODDS] Odds para R. Oviedo vs Villarreal: 3.6, 3.4, 2.05
+2026-04-22 12:30:19,184 [INFO] [ODDS] Odds para G. A. Eagle vs AZ: 3.0, 3.8, 2.15
+2026-04-22 12:30:19,184 [INFO] coletor: [ODDS] Odds para G. A. Eagle vs AZ: 3.0, 3.8, 2.15
+2026-04-22 12:30:19,184 [INFO] [ODDS] Odds para PSV vs Zwolle: 1.2, 7.5, 12.0
+2026-04-22 12:30:19,184 [INFO] coletor: [ODDS] Odds para PSV vs Zwolle: 1.2, 7.5, 12.0
+2026-04-22 12:30:19,185 [INFO] [ODDS] Odds para Casa Pia vs Braga: 5.25, 4.0, 1.6
+2026-04-22 12:30:19,185 [INFO] coletor: [ODDS] Odds para Casa Pia vs Braga: 5.25, 4.0, 1.6
+2026-04-22 12:30:19,186 [INFO] [ODDS] Odds para St. Truiden vs Anderlecht: 2.1, 3.5, 3.0
+2026-04-22 12:30:19,186 [INFO] coletor: [ODDS] Odds para St. Truiden vs Anderlecht: 2.1, 3.5, 3.0
+2026-04-22 12:30:19,186 [INFO] [ODDS] Odds para Salford vs Bromley: 1.8, 3.75, 4.0
+2026-04-22 12:30:19,186 [INFO] coletor: [ODDS] Odds para Salford vs Bromley: 1.8, 3.75, 4.0
+2026-04-22 12:30:19,187 [INFO] [ODDS] Odds para Randers vs Fredericia: 1.75, 3.9, 4.33
+2026-04-22 12:30:19,187 [INFO] coletor: [ODDS] Odds para Randers vs Fredericia: 1.75, 3.9, 4.33
+2026-04-22 12:30:19,188 [INFO] [ODDS] Odds para Nordsjælland vs AGF: 2.9, 3.6, 2.25
+2026-04-22 12:30:19,188 [INFO] coletor: [ODDS] Odds para Nordsjælland vs AGF: 2.9, 3.6, 2.25
+2026-04-22 12:30:19,188 [INFO] [ODDS] Odds para SønderjyskE vs Midtjylland: 4.5, 4.1, 1.66
+2026-04-22 12:30:19,188 [INFO] coletor: [ODDS] Odds para SønderjyskE vs Midtjylland: 4.5, 4.1, 1.66
+2026-04-22 12:30:19,190 [INFO] [ODDS] Odds para Degerfors vs AIK: 3.0, 3.4, 2.3
+2026-04-22 12:30:19,190 [INFO] coletor: [ODDS] Odds para Degerfors vs AIK: 3.0, 3.4, 2.3
+2026-04-22 12:30:19,192 [INFO] [ODDS] Odds para Malmö FF vs Sirius: 2.05, 3.8, 3.2
+2026-04-22 12:30:19,192 [INFO] coletor: [ODDS] Odds para Malmö FF vs Sirius: 2.05, 3.8, 3.2
+2026-04-22 12:30:19,193 [INFO] [ODDS] Odds para Kalmar vs IFK Göteborg: 3.0, 3.25, 2.37
+2026-04-22 12:30:19,193 [INFO] coletor: [ODDS] Odds para Kalmar vs IFK Göteborg: 3.0, 3.25, 2.37
+2026-04-22 12:30:19,195 [INFO] [ODDS] Odds para GAIS vs Mjällby: 2.87, 3.3, 2.4
+2026-04-22 12:30:19,195 [INFO] coletor: [ODDS] Odds para GAIS vs Mjällby: 2.87, 3.3, 2.4
+2026-04-22 12:30:19,196 [INFO] [ODDS] Odds para Defensa y Justicia vs Boca Juniors: 3.6, 3.1, 2.2
+2026-04-22 12:30:19,196 [INFO] coletor: [ODDS] Odds para Defensa y Justicia vs Boca Juniors: 3.6, 3.1, 2.2
+2026-04-22 12:30:19,197 [INFO] [ODDS] Odds para Necaxa vs Guadalajara: 5.25, 4.33, 1.57
+2026-04-22 12:30:19,197 [INFO] coletor: [ODDS] Odds para Necaxa vs Guadalajara: 5.25, 4.33, 1.57
+2026-04-22 12:30:19,198 [INFO] [ODDS] Odds para Tijuana vs Pachuca: 3.25, 3.8, 2.05
+2026-04-22 12:30:19,198 [INFO] coletor: [ODDS] Odds para Tijuana vs Pachuca: 3.25, 3.8, 2.05
+2026-04-22 12:30:19,199 [INFO] [ODDS] Odds para Al Najma vs Al Taawoun: 4.33, 3.5, 1.65
+2026-04-22 12:30:19,199 [INFO] coletor: [ODDS] Odds para Al Najma vs Al Taawoun: 4.33, 3.5, 1.65
+2026-04-22 12:30:19,200 [INFO] [ODDS] Odds para Damac vs Al Akhdoud: 1.66, 3.5, 4.5
+2026-04-22 12:30:19,200 [INFO] coletor: [ODDS] Odds para Damac vs Al Akhdoud: 1.66, 3.5, 4.5
+2026-04-22 12:30:19,201 [WARNING] [ODDS] Odds não encontradas para USM Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,201 [WARNING] coletor: [ODDS] Odds não encontradas para USM Alger vs Paradou AC. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,203 [WARNING] [ODDS] Odds não encontradas para CR Belouizdad vs USM Khenchela. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,203 [WARNING] coletor: [ODDS] Odds não encontradas para CR Belouizdad vs USM Khenchela. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,204 [WARNING] [ODDS] Odds não encontradas para Van vs BKMA. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,204 [WARNING] coletor: [ODDS] Odds não encontradas para Van vs BKMA. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,205 [INFO] [ODDS] Odds para Pyunik vs Urartu: 1.66, 3.6, 4.33
+2026-04-22 12:30:19,205 [INFO] coletor: [ODDS] Odds para Pyunik vs Urartu: 1.66, 3.6, 4.33
+2026-04-22 12:30:19,206 [WARNING] [ODDS] Odds não encontradas para Lommel United vs Liège. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,206 [WARNING] coletor: [ODDS] Odds não encontradas para Lommel United vs Liège. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,207 [WARNING] [ODDS] Odds não encontradas para Patro Eisden vs Beerschot. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,207 [WARNING] coletor: [ODDS] Odds não encontradas para Patro Eisden vs Beerschot. Motivo: could not convert string to float: '-'
+2026-04-22 12:30:19,209 [INFO] [ODDS] Odds para San Antonio Bulo Bulo vs Real Oruro: 1.45, 5.0, 5.5
+2026-04-22 12:30:19,209 [INFO] coletor: [ODDS] Odds para San Antonio Bulo Bulo vs Real Oruro: 1.45, 5.0, 5.5
+2026-04-22 12:30:19,210 [INFO] [ODDS] Odds para Real Tomayapo vs The Strongest: 3.7, 4.2, 1.75
+2026-04-22 12:30:19,210 [INFO] coletor: [ODDS] Odds para Real Tomayapo vs The Strongest: 3.7, 4.2, 1.75
+2026-04-22 12:30:19,211 [INFO] [ODDS] Odds para Palestino vs Concepcion: 1.66, 3.8, 4.75
+2026-04-22 12:30:19,211 [INFO] coletor: [ODDS] Odds para Palestino vs Concepcion: 1.66, 3.8, 4.75
+2026-04-22 12:30:19,212 [INFO] [ODDS] Odds para Deportivo Pasto vs Santa Fe: 2.1, 3.0, 4.0
+2026-04-22 12:30:19,212 [INFO] coletor: [ODDS] Odds para Deportivo Pasto vs Santa Fe: 2.1, 3.0, 4.0
+2026-04-22 12:30:19,213 [INFO] [ODDS] Odds para Millonarios vs Deportes Tolima: 1.95, 3.3, 4.0
+2026-04-22 12:30:19,213 [INFO] coletor: [ODDS] Odds para Millonarios vs Deportes Tolima: 1.95, 3.3, 4.0
+2026-04-22 12:30:19,214 [INFO] [ODDS] Odds para AaB vs B 93: 1.7, 3.8, 4.5
+2026-04-22 12:30:19,214 [INFO] coletor: [ODDS] Odds para AaB vs B 93: 1.7, 3.8, 4.5
+2026-04-22 12:30:19,215 [INFO] [ODDS] Odds para Al Mokawloon vs Al Ittihad: 2.62, 2.6, 2.8
+2026-04-22 12:30:19,215 [INFO] coletor: [ODDS] Odds para Al Mokawloon vs Al Ittihad: 2.62, 2.6, 2.8
+2026-04-22 12:30:19,216 [INFO] [ODDS] Odds para Zamalek vs Pyramids FC: 2.75, 3.0, 2.37
+2026-04-22 12:30:19,216 [INFO] coletor: [ODDS] Odds para Zamalek vs Pyramids FC: 2.75, 3.0, 2.37
+2026-04-22 12:30:19,217 [INFO] [ODDS] Odds para Ghazl El Mehalla vs Petrojet: 2.75, 2.62, 2.62
+2026-04-22 12:30:19,217 [INFO] coletor: [ODDS] Odds para Ghazl El Mehalla vs Petrojet: 2.75, 2.62, 2.62
+2026-04-22 12:30:19,218 [INFO] [ODDS] Odds para Universidad Católica vs Macará: 1.75, 3.4, 4.75
+2026-04-22 12:30:19,218 [INFO] coletor: [ODDS] Odds para Universidad Católica vs Macará: 1.75, 3.4, 4.75
+2026-04-22 12:30:19,220 [INFO] [ODDS] Odds para ÍBV vs KR: 3.4, 4.0, 1.75
+2026-04-22 12:30:19,220 [INFO] coletor: [ODDS] Odds para ÍBV vs KR: 3.4, 4.0, 1.75
+2026-04-22 12:30:19,221 [INFO] [ODDS] Odds para Thór vs Fram: 2.55, 4.0, 2.15
+2026-04-22 12:30:19,221 [INFO] coletor: [ODDS] Odds para Thór vs Fram: 2.55, 4.0, 2.15
+2026-04-22 12:30:19,222 [INFO] [ODDS] Odds para Víkingur Reykjavík vs Stjarnan: 1.5, 4.1, 4.5
+2026-04-22 12:30:19,222 [INFO] coletor: [ODDS] Odds para Víkingur Reykjavík vs Stjarnan: 1.5, 4.1, 4.5
+2026-04-22 12:30:19,224 [INFO] [ODDS] Odds para Valur vs FH: 2.35, 3.6, 2.4
+2026-04-22 12:30:19,224 [INFO] coletor: [ODDS] Odds para Valur vs FH: 2.35, 3.6, 2.4
+2026-04-22 12:30:19,225 [INFO] [ODDS] Odds para Melaka vs Sabah: 2.35, 3.25, 2.6
+2026-04-22 12:30:19,225 [INFO] coletor: [ODDS] Odds para Melaka vs Sabah: 2.35, 3.25, 2.6
+2026-04-22 12:30:19,227 [INFO] [ODDS] Odds para Los Chankas vs Cienciano: 2.4, 3.4, 2.75
+2026-04-22 12:30:19,227 [INFO] coletor: [ODDS] Odds para Los Chankas vs Cienciano: 2.4, 3.4, 2.75
+2026-04-22 12:30:19,228 [INFO] [ODDS] Odds para Radnički Niš vs Javor Ivanjica: 1.83, 3.25, 4.33
+2026-04-22 12:30:19,228 [INFO] coletor: [ODDS] Odds para Radnički Niš vs Javor Ivanjica: 1.83, 3.25, 4.33
+2026-04-22 12:30:19,229 [INFO] [ODDS] Odds para Napredak vs IMT Novi Beograd: 6.25, 4.33, 1.42
+2026-04-22 12:30:19,229 [INFO] coletor: [ODDS] Odds para Napredak vs IMT Novi Beograd: 6.25, 4.33, 1.42
+2026-04-22 12:30:19,230 [INFO] [ODDS] Odds para Spartak Subotica vs Bačka Topola: 5.0, 3.4, 1.7
+2026-04-22 12:30:19,230 [INFO] coletor: [ODDS] Odds para Spartak Subotica vs Bačka Topola: 5.0, 3.4, 1.7
+2026-04-22 12:30:19,231 [INFO] [ODDS] Odds para Mladost Lučani vs Radnički Kragujevac: 3.3, 3.25, 2.1
+2026-04-22 12:30:19,231 [INFO] coletor: [ODDS] Odds para Mladost Lučani vs Radnički Kragujevac: 3.3, 3.25, 2.1
+2026-04-22 12:30:19,233 [INFO] [AGENDA] Válidos=46, Incompletos=0, Filtrados=79, Duplicados=0
+2026-04-22 12:30:19,233 [INFO] coletor: [AGENDA] Válidos=46, Incompletos=0, Filtrados=79, Duplicados=0
+2026-04-22 12:30:19,234 [INFO] __main__: [TEMPO] Fase 1 concluída em 5.54s
+2026-04-22 12:30:19,244 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-04-23.csv (46 linhas).
+2026-04-22 12:30:55,362 [INFO] __main__: [TEMPO] Fase 2 concluída em 36.12s (links extraídos: 92)
+2026-04-22 12:37:36,435 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/universidad-catolica/15327: HTTPConnectionPool(host='localhost', port=60217): Read timed out. (read timeout=120)
+2026-04-22 12:37:36,435 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/universidad-catolica/15327: HTTPConnectionPool(host='localhost', port=60217): Read timed out. (read timeout=120)
+2026-04-22 12:39:37,167 [ERROR] [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/macara/12402: HTTPConnectionPool(host='localhost', port=60217): Read timed out. (read timeout=120)
+2026-04-22 12:39:37,167 [ERROR] coletor: [TIME] Falha geral ao abrir https://redscores.com/pt-br/team/macara/12402: HTTPConnectionPool(host='localhost', port=60217): Read timed out. (read timeout=120)
+2026-04-22 12:41:46,285 [INFO] __main__: [TEMPO] Fase 3 concluída em 650.92s (jogos raspados: 155)
+2026-04-22 12:41:46,398 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (40 linhas).
+2026-04-22 12:41:46,661 [INFO] __main__: Exportado histórico para dados_redscore.csv (21652 linhas)
+2026-04-22 12:41:47,246 [INFO] __main__: --- Rotina concluída em 716.55s ---
