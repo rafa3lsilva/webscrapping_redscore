@@ -13,6 +13,9 @@ from auth_redscore import REDSCORE_USER, REDSCORE_PASS
 from login_redscore import login_redscore
 import requests
 from urllib.parse import urljoin
+import warnings
+
+warnings.simplefilter(action='ignore', category=FutureWarning)
 
 # ================================
 # CONFIGURÁVEL
