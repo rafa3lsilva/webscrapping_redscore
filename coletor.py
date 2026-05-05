@@ -72,7 +72,7 @@ def salvar_no_banco(df, nome_db=NOME_DB):
     colunas = df.columns.tolist()
     placeholders = ', '.join(['?'] * len(colunas))
     col_names = ', '.join(colunas)
-    sql = f"INSERT OR IGNORE INTO jogos ({col_names}) VALUES ({placeholders})"
+    sql = f"INSERT OR REPLACE INTO jogos ({col_names}) VALUES ({placeholders})"
     with sqlite3.connect(nome_db) as conn:
         registros = df.values.tolist()
         conn.executemany(sql, registros)
@@ -82,10 +82,16 @@ def salvar_no_banco(df, nome_db=NOME_DB):
 
 def carregar_jogos_existentes(nome_db=NOME_DB):
     if not os.path.exists(nome_db):
-        return set()
+        return {}
     with sqlite3.connect(nome_db) as conn:
-        jogos = {tuple(row) for row in conn.execute(
-            "SELECT Data, Home, Away FROM jogos")}
+        # Retorna um dicionário: {(Data, Home, Away): is_complete}
+        # Consideramos completo se as Odds forem > 0
+        jogos = {}
+        for row in conn.execute("SELECT Data, Home, Away, Odd_H, H_Chute FROM jogos"):
+            key = (row[0], row[1], row[2])
+            # É completo se tem Odd e se tem alguma estatística (chute)
+            is_complete = (row[3] is not None and row[3] > 0) and (row[4] is not None and row[4] > 0)
+            jogos[key] = is_complete
     return jogos
 
 
@@ -106,6 +112,41 @@ def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv=f"jogos_do_dia/Jogos
     df.to_csv(nome_csv, index=False, encoding='utf-8')
     print(f"✅ Agenda exportada para {nome_csv} ({len(df)} linhas)")
     log.info("Exportada agenda para %s (%d linhas).", nome_csv, len(df))
+
+
+# ================================
+# Limpeza de Arquivos Antigos
+# ================================
+def limpar_arquivos_antigos(dias=30):
+    """Remove arquivos .csv de auditoria e logs temporários com mais de 'dias'."""
+    pastas = ["auditoria", "jogos_do_dia", "jogos_duplicados", "jogos_faltando_time", "ligas_ignoradas"]
+    count = 0
+    limite = time.time() - (dias * 86400)
+    
+    for pasta in pastas:
+        if not os.path.exists(pasta):
+            continue
+        for f in os.listdir(pasta):
+            caminho = os.path.join(pasta, f)
+            if os.path.isfile(caminho) and os.path.getmtime(caminho) < limite:
+                try:
+                    os.remove(caminho)
+                    count += 1
+                except Exception as e:
+                    log.warning(f"Erro ao remover {caminho}: {e}")
+    
+    # Também limpa arquivos na raiz que seguem o padrão de falhas/duplicados
+    for f in os.listdir("."):
+        if f.endswith(".csv") and ("falhos" in f or "incompletos" in f or "duplicados" in f):
+            if os.path.getmtime(f) < limite:
+                try:
+                    os.remove(f)
+                    count += 1
+                except Exception:
+                    pass
+
+    if count > 0:
+        log.info(f"Limpeza concluída: {count} arquivos antigos removidos.")
 
 
 # ================================
@@ -326,8 +367,10 @@ def rotina_diaria_noturna():
                 df_novos_jogos.drop_duplicates(
                     subset=["Data", "Home", "Away"], inplace=True, keep='last')
 
+                # Filtra apenas os jogos que já estão completos no banco para não re-salvá-los
+                jogos_completos = [k for k, v in jogos_existentes.items() if v is True]
                 jogos_existentes_df = pd.DataFrame(
-                    list(jogos_existentes), columns=["Data", "Home", "Away"])
+                    jogos_completos, columns=["Data", "Home", "Away"])
                 if not jogos_existentes_df.empty:
                     df_novos_jogos = df_novos_jogos.merge(
                         jogos_existentes_df,
@@ -347,6 +390,7 @@ def rotina_diaria_noturna():
 
         exportar_para_csv()
         maybe_vacuum_db(NOME_DB)
+        limpar_arquivos_antigos(dias=30)
 
     except Exception as e:
         log.error(f"Um erro crítico ocorreu na rotina principal: {e}")

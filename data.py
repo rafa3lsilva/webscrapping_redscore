@@ -288,8 +288,10 @@ def raspar_dados_time(driver, time_url, liga_principal, jogos_existentes, ligas_
                 data_padronizada = _formatar_data(data)
                 home_norm, away_norm = " ".join(
                     time_casa.split()).title(), " ".join(time_fora.split()).title()
-                if (data_padronizada, home_norm, away_norm) in jogos_existentes:
-                    continue  # <-- não interrompe raspagem de outros jogos
+                
+                chave = (data_padronizada, home_norm, away_norm)
+                if chave in jogos_existentes and jogos_existentes[chave] is True:
+                    continue  # Já existe e está completo, pula.
 
                 jogos_raspados.append({
                     "Liga": liga_final, "Data": data, "Home": time_casa, "Away": time_fora,
