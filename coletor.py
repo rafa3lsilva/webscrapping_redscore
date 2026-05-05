@@ -11,9 +11,11 @@ from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from auth_redscore import REDSCORE_USER, REDSCORE_PASS
 from login_redscore import login_redscore
+import csv
 import requests
 from urllib.parse import urljoin
 import warnings
+from logging.handlers import RotatingFileHandler
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 
@@ -33,11 +35,17 @@ VACUUM_DAY_IS_SUNDAY = True        # ou False se preferir apenas pelo tamanho
 dia = date.today() + timedelta(days=1)
 NOME_DB = "dados.db"
 
-logging.basicConfig(
-    filename="coletor.log",
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+# Configura logging com rotação (5 MB, 3 backups)
+# Usa o root logger para capturar logs de todos os módulos (data.py, etc.)
+_log_handler = RotatingFileHandler(
+    "coletor.log", maxBytes=5*1024*1024, backupCount=3, encoding="utf-8"
 )
+_log_handler.setFormatter(logging.Formatter(
+    "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+))
+logging.root.addHandler(_log_handler)
+logging.root.setLevel(logging.INFO)
+
 log = logging.getLogger(__name__)
 log.info("Coletor iniciado")
 
@@ -46,43 +54,44 @@ log.info("Coletor iniciado")
 # DB utils
 # ================================
 def inicializar_banco(nome_db=NOME_DB):
-    conn = sqlite3.connect(nome_db)
-    cursor = conn.cursor()
-    cursor.execute("""
-    CREATE TABLE IF NOT EXISTS jogos (
-        Data TEXT, Home TEXT, Away TEXT, Liga TEXT, H_Gols_FT INTEGER, A_Gols_FT INTEGER,
-        H_Gols_HT INTEGER, A_Gols_HT INTEGER, H_Chute INTEGER, A_Chute INTEGER,
-        H_Chute_Gol INTEGER, A_Chute_Gol INTEGER, H_Ataques INTEGER, A_Ataques INTEGER,
-        H_Escanteios INTEGER, A_Escanteios INTEGER, Odd_H REAL, Odd_D REAL, Odd_A REAL,
-        PRIMARY KEY (Data, Home, Away)
-    )""")
-    conn.commit()
-    conn.close()
+    with sqlite3.connect(nome_db) as conn:
+        conn.execute("""
+        CREATE TABLE IF NOT EXISTS jogos (
+            Data TEXT, Home TEXT, Away TEXT, Liga TEXT, H_Gols_FT INTEGER, A_Gols_FT INTEGER,
+            H_Gols_HT INTEGER, A_Gols_HT INTEGER, H_Chute INTEGER, A_Chute INTEGER,
+            H_Chute_Gol INTEGER, A_Chute_Gol INTEGER, H_Ataques INTEGER, A_Ataques INTEGER,
+            H_Escanteios INTEGER, A_Escanteios INTEGER, Odd_H REAL, Odd_D REAL, Odd_A REAL,
+            PRIMARY KEY (Data, Home, Away)
+        )""")
+        conn.commit()
 
 
 def salvar_no_banco(df, nome_db=NOME_DB):
     if df.empty:
         return
-    conn = sqlite3.connect(nome_db)
-    df.to_sql('jogos', conn, if_exists='append', index=False)
-    conn.close()
+    colunas = df.columns.tolist()
+    placeholders = ', '.join(['?'] * len(colunas))
+    col_names = ', '.join(colunas)
+    sql = f"INSERT OR IGNORE INTO jogos ({col_names}) VALUES ({placeholders})"
+    with sqlite3.connect(nome_db) as conn:
+        registros = df.values.tolist()
+        conn.executemany(sql, registros)
+        conn.commit()
     log.info(f"Dados salvos/atualizados na tabela 'jogos' ({len(df)} linhas).")
 
 
 def carregar_jogos_existentes(nome_db=NOME_DB):
     if not os.path.exists(nome_db):
         return set()
-    conn = sqlite3.connect(nome_db)
-    jogos = {tuple(row) for row in conn.cursor().execute(
-        "SELECT Data, Home, Away FROM jogos")}
-    conn.close()
+    with sqlite3.connect(nome_db) as conn:
+        jogos = {tuple(row) for row in conn.execute(
+            "SELECT Data, Home, Away FROM jogos")}
     return jogos
 
 
 def exportar_para_csv(nome_db=NOME_DB, nome_csv="dados_redscore.csv"):
-    conn = sqlite3.connect(nome_db)
-    df = pd.read_sql_query("SELECT * FROM jogos", conn)
-    conn.close()
+    with sqlite3.connect(nome_db) as conn:
+        df = pd.read_sql_query("SELECT * FROM jogos", conn)
     df.to_csv(nome_csv, index=False)
     print(f"✅ Histórico completo exportado para {nome_csv} ({len(df)} linhas)")
     log.info(f"Exportado histórico para {nome_csv} ({len(df)} linhas)")
@@ -108,9 +117,8 @@ def maybe_vacuum_db(nome_db=NOME_DB):
         today_is_sunday = datetime.today().weekday() == 6
         if size_mb >= VACUUM_SIZE_THRESHOLD_MB or (VACUUM_DAY_IS_SUNDAY and today_is_sunday):
             log.info(f"[DB] Executando VACUUM (tamanho={size_mb:.1f} MB).")
-            conn = sqlite3.connect(nome_db)
-            conn.execute("VACUUM;")
-            conn.close()
+            with sqlite3.connect(nome_db) as conn:
+                conn.execute("VACUUM;")
             log.info("[DB] VACUUM concluído.")
     except Exception as e:
         log.warning(f"[DB] Não foi possível executar VACUUM: {e}")
@@ -258,7 +266,6 @@ def rotina_diaria_noturna():
         if erros_confronto:
             os.makedirs("auditoria", exist_ok=True)
             with open(os.path.join("auditoria", f"erros_links_confronto_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
-                import csv
                 writer = csv.writer(f)
                 for row in erros_confronto:
                     writer.writerow(row)
@@ -282,19 +289,26 @@ def rotina_diaria_noturna():
         todos_os_jogos_novos = []
 
         # OBS: raspagem de times envolve 'see more' dinâmico. Mantemos sequencial com o mesmo driver.
+        MAX_RETRIES_F3 = 2
         for url, liga_correta in tqdm(equipas_a_visitar.items(), desc="Atualizando Histórico das Equipas"):
-            try:
-                jogos_da_equipa = dt.raspar_dados_time(
-                    driver, url, liga_correta, jogos_existentes, cfg.LIGAS_PERMITIDAS, cfg.LIMITE_JOGOS_POR_TIME)
-                todos_os_jogos_novos.extend(jogos_da_equipa)
-                # pausa leve para não sobrecarregar
-                time.sleep(random.uniform(0.6, 1.2))
-            except Exception as e:
-                log.error(f"[F3] Erro ao raspar time {url}: {e}")
-                with open(os.path.join("auditoria", f"erros_raspagem_times_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
-                    import csv
-                    writer = csv.writer(f)
-                    writer.writerow([url, str(e)])
+            for tentativa in range(MAX_RETRIES_F3):
+                try:
+                    jogos_da_equipa = dt.raspar_dados_time(
+                        driver, url, liga_correta, jogos_existentes, cfg.LIGAS_PERMITIDAS, cfg.LIMITE_JOGOS_POR_TIME)
+                    todos_os_jogos_novos.extend(jogos_da_equipa)
+                    break  # sucesso, sai do retry
+                except Exception as e:
+                    if tentativa < MAX_RETRIES_F3 - 1:
+                        log.warning(f"[F3] Tentativa {tentativa+1} falhou para {url}: {e}. Retentando...")
+                        time.sleep(2 * (tentativa + 1))  # backoff: 2s, 4s
+                    else:
+                        log.error(f"[F3] Erro ao raspar time {url} após {MAX_RETRIES_F3} tentativas: {e}")
+                        os.makedirs("auditoria", exist_ok=True)
+                        with open(os.path.join("auditoria", f"erros_raspagem_times_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
+                            writer = csv.writer(f)
+                            writer.writerow([url, str(e)])
+            # pausa leve para não sobrecarregar
+            time.sleep(random.uniform(0.6, 1.2))
 
         t2 = time.time()
         log.info(

@@ -16,13 +16,8 @@ from datetime import date, timedelta, datetime
 # ==========================
 # Logger
 # ==========================
-log = logging.getLogger("coletor")
-log.setLevel(logging.INFO)
-if not log.handlers:
-    handler = logging.FileHandler("coletor.log")
-    formatter = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
-    handler.setFormatter(formatter)
-    log.addHandler(handler)
+# Usa logger filho do coletor — o handler é configurado em coletor.py (root logger)
+log = logging.getLogger("coletor.data")
 dia = date.today() + timedelta(days=1)
 
 # ==========================
@@ -327,6 +322,21 @@ def processar_dados_raspados(lista_de_jogos):
             if not data_padronizada:
                 descartados.append(jogo)
                 continue
+
+            # Converter odds com tratamento seguro
+            def _parse_odd(valor_str):
+                if valor_str in [None, "-", "", "0", "0.0"]:
+                    return None
+                try:
+                    v = float(valor_str)
+                    return v if v > 0 else None
+                except (ValueError, TypeError):
+                    return None
+
+            odd_h = _parse_odd(jogo.get('Odd_H_str'))
+            odd_d = _parse_odd(jogo.get('Odd_D_str'))
+            odd_a = _parse_odd(jogo.get('Odd_A_str'))
+
             jogos_processados.append({
                 "Liga": " ".join(jogo['Liga'].split()).title(),
                 "Data": data_padronizada,
@@ -344,13 +354,14 @@ def processar_dados_raspados(lista_de_jogos):
                 "A_Ataques": _converter_stat_para_int(jogo['Ataques'])[1],
                 "H_Escanteios": _converter_stat_para_int(jogo['Escanteios'])[0],
                 "A_Escanteios": _converter_stat_para_int(jogo['Escanteios'])[1],
-                "Odd_H": float(jogo['Odd_H_str']) if jogo['Odd_H_str'] not in [None, "-"] else 0.0,
-                "Odd_D": float(jogo['Odd_D_str']) if jogo['Odd_D_str'] not in [None, "-"] else 0.0,
-                "Odd_A": float(jogo['Odd_A_str']) if jogo['Odd_A_str'] not in [None, "-"] else 0.0,
+                "Odd_H": odd_h,
+                "Odd_D": odd_d,
+                "Odd_A": odd_a,
             })
         except Exception as e:
             descartados.append(jogo)
             log.error(f"[PROCESSAMENTO] Falha ao processar jogo: {e}")
+
     if descartados:
         with open(f"jogos_processamento_falhos_{date.today()}.csv", "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=descartados[0].keys())
@@ -358,4 +369,12 @@ def processar_dados_raspados(lista_de_jogos):
             writer.writerows(descartados)
         log.warning(
             f"[PROCESSAMENTO] {len(descartados)} jogos descartados. CSV salvo.")
-    return pd.DataFrame(jogos_processados)
+
+    # Validação pós-processamento
+    df = pd.DataFrame(jogos_processados)
+    if not df.empty:
+        sem_odds = df[df['Odd_H'].isna() | df['Odd_D'].isna() | df['Odd_A'].isna()]
+        if len(sem_odds) > 0:
+            log.warning(f"[VALIDAÇÃO] {len(sem_odds)} jogos sem odds válidas (serão salvos com NULL).")
+
+    return df
