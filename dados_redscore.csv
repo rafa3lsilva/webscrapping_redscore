@@ -20278,7 +20278,6 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-04-05,Dobrudzha 1919,Levski Sofia,Bulgária - Parva Liga,2,2,0,0,6,10,2,2,38,80,2,7,8.0,4.2,1.42
 2026-04-05,Karagümrük,Rizespor,Turquia - Super Lig,2,1,1,0,10,11,5,2,26,35,0,3,2.87,3.5,2.35
 2026-04-05,Samsunspor,Konyaspor,Turquia - Super Lig,2,2,1,1,18,9,7,2,66,19,8,2,2.1,3.25,3.6
-2026-04-05,JS Saoura,MC Alger,Argélia - Ligue 1,2,1,1,1,14,10,5,8,63,58,2,3,0.0,0.0,0.0
 2026-04-05,El Bayadh,JS Kabylie,Argélia - Ligue 1,1,1,1,1,13,11,7,4,47,42,4,6,0.0,0.0,0.0
 2026-04-05,Al Ettifaq,Al Quadisiya,Arábia Saudita - Pro League,3,2,1,1,11,15,6,5,34,32,4,7,6.5,5.0,1.36
 2026-04-05,Al Riyadh,Al Shabab,Arábia Saudita - Pro League,1,1,1,1,10,19,3,6,26,52,2,9,3.7,3.5,1.85
@@ -20916,7 +20915,6 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-04-11,MK Dons,Bromley,Inglaterra - League Two,2,1,2,0,11,20,4,7,21,55,2,9,1.72,3.4,5.25
 2026-04-11,Cambridge,Notts County,Inglaterra - League Two,4,0,3,0,12,8,6,0,38,55,4,4,1.8,3.2,4.75
 2026-04-10,Ben Aknoun,ASO Chlef,Argélia - Ligue 1,2,1,2,0,9,8,3,3,35,42,3,3,1.95,3.25,3.4
-2026-04-10,Mostaganem,USM Khenchela,Argélia - Ligue 1,0,3,0,2,0,3,4,6,62,74,3,5,2.5,2.9,2.62
 2026-04-11,Blackpool,Peterborough,Inglaterra - League One,3,1,1,1,15,11,8,4,72,47,11,3,1.9,3.9,3.5
 2026-04-14,Port Vale,Barnsley,Inglaterra - League One,0,0,0,0,8,19,1,4,38,49,8,9,2.75,3.2,2.5
 2026-04-11,Cagliari,Cremonese,Itália - Serie A,1,0,0,0,17,5,5,2,42,36,6,5,2.0,3.2,3.9
@@ -20984,7 +20982,6 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-04-12,Beijing Guoan,Chengdu Rongcheng,China - Super League,1,2,0,0,10,12,2,5,40,60,2,10,2.3,3.7,2.87
 2026-04-12,Brøndby,Midtjylland,Dinamarca - Superliga,1,2,0,0,13,12,5,5,43,32,3,9,3.4,3.5,2.1
 2026-04-12,SønderjyskE,Viborg,Dinamarca - Superliga,0,2,0,0,14,17,1,4,64,43,6,4,2.87,3.75,2.25
-2026-04-09,MC Oran,MB Rouisset,Argélia - Ligue 1,2,1,0,1,14,3,6,2,47,40,6,1,0.0,0.0,0.0
 2026-04-11,Paradou AC,JS Saoura,Argélia - Ligue 1,1,1,0,1,13,13,8,4,67,66,5,6,3.2,3.1,2.15
 2026-04-11,Lommel United,Club Brugge II,Bélgica - First Division B,0,1,0,0,21,13,6,7,57,34,5,7,1.27,4.75,8.0
 2026-04-11,Auckland,Melbourne Victory,Austrália - A-League,2,2,1,1,13,13,2,2,59,49,9,6,2.35,3.8,2.7
@@ -22846,3 +22843,13 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-05-02,FA Šiauliai,Sūduva,Lituânia - A Lyga,2,1,0,1,14,12,7,6,35,58,2,8,3.8,3.3,1.8
 2026-05-01,Kongsvinger,Egersund,Noruega - Obos-Ligaen,2,1,1,0,14,12,6,4,39,40,4,6,2.1,3.75,3.1
 2026-05-01,Odd,Raufoss,Noruega - Obos-Ligaen,1,0,1,0,25,7,8,0,33,18,7,6,1.53,4.5,5.25
+2026-04-29,JS Kabylie,MC Oran,Argélia - Ligue 1,1,2,1,0,20,15,10,6,53,43,7,2,1.65,3.1,5.25
+2026-04-09,MC Oran,MB Rouisset,Argélia - Ligue 1,2,1,0,1,14,3,6,2,47,40,6,1,,,
+2026-04-10,Mostaganem,USM Khenchela,Argélia - Ligue 1,0,3,0,2,0,3,4,6,62,74,3,5,2.5,2.9,2.62
+2026-04-05,JS Saoura,MC Alger,Argélia - Ligue 1,2,1,1,1,14,10,5,8,63,58,2,3,,,
+2026-05-03,Al Shabab,Al Taawoun,Arábia Saudita - Pro League,1,5,1,2,9,10,4,6,44,40,6,2,2.2,3.4,2.87
+2026-05-03,Al Quadisiya,Al Nassr,Arábia Saudita - Pro League,3,1,1,1,12,12,6,2,49,31,6,5,3.1,3.9,1.95
+2026-05-03,ZED FC,El Gounah,Egito - Premier League,2,2,1,2,12,6,2,3,52,16,2,3,2.25,2.75,3.5
+2026-05-03,Haras El Hodood,El Geish,Egito - Premier League,0,0,0,0,11,11,2,6,44,47,4,6,3.6,2.75,2.2
+2026-05-03,National Bank of Egypt,Future FC,Egito - Premier League,2,1,0,1,17,7,9,1,78,34,8,3,2.15,2.87,3.6
+2026-05-03,Ghazl El Mehalla,Ismaily,Egito - Premier League,0,0,0,0,15,7,2,3,64,31,6,2,2.2,2.6,3.9

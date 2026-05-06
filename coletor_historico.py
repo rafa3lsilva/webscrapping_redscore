@@ -25,7 +25,7 @@ logging.basicConfig(
 log = logging.getLogger("historico")
 
 NOME_DB_HISTORICO = "dados_historicos.db"
-LIMITE_RODADAS = None  # Defina um número (ex: 5) para limitar, ou None para coletar todas
+LIMITE_RODADAS = 3  # Defina um número (ex: 5) para limitar, ou None para coletar todas
 
 def inicializar_banco_historico():
     with sqlite3.connect(NOME_DB_HISTORICO) as conn:
@@ -44,16 +44,24 @@ def inicializar_banco_historico():
 def salvar_no_banco_historico(df):
     if df.empty:
         return
+    inseridos = 0
+    ignorados = 0
     with sqlite3.connect(NOME_DB_HISTORICO) as conn:
-        # Usamos INSERT OR IGNORE para não duplicar se rodarmos a mesma rodada duas vezes
-        colunas = df.columns.tolist()
-        placeholders = ', '.join(['?'] * len(colunas))
-        col_names = ', '.join(colunas)
-        sql = f"INSERT OR IGNORE INTO jogos ({col_names}) VALUES ({placeholders})"
-        registros = df.values.tolist()
-        conn.executemany(sql, registros)
+        for _, row in df.iterrows():
+            try:
+                colunas = row.index.tolist()
+                placeholders = ', '.join(['?'] * len(colunas))
+                col_names = ', '.join(colunas)
+                sql = f"INSERT INTO jogos ({col_names}) VALUES ({placeholders})"
+                conn.execute(sql, tuple(row))
+                inseridos += 1
+            except sqlite3.IntegrityError:
+                ignorados += 1
         conn.commit()
-    log.info(f"Salvos/Ignorados {len(df)} jogos no banco histórico.")
+    if ignorados > 0:
+        log.info(f"Resultado: {inseridos} novos jogos salvos, {ignorados} já existiam e foram ignorados.")
+    else:
+        log.info(f"Sucesso: {inseridos} jogos salvos no banco histórico.")
 
 def coletar_liga_historica(driver, url_liga, nome_liga_config, temporada_nome, rodada_inicial=0):
     log.info(f"--- Iniciando {nome_liga_config} | Temp: {temporada_nome} ---")
@@ -105,16 +113,20 @@ def coletar_liga_historica(driver, url_liga, nome_liga_config, temporada_nome, r
                 driver.execute_script("arguments[0].click();", btn_semana)
                 time.sleep(2)
 
-            # 1. Garantir que a Temporada está correta (o site às vezes reseta ao mudar de aba)
+            # 1. Garantir que a Temporada está correta
             try:
-                # Procura o dropdown de temporada. Geralmente tem o texto da temporada selecionada.
+                # O site tem vários <select class="xcfgSettingsSel">. O de temporada contém anos (ex: 2025).
                 dropdowns = driver.find_elements(By.CSS_SELECTOR, "select.xcfgSettingsSel")
                 for dd_elem in dropdowns:
                     dd = Select(dd_elem)
                     try:
-                        texto_selecionado = dd.first_selected_option.text
-                        if temporada_nome not in texto_selecionado:
-                            log.info(f"Temporada resetou para '{texto_selecionado}'. Re-selecionando {temporada_nome}...")
+                        # Verifica se o dropdown atual é o de temporada (contém 2024, 2025 ou 2026)
+                        opcoes_texto = " ".join([o.text for o in dd.options[:5]])
+                        if "20" in opcoes_texto:
+                            texto_selecionado = dd.first_selected_option.text
+                            if temporada_nome not in texto_selecionado:
+                                log.info(f"Temporada resetou para '{texto_selecionado}'. Re-selecionando {temporada_nome}...")
+                                # ... resto da lógica ...
                             for opt in dd.options:
                                 if temporada_nome in opt.text:
                                     dd.select_by_visible_text(opt.text)
@@ -136,15 +148,27 @@ def coletar_liga_historica(driver, url_liga, nome_liga_config, temporada_nome, r
             # 2. Re-localizar o dropdown de rodadas
             dropdown_elem = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'select.xcfgSettings.xcfgSettingsSel')))
             dropdown = Select(dropdown_elem)
-            rodada_texto = dropdown.options[i].text
-            log.info(f"-> Processando: {rodada_texto} ({i+1}/{total_rodadas})")
             
-            dropdown.select_by_index(i)
-            time.sleep(5) # Espera carregar os jogos da rodada
+            # Pega a opção pelo índice e extrai o valor interno do site
+            opcao = dropdown.options[i]
+            valor_opcao = opcao.get_attribute("value")
+            rodada_texto = opcao.text
+            
+            log.info(f"-> Selecionando Opção Dropdown: {rodada_texto} (Índice {i}, Valor {valor_opcao})")
+            
+            # Forçar a seleção via JavaScript para disparar os eventos do site
+            driver.execute_script("""
+                var select = arguments[0];
+                select.value = arguments[1];
+                select.dispatchEvent(new Event('change', { bubbles: true }));
+            """, dropdown_elem, valor_opcao)
+            
+            time.sleep(5) # Espera carregar os jogos da rodada (AJAX)
 
             # 3. Listar links dos jogos
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             links_jogos = []
+            # Procura por links de jogos na tabela de dados
             for a in soup.select('table.table-data__table a[href*="/pt-br/match/"]'):
                 href = a['href'].split('#')[0]
                 if not href.startswith("http"):
@@ -152,11 +176,12 @@ def coletar_liga_historica(driver, url_liga, nome_liga_config, temporada_nome, r
                 if href not in links_jogos:
                     links_jogos.append(href)
             
-            log.info(f"Encontrados {len(links_jogos)} jogos na rodada.")
+            log.info(f"Encontrados {len(links_jogos)} jogos carregados na tela.")
 
             dados_rodada = []
             for url_match in links_jogos:
                 log.info(f"   Lendo jogo: {url_match}")
+                # Passamos o texto do dropdown como fallback, mas o data.py vai priorizar o que ler na página
                 res = dt.raspar_detalhes_confronto(driver, url_match, rodada_nome=f"Rodada {rodada_texto}")
                 if res:
                     res['Liga'] = nome_liga_config

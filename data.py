@@ -398,13 +398,21 @@ def raspar_detalhes_confronto(driver, url_confronto, rodada_nome=None):
         
         soup = BeautifulSoup(driver.page_source, "html.parser")
 
-        # 1. Verificar Status da Partida (Ignorar se não estiver finalizada)
+        # 1. Verificar Status da Partida
         status_elem = soup.select_one("p.match-detail__status")
         status_text = status_elem.get_text(strip=True).upper() if status_elem else ""
         
-        # O site usa "MATCH REPORT" para jogos finalizados
-        if "MATCH REPORT" not in status_text and "ENCERRADO" not in status_text and "FINALIZADO" not in status_text:
-            log.warning(f"Jogo ignorado (Não finalizado): {url_confronto} - Status: {status_text}")
+        # Placar Final (FT) - Extraído cedo para ajudar na validação
+        score_elem = soup.select_one(".match-detail__score")
+        placar_ft_text = score_elem.get_text(strip=True) if score_elem else "0-0"
+        
+        # O site usa "MATCH REPORT" para jogos com estatísticas completas.
+        # Mas aceitamos também se houver um placar válido (ex: "2-1") e não for apenas um horário.
+        has_score = "-" in placar_ft_text and any(c.isdigit() for c in placar_ft_text)
+        is_finished = any(x in status_text for x in ["MATCH REPORT", "ENCERRADO", "FINALIZADO"])
+        
+        if not is_finished and not has_score:
+            log.warning(f"Jogo ignorado (Não finalizado ou sem placar): {url_confronto} - Status: {status_text}")
             return None
         
         # 2. Cabeçalho e Data
@@ -419,6 +427,11 @@ def raspar_detalhes_confronto(driver, url_confronto, rodada_nome=None):
             data_hora_texto = partes[0]
         else:
             data_hora_texto = data_bruta
+
+        # Priorizar a rodada extraída do cabeçalho (ex: "1.Rodada") sobre o parâmetro passado
+        if rodada_extraida != "N/A":
+            num_r = rodada_extraida.split('.')[0] if '.' in rodada_extraida else rodada_extraida
+            rodada_nome = f"Rodada {num_r}" if num_r.isdigit() else rodada_extraida
 
         # Normalizar data para YYYY-MM-DD (RedScore usa MM/DD/YY)
         data_iso = None
@@ -449,9 +462,7 @@ def raspar_detalhes_confronto(driver, url_confronto, rodada_nome=None):
             home = home_elem.get_text(strip=True)
             away = away_elem.get_text(strip=True)
         
-        # 4. Placar Final (FT)
-        score_elem = soup.select_one(".match-detail__score")
-        placar_ft_text = score_elem.get_text(strip=True) if score_elem else "0-0"
+        # 4. Processar Placar FT extraído anteriormente
         try:
             if "-" in placar_ft_text:
                 partes_ft = placar_ft_text.split("-")
