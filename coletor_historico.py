@@ -25,7 +25,7 @@ logging.basicConfig(
 log = logging.getLogger("historico")
 
 NOME_DB_HISTORICO = "dados_historicos.db"
-LIMITE_RODADAS = 3  # Defina um número (ex: 5) para limitar, ou None para coletar todas
+LIMITE_RODADAS = None  # Defina um número (ex: 5) para limitar, ou None para coletar todas
 
 def inicializar_banco_historico():
     with sqlite3.connect(NOME_DB_HISTORICO) as conn:
@@ -105,21 +105,48 @@ def coletar_liga_historica(driver, url_liga, nome_liga_config, temporada_nome, r
                 driver.execute_script("arguments[0].click();", btn_semana)
                 time.sleep(2)
 
-            # Re-localizar o dropdown para evitar erro de elemento obsoleto
+            # 1. Garantir que a Temporada está correta (o site às vezes reseta ao mudar de aba)
+            try:
+                # Procura o dropdown de temporada. Geralmente tem o texto da temporada selecionada.
+                dropdowns = driver.find_elements(By.CSS_SELECTOR, "select.xcfgSettingsSel")
+                for dd_elem in dropdowns:
+                    dd = Select(dd_elem)
+                    try:
+                        texto_selecionado = dd.first_selected_option.text
+                        if temporada_nome not in texto_selecionado:
+                            log.info(f"Temporada resetou para '{texto_selecionado}'. Re-selecionando {temporada_nome}...")
+                            for opt in dd.options:
+                                if temporada_nome in opt.text:
+                                    dd.select_by_visible_text(opt.text)
+                                    time.sleep(5)
+                                    # Após mudar temporada, precisa re-clicar nas abas
+                                    btn_jogos = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Jogos')]")))
+                                    driver.execute_script("arguments[0].click();", btn_jogos)
+                                    time.sleep(2)
+                                    btn_semana = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Por semana de jogo')]")))
+                                    driver.execute_script("arguments[0].click();", btn_semana)
+                                    time.sleep(2)
+                                    break
+                            break
+                    except:
+                        continue
+            except Exception as e:
+                log.debug(f"Aviso ao verificar temporada: {e}")
+
+            # 2. Re-localizar o dropdown de rodadas
             dropdown_elem = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'select.xcfgSettings.xcfgSettingsSel')))
             dropdown = Select(dropdown_elem)
             rodada_texto = dropdown.options[i].text
             log.info(f"-> Processando: {rodada_texto} ({i+1}/{total_rodadas})")
             
             dropdown.select_by_index(i)
-            time.sleep(3) # Espera carregar os jogos da rodada
+            time.sleep(5) # Espera carregar os jogos da rodada
 
-            # 4. Listar links dos jogos
+            # 3. Listar links dos jogos
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             links_jogos = []
-            # Seleciona apenas links dentro da tabela de jogos da rodada
             for a in soup.select('table.table-data__table a[href*="/pt-br/match/"]'):
-                href = a['href'].split('#')[0] # Remove fragmento/ID único do link
+                href = a['href'].split('#')[0]
                 if not href.startswith("http"):
                     href = "https://redscores.com" + href
                 if href not in links_jogos:
@@ -130,20 +157,10 @@ def coletar_liga_historica(driver, url_liga, nome_liga_config, temporada_nome, r
             dados_rodada = []
             for url_match in links_jogos:
                 log.info(f"   Lendo jogo: {url_match}")
-                res = dt.raspar_detalhes_confronto(driver, url_match)
+                res = dt.raspar_detalhes_confronto(driver, url_match, rodada_nome=f"Rodada {rodada_texto}")
                 if res:
-                    # Adicionar metadados da liga e temporada
                     res['Liga'] = nome_liga_config
                     res['Temporada'] = temporada_nome
-                    # Se a rodada extraída for N/A, usamos o texto do dropdown
-                    if res['Rodada'] == "N/A":
-                        num = rodada_texto.split('.')[0] if '.' in rodada_texto else rodada_texto
-                        res['Rodada'] = f"Rodada {num}"
-                    
-                    # Garantir que Rodada siga o padrão "Rodada X"
-                    if isinstance(res['Rodada'], str) and not res['Rodada'].startswith("Rodada"):
-                        num = res['Rodada'].split('.')[0] if '.' in res['Rodada'] else res['Rodada']
-                        res['Rodada'] = f"Rodada {num}"
                     
                     # Preparar para o DataFrame (ajustando nomes de colunas do banco)
                     # O banco espera: Data, Home, Away, Liga, Temporada, Rodada, H_Gols_FT, ...

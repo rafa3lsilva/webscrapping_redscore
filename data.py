@@ -384,7 +384,7 @@ def processar_dados_raspados(lista_de_jogos):
 
 # ==========================
 # Raspar detalhes do confronto
-def raspar_detalhes_confronto(driver, url_confronto):
+def raspar_detalhes_confronto(driver, url_confronto, rodada_nome=None):
     """
     Raspa as estatísticas de um jogo específico acessando sua página detalhada.
     Retorna um dicionário com os dados do jogo.
@@ -397,13 +397,22 @@ def raspar_detalhes_confronto(driver, url_confronto):
         wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".match-detail__header")))
         
         soup = BeautifulSoup(driver.page_source, "html.parser")
+
+        # 1. Verificar Status da Partida (Ignorar se não estiver finalizada)
+        status_elem = soup.select_one("p.match-detail__status")
+        status_text = status_elem.get_text(strip=True).upper() if status_elem else ""
         
-        # 1. Cabeçalho
+        # O site usa "MATCH REPORT" para jogos finalizados
+        if "MATCH REPORT" not in status_text and "ENCERRADO" not in status_text and "FINALIZADO" not in status_text:
+            log.warning(f"Jogo ignorado (Não finalizado): {url_confronto} - Status: {status_text}")
+            return None
+        
+        # 2. Cabeçalho e Data
         header_p = soup.select_one(".match-detail__header p")
-        data_bruta = header_p.get_text(strip=True) if header_p else "01/01/70 00:00"
+        data_bruta = header_p.get_text(strip=True) if header_p else ""
         
-        # Exemplo: "08/16/25 16:00 - 20.Rodada"
         rodada_extraida = "N/A"
+        data_hora_texto = ""
         if "-" in data_bruta:
             partes = [p.strip() for p in data_bruta.split("-")]
             rodada_extraida = partes[1] if len(partes) > 1 else "N/A"
@@ -411,100 +420,137 @@ def raspar_detalhes_confronto(driver, url_confronto):
         else:
             data_hora_texto = data_bruta
 
-        # Normalizar data para YYYY-MM-DD
+        # Normalizar data para YYYY-MM-DD (RedScore usa MM/DD/YY)
+        data_iso = None
         try:
-            # No snapshot estava "08/16/25 16:00". Formato: MM/DD/YY
-            # Vamos tentar extrair o dia, mês e ano de forma mais segura
-            partes_data = data_hora_texto.split()[0].split('/')
-            if len(partes_data) == 3:
-                m, d, y = partes_data
-                # Se d > 12, então m é mês. Se m > 12, então d é mês.
-                # No RedScore costuma ser MM/DD/YY
-                data_iso = f"20{y}-{m.zfill(2)}-{d.zfill(2)}"
-            else:
-                data_iso = date.today().strftime("%Y-%m-%d")
-        except:
+            if data_hora_texto:
+                partes_espaco = data_hora_texto.split()
+                if partes_espaco:
+                    partes_data = partes_espaco[0].split('/')
+                    if len(partes_data) == 3:
+                        m, d, y = partes_data
+                        ano_completo = f"20{y}" if len(y) == 2 else y
+                        data_iso = f"{ano_completo}-{m.zfill(2)}-{d.zfill(2)}"
+        except Exception as e:
+            log.warning(f"Falha ao processar data '{data_hora_texto}': {e}")
+        
+        if not data_iso:
             data_iso = date.today().strftime("%Y-%m-%d")
 
-        times = soup.select(".match-detail__name a")
-        home = times[0].get_text(strip=True) if len(times) > 0 else "Desconhecido"
-        away = times[1].get_text(strip=True) if len(times) > 1 else "Desconhecido"
+        # 3. Times (Garantir ordem Home/Away)
+        home_elem = soup.select_one(".match-detail__team--home .match-detail__name a")
+        away_elem = soup.select_one(".match-detail__team--away .match-detail__name a")
         
+        if not home_elem or not away_elem:
+            times = soup.select(".match-detail__name a")
+            home = times[0].get_text(strip=True) if len(times) > 0 else "Desconhecido"
+            away = times[1].get_text(strip=True) if len(times) > 1 else "Desconhecido"
+        else:
+            home = home_elem.get_text(strip=True)
+            away = away_elem.get_text(strip=True)
+        
+        # 4. Placar Final (FT)
         score_elem = soup.select_one(".match-detail__score")
-        placar_ft = score_elem.get_text(strip=True).replace(" ", "") if score_elem else "0-0"
+        placar_ft_text = score_elem.get_text(strip=True) if score_elem else "0-0"
+        try:
+            if "-" in placar_ft_text:
+                partes_ft = placar_ft_text.split("-")
+                h_gols_ft = int(partes_ft[0].strip())
+                a_gols_ft = int(partes_ft[1].strip())
+            else:
+                h_gols_ft, a_gols_ft = 0, 0
+        except:
+            h_gols_ft, a_gols_ft = 0, 0
 
-        # 2. HT Score (Pode estar no resumo)
+        # 5. HT Score
         placar_ht = "0-0"
-        # O snapshot não mostrou HT explicitamente no cabeçalho, mas costuma estar em .match-summary__score--ht
-        resumo_ht = soup.select_one(".match-summary__score--ht")
-        if resumo_ht:
-            placar_ht = resumo_ht.get_text(strip=True).replace("(", "").replace(")", "")
+        ht_elem = soup.select_one("td.half-time span, .match-summary__score--ht")
+        if ht_elem:
+            placar_ht = ht_elem.get_text(strip=True).upper().replace("HT", "").replace("(", "").replace(")", "").replace(" ", "")
+        else:
+            resumo_texto = soup.select_one(".match-summary")
+            if resumo_texto and "(" in resumo_texto.get_text():
+                import re
+                match_ht = re.search(r"\((\d+-\d+)\)", resumo_texto.get_text())
+                if match_ht:
+                    placar_ht = match_ht.group(1)
 
-        # 3. Estatísticas (stats-ranking-item)
-        stats = {
-            "Total de chutes": "0-0", "Chutes a gol": "0-0", "Ataques": "0-0", 
-            "Ataques Perigosos": "0-0", "Escanteios": "0-0"
+        # 6. Estatísticas
+        final_stats = {
+            "Total de chutes": "0-0",
+            "Chutes a gol": "0-0",
+            "Ataques": "0-0",
+            "Escanteios": "0-0"
         }
-        
-        linhas_stats = soup.select(".stats-ranking-item")
-        for linha in linhas_stats:
-            # O label é o texto direto do nó pai
-            label = linha.find(text=True, recursive=False)
-            if not label: continue
-            label = label.strip()
+
+        elementos_stats = soup.select(".stats-ranking-item, div.col-4.text-center")
+        for elem in elementos_stats:
+            label_elem = elem.select_one(".progress-title") or elem.find(string=True, recursive=False)
+            if not label_elem: continue
             
-            val_h_elem = linha.select_one(".progress-bar__value_left")
-            val_a_elem = linha.select_one(".progress-bar__value_right")
+            label = label_elem.get_text(strip=True) if hasattr(label_elem, "get_text") else str(label_elem).strip()
+            val_h_elem = elem.select_one(".progress-bar__value_left, .progress-value-left")
+            val_a_elem = elem.select_one(".progress-bar__value_right, .progress-value-right")
             
             if val_h_elem and val_a_elem:
-                val_h = val_h_elem.get_text(strip=True)
-                val_a = val_a_elem.get_text(strip=True)
-                if label in stats:
-                    stats[label] = f"{val_h}-{val_a}"
+                val_h = val_h_elem.get_text(strip=True).replace("%", "")
+                val_a = val_a_elem.get_text(strip=True).replace("%", "")
+                valor = f"{val_h}-{val_a}"
+                
+                l_low = label.lower()
+                if "chute" in l_low or "shot" in l_low:
+                    if "gol" in l_low or "on goal" in l_low: final_stats["Chutes a gol"] = valor
+                    else: final_stats["Total de chutes"] = valor
+                elif "ataque" in l_low or "attack" in l_low: final_stats["Ataques"] = valor
+                elif "escanteio" in l_low or "corner" in l_low: final_stats["Escanteios"] = valor
 
-        # Normalizar rodada para o padrão "Rodada X"
-        num_rodada = rodada_extraida.split('.')[0] if '.' in rodada_extraida else rodada_extraida
-        rodada_formatada = f"Rodada {num_rodada}" if num_rodada.isdigit() else num_rodada
+        # Normalizar rodada
+        if not rodada_nome:
+            num_rodada = rodada_extraida.split('.')[0] if '.' in rodada_extraida else rodada_extraida
+            rodada_nome = f"Rodada {num_rodada}" if num_rodada.isdigit() else num_rodada
         
-        # 4. Odds (Aba Odds)
+        # 5. Odds (Aba Odds)
         odd_h, odd_d, odd_a = None, None, None
         try:
-            # No snapshot as odds já estavam no HTML (id="snippet--odds")
-            # Mas vamos garantir clicando se não encontrar na primeira
             tabela_odds = soup.select_one("table.table-data__table--odds")
             if not tabela_odds:
-                btn_odds = driver.find_element(By.XPATH, "//a[contains(text(), 'Odds')]")
-                driver.execute_script("arguments[0].click();", btn_odds)
-                time.sleep(2)
-                soup = BeautifulSoup(driver.page_source, "html.parser")
-                tabela_odds = soup.select_one("table.table-data__table--odds")
-
+                # Tenta clicar na aba Odds se não estiver visível
+                try:
+                    btn_odds = wait.until(EC.element_to_be_clickable((By.XPATH, "//a[contains(text(), 'Odds')]")))
+                    driver.execute_script("arguments[0].click();", btn_odds)
+                    time.sleep(1)
+                    soup = BeautifulSoup(driver.page_source, "html.parser")
+                    tabela_odds = soup.select_one("table.table-data__table--odds")
+                except:
+                    pass
+            
             if tabela_odds:
                 linhas = tabela_odds.select("tbody tr")
                 for r in linhas:
                     header_linha = r.select_one("th")
-                    if header_linha and "antes do jogo" in header_linha.get_text().lower():
+                    if header_linha and ("antes do jogo" in header_linha.get_text().lower() or "closing" in header_linha.get_text().lower()):
                         celulas = r.select("td")
                         if len(celulas) >= 3:
-                            # Limpar possíveis ícones de seta
-                            odd_h = float(celulas[0].get_text(strip=True).replace("↑", "").replace("↓", ""))
-                            odd_d = float(celulas[1].get_text(strip=True).replace("↑", "").replace("↓", ""))
-                            odd_a = float(celulas[2].get_text(strip=True).replace("↑", "").replace("↓", ""))
-                        break
+                            def _limpar_odd(txt):
+                                return float(txt.replace("↑", "").replace("↓", "").strip())
+                            odd_h = _limpar_odd(celulas[0].get_text())
+                            odd_d = _limpar_odd(celulas[1].get_text())
+                            odd_a = _limpar_odd(celulas[2].get_text())
+                            break
         except Exception as e:
-            log.warning(f"Não foi possível obter odds para {home} vs {away}: {e}")
+            log.debug(f"Odds não encontradas para {home} vs {away}: {e}")
 
         return {
             "Data": data_iso,
             "Home": home,
             "Away": away,
-            "Rodada": rodada_formatada,
-            "Placar_FT": placar_ft,
+            "Rodada": rodada_nome,
+            "Placar_FT": f"{h_gols_ft}-{a_gols_ft}",
             "Placar_HT": placar_ht,
-            "Chutes": stats["Total de chutes"],
-            "Chutes_Gol": stats["Chutes a gol"],
-            "Ataques": stats["Ataques"],
-            "Escanteios": stats["Escanteios"],
+            "Chutes": final_stats["Total de chutes"],
+            "Chutes_Gol": final_stats["Chutes a gol"],
+            "Ataques": final_stats["Ataques"],
+            "Escanteios": final_stats["Escanteios"],
             "Odd_H": odd_h,
             "Odd_D": odd_d,
             "Odd_A": odd_a
