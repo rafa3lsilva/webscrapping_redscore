@@ -79,4 +79,22 @@ LIGAS_PERMITIDAS = {
     "Venezuela - Primera Division",
 }
 
+
 LIMITE_JOGOS_POR_TIME = 50
+
+# Dicionário para o Coletor Histórico
+LIGAS_HISTORICO = {
+    "Brasil - Serie A": {
+        "url": "https://redscores.com/pt-br/league/brazil/serie-a/648",
+        "temporadas": {
+            "2026": "https://redscores.com/pt-br/league/brazil/serie-a/648",
+            "2025": "https://redscores.com/pt-br/league/brazil/serie-a/648?season=25184"
+        }
+    },
+    "China - Super League": {
+        "url": "https://redscores.com/pt-br/league/china-pr/super-league/989",
+        "temporadas": {
+            "2026": "https://redscores.com/pt-br/league/china-pr/super-league/989"
+        }
+    }
+}

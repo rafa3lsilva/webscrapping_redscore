@@ -48716,3 +48716,38 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.
 2026-05-05 13:02:02,314 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (21 linhas).
 2026-05-05 13:02:02,492 [INFO] __main__: Exportado histórico para dados_redscore.csv (22847 linhas)
 2026-05-05 13:02:02,897 [INFO] __main__: --- Rotina concluída em 191.66s ---
+2026-05-05 23:38:53,444 [INFO] __main__: Coletor iniciado
+2026-05-05 23:38:53,444 [INFO] __main__: --- Rotina diária iniciada ---
+2026-05-05 23:39:19,363 [INFO] coletor.data: [ODDS] Odds para Wuhan Three Towns vs Qingdao Hainiu: 2.25, 3.4, 3.0
+2026-05-05 23:39:19,363 [INFO] coletor.data: [ODDS] Odds para Shanghai Port vs Shenzhen Peng City: 1.61, 4.33, 4.75
+2026-05-05 23:39:19,363 [INFO] coletor.data: [ODDS] Odds para Beijing Guoan vs Dalian Zhixing: 1.6, 4.33, 4.75
+2026-05-05 23:39:19,363 [INFO] coletor.data: [ODDS] Odds para Yunnan Yukun vs Zhejiang: 2.2, 3.7, 2.9
+2026-05-05 23:39:19,364 [INFO] coletor.data: [ODDS] Odds para Chippa United vs Sekhukhune United: 3.3, 2.87, 2.25
+2026-05-05 23:39:19,364 [INFO] coletor.data: [ODDS] Odds para AmaZulu vs Golden Arrows: 2.15, 3.0, 3.3
+2026-05-05 23:39:19,364 [INFO] coletor.data: [ODDS] Odds para Marumo Gallants FC vs TS Galaxy: 2.35, 3.0, 3.0
+2026-05-05 23:39:19,364 [INFO] coletor.data: [ODDS] Odds para Richards Bay vs Polokwane City: 2.25, 2.7, 3.25
+2026-05-05 23:39:19,365 [INFO] coletor.data: [ODDS] Odds para Mamelodi Sundowns vs Kaizer Chiefs: 1.48, 3.5, 6.5
+2026-05-05 23:39:19,365 [INFO] coletor.data: [ODDS] Odds para Dinamo Tirana vs Vora: 3.6, 3.6, 1.8
+2026-05-05 23:39:19,365 [WARNING] coletor.data: [ODDS] Odds não encontradas para Egnatia Rrogozhinë vs Partizani Tirana. Motivo: could not convert string to float: '-'
+2026-05-05 23:39:19,365 [INFO] coletor.data: [ODDS] Odds para Flamurtari vs Teuta Durrës: 1.36, 4.1, 7.0
+2026-05-05 23:39:19,365 [WARNING] coletor.data: [ODDS] Odds não encontradas para Tirana vs Vllaznia Shkodër. Motivo: could not convert string to float: '-'
+2026-05-05 23:39:19,366 [WARNING] coletor.data: [ODDS] Odds não encontradas para Bylis Ballsh vs AF Elbasani. Motivo: could not convert string to float: '-'
+2026-05-05 23:39:19,366 [INFO] coletor.data: [ODDS] Odds para Al Ahli vs Al Fateh: 1.33, 4.75, 7.0
+2026-05-05 23:39:19,366 [WARNING] coletor.data: [ODDS] Odds não encontradas para Ben Aknoun vs USM Alger. Motivo: could not convert string to float: '-'
+2026-05-05 23:39:19,366 [INFO] coletor.data: [ODDS] Odds para Ararat-Armenia vs Pyunik: 1.85, 3.25, 3.7
+2026-05-05 23:39:19,367 [INFO] coletor.data: [ODDS] Odds para Gandzasar vs Noah: 7.5, 4.5, 1.3
+2026-05-05 23:39:19,367 [INFO] coletor.data: [ODDS] Odds para Slavia Sofia vs Septemvri Sofia: 2.62, 3.4, 2.55
+2026-05-05 23:39:19,367 [INFO] coletor.data: [ODDS] Odds para Spartak Varna vs Dobrudzha 1919: 3.3, 3.1, 2.3
+2026-05-05 23:39:19,367 [INFO] coletor.data: [ODDS] Odds para Dungannon Swifts vs Carrick Rangers: 2.9, 3.5, 2.05
+2026-05-05 23:39:19,367 [INFO] coletor.data: [ODDS] Odds para Hapoel Tel Aviv vs Beitar Jerusalem: 2.9, 3.5, 2.05
+2026-05-05 23:39:19,368 [INFO] coletor.data: [ODDS] Odds para Maccabi Haifa vs Hapoel Be'er Sheva: 4.1, 3.9, 1.61
+2026-05-05 23:39:19,368 [INFO] coletor.data: [ODDS] Odds para Hegelmann Litauen vs Panevėžys: 2.3, 3.3, 2.7
+2026-05-05 23:39:19,368 [INFO] coletor.data: [ODDS] Odds para Žalgiris vs FA Šiauliai: 1.38, 4.75, 5.5
+2026-05-05 23:39:19,368 [INFO] coletor.data: [ODDS] Odds para TransINVEST Vilnius vs Sūduva: 2.1, 3.1, 3.0
+2026-05-05 23:39:19,369 [INFO] coletor.data: [ODDS] Odds para Egersund vs Raufoss: 1.48, 4.5, 5.5
+2026-05-05 23:39:19,369 [INFO] coletor.data: [AGENDA] Válidos=27, Incompletos=0, Filtrados=154, Duplicados=0
+2026-05-05 23:39:19,369 [INFO] __main__: [TEMPO] Fase 1 concluída em 4.27s
+2026-05-05 23:39:19,378 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-05-06.csv (27 linhas).
+2026-05-05 23:39:26,787 [WARNING] urllib3.connectionpool: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b2a710ec0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34d66282-4e36-4c18-8c64-b07756f1e824
+2026-05-05 23:39:26,788 [WARNING] urllib3.connectionpool: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b28e7a990>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34d66282-4e36-4c18-8c64-b07756f1e824
+2026-05-05 23:39:26,788 [WARNING] urllib3.connectionpool: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6b027602d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/34d66282-4e36-4c18-8c64-b07756f1e824

@@ -380,3 +380,136 @@ def processar_dados_raspados(lista_de_jogos):
             log.warning(f"[VALIDAÇÃO] {len(sem_odds)} jogos sem odds válidas (serão salvos com NULL).")
 
     return df
+
+
+# ==========================
+# Raspar detalhes do confronto
+def raspar_detalhes_confronto(driver, url_confronto):
+    """
+    Raspa as estatísticas de um jogo específico acessando sua página detalhada.
+    Retorna um dicionário com os dados do jogo.
+    """
+    try:
+        driver.get(url_confronto)
+        wait = WebDriverWait(driver, 10)
+        
+        # Espera carregar o cabeçalho
+        wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, ".match-detail__header")))
+        
+        soup = BeautifulSoup(driver.page_source, "html.parser")
+        
+        # 1. Cabeçalho
+        header_p = soup.select_one(".match-detail__header p")
+        data_bruta = header_p.get_text(strip=True) if header_p else "01/01/70 00:00"
+        
+        # Exemplo: "08/16/25 16:00 - 20.Rodada"
+        rodada_extraida = "N/A"
+        if "-" in data_bruta:
+            partes = [p.strip() for p in data_bruta.split("-")]
+            rodada_extraida = partes[1] if len(partes) > 1 else "N/A"
+            data_hora_texto = partes[0]
+        else:
+            data_hora_texto = data_bruta
+
+        # Normalizar data para YYYY-MM-DD
+        try:
+            # No snapshot estava "08/16/25 16:00". Formato: MM/DD/YY
+            # Vamos tentar extrair o dia, mês e ano de forma mais segura
+            partes_data = data_hora_texto.split()[0].split('/')
+            if len(partes_data) == 3:
+                m, d, y = partes_data
+                # Se d > 12, então m é mês. Se m > 12, então d é mês.
+                # No RedScore costuma ser MM/DD/YY
+                data_iso = f"20{y}-{m.zfill(2)}-{d.zfill(2)}"
+            else:
+                data_iso = date.today().strftime("%Y-%m-%d")
+        except:
+            data_iso = date.today().strftime("%Y-%m-%d")
+
+        times = soup.select(".match-detail__name a")
+        home = times[0].get_text(strip=True) if len(times) > 0 else "Desconhecido"
+        away = times[1].get_text(strip=True) if len(times) > 1 else "Desconhecido"
+        
+        score_elem = soup.select_one(".match-detail__score")
+        placar_ft = score_elem.get_text(strip=True).replace(" ", "") if score_elem else "0-0"
+
+        # 2. HT Score (Pode estar no resumo)
+        placar_ht = "0-0"
+        # O snapshot não mostrou HT explicitamente no cabeçalho, mas costuma estar em .match-summary__score--ht
+        resumo_ht = soup.select_one(".match-summary__score--ht")
+        if resumo_ht:
+            placar_ht = resumo_ht.get_text(strip=True).replace("(", "").replace(")", "")
+
+        # 3. Estatísticas (stats-ranking-item)
+        stats = {
+            "Total de chutes": "0-0", "Chutes a gol": "0-0", "Ataques": "0-0", 
+            "Ataques Perigosos": "0-0", "Escanteios": "0-0"
+        }
+        
+        linhas_stats = soup.select(".stats-ranking-item")
+        for linha in linhas_stats:
+            # O label é o texto direto do nó pai
+            label = linha.find(text=True, recursive=False)
+            if not label: continue
+            label = label.strip()
+            
+            val_h_elem = linha.select_one(".progress-bar__value_left")
+            val_a_elem = linha.select_one(".progress-bar__value_right")
+            
+            if val_h_elem and val_a_elem:
+                val_h = val_h_elem.get_text(strip=True)
+                val_a = val_a_elem.get_text(strip=True)
+                if label in stats:
+                    stats[label] = f"{val_h}-{val_a}"
+
+        # Normalizar rodada para o padrão "Rodada X"
+        num_rodada = rodada_extraida.split('.')[0] if '.' in rodada_extraida else rodada_extraida
+        rodada_formatada = f"Rodada {num_rodada}" if num_rodada.isdigit() else num_rodada
+        
+        # 4. Odds (Aba Odds)
+        odd_h, odd_d, odd_a = None, None, None
+        try:
+            # No snapshot as odds já estavam no HTML (id="snippet--odds")
+            # Mas vamos garantir clicando se não encontrar na primeira
+            tabela_odds = soup.select_one("table.table-data__table--odds")
+            if not tabela_odds:
+                btn_odds = driver.find_element(By.XPATH, "//a[contains(text(), 'Odds')]")
+                driver.execute_script("arguments[0].click();", btn_odds)
+                time.sleep(2)
+                soup = BeautifulSoup(driver.page_source, "html.parser")
+                tabela_odds = soup.select_one("table.table-data__table--odds")
+
+            if tabela_odds:
+                linhas = tabela_odds.select("tbody tr")
+                for r in linhas:
+                    header_linha = r.select_one("th")
+                    if header_linha and "antes do jogo" in header_linha.get_text().lower():
+                        celulas = r.select("td")
+                        if len(celulas) >= 3:
+                            # Limpar possíveis ícones de seta
+                            odd_h = float(celulas[0].get_text(strip=True).replace("↑", "").replace("↓", ""))
+                            odd_d = float(celulas[1].get_text(strip=True).replace("↑", "").replace("↓", ""))
+                            odd_a = float(celulas[2].get_text(strip=True).replace("↑", "").replace("↓", ""))
+                        break
+        except Exception as e:
+            log.warning(f"Não foi possível obter odds para {home} vs {away}: {e}")
+
+        return {
+            "Data": data_iso,
+            "Home": home,
+            "Away": away,
+            "Rodada": rodada_formatada,
+            "Placar_FT": placar_ft,
+            "Placar_HT": placar_ht,
+            "Chutes": stats["Total de chutes"],
+            "Chutes_Gol": stats["Chutes a gol"],
+            "Ataques": stats["Ataques"],
+            "Escanteios": stats["Escanteios"],
+            "Odd_H": odd_h,
+            "Odd_D": odd_d,
+            "Odd_A": odd_a
+        }
+
+    except Exception as e:
+        log.error(f"Erro ao raspar detalhes do confronto {url_confronto}: {e}")
+        return None
