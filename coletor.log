@@ -48770,3 +48770,83 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.
 2026-05-06 12:34:59,315 [INFO] __main__: Exportado histórico para dados_redscore.csv (22854 linhas)
 2026-05-06 12:34:59,387 [INFO] __main__: Limpeza concluída: 593 arquivos antigos removidos.
 2026-05-06 12:35:00,156 [INFO] __main__: --- Rotina concluída em 84.06s ---
+2026-05-07 12:27:45,715 [INFO] __main__: Coletor iniciado
+2026-05-07 12:27:45,716 [INFO] __main__: --- Rotina diária iniciada ---
+2026-05-07 12:28:09,112 [INFO] coletor.data: [ODDS] Odds para Levante vs Osasuna: 2.55, 3.25, 2.8
+2026-05-07 12:28:09,112 [INFO] coletor.data: [ODDS] Odds para Dortmund vs Frankfurt: 1.48, 5.0, 5.5
+2026-05-07 12:28:09,112 [INFO] coletor.data: [ODDS] Odds para Torino vs Sassuolo: 2.5, 3.2, 2.9
+2026-05-07 12:28:09,112 [INFO] coletor.data: [ODDS] Odds para Lens vs Nantes: 1.4, 4.75, 7.5
+2026-05-07 12:28:09,113 [INFO] coletor.data: [ODDS] Odds para St. Liège vs OH Leuven: 2.15, 3.3, 3.25
+2026-05-07 12:28:09,113 [INFO] coletor.data: [ODDS] Odds para Hull vs Millwall: 3.0, 3.25, 2.37
+2026-05-07 12:28:09,113 [INFO] coletor.data: [ODDS] Odds para Cádiz vs Deportivo La Coruña: 3.7, 3.5, 1.95
+2026-05-07 12:28:09,113 [INFO] coletor.data: [ODDS] Odds para Catanzaro vs Bari 1908: 2.8, 3.1, 2.55
+2026-05-07 12:28:09,114 [INFO] coletor.data: [ODDS] Odds para Virtus Entella vs Carrarese: 1.6, 4.0, 5.25
+2026-05-07 12:28:09,114 [INFO] coletor.data: [ODDS] Odds para Pescara vs Spezia: 2.15, 3.6, 3.2
+2026-05-07 12:28:09,114 [INFO] coletor.data: [ODDS] Odds para Cesena vs Calcio Padova: 1.5, 4.75, 5.25
+2026-05-07 12:28:09,114 [INFO] coletor.data: [ODDS] Odds para Avellino vs Modena: 1.65, 3.75, 5.25
+2026-05-07 12:28:09,114 [INFO] coletor.data: [ODDS] Odds para Südtirol vs Juve Stabia: 1.5, 4.2, 6.0
+2026-05-07 12:28:09,115 [INFO] coletor.data: [ODDS] Odds para Venezia vs Palermo: 1.65, 4.2, 4.5
+2026-05-07 12:28:09,115 [INFO] coletor.data: [ODDS] Odds para Reggiana vs Sampdoria: 3.6, 3.2, 2.1
+2026-05-07 12:28:09,115 [INFO] coletor.data: [ODDS] Odds para Monza vs Empoli: 1.61, 4.0, 4.5
+2026-05-07 12:28:09,115 [INFO] coletor.data: [ODDS] Odds para Frosinone vs Mantova: 1.61, 4.2, 4.75
+2026-05-07 12:28:09,115 [INFO] coletor.data: [ODDS] Odds para Paderborn vs Karlsruher: 1.4, 5.5, 6.0
+2026-05-07 12:28:09,116 [INFO] coletor.data: [ODDS] Odds para Kaiserslautern vs Bielefeld: 3.0, 3.5, 2.2
+2026-05-07 12:28:09,116 [INFO] coletor.data: [ODDS] Odds para Viborg vs SønderjyskE: 1.8, 4.1, 3.75
+2026-05-07 12:28:09,116 [INFO] coletor.data: [ODDS] Odds para HamKam vs Vålerenga: 2.6, 3.6, 2.5
+2026-05-07 12:28:09,116 [INFO] coletor.data: [ODDS] Odds para Elfsborg vs Brommapojkarna: 2.05, 3.4, 3.6
+2026-05-07 12:28:09,117 [INFO] coletor.data: [ODDS] Odds para TPS vs HJK: 4.5, 3.9, 1.66
+2026-05-07 12:28:09,117 [INFO] coletor.data: [ODDS] Odds para Ilves vs Oulu: 2.55, 3.3, 2.5
+2026-05-07 12:28:09,117 [INFO] coletor.data: [ODDS] Odds para KuPS vs SJK: 1.55, 4.0, 5.25
+2026-05-07 12:28:09,117 [INFO] coletor.data: [ODDS] Odds para Durban City vs Stellenbosch: 2.62, 2.75, 2.62
+2026-05-07 12:28:09,117 [INFO] coletor.data: [ODDS] Odds para Aue vs MSV Duisburg: 4.75, 4.33, 1.48
+2026-05-07 12:28:09,118 [INFO] coletor.data: [ODDS] Odds para USM Khenchela vs El Bayadh: 1.55, 3.4, 5.75
+2026-05-07 12:28:09,118 [INFO] coletor.data: [ODDS] Odds para Oued Akbou vs CR Belouizdad: 3.1, 2.8, 2.3
+2026-05-07 12:28:09,118 [INFO] coletor.data: [ODDS] Odds para JS Kabylie vs ES Sétif: 1.6, 3.3, 5.25
+2026-05-07 12:28:09,118 [INFO] coletor.data: [ODDS] Odds para MC Alger vs MB Rouisset: 1.28, 4.33, 9.0
+2026-05-07 12:28:09,118 [WARNING] coletor.data: [ODDS] Odds não encontradas para Van vs Shirak. Motivo: could not convert string to float: '-'
+2026-05-07 12:28:09,119 [INFO] coletor.data: [ODDS] Odds para Nacional Potosí vs Aurora: 1.72, 3.9, 4.2
+2026-05-07 12:28:09,119 [INFO] coletor.data: [ODDS] Odds para Lokomotiv Plovdiv vs Arda: 2.87, 3.2, 2.5
+2026-05-07 12:28:09,119 [INFO] coletor.data: [ODDS] Odds para CSKA 1948 Sofia vs CSKA Sofia: 3.1, 3.1, 2.3
+2026-05-07 12:28:09,119 [INFO] coletor.data: [ODDS] Odds para Rijeka vs Vukovar: 1.33, 4.2, 8.0
+2026-05-07 12:28:09,120 [INFO] coletor.data: [ODDS] Odds para Hobro vs B 93: 1.9, 3.75, 3.6
+2026-05-07 12:28:09,120 [INFO] coletor.data: [ODDS] Odds para AaB vs Middelfart: 1.3, 5.5, 8.0
+2026-05-07 12:28:09,120 [INFO] coletor.data: [ODDS] Odds para Petrojet vs Wadi Degla: 2.75, 2.87, 2.5
+2026-05-07 12:28:09,120 [INFO] coletor.data: [ODDS] Odds para Al Mokawloon vs El Gounah: 2.05, 2.7, 3.8
+2026-05-07 12:28:09,120 [INFO] coletor.data: [ODDS] Odds para Future FC vs Al Ittihad: 2.7, 2.62, 2.7
+2026-05-07 12:28:09,121 [INFO] coletor.data: [ODDS] Odds para Kahraba Ismailia vs Pharco: 2.8, 2.8, 2.45
+2026-05-07 12:28:09,121 [INFO] coletor.data: [ODDS] Odds para Orense vs Leones del Norte: 1.61, 3.4, 5.5
+2026-05-07 12:28:09,121 [WARNING] coletor.data: [ODDS] Odds não encontradas para Domžale vs Celje. Motivo: could not convert string to float: '-'
+2026-05-07 12:28:09,121 [INFO] coletor.data: [ODDS] Odds para Tammeka vs Kuressaare: 1.9, 3.6, 3.25
+2026-05-07 12:28:09,121 [INFO] coletor.data: [ODDS] Odds para Dundalk vs Bohemians: 2.6, 3.3, 2.5
+2026-05-07 12:28:09,122 [INFO] coletor.data: [ODDS] Odds para Drogheda United vs Derry City: 3.2, 3.1, 2.15
+2026-05-07 12:28:09,122 [INFO] coletor.data: [ODDS] Odds para Shelbourne vs Sligo Rovers: 1.5, 4.0, 5.75
+2026-05-07 12:28:09,122 [INFO] coletor.data: [ODDS] Odds para Galway United vs Shamrock Rovers: 3.8, 3.3, 1.9
+2026-05-07 12:28:09,122 [INFO] coletor.data: [ODDS] Odds para St Patrick's vs Waterford United: 1.2, 5.75, 10.0
+2026-05-07 12:28:09,122 [INFO] coletor.data: [ODDS] Odds para Víkingur Reykjavík vs Thór: 1.2, 6.0, 9.0
+2026-05-07 12:28:09,123 [INFO] coletor.data: [ODDS] Odds para Stjarnan vs KR: 3.25, 4.2, 1.75
+2026-05-07 12:28:09,123 [INFO] coletor.data: [ODDS] Odds para ÍA vs Keflavík: 1.66, 4.0, 3.75
+2026-05-07 12:28:09,123 [INFO] coletor.data: [ODDS] Odds para Breidablik vs FH: 1.53, 4.2, 4.5
+2026-05-07 12:28:09,123 [INFO] coletor.data: [ODDS] Odds para Fram vs Valur: 1.83, 3.9, 3.1
+2026-05-07 12:28:09,123 [INFO] coletor.data: [ODDS] Odds para Terengganu vs Imigresen: 1.5, 4.1, 5.0
+2026-05-07 12:28:09,124 [INFO] coletor.data: [ODDS] Odds para PDRM vs Pulau Pinang: 6.0, 5.0, 1.33
+2026-05-07 12:28:09,124 [INFO] coletor.data: [ODDS] Odds para Ranheim vs Kongsvinger: 2.75, 3.7, 2.25
+2026-05-07 12:28:09,124 [INFO] coletor.data: [ODDS] Odds para UTC Cajamarca vs FC Cajamarca: 2.15, 3.2, 3.3
+2026-05-07 12:28:09,124 [INFO] coletor.data: [ODDS] Odds para Raków Częstochowa vs Korona Kielce: 1.75, 3.5, 4.2
+2026-05-07 12:28:09,124 [INFO] coletor.data: [ODDS] Odds para Lech Poznań vs Arka Gdynia: 1.36, 4.75, 6.5
+2026-05-07 12:28:09,125 [INFO] coletor.data: [ODDS] Odds para UTA Arad vs Csikszereda: 1.9, 3.2, 3.9
+2026-05-07 12:28:09,125 [INFO] coletor.data: [ODDS] Odds para CFR Cluj vs Universitatea Craiova: 2.7, 3.1, 2.5
+2026-05-07 12:28:09,125 [INFO] coletor.data: [ODDS] Odds para Vojvodina vs Čukarički: 1.66, 3.8, 4.75
+2026-05-07 12:28:09,125 [INFO] coletor.data: [ODDS] Odds para Varberg BoIS vs Värnamo: 2.2, 3.25, 2.8
+2026-05-07 12:28:09,126 [INFO] coletor.data: [ODDS] Odds para Örebro vs Brage: 2.35, 3.3, 2.62
+2026-05-07 12:28:09,126 [INFO] coletor.data: [ODDS] Odds para Wanderers vs Liverpool: 3.3, 3.1, 2.0
+2026-05-07 12:28:09,126 [INFO] coletor.data: [ODDS] Odds para Metropolitanos vs Estudiantes Mérida: 1.9, 3.2, 3.8
+2026-05-07 12:28:09,126 [INFO] coletor.data: [AGENDA] Válidos=68, Incompletos=0, Filtrados=250, Duplicados=0
+2026-05-07 12:28:09,127 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.53s
+2026-05-07 12:28:09,133 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-05-08.csv (68 linhas).
+2026-05-07 12:28:25,417 [INFO] __main__: [TEMPO] Fase 2 concluída em 16.28s (links extraídos: 136)
+2026-05-07 12:35:31,226 [INFO] __main__: [TEMPO] Fase 3 concluída em 425.81s (jogos raspados: 300)
+2026-05-07 12:35:31,280 [WARNING] coletor.data: [VALIDAÇÃO] 10 jogos sem odds válidas (serão salvos com NULL).
+2026-05-07 12:35:31,307 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (107 linhas).
+2026-05-07 12:35:31,491 [INFO] __main__: Exportado histórico para dados_redscore.csv (22951 linhas)
+2026-05-07 12:35:31,501 [INFO] __main__: Limpeza concluída: 3 arquivos antigos removidos.
+2026-05-07 12:35:31,903 [INFO] __main__: --- Rotina concluída em 466.19s ---
