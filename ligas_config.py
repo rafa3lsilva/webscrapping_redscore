@@ -81,3 +81,12 @@ LIGAS_PERMITIDAS = {
 
 
 LIMITE_JOGOS_POR_TIME = 50
+
+# URLs Manuais (Garante 100% de acerto para as ligas listadas aqui)
+URLS_MANUAIS = {
+    #"Brasil - Serie A": "https://redscores.com/pt-br/league/brazil/serie-a/648",
+    "Brasil - Serie B": "https://redscores.com/pt-br/league/brazil/serie-b/651",
+    #"Brasil - Serie C": "https://redscores.com/pt-br/league/brazil/serie-c/657",
+    
+    # Adicione outras URLs aqui se o robô não encontrar automaticamente
+}
