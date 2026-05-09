@@ -1,0 +1,277 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Dados RedScore</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0b0f19;
+            --card-bg: #161b2a;
+            --text: #f1f5f9;
+            --text-dim: #94a3b8;
+            --primary: #38bdf8;
+            --success: #22c55e;
+            --error: #ef4444;
+            --border: #2d3748;
+        }
+        
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            padding: 2rem;
+            line-height: 1.5;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stats-summary {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+        
+        .stat-card {
+            background: var(--card-bg);
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            text-align: center;
+            min-width: 150px;
+        }
+        
+        .stat-value { font-size: 1.5rem; font-weight: 700; color: var(--primary); }
+        .stat-label { font-size: 0.875rem; color: var(--text-dim); }
+
+        .controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        
+        input[type="text"] {
+            flex: 1;
+            min-width: 300px;
+            padding: 0.75rem 1rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #0f172a;
+            color: var(--text);
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+        
+        input[type="text"]:focus { border-color: var(--primary); }
+        
+        .filter-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+        
+        button {
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            background: #0f172a;
+            color: var(--text);
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        
+        button.active {
+            background: var(--primary);
+            color: #000;
+            border-color: var(--primary);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--card-bg);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        
+        th, td {
+            padding: 1.25rem;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+        
+        th {
+            background: rgba(255,255,255,0.03);
+            color: var(--text-dim);
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+        
+        tr:last-child td { border-bottom: none; }
+        
+        tr:hover { background: rgba(255,255,255,0.02); }
+        
+        .badge {
+            padding: 0.35rem 0.85rem;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            font-weight: 700;
+        }
+        
+        .badge-sim { background: rgba(34, 197, 94, 0.15); color: var(--success); }
+        .badge-nao { background: rgba(239, 68, 68, 0.15); color: var(--error); }
+        
+        .perc-bar-bg {
+            width: 80px;
+            height: 6px;
+            background: #0f172a;
+            border-radius: 10px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 8px;
+            overflow: hidden;
+        }
+        
+        .perc-bar-fill {
+            height: 100%;
+            background: var(--primary);
+            border-radius: 10px;
+        }
+
+        a { color: var(--primary); text-decoration: none; font-weight: 500; font-size: 0.9rem; }
+        a:hover { text-decoration: underline; }
+
+        @media (max-width: 800px) {
+            .controls { flex-direction: column; }
+            input[type="text"] { min-width: 100%; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RedScore Data Coverage</h1>
+            <p style="color: var(--text-dim)">Monitoramento de cobertura de xG e Odds (Abertura/Fechamento)</p>
+        </header>
+
+        <div class="stats-summary">
+            <div class="stat-card">
+                <div class="stat-value" id="total-count">0</div>
+                <div class="stat-label">Total de Ligas</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="sim-count" style="color: var(--success)">0</div>
+                <div class="stat-label">Ligas com xG</div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="search" placeholder="Filtrar por nome da liga..." onkeyup="renderTable()">
+            <div class="filter-buttons">
+                <button class="active" onclick="setFilter('ALL', this)">Todas</button>
+                <button onclick="setFilter('SIM', this)">Com xG</button>
+                <button onclick="setFilter('NÃO', this)">Sem xG</button>
+            </div>
+        </div>
+
+        <table id="ligaTable">
+            <thead>
+                <tr>
+                    <th>Liga</th>
+                    <th style="text-align: center">Possui xG?</th>
+                    <th style="text-align: center">% Odds Open</th>
+                    <th style="text-align: center">% Odds Close</th>
+                    <th style="text-align: right">Links</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <script>
+        const data = [{'liga': 'Albânia - Superliga', 'status': 'NÃO', 'perc_open': '60%', 'perc_close': '60%', 'url': 'https://redscores.com/pt-br/league/albania/superliga/172'}, {'liga': 'Alemanha - 2. Bundesliga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/germany/2-bundesliga/85'}, {'liga': 'Alemanha - 3. Liga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/germany/3-liga/88'}, {'liga': 'Alemanha - Bundesliga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/germany/bundesliga/82'}, {'liga': 'Argentina - Primera B Nacional', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/argentina/primera-b-nacional/645'}, {'liga': 'Argentina - Superliga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/argentina/superliga/636'}, {'liga': 'Argélia - Ligue 1', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/algeria/ligue-1/809'}, {'liga': 'Armênia - Premier League', 'status': 'NÃO', 'perc_open': '60%', 'perc_close': '60%', 'url': 'https://redscores.com/pt-br/league/armenia/premier-league/175'}, {'liga': 'Arábia Saudita - Pro League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/saudi-arabia/pro-league/944'}, {'liga': 'Austrália - A-League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/australia/a-league/1356'}, {'liga': 'Bolívia - Liga De Futbol Prof', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/bolivia/liga-de-futbol-prof/1098'}, {'liga': 'Brasil - Serie A', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/brazil/serie-a/648'}, {'liga': 'Brasil - Serie B', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/brazil/serie-b/651'}, {'liga': 'Brasil - Serie C', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/brazil/serie-c/657'}, {'liga': 'Bulgária - Parva Liga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/bulgaria/parva-liga/229'}, {'liga': 'Bélgica - First Division B', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/belgium/first-division-b/211'}, {'liga': 'Bélgica - Pro League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/belgium/pro-league/208'}, {'liga': 'Chile - Primera Division', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/chile/primera-division/663'}, {'liga': 'China - Super League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/china-pr/super-league/989'}, {'liga': 'Colômbia - Liga BetPlay', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/colombia/liga-betplay/672'}, {'liga': 'Coréia do Sul - K League 2', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/korea-republic/k-league-2/1362'}, {'liga': 'Coréia do Sul - K-League 1', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/korea-republic/k-league-1/1034'}, {'liga': 'Croácia - 1. HNL', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/croatia/1-hnl/244'}, {'liga': 'Dinamarca - First Division', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/denmark/first-division/274'}, {'liga': 'Dinamarca - Superliga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/denmark/superliga/271'}, {'liga': 'EUA - Major League Soccer', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/usa/major-league-soccer/779'}, {'liga': 'Egito - Premier League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/egypt/premier-league/830'}, {'liga': 'Equador - Liga Pro', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/ecuador/liga-pro/696'}, {'liga': 'Escócia - Championship', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/scotland/championship/504'}, {'liga': 'Escócia - League One', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/scotland/league-one/516'}, {'liga': 'Escócia - League Two', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/scotland/league-two/519'}, {'liga': 'Escócia - Premiership', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/scotland/premiership/501'}, {'liga': 'Eslováquia - Fortuna Liga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/slovakia/fortuna-liga/540'}, {'liga': 'Eslovênia - 1. SNL', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/slovenia/1-snl/555'}, {'liga': 'Espanha - La Liga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/spain/la-liga/564'}, {'liga': 'Espanha - La Liga 2', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/spain/la-liga-2/567'}, {'liga': 'Estônia - Meistriliiga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/estonia/meistriliiga/286'}, {'liga': 'Finlândia - Veikkausliiga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/finland/veikkausliiga/292'}, {'liga': 'França - Ligue 1', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/france/ligue-1/301'}, {'liga': 'França - Ligue 2', 'status': 'NÃO', 'perc_open': '80%', 'perc_close': '80%', 'url': 'https://redscores.com/pt-br/league/france/ligue-2/304'}, {'liga': 'Grécia - Super League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/greece/super-league/325'}, {'liga': 'Hungria - OTP Bank Liga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/hungary/otp-bank-liga/334'}, {'liga': 'Inglaterra - Championship', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/england/championship/9'}, {'liga': 'Inglaterra - League One', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/england/league-one/12'}, {'liga': 'Inglaterra - League Two', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/england/league-two/14'}, {'liga': 'Inglaterra - National League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/england/national-league/17'}, {'liga': 'Inglaterra - Premier League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/england/premier-league/8'}, {'liga': 'Irlanda - Premier Division', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/republic-of-ireland/premier-division/360'}, {'liga': 'Irlanda do Norte - Premiership', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/northern-ireland/premiership/438'}, {'liga': 'Islândia - Pepsideild', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/iceland/pepsideild/345'}, {'liga': "Israel - Ligat ha'Al", 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/israel/ligat-ha-al/372'}, {'liga': 'Itália - Serie A', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/italy/serie-a/384'}, {'liga': 'Itália - Serie B', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/italy/serie-b/387'}, {'liga': 'Japão - J-League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/japan/j-league/968'}, {'liga': 'Japão - J2-League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/japan/j2-league/1022'}, {'liga': 'Lituânia - A Lyga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/lithuania/a-lyga/405'}, {'liga': 'Malásia - Super League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/malaysia/super-league/1052'}, {'liga': 'México - Liga MX', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/mexico/liga-mx/743'}, {'liga': 'Noruega - Eliteserien', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/norway/eliteserien/444'}, {'liga': 'Noruega - Obos-Ligaen', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/norway/obos-ligaen/447'}, {'liga': 'Paraguai - Division 1', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/paraguay/division-1/755'}, {'liga': 'País de Gales - Premier League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/wales/premier-league/624'}, {'liga': 'Países Baixos - Eerste Divisie', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/netherlands/eerste-divisie/74'}, {'liga': 'Países Baixos - Eredivisie', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/netherlands/eredivisie/72'}, {'liga': 'Peru - Primera Division', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/peru/primera-division/764'}, {'liga': 'Polônia - Ekstraklasa', 'status': 'NÃO', 'perc_open': '60%', 'perc_close': '60%', 'url': 'https://redscores.com/pt-br/league/poland/ekstraklasa/453'}, {'liga': 'Portugal - Primeira Liga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/portugal/primeira-liga/462'}, {'liga': 'Portugal - Segunda Liga', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/portugal/segunda-liga/465'}, {'liga': 'Romênia - Liga 1', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/romania/liga-1/474'}, {'liga': 'Suécia - Allsvenskan', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/sweden/allsvenskan/573'}, {'liga': 'Suécia - Superettan', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/sweden/superettan/579'}, {'liga': 'Suíça - Super League', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/switzerland/super-league/591'}, {'liga': 'Sérvia - Super Liga', 'status': 'NÃO', 'perc_open': '80%', 'perc_close': '80%', 'url': 'https://redscores.com/pt-br/league/serbia/super-liga/531'}, {'liga': 'Turquia - Super Lig', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/turkey/super-lig/600'}, {'liga': 'Uruguai - Primera Division', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/uruguay/primera-division/770'}, {'liga': 'Venezuela - Primera Division', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/venezuela/primera-division/800'}, {'liga': 'África do Sul - Premier League', 'status': 'NÃO', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/south-africa/premier-league/806'}, {'liga': 'Áustria - Tipico Bundesliga', 'status': 'SIM', 'perc_open': '100%', 'perc_close': '100%', 'url': 'https://redscores.com/pt-br/league/austria/tipico-bundesliga/181'}];
+        let currentFilter = 'ALL';
+
+        function renderTable() {
+            const tbody = document.querySelector('#ligaTable tbody');
+            const searchText = document.getElementById('search').value.toLowerCase();
+            
+            tbody.innerHTML = '';
+            
+            data.forEach(item => {
+                const matchesSearch = item.liga.toLowerCase().includes(searchText);
+                const matchesFilter = currentFilter === 'ALL' || item.status === currentFilter;
+
+                if (matchesSearch && matchesFilter) {
+                    const tr = document.createElement('tr');
+                    const percOpen = parseInt(item.perc_open);
+                    const percClose = parseInt(item.perc_close);
+                    
+                    tr.innerHTML = `
+                        <td style="font-weight: 600">${item.liga}</td>
+                        <td style="text-align: center">
+                            <span class="badge ${item.status === 'SIM' ? 'badge-sim' : 'badge-nao'}">${item.status}</span>
+                        </td>
+                        <td style="text-align: center">
+                            <div class="perc-bar-bg"><div class="perc-bar-fill" style="width: ${percOpen}%"></div></div>
+                            <span style="font-size: 0.85rem">${item.perc_open}</span>
+                        </td>
+                        <td style="text-align: center">
+                            <div class="perc-bar-bg"><div class="perc-bar-fill" style="width: ${percClose}%"></div></div>
+                            <span style="font-size: 0.85rem">${item.perc_close}</span>
+                        </td>
+                        <td style="text-align: right">
+                            <a href="${item.url}" target="_blank">Acessar RedScore →</a>
+                        </td>
+                    `;
+                    tbody.appendChild(tr);
+                }
+            });
+
+            document.getElementById('total-count').innerText = data.length;
+            document.getElementById('sim-count').innerText = data.filter(i => i.status === 'SIM').length;
+        }
+
+        function setFilter(filter, btn) {
+            currentFilter = filter;
+            document.querySelectorAll('.filter-buttons button').forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            renderTable();
+        }
+
+        renderTable();
+    </script>
+</body>
+</html>
+    
