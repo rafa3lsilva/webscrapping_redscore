@@ -349,6 +349,19 @@ def fase3_raspar_detalhes(driver, urls_partidas, nome_liga_esperada):
     
     with sqlite3.connect(DB_NAME) as conn:
         for idx, url in enumerate(tqdm(urls_partidas, desc=f"Lendo {nome_liga_esperada}", unit="jogo"), 1):
+            # 1. Verificação ultra-rápida pelo LINK antes de abrir o navegador
+            # Normalização básica para bater mesmo se houver /pt-br/ ou falta de #ID
+            url_canonical = url.replace("https://redscores.com", "").replace("/pt-br", "").split("#")[0]
+            log.debug(f"  -> Buscando no banco: %{url_canonical}%")
+            res_link = conn.execute(
+                "SELECT 1 FROM jogos_detalhados WHERE Link LIKE ?", 
+                (f"%{url_canonical}%",)
+            ).fetchone()
+            
+            if res_link:
+                log.debug(f"  -> Jogo {idx}/{len(urls_partidas)} já existe (Link: {url_canonical}). Pulando...")
+                continue
+
             log.debug(f"  -> Coletando Partida {idx}/{len(urls_partidas)}: {url}")
             driver.get(url)
             time.sleep(1.5)
