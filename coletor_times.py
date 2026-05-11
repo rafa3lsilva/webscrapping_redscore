@@ -47,7 +47,7 @@ def inicializar_banco():
         conn.execute("""
         CREATE TABLE IF NOT EXISTS jogos_detalhados (
             Link TEXT PRIMARY KEY,
-            Data TEXT, Hora TEXT, Liga TEXT, Rodada TEXT,
+            Data TEXT, Hora TEXT, Pais TEXT, Liga TEXT, Rodada TEXT,
             Home TEXT, Away TEXT,
             H_gols_ft INTEGER, A_gols_ft INTEGER,
             H_gols_ht INTEGER, A_gols_ht INTEGER,
@@ -80,6 +80,14 @@ def inicializar_banco():
             Odd_h_close REAL, Odd_d_close REAL, Odd_a_close REAL,
             UNIQUE(Rodada, Data, Home, Away)
         )""")
+        
+        # Migração: Adicionar coluna Pais se não existir em bancos antigos
+        try:
+            conn.execute("ALTER TABLE jogos_detalhados ADD COLUMN Pais TEXT")
+            log.info("Coluna 'Pais' adicionada com sucesso ao banco de dados.")
+        except sqlite3.OperationalError:
+            pass # A coluna já existe
+            
         conn.commit()
 
 def fase1_obter_times(driver, url_liga):
@@ -344,7 +352,7 @@ def fase2_obter_links_partidas(driver, urls_times, liga_nome):
     log.info(f"[FASE 2] Concluída. {len(links_partidas)} partidas ÚNICAS encontradas no total.")
     return list(links_partidas)
 
-def fase3_raspar_detalhes(driver, urls_partidas, nome_liga_esperada):
+def fase3_raspar_detalhes(driver, urls_partidas, nome_liga_esperada, pais_esperado=""):
     log.info(f"[FASE 3] Iniciando Deep Scraping de {len(urls_partidas)} partidas...")
     
     with sqlite3.connect(DB_NAME) as conn:
@@ -372,10 +380,12 @@ def fase3_raspar_detalhes(driver, urls_partidas, nome_liga_esperada):
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
             
-            # --- FILTRO DE LIGA (BREADCRUMBS) ---
+            # --- FILTRO DE LIGA E EXTRAÇÃO DE PAÍS (BREADCRUMBS) ---
             # Verificação de Liga Permitida (Flexível)
             breadcrumbs = soup.select('li.breadcrumb__item a')
+            pais_real = pais_esperado
             if len(breadcrumbs) >= 3:
+                pais_real = breadcrumbs[1].get_text(strip=True)
                 liga_real = breadcrumbs[2].get_text(strip=True)
                 n_liga_real = normalize_str(liga_real)
                 
@@ -661,7 +671,7 @@ def fase3_raspar_detalhes(driver, urls_partidas, nome_liga_esperada):
             try:
                 conn.execute("""
                 INSERT OR IGNORE INTO jogos_detalhados 
-                (Link, Data, Hora, Liga, Rodada, Home, Away, H_gols_ft, A_gols_ft, H_gols_ht, A_gols_ht,
+                (Link, Data, Hora, Pais, Liga, Rodada, Home, Away, H_gols_ft, A_gols_ft, H_gols_ht, A_gols_ht,
                  H_posse, A_posse, H_xg, A_xg, H_chutes, A_chutes, H_chutes_alvo, A_chutes_alvo,
                  H_escanteios, A_escanteios, H_faltas, A_faltas, H_amarelos, A_amarelos,
                  H_vermelhos, A_vermelhos, H_ataques, A_ataques, H_ataques_perigosos, A_ataques_perigosos,
@@ -672,9 +682,9 @@ def fase3_raspar_detalhes(driver, urls_partidas, nome_liga_esperada):
                  H1_chutes_alvo, A1_chutes_alvo, H1_ataques, A1_ataques, H1_ataques_perigosos, A1_ataques_perigosos,
                  H2_chutes_alvo, A2_chutes_alvo, H2_ataques, A2_ataques, H2_ataques_perigosos, A2_ataques_perigosos,
                  Odd_h_open, Odd_d_open, Odd_a_open, Odd_h_close, Odd_d_close, Odd_a_close)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
                 """, (
-                    url, data_str, hora_str, nome_liga_esperada, rodada, home, away, h_gols_ft, a_gols_ft, h_gols_ht, a_gols_ht,
+                    url, data_str, hora_str, pais_real, nome_liga_esperada, rodada, home, away, h_gols_ft, a_gols_ft, h_gols_ht, a_gols_ht,
                     h_posse, a_posse, h_xg, a_xg, h_chutes, a_chutes, h_chutes_alvo, a_chutes_alvo,
                     h_escanteios, a_escanteios, h_faltas, a_faltas, h_amarelos, a_amarelos,
                     h_vermelhos, a_vermelhos, h_ataques, a_ataques, h_ataques_p, a_ataques_p,
@@ -734,26 +744,28 @@ def rotina_bottom_up():
                 driver = login_redscore(REDSCORE_USER, REDSCORE_PASS)
             
             # O nome da liga para filtro de links é o que vem depois do " - "
-            nome_liga_curto = nome_amigavel.split(" - ")[-1] if " - " in nome_amigavel else nome_amigavel
+            partes_nome = nome_amigavel.split(" - ")
+            pais = partes_nome[0] if len(partes_nome) > 1 else ""
+            nome_liga_curto = partes_nome[-1] if len(partes_nome) > 1 else nome_amigavel
 
             try:
                 times = fase1_obter_times(driver, url_liga)
                 if not times:
-                    log.warning(f"  -> Nenhum time encontrado para {nome_amigavel}. Pulando...")
+                    log.warning(f"  -> Nenhum time encontrado for {nome_amigavel}. Pulando...")
                     continue
                 
                 links_unicos = fase2_obter_links_partidas(driver, times, nome_liga_curto)
                 
                 if not links_unicos:
-                    log.warning(f"  -> Nenhum link de partida encontrado para {nome_amigavel}. Pulando...")
+                    log.warning(f"  -> Nenhum link de partida encontrado for {nome_amigavel}. Pulando...")
                     continue
                     
-                log.info(f"Iniciando Fase 3 para todos os {len(links_unicos)} jogos únicos da liga {nome_amigavel}...")
-                fase3_raspar_detalhes(driver, links_unicos, nome_liga_curto)
-                
-                # Exportação parcial a cada liga concluída
+                log.info(f"Iniciando Fase 3 for todos os {len(links_unicos)} jogos únicos da liga {nome_amigavel}...")
+                fase3_raspar_detalhes(driver, links_unicos, nome_liga_curto, pais)
+            
+            # Exportação parcial a cada liga concluída
                 exportar_csv()
-                
+            
             except Exception as e:
                 log.error(f"Erro crítico ao processar liga {nome_amigavel}: {e}")
                 continue
