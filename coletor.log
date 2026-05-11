@@ -49305,3 +49305,62 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.
 2026-05-10 23:03:40,659 [INFO] __main__: [DB] Executando VACUUM (tamanho=3.4 MB).
 2026-05-10 23:03:40,734 [INFO] __main__: [DB] VACUUM concluído.
 2026-05-10 23:03:41,427 [INFO] __main__: --- Rotina concluída em 473.10s ---
+2026-05-11 12:14:44,451 [INFO] __main__: Coletor iniciado
+2026-05-11 12:14:44,452 [INFO] __main__: --- Rotina diária iniciada ---
+2026-05-11 12:15:10,377 [INFO] coletor.data: [ODDS] Odds para Celta Vigo vs Levante: 1.8, 3.9, 4.33
+2026-05-11 12:15:10,378 [INFO] coletor.data: [ODDS] Odds para Betis vs Elche: 1.61, 4.0, 5.5
+2026-05-11 12:15:10,378 [INFO] coletor.data: [ODDS] Odds para Osasuna vs Atlético Madrid: 2.4, 3.5, 2.87
+2026-05-11 12:15:10,378 [INFO] coletor.data: [ODDS] Odds para Aberdeen vs St. Mirren: 2.2, 3.5, 3.1
+2026-05-11 12:15:10,378 [INFO] coletor.data: [ODDS] Odds para Kilmarnock vs Dundee: 1.9, 3.6, 3.8
+2026-05-11 12:15:10,378 [INFO] coletor.data: [ODDS] Odds para Dundee United vs Livingston: 1.72, 4.0, 4.33
+2026-05-11 12:15:10,379 [INFO] coletor.data: [ODDS] Odds para Southampton vs Middlesbrough: 2.37, 3.4, 2.87
+2026-05-11 12:15:10,379 [INFO] coletor.data: [ODDS] Odds para Modena vs Juve Stabia: 2.15, 3.2, 3.5
+2026-05-11 12:15:10,379 [INFO] coletor.data: [ODDS] Odds para Catanzaro vs Avellino: 2.1, 3.3, 3.5
+2026-05-11 12:15:10,379 [WARNING] coletor.data: [ODDS] Odds não encontradas para Red Star vs Rodez. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,380 [INFO] coletor.data: [ODDS] Odds para Luzern vs Zürich: 1.5, 4.75, 5.25
+2026-05-11 12:15:10,380 [INFO] coletor.data: [ODDS] Odds para Servette vs Lausanne Sport: 1.83, 3.9, 3.8
+2026-05-11 12:15:10,380 [INFO] coletor.data: [ODDS] Odds para Grasshopper vs Winterthur: 1.8, 3.9, 3.9
+2026-05-11 12:15:10,380 [INFO] coletor.data: [ODDS] Odds para Rosario Central vs Racing Club: 2.35, 3.0, 3.3
+2026-05-11 12:15:10,380 [INFO] coletor.data: [ODDS] Odds para Belgrano vs Unión Santa Fe: 2.4, 3.0, 3.25
+2026-05-11 12:15:10,381 [INFO] coletor.data: [ODDS] Odds para Argentinos Juniors vs Huracán: 1.8, 3.1, 5.5
+2026-05-11 12:15:10,381 [WARNING] coletor.data: [ODDS] Odds não encontradas para Cruz Azul vs Guadalajara. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,381 [WARNING] coletor.data: [ODDS] Odds não encontradas para Pachuca vs Pumas UNAM. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,381 [INFO] coletor.data: [ODDS] Odds para Asteras Tripolis vs Panserraikos: 1.75, 3.25, 4.75
+2026-05-11 12:15:10,381 [INFO] coletor.data: [ODDS] Odds para Kifisia vs Atromitos: 2.2, 3.0, 3.4
+2026-05-11 12:15:10,382 [INFO] coletor.data: [ODDS] Odds para Panaitolikos vs Larissa: 2.3, 3.1, 3.1
+2026-05-11 12:15:10,382 [INFO] coletor.data: [ODDS] Odds para TS Galaxy vs Mamelodi Sundowns: 8.0, 4.0, 1.33
+2026-05-11 12:15:10,382 [INFO] coletor.data: [ODDS] Odds para Al Kholood vs Al Akhdoud: 1.55, 3.9, 5.0
+2026-05-11 12:15:10,382 [INFO] coletor.data: [ODDS] Odds para Al Nassr vs Al Hilal: 2.2, 3.5, 2.6
+2026-05-11 12:15:10,383 [WARNING] coletor.data: [ODDS] Odds não encontradas para USM Alger vs Mostaganem. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,383 [INFO] coletor.data: [ODDS] Odds para JS Saoura vs CR Belouizdad: 2.3, 2.75, 3.2
+2026-05-11 12:15:10,383 [INFO] coletor.data: [ODDS] Odds para San Martín Tucumán vs Gimnasia Jujuy: 2.15, 2.7, 4.33
+2026-05-11 12:15:10,383 [WARNING] coletor.data: [ODDS] Odds não encontradas para San Antonio Bulo Bulo vs Universitario de Vinto. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,384 [WARNING] coletor.data: [ODDS] Odds não encontradas para Gualberto Villarroel SJ vs Real Tomayapo. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,384 [WARNING] coletor.data: [ODDS] Odds não encontradas para Aurora vs Real Oruro. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,384 [INFO] coletor.data: [ODDS] Odds para Londrina vs São Bernardo: 2.3, 2.87, 3.7
+2026-05-11 12:15:10,384 [INFO] coletor.data: [ODDS] Odds para Cherno More vs Lokomotiv Plovdiv: 1.95, 3.3, 4.0
+2026-05-11 12:15:10,384 [INFO] coletor.data: [ODDS] Odds para Botev Plovdiv vs Arda: 2.0, 3.0, 4.2
+2026-05-11 12:15:10,385 [INFO] coletor.data: [ODDS] Odds para Atlético Nacional vs La Equidad: 1.42, 4.33, 7.5
+2026-05-11 12:15:10,385 [INFO] coletor.data: [ODDS] Odds para Santa Fe vs América de Cali: 2.15, 3.2, 3.4
+2026-05-11 12:15:10,385 [INFO] coletor.data: [ODDS] Odds para Gwangju vs Seoul: 8.5, 4.1, 1.38
+2026-05-11 12:15:10,385 [INFO] coletor.data: [ODDS] Odds para Incheon United vs Pohang Steelers: 2.45, 3.0, 2.87
+2026-05-11 12:15:10,386 [INFO] coletor.data: [ODDS] Odds para Gangwon vs Daejeon Citizen: 2.1, 3.1, 3.4
+2026-05-11 12:15:10,386 [INFO] coletor.data: [ODDS] Odds para El Gounah vs Kahraba Ismailia: 2.2, 2.75, 3.25
+2026-05-11 12:15:10,386 [INFO] coletor.data: [ODDS] Odds para Pharco vs Future FC: 3.2, 2.75, 2.25
+2026-05-11 12:15:10,386 [INFO] coletor.data: [ODDS] Odds para Wadi Degla vs Ismaily: 1.65, 3.2, 5.25
+2026-05-11 12:15:10,386 [WARNING] coletor.data: [ODDS] Odds não encontradas para Linfield vs Dungannon Swifts. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,387 [INFO] coletor.data: [ODDS] Odds para Hapoel Tel Aviv vs Hapoel Petah Tikva: 1.38, 4.2, 6.5
+2026-05-11 12:15:10,387 [INFO] coletor.data: [ODDS] Odds para Beitar Jerusalem vs Hapoel Be'er Sheva: 2.45, 3.5, 2.37
+2026-05-11 12:15:10,387 [INFO] coletor.data: [ODDS] Odds para Landskrona vs Norrby: 2.0, 3.4, 3.3
+2026-05-11 12:15:10,387 [INFO] coletor.data: [ODDS] Odds para Värnamo vs Örebro: 1.9, 3.4, 3.6
+2026-05-11 12:15:10,387 [INFO] coletor.data: [ODDS] Odds para Deportivo Táchira vs Metropolitanos: 1.7, 3.2, 4.75
+2026-05-11 12:15:10,388 [WARNING] coletor.data: [ODDS] Odds não encontradas para UCV vs Deportivo La Guaira. Motivo: could not convert string to float: '-'
+2026-05-11 12:15:10,388 [INFO] coletor.data: [AGENDA] Válidos=48, Incompletos=0, Filtrados=94, Duplicados=0
+2026-05-11 12:15:10,389 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.77s
+2026-05-11 12:15:10,394 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-05-12.csv (48 linhas).
+2026-05-11 12:15:23,814 [INFO] __main__: [TEMPO] Fase 2 concluída em 13.42s (links extraídos: 96)
+2026-05-11 12:20:24,691 [INFO] __main__: [TEMPO] Fase 3 concluída em 300.88s (jogos raspados: 142)
+2026-05-11 12:20:24,731 [WARNING] coletor.data: [VALIDAÇÃO] 4 jogos sem odds válidas (serão salvos com NULL).
+2026-05-11 12:20:24,771 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (65 linhas).
+2026-05-11 12:20:24,949 [INFO] __main__: Exportado histórico para dados_redscore.csv (23410 linhas)
+2026-05-11 12:20:25,477 [INFO] __main__: --- Rotina concluída em 341.02s ---
