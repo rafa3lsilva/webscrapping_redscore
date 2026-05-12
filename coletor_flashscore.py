@@ -6,13 +6,13 @@ import requests
 import re
 import json
 import os
+import random
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from tqdm import tqdm
-import random
 from ligas_config import LIGAS_XG
 
 # Configuração de Logging
@@ -62,67 +62,47 @@ def inicializar_banco():
 
 def extrair_odds_ninja(match_id, session):
     res = {}
-    base_params = {"eventId": match_id, "projectId": "401", "geoIpCode": "BR", "geoIpSubdivisionCode": "BR"}
-    headers = {
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-        "referer": f"https://www.flashscore.com.br/jogo/{match_id}/",
-        "Origin": "https://www.flashscore.com.br"
-    }
     url = "https://global.ds.lsapp.eu/odds/pq_graphql"
+    base_params = {"eventId": match_id, "projectId": "401", "geoIpCode": "BR", "geoIpSubdivisionCode": "BR"}
+    headers = {"user-agent": "Mozilla/5.0", "referer": f"https://www.flashscore.com.br/jogo/{match_id}/", "Origin": "https://www.flashscore.com.br"}
 
-    hashes = ["pobtm", "oce"]
-    
-    for h in hashes:
+    for h in ["pobtm", "oce"]:
         try:
             params = base_params.copy()
             params.update({"_hash": h})
-            r = session.get(url, params=params, headers=headers, timeout=10)
+            r = session.get(url, params=params, headers=headers, timeout=8)
             if r.status_code == 200:
                 data = r.json().get("data", {}).get("findOddsByEventId", {}).get("odds", [])
                 for market in data:
                     bt = market.get("bettingType")
                     pt = market.get("periodType", "ALL")
-                    odds_list = market.get("odds", [])
-                    if not odds_list: continue
+                    odds = market.get("odds", [])
+                    if not odds: continue
 
-                    # 1X2 - Somente se for Jogo Completo (ALL)
-                    if bt == "HOME_DRAW_AWAY" and pt == "ALL" and len(odds_list) >= 3:
-                        # Ordem padrão Ninja: [0]=Casa, [1]=Empate, [2]=Visitante
-                        res["Odd_H_Open"] = res.get("Odd_H_Open") or limpar_valor(odds_list[0].get("opening"))
-                        res["Odd_H_Close"] = res.get("Odd_H_Close") or limpar_valor(odds_list[0].get("value"))
-                        res["Odd_D_Open"] = res.get("Odd_D_Open") or limpar_valor(odds_list[1].get("opening"))
-                        res["Odd_D_Close"] = res.get("Odd_D_Close") or limpar_valor(odds_list[1].get("value"))
-                        res["Odd_A_Open"] = res.get("Odd_A_Open") or limpar_valor(odds_list[2].get("opening"))
-                        res["Odd_A_Close"] = res.get("Odd_A_Close") or limpar_valor(odds_list[2].get("value"))
+                    if bt == "HOME_DRAW_AWAY" and pt == "ALL" and len(odds) >= 3:
+                        res["Odd_H_Open"] = res.get("Odd_H_Open") or limpar_valor(odds[0].get("opening"))
+                        res["Odd_H_Close"] = res.get("Odd_H_Close") or limpar_valor(odds[0].get("value"))
+                        res["Odd_D_Open"] = res.get("Odd_D_Open") or limpar_valor(odds[1].get("opening"))
+                        res["Odd_D_Close"] = res.get("Odd_D_Close") or limpar_valor(odds[1].get("value"))
+                        res["Odd_A_Open"] = res.get("Odd_A_Open") or limpar_valor(odds[2].get("opening"))
+                        res["Odd_A_Close"] = res.get("Odd_A_Close") or limpar_valor(odds[2].get("value"))
                     
-                    elif bt == "DOUBLE_CHANCE" and pt == "ALL" and len(odds_list) >= 3:
-                        res["DC_1X_Open"] = res.get("DC_1X_Open") or limpar_valor(odds_list[0].get("opening"))
-                        res["DC_1X_Close"] = res.get("DC_1X_Close") or limpar_valor(odds_list[0].get("value"))
-                        res["DC_12_Open"] = res.get("DC_12_Open") or limpar_valor(odds_list[1].get("opening"))
-                        res["DC_12_Close"] = res.get("DC_12_Close") or limpar_valor(odds_list[1].get("value"))
-                        res["DC_X2_Open"] = res.get("DC_X2_Open") or limpar_valor(odds_list[2].get("opening"))
-                        res["DC_X2_Close"] = res.get("DC_X2_Close") or limpar_valor(odds_list[2].get("value"))
-
-                    elif bt == "BOTH_TEAMS_TO_SCORE" and pt == "ALL" and len(odds_list) >= 2:
-                        res["BTTS_Sim_Open"] = res.get("BTTS_Sim_Open") or limpar_valor(odds_list[0].get("opening"))
-                        res["BTTS_Sim_Close"] = res.get("BTTS_Sim_Close") or limpar_valor(odds_list[0].get("value"))
-                        res["BTTS_Nao_Open"] = res.get("BTTS_Nao_Open") or limpar_valor(odds_list[1].get("opening"))
-                        res["BTTS_Nao_Close"] = res.get("BTTS_Nao_Close") or limpar_valor(odds_list[1].get("value"))
+                    elif bt == "DOUBLE_CHANCE" and pt == "ALL" and len(odds) >= 3:
+                        res["DC_1X_Open"] = res.get("DC_1X_Open") or limpar_valor(odds[0].get("opening"))
+                        res["DC_1X_Close"] = res.get("DC_1X_Close") or limpar_valor(odds[0].get("value"))
+                        res["DC_12_Open"] = res.get("DC_12_Open") or limpar_valor(odds[1].get("opening"))
+                        res["DC_12_Close"] = res.get("DC_12_Close") or limpar_valor(odds[1].get("value"))
+                        res["DC_X2_Open"] = res.get("DC_X2_Open") or limpar_valor(odds[2].get("opening"))
+                        res["DC_X2_Close"] = res.get("DC_X2_Close") or limpar_valor(odds[2].get("value"))
 
                     elif bt == "OVER_UNDER":
-                        for row in odds_list:
+                        for row in odds:
                             n = str(row.get("name"))
                             if n == "2.5" and pt == "ALL":
                                 res["Over_25_Open"] = res.get("Over_25_Open") or limpar_valor(row.get("over", {}).get("opening"))
                                 res["Over_25_Close"] = res.get("Over_25_Close") or limpar_valor(row.get("over", {}).get("value"))
                                 res["Under_25_Open"] = res.get("Under_25_Open") or limpar_valor(row.get("under", {}).get("opening"))
                                 res["Under_25_Close"] = res.get("Under_25_Close") or limpar_valor(row.get("under", {}).get("value"))
-                            elif n == "0.5" and pt == "FIRST_HALF":
-                                res["Over_05HT_Open"] = res.get("Over_05HT_Open") or limpar_valor(row.get("over", {}).get("opening"))
-                                res["Over_05HT_Close"] = res.get("Over_05HT_Close") or limpar_valor(row.get("over", {}).get("value"))
-                            elif n == "1.5" and pt == "FIRST_HALF":
-                                res["Over_15HT_Open"] = res.get("Over_15HT_Open") or limpar_valor(row.get("over", {}).get("opening"))
-                                res["Over_15HT_Close"] = res.get("Over_15HT_Close") or limpar_valor(row.get("over", {}).get("value"))
         except: continue
     return res
 
@@ -133,12 +113,11 @@ def coletar_detalhes_ninja(match_id, session):
     headers = {"user-agent": "Mozilla/5.0", "referer": f"https://www.flashscore.com.br/jogo/{match_id}/"}
     
     try:
-        r = session.get(url, params=params, headers=headers, timeout=10)
+        r = session.get(url, params=params, headers=headers, timeout=8)
         if r.status_code == 200:
             json_data = r.json().get("data", {})
             event_data = json_data.get("findEventById", {}) or json_data.get("findEventSummaryByEventId", {})
             
-            # Stats Avançadas
             mapa_stats = {
                 "expected_goals": "xG", "expected_goals_on_target": "xGOT", "ball_possession": "Posse",
                 "goal_attempts": "Chutes", "shots_on_goal": "Chutes_Alvo", "big_chances": "Chances_Claras",
@@ -149,12 +128,10 @@ def coletar_detalhes_ninja(match_id, session):
                 side = part.get("type", {}).get("side")
                 if side not in ["HOME", "AWAY"]: continue
                 suffix = "Home" if side == "HOME" else "Away"
-                
                 for sp in part.get("stats", []):
                     ptype = sp.get("periodType", "ALL")
                     prefix = "FT" if ptype == "ALL" else "HT" if ptype == "FIRST_HALF" else None
                     if not prefix: continue
-
                     for entry in sp.get("values", []):
                         etype = entry.get("type")
                         if etype in mapa_stats:
@@ -174,24 +151,21 @@ def processar_jogo(jogo, session, conn):
     detalhes = coletar_detalhes_ninja(jogo['Match_ID'], session)
     time.sleep(random.uniform(0.1, 0.2))
     odds = extrair_odds_ninja(jogo['Match_ID'], session)
-    
     jogo.update(detalhes)
     jogo.update(odds)
-
-    # Salvamos sempre, pois o DOM já nos deu placar básico
     salvar_no_banco(jogo, conn)
-    return jogo
 
 def coletar_liga_flashscore(driver, session, cfg, max_jogos=None):
     log.info(f"Iniciando: {cfg['pais']} - {cfg['liga']}")
     inicializar_banco()
     
     driver.get(cfg['url'])
-    time.sleep(4)
+    time.sleep(5)
     for cookie in driver.get_cookies():
         session.cookies.set(cookie['name'], cookie['value'])
     
-    while True:
+    # Expandir lista
+    for _ in range(10): # Limite de tentativas de expansão
         try:
             btn = WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, "//button[contains(., 'Mostrar mais jogos')] | //a[contains(@class, 'event__more')]")))
             driver.execute_script("arguments[0].click();", btn)
@@ -199,12 +173,11 @@ def coletar_liga_flashscore(driver, session, cfg, max_jogos=None):
             if max_jogos and max_jogos <= 50: break 
         except: break
 
-    # Extração JS Robusta: Hora, Rodada e Gols
+    # Extração JS Robusta
     jogos_raw = driver.execute_script("""
         const items = document.querySelectorAll('.event__match, .event__round');
         const data = [];
         let currentRound = "";
-        
         items.forEach(item => {
             if (item.classList.contains('event__round')) {
                 currentRound = item.innerText.trim();
@@ -213,31 +186,29 @@ def coletar_liga_flashscore(driver, session, cfg, max_jogos=None):
                 const home = item.querySelector("[class*='homeParticipant']")?.innerText.trim();
                 const away = item.querySelector("[class*='awayParticipant']")?.innerText.trim();
                 const timeStr = item.querySelector("[class*='time']")?.innerText.trim() || "";
-                
-                // Placar FT e HT
                 const scoreHome = item.querySelector(".event__score--home")?.innerText.trim() || "";
                 const scoreAway = item.querySelector(".event__score--away")?.innerText.trim() || "";
-                const partHT = item.querySelector(".event__part")?.innerText.trim() || ""; // Ex: (1-0)
+                const partHT = item.querySelector(".event__part")?.innerText.trim() || "";
                 
                 let gh_ht = null, ga_ht = null;
                 if (partHT.includes('-')) {
                     const cleanHT = partHT.replace('(', '').replace(')', '').split('-');
-                    gh_ht = cleanHT[0].trim();
-                    ga_ht = cleanHT[1].trim();
+                    gh_ht = cleanHT[0]?.trim(); ga_ht = cleanHT[1]?.trim();
                 }
-
                 if (mid && home) {
                     data.push({ 
-                        "Match_ID": mid, "Home": home, "Away": away, 
-                        "Time": timeStr, "Rodada": currentRound,
-                        "GH_FT": scoreHome, "GA_FT": scoreAway,
-                        "GH_HT": gh_ht, "GA_HT": ga_ht
+                        "Match_ID": mid, "Home": home, "Away": away, "Time": timeStr, "Rodada": currentRound,
+                        "GH_FT": scoreHome, "GA_FT": scoreAway, "GH_HT": gh_ht, "GA_HT": ga_ht
                     });
                 }
             }
         });
         return data;
     """)
+
+    if not jogos_raw:
+        log.warning(f"Nenhum jogo encontrado para {cfg['liga']}. Verifique a URL.")
+        return
 
     jogos = []
     for j in jogos_raw:
@@ -254,12 +225,10 @@ def coletar_liga_flashscore(driver, session, cfg, max_jogos=None):
             "Gols_Home_HT": limpar_valor(j["GH_HT"]), "Gols_Away_HT": limpar_valor(j["GA_HT"])
         })
 
-    if max_jogos:
-        jogos = jogos[:max_jogos]
+    if max_jogos: jogos = jogos[:max_jogos]
 
     with sqlite3.connect(DB_NAME, timeout=60) as conn:
-        # Re-coletamos se não tiver xG ou se a Rodada estiver vazia
-        cursor = conn.execute("SELECT Match_ID FROM jogos_flashscore WHERE FT_xG_Home IS NOT NULL AND Rodada != ''")
+        cursor = conn.execute("SELECT Match_ID FROM jogos_flashscore WHERE FT_xG_Home IS NOT NULL")
         ids_completos = [row[0] for row in cursor.fetchall()]
         pendentes = [j for j in jogos if j['Match_ID'] not in ids_completos]
         log.info(f"Pendentes: {len(pendentes)} de {len(jogos)}")
@@ -267,42 +236,41 @@ def coletar_liga_flashscore(driver, session, cfg, max_jogos=None):
         for jogo in tqdm(pendentes, desc=f"Lendo {cfg['liga']}"):
             processar_jogo(jogo, session, conn)
             conn.commit() 
-            time.sleep(random.uniform(0.1, 0.4))
+            time.sleep(random.uniform(0.1, 0.3))
 
     with sqlite3.connect(DB_NAME, timeout=60) as conn:
         df = pd.read_sql("SELECT * FROM jogos_flashscore", conn)
         df.to_csv("dados_flashscore_final.csv", index=False)
-    log.info(f"Coleta concluída para {cfg['liga']}!")
+    log.info(f"Sucesso: {cfg['liga']}")
 
 def main():
-    TEST_MODE = True 
+    # CONFIGURAÇÃO DE TESTE
+    TEST_MODE = True
     TEST_LEAGUE = "Brasil - Serie A"
     TEST_LIMIT = None
 
     CONFIG_FLASH = {
-        "Alemanha - Bundesliga": {"url": "https://www.flashscore.com.br/futebol/alemanha/bundesliga-2024-2025/resultados/", "pais": "Alemanha", "liga": "Bundesliga", "temporada": "2024-2025"},
-        "Brasil - Serie A": {"url": "https://www.flashscore.com.br/futebol/brasil/brasileirao-betano-2025/resultados/", "pais": "Brasil", "liga": "Série A", "temporada": "2025"},
+        "Brasil - Serie A": {"url": "https://www.flashscore.com.br/futebol/brasil/brasileirao-betano-2024/resultados/", "pais": "Brasil", "liga": "Série A", "temporada": "2024"},
         "Espanha - La Liga": {"url": "https://www.flashscore.com.br/futebol/espanha/laliga-2024-2025/resultados/", "pais": "Espanha", "liga": "LaLiga", "temporada": "2024-2025"},
-        "Inglaterra - Premier League": {"url": "https://www.flashscore.com.br/futebol/inglaterra/premier-league-2024-2025/resultados/", "pais": "Inglaterra", "liga": "Premier League", "temporada": "2024-2025"},
-        "França - Ligue 1": {"url": "https://www.flashscore.com.br/futebol/franca/ligue-1-2024-2025/resultados/", "pais": "França", "liga": "Ligue 1", "temporada": "2024-2025"},
         "Itália - Série A": {"url": "https://www.flashscore.com.br/futebol/italia/serie-a-2024-2025/resultados/", "pais": "Itália", "liga": "Série A", "temporada": "2024-2025"}
     }
     
     session = requests.Session()
     options = Options()
     options.add_argument("--headless")
-    options.add_argument("--window-size=1920,1080")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
     options.add_argument("user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     
     ligas_lista = [TEST_LEAGUE] if TEST_MODE else [l for l in LIGAS_XG if l in CONFIG_FLASH]
-    limit = TEST_LIMIT if TEST_MODE else None
-
+    
     for nome in ligas_lista:
+        if nome not in CONFIG_FLASH: continue
         driver = webdriver.Chrome(options=options)
         try: 
-            coletar_liga_flashscore(driver, session, CONFIG_FLASH[nome], max_jogos=limit)
+            coletar_liga_flashscore(driver, session, CONFIG_FLASH[nome], max_jogos=TEST_LIMIT)
+        except Exception as e:
+            log.error(f"Erro crítico na liga {nome}: {e}")
         finally: 
             driver.quit()
 
