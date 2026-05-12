@@ -49364,3 +49364,75 @@ receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.
 2026-05-11 12:20:24,771 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (65 linhas).
 2026-05-11 12:20:24,949 [INFO] __main__: Exportado histórico para dados_redscore.csv (23410 linhas)
 2026-05-11 12:20:25,477 [INFO] __main__: --- Rotina concluída em 341.02s ---
+2026-05-12 12:27:47,121 [INFO] __main__: Coletor iniciado
+2026-05-12 12:27:47,122 [INFO] __main__: --- Rotina diária iniciada ---
+2026-05-12 12:28:17,159 [INFO] coletor.data: [ODDS] Odds para Man City vs Crystal Palace: 1.2, 7.5, 12.0
+2026-05-12 12:28:17,159 [INFO] coletor.data: [ODDS] Odds para Villarreal vs Sevilla: 2.05, 3.3, 3.75
+2026-05-12 12:28:17,160 [INFO] coletor.data: [ODDS] Odds para Espanyol vs Athletic Club: 2.62, 3.3, 2.7
+2026-05-12 12:28:17,160 [INFO] coletor.data: [ODDS] Odds para Alavés vs Barcelona: 3.2, 3.75, 2.1
+2026-05-12 12:28:17,160 [INFO] coletor.data: [ODDS] Odds para Getafe vs Mallorca: 2.2, 3.2, 3.5
+2026-05-12 12:28:17,161 [INFO] coletor.data: [ODDS] Odds para Brest vs Strasbourg: 2.62, 3.6, 2.5
+2026-05-12 12:28:17,161 [INFO] coletor.data: [ODDS] Odds para Lens vs PSG: 3.4, 4.0, 1.95
+2026-05-12 12:28:17,161 [INFO] coletor.data: [ODDS] Odds para Charlotte vs New York City: 2.2, 3.6, 3.0
+2026-05-12 12:28:17,162 [INFO] coletor.data: [ODDS] Odds para New England vs Nashville SC: 2.87, 3.4, 2.4
+2026-05-12 12:28:17,162 [INFO] coletor.data: [ODDS] Odds para CF Montréal vs Portland Timbers: 1.9, 3.75, 3.6
+2026-05-12 12:28:17,163 [INFO] coletor.data: [ODDS] Odds para DC United vs Chicago Fire: 2.75, 3.4, 2.45
+2026-05-12 12:28:17,163 [INFO] coletor.data: [ODDS] Odds para Orlando City vs Philadelphia Union: 3.0, 3.7, 2.15
+2026-05-12 12:28:17,163 [INFO] coletor.data: [ODDS] Odds para New York RB vs Columbus Crew: 2.87, 3.9, 2.2
+2026-05-12 12:28:17,164 [INFO] coletor.data: [ODDS] Odds para Cincinnati vs Inter Miami: 3.1, 4.0, 2.05
+2026-05-12 12:28:17,164 [INFO] coletor.data: [ODDS] Odds para Sporting KC vs LA Galaxy: 3.8, 3.8, 1.85
+2026-05-12 12:28:17,164 [INFO] coletor.data: [ODDS] Odds para Minnesota United vs Colorado Rapids: 1.75, 3.8, 4.33
+2026-05-12 12:28:17,165 [INFO] coletor.data: [ODDS] Odds para Dallas vs Vancouver Whitecaps: 3.7, 3.5, 1.95
+2026-05-12 12:28:17,165 [INFO] coletor.data: [ODDS] Odds para St. Louis City vs Los Angeles FC: 2.62, 3.6, 2.45
+2026-05-12 12:28:17,165 [INFO] coletor.data: [ODDS] Odds para Seattle Sounders vs SJ Earthquakes: 1.95, 3.7, 3.5
+2026-05-12 12:28:17,166 [INFO] coletor.data: [ODDS] Odds para Real Salt Lake vs Houston Dynamo: 1.7, 3.9, 4.5
+2026-05-12 12:28:17,166 [INFO] coletor.data: [ODDS] Odds para San Diego vs Austin: 1.65, 4.33, 4.33
+2026-05-12 12:28:17,166 [INFO] coletor.data: [ODDS] Odds para Motherwell vs Celtic: 4.33, 4.1, 1.72
+2026-05-12 12:28:17,167 [INFO] coletor.data: [ODDS] Odds para Hearts vs Falkirk: 1.45, 4.75, 6.5
+2026-05-12 12:28:17,167 [INFO] coletor.data: [ODDS] Odds para Rangers vs Hibernian: 1.48, 4.75, 5.75
+2026-05-12 12:28:17,167 [INFO] coletor.data: [ODDS] Odds para Stockport County vs Stevenage: 1.83, 3.4, 4.33
+2026-05-12 12:28:17,168 [INFO] coletor.data: [ODDS] Odds para Rosario Central vs Racing Club: 2.25, 3.0, 3.6
+2026-05-12 12:28:17,168 [INFO] coletor.data: [ODDS] Odds para River Plate vs Gimnasia La Plata: 1.5, 3.8, 7.5
+2026-05-12 12:28:17,168 [INFO] coletor.data: [ODDS] Odds para Cruz Azul vs Guadalajara: 2.15, 3.25, 3.6
+2026-05-12 12:28:17,169 [INFO] coletor.data: [ODDS] Odds para Levadiakos vs OFI: 1.61, 4.2, 4.75
+2026-05-12 12:28:17,169 [INFO] coletor.data: [ODDS] Odds para Volos NFC vs Aris: 4.2, 3.4, 1.9
+2026-05-12 12:28:17,169 [INFO] coletor.data: [ODDS] Odds para Olympiakos vs Panathinaikos: 1.44, 4.2, 8.5
+2026-05-12 12:28:17,170 [INFO] coletor.data: [ODDS] Odds para PAOK vs AEK Athens: 1.72, 3.7, 5.0
+2026-05-12 12:28:17,170 [WARNING] coletor.data: [ODDS] Odds não encontradas para Always Ready vs The Strongest. Motivo: could not convert string to float: '-'
+2026-05-12 12:28:17,170 [WARNING] coletor.data: [ODDS] Odds não encontradas para Independiente Petrolero vs Blooming. Motivo: could not convert string to float: '-'
+2026-05-12 12:28:17,171 [WARNING] coletor.data: [ODDS] Odds não encontradas para Bolívar vs Nacional Potosí. Motivo: could not convert string to float: '-'
+2026-05-12 12:28:17,171 [INFO] coletor.data: [ODDS] Odds para Slavia Sofia vs Dobrudzha 1919: 2.87, 3.4, 2.25
+2026-05-12 12:28:17,171 [INFO] coletor.data: [ODDS] Odds para CSKA Sofia vs CSKA 1948 Sofia: 2.2, 3.1, 3.5
+2026-05-12 12:28:17,172 [INFO] coletor.data: [ODDS] Odds para Ludogorets vs Levski Sofia: 1.7, 3.5, 5.25
+2026-05-12 12:28:17,172 [INFO] coletor.data: [ODDS] Odds para Deportivo Pasto vs Deportes Tolima: 2.2, 3.1, 3.5
+2026-05-12 12:28:17,172 [INFO] coletor.data: [ODDS] Odds para Junior FC vs Once Caldas: 1.9, 3.5, 4.2
+2026-05-12 12:28:17,173 [INFO] coletor.data: [ODDS] Odds para Bucheon 1995 vs Jeonbuk Motors: 4.1, 3.3, 1.8
+2026-05-12 12:28:17,173 [INFO] coletor.data: [ODDS] Odds para Anyang vs Sangju Sangmu: 2.4, 3.1, 2.8
+2026-05-12 12:28:17,173 [INFO] coletor.data: [ODDS] Odds para Ulsan vs Jeju United: 1.85, 3.3, 4.0
+2026-05-12 12:28:17,174 [INFO] coletor.data: [ODDS] Odds para ZED FC vs Ghazl El Mehalla: 2.55, 2.75, 2.8
+2026-05-12 12:28:17,174 [INFO] coletor.data: [ODDS] Odds para Haras El Hodood vs Al Mokawloon: 3.25, 2.87, 2.2
+2026-05-12 12:28:17,174 [INFO] coletor.data: [ODDS] Odds para Al Ittihad vs El Geish: 2.5, 2.75, 2.8
+2026-05-12 12:28:17,175 [INFO] coletor.data: [ODDS] Odds para National Bank of Egypt vs Petrojet: 1.75, 3.2, 4.33
+2026-05-12 12:28:17,175 [INFO] coletor.data: [ODDS] Odds para Bnei Sakhnin vs Ironi Kiryat Shmona: 2.8, 3.0, 2.3
+2026-05-12 12:28:17,175 [INFO] coletor.data: [ODDS] Odds para Ashdod vs Hapoel Katamon: 2.3, 3.1, 2.87
+2026-05-12 12:28:17,176 [INFO] coletor.data: [ODDS] Odds para Ironi Tiberias vs Maccabi Bnei Raina: 1.66, 3.6, 4.2
+2026-05-12 12:28:17,176 [INFO] coletor.data: [ODDS] Odds para Maccabi Netanya vs Hapoel Haifa: 2.3, 3.6, 2.5
+2026-05-12 12:28:17,176 [INFO] coletor.data: [ODDS] Odds para Maccabi Tel Aviv vs Maccabi Haifa: 1.57, 3.9, 4.5
+2026-05-12 12:28:17,177 [INFO] coletor.data: [ODDS] Odds para Arka Gdynia vs Górnik Zabrze: 3.5, 3.25, 2.05
+2026-05-12 12:28:17,177 [INFO] coletor.data: [ODDS] Odds para Raków Częstochowa vs Jagiellonia Białystok: 2.05, 3.4, 3.25
+2026-05-12 12:28:17,177 [INFO] coletor.data: [ODDS] Odds para Brage vs Östersunds FK: 2.1, 3.25, 3.2
+2026-05-12 12:28:17,178 [INFO] coletor.data: [ODDS] Odds para Falkenberg vs Varberg BoIS: 2.5, 3.25, 2.6
+2026-05-12 12:28:17,178 [INFO] coletor.data: [ODDS] Odds para Öster vs Sandviken: 1.95, 3.5, 3.3
+2026-05-12 12:28:17,178 [INFO] coletor.data: [ODDS] Odds para Norrköping vs United Nordic: 1.7, 3.7, 4.1
+2026-05-12 12:28:17,179 [INFO] coletor.data: [ODDS] Odds para Helsingborg vs Oddevold: 2.37, 3.3, 2.7
+2026-05-12 12:28:17,179 [INFO] coletor.data: [ODDS] Odds para Carabobo vs Estudiantes Mérida: 1.48, 3.5, 6.25
+2026-05-12 12:28:17,179 [INFO] coletor.data: [ODDS] Odds para Academia Puerto Cabello vs Portuguesa: 1.75, 3.25, 4.5
+2026-05-12 12:28:17,179 [INFO] coletor.data: [AGENDA] Válidos=61, Incompletos=0, Filtrados=160, Duplicados=0
+2026-05-12 12:28:17,180 [INFO] __main__: [TEMPO] Fase 1 concluída em 3.56s
+2026-05-12 12:28:17,186 [INFO] __main__: Exportada agenda para jogos_do_dia/Jogos_do_Dia_RedScore_2026-05-13.csv (61 linhas).
+2026-05-12 12:28:43,869 [INFO] __main__: [TEMPO] Fase 2 concluída em 26.68s (links extraídos: 122)
+2026-05-12 12:35:43,476 [INFO] __main__: [TEMPO] Fase 3 concluída em 419.61s (jogos raspados: 225)
+2026-05-12 12:35:43,581 [WARNING] coletor.data: [VALIDAÇÃO] 6 jogos sem odds válidas (serão salvos com NULL).
+2026-05-12 12:35:43,645 [INFO] __main__: Dados salvos/atualizados na tabela 'jogos' (63 linhas).
+2026-05-12 12:35:43,990 [INFO] __main__: Exportado histórico para dados_redscore.csv (23470 linhas)
+2026-05-12 12:35:44,821 [INFO] __main__: --- Rotina concluída em 477.70s ---
