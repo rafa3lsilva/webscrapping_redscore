@@ -208,7 +208,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Série A",
         "div": "Serie A Betano",
         "league_code": "BRAZIL 1",
-        "temporadas": ["2025", "2024", "2023"]
+        "temporadas": ["2026", "2025", "2024"]
     },
     "Inglaterra - Premier League": {
         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/premier-league",
@@ -216,7 +216,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Premier League",
         "div": "Premier League",
         "league_code": "ENGLAND 1",
-        "temporadas": ["2024-2025", "2023-2024", "2022-2023"]
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
     },
     "Espanha - La Liga": {
         "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
@@ -224,7 +224,7 @@ LIGAS_FLASHSCORE = {
         "liga": "La Liga",
         "div": "La Liga",
         "league_code": "SPAIN 1",
-        "temporadas": ["2024-2025", "2023-2024", "2022-2023"]
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
     },
     "Itália - Serie A": {
         "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
@@ -232,6 +232,6 @@ LIGAS_FLASHSCORE = {
         "liga": "Serie A",
         "div": "Serie A",
         "league_code": "ITALY 1",
-        "temporadas": ["2024-2025", "2023-2024", "2022-2023"]
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
     }
 }
