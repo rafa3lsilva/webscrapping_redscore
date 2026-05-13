@@ -1,3 +1,4 @@
+# dados consolidados
 LIGAS_PERMITIDAS = {
     "África do Sul - Premier League",
     "Albânia - Superliga",
@@ -78,6 +79,9 @@ LIGAS_PERMITIDAS = {
     "Uruguai - Primera Division",
     "Venezuela - Primera Division",
 }
+
+LIMITE_JOGOS_POR_TIME = 50 # faz parte dos dados consolidados
+
 LIGAS_XG = {
     "Alemanha - 2. Bundesliga",
     "Alemanha - Bundesliga",
@@ -108,9 +112,6 @@ LIGAS_XG = {
     "Turquia - Super Lig",
     "Áustria - Tipico Bundesliga",
 }
-
-
-LIMITE_JOGOS_POR_TIME = 50
 
 # URLs Manuais (Garante 100% de acerto para as ligas listadas aqui)
 URLS_MANUAIS = {
@@ -195,4 +196,42 @@ URLS_MANUAIS = {
     #"Sérvia - Super Liga": "https://redscores.com/pt-br/league/serbia/super-liga/531",
     #"Uruguai - Primera Division": "https://redscores.com/pt-br/league/uruguay/primera-division/770",
     #"Venezuela - Primera Division": "https://redscores.com/pt-br/league/venezuela/primera-division/800",
+}
+
+# ==========================================
+# Configuração Dinâmica para Flashscore (v2)
+# ==========================================
+LIGAS_FLASHSCORE = {
+    "Brasil - Serie A": {
+        "url_base": "https://www.flashscore.com.br/futebol/brasil/brasileirao-betano",
+        "pais": "BRAZIL",
+        "liga": "Série A",
+        "div": "Serie A Betano",
+        "league_code": "BRAZIL 1",
+        "temporadas": ["2025", "2024", "2023"]
+    },
+    "Inglaterra - Premier League": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/premier-league",
+        "pais": "ENGLAND",
+        "liga": "Premier League",
+        "div": "Premier League",
+        "league_code": "ENGLAND 1",
+        "temporadas": ["2024-2025", "2023-2024", "2022-2023"]
+    },
+    "Espanha - La Liga": {
+        "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
+        "pais": "SPAIN",
+        "liga": "La Liga",
+        "div": "La Liga",
+        "league_code": "SPAIN 1",
+        "temporadas": ["2024-2025", "2023-2024", "2022-2023"]
+    },
+    "Itália - Serie A": {
+        "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
+        "pais": "ITALY",
+        "liga": "Serie A",
+        "div": "Serie A",
+        "league_code": "ITALY 1",
+        "temporadas": ["2024-2025", "2023-2024", "2022-2023"]
+    }
 }

@@ -22,3 +22,10 @@ executar_scraping.sh
 
 # Perfil temporário do Firefox (criado pelo script)
 firefox_profile/
+
+*.json
+*.txt
+brazil_serie-a-betano-2025.csv
+*.db
+*.csv
+*.log
