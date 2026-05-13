@@ -1,7 +1,7 @@
 import pandas as pd
-import data as dt
+from collector import scraper as dt
 from datetime import date, timedelta, datetime
-import ligas_config as cfg
+from config import leagues as cfg
 import os
 import logging
 import sqlite3
@@ -9,8 +9,8 @@ import random
 import time
 from tqdm import tqdm
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from auth_redscore import REDSCORE_USER, REDSCORE_PASS
-from login_redscore import login_redscore
+from collector.auth.credentials import REDSCORE_USER, REDSCORE_PASS
+from collector.auth.login import login_redscore
 import csv
 import requests
 from urllib.parse import urljoin
@@ -33,12 +33,13 @@ VACUUM_DAY_IS_SUNDAY = True        # ou False se preferir apenas pelo tamanho
 # Configuração Inicial / Logging
 # ================================
 dia = date.today() + timedelta(days=1)
-NOME_DB = "dados.db"
+NOME_DB = "database/dados.db"
 
 # Configura logging com rotação (5 MB, 3 backups)
 # Usa o root logger para capturar logs de todos os módulos (data.py, etc.)
+os.makedirs("output/logs", exist_ok=True)
 _log_handler = RotatingFileHandler(
-    "coletor.log", maxBytes=5*1024*1024, backupCount=3, encoding="utf-8"
+    "output/logs/coletor.log", maxBytes=5*1024*1024, backupCount=3, encoding="utf-8"
 )
 _log_handler.setFormatter(logging.Formatter(
     "%(asctime)s [%(levelname)s] %(name)s: %(message)s"
@@ -95,7 +96,7 @@ def carregar_jogos_existentes(nome_db=NOME_DB):
     return jogos
 
 
-def exportar_para_csv(nome_db=NOME_DB, nome_csv="dados_redscore.csv"):
+def exportar_para_csv(nome_db=NOME_DB, nome_csv="output/dados_redscore.csv"):
     with sqlite3.connect(nome_db) as conn:
         df = pd.read_sql_query("SELECT * FROM jogos", conn)
     df.to_csv(nome_csv, index=False)
@@ -103,7 +104,7 @@ def exportar_para_csv(nome_db=NOME_DB, nome_csv="dados_redscore.csv"):
     log.info(f"Exportado histórico para {nome_csv} ({len(df)} linhas)")
 
 
-def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv=f"jogos_do_dia/Jogos_do_Dia_RedScore_{dia}.csv"):
+def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv=f"output/jogos_do_dia/Jogos_do_Dia_RedScore_{dia}.csv"):
     if not lista_de_jogos:
         print("Nenhuma agenda de jogos de amanhã para exportar.")
         return
@@ -119,7 +120,7 @@ def exportar_jogos_amanha_para_csv(lista_de_jogos, nome_csv=f"jogos_do_dia/Jogos
 # ================================
 def limpar_arquivos_antigos(dias=30):
     """Remove arquivos .csv de auditoria e logs temporários com mais de 'dias'."""
-    pastas = ["auditoria", "jogos_do_dia", "jogos_duplicados", "jogos_faltando_time", "ligas_ignoradas"]
+    pastas = ["output/auditoria", "output/jogos_do_dia", "output/jogos_duplicados", "output/jogos_faltando_time", "output/ligas_ignoradas"]
     count = 0
     limite = time.time() - (dias * 86400)
     
@@ -135,8 +136,8 @@ def limpar_arquivos_antigos(dias=30):
                 except Exception as e:
                     log.warning(f"Erro ao remover {caminho}: {e}")
     
-    # Também limpa arquivos na raiz que seguem o padrão de falhas/duplicados
-    for f in os.listdir("."):
+    # Também limpa arquivos de output que seguem o padrão de falhas/duplicados
+    for f in os.listdir("output"):
         if f.endswith(".csv") and ("falhos" in f or "incompletos" in f or "duplicados" in f):
             if os.path.getmtime(f) < limite:
                 try:
@@ -305,8 +306,8 @@ def rotina_diaria_noturna():
 
         # persistir erros se houver
         if erros_confronto:
-            os.makedirs("auditoria", exist_ok=True)
-            with open(os.path.join("auditoria", f"erros_links_confronto_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
+            os.makedirs("output/auditoria", exist_ok=True)
+            with open(os.path.join("output/auditoria", f"erros_links_confronto_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
                 for row in erros_confronto:
                     writer.writerow(row)
@@ -344,8 +345,8 @@ def rotina_diaria_noturna():
                         time.sleep(2 * (tentativa + 1))  # backoff: 2s, 4s
                     else:
                         log.error(f"[F3] Erro ao raspar time {url} após {MAX_RETRIES_F3} tentativas: {e}")
-                        os.makedirs("auditoria", exist_ok=True)
-                        with open(os.path.join("auditoria", f"erros_raspagem_times_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
+                        os.makedirs("output/auditoria", exist_ok=True)
+                        with open(os.path.join("output/auditoria", f"erros_raspagem_times_{date.today()}.csv"), "a", newline="", encoding="utf-8") as f:
                             writer = csv.writer(f)
                             writer.writerow([url, str(e)])
             # pausa leve para não sobrecarregar

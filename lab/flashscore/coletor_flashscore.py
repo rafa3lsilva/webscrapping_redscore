@@ -6,14 +6,19 @@ import requests
 import re
 import json
 import os
+import sys
 import random
+
+# Permite importar módulos do projeto raiz
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from tqdm import tqdm
-from ligas_config import LIGAS_XG
+from config.leagues import LIGAS_XG
 
 # Configuração de Logging
 logging.basicConfig(

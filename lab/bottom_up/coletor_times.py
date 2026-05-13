@@ -1,14 +1,19 @@
 import sqlite3
 import time
 import logging
+import os
+import sys
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from auth_redscore import REDSCORE_USER, REDSCORE_PASS
-from login_redscore import login_redscore
-import ligas_config as cfg
+# Permite importar módulos do projeto raiz
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..', '..'))
+
+from collector.auth.credentials import REDSCORE_USER, REDSCORE_PASS
+from collector.auth.login import login_redscore
+from config import leagues as cfg
 from urllib.parse import urljoin
 from tqdm import tqdm
 

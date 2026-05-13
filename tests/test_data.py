@@ -1,5 +1,5 @@
 import pytest
-from data import _normalizar, _formatar_data, _converter_stat_para_int
+from collector.scraper import _normalizar, _formatar_data, _converter_stat_para_int
 
 def test_normalizar():
     assert _normalizar("  São Paulo  ") == "sao paulo"

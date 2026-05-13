@@ -1,6 +1,6 @@
 import pandas as pd
 from bs4 import BeautifulSoup
-import ligas_config as cfg
+from config import leagues as cfg
 import time
 import logging
 import csv
@@ -57,18 +57,18 @@ def _converter_stat_para_int(stat_string):
 # Função de Raspagem
 # ==========================
 def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
-    os.makedirs("jogos_faltando_time", exist_ok=True)
-    os.makedirs("jogos_duplicados", exist_ok=True)
-    os.makedirs("ligas_ignoradas", exist_ok=True)
+    os.makedirs("output/jogos_faltando_time", exist_ok=True)
+    os.makedirs("output/jogos_duplicados", exist_ok=True)
+    os.makedirs("output/ligas_ignoradas", exist_ok=True)
 
     data_hoje = date.today().strftime("%Y-%m-%d")
     arquivo_faltando = os.path.join(
-        "jogos_faltando_time", f"faltando_time_{data_hoje}.csv")
+        "output/jogos_faltando_time", f"faltando_time_{data_hoje}.csv")
     arquivo_duplicados = os.path.join(
-        "jogos_duplicados", f"duplicados_{data_hoje}.csv")
-    arquivo_incompletos = f"jogos_agenda_incompletos_{data_hoje}.csv"
+        "output/jogos_duplicados", f"duplicados_{data_hoje}.csv")
+    arquivo_incompletos = f"output/jogos_agenda_incompletos_{data_hoje}.csv"
     arquivo_ignoradas = os.path.join(
-        "ligas_ignoradas", f"ligas_ignoradas_{data_hoje}.csv")
+        "output/ligas_ignoradas", f"ligas_ignoradas_{data_hoje}.csv")
 
     jogos = []
     total_validos, total_incompletos, total_filtrados = 0, 0, 0
@@ -174,7 +174,7 @@ def raspar_jogos_de_amanha(driver, ligas_permitidas_set):
         if total_times_contados != len(jogos) * 2:
             log.warning(
                 f"[AGENDA] ⚠️ Diferença detectada: {total_times_contados} vs esperado {len(jogos) * 2}")
-            with open(os.path.join("jogos_faltando_time", f"auditoria_times_{data_hoje}.csv"), "w", newline="", encoding="utf-8") as f:
+            with open(os.path.join("output/jogos_faltando_time", f"auditoria_times_{data_hoje}.csv"), "w", newline="", encoding="utf-8") as f:
                 writer = csv.writer(f)
                 writer.writerow(["Time", "Ocorrencias"])
                 for time, qtd in contador_times.most_common():
@@ -247,7 +247,7 @@ def obter_links_equipes_confronto(driver, url_confronto, tentativas=2):
             time.sleep(2)
     log.error(
         f"[CONFRONTO] Falhou após {tentativas} tentativas: {url_confronto}")
-    with open("jogos_incompletos.csv", "a", newline="", encoding="utf-8") as f:
+    with open("output/jogos_incompletos.csv", "a", newline="", encoding="utf-8") as f:
         csv.writer(f).writerow([url_confronto, "LINKS_NAO_ENCONTRADOS"])
     return None, None
 
@@ -307,7 +307,7 @@ def raspar_dados_time(driver, time_url, liga_principal, jogos_existentes, ligas_
                 })
             except Exception as e:
                 log.error(f"[TIME] Erro ao processar linha em {time_url}: {e}")
-                with open("erros_raspagem_times.csv", "a", newline="", encoding="utf-8") as f:
+                with open("output/erros_raspagem_times.csv", "a", newline="", encoding="utf-8") as f:
                     csv.writer(f).writerow([time_url, str(e)])
     except Exception as e:
         log.error(f"[TIME] Falha geral ao abrir {time_url}: {e}")
@@ -365,7 +365,7 @@ def processar_dados_raspados(lista_de_jogos):
             log.error(f"[PROCESSAMENTO] Falha ao processar jogo: {e}")
 
     if descartados:
-        with open(f"jogos_processamento_falhos_{date.today()}.csv", "w", newline="", encoding="utf-8") as f:
+        with open(f"output/jogos_processamento_falhos_{date.today()}.csv", "w", newline="", encoding="utf-8") as f:
             writer = csv.DictWriter(f, fieldnames=descartados[0].keys())
             writer.writeheader()
             writer.writerows(descartados)
