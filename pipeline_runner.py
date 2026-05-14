@@ -19,7 +19,7 @@ def run_pipeline():
     log.info("=" * 60)
     
     # Etapa 1: Base (Matches)
-    log.info("\n--- [ETAPA 1] Extração de Partidas e Placares ---")
+    log.info("--- [ETAPA 1] Extração de Partidas e Placares ---")
     try:
         coletar_matches()
     except Exception as e:
@@ -27,7 +27,7 @@ def run_pipeline():
         return # Se falhar aqui, não tem sentido continuar as outras
     
     # Etapa 2: Odds (GraphQL)
-    log.info("\n--- [ETAPA 2] Extração de Odds (Match, HT, Over/Under, BTTS) ---")
+    log.info("--- [ETAPA 2] Extração de Odds (Match, HT, Over/Under, BTTS) ---")
     try:
         coletar_odds()
     except Exception as e:
@@ -35,14 +35,14 @@ def run_pipeline():
         # Continua mesmo se der erro, pois podemos pegar as stats
         
     # Etapa 3: Estatísticas (Feed de Dados)
-    log.info("\n--- [ETAPA 3] Extração de Estatísticas Avançadas (xG, Corners) ---")
+    log.info("--- [ETAPA 3] Extração de Estatísticas Avançadas (xG, Corners) ---")
     try:
         coletar_stats()
     except Exception as e:
         log.error(f"Erro na Etapa 3: {e}")
         
     # Finalização
-    log.info("\n--- [FINALIZAÇÃO] Exportando CSV Unificado ---")
+    log.info("--- [FINALIZAÇÃO] Exportando CSV Unificado ---")
     export_joined_csv()
     
     log.info("=" * 60)

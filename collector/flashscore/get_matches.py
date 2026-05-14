@@ -64,8 +64,8 @@ def coletar_matches():
             if not cfg.get("ativo", True): continue
             
             for temp in cfg.get("temporadas", []):
-                # Usamos a URL base para a temporada mais recente (última da lista agora) e o sufixo para as antigas
-                is_newest = (temp == cfg["temporadas"][-1])
+                # Usamos a URL base para a temporada mais recente (primeira da lista) e o sufixo para as antigas
+                is_newest = (temp == cfg["temporadas"][0])
                 url = cfg["url_base"] if is_newest else f"{cfg['url_base']}-{temp}"
                 
                 league_name = cfg["liga"]
@@ -75,7 +75,7 @@ def coletar_matches():
                 time.sleep(5)
                 expandir_jogos(driver)
                 
-                jogos_raw = driver.execute_script("""
+                jogos_raw = driver.execute_script(r"""
                     const items = document.querySelectorAll('.event__match, .event__round');
                     const data = [];
                     let currentRound = "";
@@ -110,8 +110,23 @@ def coletar_matches():
                 if not jogos_raw: continue
                 log.info(f"Encontrados {len(jogos_raw)} jogos na página.")
                 
+                # Otimização: Se não for a temporada atual, buscamos o que já temos no banco para pular
+                existing_ids = set()
+                if not is_newest:
+                    from database.db_manager import get_connection
+                    with get_connection() as conn:
+                        league_full_name = f"{cfg.get('div', '')} {temp}"
+                        cursor = conn.execute("SELECT match_id FROM matches WHERE league_full_name = ?", (league_full_name,))
+                        existing_ids = {row[0] for row in cursor.fetchall()}
+                    if existing_ids:
+                        log.info(f"Pulando {len(existing_ids)} jogos já existentes no histórico.")
+
                 for j in tqdm(jogos_raw, desc=f"{league_name} {temp}"):
                     match_id = j['Match_ID']
+                    
+                    # Se já temos o jogo no histórico, não fazemos as chamadas de API (dc_1, df_su_1)
+                    if not is_newest and match_id in existing_ids:
+                        continue
                     
                     dt_str, hr = "", ""
                     raw_time = j.get("timeStr", "").strip()
@@ -154,10 +169,11 @@ def coletar_matches():
                             if 'DE' in fields: home_ft = parse_value(fields['DE'])
                             if 'DF' in fields: away_ft = parse_value(fields['DF'])
                             
-                            # Extrair hora oficial via Timestamp (DC) para evitar erro de DOM
+                            # Extrair data e hora oficiais via Timestamp (DC)
                             if 'DC' in fields and fields['DC'].isdigit():
                                 from datetime import datetime
                                 dt_obj = datetime.fromtimestamp(int(fields['DC']))
+                                dt_str = dt_obj.strftime('%d/%m/%Y')
                                 hr = dt_obj.strftime('%H:%M')
                     except: pass
 
@@ -186,23 +202,23 @@ def coletar_matches():
                                         if m_side.group(1) == '1': home_mins.append(minute)
                                         else: away_mins.append(minute)
                             
-                            home_goals_minutes = ", ".join(home_mins)
-                            away_goals_minutes = ", ".join(away_mins)
+                            home_goals_minutes = f"[{', '.join(home_mins)}]"
+                            away_goals_minutes = f"[{', '.join(away_mins)}]"
                     except: pass
 
                     match_data = {
                         "match_id": match_id,
                         "country": cfg.get("pais", ""),
-                        "div": cfg.get("div", ""),
-                        "league": cfg.get("liga", ""),
-                        "season": temp,
+                        "league_full_name": f"{cfg.get('div', '')} {temp}",
+                        "league_code": cfg.get("league_code", ""),
+                        "season": int(temp.split("-")[0]) if "-" in temp else int(temp),
                         "round": j['Round'],
                         "date": dt_str,
                         "time": hr,
-                        "home": j['home'],
-                        "away": j['away'],
-                        "home_score_ft": home_ft,
-                        "away_score_ft": away_ft,
+                        "home_team": j['home'],
+                        "away_team": j['away'],
+                        "home_score": home_ft,
+                        "away_score": away_ft,
                         "home_score_ht": home_ht,
                         "away_score_ht": away_ht,
                         "home_goals_minutes": home_goals_minutes,

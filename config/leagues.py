@@ -208,32 +208,33 @@ LIGAS_FLASHSCORE = {
         "liga": "Série A",
         "div": "Serie A Betano",
         "league_code": "BRAZIL 1",
-        "temporadas": ["2026", "2025", "2024", "2023"]
-    },
-     "Inglaterra - Premier League": {
-         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/premier-league",
-         "pais": "ENGLAND",
-         "liga": "Premier League",
-         "div": "Premier League",
-         "league_code": "ENGLAND 1",
-         "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
-     },
-     "Espanha - La Liga": {
-         "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
-         "pais": "SPAIN",
-         "liga": "La Liga",
-         "div": "La Liga",
-         "league_code": "SPAIN 1",
-         "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
-     },
-     "Itália - Serie A": {
-         "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
-         "pais": "ITALY",
-         "liga": "Serie A",
-         "div": "Serie A",
-         "league_code": "ITALY 1",
-         "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
-     }
+        "temporadas": ["2026"]
+    }#,
+    #  "Inglaterra - Premier League": {
+    #      "url_base": "https://www.flashscore.com.br/futebol/inglaterra/premier-league",
+    #      "pais": "ENGLAND",
+    #      "liga": "Premier League",
+    #      "div": "Premier League",
+    #      "league_code": "ENGLAND 1",
+    #      "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
+    #  },
+    #  "Espanha - La Liga": {
+    #      "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
+    #      "pais": "SPAIN",
+    #      "liga": "La Liga",
+    #      "div": "La Liga",
+    #      "league_code": "SPAIN 1",
+    #      "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
+    #  },
+    #  "Itália - Serie A": {
+    #      "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
+    #      "pais": "ITALY",
+    #      "liga": "Serie A",
+    #      "div": "Serie A",
+    #      "league_code": "ITALY 1",
+    #      "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
+    #  }
 
-    # CTRL+K, CTRL+C
+    # CTRL+K, CTRL+C COMENTAR
+    # CTRL+K, CTRL+U REMOVER COMENTARIO
 }
