@@ -203,18 +203,18 @@ def fetch_odds_graphql(match_id: str, session: requests.Session) -> dict:
             data = r.json().get("data", {}).get("findOddsByEventId", {}).get("odds", [])
             for market in data:
                 bt = market.get("bettingType")
-                pt = market.get("periodType", "ALL")
+                pt = market.get("bettingScope", "FULL_TIME")
                 odds = market.get("odds", [])
-                if bt == "HOME_DRAW_AWAY" and pt == "ALL" and len(odds) >= 3:
-                    if not res.get("Odd_1_FT"):
-                        res["Odd_1_FT"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
-                        res["Odd_X_FT"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
-                        res["Odd_2_FT"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
+                if bt == "HOME_DRAW_AWAY" and pt == "FULL_TIME" and len(odds) >= 3:
+                    if not res.get("Odd_H_FT"):
+                        res["Odd_H_FT"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
+                        res["Odd_D_FT"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
+                        res["Odd_A_FT"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
                 elif bt == "HOME_DRAW_AWAY" and pt == "FIRST_HALF" and len(odds) >= 3:
-                    if not res.get("Odd_1_HT"):
-                        res["Odd_1_HT"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
-                        res["Odd_X_HT"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
-                        res["Odd_2_HT"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
+                    if not res.get("Odd_H_HT"):
+                        res["Odd_H_HT"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
+                        res["Odd_D_HT"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
+                        res["Odd_A_HT"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
                 elif bt == "BOTH_TEAMS_TO_SCORE" and pt == "ALL":
                     if not res.get("BTTS_Yes") and len(odds) >= 2:
                         res["BTTS_Yes"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
@@ -224,8 +224,50 @@ def fetch_odds_graphql(match_id: str, session: requests.Session) -> dict:
                         res["DC_1X"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
                         res["DC_12"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
                         res["DC_X2"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
+                elif bt == "OVER_UNDER":
+                    grouped = {}
+                    prefix = "FT" if pt == "FULL_TIME" else "HT"
+                    for o in odds:
+                        h_val = str(o.get("handicap", {}).get("value", ""))
+                        sel = o.get("selection")
+                        val = parse_value(str(o.get("opening") or o.get("value")))
+                        # Filter to only keep exact .5 lines
+                        if h_val and h_val.endswith(".5") and sel and val is not None:
+                            if h_val not in grouped: grouped[h_val] = {}
+                            grouped[h_val][sel] = val
+                    
+                    for h_val, sels in grouped.items():
+                        if "OVER" in sels and "UNDER" in sels:
+                            res[f"Over_{prefix}_{h_val}"] = sels["OVER"]
+                            res[f"Under_{prefix}_{h_val}"] = sels["UNDER"]
         except: pass
     return res
+
+def reorder_csv_columns(df):
+    meta = ['Match_ID', 'Country', 'Season', 'Div', 'League', 'Date', 'Time', 'Round', 'Home', 'Away']
+    goals = ['Home_Score', 'Away_Score', 'Home_Score_HT', 'Away_Score_HT']
+    
+    odds_p1 = ['Odd_H_FT', 'Odd_D_FT', 'Odd_A_FT', 'Odd_H_HT', 'Odd_D_HT', 'Odd_A_HT', 
+               'Over_FT_2.5', 'Under_FT_2.5', 'BTTS_Yes', 'BTTS_No', 'Over_HT_0.5', 'Under_HT_0.5']
+               
+    odds_p2 = ['Over_FT_0.5', 'Under_FT_0.5', 'Over_FT_1.5', 'Under_FT_1.5', 
+               'Over_FT_3.5', 'Under_FT_3.5', 'Over_FT_4.5', 'Under_FT_4.5',
+               'Over_HT_1.5', 'Under_HT_1.5', 'Over_HT_2.5', 'Under_HT_2.5']
+               
+    odds_p3 = ['DC_1X', 'DC_12', 'DC_X2']
+    
+    all_cols = list(df.columns)
+    
+    desired_order = meta + goals + odds_p1 + odds_p2 + odds_p3
+    final_order = [c for c in desired_order if c in all_cols]
+    
+    remaining = sorted([c for c in all_cols if c not in final_order and c != 'stats_collected'])
+    final_order.extend(remaining)
+    
+    if 'stats_collected' in all_cols:
+        final_order.append('stats_collected')
+        
+    return df[final_order]
 
 # ============================================================
 # Banco de Dados
@@ -250,10 +292,10 @@ def salvar_jogo(conn, jogo: dict):
             try: conn.execute(f'ALTER TABLE jogos ADD COLUMN "{col}" {col_type}')
             except: pass
     cols = list(jogo.keys())
-    placeholders = ', '.join([f':{c}' for c in cols])
+    placeholders = ', '.join(['?'] * len(cols))
     col_names = ', '.join([f'"{c}"' for c in cols])
     sql = f'INSERT OR REPLACE INTO jogos ({col_names}) VALUES ({placeholders})'
-    conn.execute(sql, jogo)
+    conn.execute(sql, [jogo[c] for c in cols])
 
 def processar_jogo(jogo: dict, driver: webdriver.Chrome, session: requests.Session, conn) -> bool:
     match_id = jogo['Match_ID']
@@ -351,7 +393,10 @@ def coletar_liga(driver, session, cfg, max_jogos=None):
             conn.commit()
             time.sleep(random.uniform(0.2, 0.5))
     with sqlite3.connect(DB_NAME, timeout=60) as conn:
-        pd.read_sql("SELECT * FROM jogos", conn).to_csv(CSV_NAME, index=False)
+        df = pd.read_sql("SELECT * FROM jogos", conn)
+        if not df.empty:
+            df = reorder_csv_columns(df)
+            df.to_csv(CSV_NAME, index=False)
     log.info(f"✅ Sucesso. CSV: {CSV_NAME}")
 
 def main():
