@@ -208,7 +208,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Série A",
         "div": "Serie A Betano",
         "league_code": "BRAZIL 1",
-        "temporadas": ["2026", "2025", "2024", "2023"]
+        "temporadas": ["2026"]
     },
     "Brasil - Serie B": {
         "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-b",
@@ -216,7 +216,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Série B",
         "div": "Serie B",
         "league_code": "BRAZIL 2",
-        "temporadas": ["2026", "2025", "2024", "2023"]
+        "temporadas": ["2026"]
     },
     "Brasil - Serie C": {
         "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-c",
@@ -224,7 +224,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Série C",
         "div": "Serie C",
         "league_code": "BRAZIL 3",
-        "temporadas": ["2026", "2025", "2024", "2023"]
+        "temporadas": ["2026"]
     },
     "Inglaterra - Premier League": {
         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/premier-league",
@@ -232,15 +232,55 @@ LIGAS_FLASHSCORE = {
         "liga": "Premier League",
         "div": "Premier League",
         "league_code": "ENGLAND 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
+        "temporadas": ["2025-2026"]
      },
-     "Espanha - La Liga": {
+     "Inglaterra - Championship": {
+         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/championship",
+         "pais": "ENGLAND",
+         "liga": "Championship",
+         "div": "Championship",
+         "league_code": "ENGLAND 2",
+         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
+     },
+     "Inglaterra - League One": {
+         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-one",
+         "pais": "ENGLAND",
+         "liga": "League One",
+         "div": "League One",
+         "league_code": "ENGLAND 3",
+         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
+     },
+    "Inglaterra - League Two": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-two",
+        "pais": "ENGLAND",
+        "liga": "League Two",
+        "div": "League Two",
+        "league_code": "ENGLAND 4",
+        "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
+    },
+    "Inglaterra - National League": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/national-league",
+        "pais": "ENGLAND",
+        "liga": "National League",
+        "div": "National League",
+        "league_code": "ENGLAND 5",
+        "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
+    },
+    "Espanha - La Liga": {
          "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
          "pais": "SPAIN",
          "liga": "La Liga",
          "div": "La Liga",
          "league_code": "SPAIN 1",
-         "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
+         "temporadas": ["2025-2026"]
+     },
+     "Espanha - La Liga 2": {
+         "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga2",
+         "pais": "SPAIN",
+         "liga": "La Liga 2",
+         "div": "La Liga 2",
+         "league_code": "SPAIN 2",
+         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
      },
      "Itália - Serie A": {
          "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
@@ -248,8 +288,16 @@ LIGAS_FLASHSCORE = {
          "liga": "Serie A",
          "div": "Serie A",
          "league_code": "ITALY 1",
-         "temporadas": ["2025-2026", "2024-2025", "2023-2024", "2022-2023"]
-     }
+         "temporadas": ["2025-2026"]
+     },
+     "Itália - Serie B": {
+         "url_base": "https://www.flashscore.com.br/futebol/italia/serie-b",
+         "pais": "ITALY",
+         "liga": "Serie B",
+         "div": "Serie B",
+         "league_code": "ITALY 2",
+         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
+     },
 
     # CTRL+K, CTRL+C COMENTAR
     # CTRL+K, CTRL+U REMOVER COMENTARIO
