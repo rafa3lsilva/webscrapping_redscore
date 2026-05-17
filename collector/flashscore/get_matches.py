@@ -110,22 +110,29 @@ def coletar_matches():
                 if not jogos_raw: continue
                 log.info(f"Encontrados {len(jogos_raw)} jogos na página.")
                 
-                # Otimização: Se não for a temporada atual, buscamos o que já temos no banco para pular
+                # Otimização Inteligente: Carregar IDs já finalizados para evitar chamadas de API repetidas
                 existing_ids = set()
-                if not is_newest:
-                    from database.db_manager import get_connection
-                    with get_connection() as conn:
-                        league_full_name = f"{cfg.get('div', '')} {temp}"
+                from database.db_manager import get_connection
+                with get_connection() as conn:
+                    league_full_name = f"{cfg.get('div', '')} {temp}"
+                    if not is_newest:
+                        # Para temporadas passadas, pulamos tudo que já existe
                         cursor = conn.execute("SELECT match_id FROM matches WHERE league_full_name = ?", (league_full_name,))
-                        existing_ids = {row[0] for row in cursor.fetchall()}
-                    if existing_ids:
-                        log.info(f"Pulando {len(existing_ids)} jogos já existentes no histórico.")
+                    else:
+                        # Para a temporada atual, pulamos apenas jogos que já têm placar finalizado (não são nulos)
+                        cursor = conn.execute(
+                            "SELECT match_id FROM matches WHERE league_full_name = ? AND home_score IS NOT NULL", 
+                            (league_full_name,)
+                        )
+                    existing_ids = {row[0] for row in cursor.fetchall()}
+                if existing_ids:
+                    log.info(f"Pulando {len(existing_ids)} jogos já consolidados no banco.")
 
                 for j in tqdm(jogos_raw, desc=f"{league_name} {temp}"):
                     match_id = j['Match_ID']
                     
-                    # Se já temos o jogo no histórico, não fazemos as chamadas de API (dc_1, df_su_1)
-                    if not is_newest and match_id in existing_ids:
+                    # Se o jogo já está no banco e possui placar definido (ou é histórico), pulamos
+                    if match_id in existing_ids:
                         continue
                     
                     dt_str, hr = "", ""
