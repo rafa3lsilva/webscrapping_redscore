@@ -69,9 +69,11 @@ def fetch_odds_for_match(match_id: str, session: requests.Session) -> dict:
                         if h_val and h_val.endswith(".5") and sel and val is not None:
                             try:
                                 h_num = float(h_val)
-                                # Limites solicitados: FT até 4.5, HT até 2.5
-                                limit = 4.5 if scope == "FULL_TIME" else 2.5
-                                if h_num > limit: continue
+                                # Limites StatsGreen: FT apenas 1.5, 2.5 e 3.5. Ignorar HT O/U.
+                                if scope == "FULL_TIME":
+                                    if h_num not in [1.5, 2.5, 3.5]: continue
+                                else:
+                                    continue # Remover todo o mercado HT de O/U
                                 
                                 h_val_db = h_val.replace(".", "_") # SQLite column names format
                                 if h_val_db not in grouped: grouped[h_val_db] = {}

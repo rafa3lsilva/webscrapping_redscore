@@ -21,16 +21,9 @@ HEADERS = {
 }
 
 STAT_ID_MAP = {
-    '432': 'xG', '499': 'xGOT', '503': 'xA', '501': 'xGOT_Faced',
-    '511': 'Goals_Prevented', '12': 'Possession', '342': 'Passes_Pct',
-    '517': 'Long_Passes_Pct', '467': 'Passes_Final_Third_Pct', '521': 'Through_Passes',
-    '433': 'Crosses_Pct', '34': 'Total_Shots', '13': 'Shots_On_Target',
-    '14': 'Shots_Off_Target', '158': 'Blocked_Shots', '461': 'Shots_Inside_Box',
-    '463': 'Shots_Outside_Box', '459': 'Big_Chances', '457': 'Hit_Woodwork',
-    '471': 'Touches_Box', '16': 'Corners', '15': 'Free_Kicks', '18': 'Throw_Ins',
-    '21': 'Fouls', '17': 'Offsides', '19': 'Goalkeeper_Saves', '475': 'Tackles_Pct',
-    '513': 'Duels_Won', '479': 'Clearances', '434': 'Interceptions',
-    '507': 'Errors_Shot', '509': 'Errors_Goal',
+    '432': 'xG', '499': 'xGOT', '34': 'Total_Shots', 
+    '13': 'Shots_On_Target', '459': 'Big_Chances', '16': 'Corners', 
+    '461': 'Shots_Inside_Box'
 }
 
 def parse_value(raw: str):
@@ -66,9 +59,16 @@ def parse_stats_feed(text: str) -> dict:
                 current_period = 'FT'
                 
         if 'SD' in fields and 'SG' in fields:
+            # Pular 2º tempo completamente
+            if current_period == '2T': continue
+
             stat_id = fields['SD']
             col_name = STAT_ID_MAP.get(stat_id)
             if not col_name: continue
+            
+            # Para HT, manter apenas o "Mini Bloco HT" (xG, Shots_On_Target, Corners)
+            if current_period == 'HT' and col_name not in ['xG', 'Shots_On_Target', 'Corners']:
+                continue
             
             key = f"{stat_id}_{current_period}"
             if key in seen: continue
