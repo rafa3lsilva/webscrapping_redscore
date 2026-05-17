@@ -82,125 +82,10 @@ LIGAS_PERMITIDAS = {
 
 LIMITE_JOGOS_POR_TIME = 50 # faz parte dos dados consolidados
 
-LIGAS_XG = {
-    "Alemanha - 2. Bundesliga",
-    "Alemanha - Bundesliga",
-    "Argentina - Superliga",
-    "Arábia Saudita - Pro League",
-    "Austrália - A-League",
-    "Brasil - Serie A",
-    "Bélgica - Pro League",
-    "Dinamarca - Superliga",
-    "EUA - Major League Soccer",
-    "Escócia - Premiership",
-    "Espanha - La Liga",
-    "França - Ligue 1",
-    "Inglaterra - Championship",
-    "Inglaterra - League One",
-    "Inglaterra - League Two",
-    "Inglaterra - Premier League",
-    "Itália - Serie A",
-    "Japão - J-League",
-    "Japão - J2-League",
-    "México - Liga MX",
-    "Noruega - Eliteserien",
-    "Países Baixos - Eerste Divisie",
-    "Países Baixos - Eredivisie",
-    "Portugal - Primeira Liga",
-    "Suécia - Allsvenskan",
-    "Suíça - Super League",
-    "Turquia - Super Lig",
-    "Áustria - Tipico Bundesliga",
-}
 
-# URLs Manuais (Garante 100% de acerto para as ligas listadas aqui)
-URLS_MANUAIS = {
-    # --- TOP LIGAS (xG + ODDS 100%) ---
-    "Áustria - Tipico Bundesliga": "https://redscores.com/pt-br/league/austria/tipico-bundesliga/181",
-    #"Alemanha - 2. Bundesliga": "https://redscores.com/pt-br/league/germany/2-bundesliga/85",
-    #"Alemanha - Bundesliga": "https://redscores.com/pt-br/league/germany/bundesliga/82",
-    #"Argentina - Superliga": "https://redscores.com/pt-br/league/argentina/superliga/636",
-    #"Arábia Saudita - Pro League": "https://redscores.com/pt-br/league/saudi-arabia/pro-league/944",
-    #"Austrália - A-League": "https://redscores.com/pt-br/league/australia/a-league/1356",
-    #"Brasil - Serie A": "https://redscores.com/pt-br/league/brazil/serie-a/648",
-    #"Bélgica - Pro League": "https://redscores.com/pt-br/league/belgium/pro-league/208",
-    #"Dinamarca - Superliga": "https://redscores.com/pt-br/league/denmark/superliga/271",
-    #"EUA - Major League Soccer": "https://redscores.com/pt-br/league/usa/major-league-soccer/779",
-    #"Escócia - Premiership": "https://redscores.com/pt-br/league/scotland/premiership/501",
-    #"Espanha - La Liga": "https://redscores.com/pt-br/league/spain/la-liga/564",
-    #"França - Ligue 1": "https://redscores.com/pt-br/league/france/ligue-1/301",
-    #"Inglaterra - Championship": "https://redscores.com/pt-br/league/england/championship/9",
-    #"Inglaterra - League One": "https://redscores.com/pt-br/league/england/league-one/12",
-    #"Inglaterra - League Two": "https://redscores.com/pt-br/league/england/league-two/14",
-    #"Inglaterra - Premier League": "https://redscores.com/pt-br/league/england/premier-league/8",
-    #"Itália - Serie A": "https://redscores.com/pt-br/league/italy/serie-a/384",
-    #"Japão - J-League": "https://redscores.com/pt-br/league/japan/j-league/968",
-    #"Japão - J2-League": "https://redscores.com/pt-br/league/japan/j2-league/1022",
-    #"México - Liga MX": "https://redscores.com/pt-br/league/mexico/liga-mx/743",
-    #"Noruega - Eliteserien": "https://redscores.com/pt-br/league/norway/eliteserien/444",
-    #"Países Baixos - Eerste Divisie": "https://redscores.com/pt-br/league/netherlands/eerste-divisie/74",
-    #"Países Baixos - Eredivisie": "https://redscores.com/pt-br/league/netherlands/eredivisie/72",
-    #"Portugal - Primeira Liga": "https://redscores.com/pt-br/league/portugal/primeira-liga/462",
-    #"Suécia - Allsvenskan": "https://redscores.com/pt-br/league/sweden/allsvenskan/573",
-    #"Suíça - Super League": "https://redscores.com/pt-br/league/switzerland/super-league/591",
-    #"Turquia - Super Lig": "https://redscores.com/pt-br/league/turkey/super-lig/600",
-
-    # --- OUTRAS LIGAS ---
-    #"África do Sul - Premier League": "https://redscores.com/pt-br/league/south-africa/premier-league/806",
-    #"Albânia - Superliga": "https://redscores.com/pt-br/league/albania/superliga/172",
-    #"Alemanha - 3. Liga": "https://redscores.com/pt-br/league/germany/3-liga/88",
-    #"Argentina - Primera B Nacional": "https://redscores.com/pt-br/league/argentina/primera-b-nacional/645",
-    #"Argélia - Ligue 1": "https://redscores.com/pt-br/league/algeria/ligue-1/809",
-    #"Armênia - Premier League": "https://redscores.com/pt-br/league/armenia/premier-league/175",
-    #"Bolívia - Liga De Futbol Prof": "https://redscores.com/pt-br/league/bolivia/liga-de-futbol-prof/1098",
-    #"Brasil - Serie B": "https://redscores.com/pt-br/league/brazil/serie-b/651",
-    #"Brasil - Serie C": "https://redscores.com/pt-br/league/brazil/serie-c/657",
-    #"Bulgária - Parva Liga": "https://redscores.com/pt-br/league/bulgaria/parva-liga/229",
-    #"Bélgica - First Division B": "https://redscores.com/pt-br/league/belgium/first-division-b/211",
-    #"Chile - Primera Division": "https://redscores.com/pt-br/league/chile/primera-division/663",
-    #"China - Super League": "https://redscores.com/pt-br/league/china-pr/super-league/989",
-    #"Colômbia - Liga BetPlay": "https://redscores.com/pt-br/league/colombia/liga-betplay/672",
-    #"Coréia do Sul - K League 2": "https://redscores.com/pt-br/league/korea-republic/k-league-2/1362",
-    #"Coréia do Sul - K-League 1": "https://redscores.com/pt-br/league/korea-republic/k-league-1/1034",
-    #"Croácia - 1. HNL": "https://redscores.com/pt-br/league/croatia/1-hnl/244",
-    #"Dinamarca - First Division": "https://redscores.com/pt-br/league/denmark/first-division/274",
-    #"Egito - Premier League": "https://redscores.com/pt-br/league/egypt/premier-league/830",
-    #"Equador - Liga Pro": "https://redscores.com/pt-br/league/ecuador/liga-pro/696",
-    #"Escócia - Championship": "https://redscores.com/pt-br/league/scotland/championship/504",
-    #"Escócia - League One": "https://redscores.com/pt-br/league/scotland/league-one/516",
-    #"Escócia - League Two": "https://redscores.com/pt-br/league/scotland/league-two/519",
-    #"Eslováquia - Fortuna Liga": "https://redscores.com/pt-br/league/slovakia/fortuna-liga/540",
-    #"Eslovênia - 1. SNL": "https://redscores.com/pt-br/league/slovenia/1-snl/555",
-    #"Espanha - La Liga 2": "https://redscores.com/pt-br/league/spain/la-liga-2/567",
-    #"Estônia - Meistriliiga": "https://redscores.com/pt-br/league/estonia/meistriliiga/286",
-    #"Finlândia - Veikkausliiga": "https://redscores.com/pt-br/league/finland/veikkausliiga/292",
-    #"França - Ligue 2": "https://redscores.com/pt-br/league/france/ligue-2/304",
-    #"Grécia - Super League": "https://redscores.com/pt-br/league/greece/super-league/325",
-    #"Hungria - OTP Bank Liga": "https://redscores.com/pt-br/league/hungary/otp-bank-liga/334",
-    #"Inglaterra - National League": "https://redscores.com/pt-br/league/england/national-league/17",
-    #"Irlanda - Premier Division": "https://redscores.com/pt-br/league/republic-of-ireland/premier-division/360",
-    #"Irlanda do Norte - Premiership": "https://redscores.com/pt-br/league/northern-ireland/premiership/438",
-    #"Islândia - Pepsideild": "https://redscores.com/pt-br/league/iceland/pepsideild/345",
-    #"Israel - Ligat ha'Al": "https://redscores.com/pt-br/league/israel/ligat-ha-al/372",
-    #"Itália - Serie B": "https://redscores.com/pt-br/league/italy/serie-b/387",
-    #"Lituânia - A Lyga": "https://redscores.com/pt-br/league/lithuania/a-lyga/405",
-    #"Malásia - Super League": "https://redscores.com/pt-br/league/malaysia/super-league/1052",
-    #"Noruega - Obos-Ligaen": "https://redscores.com/pt-br/league/norway/obos-ligaen/447",
-    #"Paraguai - Division 1": "https://redscores.com/pt-br/league/paraguay/division-1/755",
-    #"País de Gales - Premier League": "https://redscores.com/pt-br/league/wales/premier-league/624",
-    #"Peru - Primera Division": "https://redscores.com/pt-br/league/peru/primera-division/764",
-    #"Polônia - Ekstraklasa": "https://redscores.com/pt-br/league/poland/ekstraklasa/453",
-    #"Portugal - Segunda Liga": "https://redscores.com/pt-br/league/portugal/segunda-liga/465",
-    #"Romênia - Liga 1": "https://redscores.com/pt-br/league/romania/liga-1/474",
-    #"Suécia - Superettan": "https://redscores.com/pt-br/league/sweden/superettan/579",
-    #"Sérvia - Super Liga": "https://redscores.com/pt-br/league/serbia/super-liga/531",
-    #"Uruguai - Primera Division": "https://redscores.com/pt-br/league/uruguay/primera-division/770",
-    #"Venezuela - Primera Division": "https://redscores.com/pt-br/league/venezuela/primera-division/800",
-}
-
-# ==========================================
-# Configuração Dinâmica para Flashscore (v2)
-# ==========================================
+# =========================================================================
+# 🟢 TIER 1: ELITE (xG ~100% + Odds Completas - FOCO EM ATUAL + 2)
+# =========================================================================
 LIGAS_FLASHSCORE = {
     "Brasil - Serie A": {
         "url_base": "https://www.flashscore.com.br/futebol/brasil/brasileirao-betano",
@@ -208,122 +93,271 @@ LIGAS_FLASHSCORE = {
         "liga": "Série A",
         "div": "Serie A Betano",
         "league_code": "BRAZIL 1",
-        "temporadas": ["2026"]
+        "temporadas": ["2026", "2025", "2024"]
     },
-    "Brasil - Serie B": {
-        "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-b",
-        "pais": "BRAZIL",
-        "liga": "Série B",
-        "div": "Serie B",
-        "league_code": "BRAZIL 2",
-        "temporadas": ["2026"]
-    },
-    "Brasil - Serie C": {
-        "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-c",
-        "pais": "BRAZIL",
-        "liga": "Série C",
-        "div": "Serie C",
-        "league_code": "BRAZIL 3",
-        "temporadas": ["2026"]
-    },
+    
     "Inglaterra - Premier League": {
         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/premier-league",
         "pais": "ENGLAND",
         "liga": "Premier League",
         "div": "Premier League",
         "league_code": "ENGLAND 1",
-        "temporadas": ["2025-2026"]
-     },
-     "Inglaterra - Championship": {
-         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/championship",
-         "pais": "ENGLAND",
-         "liga": "Championship",
-         "div": "Championship",
-         "league_code": "ENGLAND 2",
-         "temporadas": ["2025-2026"]
-     },
-     "Inglaterra - League One": {
-         "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-one",
-         "pais": "ENGLAND",
-         "liga": "League One",
-         "div": "League One",
-         "league_code": "ENGLAND 3",
-         "temporadas": ["2025-2026"]
-     },
-    "Inglaterra - League Two": {
-        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-two",
-        "pais": "ENGLAND",
-        "liga": "League Two",
-        "div": "League Two",
-        "league_code": "ENGLAND 4",
-        "temporadas": ["2025-2026"]
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
     },
-    "Inglaterra - National League": {
-        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/national-league",
-        "pais": "ENGLAND",
-        "liga": "National League",
-        "div": "National League",
-        "league_code": "ENGLAND 5",
-        "temporadas": ["2025-2026"]
-    },
+    
     "Espanha - La Liga": {
-         "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
-         "pais": "SPAIN",
-         "liga": "La Liga",
-         "div": "La Liga",
-         "league_code": "SPAIN 1",
-         "temporadas": ["2025-2026"]
-     },
-     "Espanha - La Liga 2": {
-         "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga2",
-         "pais": "SPAIN",
-         "liga": "La Liga 2",
-         "div": "La Liga 2",
-         "league_code": "SPAIN 2",
-         "temporadas": ["2025-2026"]
-     },
-     "Itália - Serie A": {
-         "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
-         "pais": "ITALY",
-         "liga": "Serie A",
-         "div": "Serie A",
-         "league_code": "ITALY 1",
-         "temporadas": ["2025-2026"]
-     },
-     "Itália - Serie B": {
-         "url_base": "https://www.flashscore.com.br/futebol/italia/serie-b",
-         "pais": "ITALY",
-         "liga": "Serie B",
-         "div": "Serie B",
-         "league_code": "ITALY 2",
-         "temporadas": ["2025-2026"]
-     },
-     "Alemanha - Bundesliga": {
-         "url_base": "https://www.flashscore.com.br/futebol/alemanha/bundesliga",
-         "pais": "GERMANY",
-         "liga": "Bundesliga",
-         "div": "Bundesliga",
-         "league_code": "GERMANY 1",
-         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
-     },
-     "Alemanha - 2. Bundesliga": {
-         "url_base": "https://www.flashscore.com.br/futebol/alemanha/2-bundesliga",
-         "pais": "GERMANY",
-         "liga": "2. Bundesliga",
-         "div": "2. Bundesliga",
-         "league_code": "GERMANY 2",
-         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
-     },
-     "Alemanha - 3. Liga": {
-         "url_base": "https://www.flashscore.com.br/futebol/alemanha/3-liga",
-         "pais": "GERMANY",
-         "liga": "3. Liga",
-         "div": "3. Liga",
-         "league_code": "GERMANY 3",
-         "temporadas": ["2025-2026","2024-2025","2023-2024","2022-2023"]
-     }
+        "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga",
+        "pais": "SPAIN",
+        "liga": "La Liga",
+        "div": "La Liga",
+        "league_code": "SPAIN 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
+    "Itália - Serie A": {
+        "url_base": "https://www.flashscore.com.br/futebol/italia/serie-a",
+        "pais": "ITALY",
+        "liga": "Serie A",
+        "div": "Serie A",
+        "league_code": "ITALY 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # CTRL+K, CTRL+C COMENTAR
-    # CTRL+K, CTRL+U REMOVER COMENTARIO
+    "Alemanha - Bundesliga": {
+        "url_base": "https://www.flashscore.com.br/futebol/alemanha/bundesliga",
+        "pais": "GERMANY",
+        "liga": "Bundesliga",
+        "div": "Bundesliga",
+        "league_code": "GERMANY 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "França - Ligue 1": {
+        "url_base": "https://www.flashscore.com.br/futebol/franca/ligue-1",
+        "pais": "FRANCE",
+        "liga": "Ligue 1",
+        "div": "Ligue 1",
+        "league_code": "FRANCE 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Países Baixos - Eredivisie": {
+        "url_base": "https://www.flashscore.com.br/futebol/paises-baixos/eredivisie",
+        "pais": "NETHERLANDS",
+        "liga": "Eredivisie",
+        "div": "Eredivisie",
+        "league_code": "NETHERLANDS 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Portugal - Primeira Liga": {
+        "url_base": "https://www.flashscore.com.br/futebol/portugal/liga-portugal",
+        "pais": "PORTUGAL",
+        "liga": "Primeira Liga",
+        "div": "Primeira Liga",
+        "league_code": "PORTUGAL 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Bélgica - Pro League": {
+        "url_base": "https://www.flashscore.com.br/futebol/belgica/liga-jupiler",
+        "pais": "BELGIUM",
+        "liga": "Pro League",
+        "div": "Pro League",
+        "league_code": "BELGIUM 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "EUA - Major League Soccer": {
+        "url_base": "https://www.flashscore.com.br/futebol/estados-unidos/mls",
+        "pais": "USA",
+        "liga": "MLS",
+        "div": "MLS",
+        "league_code": "USA 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+    
+    "México - Liga MX": {
+        "url_base": "https://www.flashscore.com.br/futebol/mexico/liga-mx",
+        "pais": "MEXICO",
+        "liga": "Liga MX",
+        "div": "Liga MX",
+        "league_code": "MEXICO 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Japão - J-League": {
+        "url_base": "https://www.flashscore.com.br/futebol/japao/liga-j1",
+        "pais": "JAPAN",
+        "liga": "J1 League",
+        "div": "J1 League",
+        "league_code": "JAPAN 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+    
+    "Argentina - Superliga": {
+        "url_base": "https://www.flashscore.com.br/futebol/argentina/liga-profissional",
+        "pais": "ARGENTINA",
+        "liga": "Liga Profesional",
+        "div": "Liga Profesional",
+        "league_code": "ARGENTINA 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+    
+    "Austrália - A-League": {
+        "url_base": "https://www.flashscore.com.br/futebol/australia/a-league",
+        "pais": "AUSTRALIA",
+        "liga": "A-League",
+        "div": "A-League",
+        "league_code": "AUSTRALIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Turquia - Super Lig": {
+        "url_base": "https://www.flashscore.com.br/futebol/turquia/super-lig",
+        "pais": "TURKEY",
+        "liga": "Super Lig",
+        "div": "Super Lig",
+        "league_code": "TURKEY 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Suécia - Allsvenskan": {
+        "url_base": "https://www.flashscore.com.br/futebol/suecia/allsvenskan",
+        "pais": "SWEDEN",
+        "liga": "Allsvenskan",
+        "div": "Allsvenskan",
+        "league_code": "SWEDEN 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+    
+    "Noruega - Eliteserien": {
+        "url_base": "https://www.flashscore.com.br/futebol/noruega/eliteserien",
+        "pais": "NORWAY",
+        "liga": "Eliteserien",
+        "div": "Eliteserien",
+        "league_code": "NORWAY 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+    
+    "Suíça - Super League": {
+        "url_base": "https://www.flashscore.com.br/futebol/suica/super-league",
+        "pais": "SWITZERLAND",
+        "liga": "Super League",
+        "div": "Super League",
+        "league_code": "SWITZERLAND 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Áustria - Tipico Bundesliga": {
+        "url_base": "https://www.flashscore.com.br/futebol/austria/bundesliga",
+        "pais": "AUSTRIA",
+        "liga": "Bundesliga",
+        "div": "Bundesliga",
+        "league_code": "AUSTRIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+    
+    "Dinamarca - Superliga": {
+        "url_base": "https://www.flashscore.com.br/futebol/dinamarca/superliga",
+        "pais": "DENMARK",
+        "liga": "Superliga",
+        "div": "Superliga",
+        "league_code": "DENMARK 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    # =========================================================================
+    # 🟡 TIER 2 E DEMAIS (INATIVAS / COMENTADAS - FÁCIL ATIVAÇÃO SE NECESSÁRIO)
+    # =========================================================================
+    
+    # "Brasil - Serie B": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-b",
+    #     "pais": "BRAZIL",
+    #     "liga": "Série B",
+    #     "div": "Serie B",
+    #     "league_code": "BRAZIL 2",
+    #     "temporadas": ["2026", "2025", "2024"]
+    # },
+    
+    # "Brasil - Serie C": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-c",
+    #     "pais": "BRAZIL",
+    #     "liga": "Série C",
+    #     "div": "Serie C",
+    #     "league_code": "BRAZIL 3",
+    #     "temporadas": ["2026", "2025", "2024"]
+    # },
+    
+    # "Inglaterra - Championship": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/championship",
+    #     "pais": "ENGLAND",
+    #     "liga": "Championship",
+    #     "div": "Championship",
+    #     "league_code": "ENGLAND 2",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Inglaterra - League One": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-one",
+    #     "pais": "ENGLAND",
+    #     "liga": "League One",
+    #     "div": "League One",
+    #     "league_code": "ENGLAND 3",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Inglaterra - League Two": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-two",
+    #     "pais": "ENGLAND",
+    #     "liga": "League Two",
+    #     "div": "League Two",
+    #     "league_code": "ENGLAND 4",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Inglaterra - National League": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/national-league",
+    #     "pais": "ENGLAND",
+    #     "liga": "National League",
+    #     "div": "National League",
+    #     "league_code": "ENGLAND 5",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Espanha - La Liga 2": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga2",
+    #     "pais": "SPAIN",
+    #     "liga": "La Liga 2",
+    #     "div": "La Liga 2",
+    #     "league_code": "SPAIN 2",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Itália - Serie B": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/italia/serie-b",
+    #     "pais": "ITALY",
+    #     "liga": "Serie B",
+    #     "div": "Serie B",
+    #     "league_code": "ITALY 2",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Alemanha - 2. Bundesliga": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/alemanha/2-bundesliga",
+    #     "pais": "GERMANY",
+    #     "liga": "2. Bundesliga",
+    #     "div": "2. Bundesliga",
+    #     "league_code": "GERMANY 2",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # },
+    
+    # "Alemanha - 3. Liga": {
+    #     "url_base": "https://www.flashscore.com.br/futebol/alemanha/3-liga",
+    #     "pais": "GERMANY",
+    #     "liga": "3. Liga",
+    #     "div": "3. Liga",
+    #     "league_code": "GERMANY 3",
+    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    # }
 }
