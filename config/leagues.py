@@ -271,93 +271,93 @@ LIGAS_FLASHSCORE = {
     # 🟡 TIER 2 E DEMAIS (INATIVAS / COMENTADAS - FÁCIL ATIVAÇÃO SE NECESSÁRIO)
     # =========================================================================
     
-    # "Brasil - Serie B": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-b",
-    #     "pais": "BRAZIL",
-    #     "liga": "Série B",
-    #     "div": "Serie B",
-    #     "league_code": "BRAZIL 2",
-    #     "temporadas": ["2026", "2025", "2024"]
-    # },
+    "Brasil - Serie B": {
+        "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-b",
+        "pais": "BRAZIL",
+        "liga": "Série B",
+        "div": "Serie B",
+        "league_code": "BRAZIL 2",
+        "temporadas": ["2026", "2025", "2024"]
+    },
     
-    # "Brasil - Serie C": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-c",
-    #     "pais": "BRAZIL",
-    #     "liga": "Série C",
-    #     "div": "Serie C",
-    #     "league_code": "BRAZIL 3",
-    #     "temporadas": ["2026", "2025", "2024"]
-    # },
+    "Brasil - Serie C": {
+        "url_base": "https://www.flashscore.com.br/futebol/brasil/serie-c",
+        "pais": "BRAZIL",
+        "liga": "Série C",
+        "div": "Serie C",
+        "league_code": "BRAZIL 3",
+        "temporadas": ["2026", "2025", "2024"]
+    },
     
-    # "Inglaterra - Championship": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/championship",
-    #     "pais": "ENGLAND",
-    #     "liga": "Championship",
-    #     "div": "Championship",
-    #     "league_code": "ENGLAND 2",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Inglaterra - Championship": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/championship",
+        "pais": "ENGLAND",
+        "liga": "Championship",
+        "div": "Championship",
+        "league_code": "ENGLAND 2",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Inglaterra - League One": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-one",
-    #     "pais": "ENGLAND",
-    #     "liga": "League One",
-    #     "div": "League One",
-    #     "league_code": "ENGLAND 3",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Inglaterra - League One": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-one",
+        "pais": "ENGLAND",
+        "liga": "League One",
+        "div": "League One",
+        "league_code": "ENGLAND 3",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Inglaterra - League Two": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-two",
-    #     "pais": "ENGLAND",
-    #     "liga": "League Two",
-    #     "div": "League Two",
-    #     "league_code": "ENGLAND 4",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Inglaterra - League Two": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/league-two",
+        "pais": "ENGLAND",
+        "liga": "League Two",
+        "div": "League Two",
+        "league_code": "ENGLAND 4",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Inglaterra - National League": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/inglaterra/national-league",
-    #     "pais": "ENGLAND",
-    #     "liga": "National League",
-    #     "div": "National League",
-    #     "league_code": "ENGLAND 5",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Inglaterra - National League": {
+        "url_base": "https://www.flashscore.com.br/futebol/inglaterra/national-league",
+        "pais": "ENGLAND",
+        "liga": "National League",
+        "div": "National League",
+        "league_code": "ENGLAND 5",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Espanha - La Liga 2": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga2",
-    #     "pais": "SPAIN",
-    #     "liga": "La Liga 2",
-    #     "div": "La Liga 2",
-    #     "league_code": "SPAIN 2",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Espanha - La Liga 2": {
+        "url_base": "https://www.flashscore.com.br/futebol/espanha/laliga2",
+        "pais": "SPAIN",
+        "liga": "La Liga 2",
+        "div": "La Liga 2",
+        "league_code": "SPAIN 2",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Itália - Serie B": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/italia/serie-b",
-    #     "pais": "ITALY",
-    #     "liga": "Serie B",
-    #     "div": "Serie B",
-    #     "league_code": "ITALY 2",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Itália - Serie B": {
+        "url_base": "https://www.flashscore.com.br/futebol/italia/serie-b",
+        "pais": "ITALY",
+        "liga": "Serie B",
+        "div": "Serie B",
+        "league_code": "ITALY 2",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Alemanha - 2. Bundesliga": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/alemanha/2-bundesliga",
-    #     "pais": "GERMANY",
-    #     "liga": "2. Bundesliga",
-    #     "div": "2. Bundesliga",
-    #     "league_code": "GERMANY 2",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # },
+    "Alemanha - 2. Bundesliga": {
+        "url_base": "https://www.flashscore.com.br/futebol/alemanha/2-bundesliga",
+        "pais": "GERMANY",
+        "liga": "2. Bundesliga",
+        "div": "2. Bundesliga",
+        "league_code": "GERMANY 2",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
     
-    # "Alemanha - 3. Liga": {
-    #     "url_base": "https://www.flashscore.com.br/futebol/alemanha/3-liga",
-    #     "pais": "GERMANY",
-    #     "liga": "3. Liga",
-    #     "div": "3. Liga",
-    #     "league_code": "GERMANY 3",
-    #     "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
-    # }
+    "Alemanha - 3. Liga": {
+        "url_base": "https://www.flashscore.com.br/futebol/alemanha/3-liga",
+        "pais": "GERMANY",
+        "liga": "3. Liga",
+        "div": "3. Liga",
+        "league_code": "GERMANY 3",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    }
 }
