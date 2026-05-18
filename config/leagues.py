@@ -142,7 +142,7 @@ LIGAS_FLASHSCORE = {
     },
     
     "Países Baixos - Eredivisie": {
-        "url_base": "https://www.flashscore.com.br/futebol/paises-baixos/eredivisie",
+        "url_base": "https://www.flashscore.com.br/futebol/holanda/eredivisie",
         "pais": "NETHERLANDS",
         "liga": "Eredivisie",
         "div": "Eredivisie",
@@ -169,7 +169,7 @@ LIGAS_FLASHSCORE = {
     },
     
     "EUA - Major League Soccer": {
-        "url_base": "https://www.flashscore.com.br/futebol/estados-unidos/mls",
+        "url_base": "https://www.flashscore.com.br/futebol/eua/mls",
         "pais": "USA",
         "liga": "MLS",
         "div": "MLS",
@@ -196,7 +196,7 @@ LIGAS_FLASHSCORE = {
     },
     
     "Argentina - Superliga": {
-        "url_base": "https://www.flashscore.com.br/futebol/argentina/liga-profissional",
+        "url_base": "https://www.flashscore.com.br/futebol/argentina/liga-profesional",
         "pais": "ARGENTINA",
         "liga": "Liga Profesional",
         "div": "Liga Profesional",

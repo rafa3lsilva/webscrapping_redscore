@@ -94,7 +94,7 @@ def fetch_stats_for_match(match_id: str, session: requests.Session) -> dict:
         
     return {"match_id": match_id, "stats_collected": -1} # Confirmado sem stats
 
-def coletar_stats():
+def coletar_stats(pbar=None):
     session = requests.Session()
     
     with get_connection() as conn:
@@ -107,12 +107,17 @@ def coletar_stats():
         
     log.info(f"Total de jogos sem estatísticas avançadas: {len(pending_ids)}")
     
-    for match_id in tqdm(pending_ids, desc="Coletando Stats"):
+    loop_iter = tqdm(pending_ids, desc="Coletando Stats") if not pbar else pending_ids
+    for match_id in loop_iter:
         stats_data = fetch_stats_for_match(match_id, session)
         if stats_data:
             save_dict("stats", stats_data)
         
         # Se stats_data for None, não salvamos nada (pula e tenta na próxima vez)
+        if pbar:
+            pbar.update(1)
+            pbar.set_description(f"Stats: {match_id}")
+            
         time.sleep(0.3)
 
 if __name__ == "__main__":

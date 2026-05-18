@@ -90,7 +90,7 @@ def fetch_odds_for_match(match_id: str, session: requests.Session) -> dict:
         
     return res
 
-def coletar_odds():
+def coletar_odds(pbar=None):
     session = requests.Session()
     
     with get_connection() as conn:
@@ -103,7 +103,8 @@ def coletar_odds():
         
     log.info(f"Total de jogos sem odds: {len(pending_ids)}")
     
-    for match_id in tqdm(pending_ids, desc="Coletando Odds"):
+    loop_iter = tqdm(pending_ids, desc="Coletando Odds") if not pbar else pending_ids
+    for match_id in loop_iter:
         odds_data = fetch_odds_for_match(match_id, session)
         
         if odds_data is None:
@@ -115,6 +116,10 @@ def coletar_odds():
         else:
             # Visitado com sucesso, mas o servidor confirmou que não tem odds
             save_dict("odds", {"match_id": match_id})
+            
+        if pbar:
+            pbar.update(1)
+            pbar.set_description(f"Odds: {match_id}")
             
         time.sleep(0.2)
 

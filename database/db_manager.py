@@ -9,8 +9,22 @@ DB_DIR.mkdir(parents=True, exist_ok=True)
 DB_NAME = DB_DIR / "flashscore_v3.db"
 CSV_NAME = DB_DIR / "flashscore_v3.csv"
 
+class SQLiteConnectionWrapper:
+    def __init__(self, conn):
+        self.conn = conn
+    def __enter__(self):
+        self.conn.__enter__()
+        return self.conn
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        try:
+            return self.conn.__exit__(exc_type, exc_val, exc_tb)
+        finally:
+            self.conn.close()
+    def __getattr__(self, name):
+        return getattr(self.conn, name)
+
 def get_connection():
-    return sqlite3.connect(DB_NAME, timeout=60)
+    return SQLiteConnectionWrapper(sqlite3.connect(DB_NAME, timeout=60))
 
 def init_db():
     """Initializes the three main tables according to the architecture skill."""

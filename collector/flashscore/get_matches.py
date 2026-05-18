@@ -46,7 +46,7 @@ def parse_value(v):
     try: return int(v)
     except: return None
 
-def coletar_matches():
+def coletar_matches(pbar=None):
     init_db()
     
     options = Options()
@@ -232,6 +232,10 @@ def coletar_matches():
                         "away_goals_minutes": away_goals_minutes
                     }
                     save_dict("matches", match_data)
+                
+                if pbar:
+                    pbar.update(1)
+                    pbar.set_description(f"Matches: {league_name} ({temp})")
                     
     finally:
         driver.quit()
