@@ -69,7 +69,7 @@ def coletar_matches(pbar=None):
                 url = cfg["url_base"] if is_newest else f"{cfg['url_base']}-{temp}"
                 
                 league_name = cfg["liga"]
-                log.info(f"Coletando Matches: {league_name} ({temp})")
+                log.info(f"Coletando Matches: {cfg_name} ({temp})")
                 
                 driver.get(f"{url}/resultados/")
                 time.sleep(5)
@@ -128,7 +128,7 @@ def coletar_matches(pbar=None):
                 if existing_ids:
                     log.info(f"Pulando {len(existing_ids)} jogos já consolidados no banco.")
 
-                for j in tqdm(jogos_raw, desc=f"{league_name} {temp}"):
+                for j in tqdm(jogos_raw, desc=f"{cfg_name} {temp}"):
                     match_id = j['Match_ID']
                     
                     # Se o jogo já está no banco e possui placar definido (ou é histórico), pulamos
@@ -235,7 +235,7 @@ def coletar_matches(pbar=None):
                 
                 if pbar:
                     pbar.update(1)
-                    pbar.set_description(f"Matches: {league_name} ({temp})")
+                    pbar.set_description(f"Matches: {cfg_name} ({temp})")
                     
     finally:
         driver.quit()
