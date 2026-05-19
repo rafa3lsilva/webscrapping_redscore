@@ -22872,10 +22872,8 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-05-02,Oulu,KuPS,Finlândia - Veikkausliiga,2,0,1,0,9,8,6,0,29,86,7,9,2.9,3.4,2.35
 2026-05-02,SJK,Ilves,Finlândia - Veikkausliiga,1,1,0,1,19,8,5,2,71,36,10,3,2.3,3.75,2.75
 2026-05-04,CR Belouizdad,USM Khenchela,Argélia - Ligue 1,3,1,2,1,9,12,4,4,47,49,3,1,1.3,4.1,8.5
-2026-04-05,El Bayadh,JS Kabylie,Argélia - Ligue 1,1,1,1,1,13,11,7,4,47,42,4,6,,,
 2026-05-01,Shirak,Ararat,Armênia - Premier League,0,2,0,0,6,14,2,8,47,48,3,6,2.0,3.3,3.1
 2026-04-28,MC Alger,Oued Akbou,Argélia - Ligue 1,2,1,1,0,15,6,7,3,56,26,3,4,1.57,3.25,5.75
-2026-04-09,MC Alger,El Bayadh,Argélia - Ligue 1,3,0,3,0,10,10,6,5,50,50,2,2,,,
 2026-05-02,Always Ready,Nacional Potosí,Bolívia - Liga De Futbol Prof,3,1,0,0,11,18,4,4,42,33,6,8,1.42,5.0,5.75
 2026-05-02,Aurora,Guabirá,Bolívia - Liga De Futbol Prof,4,2,0,1,15,12,9,3,34,31,4,1,1.57,4.1,4.75
 2026-05-01,HB Køge,B 93,Dinamarca - First Division,3,2,1,2,21,10,8,4,50,36,5,3,1.85,3.9,3.6
@@ -23356,7 +23354,6 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-05-09,TS Galaxy,Chippa United,África Do Sul - Premier League,1,1,0,1,16,6,8,2,99,41,8,3,2.05,3.0,3.6
 2026-05-09,Mamelodi Sundowns,Siwelele,África Do Sul - Premier League,7,4,5,1,19,10,13,6,71,60,4,5,1.22,5.25,13.0
 2026-05-09,Panserraikos,Kifisia,Grécia - Super League,1,2,1,0,11,11,3,4,49,29,6,1,3.5,2.87,2.35
-2026-04-05,JS Saoura,MC Alger,Argélia - Ligue 1,2,1,1,1,14,10,5,8,63,58,2,3,,,
 2026-05-08,Oued Akbou,CR Belouizdad,Argélia - Ligue 1,0,1,0,1,10,14,2,7,74,47,5,3,2.7,2.8,2.62
 2026-05-09,Atromitos,Panaitolikos,Grécia - Super League,1,2,1,0,10,10,3,4,77,62,4,3,1.9,3.4,4.1
 2026-05-09,Larissa,Asteras Tripolis,Grécia - Super League,1,1,1,1,17,9,4,3,55,29,6,4,2.75,3.0,2.75
@@ -23945,11 +23942,8 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-05-15,Tianjin Jinmen Tiger,Chengdu Rongcheng,China - Super League,1,2,1,1,10,12,3,5,37,39,3,5,3.5,3.5,2.05
 2026-05-15,Shanghai Port,Zhejiang,China - Super League,2,2,1,1,10,10,2,3,43,30,5,2,1.9,3.9,3.6
 2026-05-08,MC Alger,MB Rouisset,Argélia - Ligue 1,1,1,1,0,1,1,5,2,66,23,6,2,1.25,4.5,10.0
-2026-04-17,MB Rouisset,JS Kabylie,Argélia - Ligue 1,1,1,1,0,0,0,0,0,0,0,0,0,2.75,2.9,2.4
-2026-04-09,MC Oran,MB Rouisset,Argélia - Ligue 1,2,1,0,1,14,3,6,2,47,40,6,1,,,
 2026-05-15,Dalian Zhixing,Qingdao Youth Island,China - Super League,2,3,0,1,26,11,7,5,99,25,7,2,2.1,3.5,3.4
 2026-05-15,Beijing Guoan,Qingdao Hainiu,China - Super League,4,2,3,0,22,10,7,5,32,19,1,2,1.36,5.25,7.5
-2026-04-05,ES Sétif,Ben Aknoun,Argélia - Ligue 1,1,1,1,1,10,2,6,2,103,57,8,3,,,
 2026-05-12,USM Alger,Mostaganem,Argélia - Ligue 1,1,1,1,1,14,5,4,1,58,19,8,1,,,
 2026-05-07,Paradou AC,CS Constantine,Argélia - Ligue 1,5,3,2,1,14,8,8,7,43,50,5,6,2.55,2.87,2.7
 2026-05-08,USM Khenchela,El Bayadh,Argélia - Ligue 1,2,1,1,0,9,8,5,4,65,65,7,4,1.27,4.75,9.0
@@ -23961,3 +23955,45 @@ Data,Home,Away,Liga,H_Gols_FT,A_Gols_FT,H_Gols_HT,A_Gols_HT,H_Chute,A_Chute,H_Ch
 2026-05-16,Maccabi Tel Aviv,Beitar Jerusalem,Israel - Ligat Ha'Al,1,2,0,0,17,11,5,5,98,95,6,6,2.75,3.6,2.1
 2026-05-10,Ararat-Armenia,Noah,Armênia - Premier League,0,4,0,2,9,13,3,7,24,28,6,5,,,
 2026-04-18,Ararat,Pyunik,Armênia - Premier League,1,0,0,0,7,14,2,3,20,34,2,8,,,
+2026-05-16,Lillestrøm,Sandefjord,Noruega - Eliteserien,3,1,1,0,14,12,6,6,55,32,6,3,1.8,3.7,4.1
+2026-05-16,Molde,Kristiansund,Noruega - Eliteserien,1,0,1,0,10,11,4,2,48,35,3,6,1.4,4.75,7.0
+2026-05-16,Mariehamn,KuPS,Finlândia - Veikkausliiga,1,1,1,1,3,23,2,10,20,87,1,9,6.25,4.0,1.45
+2026-05-16,Gnistan,Jaro,Finlândia - Veikkausliiga,5,0,1,0,15,11,8,2,42,50,4,3,2.15,3.3,2.9
+2026-05-16,GAIS,Degerfors,Suécia - Allsvenskan,1,1,1,0,15,9,1,2,42,42,6,3,1.7,3.5,5.25
+2026-05-17,Hammarby,Malmö FF,Suécia - Allsvenskan,4,1,3,1,28,10,12,3,45,25,10,3,1.42,5.0,6.25
+2026-05-16,Rosenborg,Aalesund,Noruega - Eliteserien,2,3,1,1,13,9,4,4,72,33,11,0,1.61,4.1,5.0
+2026-05-16,Brann,KFUM,Noruega - Eliteserien,2,1,2,0,14,6,9,3,109,37,6,0,1.57,4.1,5.25
+2026-05-16,Al Akhdoud,Al Khaleej,Arábia Saudita - Pro League,3,1,1,1,11,12,5,6,38,44,3,6,4.5,4.1,1.55
+2026-05-16,Al Ahli,Al Kholood,Arábia Saudita - Pro League,3,0,3,0,15,4,5,2,44,29,4,2,1.22,5.25,9.0
+2026-05-14,Al Fateh,Al Najma,Arábia Saudita - Pro League,2,0,1,0,17,13,6,4,26,35,5,5,1.55,4.0,5.0
+2026-05-17,Al Shabab,Al Ittihad,Arábia Saudita - Pro League,3,2,0,0,13,15,9,6,27,43,4,11,2.6,3.9,2.25
+2026-05-17,Catanzaro,Palermo,Itália - Serie B,3,0,3,0,13,9,6,1,30,46,6,2,2.45,3.1,3.1
+2026-05-16,HJK,Ilves,Finlândia - Veikkausliiga,2,2,1,1,15,14,5,6,83,53,3,4,1.61,3.9,4.2
+2026-05-16,SJK,Inter Turku,Finlândia - Veikkausliiga,1,3,0,2,22,8,8,5,57,24,10,2,3.4,3.5,1.95
+2026-05-16,Wuhan Three Towns,Shenyang Urban,China - Super League,2,2,2,1,13,15,4,6,26,59,3,7,2.45,3.25,2.87
+2026-05-16,Viking,Start,Noruega - Eliteserien,6,3,1,3,16,9,8,5,67,34,12,2,1.16,7.0,15.0
+2026-05-16,Bodø / Glimt,Tromsø,Noruega - Eliteserien,5,0,1,0,19,2,10,2,101,11,4,1,1.42,4.75,7.0
+2026-05-16,Shandong Taishan,Chongqing Tongliang Long,China - Super League,3,1,2,0,15,8,6,3,73,19,4,4,1.33,5.25,8.5
+2026-05-16,Yunnan Yukun,Shanghai Shenhua,China - Super League,1,0,0,0,13,12,6,1,42,51,3,4,1.85,4.1,3.6
+2026-04-17,MB Rouisset,JS Kabylie,Argélia - Ligue 1,1,1,1,0,0,0,0,0,0,0,0,0,2.75,2.9,2.4
+2026-04-05,El Bayadh,JS Kabylie,Argélia - Ligue 1,1,1,1,1,13,11,7,4,47,42,4,6,,,
+2026-04-05,JS Saoura,MC Alger,Argélia - Ligue 1,2,1,1,1,14,10,5,8,63,58,2,3,,,
+2026-04-05,ES Sétif,Ben Aknoun,Argélia - Ligue 1,1,1,1,1,10,2,6,2,103,57,8,3,,,
+2026-04-09,MC Alger,El Bayadh,Argélia - Ligue 1,3,0,3,0,10,10,6,5,50,50,2,2,,,
+2026-05-16,ES Sétif,CR Belouizdad,Argélia - Ligue 1,3,1,3,1,6,7,3,2,49,68,1,5,3.25,2.75,2.3
+2026-05-07,MC Oran,ASO Chlef,Argélia - Ligue 1,1,0,0,0,13,8,9,3,56,42,7,4,1.48,3.5,7.0
+2026-04-09,MC Oran,MB Rouisset,Argélia - Ligue 1,2,1,0,1,14,3,6,2,47,40,6,1,,,
+2026-05-05,Smouha,Zamalek,Egito - Premier League,0,1,0,0,9,7,1,3,44,47,5,6,5.25,3.1,1.72
+2026-05-05,Ceramica Cleopatra,Pyramids FC,Egito - Premier League,1,1,1,1,9,11,5,3,14,53,3,7,5.0,3.1,1.75
+2026-05-05,Al Ahly,ENPPI,Egito - Premier League,3,0,2,0,11,5,4,3,55,65,2,6,1.36,4.75,7.5
+2026-05-17,Paide,Levadia,Estônia - Meistriliiga,1,3,1,3,10,18,4,4,42,87,2,6,5.0,4.0,1.5
+2026-05-16,Bryne,Strømmen,Noruega - Obos-Ligaen,4,2,2,1,13,11,7,5,76,63,7,2,1.66,3.9,4.75
+2026-05-17,Kuressaare,Nõmme Kalju,Estônia - Meistriliiga,0,2,0,1,12,13,3,4,65,49,5,1,8.0,4.75,1.3
+2026-05-16,Harju Jalgpallikool,Vaprus,Estônia - Meistriliiga,1,2,1,1,18,11,5,4,66,68,5,8,2.4,3.4,2.45
+2026-05-16,Strømsgodset,Ranheim,Noruega - Obos-Ligaen,5,4,0,1,28,11,9,4,83,45,6,3,1.61,4.33,4.33
+2026-05-16,Haugesund,Åsane,Noruega - Obos-Ligaen,1,1,1,1,12,10,6,5,70,49,8,4,1.38,5.25,6.25
+2026-05-15,Sandnes Ulf,Egersund,Noruega - Obos-Ligaen,4,2,2,0,15,10,5,3,41,76,2,3,2.9,3.5,2.25
+2026-05-16,Lyn,Kongsvinger,Noruega - Obos-Ligaen,0,3,0,2,14,27,2,9,39,50,2,5,2.7,3.6,2.37
+2026-05-16,Odd,Moss,Noruega - Obos-Ligaen,2,3,2,1,14,13,5,7,69,60,3,7,1.57,4.33,5.0
+2026-05-16,Hødd,Sogndal,Noruega - Obos-Ligaen,2,2,2,0,13,25,7,7,45,90,3,13,2.9,3.5,2.25
+2026-05-16,Stabæk,Raufoss,Noruega - Obos-Ligaen,1,2,0,2,24,6,8,4,81,28,12,3,1.38,5.0,6.5
