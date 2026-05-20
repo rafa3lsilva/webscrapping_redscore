@@ -2,12 +2,16 @@ import sqlite3
 import pandas as pd
 import logging
 from pathlib import Path
+import threading
 
 # Configure DB path
 DB_DIR = Path(__file__).parent.parent / "data"
 DB_DIR.mkdir(parents=True, exist_ok=True)
 DB_NAME = DB_DIR / "flashscore_v3.db"
 CSV_NAME = DB_DIR / "flashscore_v3.csv"
+
+# Global lock to ensure thread-safe writes to SQLite
+db_write_lock = threading.Lock()
 
 class SQLiteConnectionWrapper:
     def __init__(self, conn):
@@ -78,26 +82,27 @@ def save_dict(table: str, data: dict):
     """Generic function to insert or update a dictionary into a specific table."""
     if not data: return
     
-    with get_connection() as conn:
-        # Dynamically add columns if they don't exist
-        cursor = conn.execute(f"PRAGMA table_info({table})")
-        existing_cols = {row[1] for row in cursor.fetchall()}
+    with db_write_lock:
+        with get_connection() as conn:
+            # Dynamically add columns if they don't exist
+            cursor = conn.execute(f"PRAGMA table_info({table})")
+            existing_cols = {row[1] for row in cursor.fetchall()}
         
-        for col in data.keys():
-            if col not in existing_cols:
-                col_type = "REAL" if isinstance(data[col], (int, float)) else "TEXT"
-                try: 
-                    conn.execute(f'ALTER TABLE {table} ADD COLUMN "{col}" {col_type}')
-                except Exception as e:
-                    logging.warning(f"Error adding column {col}: {e}")
-        
-        # Insert or Replace
-        cols = list(data.keys())
-        placeholders = ', '.join(['?'] * len(cols))
-        col_names = ', '.join([f'"{c}"' for c in cols])
-        sql = f'INSERT OR REPLACE INTO {table} ({col_names}) VALUES ({placeholders})'
-        conn.execute(sql, [data[c] for c in cols])
-        conn.commit()
+            for col in data.keys():
+                if col not in existing_cols:
+                    col_type = "REAL" if isinstance(data[col], (int, float)) else "TEXT"
+                    try: 
+                        conn.execute(f'ALTER TABLE {table} ADD COLUMN "{col}" {col_type}')
+                    except Exception as e:
+                        logging.warning(f"Error adding column {col}: {e}")
+            
+            # Insert or Replace
+            cols = list(data.keys())
+            placeholders = ', '.join(['?'] * len(cols))
+            col_names = ', '.join([f'"{c}"' for c in cols])
+            sql = f'INSERT OR REPLACE INTO {table} ({col_names}) VALUES ({placeholders})'
+            conn.execute(sql, [data[c] for c in cols])
+            conn.commit()
 
 def export_joined_csv():
     """Performs a full outer-like join to export the complete dataset."""

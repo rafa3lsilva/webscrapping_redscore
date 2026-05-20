@@ -3,6 +3,8 @@ import time
 import re
 import requests
 import logging
+import concurrent.futures
+import threading
 from pathlib import Path
 from tqdm import tqdm
 
@@ -94,9 +96,7 @@ def fetch_stats_for_match(match_id: str, session: requests.Session) -> dict:
         
     return {"match_id": match_id, "stats_collected": -1} # Confirmado sem stats
 
-def coletar_stats(pbar=None):
-    session = requests.Session()
-    
+def coletar_stats(pbar=None, max_workers=4):
     with get_connection() as conn:
         # Get matches that don't have stats collected yet
         cursor = conn.execute("""
@@ -106,19 +106,33 @@ def coletar_stats(pbar=None):
         pending_ids = [row[0] for row in cursor.fetchall()]
         
     log.info(f"Total de jogos sem estatísticas avançadas: {len(pending_ids)}")
+    if not pending_ids:
+        return
+        
+    pbar_lock = threading.Lock()
+    thread_local = threading.local()
     
-    loop_iter = tqdm(pending_ids, desc="Coletando Stats") if not pbar else pending_ids
-    for match_id in loop_iter:
+    def worker(match_id):
+        # Garante session persistente por thread
+        if not hasattr(thread_local, "session"):
+            thread_local.session = requests.Session()
+        session = thread_local.session
+        
         stats_data = fetch_stats_for_match(match_id, session)
         if stats_data:
             save_dict("stats", stats_data)
-        
-        # Se stats_data for None, não salvamos nada (pula e tenta na próxima vez)
-        if pbar:
-            pbar.update(1)
-            pbar.set_description(f"Stats: {match_id}")
             
-        time.sleep(0.3)
+        if pbar:
+            with pbar_lock:
+                pbar.update(1)
+                pbar.set_description(f"Stats: {match_id}")
+                
+        # Delay de segurança por thread para suavizar o ritmo de requisições
+        time.sleep(0.4)
+        
+    with concurrent.futures.ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # Consome o gerador para forçar a execução completa de todas as threads
+        list(executor.map(worker, pending_ids))
 
 if __name__ == "__main__":
     coletar_stats()

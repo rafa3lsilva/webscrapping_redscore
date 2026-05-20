@@ -78,6 +78,7 @@ LIGAS_PERMITIDAS = {
     "Turquia - Super Lig",
     "Uruguai - Primera Division",
     "Venezuela - Primera Division",
+    "EUA - USL Championship",
 }
 
 LIMITE_JOGOS_POR_TIME = 50 # faz parte dos dados consolidados
@@ -267,6 +268,15 @@ LIGAS_FLASHSCORE = {
         "temporadas": ["2025-2026"]
     },
 
+    "Eslováquia - Fortuna Liga": {
+        "url_base": "https://www.flashscore.com.br/futebol/eslovaquia/nike-liga",
+        "pais": "SLOVAKIA",
+        "liga": "Nike Liga",
+        "div": "Nike Liga",
+        "league_code": "SLOVAKIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
     # =========================================================================
     # 🟡 TIER 2 E DEMAIS (INATIVAS / COMENTADAS - FÁCIL ATIVAÇÃO SE NECESSÁRIO)
     # =========================================================================
@@ -359,6 +369,177 @@ LIGAS_FLASHSCORE = {
         "div": "3. Liga",
         "league_code": "GERMANY 3",
         "temporadas": ["2025-2026"]
+    },
+
+    "Argentina - Primera B Nacional": {
+        "url_base": "https://www.flashscore.com.br/futebol/argentina/primera-nacional",
+        "pais": "ARGENTINA",
+        "liga": "Primera Nacional",
+        "div": "Primera Nacional",
+        "league_code": "ARGENTINA 2",
+        "temporadas": ["2026","2025","2024"]
+    },
+
+    "Bolívia - Liga De Futbol Prof": {
+        "url_base": "https://www.flashscore.com.br/futebol/bolivia/divisao-profissional",
+        "pais": "BOLIVIA",
+        "liga": "Divisão Profissional",
+        "div": "Divisão Profissional",
+        "league_code": "BOLIVIA 1",
+        "temporadas": ["2026","2025","2024"]
+    },
+
+    "Coréia do Sul - K League 2": {
+        "url_base": "https://www.flashscore.com.br/futebol/coreia-do-sul/liga-k-2",
+        "pais": "SOUTH KOREA",
+        "liga": "K League 2",
+        "div": "K League 2",
+        "league_code": "SOUTH KOREA 2",
+        "temporadas": ["2026","2025","2024"]
+    },
+
+    "EUA - USL Championship": {
+        "url_base": "https://www.flashscore.com.br/futebol/eua/campeonato-da-usl",
+        "pais": "USA",
+        "liga": "USL Championship",
+        "div": "USL Championship",
+        "league_code": "USA 2",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "Egito - Premier League": {
+        "url_base": "https://www.flashscore.com.br/futebol/egito/primeira-liga",
+        "pais": "EGYPT",
+        "liga": "Premier League",
+        "div": "Primeira Liga",
+        "league_code": "EGYPT 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Escócia - Championship": {
+        "url_base": "https://www.flashscore.com.br/futebol/escocia/championship",
+        "pais": "SCOTLAND",
+        "liga": "Championship",
+        "div": "Championship",
+        "league_code": "SCOTLAND 2",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Eslovênia - 1. SNL": {
+        "url_base": "https://www.flashscore.com.br/futebol/eslovenia/prva-liga",
+        "pais": "SLOVENIA",
+        "liga": "Prva Liga",
+        "div": "Prva Liga",
+        "league_code": "SLOVENIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Estônia - Meistriliiga": {
+        "url_base": "https://www.flashscore.com.br/futebol/estonia/meistriliiga",
+        "pais": "ESTONIA",
+        "liga": "Meistriliiga",
+        "div": "Meistriliiga",
+        "league_code": "ESTONIA 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "Finlândia - Veikkausliiga": {
+        "url_base": "https://www.flashscore.com.br/futebol/finlandia/veikkausliiga",
+        "pais": "FINLAND",
+        "liga": "Veikkausliiga",
+        "div": "Veikkausliiga",
+        "league_code": "FINLAND 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "Hungria - OTP Bank Liga": {
+        "url_base": "https://www.flashscore.com.br/futebol/hungria/nb-i",
+        "pais": "HUNGARY",
+        "liga": "NB I",
+        "div": "NB I",
+        "league_code": "HUNGARY 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Israel - Ligat ha'Al": {
+        "url_base": "https://www.flashscore.com.br/futebol/israel/ligat-ha-al",
+        "pais": "ISRAEL",
+        "liga": "Ligat ha'Al",
+        "div": "Ligat ha'Al",
+        "league_code": "ISRAEL 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Lituânia - A Lyga": {
+        "url_base": "https://www.flashscore.com.br/futebol/lituania/toplyga",
+        "pais": "LITHUANIA",
+        "liga": "A Lyga",
+        "div": "Toplyga",
+        "league_code": "LITHUANIA 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "Malásia - Super League": {
+        "url_base": "https://www.flashscore.com.br/futebol/malasia/super-liga",
+        "pais": "MALAYSIA",
+        "liga": "Super League",
+        "div": "Super Liga",
+        "league_code": "MALAYSIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Paraguai - Division 1": {
+        "url_base": "https://www.flashscore.com.br/futebol/paraguai/copa-de-primera",
+        "pais": "PARAGUAY",
+        "liga": "Division 1",
+        "div": "Copa de Primera",
+        "league_code": "PARAGUAY 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "País de Gales - Premier League": {
+        "url_base": "https://www.flashscore.com.br/futebol/pais-de-gales/cymru-premier",
+        "pais": "WALES",
+        "liga": "Cymru Premier",
+        "div": "Cymru Premier",
+        "league_code": "WALES 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Peru - Primera Division": {
+        "url_base": "https://www.flashscore.com.br/futebol/peru/liga-1",
+        "pais": "PERU",
+        "liga": "Primera Division",
+        "div": "Liga 1",
+        "league_code": "PERU 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "Uruguai - Primera Division": {
+        "url_base": "https://www.flashscore.com.br/futebol/uruguai/liga-auf-uruguaia",
+        "pais": "URUGUAY",
+        "liga": "Primera Division",
+        "div": "Liga AUF Uruguaia",
+        "league_code": "URUGUAY 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "Venezuela - Primera Division": {
+        "url_base": "https://www.flashscore.com.br/futebol/venezuela/liga-futve",
+        "pais": "VENEZUELA",
+        "liga": "Primera Division",
+        "div": "Liga FUTVE",
+        "league_code": "VENEZUELA 1",
+        "temporadas": ["2026", "2025", "2024"]
+    },
+
+    "África do Sul - Premier League": {
+        "url_base": "https://www.flashscore.com.br/futebol/africa-do-sul/premiership",
+        "pais": "SOUTH AFRICA",
+        "liga": "Premiership",
+        "div": "Premiership",
+        "league_code": "SOUTH AFRICA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
     },
 
     
@@ -544,5 +725,32 @@ LIGAS_FLASHSCORE = {
         "div": "First Division",
         "league_code": "DENMARK 2",
         "temporadas": ["2025-2026"]
+    },
+
+    "Armênia - Premier League": {
+        "url_base": "https://www.flashscore.com.br/futebol/armenia/premier-league",
+        "pais": "ARMENIA",
+        "liga": "Premier League",
+        "div": "Premier League",
+        "league_code": "ARMENIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Irlanda do Norte - Premiership": {
+        "url_base": "https://www.flashscore.com.br/futebol/irlanda-do-norte/nifl-premiership",
+        "pais": "NORTHERN IRELAND",
+        "liga": "NIFL Premiership",
+        "div": "NIFL Premiership",
+        "league_code": "NORTHERN IRELAND 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+    },
+
+    "Sérvia - Super Liga": {
+        "url_base": "https://www.flashscore.com.br/futebol/servia/superliga",
+        "pais": "SERBIA",
+        "liga": "Super Liga",
+        "div": "Super Liga",
+        "league_code": "SERBIA 1",
+        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
     }
 }
