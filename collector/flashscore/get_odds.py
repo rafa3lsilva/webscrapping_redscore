@@ -36,27 +36,58 @@ def fetch_odds_for_match(match_id: str, session: requests.Session) -> dict:
                 # Match Odds
                 if bt == "HOME_DRAW_AWAY" and scope == "FULL_TIME" and len(odds) >= 3:
                     if not res.get("odd_h_ft"):
-                        res["odd_h_ft"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
-                        res["odd_d_ft"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
-                        res["odd_a_ft"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
+                        non_draw = []
+                        d_val = None
+                        for o in odds:
+                            val = parse_value(str(o.get("opening") or o.get("value")))
+                            if o.get("eventParticipantId") is None:
+                                d_val = val
+                            else:
+                                non_draw.append(val)
+                        if len(non_draw) >= 2:
+                            res["odd_h_ft"] = non_draw[0]
+                            res["odd_a_ft"] = non_draw[1]
+                        res["odd_d_ft"] = d_val
                 elif bt == "HOME_DRAW_AWAY" and scope == "FIRST_HALF" and len(odds) >= 3:
                     if not res.get("odd_h_ht"):
-                        res["odd_h_ht"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
-                        res["odd_d_ht"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
-                        res["odd_a_ht"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
+                        non_draw = []
+                        d_val = None
+                        for o in odds:
+                            val = parse_value(str(o.get("opening") or o.get("value")))
+                            if o.get("eventParticipantId") is None:
+                                d_val = val
+                            else:
+                                non_draw.append(val)
+                        if len(non_draw) >= 2:
+                            res["odd_h_ht"] = non_draw[0]
+                            res["odd_a_ht"] = non_draw[1]
+                        res["odd_d_ht"] = d_val
                 
                 # BTTS
                 elif bt == "BOTH_TEAMS_TO_SCORE" and scope == "FULL_TIME":
                     if not res.get("btts_yes") and len(odds) >= 2:
-                        res["btts_yes"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
-                        res["btts_no"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
+                        for o in odds:
+                            val = parse_value(str(o.get("opening") or o.get("value")))
+                            if o.get("bothTeamsToScore") is True:
+                                res["btts_yes"] = val
+                            elif o.get("bothTeamsToScore") is False:
+                                res["btts_no"] = val
                 
                 # Double Chance
                 elif bt == "DOUBLE_CHANCE" and scope == "FULL_TIME":
                     if not res.get("dc_1x") and len(odds) >= 3:
-                        res["dc_1x"] = parse_value(str(odds[0].get("opening") or odds[0].get("value")))
-                        res["dc_12"] = parse_value(str(odds[1].get("opening") or odds[1].get("value")))
-                        res["dc_x2"] = parse_value(str(odds[2].get("opening") or odds[2].get("value")))
+                        non_draw = []
+                        dc_12_val = None
+                        for o in odds:
+                            val = parse_value(str(o.get("opening") or o.get("value")))
+                            if o.get("eventParticipantId") is None:
+                                dc_12_val = val
+                            else:
+                                non_draw.append(val)
+                        if len(non_draw) >= 2:
+                            res["dc_1x"] = non_draw[0]
+                            res["dc_x2"] = non_draw[1]
+                        res["dc_12"] = dc_12_val
                 
                 # Over/Under
                 elif bt == "OVER_UNDER":

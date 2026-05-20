@@ -1,13 +1,13 @@
 id_jogo,pais,liga,div,temporada,rodada,data,hora,home,away,h_gols_ft,a_gols_ft,h_gols_ht,a_gols_ht,h_min_gols,a_min_gols,odd_h_ft,odd_d_ft,odd_a_ft,odd_h_ht,odd_d_ht,odd_a_ht,over_1.5_ft,under_1.5_ft,over_2.5_ft,under_2.5_ft,over_3.5_ft,under_3.5_ft,btts_yes,btts_no,dc_1x,dc_12,dc_x2
-IRNUPXJO,SWEDEN,Allsvenskan 2026,SWEDEN 1,2026,RODADA 8,19/05/2026,10:00,Orgryte,Göteborg,2.0,3.0,1.0,2.0,"[37, 87]","[21, 28, 90]",2.85,2.1,3.4,3.5,2.62,2.3,1.19,4.2,1.65,2.15,2.5,1.48,1.55,2.28,1.25,1.55,1.32
-fFlRrJd4,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,09:00,Qingdao West Coast,Beijing Guoan,1.0,1.0,0.0,0.0,[73],[78],3.4,1.95,3.1,4.0,2.57,2.12,1.29,3.3,1.95,1.75,3.6,1.25,1.8,1.9,1.28,1.58,1.23
-bBc2ScCN,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,08:35,Shenzhen Xinpengcheng,Dalian Yingbo,1.0,1.0,1.0,1.0,[30],[28],2.6,2.42,3.0,3.14,3.1,2.14,1.26,3.4,1.82,1.82,3.0,1.32,1.66,2.1,1.28,1.4,1.37
-fsqYMyzo,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,08:35,Tianjin Jinmen Tiger,Henan Songshan Longmen,1.0,2.0,0.0,1.0,[60],"[26, 86]",3.01,2.37,3.06,3.76,2.94,1.95,1.37,2.77,2.18,1.59,3.77,1.21,1.84,1.9,1.32,1.51,1.32
-rkXMW40U,ENGLAND,Premier League 2025-2026,ENGLAND 1,2025,RODADA 37,19/05/2026,15:30,Bournemouth,Manchester City,,,,,,,4.33,1.68,4.2,4.25,2.12,2.6,1.07,7.0,1.36,2.88,1.95,1.75,1.48,2.5,1.2,2.05,1.22
-Uu6uknGb,ENGLAND,Premier League 2025-2026,ENGLAND 1,2025,RODADA 37,19/05/2026,16:15,Chelsea,Tottenham,,,,,,,2.0,3.25,3.66,2.5,3.6,2.42,1.22,4.2,1.58,2.39,2.35,1.6,1.5,2.5,1.26,1.27,1.73
-z5SvyhOs,BELGIUM,Pro League 2025-2026,BELGIUM 1,2025,RODADA 39,19/05/2026,15:30,Charleroi,Leuven,,,,,,,1.73,4.33,3.6,2.3,4.75,2.3,1.2,4.0,1.73,2.0,2.88,1.36,1.7,2.05,1.29,1.2,2.05
-AsaR4Tsn,BELGIUM,Pro League 2025-2026,BELGIUM 1,2025,RODADA 39,19/05/2026,15:30,Genk,Antwerp,,,,,,,1.77,4.17,3.57,2.39,4.63,2.29,1.2,4.0,1.75,1.95,2.88,1.36,1.72,1.96,1.24,1.18,1.91
-OOBs6XO7,BELGIUM,Pro League 2025-2026,BELGIUM 1,2025,RODADA 39,19/05/2026,15:30,Westerlo,St. Liege,,,,,,,2.02,3.42,3.74,2.52,3.82,2.24,1.17,4.5,1.7,2.08,2.6,1.44,1.58,2.23,1.29,1.32,1.73
-baL9pA9C,ITALY,Serie B 2025-2026,ITALY 2,2025,SEMIFINAIS,19/05/2026,15:00,Monza,Juve Stabia,,,,,,,1.52,6.0,4.0,2.0,6.0,2.3,1.25,3.6,1.84,1.89,2.9,1.36,1.92,1.81,1.18,1.13,2.2
-re3ORmLE,FRANCE,Ligue 2 2025-2026,FRANCE 2,2025,FINAL,19/05/2026,15:30,Rouen,Laval,,,,,,,3.0,2.3,3.15,3.7,2.95,2.1,1.4,2.95,2.18,1.7,3.9,1.26,1.82,1.88,1.25,1.5,1.36
-nkoJpuSi,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,09:00,Chengdu Rongcheng,Shanghai Port,0.0,1.0,0.0,0.0,[],[70],1.46,5.57,4.45,1.96,5.04,2.62,1.11,5.5,1.4,2.75,2.1,1.65,1.56,2.33,1.17,1.13,2.27
+IRNUPXJO,SWEDEN,Allsvenskan 2026,SWEDEN 1,2026,RODADA 8,19/05/2026,10:00,Orgryte,Göteborg,2.0,3.0,1.0,2.0,"[37, 87]","[21, 28, 90]",2.85,3.4,2.1,3.5,2.3,2.62,1.19,4.2,1.65,2.15,2.5,1.48,1.55,2.28,1.55,1.25,1.32
+fFlRrJd4,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,09:00,Qingdao West Coast,Beijing Guoan,1.0,1.0,0.0,0.0,[73],[78],3.4,3.1,1.95,4.0,2.12,2.57,1.29,3.3,1.95,1.75,3.6,1.25,1.8,1.9,1.58,1.28,1.23
+bBc2ScCN,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,08:35,Shenzhen Xinpengcheng,Dalian Yingbo,1.0,1.0,1.0,1.0,[30],[28],2.6,3.0,2.42,3.14,2.14,3.1,1.26,3.4,1.82,1.82,3.0,1.32,1.66,2.1,1.4,1.28,1.37
+fsqYMyzo,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,08:35,Tianjin Jinmen Tiger,Henan Songshan Longmen,1.0,2.0,0.0,1.0,[60],"[26, 86]",3.01,3.06,2.37,3.76,1.95,2.94,1.37,2.77,2.18,1.59,3.77,1.21,1.84,1.9,1.51,1.32,1.32
+rkXMW40U,ENGLAND,Premier League 2025-2026,ENGLAND 1,2025,RODADA 37,19/05/2026,15:30,Bournemouth,Manchester City,,,,,,,4.33,4.2,1.68,4.25,2.6,2.12,1.07,7.0,1.36,2.88,1.95,1.75,1.48,2.5,2.05,1.2,1.22
+Uu6uknGb,ENGLAND,Premier League 2025-2026,ENGLAND 1,2025,RODADA 37,19/05/2026,16:15,Chelsea,Tottenham,,,,,,,2.0,3.66,3.25,2.5,2.42,3.6,1.22,4.2,1.58,2.39,2.35,1.6,1.5,2.5,1.27,1.26,1.73
+z5SvyhOs,BELGIUM,Pro League 2025-2026,BELGIUM 1,2025,RODADA 39,19/05/2026,15:30,Charleroi,Leuven,,,,,,,1.73,3.6,4.33,2.3,2.3,4.75,1.2,4.0,1.73,2.0,2.88,1.36,1.7,2.05,1.2,1.29,2.05
+AsaR4Tsn,BELGIUM,Pro League 2025-2026,BELGIUM 1,2025,RODADA 39,19/05/2026,15:30,Genk,Antwerp,,,,,,,1.77,3.57,4.17,2.39,2.29,4.63,1.2,4.0,1.75,1.95,2.88,1.36,1.72,1.96,1.18,1.24,1.91
+OOBs6XO7,BELGIUM,Pro League 2025-2026,BELGIUM 1,2025,RODADA 39,19/05/2026,15:30,Westerlo,St. Liege,,,,,,,2.02,3.74,3.42,2.52,2.24,3.82,1.17,4.5,1.7,2.08,2.6,1.44,1.58,2.23,1.32,1.29,1.73
+baL9pA9C,ITALY,Serie B 2025-2026,ITALY 2,2025,SEMIFINAIS,19/05/2026,15:00,Monza,Juve Stabia,,,,,,,1.52,4.0,6.0,2.0,2.3,6.0,1.25,3.6,1.84,1.89,2.9,1.36,1.92,1.81,1.13,1.18,2.2
+re3ORmLE,FRANCE,Ligue 2 2025-2026,FRANCE 2,2025,FINAL,19/05/2026,15:30,Rouen,Laval,,,,,,,3.0,3.15,2.3,3.7,2.1,2.95,1.4,2.95,2.18,1.7,3.9,1.26,1.82,1.88,1.5,1.25,1.36
+nkoJpuSi,CHINA,Super League 2026,CHINA 1,2026,RODADA 13,19/05/2026,09:00,Chengdu Rongcheng,Shanghai Port,0.0,1.0,0.0,0.0,[],[70],1.46,4.45,5.57,1.96,2.62,5.04,1.11,5.5,1.4,2.75,2.1,1.65,1.56,2.33,1.13,1.17,2.27
