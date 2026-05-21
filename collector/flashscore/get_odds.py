@@ -124,12 +124,20 @@ def fetch_odds_for_match(match_id: str, session: requests.Session) -> dict:
     return res
 
 def coletar_odds(pbar=None, max_workers=4):
+    from datetime import datetime
+    today_str = datetime.now().strftime("%Y-%m-%d")
     with get_connection() as conn:
-        # Get matches that don't have odds yet
+        # Get matches that don't have odds, or have empty odds and are in the future/today
         cursor = conn.execute("""
-            SELECT match_id FROM matches 
-            WHERE match_id NOT IN (SELECT match_id FROM odds)
-        """)
+            SELECT m.match_id 
+            FROM matches m
+            LEFT JOIN odds o ON m.match_id = o.match_id
+            WHERE o.match_id IS NULL 
+               OR (o.odd_h_ft IS NULL AND o.odd_d_ft IS NULL AND o.odd_a_ft IS NULL 
+                   AND (
+                       substr(m.date, 7, 4) || '-' || substr(m.date, 4, 2) || '-' || substr(m.date, 1, 2) >= ?
+                   ))
+        """, (today_str,))
         pending_ids = [row[0] for row in cursor.fetchall()]
         
     log.info(f"Total de jogos sem odds: {len(pending_ids)}")

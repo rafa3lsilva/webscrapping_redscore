@@ -3,7 +3,7 @@ import sys
 import sqlite3
 import pandas as pd
 import numpy as np
-from datetime import datetime
+from datetime import datetime, timedelta
 from dotenv import load_dotenv
 from supabase import create_client, Client
 from postgrest.exceptions import APIError
@@ -51,7 +51,7 @@ CREATE TABLE IF NOT EXISTS dados_flashscore_v3 (
 );
 """
 
-def sync_data():
+def sync_data(full=False):
     if not URL or not CHAVE:
         print("❌ Erro: SUPABASE_URL e SUPABASE_KEY não configurados no .env do Scrapper.")
         sys.exit(1)
@@ -103,17 +103,25 @@ def sync_data():
     LEFT JOIN stats s ON m.match_id = s.match_id
     """
     
-    df = pd.read_sql_query(query, conn).copy()
+    if not full:
+        data_corte = (datetime.now() - timedelta(days=7)).strftime("%Y-%m-%d")
+        print(f"⚡ Executando sincronização INCREMENTAL (últimos 7 dias e futuros, data >= {data_corte})...")
+        query += "\n    WHERE substr(m.date, 7, 4) || '-' || substr(m.date, 4, 2) || '-' || substr(m.date, 1, 2) >= ?"
+        df = pd.read_sql_query(query, conn, params=(data_corte,)).copy()
+    else:
+        print("🔄 Executando sincronização COMPLETA de todo o histórico...")
+        df = pd.read_sql_query(query, conn).copy()
+        
     conn.close()
     
     print(f"📖 Carregadas {len(df)} partidas do SQLite.")
     
     # Limpeza e conversões de datas
-    df['Data'] = pd.to_datetime(df['Data'], dayfirst=True, errors='coerce')
-    df = df.dropna(subset=['Data'])
+    data_convertida = pd.to_datetime(df['Data'], dayfirst=True, errors='coerce')
+    df = df.assign(Data=data_convertida).dropna(subset=['Data'])
     
     # Formatar data como string ISO para o Postgres
-    df['Data'] = df['Data'].dt.strftime('%Y-%m-%d %H:%M:%S%z')
+    df = df.assign(Data=df['Data'].dt.strftime('%Y-%m-%d %H:%M:%S%z'))
     
     # Converter NaNs do pandas/numpy para None (virando null no Supabase)
     df = df.replace({np.nan: None})
@@ -155,4 +163,9 @@ def sync_data():
     print("\n✅ SUCESSO! Toda a base SQLite 'flashscore_v3.db' foi sincronizada com o Supabase!")
 
 if __name__ == "__main__":
-    sync_data()
+    import argparse
+    parser = argparse.ArgumentParser(description="Sincroniza o SQLite local com o Supabase.")
+    parser.add_argument("--full", action="store_true", help="Executa a sincronização completa de todos os dados do banco.")
+    args = parser.parse_args()
+    
+    sync_data(full=args.full)

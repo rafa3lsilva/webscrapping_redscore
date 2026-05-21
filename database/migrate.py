@@ -73,8 +73,8 @@ for dia_date in datas_agenda:
                 return mapeamento_codigos.get(div_val)
                 
             # Salva o nome da liga original para referência, mas usa o amigável oficial para o banco
-            df_dia['liga_original'] = df_dia['liga']
-            df_dia['liga'] = df_dia.apply(obter_nome_amigavel, axis=1)
+            df_dia.loc[:, 'liga_original'] = df_dia['liga']
+            df_dia.loc[:, 'liga'] = df_dia.apply(obter_nome_amigavel, axis=1)
             
             # Filtra apenas os jogos de ligas mapeadas e que estão nas permitidas
             df_dia = df_dia[df_dia['liga'].notna()]
@@ -134,6 +134,6 @@ else:
 print("\n🔄 Iniciando sincronização da tabela avançada dados_flashscore_v3 no Supabase...")
 try:
     from database.sync_supabase_v3 import sync_data
-    sync_data()
+    sync_data(full=False)
 except Exception as e:
     print(f"❌ Erro ao rodar sync_supabase_v3: {e}")
