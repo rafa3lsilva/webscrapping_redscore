@@ -274,7 +274,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Nike Liga",
         "div": "Nike Liga",
         "league_code": "SLOVAKIA 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     # =========================================================================
@@ -377,7 +377,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Primera Nacional",
         "div": "Primera Nacional",
         "league_code": "ARGENTINA 2",
-        "temporadas": ["2026","2025","2024"]
+        "temporadas": ["2026"]
     },
 
     "Bolívia - Liga De Futbol Prof": {
@@ -386,7 +386,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Divisão Profissional",
         "div": "Divisão Profissional",
         "league_code": "BOLIVIA 1",
-        "temporadas": ["2026","2025","2024"]
+        "temporadas": ["2026"]
     },
 
     "Coréia do Sul - K League 2": {
@@ -395,7 +395,7 @@ LIGAS_FLASHSCORE = {
         "liga": "K League 2",
         "div": "K League 2",
         "league_code": "SOUTH KOREA 2",
-        "temporadas": ["2026","2025","2024"]
+        "temporadas": ["2026"]
     },
 
     "EUA - USL Championship": {
@@ -404,7 +404,7 @@ LIGAS_FLASHSCORE = {
         "liga": "USL Championship",
         "div": "USL Championship",
         "league_code": "USA 2",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "Egito - Premier League": {
@@ -413,7 +413,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Premier League",
         "div": "Primeira Liga",
         "league_code": "EGYPT 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Escócia - Championship": {
@@ -422,7 +422,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Championship",
         "div": "Championship",
         "league_code": "SCOTLAND 2",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Eslovênia - 1. SNL": {
@@ -431,7 +431,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Prva Liga",
         "div": "Prva Liga",
         "league_code": "SLOVENIA 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Estônia - Meistriliiga": {
@@ -440,7 +440,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Meistriliiga",
         "div": "Meistriliiga",
         "league_code": "ESTONIA 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "Finlândia - Veikkausliiga": {
@@ -449,7 +449,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Veikkausliiga",
         "div": "Veikkausliiga",
         "league_code": "FINLAND 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "Hungria - OTP Bank Liga": {
@@ -458,7 +458,7 @@ LIGAS_FLASHSCORE = {
         "liga": "NB I",
         "div": "NB I",
         "league_code": "HUNGARY 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Israel - Ligat ha'Al": {
@@ -467,7 +467,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Ligat ha'Al",
         "div": "Ligat ha'Al",
         "league_code": "ISRAEL 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Lituânia - A Lyga": {
@@ -476,7 +476,7 @@ LIGAS_FLASHSCORE = {
         "liga": "A Lyga",
         "div": "Toplyga",
         "league_code": "LITHUANIA 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "Malásia - Super League": {
@@ -485,7 +485,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Super League",
         "div": "Super Liga",
         "league_code": "MALAYSIA 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Paraguai - Division 1": {
@@ -494,7 +494,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Division 1",
         "div": "Copa de Primera",
         "league_code": "PARAGUAY 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "País de Gales - Premier League": {
@@ -503,7 +503,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Cymru Premier",
         "div": "Cymru Premier",
         "league_code": "WALES 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Peru - Primera Division": {
@@ -512,7 +512,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Primera Division",
         "div": "Liga 1",
         "league_code": "PERU 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "Uruguai - Primera Division": {
@@ -521,7 +521,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Primera Division",
         "div": "Liga AUF Uruguaia",
         "league_code": "URUGUAY 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "Venezuela - Primera Division": {
@@ -530,7 +530,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Primera Division",
         "div": "Liga FUTVE",
         "league_code": "VENEZUELA 1",
-        "temporadas": ["2026", "2025", "2024"]
+        "temporadas": ["2026"]
     },
 
     "África do Sul - Premier League": {
@@ -539,7 +539,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Premiership",
         "div": "Premiership",
         "league_code": "SOUTH AFRICA 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     
@@ -733,7 +733,7 @@ LIGAS_FLASHSCORE = {
         "liga": "Premier League",
         "div": "Premier League",
         "league_code": "ARMENIA 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Irlanda do Norte - Premiership": {
@@ -742,7 +742,7 @@ LIGAS_FLASHSCORE = {
         "liga": "NIFL Premiership",
         "div": "NIFL Premiership",
         "league_code": "NORTHERN IRELAND 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     },
 
     "Sérvia - Super Liga": {
@@ -751,6 +751,6 @@ LIGAS_FLASHSCORE = {
         "liga": "Super Liga",
         "div": "Super Liga",
         "league_code": "SERBIA 1",
-        "temporadas": ["2025-2026", "2024-2025", "2023-2024"]
+        "temporadas": ["2025-2026"]
     }
 }
