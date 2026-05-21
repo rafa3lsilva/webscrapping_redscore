@@ -40,7 +40,8 @@ def expandir_jogos(driver: webdriver.Chrome):
             time.sleep(2)
         except:
             break
-    log.info(f"Expansão: {clicks} cliques em 'Mostrar mais jogos'")
+    if clicks > 0:
+        log.debug(f"Expansão: {clicks} cliques em 'Mostrar mais jogos'")
 
 def parse_value(v):
     try: return int(v)
@@ -69,7 +70,9 @@ def coletar_matches(pbar=None):
                 url = cfg["url_base"] if is_newest else f"{cfg['url_base']}-{temp}"
                 
                 league_name = cfg["liga"]
-                log.info(f"Coletando Matches: {cfg_name} ({temp})")
+                if pbar:
+                    pbar.set_description(f"🏟️ {cfg_name} ({temp})")
+                log.debug(f"Coletando Matches: {cfg_name} ({temp})")
                 
                 driver.get(f"{url}/resultados/")
                 time.sleep(5)
@@ -108,7 +111,7 @@ def coletar_matches(pbar=None):
                 """)
                 
                 if not jogos_raw: continue
-                log.info(f"Encontrados {len(jogos_raw)} jogos na página.")
+                log.debug(f"Encontrados {len(jogos_raw)} jogos na página.")
                 
                 # Otimização Inteligente: Carregar IDs já finalizados para evitar chamadas de API repetidas
                 existing_ids = set()
@@ -126,7 +129,7 @@ def coletar_matches(pbar=None):
                         )
                     existing_ids = {row[0] for row in cursor.fetchall()}
                 if existing_ids:
-                    log.info(f"Pulando {len(existing_ids)} jogos já consolidados no banco.")
+                    log.debug(f"Pulando {len(existing_ids)} jogos já consolidados no banco.")
 
                 for j in tqdm(jogos_raw, desc=f"{cfg_name} {temp}"):
                     match_id = j['Match_ID']
@@ -235,7 +238,6 @@ def coletar_matches(pbar=None):
                 
                 if pbar:
                     pbar.update(1)
-                    pbar.set_description(f"Matches: {cfg_name} ({temp})")
                     
     finally:
         driver.quit()

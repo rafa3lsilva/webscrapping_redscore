@@ -18,8 +18,26 @@ from collector.flashscore.get_stats import coletar_stats
 from database.db_manager import export_joined_csv, get_connection, save_dict
 from config.leagues import LIGAS_FLASHSCORE
 
-# Configura o logger
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
+# Configura o logger integrado com tqdm para evitar quebra de linhas nas barras de progresso
+class TqdmLoggingHandler(logging.Handler):
+    def emit(self, record):
+        try:
+            msg = self.format(record)
+            tqdm.write(msg)
+            self.flush()
+        except Exception:
+            self.handleError(record)
+
+# Remove handlers pré-existentes configurados durante as importações dos coletores
+root_logger = logging.getLogger()
+for handler in list(root_logger.handlers):
+    root_logger.removeHandler(handler)
+
+log_format = "%(asctime)s - %(levelname)s - %(message)s"
+tqdm_handler = TqdmLoggingHandler()
+tqdm_handler.setFormatter(logging.Formatter(log_format))
+root_logger.addHandler(tqdm_handler)
+root_logger.setLevel(logging.INFO)
 log = logging.getLogger(__name__)
 
 def formata_tempo(segundos):

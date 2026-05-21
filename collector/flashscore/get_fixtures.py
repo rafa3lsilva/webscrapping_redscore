@@ -47,7 +47,10 @@ def coletar_fixtures(dias_futuros=7, target_dates=None, pbar=None):
             temp = cfg["temporadas"][0]
             url = f"{cfg['url_base']}/calendario/"
             
-            log.info(f"📅 Acessando Calendário: {cfg_name} ({temp})")
+            if pbar:
+                pbar.set_description(f"📅 {cfg_name}")
+            
+            log.debug(f"📅 Acessando Calendário: {cfg_name} ({temp})")
             driver.get(url)
             time.sleep(4)
             
@@ -81,11 +84,11 @@ def coletar_fixtures(dias_futuros=7, target_dates=None, pbar=None):
             """)
             
             if not jogos_raw:
-                log.info(f"Nenhum jogo agendado encontrado para {cfg_name}.")
+                log.debug(f"Nenhum jogo agendado encontrado para {cfg_name}.")
                 if pbar: pbar.update(1)
                 continue
                 
-            log.info(f"Encontrados {len(jogos_raw)} jogos agendados no calendário.")
+            log.debug(f"Encontrados {len(jogos_raw)} jogos agendados no calendário.")
             
             jogos_adicionados_liga = 0
             for j in jogos_raw:
@@ -159,11 +162,11 @@ def coletar_fixtures(dias_futuros=7, target_dates=None, pbar=None):
                 jogos_adicionados_liga += 1
                 total_adicionados += 1
                 
-            log.info(f"✅ {jogos_adicionados_liga} novos jogos agendados importados para {cfg_name}.")
+            if jogos_adicionados_liga > 0:
+                log.info(f"✅ {jogos_adicionados_liga} novos jogos agendados importados para {cfg_name}.")
             
             if pbar:
                 pbar.update(1)
-                pbar.set_description(f"Calendário: {cfg_name}")
                 
     finally:
         driver.quit()
