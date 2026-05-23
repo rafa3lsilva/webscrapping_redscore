@@ -221,7 +221,7 @@ def coletar_matches(pbar=None):
                         "country": cfg.get("pais", ""),
                         "league_full_name": f"{cfg.get('div', '')} {temp}",
                         "league_code": cfg.get("league_code", ""),
-                        "season": int(temp.split("-")[0]) if "-" in temp else int(temp),
+                        "season": temp,
                         "round": j['Round'],
                         "date": dt_str,
                         "time": hr,

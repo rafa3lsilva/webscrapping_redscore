@@ -40,7 +40,7 @@ def init_db():
             country TEXT,
             league_full_name TEXT,
             league_code TEXT,
-            season INTEGER,
+            season TEXT,
             round TEXT,
             date TEXT,
             time TEXT,

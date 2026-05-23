@@ -139,7 +139,7 @@ def coletar_fixtures(dias_futuros=7, target_dates=None, pbar=None):
                     "country": cfg.get("pais", ""),
                     "league_full_name": f"{cfg.get('div', '')} {temp}",
                     "league_code": cfg.get("league_code", ""),
-                    "season": int(temp.split("-")[0]) if "-" in temp else int(temp),
+                    "season": temp,
                     "round": j['Round'],
                     "date": dt_str,
                     "time": hr,
