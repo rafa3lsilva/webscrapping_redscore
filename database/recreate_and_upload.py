@@ -130,6 +130,9 @@ for csv_path in sorted(csv_files):
                 "hora": hora,
                 "home": row.get("home"),
                 "away": row.get("away"),
+                "Odd_H": to_float(row.get("odd_h_ft")),
+                "Odd_D": to_float(row.get("odd_d_ft")),
+                "Odd_A": to_float(row.get("odd_a_ft")),
                 "link_confronto": f"https://www.flashscore.com.br/jogo/{row.get('id_jogo')}/" if row.get('id_jogo') else None,
                 
                 # Todas as outras colunas contidas no CSV
@@ -137,9 +140,6 @@ for csv_path in sorted(csv_files):
                 "div": row.get("div"),
                 "temporada": str(row.get("temporada")) if row.get("temporada") is not None else None,
                 "rodada": row.get("rodada"),
-                "odd_h_ft": to_float(row.get("odd_h_ft")),
-                "odd_d_ft": to_float(row.get("odd_d_ft")),
-                "odd_a_ft": to_float(row.get("odd_a_ft")),
                 "odd_h_ht": to_float(row.get("odd_h_ht")),
                 "odd_d_ht": to_float(row.get("odd_d_ht")),
                 "odd_a_ht": to_float(row.get("odd_a_ht")),

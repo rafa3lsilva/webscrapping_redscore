@@ -122,6 +122,9 @@ for dia_date in datas_agenda:
                     "hora": hora,
                     "home": row.get("home"),
                     "away": row.get("away"),
+                    "Odd_H": to_float(row.get("odd_h_ft")),
+                    "Odd_D": to_float(row.get("odd_d_ft")),
+                    "Odd_A": to_float(row.get("odd_a_ft")),
                     "link_confronto": f"https://www.flashscore.com.br/jogo/{row.get('id_jogo')}/" if row.get('id_jogo') else None,
                     
                     # Novas colunas adicionadas da tabela jogos_do_dia do Supabase
@@ -129,9 +132,6 @@ for dia_date in datas_agenda:
                     "div": row.get("div"),
                     "temporada": row.get("temporada"),
                     "rodada": row.get("rodada"),
-                    "odd_h_ft": to_float(row.get("odd_h_ft")),
-                    "odd_d_ft": to_float(row.get("odd_d_ft")),
-                    "odd_a_ft": to_float(row.get("odd_a_ft")),
                     "odd_h_ht": to_float(row.get("odd_h_ht")),
                     "odd_d_ht": to_float(row.get("odd_d_ht")),
                     "odd_a_ht": to_float(row.get("odd_a_ht")),
