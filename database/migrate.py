@@ -29,6 +29,22 @@ def normalizar_simples(texto):
     return "".join(c for c in unicodedata.normalize('NFKD', texto) 
                   if not unicodedata.combining(c)).lower().strip()
 
+def to_int(val):
+    if val is None or pd.isna(val):
+        return None
+    try:
+        return int(float(str(val)))
+    except Exception:
+        return None
+
+def to_float(val):
+    if val is None or pd.isna(val):
+        return None
+    try:
+        return float(str(val))
+    except Exception:
+        return None
+
 # Obter datas (Hoje e Amanhã)
 datas_agenda = [date.today(), date.today() + timedelta(days=1)]
 dados_dia_enviar = []
@@ -106,10 +122,30 @@ for dia_date in datas_agenda:
                     "hora": hora,
                     "home": row.get("home"),
                     "away": row.get("away"),
-                    "Odd_H": row.get("odd_h_ft"),
-                    "Odd_D": row.get("odd_d_ft"),
-                    "Odd_A": row.get("odd_a_ft"),
-                    "link_confronto": f"https://www.flashscore.com.br/jogo/{row.get('id_jogo')}/" if row.get('id_jogo') else None
+                    "link_confronto": f"https://www.flashscore.com.br/jogo/{row.get('id_jogo')}/" if row.get('id_jogo') else None,
+                    
+                    # Novas colunas adicionadas da tabela jogos_do_dia do Supabase
+                    "pais": row.get("pais"),
+                    "div": row.get("div"),
+                    "temporada": row.get("temporada"),
+                    "rodada": row.get("rodada"),
+                    "odd_h_ft": to_float(row.get("odd_h_ft")),
+                    "odd_d_ft": to_float(row.get("odd_d_ft")),
+                    "odd_a_ft": to_float(row.get("odd_a_ft")),
+                    "odd_h_ht": to_float(row.get("odd_h_ht")),
+                    "odd_d_ht": to_float(row.get("odd_d_ht")),
+                    "odd_a_ht": to_float(row.get("odd_a_ht")),
+                    "over_1.5_ft": to_float(row.get("over_1.5_ft")),
+                    "under_1.5_ft": to_float(row.get("under_1.5_ft")),
+                    "over_2.5_ft": to_float(row.get("over_2.5_ft")),
+                    "under_2.5_ft": to_float(row.get("under_2.5_ft")),
+                    "over_3.5_ft": to_float(row.get("over_3.5_ft")),
+                    "under_3.5_ft": to_float(row.get("under_3.5_ft")),
+                    "btts_yes": to_float(row.get("btts_yes")),
+                    "btts_no": to_float(row.get("btts_no")),
+                    "dc_1x": to_float(row.get("dc_1x")),
+                    "dc_12": to_float(row.get("dc_12")),
+                    "dc_x2": to_float(row.get("dc_x2"))
                 })
                 
         except Exception as e:
