@@ -145,7 +145,15 @@ for dia_date in datas_agenda:
                     "btts_no": to_float(row.get("btts_no")),
                     "dc_1x": to_float(row.get("dc_1x")),
                     "dc_12": to_float(row.get("dc_12")),
-                    "dc_x2": to_float(row.get("dc_x2"))
+                    "dc_x2": to_float(row.get("dc_x2")),
+                    
+                    # Colunas de placares e minutos dos gols para atualização de resultados
+                    "h_gols_ft": to_int(row.get("h_gols_ft")),
+                    "a_gols_ft": to_int(row.get("a_gols_ft")),
+                    "h_gols_ht": to_int(row.get("h_gols_ht")),
+                    "a_gols_ht": to_int(row.get("a_gols_ht")),
+                    "h_min_gols": row.get("h_min_gols"),
+                    "a_min_gols": row.get("a_min_gols")
                 })
                 
         except Exception as e:

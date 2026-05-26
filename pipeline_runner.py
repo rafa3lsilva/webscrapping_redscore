@@ -250,6 +250,52 @@ def run_pipeline(mode="results"):
     tomorrow = (now_dt + timedelta(days=1)).strftime("%d/%m/%Y")
 
     # -------------------------------------------------------------------------
+    # ⚡ MODO FAST-UPDATE (ATUALIZA APENAS PLACARES E STATS DE ONTEM E HOJE - SEM CHROME)
+    # -------------------------------------------------------------------------
+    if mode == "fast-update":
+        log.info("=" * 60)
+        log.info("⚡ FAST UPDATE - ATUALIZAÇÃO ULTRA-LEVE DE PLACARES E SCOUTS")
+        log.info("=" * 60)
+        log.info(f" -> Data Ontem: {yesterday}")
+        log.info(f" -> Data Hoje:  {today}")
+        log.info("=" * 60)
+        
+        # 1. Atualizar placares de ontem e hoje
+        log.info("--- [ETAPA 1/3] Atualizando Placares Ontem/Hoje ---")
+        atualizar_jogos_concluidos(target_dates=[yesterday, today])
+        
+        # 2. Coletar stats (xG, etc.) para os jogos atualizados que não têm stats ainda
+        with get_connection() as conn:
+            cursor = conn.execute("""
+                SELECT COUNT(*) FROM matches 
+                WHERE home_score IS NOT NULL 
+                  AND date IN (?, ?)
+                  AND match_id NOT IN (SELECT match_id FROM stats WHERE stats_collected = 1 OR stats_collected = -1)
+            """, (yesterday, today))
+            pending_stats = cursor.fetchone()[0]
+            
+        if pending_stats > 0:
+            log.info(f"--- [ETAPA 2/3] Coleta de Scouts/xG pós-jogo ({pending_stats} pendentes) ---")
+            pbar_stats = tqdm(total=pending_stats, desc="Coletando Stats", unit="jogo")
+            try:
+                coletar_stats(pbar=pbar_stats)
+            except Exception as e:
+                log.error(f"Erro ao coletar estatísticas pós-jogo: {e}")
+            pbar_stats.close()
+        else:
+            log.info("Nenhum scout/xG pendente para coletar.")
+            
+        # 3. Exportações de finalização
+        log.info("--- [ETAPA 3/3] Exportando CSVs ---")
+        export_joined_csv()
+        exportar_jogos_do_dia([today, tomorrow])
+        
+        log.info("=" * 60)
+        log.info("⚡ Fast Update Concluído com Sucesso!")
+        log.info("=" * 60)
+        return
+
+    # -------------------------------------------------------------------------
     # ⚡ MODO DAILY (COLETA AMANHÃ, ATUALIZA ONTEM)
     # -------------------------------------------------------------------------
     if mode == "daily":
@@ -497,8 +543,8 @@ def run_pipeline(mode="results"):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="REDSCORE Pipeline Runner V3")
-    parser.add_argument("--mode", type=str, choices=["results", "fixtures", "daily"], default="results",
-                        help="results (default: historical outcomes), fixtures (all upcoming scheduled matches), or daily (collect tomorrow, update yesterday)")
+    parser.add_argument("--mode", type=str, choices=["results", "fixtures", "daily", "fast-update"], default="results",
+                        help="results (default: historical outcomes), fixtures (all upcoming scheduled matches), daily (collect tomorrow, update yesterday), or fast-update (lightweight score & stats update without Selenium)")
     args = parser.parse_args()
     
     run_pipeline(mode=args.mode)

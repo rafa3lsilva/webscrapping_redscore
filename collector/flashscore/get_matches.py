@@ -56,8 +56,22 @@ def coletar_matches(pbar=None):
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36")
-    driver = webdriver.Chrome(options=options)
+    from selenium.webdriver.chrome.service import Service
+    from webdriver_manager.chrome import ChromeDriverManager
+    import os
+
+    try:
+        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+    except Exception as e:
+        log.warning(f"Erro ao inicializar com ChromeDriverManager: {e}. Tentando fallback padrão...")
+        try:
+            driver = webdriver.Chrome(options=options)
+        except Exception as e2:
+            log.warning(f"Erro no fallback padrão: {e2}. Tentando usar /usr/bin/chromedriver explicitamente...")
+            if os.path.exists("/usr/bin/chromedriver"):
+                driver = webdriver.Chrome(service=Service(executable_path="/usr/bin/chromedriver"), options=options)
+            else:
+                raise e2
     session = requests.Session()
     
     try:
