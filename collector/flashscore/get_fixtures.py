@@ -27,28 +27,8 @@ def coletar_fixtures(dias_futuros=7, target_dates=None, pbar=None):
     """
     init_db()
     
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    from selenium.webdriver.chrome.service import Service
-    from webdriver_manager.chrome import ChromeDriverManager
-    import os
-
-    try:
-        driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
-    except Exception as e:
-        log.warning(f"Erro ao inicializar com ChromeDriverManager: {e}. Tentando fallback padrão...")
-        try:
-            driver = webdriver.Chrome(options=options)
-        except Exception as e2:
-            log.warning(f"Erro no fallback padrão: {e2}. Tentando usar /usr/bin/chromedriver explicitamente...")
-            if os.path.exists("/usr/bin/chromedriver"):
-                driver = webdriver.Chrome(service=Service(executable_path="/usr/bin/chromedriver"), options=options)
-            else:
-                raise e2
+    from config.webdriver_config import obter_webdriver_chrome
+    driver = obter_webdriver_chrome()
     
     total_adicionados = 0
     
